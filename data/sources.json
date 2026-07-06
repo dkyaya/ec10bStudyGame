@@ -1,0 +1,65 @@
+[
+  {
+    "id": "class1",
+    "filename": "HarvardS10b_Class1.pptx",
+    "title": "Class 1: Introduction and Basics of Economic Analysis",
+    "type": "lecture-slides",
+    "coverageSummary": "Cost-benefit principle, economic surplus, opportunity cost, marginal analysis, comparative advantage and absolute advantage, production possibilities curves, gains from specialization and trade, supply and demand curves, market equilibrium, causes of shifts in supply and demand, market surplus, linear supply/demand equations, and causes of market failure.",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "All slide text and speaker notes extracted cleanly via python-pptx; no unreadable sections. Some slides are diagram-only (axis-labeled supply/demand graphs without numeric data) and were not used as a basis for any question."
+  },
+  {
+    "id": "class2",
+    "filename": "HarvardS10b_Class2.pptx",
+    "title": "Class 2: Measuring the Macroeconomy",
+    "type": "lecture-slides",
+    "coverageSummary": "GDP measurement (market value, final vs. intermediate goods, value added, expenditure/income approaches), difficulties measuring GDP, real vs. nominal GDP, CPI construction and example, price indices, inflation rate calculation, real vs. nominal interest rates, the Fisher effect, indexing, and CPI substitution/quality-adjustment bias.",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "All slide text and speaker notes extracted cleanly. Several slides referencing external charts (e.g., FRED/BLS series, hyperinflation rankings) contain no extractable numeric data and were not used as a basis for any question."
+  },
+  {
+    "id": "class3",
+    "filename": "HarvardS10b_Class3.pptx",
+    "title": "Class 3: Labor Markets, Productivity, and Inequality",
+    "type": "lecture-slides",
+    "coverageSummary": "Labor demand and value of marginal product, diminishing returns to labor, labor supply and reservation wage, shifts in labor demand/supply, the productivity-wage slowdown since 1970 and divergence in the 1990s, globalization and wage inequality, skill-biased technological change, the economics of superstars, policy responses to inequality, and the GDP-per-capita decomposition (Y/POP = (Y/N) x (N/POP)).",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "All slide text and speaker notes (including the detailed textiles/software trade note) extracted cleanly. Chart-only slides with no data table (e.g., labor force participation chart, Piketty inequality chart) were not used as a basis for any question."
+  },
+  {
+    "id": "class4",
+    "filename": "HarvardS10b_Class4.pptx",
+    "title": "Class 4: Economic Growth",
+    "type": "lecture-slides",
+    "coverageSummary": "Compound growth formula, the Rule of 72, historical living standards and cross-country growth divergence, the eight determinants of average labor productivity, diminishing returns to capital, technology and knowledge spillovers, institutions (property rights, constraints on elites, equal opportunity), the USSR case study, government growth policies (savings/investment, human capital, R&D), poverty traps, and the costs/limits of growth.",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "All slide text and speaker notes extracted cleanly via python-pptx. Photo-only slides (e.g., the Bonsack machine image, China air-quality photos) contain no extractable data and were not used as a basis for any question."
+  },
+  {
+    "id": "ds1",
+    "filename": "DS1_solutions.pdf",
+    "title": "Discussion Session 1 Solutions",
+    "type": "discussion-solutions",
+    "coverageSummary": "Worked solutions covering PPCs and gains from trade (Canada/USA honey and maple syrup), GDP calculation via expenditure/value-added/income methods (Microsoft chip example), CPI/inflation/deflating/indexing (grad student budget example), market equilibrium algebra, demand shifters (olive oil, butter/white bread, rye/white bread), and marginal analysis (lemonade stand).",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "Extracted with pdftotext -layout; text is clean and complete. Questions in this bank use new numbers/scenarios analogous to these worked examples rather than reusing the exact figures, per the conservative-generation and no-verbatim-answer-key rules."
+  },
+  {
+    "id": "ds2",
+    "filename": "DS2_solutions.pdf",
+    "title": "Discussion Session 2 Solutions",
+    "type": "discussion-solutions",
+    "coverageSummary": "Worked solutions covering labor demand and value of marginal product, shifts in labor demand/supply (opticians and laser eye surgery; pilots and mandatory retirement age), average labor productivity and the GDP-per-capita decomposition, and cross-country growth-rate catch-up calculations (Richland/Poorland).",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "Extracted with pdftotext -layout. A few characters in the source PDF's ligatures (e.g., 'ti' in words like 'raonal' or 'producvity') rendered as stray 'ti'/'ft' fragments during extraction; these are OCR/font-encoding artifacts in the original PDF, not ambiguity in the underlying economics content, and did not affect any figures used. Questions use new numbers analogous to these worked examples rather than the exact source figures."
+  },
+  {
+    "id": "ps1_solutions",
+    "filename": "Problem Set1_Solutions.pdf",
+    "title": "Problem Set 1 Suggested Solutions",
+    "type": "problem-set-solutions",
+    "coverageSummary": "Worked solutions covering marginal analysis (compost/tomatoes, phone calling plans), PPCs and comparative/absolute advantage (Helen's dresses/bread; Tom and Susan's coffee/nuts), demand shifters and supply-and-demand shifts (vacations, pepperoni pizza, MP3s/CDs, tofu), GDP components and edge cases (inventory changes, existing-asset sales, transfer payments, multi-year international goods), CPI/inflation calculation, and real interest rates/the Fisher effect.",
+    "dateAdded": "2026-07-06",
+    "reliabilityNotes": "Extracted with pdftotext -layout; text and tables are clean and complete. Questions in this bank use new numbers/scenarios analogous to these worked examples rather than reusing the exact figures, per the conservative-generation and no-verbatim-answer-key rules."
+  }
+]

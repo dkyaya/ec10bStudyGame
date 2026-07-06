@@ -3,36 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Econ 10b Study Game</title>
+  <title>Econ 10b · Macro Practice</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#A51C30">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Econ 10b">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="./styles/main.css" />
 </head>
 <body>
-  <div class="app">
-    <header>
-      <h1>Econ 10b Study Game</h1>
-      <p>Quiz yourself on macroeconomics concepts</p>
-    </header>
+  <div id="app">
 
-    <div id="quiz" class="card">
-      <div class="progress">
-        <span id="progress">Question 1 of 1</span>
-        <span id="score">Score: 0</span>
-      </div>
-      <div id="question" class="question"></div>
-      <div id="choices" class="choices"></div>
-      <div id="explanation" class="explanation" hidden></div>
-      <div class="actions">
-        <button id="next" class="primary" disabled>Next</button>
-      </div>
-    </div>
+    <section id="home-screen" class="screen">
+      <header class="hero">
+        <div class="app-title-row">
+          <img src="./assets/icons/ec10b-logo.png" alt="" class="app-logo" width="52" height="52" />
+          <div>
+            <h1>Econ 10b · Macro Practice</h1>
+            <p class="app-subtitle">
+              Practice multiple-choice questions organized by topic, generated from the course's
+              lecture slides, discussion sections, and problem sets.
+            </p>
+          </div>
+        </div>
 
-    <div id="results" class="card results" hidden>
-      <h2>Quiz complete!</h2>
-      <p class="score" id="finalScore">0 / 0</p>
-      <button id="restart" class="primary">Play again</button>
-    </div>
+        <div id="home-summary" class="stat-grid"></div>
+
+        <div id="weakest-banner" class="weakest-banner" hidden></div>
+
+        <button id="continueBtn" class="btn btn-primary btn-continue"></button>
+      </header>
+
+      <div class="section-block">
+        <h2 class="section-title">Study Modes</h2>
+        <div id="study-modes" class="mode-grid"></div>
+      </div>
+
+      <div class="section-block" id="focus-next-block" hidden>
+        <h2 class="section-title">Focus Next</h2>
+        <p class="section-subtitle">Your lowest-accuracy topics with enough attempts to judge.</p>
+        <div id="focus-next" class="focus-grid"></div>
+      </div>
+
+      <div class="section-block">
+        <h2 class="section-title">Choose a Topic</h2>
+        <p class="section-subtitle">Every topic in the bank, with your progress and mastery so far.</p>
+        <div id="topic-cards" class="topic-grid"></div>
+      </div>
+
+      <footer class="app-footer">
+        <button id="resetProgressBtn" class="btn btn-danger-outline">Reset Progress</button>
+      </footer>
+    </section>
+
+    <section id="quiz-screen" class="screen" hidden>
+      <div class="quiz-header">
+        <div class="quiz-progress-track">
+          <div id="quiz-progress-fill" class="quiz-progress-fill"></div>
+        </div>
+        <div id="quiz-meta" class="quiz-meta"></div>
+      </div>
+
+      <div class="quiz-body">
+        <div class="quiz-card">
+          <h2 id="quiz-question" class="quiz-question"></h2>
+          <div id="quiz-choices" class="choices"></div>
+        </div>
+        <div id="quiz-feedback" class="feedback" hidden></div>
+      </div>
+
+      <div class="quiz-nav">
+        <button id="prevBtn" class="btn btn-secondary">Previous</button>
+        <button id="quizHomeBtn" class="btn btn-text">Home</button>
+        <button id="nextBtn" class="btn btn-primary">Next</button>
+        <button id="finishBtn" class="btn btn-primary" hidden>Finish</button>
+      </div>
+    </section>
+
+    <section id="results-screen" class="screen" hidden>
+      <h2 class="section-title">Results</h2>
+      <div id="results-content"></div>
+    </section>
+
   </div>
 
+  <script src="./src/utils.js"></script>
+  <script src="./src/storage.js"></script>
+  <script src="./src/scoring.js"></script>
+  <script src="./src/data.js"></script>
+  <script src="./src/render.js"></script>
   <script src="./src/app.js"></script>
 </body>
 </html>

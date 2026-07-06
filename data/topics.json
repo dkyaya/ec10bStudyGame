@@ -1,0 +1,57 @@
+[
+  {
+    "id": "econ-analysis-basics",
+    "name": "Economic Analysis Basics",
+    "description": "Cost-benefit reasoning, economic surplus, opportunity cost, and marginal vs. average analysis."
+  },
+  {
+    "id": "comparative-advantage-trade",
+    "name": "Comparative Advantage, PPCs, and Trade",
+    "description": "Absolute and comparative advantage, production possibilities curves, and gains from specialization and trade."
+  },
+  {
+    "id": "supply-demand-equilibrium",
+    "name": "Supply, Demand, and Market Equilibrium",
+    "description": "Demand and supply curves, market equilibrium, causes of shifts, and market surplus."
+  },
+  {
+    "id": "gdp-accounting",
+    "name": "GDP Accounting",
+    "description": "The expenditure, income, and value-added approaches to measuring GDP, and common accounting traps."
+  },
+  {
+    "id": "gdp-cpi-inflation",
+    "name": "Nominal GDP, Real GDP, CPI, and Inflation",
+    "description": "Real vs. nominal GDP, the CPI, inflation, real interest rates, indexing, and CPI measurement bias."
+  },
+  {
+    "id": "labor-markets",
+    "name": "Labor Markets",
+    "description": "Labor demand, the value of marginal product, labor supply, reservation wages, and shifts in labor markets."
+  },
+  {
+    "id": "productivity-real-wages",
+    "name": "Productivity and Real Wages",
+    "description": "The link between productivity and wage growth, the post-1970 slowdown, and the GDP-per-capita decomposition."
+  },
+  {
+    "id": "inequality-globalization-sbtc",
+    "name": "Inequality, Globalization, and Skill-Biased Technological Change",
+    "description": "How globalization and skill-biased technological change affect wage inequality, and policy responses."
+  },
+  {
+    "id": "economic-growth",
+    "name": "Economic Growth",
+    "description": "The story of modern economic growth, cross-country divergence, poverty traps, and the limits of growth."
+  },
+  {
+    "id": "growth-accounting-compound-growth",
+    "name": "Growth Accounting, Compound Growth, and Rule of 72",
+    "description": "Compound growth formulas, the Rule of 72, and growth-rate accounting calculations."
+  },
+  {
+    "id": "sources-of-growth",
+    "name": "Sources of Growth: Capital, Technology, Human Capital, Institutions",
+    "description": "The determinants of average labor productivity, including capital, technology, human capital, and institutions."
+  }
+]
