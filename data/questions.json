@@ -1,0 +1,90 @@
+[
+  {
+    "question": "In the Solow growth model, an increase in the savings rate causes the steady-state level of capital per worker to:",
+    "choices": [
+      "Increase",
+      "Decrease",
+      "Stay the same",
+      "Fall to zero"
+    ],
+    "answer": 0,
+    "explanation": "A higher savings rate raises investment at every level of capital per worker, shifting the steady state to a higher capital-per-worker level."
+  },
+  {
+    "question": "Which of the following best describes the 'paradox of thrift'?",
+    "choices": [
+      "Individual saving always increases aggregate output",
+      "An increase in saving by all households can reduce aggregate demand and output",
+      "Saving has no effect on aggregate demand",
+      "Saving only affects the government budget, not GDP"
+    ],
+    "answer": 1,
+    "explanation": "If everyone tries to save more simultaneously, aggregate demand can fall, reducing income and potentially even aggregate saving."
+  },
+  {
+    "question": "According to the quantity theory of money, if the money supply grows faster than real output, in the long run this leads to:",
+    "choices": [
+      "Higher inflation",
+      "Lower inflation",
+      "Higher real GDP growth",
+      "No change in prices"
+    ],
+    "answer": 0,
+    "explanation": "MV = PY implies that with velocity roughly constant, money growth in excess of real output growth shows up as inflation."
+  },
+  {
+    "question": "In the short-run Phillips curve framework, a decrease in unemployment below the natural rate is typically associated with:",
+    "choices": [
+      "Lower inflation",
+      "Higher inflation",
+      "No change in inflation",
+      "Deflation only"
+    ],
+    "answer": 1,
+    "explanation": "The short-run Phillips curve shows an inverse relationship between unemployment and inflation."
+  },
+  {
+    "question": "An expansionary fiscal policy (increased government spending) in the IS-LM model shifts:",
+    "choices": [
+      "The LM curve right",
+      "The IS curve right",
+      "The IS curve left",
+      "Both curves left"
+    ],
+    "answer": 1,
+    "explanation": "Higher government spending increases planned expenditure at every interest rate, shifting IS to the right."
+  },
+  {
+    "question": "Which policy tool would a central bank most directly use to implement contractionary monetary policy?",
+    "choices": [
+      "Cutting taxes",
+      "Increasing government spending",
+      "Selling government bonds (open market sale)",
+      "Raising the minimum wage"
+    ],
+    "answer": 2,
+    "explanation": "Selling bonds withdraws reserves from the banking system, raising interest rates and tightening monetary policy."
+  },
+  {
+    "question": "Okun's Law relates:",
+    "choices": [
+      "Inflation and interest rates",
+      "Unemployment and output gaps",
+      "Exchange rates and trade balances",
+      "Government debt and GDP growth"
+    ],
+    "answer": 1,
+    "explanation": "Okun's Law describes the empirical relationship between changes in unemployment and changes in real GDP relative to potential."
+  },
+  {
+    "question": "In an open economy, a real appreciation of the domestic currency tends to:",
+    "choices": [
+      "Increase net exports",
+      "Decrease net exports",
+      "Have no effect on net exports",
+      "Only affect the capital account"
+    ],
+    "answer": 1,
+    "explanation": "Appreciation makes domestic goods relatively more expensive abroad, reducing exports and increasing imports, lowering net exports."
+  }
+]

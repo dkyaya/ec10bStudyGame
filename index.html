@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Econ 10b Study Game</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Econ 10b Study Game</h1>
+      <p>Quiz yourself on macroeconomics concepts</p>
+    </header>
+
+    <div id="quiz" class="card">
+      <div class="progress">
+        <span id="progress">Question 1 of 1</span>
+        <span id="score">Score: 0</span>
+      </div>
+      <div id="question" class="question"></div>
+      <div id="choices" class="choices"></div>
+      <div id="explanation" class="explanation" hidden></div>
+      <div class="actions">
+        <button id="next" class="primary" disabled>Next</button>
+      </div>
+    </div>
+
+    <div id="results" class="card results" hidden>
+      <h2>Quiz complete!</h2>
+      <p class="score" id="finalScore">0 / 0</p>
+      <button id="restart" class="primary">Play again</button>
+    </div>
+  </div>
+
+  <script src="./src/app.js"></script>
+</body>
+</html>
