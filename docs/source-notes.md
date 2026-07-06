@@ -4,6 +4,39 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## Local-only source materials
+
+The original course materials (lecture slides, discussion-section solutions, problem-set
+solutions) are stored locally in the project's `private-materials/` folder and are
+**intentionally excluded from git** because they may contain copyrighted course content.
+The public repository keeps only the derived question data (`data/questions.json`),
+structured source metadata (`data/sources.json`), and public documentation
+(`docs/source-notes.md` and `docs/question-authoring-guide.md`).
+
+### Current local materials
+
+The first question bank (102 questions) was generated from:
+- `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx` — lecture slides
+- `DS1_solutions.pdf`, `DS2_solutions.pdf` — discussion-section worked solutions
+- `Problem Set1_Solutions.pdf` — problem-set worked solutions
+
+These files remain available locally so that future question-bank updates can read them
+directly using Claude Code prompts.
+
+### Workflow for future updates
+
+When adding new materials or generating more questions:
+
+1. **Place new materials locally** in `private-materials/` (slides, solution PDFs, etc.)
+2. **Use a Claude Code prompt** to read the new materials and generate new questions
+3. **Write new questions** to `data/questions.json`, following the schema in `docs/question-authoring-guide.md`
+4. **Update `data/sources.json`** with metadata about the new sources
+5. **Update `docs/source-notes.md`** with extraction notes and reliability commentary
+6. **Commit the JSON and documentation files** — do **not** commit the raw course materials
+7. **Push to GitHub** — the app and derived data are public; the local materials stay private
+
+Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore` file protects `private-materials/` automatically.
+
 ## Materials used
 
 | Source ID | File | What it covers |

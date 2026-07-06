@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-07-06 13:44 — Local Source Materials Workflow
+
+### Added
+- Added `.gitignore` to protect the local `private-materials/` folder from accidental git
+  commits. The rule ensures raw course materials (`.pptx`, `.pdf` files) remain local-only.
+- Added `private-materials/README.local.md` to document the local-only source workflow:
+  explains why materials are excluded, how to use them for future updates, and best
+  practices for keeping the public repo clean.
+
+### Changed
+- Updated `docs/source-notes.md` with a new "Local-only source materials" section that
+  explains the workflow, lists the current materials used for the first question bank,
+  and documents the process for future updates (read local materials, generate new
+  questions, commit derived data only, never commit raw course files).
+- Updated `README.md` with a "Local course materials" section explaining that the
+  `private-materials/` folder is excluded from git, that it's only used for question-bank
+  generation, and that the app/GitHub Pages do not require it to run.
+
+### Notes
+- The `private-materials/` folder existed locally with the 7 source files but was not
+  yet protected by git. Adding `.gitignore` ensures it will never be tracked.
+- Public documentation now clearly separates the local-only source workflow from the
+  public, committed question data and metadata.
+
 ## 2026-07-06 11:33 — Study Dashboard and UI Polish
 
 ### Added

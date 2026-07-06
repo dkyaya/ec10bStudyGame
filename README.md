@@ -66,6 +66,30 @@ Open the project folder in VS Code, then either:
 Opening `index.html` directly via `file://` also works, since all data is fetched with
 relative paths and there's no backend to run.
 
+## Local course materials
+
+The original course materials (lecture slides, discussion-section solutions, problem-set
+solutions) used to generate the question bank are stored locally in the `private-materials/`
+folder on your machine. **This folder is intentionally excluded from git** and should
+never be pushed to GitHub, since the materials may contain copyrighted course content.
+
+**The app does not require these files to run** — they are only used when generating or
+updating questions. GitHub Pages serves only the app, the derived question JSON, and
+documentation.
+
+### Updating the question bank
+
+To add new questions from fresh course materials:
+
+1. Place the new slides, solution PDFs, or problem-set materials into `private-materials/`
+2. Use a Claude Code prompt to read the new materials and generate questions
+3. Write new questions to `data/questions.json`
+4. Update `data/sources.json` and `docs/source-notes.md` with source metadata and notes
+5. Commit the JSON and documentation — **not** the raw materials
+6. Push to GitHub
+
+See `docs/source-notes.md` for details on the local-only workflow and current materials.
+
 ## Deploying on GitHub Pages
 
 This repo is connected to https://github.com/dkyaya/ec10bStudyGame.

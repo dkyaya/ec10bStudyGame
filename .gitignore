@@ -1,0 +1,13 @@
+# Local source materials — course slides, solutions, problem sets
+# Used to generate/update the question bank, intentionally excluded from git
+private-materials/
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+node_modules/
