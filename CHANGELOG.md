@@ -1,5 +1,71 @@
 # Changelog
 
+## 2026-07-06 15:23 — Question Bank Quality Audit
+
+### Added
+- Added 2 new questions (`class1-marketfailure-001`, `class1-marketfailure-002`) under
+  the existing `supply-demand-equilibrium` topic, covering externalities and market
+  power. Class 1 slide 37 ("When Markets Fail": taxes, externalities, market power,
+  imperfect information, behavioral factors) had no corresponding questions anywhere in
+  the original 102-question bank; this was the one real coverage gap found. Question
+  bank grows from 102 to 104 questions.
+
+### Changed
+- Re-extracted all 7 source files fresh (`python-pptx` for the 4 slide decks,
+  `pdftotext -layout` for the 3 solution PDFs) and checked every one of the original 102
+  questions' concept, numbers, correct answer, distractors, and explanations directly
+  against the source text.
+- Rewrote 2 questions that had reused a source's exact numbers instead of a fresh
+  scenario, contrary to the no-verbatim-answer-key rule: `ps1-marginal-001` (calling-plan
+  minutes/rates matched Problem Set 1's own example exactly — changed from a 7-minute
+  call at $0.10/$0.02 per minute to a 10-minute call at $0.08/$0.03 per minute) and
+  `class1-graphs-001` (the phone-bill slope example matched Class 1 slide 8's own data
+  table exactly — replaced with a new gym-membership scenario testing the identical
+  slope calculation).
+- Corrected 2 topic misassignments: `class2-income-approach-001` (income approach's ~2/3
+  labor-share fact) moved from `gdp-cpi-inflation` to `gdp-accounting`, since it's a
+  GDP-accounting-method question, not a CPI/inflation one. `class3-labordemand-002`
+  (determinants of labor demand) moved from `productivity-real-wages` to
+  `labor-markets`, to sit alongside the other labor-demand/VMP questions it belongs
+  with.
+- Relabeled 4 questions from `hard` to `medium` difficulty to match the authoring
+  guide's rubric (medium = single-step calculation or applied concept; hard =
+  multi-step calculation, subtle distinction, or multiple concepts):
+  `ds1-compadv-001`, `ds1-compadv-002`, `ds1-gains-001` (each a single opportunity-cost
+  ratio or single applied specialization step), and `class4-capital-002` (a single
+  two-term comparison).
+- Updated `data/sources.json`'s `ds1` entry and `docs/source-notes.md` to document one
+  extraction gap found during re-extraction: `DS1_solutions.pdf` Section III parts (d)
+  Deflating and (e) Indexing state the method in words, but the grad-student example's
+  final worked numbers did not extract as selectable text (likely an image/graphic in
+  the source). No question depends on those specific numbers — the deflating/indexing
+  formulas are independently and fully documented in Class 2 slides 31-32.
+- Added a new rule to `docs/question-authoring-guide.md`: the no-verbatim-answer-key
+  rule also applies to a lecture slide's own worked numeric example, not just
+  discussion-section/problem-set solutions.
+- Updated `README.md`'s question-count reference from 102 to 104.
+
+### Fixed
+- No factual errors were found: every question's correct answer and explanation
+  matched the source material's stated concept, formula, or worked-example logic. The
+  fixes above are the only source-fidelity issues the audit surfaced.
+
+### Notes
+- **`needsReview` status unchanged: all 104 questions have `needsReview: false`.** No
+  question was found to rely on unclear, unreadable, or ambiguous source content beyond
+  the one documented DS1 extraction gap, which does not affect any specific question's
+  verifiability. Source-grounding was verified, not assumed — see the "2026-07-06
+  Question Bank Quality Audit" section in `docs/source-notes.md` for the full list of
+  findings.
+- No duplicate or near-duplicate questions were found. Topic balance after the audit
+  ranges from 8 to 12 questions per topic across the 11 existing topics (no new topics
+  added). Difficulty mix is 29 easy / 70 medium / 5 hard.
+- `node scripts/validate-data.mjs` passes with zero errors and zero warnings on the
+  resulting 104-question bank.
+- No raw files from `private-materials/` were staged or committed; only
+  `data/questions.json`, `data/sources.json`, `docs/source-notes.md`,
+  `docs/question-authoring-guide.md`, `README.md`, and this changelog changed.
+
 ## 2026-07-06 14:08 — Playtest and Bug-Fix Pass
 
 ### Added

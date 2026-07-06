@@ -70,6 +70,14 @@ accounting trap) with different figures or a renamed scenario. This keeps the pr
 bank distinct from a copy of the solutions while still being fully conservative — it's
 still testing exactly what the course covered.
 
+This rule also applies to a **lecture slide's own worked numeric example** (e.g., a
+data table used to teach a formula), not just discussion-section/problem-set answer
+keys. The 2026-07-06 audit found two questions that had reused a slide's or solution's
+exact numbers (a calling-plan example and a phone-bill slope example) — both were
+rewritten with fresh scenarios. When a slide teaches a calculation using a specific
+table, write the question with new numbers that produce an analogous (not identical)
+answer, even though the slide isn't a graded answer key.
+
 ## Marking `needsReview`
 
 Set `"needsReview": true` when a question is derived from source content that was:

@@ -189,20 +189,20 @@
     ],
     "sourceLabel": "Class 1 slides",
     "needsReview": false,
-    "question": "A phone plan's monthly bill (B) is a linear function of minutes used (T). Using 20 minutes costs $11.00, and using 40 minutes costs $12.00. What is the slope of the bill equation, in extra dollars per minute?",
+    "question": "A gym membership's total monthly bill (B) is a linear function of visits (V) in a month. 5 visits cost $52, and 25 visits cost $62. What is the slope of the bill equation, in extra dollars per visit?",
     "choices": [
-      "$0.05 per minute",
-      "$0.50 per minute",
-      "$1.00 per minute",
-      "$0.02 per minute"
+      "$0.50 per visit",
+      "$0.05 per visit",
+      "$2.00 per visit",
+      "$10.00 per visit"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Slope = change in B / change in T = ($12 − $11) / (40 − 20) = $1 / 20 = $0.05 per minute.",
+    "correctExplanation": "Slope = change in B / change in V = ($62 − $52) / (25 − 5) = $10 / 20 = $0.50 per visit.",
     "wrongExplanations": [
       null,
-      "This results from dividing $1 by 2 instead of by 20, an arithmetic slip.",
-      "This is just the total change in the bill, not the per-minute (marginal) rate.",
-      "This is the inverse of the correct slope (20/1) rather than 1/20."
+      "This misplaces a decimal point relative to the correct $0.50, an arithmetic slip.",
+      "This is the inverse of the correct slope (20/10 instead of 10/20).",
+      "This is just the total change in the bill, not the per-visit (marginal) rate."
     ],
     "tags": [
       "linear equations",
@@ -220,7 +220,7 @@
     ],
     "sourceLabel": "Problem Set 1 Solutions",
     "needsReview": false,
-    "question": "Two calling plans charge exactly the same total amount for a 7-minute call, but beyond 7 minutes, Plan A's marginal cost is $0.10 per additional minute while Plan B's marginal cost is only $0.02 per additional minute. Which plan will a customer who wants to talk longer than 7 minutes prefer?",
+    "question": "Two calling plans charge exactly the same total amount for a 10-minute call, but beyond 10 minutes, Plan A's marginal cost is $0.08 per additional minute while Plan B's marginal cost is only $0.03 per additional minute. Which plan will a customer who wants to talk longer than 10 minutes prefer?",
     "choices": [
       "Plan A, because its average cost is lower",
       "Plan B, because its marginal cost for additional minutes is lower",
@@ -233,7 +233,7 @@
       "Average cost is not what drives the marginal decision to talk longer; marginal cost is.",
       null,
       "The phone company's revenue does not determine which plan is more attractive to the customer for additional minutes.",
-      "Equal total cost at 7 minutes says nothing about the incentives to keep talking beyond that point, which depend on marginal cost."
+      "Equal total cost at 10 minutes says nothing about the incentives to keep talking beyond that point, which depend on marginal cost."
     ],
     "tags": [
       "marginal cost",
@@ -334,7 +334,7 @@
     "id": "ds1-compadv-001",
     "topic": "comparative-advantage-trade",
     "subtopic": "Comparative Advantage Calculations",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceIds": [
       "ds1"
     ],
@@ -365,7 +365,7 @@
     "id": "ds1-compadv-002",
     "topic": "comparative-advantage-trade",
     "subtopic": "Comparative Advantage Calculations",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceIds": [
       "ds1"
     ],
@@ -546,7 +546,7 @@
     "id": "ds1-gains-001",
     "topic": "comparative-advantage-trade",
     "subtopic": "Gains from Trade",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceIds": [
       "ds1"
     ],
@@ -873,6 +873,66 @@
     ],
     "tags": [
       "market equilibrium"
+    ]
+  },
+  {
+    "id": "class1-marketfailure-001",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Causes of Market Failure",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "question": "A steel mill's production creates air pollution that harms nearby residents, but neither the mill nor its customers bear that cost when they agree on a price. This is an example of a market failure caused by:",
+    "choices": [
+      "An externality",
+      "A tax wedge",
+      "Market power",
+      "Imperfect information"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "An externality occurs when buyers and sellers fail to take into account costs (or benefits) that fall on parties external to their transaction, such as pollution harming nearby residents who aren't part of the sale.",
+    "wrongExplanations": [
+      null,
+      "A tax wedge refers to a government tax driving a gap between the price buyers pay and sellers receive, not an uncompensated side effect on third parties.",
+      "Market power refers to a buyer or seller having influence over price due to a lack of competition, not an uncompensated third-party cost.",
+      "Imperfect information refers to buyers or sellers lacking key facts about the good, such as in the market for used cars, not a third-party cost like pollution."
+    ],
+    "tags": [
+      "market failure",
+      "externalities"
+    ]
+  },
+  {
+    "id": "class1-marketfailure-002",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Causes of Market Failure",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "question": "A single seller who faces no competition can restrict output and charge a higher price than a competitive market would produce. This is an example of a market failure caused by:",
+    "choices": [
+      "Market power",
+      "A behavioral factor",
+      "An externality",
+      "Imperfect information"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Market power arises when the demand or supply side of a market is not competitive (for example, a monopoly), letting a seller restrict output and raise price above the competitive level.",
+    "wrongExplanations": [
+      null,
+      "Behavioral factors refer to failures of rationality by buyers or sellers, not a seller's ability to restrict output due to a lack of competition.",
+      "An externality is an uncompensated cost or benefit falling on a third party, not a single seller's pricing power.",
+      "Imperfect information refers to buyers or sellers lacking key facts about a good, not one seller's ability to control price through lack of competition."
+    ],
+    "tags": [
+      "market failure",
+      "market power"
     ]
   },
   {
@@ -1487,7 +1547,7 @@
   },
   {
     "id": "class2-income-approach-001",
-    "topic": "gdp-cpi-inflation",
+    "topic": "gdp-accounting",
     "subtopic": "Income Approach to GDP",
     "difficulty": "medium",
     "sourceIds": [
@@ -2062,7 +2122,7 @@
   },
   {
     "id": "class3-labordemand-002",
-    "topic": "productivity-real-wages",
+    "topic": "labor-markets",
     "subtopic": "Determinants of Labor Demand",
     "difficulty": "easy",
     "sourceIds": [
@@ -2906,7 +2966,7 @@
     "id": "class4-capital-002",
     "topic": "sources-of-growth",
     "subtopic": "Diminishing Returns to Capital",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "sourceIds": [
       "class4"
     ],

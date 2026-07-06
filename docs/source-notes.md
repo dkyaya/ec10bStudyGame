@@ -15,7 +15,7 @@ structured source metadata (`data/sources.json`), and public documentation
 
 ### Current local materials
 
-The first question bank (102 questions) was generated from:
+The question bank (104 questions after the 2026-07-06 quality audit; originally 102) was generated from:
 - `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx` — lecture slides
 - `DS1_solutions.pdf`, `DS2_solutions.pdf` — discussion-section worked solutions
 - `Problem Set1_Solutions.pdf` — problem-set worked solutions
@@ -51,7 +51,20 @@ Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore`
 
 All seven files were extracted programmatically: the `.pptx` files with `python-pptx`
 (slide text, tables, and speaker notes), and the `.pdf` files with `pdftotext -layout`.
-Every extraction completed cleanly with no OCR failures or corrupted pages.
+Every extraction completed with no OCR failures or corrupted pages. One partial exception
+was found during the 2026-07-06 audit: see "Known extraction gaps" below.
+
+### Known extraction gaps
+
+- `ds1` (`DS1_solutions.pdf`), Section III parts (d) *Deflating* and (e) *Indexing*: the
+  solution states the method in words ("Deflating a nominal quantity converts it to a
+  real quantity") but the specific worked numbers for the grad-student example did not
+  extract as selectable text, likely because they were rendered as an image/graphic in
+  the source PDF rather than as text. No question in the bank depends on those specific
+  unavailable numbers — `ds1-deflating-001` uses a freshly constructed scenario, and the
+  underlying deflating formula (divide a nominal quantity by its price index) is fully
+  and independently documented in `class2` slides 31-32. Flagged here for transparency
+  rather than as a `needsReview` item, since the tested formula is otherwise verified.
 
 ## How questions were generated
 
@@ -74,13 +87,47 @@ Every extraction completed cleanly with no OCR failures or corrupted pages.
 
 ## `needsReview` status
 
-**All 102 questions currently have `needsReview: false`.** None of the source content
-used was unclear, unreadable, or partially unreadable — every table and text block that
-questions are based on extracted completely and unambiguously. If a future update
-introduces a source with illegible tables, low-quality scans, or truncated slides, mark
-any question derived from that unclear content with `needsReview: true` and add a note
-here describing what a human should confirm before treating it as verified. See
-`docs/question-authoring-guide.md` for the mechanics of setting that flag.
+**All 104 questions currently have `needsReview: false`.** This was re-confirmed during
+the 2026-07-06 question-bank quality audit (see below): every question's concept,
+numbers, and correct answer were checked directly against the extracted source text,
+and every check passed or was fixed in place. The one extraction gap found (see "Known
+extraction gaps" above) does not affect any specific question's verifiability. If a
+future update introduces a source with illegible tables, low-quality scans, or truncated
+slides, mark any question derived from that unclear content with `needsReview: true` and
+add a note here describing what a human should confirm before treating it as verified.
+See `docs/question-authoring-guide.md` for the mechanics of setting that flag.
+
+## 2026-07-06 Question Bank Quality Audit
+
+A full source-grounding audit was performed against all seven local materials
+(re-extracted fresh via `python-pptx` and `pdftotext -layout` for this pass). Every
+question's concept, numbers, correct answer, distractors, and explanations were checked
+against the corresponding slide or solution text. Findings:
+
+- **No factual errors found.** Every question's correct answer and explanation matched
+  the source material's stated concept, formula, or worked-example logic.
+- **Two questions reused a source's exact numbers** rather than a fresh scenario, contrary
+  to the no-verbatim-answer-key rule: `ps1-marginal-001` (calling-plan minutes/rates
+  matched Problem Set 1's own example exactly) and `class1-graphs-001` (the phone-bill
+  slope example matched Class 1 slide 8's own data table exactly). Both were rewritten
+  with new scenarios/numbers that test the identical skill.
+- **One topic misassignment**: `class2-income-approach-001` (the income approach's ~2/3
+  labor-share fact) was filed under `gdp-cpi-inflation` but is a GDP-accounting-method
+  question; moved to `gdp-accounting`. `class3-labordemand-002` (determinants of labor
+  demand) was filed under `productivity-real-wages` but belongs with the other labor
+  demand/VMP questions; moved to `labor-markets`.
+- **Four difficulty mislabels**: `ds1-compadv-001`, `ds1-compadv-002`, and `ds1-gains-001`
+  (single opportunity-cost ratio or single applied step) and `class4-capital-002`
+  (a single two-term comparison) were labeled `hard` but fit the `medium` rubric
+  (single-step calculation / applied concept) better; relabeled.
+- **One coverage gap**: Class 1 slide 37 ("When Markets Fail" — taxes, externalities,
+  market power, imperfect information, behavioral factors) had no corresponding
+  questions anywhere in the bank. Added two new questions,
+  `class1-marketfailure-001` (externalities) and `class1-marketfailure-002` (market
+  power), under the existing `supply-demand-equilibrium` topic.
+- **No duplicates, no wording/distractor-quality problems, no `needsReview` changes**
+  were found beyond the fixes above. `node scripts/validate-data.mjs` passes with zero
+  errors and zero warnings on the resulting 104-question bank.
 
 ## Assumptions made
 

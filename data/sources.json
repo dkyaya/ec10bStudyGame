@@ -42,7 +42,7 @@
     "type": "discussion-solutions",
     "coverageSummary": "Worked solutions covering PPCs and gains from trade (Canada/USA honey and maple syrup), GDP calculation via expenditure/value-added/income methods (Microsoft chip example), CPI/inflation/deflating/indexing (grad student budget example), market equilibrium algebra, demand shifters (olive oil, butter/white bread, rye/white bread), and marginal analysis (lemonade stand).",
     "dateAdded": "2026-07-06",
-    "reliabilityNotes": "Extracted with pdftotext -layout; text is clean and complete. Questions in this bank use new numbers/scenarios analogous to these worked examples rather than reusing the exact figures, per the conservative-generation and no-verbatim-answer-key rules."
+    "reliabilityNotes": "Extracted with pdftotext -layout; nearly all text is clean and complete. One exception: Section III parts (d) Deflating and (e) Indexing state the method in words but their final worked numbers did not extract as selectable text (likely rendered as an image/graphic in the original slide-style PDF). This did not block any question, since the deflating/indexing formulas are independently and fully documented in Class 2 slides 31-32. Questions in this bank use new numbers/scenarios analogous to these worked examples rather than reusing the exact figures, per the conservative-generation and no-verbatim-answer-key rules."
   },
   {
     "id": "ds2",

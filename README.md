@@ -35,7 +35,7 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (102 questions as of the initial build)
+  questions.json                 the question bank (104 questions as of the 2026-07-06 quality audit)
   topics.json                    topic list (id, name, description)
   sources.json                   source-material metadata (which file, what it covers, reliability notes)
 docs/
