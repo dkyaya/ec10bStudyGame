@@ -1,5 +1,54 @@
 # Changelog
 
+## 2026-07-06 14:08 — Playtest and Bug-Fix Pass
+
+### Added
+- Added `scripts/validate-data.mjs`, a dependency-free Node script that validates
+  `data/questions.json` / `data/topics.json` / `data/sources.json`: JSON parses,
+  required fields present, `answerIndex` in range, `choices`/`wrongExplanations`
+  lengths match, correct choice has a `null` wrong-explanation and every incorrect
+  choice has a non-empty one, `topic`/`sourceIds` references exist, no duplicate
+  question IDs, and near-duplicate question text is flagged as a warning. Exits
+  non-zero on error.
+- Added `docs/qa-checklist.md`: a manual playtest checklist covering every study mode,
+  Reset Progress, mobile-width checks, malformed-localStorage recovery, reload-mid-quiz
+  behavior, dark mode, and GitHub Pages verification steps.
+- Added a "Testing / QA" section to `README.md` pointing to both.
+
+### Fixed
+- Fixed a latent mobile layout bug: `overflow-wrap: anywhere` was only applied to
+  `h1`–`h4` and `p`, not to buttons, spans, or badges. An unusually long or
+  unbreakable word in a choice, topic name, or label could overflow the viewport
+  horizontally on narrow screens. Moved the rule to a universal selector in
+  `styles/main.css` so every text-bearing element wraps safely.
+
+### Notes
+- Ran a full automated playtest (headless Chromium via Playwright, driving the real
+  app against a local static server) covering: first-time/clean-localStorage state,
+  Full Bank (answer/prev/next/persisted-answer-state), Shuffle Mixed Practice at 10 /
+  20 / All session lengths (confirmed correct length, multiple topics per session, no
+  duplicate questions within a session), topic-specific practice across multiple
+  topics (label accuracy, progress/badge updates), Review Missed (global and
+  per-topic), New/Unseen (correct exclusion and graceful exhaustion), Needs Review
+  (correctly hidden with the current all-`needsReview:false` question bank; verified
+  the show/hide logic separately without mutating real question data), Focus Next
+  (correct 3-attempt/accuracy threshold and top-3 ranking), the Results screen (score,
+  topic breakdown, missed-questions-grouped-by-topic, recommendation, and all three
+  action buttons), Reset Progress, and a 320–390px mobile viewport. No console or page
+  errors were observed in any scenario.
+- Also verified: malformed `localStorage` JSON (falls back to a fresh state instead of
+  crashing), stale/orphaned `localStorage` entries referencing question IDs no longer
+  in the bank (silently ignored, no crash), and reloading mid-quiz (returns cleanly to
+  the home screen; only individual question attempts already answered before the
+  reload persist, which is the intended no-session-persistence design).
+- Investigated an apparent dark-mode contrast issue in an early screenshot; confirmed
+  via a settled (non-racing) screenshot that it was the test script's screenshot
+  timing racing the existing ~0.2s feedback fade-in animation, not an actual contrast
+  bug. No CSS change was needed for dark-mode contrast.
+- Re-validated `data/questions.json` / `data/topics.json` / `data/sources.json` with
+  the same checks `src/data.js` runs in-browser: 102 questions, 11 topics, 7 sources,
+  zero warnings, zero duplicate IDs, zero duplicate question text.
+
 ## 2026-07-06 13:44 — Local Source Materials Workflow
 
 ### Added

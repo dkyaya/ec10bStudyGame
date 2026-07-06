@@ -125,6 +125,22 @@ guidance, and conventions for adding topics/sources. Short version:
    or mismatched arrays.
 6. Add a dated entry to `CHANGELOG.md`.
 
+## Testing / QA
+
+Before pushing a change, run the data validation script:
+
+```bash
+node scripts/validate-data.mjs
+```
+
+It's a dependency-free Node script that checks `data/questions.json` /
+`data/topics.json` / `data/sources.json` for schema issues, bad references, duplicate
+IDs, and near-duplicate question text, and exits non-zero if anything's wrong.
+
+See **`docs/qa-checklist.md`** for the full manual playtest checklist (key flows to
+click through, how to clear `localStorage` for a clean test, mobile-width checks, and
+GitHub Pages verification steps) before pushing future updates.
+
 ## App Icon / PWA Icon
 
 - The source logo lives at `assets/icons/ec10b-logo.png` (the original, full-resolution

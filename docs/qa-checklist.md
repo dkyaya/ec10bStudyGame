@@ -1,0 +1,95 @@
+# QA Checklist
+
+Manual and scripted checks to run before pushing changes to this app. Nothing here
+requires a build step — the app is static HTML/CSS/JS served directly.
+
+## Running locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000/`. Opening `index.html` directly via `file://` also
+works (all data is fetched with relative paths, no backend).
+
+## Data validation
+
+Run the dependency-free validation script before committing any change to
+`data/questions.json`, `data/topics.json`, or `data/sources.json`:
+
+```bash
+node scripts/validate-data.mjs
+```
+
+It checks: JSON parses, every question has all required fields, `answerIndex` is in
+range, `choices`/`wrongExplanations` lengths match, the correct choice's
+`wrongExplanations` entry is `null` and every incorrect choice has a non-empty one,
+`topic`/`sourceIds` references exist, no duplicate question IDs, and flags
+near-duplicate question text as a warning. Exits non-zero on any error — safe to wire
+into a pre-push hook or CI step later if desired.
+
+The same schema checks also run in-browser on page load via `src/data.js`, logging any
+issues to the console (`console.warn`) without blocking the app.
+
+## Clearing localStorage for testing
+
+Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
+
+- Click **Reset Progress** at the bottom of the home screen (asks for confirmation), or
+- In the browser console: `localStorage.removeItem('econ10bStudyGame:v1')` then reload, or
+- Clear all site data for `localhost`/the GitHub Pages origin via browser dev tools.
+
+## Key flows to test before pushing
+
+- **First-time / clean localStorage**: 0 attempted, all topics "Not Started", Continue
+  Studying defaults to New/Unseen (or Shuffle if somehow nothing is unseen), Focus Next
+  and the weakest-topic banner stay hidden until there's enough data.
+- **Full Bank**: answer several questions, confirm correct/incorrect feedback and
+  explanations render, Previous/Next preserve answered state, Finish reaches Results.
+- **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
+  length matches the selection, pulls from multiple topics, and never repeats a question
+  within one session.
+- **Topic practice**: practice at least two different topics — confirm only that
+  topic's questions appear, the quiz header's topic/subtopic/source labels match, and
+  the topic card's attempted/accuracy/status badge update correctly afterward.
+- **Review Missed** (global and per-topic): miss a few questions, confirm the mode
+  enables and only includes missed questions; confirm a topic's "Review Missed" button
+  is disabled until that topic has a miss.
+- **New/Unseen**: confirm it excludes already-attempted questions and gracefully shows
+  a disabled "Nothing here yet" state once everything has been attempted at least once.
+- **Needs Review**: only appears when at least one question has `needsReview: true` in
+  the data. Don't flip real question data to test this — inspect
+  `Scoring.needsReviewQuestions` / the `hasNeedsReview` check in `src/app.js` instead.
+- **Focus Next**: build up progress in a couple of topics with below-80% accuracy
+  (needs 3+ attempts per topic) and confirm up to 3 lowest-accuracy topics show, each
+  with a working "Drill this topic" button.
+- **Results screen**: confirm the score/percentage are correct, missed questions are
+  grouped by topic, the recommendation text makes sense, and all three action buttons
+  (Review Missed, Shuffle Mixed Practice, Back to Topic Dashboard) work.
+- **Reset Progress**: confirm it clears all stats, returns the dashboard to the
+  first-time state, and hides any stale Focus Next / weakest-topic UI.
+- **Mobile width** (~360–390px): no horizontal scrolling anywhere (home, quiz,
+  feedback, results), cards stack in a single column, choice buttons are comfortably
+  tappable, the sticky quiz progress bar/header doesn't cover question content.
+- **Reload mid-quiz**: reloading during an active session returns cleanly to the home
+  screen (session state is intentionally not persisted — only individual question
+  attempts are, via `localStorage`).
+- **Malformed localStorage**: if `localStorage.getItem('econ10bStudyGame:v1')` is
+  invalid JSON, the app should still load and start from a fresh state rather than
+  crashing (`src/storage.js` catches parse errors).
+- **Dark mode**: check `prefers-color-scheme: dark` in a browser/OS with dark mode
+  enabled — text should stay readable against the navy background. (If a screenshot
+  taken immediately after answering looks washed out, that's the ~0.2s feedback
+  fade-in animation, not a contrast bug — wait a beat and re-check.)
+
+## Verifying GitHub Pages compatibility
+
+- Keep `index.html` at the repo root with only relative paths (`./styles/...`,
+  `./src/...`, `./data/...`) — no absolute paths, no build step, no server-side
+  includes.
+- After pushing to `main`, confirm the deployed site at
+  `https://dkyaya.github.io/ec10bStudyGame/` loads and the browser console shows no
+  errors.
+- Confirm `manifest.webmanifest` and every icon path it and `index.html` reference
+  (`assets/icons/...`) resolve — a 404 on an icon won't break the app, but will show up
+  as a console warning in dev tools.

@@ -50,6 +50,7 @@
 
 * {
   box-sizing: border-box;
+  overflow-wrap: anywhere;
 }
 
 html, body {
@@ -85,10 +86,6 @@ body {
 
 button {
   font-family: inherit;
-}
-
-h1, h2, h3, h4, p {
-  overflow-wrap: anywhere;
 }
 
 /* ---------- Hero ---------- */
