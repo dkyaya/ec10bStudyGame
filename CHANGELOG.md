@@ -1,5 +1,48 @@
 # Changelog
 
+## 2026-07-08 00:00 — Answer Choice Shuffling
+
+### Added
+- Added `Utils.shuffleChoicesForSession(question)` in `src/utils.js`: given a question
+  object, it returns a **new** object with `choices`, `answerIndex`, and
+  `wrongExplanations` rebuilt in a freshly randomized order (via the existing
+  Fisher-Yates `Utils.shuffle`), without mutating the input question or any of its
+  arrays.
+
+### Changed
+- `startSession()` in `src/app.js` now maps every question in a new session through
+  `Utils.shuffleChoicesForSession` before storing it on `session.questions`, so each
+  quiz session (Full Bank, Shuffle Mixed Practice, Review Missed, New/Unseen, Needs
+  Review, Vocabulary/Definitions, topic practice, and Review Missed in Topic) gets its
+  own randomized answer-choice order. The shuffle happens once per session start, so
+  the order stays stable while moving Previous/Next within that session, and a fresh
+  shuffle happens every time a new session is started — including re-entering "Review
+  Missed" from the Results screen.
+
+### Fixed
+- N/A (no bugs fixed by this change).
+
+### Notes
+- `data/questions.json` is never read from or written to differently — the shuffle
+  operates purely on in-memory copies created at session start, so the source question
+  bank on disk is untouched by playing the game.
+- Correctness grading, the "Why the correct answer is right" explanation, and each
+  wrong choice's matching wrong explanation all remain accurate after shuffling,
+  because `answerIndex` and `wrongExplanations` are permuted using the exact same
+  index mapping as `choices`.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged. `Storage.recordAttempt`
+  still stores a `lastAnswerIndex`, now relative to that session's shuffled order; this
+  field was already write-only (never read back for display), so no existing behavior
+  or stored progress is affected.
+- Ran `node scripts/validate-data.mjs`: 138 questions, 14 topics, 8 sources, all checks
+  passed with no errors or warnings.
+- Playtested headlessly with a scripted Chromium (Playwright) session driving the real
+  app end-to-end: verified choice order differs across fresh sessions, is stable across
+  Previous/Next within a session, correct/incorrect grading and explanation-to-choice
+  mapping stay accurate after shuffling, Vocabulary mode and a Review-Missed session
+  (re-entered from Results) both shuffle and grade correctly, and no console or page
+  errors occurred during the run.
+
 ## 2026-07-07 21:48 — Class 5 Questions and Vocabulary Mode
 
 ### Added

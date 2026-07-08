@@ -129,7 +129,11 @@
   }
 
   function startSession(list) {
-    session = { questions: list, index: 0 };
+    // Reshuffle answer choices fresh for every session, including a "Review
+    // Missed" session launched from the results screen (whose list is drawn
+    // from the previous session's already-shuffled question copies).
+    const shuffledList = list.map((q) => Utils.shuffleChoicesForSession(q));
+    session = { questions: shuffledList, index: 0 };
     showScreen("quiz");
     renderCurrentQuestion();
   }

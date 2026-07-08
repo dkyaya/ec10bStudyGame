@@ -46,6 +46,18 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   and the weakest-topic banner stay hidden until there's enough data.
 - **Full Bank**: answer several questions, confirm correct/incorrect feedback and
   explanations render, Previous/Next preserve answered state, Finish reaches Results.
+- **Answer choice shuffling**: start the same mode (e.g. Full Bank) in two separate
+  fresh sessions and confirm a given question's choices render in a different order
+  each time (source data in `data/questions.json` must never change — verify with
+  `git status`/diff after playing). Within one session, answer a question, then use
+  Previous/Next to leave and return to it — the choice order must stay identical.
+  Click the correct choice in its shuffled position and confirm it's still graded
+  correct, "Why the correct answer is right" still shows the matching explanation, and
+  each wrong choice still shows its own matching wrong explanation (not another
+  choice's). Confirm this holds in every mode (Full Bank, Shuffle Mixed Practice,
+  Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, topic practice,
+  Review Missed in Topic) and that re-entering Review Missed from the Results screen
+  reshuffles again rather than reusing the prior session's order.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.
