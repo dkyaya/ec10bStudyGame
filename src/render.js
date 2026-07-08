@@ -60,6 +60,7 @@ const Render = (() => {
     const missed = Scoring.missedQuestions(questions).length;
     const unseen = Scoring.unseenQuestions(questions).length;
     const needsReviewCount = Scoring.needsReviewQuestions(questions).length;
+    const vocabCount = Scoring.vocabQuestions(questions).length;
 
     const modes = [
       {
@@ -90,6 +91,15 @@ const Render = (() => {
         disabled: unseen === 0,
       },
     ];
+
+    if (vocabCount > 0) {
+      modes.push({
+        key: "vocab",
+        title: "Vocabulary / Definitions",
+        desc: "Term- and definition-focused questions, shuffled — great for drilling key vocabulary.",
+        count: vocabCount,
+      });
+    }
 
     if (hasNeedsReview) {
       modes.push({
@@ -237,7 +247,11 @@ const Render = (() => {
     );
     const source = Utils.el("span", "meta-source", question.sourceLabel);
     const progress = Utils.el("span", "meta-progress", `Question ${index + 1} of ${total}`);
-    [topicName, sub, diff, source, progress].forEach((n) => container.appendChild(n));
+    const nodes = [topicName, sub, diff, source, progress];
+    if (question.questionType === "vocab") {
+      nodes.push(Utils.el("span", "meta-vocab-badge", "Vocab"));
+    }
+    nodes.forEach((n) => container.appendChild(n));
   }
 
   function renderQuizQuestion(elements, question, savedAnswerIndex, onAnswer) {

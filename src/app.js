@@ -102,6 +102,9 @@
       case "needsReview":
         list = Scoring.needsReviewQuestions(questions);
         break;
+      case "vocab":
+        list = Utils.shuffle(Scoring.vocabQuestions(questions));
+        break;
       default:
         list = [...questions];
     }

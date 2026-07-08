@@ -75,6 +75,10 @@ const Scoring = (() => {
     return questions.filter((q) => q.needsReview);
   }
 
+  function vocabQuestions(questions) {
+    return questions.filter((q) => q.questionType === "vocab");
+  }
+
   function topicQuestions(questions, topicId) {
     return questions.filter((q) => q.topic === topicId);
   }
@@ -147,6 +151,7 @@ const Scoring = (() => {
     missedQuestionsInTopic,
     unseenQuestions,
     needsReviewQuestions,
+    vocabQuestions,
     weakestTopics,
     recommendedContinueAction,
     groupQuestionsByTopic,

@@ -1,5 +1,91 @@
 # Changelog
 
+## 2026-07-07 21:48 — Class 5 Questions and Vocabulary Mode
+
+### Added
+- Added `HarvardS10b_Class5.pptx` ("Class 5: Savings, Investment, Public Savings, and
+  Capital Flows") as a new source (`class5`) in `data/sources.json`, and 34 new
+  multiple-choice questions generated from it in `data/questions.json`. Question bank
+  grows from 104 to 138 questions.
+- Added 3 new topics to `data/topics.json` to cover Class 5 cleanly without overloading
+  existing topics: `saving-investment` (Saving, Wealth, and Investment — 14 questions),
+  `loanable-funds` (Loanable Funds and Government Budgets — 11 questions), and
+  `capital-flows` (Capital Flows and Open-Economy Saving — 9 questions). Total topic
+  count grows from 11 to 14.
+- New Class 5 questions cover: saving vs. wealth, the saving rate, assets/liabilities/
+  balance sheets/net worth, the three household saving motives (life-cycle,
+  precautionary, bequest), real vs. nominal interest rates, the national/private/public
+  saving identities (`S = Y − C − G`, `S_PRIVATE = Y − T − C`, `S_PUBLIC = T − G`),
+  government budget surplus/deficit and Ricardian equivalence, investment and capital
+  formation, the value of the marginal product of capital, the user cost of capital,
+  the loanable funds market and crowding out, technology-driven investment-demand
+  shifts, and open-economy capital flows (capital inflows/outflows, net capital
+  inflows, the `S + KI = I` and `NX + KI = 0` identities, and the trade-deficit/
+  capital-inflow relationship). Mix: 12 vocabulary/definition, 11 conceptual
+  application, 8 calculation/identity, and 3 graph/comparative-static questions.
+- Added a `"questionType"` field (`"standard"` or `"vocab"`) to the question schema and
+  a new **Vocabulary / Definitions** study mode on the home dashboard: it pulls every
+  question tagged `questionType: "vocab"` across the whole bank, shuffles them by
+  default, shows the available count on its mode card, and only appears once at least
+  one vocab question exists. Tagged questions still appear in their normal topic
+  practice sessions and in Shuffle Mixed Practice — vocab is a filtered view, not a
+  separate question set.
+- Added a small "Vocab" badge to the quiz-question metadata row for questions with
+  `questionType: "vocab"` (`.meta-vocab-badge` in `styles/main.css`).
+- Tagged 9 pre-existing pure definition/term-recognition questions from Classes 1-3
+  as `questionType: "vocab"` so they're included in the new mode:
+  `class1-surplus-001`, `class1-reservationprice-002`, `class1-surplus-002`,
+  `class2-qualitybias-001`, `class3-globalization-001`, `class3-sbtc-001`,
+  `class3-mobility-001`, `class3-transitionaid-001`, `class4-humancapital-001`. Total
+  vocab questions in the bank: 21.
+- Added `Scoring.vocabQuestions()` in `src/scoring.js` and wired a `"vocab"` mode key
+  through `src/app.js`'s `onModeSelect` and `src/render.js`'s study-mode card list.
+- Updated `scripts/validate-data.mjs` and the in-browser validator in `src/data.js` to
+  accept the optional `questionType` field, flag any value other than `"standard"` /
+  `"vocab"` / omitted as invalid, and log a vocab-question count in their summary
+  output.
+- Updated `docs/question-authoring-guide.md` with a new "Writing vocabulary/definition
+  questions" section (the `questionType` field, good vs. bad vocab distractor examples,
+  and a reminder that vocab questions still need full source grounding and specific
+  wrong explanations) and a new `data/sources.json` row plus source-extraction summary
+  for `class5` in `docs/source-notes.md`.
+- Updated `README.md` to mention the Class 5 topics, the new 138-question / 14-topic
+  counts, and the Vocabulary / Definitions mode.
+
+### Changed
+- No existing question IDs, topic IDs, source IDs, or `localStorage` schema
+  (`econ10bStudyGame:v1`) were renamed or altered — this update is purely additive to
+  the existing static, no-build, no-backend GitHub Pages architecture.
+
+### Fixed
+- N/A — no defects found in the pre-existing 104-question bank during this update.
+
+### Notes
+- **`needsReview` status: all 138 questions have `needsReview: false`**, including all
+  34 new Class 5 questions. Class 5's `.pptx` deck (44 slides) extracted cleanly via
+  `python-pptx` with no illegible text; roughly half the deck (personal-saving-rate,
+  federal-budget, debt-to-GDP, and trade-balance charts) is chart/photo-only content
+  with no extractable numeric data and was not used as the basis for any question. The
+  two worked numeric examples in the deck (the sample balance sheet and "John's Fishing
+  Business") were used only to confirm the calculation method — every calculation
+  question uses freshly constructed scenarios and numbers, per the no-verbatim-
+  answer-key rule. See the "2026-07-07 Class 5" section of `docs/source-notes.md` for
+  the full extraction and reliability writeup.
+- `node scripts/validate-data.mjs` passes with **zero errors and zero warnings** on the
+  resulting 138-question bank (21 of them tagged `questionType: "vocab"`).
+- Verified locally end-to-end with a headless-Chromium playtest: app loads with no
+  console/page errors; the Vocabulary / Definitions card appears on the home screen and
+  correctly starts a shuffled vocab-only session with the "Vocab" badge showing;
+  all 3 new Class 5 topic cards render and "Practice Topic" loads only that topic's
+  questions; Shuffle Mixed Practice can draw Class 5 questions; a full topic quiz run
+  reaches the Results screen with a working topic breakdown; New/Unseen and Reset
+  Progress both work correctly afterward.
+- No raw files from `private-materials/` were staged or committed; only
+  `data/questions.json`, `data/topics.json`, `data/sources.json`, `src/scoring.js`,
+  `src/app.js`, `src/render.js`, `src/data.js`, `scripts/validate-data.mjs`,
+  `styles/main.css`, `docs/question-authoring-guide.md`, `docs/source-notes.md`,
+  `README.md`, and this changelog changed.
+
 ## 2026-07-06 15:23 — Question Bank Quality Audit
 
 ### Added

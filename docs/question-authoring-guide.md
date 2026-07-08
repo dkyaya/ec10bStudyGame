@@ -52,6 +52,59 @@ Field rules:
   `"medium"` (one calculation or conceptual application), or `"hard"` (multi-step
   calculation, subtle accounting distinction, or comparative-static reasoning).
 - **`needsReview`** — see below.
+- **`questionType`** — optional. One of `"standard"` (the default; a regular
+  conceptual, calculation, or graph question) or `"vocab"` (a vocabulary/definition
+  question — see below). Existing questions written before this field existed may omit
+  it entirely; the app and validator both treat a missing `questionType` the same as
+  `"standard"`.
+
+## Writing vocabulary/definition questions
+
+Set `"questionType": "vocab"` on a question when its entire point is to test whether a
+student can recognize the correct definition of a term (or pick the term that matches a
+given definition), rather than apply a concept to a scenario or work through a
+calculation. Vocab questions power the home screen's **Vocabulary / Definitions** study
+mode, which pulls every question with `questionType: "vocab"` regardless of topic.
+
+Vocab questions still follow every other rule in this guide:
+
+- Four choices, one clearly correct answer, no "all of the above" / "none of the above."
+- A specific `correctExplanation` and a specific `wrongExplanations` entry for every
+  incorrect choice — never a generic "this is wrong."
+- A real `topic`, real `sourceIds`, and a real `sourceLabel` — vocab questions are just
+  as source-grounded as any other question, not a separate free-floating flashcard set.
+
+**Good vocab distractors** name a different, real term or concept from the material —
+something a student could plausibly confuse the target term with:
+
+```json
+{
+  "question": "Public saving is defined as:",
+  "choices": ["T – G", "Y – T – C", "G – T", "Y – C – G"],
+  "answerIndex": 0,
+  "wrongExplanations": [
+    null,
+    "Y − T − C is private saving, not public saving.",
+    "G − T reverses the terms; public saving is net taxes minus government spending, not the other way around.",
+    "Y − C − G is national saving (private plus public combined), not public saving alone."
+  ]
+}
+```
+
+Each wrong choice here is a *real* formula from the same lecture, and each explanation
+says exactly which other term it belongs to. That's what makes the distractor useful for
+studying, not just filler.
+
+**Bad vocab distractors** are vague, made-up, or don't correspond to anything the course
+actually taught — e.g., a choice like "A type of government bond" for the term "wealth,"
+with an explanation of "This is incorrect." Don't invent plausible-sounding jargon that
+isn't in the source material just to fill a fourth choice.
+
+To convert an *existing* non-vocab question to `questionType: "vocab"`, only do so if it
+is genuinely a pure definition-recognition question (e.g., "X refers to:", "X is best
+described as:"). Don't relabel a question that requires applying a concept to a scenario
+or doing a calculation — that's still a `"standard"` question, even if it also happens to
+test knowledge of a term.
 
 ## Writing good distractors
 
@@ -154,4 +207,8 @@ console reports something like:
 If it instead lists issues, fix them before committing — the validator checks for
 missing required fields, out-of-range `answerIndex`, mismatched `choices`/
 `wrongExplanations` lengths, a non-null explanation at the correct answer's index,
-empty explanations at incorrect indices, and unknown `topic`/`sourceIds` references.
+empty explanations at incorrect indices, unknown `topic`/`sourceIds` references, and an
+invalid `questionType` (anything other than `"standard"`, `"vocab"`, or omitted).
+
+The same checks (plus a vocab-question count) run via `node scripts/validate-data.mjs`
+from the command line — run it before every commit that touches `data/`.

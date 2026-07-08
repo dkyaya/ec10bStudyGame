@@ -25,6 +25,8 @@ const REQUIRED_FIELDS = [
   "tags",
 ];
 
+const VALID_QUESTION_TYPES = new Set(["standard", "vocab"]);
+
 let errorCount = 0;
 let warnCount = 0;
 
@@ -96,6 +98,10 @@ function main() {
       fail(`${label}: references unknown topic id "${q.topic}"`);
     }
 
+    if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
+      fail(`${label}: invalid questionType "${q.questionType}" (must be "standard" or "vocab")`);
+    }
+
     (q.sourceIds || []).forEach((sid) => {
       if (!sourceIds.has(sid)) fail(`${label}: references unknown source id "${sid}"`);
     });
@@ -133,7 +139,9 @@ function main() {
     }
   });
 
+  const vocabCount = questions.filter((q) => q.questionType === "vocab").length;
   console.log(`Checked ${questions.length} questions, ${topics.length} topics, ${sources.length} sources.`);
+  console.log(`Vocabulary/definition questions: ${vocabCount}.`);
   printSummaryAndExit();
 }
 

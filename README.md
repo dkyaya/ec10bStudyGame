@@ -11,9 +11,15 @@ problem-set solutions, organized by topic, with progress saved locally in the br
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized into 11 topics spanning basic economic analysis, comparative
+- Questions are organized into 14 topics spanning basic economic analysis, comparative
   advantage and trade, supply and demand, GDP accounting, CPI/inflation, labor markets,
-  productivity and wages, inequality/globalization, and economic growth.
+  productivity and wages, inequality/globalization, economic growth, and — as of the
+  Class 5 update — saving/wealth/investment, the loanable funds market and government
+  budgets, and open-economy capital flows.
+- A **Vocabulary / Definitions** study mode pulls every question tagged
+  `"questionType": "vocab"` across the whole bank (21 questions as of the Class 5
+  update) into a shuffled, definition-focused practice session, in addition to each
+  question's normal place within its topic.
 - All progress (attempts, correct/incorrect history, per-topic accuracy) is saved to
   `localStorage` in the student's own browser. There is no login, no backend, and no
   external database — nothing leaves the device.
@@ -35,7 +41,7 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (104 questions as of the 2026-07-06 quality audit)
+  questions.json                 the question bank (138 questions as of the 2026-07-07 Class 5 update)
   topics.json                    topic list (id, name, description)
   sources.json                   source-material metadata (which file, what it covers, reliability notes)
 docs/
@@ -117,7 +123,9 @@ guidance, and conventions for adding topics/sources. Short version:
 2. Add a `sources.json` entry citing the new file.
 3. Add questions to `questions.json` following the existing schema — every question
    needs a correct-answer explanation and a specific wrong-answer explanation for each
-   distractor.
+   distractor. Set `"questionType": "vocab"` on pure definition/term-recognition
+   questions so they show up in the Vocabulary / Definitions study mode; omit the field
+   (or set `"standard"`) for everything else.
 4. If any source content was unclear or only partially readable, set that question's
    `needsReview: true` and document what needs confirming in `docs/source-notes.md`.
 5. Reload the app locally and check the browser console — `src/data.js` runs schema

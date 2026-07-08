@@ -61,5 +61,14 @@
     "coverageSummary": "Worked solutions covering marginal analysis (compost/tomatoes, phone calling plans), PPCs and comparative/absolute advantage (Helen's dresses/bread; Tom and Susan's coffee/nuts), demand shifters and supply-and-demand shifts (vacations, pepperoni pizza, MP3s/CDs, tofu), GDP components and edge cases (inventory changes, existing-asset sales, transfer payments, multi-year international goods), CPI/inflation calculation, and real interest rates/the Fisher effect.",
     "dateAdded": "2026-07-06",
     "reliabilityNotes": "Extracted with pdftotext -layout; text and tables are clean and complete. Questions in this bank use new numbers/scenarios analogous to these worked examples rather than reusing the exact figures, per the conservative-generation and no-verbatim-answer-key rules."
+  },
+  {
+    "id": "class5",
+    "filename": "HarvardS10b_Class5.pptx",
+    "title": "Class 5: Savings, Investment, Public Savings, and Capital Flows",
+    "type": "lecture-slides",
+    "coverageSummary": "Saving vs. wealth, the saving rate, assets/liabilities/balance sheets/net worth, the three household saving motives (life-cycle, precautionary, bequest), real vs. nominal interest rates, national/private/public saving identities, government budget surplus/deficit and Ricardian equivalence, investment and capital formation, the value of the marginal product of capital and user cost of capital, the loanable funds market and crowding out, technology-driven shifts in investment demand, and open-economy capital flows (capital inflows/outflows, net capital inflows, the S + KI = I and NX + KI = 0 identities, and the link between trade deficits and capital inflows).",
+    "dateAdded": "2026-07-07",
+    "reliabilityNotes": "All slide bullet text and speaker notes extracted cleanly via python-pptx across all 44 slides; no illegible or corrupted text. Roughly half the deck (slides 10-12, 15, 23-34, 43-44) is chart/photo-only content (FRED/BEA saving-rate charts, federal budget and tax-revenue charts, debt-to-GDP-by-country chart, trade-balance chart) with no extractable numeric data, and was not used as the basis for any question. The worked numeric example on slides 4 (individual balance sheet) and 17-18 (John's Fishing Business investment decision) informed question structure only; all calculation questions use freshly constructed numbers and scenarios rather than the slides' own figures, per the no-verbatim-answer-key rule. No question in this source's set required a needsReview flag."
   }
 ]

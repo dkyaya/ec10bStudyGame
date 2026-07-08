@@ -15,8 +15,8 @@ structured source metadata (`data/sources.json`), and public documentation
 
 ### Current local materials
 
-The question bank (104 questions after the 2026-07-06 quality audit; originally 102) was generated from:
-- `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx` — lecture slides
+The question bank (138 questions as of the 2026-07-07 Class 5 update) was generated from:
+- `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx`, `HarvardS10b_Class5.pptx` — lecture slides
 - `DS1_solutions.pdf`, `DS2_solutions.pdf` — discussion-section worked solutions
 - `Problem Set1_Solutions.pdf` — problem-set worked solutions
 
@@ -45,11 +45,12 @@ Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore`
 | `class2` | `HarvardS10b_Class2.pptx` | GDP measurement (market value, final vs. intermediate goods, value added, expenditure/income approaches), difficulties measuring GDP, real vs. nominal GDP, CPI, price indices, inflation, real interest rates, the Fisher effect, indexing, CPI substitution/quality-adjustment bias. |
 | `class3` | `HarvardS10b_Class3.pptx` | Labor demand/VMP, diminishing returns to labor, labor supply/reservation wage, shifts in labor markets, the productivity-wage slowdown (1970s) and divergence (1990s), globalization and wage inequality, skill-biased technological change, economics of superstars, policy responses, GDP-per-capita decomposition. |
 | `class4` | `HarvardS10b_Class4.pptx` | Compound growth formula, Rule of 72, historical living standards, cross-country growth divergence, 8 determinants of labor productivity, diminishing returns to capital, institutions, the USSR case study, government growth policies, poverty traps, limits of growth. |
+| `class5` | `HarvardS10b_Class5.pptx` | Saving vs. wealth, saving rate, assets/liabilities/balance sheets/net worth, life-cycle/precautionary/bequest saving, real vs. nominal interest rates, national/private/public saving identities, government budget surplus/deficit and Ricardian equivalence, investment and capital formation, value of the marginal product of capital, user cost of capital, the loanable funds market and crowding out, technology-driven investment demand shifts, and open-economy capital flows (capital inflows/outflows, net capital inflows, S + KI = I, NX + KI = 0, and the trade-deficit/capital-inflow relationship). |
 | `ds1` | `DS1_solutions.pdf` | Worked solutions: PPCs/gains from trade (Canada/USA honey and maple syrup), GDP calculation via three methods (Microsoft chip example), CPI/inflation/deflating/indexing (grad student example), market equilibrium algebra, demand shifters, marginal analysis (lemonade stand). |
 | `ds2` | `DS2_solutions.pdf` | Worked solutions: labor demand/VMP, shifts in labor demand/supply (opticians, pilots), average labor productivity and GDP-per-capita decomposition, cross-country growth catch-up calculations (Richland/Poorland). |
 | `ps1_solutions` | `Problem Set1_Solutions.pdf` | Worked solutions: marginal analysis (compost, calling plans), PPCs/comparative advantage (Helen, Tom and Susan), demand shifters and supply/demand shifts, GDP components and edge cases (inventory, existing assets, transfers, multi-year international goods), CPI/inflation, real interest rates. |
 
-All seven files were extracted programmatically: the `.pptx` files with `python-pptx`
+All eight files were extracted programmatically: the `.pptx` files with `python-pptx`
 (slide text, tables, and speaker notes), and the `.pdf` files with `pdftotext -layout`.
 Every extraction completed with no OCR failures or corrupted pages. One partial exception
 was found during the 2026-07-06 audit: see "Known extraction gaps" below.
@@ -69,7 +70,7 @@ was found during the 2026-07-06 audit: see "Known extraction gaps" below.
 ## How questions were generated
 
 - Every question in `data/questions.json` is paraphrased from, or a new numeric variant
-  of, a concept or worked example that actually appears in one of the seven files above.
+  of, a concept or worked example that actually appears in one of the eight files above.
   No topic, formula, or claim was added that isn't grounded in the materials.
 - For calculation-based questions drawn from the discussion-section and problem-set
   solutions (`ds1`, `ds2`, `ps1_solutions`), new numbers and cover stories were used
@@ -87,15 +88,19 @@ was found during the 2026-07-06 audit: see "Known extraction gaps" below.
 
 ## `needsReview` status
 
-**All 104 questions currently have `needsReview: false`.** This was re-confirmed during
-the 2026-07-06 question-bank quality audit (see below): every question's concept,
-numbers, and correct answer were checked directly against the extracted source text,
-and every check passed or was fixed in place. The one extraction gap found (see "Known
-extraction gaps" above) does not affect any specific question's verifiability. If a
-future update introduces a source with illegible tables, low-quality scans, or truncated
-slides, mark any question derived from that unclear content with `needsReview: true` and
-add a note here describing what a human should confirm before treating it as verified.
-See `docs/question-authoring-guide.md` for the mechanics of setting that flag.
+**All 138 questions currently have `needsReview: false`**, including all 34 questions
+added from `class5` in the 2026-07-07 update (see below). Every Class 5 question is
+grounded in extractable slide bullet text or speaker notes; none rely on the chart- or
+photo-only slides in that deck, so none needed the flag. The 104 pre-Class-5 questions'
+status was re-confirmed during the 2026-07-06 question-bank quality audit (see below):
+every question's concept, numbers, and correct answer were checked directly against the
+extracted source text, and every check passed or was fixed in place. The one extraction
+gap found (see "Known extraction gaps" above) does not affect any specific question's
+verifiability. If a future update introduces a source with illegible tables, low-quality
+scans, or truncated slides, mark any question derived from that unclear content with
+`needsReview: true` and add a note here describing what a human should confirm before
+treating it as verified. See `docs/question-authoring-guide.md` for the mechanics of
+setting that flag.
 
 ## 2026-07-06 Question Bank Quality Audit
 
@@ -128,6 +133,48 @@ against the corresponding slide or solution text. Findings:
 - **No duplicates, no wording/distractor-quality problems, no `needsReview` changes**
   were found beyond the fixes above. `node scripts/validate-data.mjs` passes with zero
   errors and zero warnings on the resulting 104-question bank.
+
+## 2026-07-07 Class 5: Savings, Investment, Public Savings, and Capital Flows
+
+Added `HarvardS10b_Class5.pptx` (44 slides) as a new source (`class5`) and generated 34
+new multiple-choice questions from it, split across three new topics
+(`saving-investment`, `loanable-funds`, `capital-flows` — see
+`docs/question-authoring-guide.md` for how topics are added). This update also
+introduced the `questionType` field (`"standard"` or `"vocab"`) and a new **Vocabulary /
+Definitions** study mode; see `README.md` and `docs/question-authoring-guide.md` for
+details.
+
+**Topics extracted and used as question sources:** saving vs. wealth, the saving rate,
+assets/liabilities/balance sheets/net worth (slides 3-4), the three household saving
+motives — life-cycle, precautionary, bequest (slide 5), the real interest rate (slide 6),
+national/private/public saving identities and the government budget surplus/deficit
+(slides 8-9, 13-14), Ricardian equivalence (slide 27), investment and capital formation,
+the value of the marginal product of capital, and the user cost of capital (slides
+16-19), the loanable funds market, crowding out from larger budget deficits, and
+technology-driven investment-demand shifts (slides 20-22), and open-economy capital
+flows — capital inflows/outflows, net capital inflows, risk and capital flows, the S + KI
+= I and NX + KI = 0 identities, and the trade-deficit/capital-inflow relationship
+(slides 35-42).
+
+**Chart/image-only content excluded:** roughly half the deck (slides 10-12, 15, 23-26,
+28-34, 43-44) consists of FRED/BEA charts (personal saving rate, national saving history,
+federal tax revenue and spending, debt-to-GDP by country, U.S. trade balance) and photos
+with no extractable numeric data. None of these slides were used as the basis for any
+question, consistent with how chart-only slides were handled for Classes 1-4.
+
+**No uncertainty / no `needsReview` items:** all 44 slides' bullet text and speaker notes
+extracted cleanly via `python-pptx`, with no illegible or ambiguous text. The two worked
+numeric examples in the deck — the sample individual balance sheet (slide 4) and "John's
+Fishing Business" investment-decision walkthrough (slides 17-18) — were used only to
+confirm the calculation *method*; every calculation question in the new set uses a freshly
+constructed scenario and numbers (different amounts, different item/business names) per
+the no-verbatim-answer-key rule, not the slides' own figures. As a result, none of the 34
+new questions required a `needsReview` flag.
+
+**Verification status:** all 34 new questions are fully verified against the extracted
+slide text (not "pending review") — see the `needsReview` status section above.
+`node scripts/validate-data.mjs` passes with zero errors and zero warnings on the
+resulting 138-question bank, including the new `questionType` field validation.
 
 ## Assumptions made
 

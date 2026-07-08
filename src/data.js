@@ -1,4 +1,6 @@
 const Data = (() => {
+  const VALID_QUESTION_TYPES = new Set(["standard", "vocab"]);
+
   const REQUIRED_FIELDS = [
     "id",
     "topic",
@@ -54,6 +56,10 @@ const Data = (() => {
         warn(`${label}: references unknown topic id "${q.topic}"`);
       }
 
+      if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
+        warn(`${label}: invalid questionType "${q.questionType}" (must be "standard" or "vocab")`);
+      }
+
       (q.sourceIds || []).forEach((sid) => {
         if (!sourceIds.has(sid)) {
           warn(`${label}: references unknown source id "${sid}"`);
@@ -84,8 +90,11 @@ const Data = (() => {
       }
     });
 
+    const vocabCount = questions.filter((q) => q.questionType === "vocab").length;
     if (warningCount === 0) {
-      console.info(`[Econ 10b question bank validation] ${questions.length} questions passed all checks.`);
+      console.info(
+        `[Econ 10b question bank validation] ${questions.length} questions passed all checks (${vocabCount} vocab).`
+      );
     } else {
       console.warn(`[Econ 10b question bank validation] ${warningCount} issue(s) found across ${questions.length} questions.`);
     }

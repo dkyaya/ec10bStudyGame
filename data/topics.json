@@ -53,5 +53,20 @@
     "id": "sources-of-growth",
     "name": "Sources of Growth: Capital, Technology, Human Capital, Institutions",
     "description": "The determinants of average labor productivity, including capital, technology, human capital, and institutions."
+  },
+  {
+    "id": "saving-investment",
+    "name": "Saving, Wealth, and Investment",
+    "description": "Saving versus wealth, saving motives, private/public/national saving, investment decisions, and capital formation."
+  },
+  {
+    "id": "loanable-funds",
+    "name": "Loanable Funds and Government Budgets",
+    "description": "Real interest rates, saving and investment equilibrium, budget deficits/surpluses, crowding out, and investment-demand shifts."
+  },
+  {
+    "id": "capital-flows",
+    "name": "Capital Flows and Open-Economy Saving",
+    "description": "Capital inflows/outflows, net capital inflows, NX/KI relationships, trade deficits, and open-economy investment financing."
   }
 ]
