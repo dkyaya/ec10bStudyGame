@@ -18,6 +18,7 @@
   const quizEls = {
     progressFill: Utils.byId("quiz-progress-fill"),
     meta: Utils.byId("quiz-meta"),
+    diagram: Utils.byId("quiz-diagram"),
     questionText: Utils.byId("quiz-question"),
     choicesContainer: Utils.byId("quiz-choices"),
     feedback: Utils.byId("quiz-feedback"),
@@ -107,6 +108,9 @@
         break;
       case "formula":
         list = Utils.shuffle(Scoring.formulaQuestions(questions));
+        break;
+      case "graph":
+        list = Utils.shuffle(Scoring.graphQuestions(questions));
         break;
       default:
         list = [...questions];

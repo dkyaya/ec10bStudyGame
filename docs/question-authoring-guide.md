@@ -53,10 +53,13 @@ Field rules:
   calculation, subtle accounting distinction, or comparative-static reasoning).
 - **`needsReview`** — see below.
 - **`questionType`** — optional. One of `"standard"` (the default; a regular
-  conceptual or graph question), `"vocab"` (a vocabulary/definition question — see
-  below), or `"formula"` (a calculation/formula word problem — see below). Existing
+  conceptual question), `"vocab"` (a vocabulary/definition question — see below),
+  `"formula"` (a calculation/formula word problem — see below), or `"graph"` (a
+  graph-interpretation or graph-translation question — see below). Existing
   questions written before this field existed may omit it entirely; the app and
   validator both treat a missing `questionType` the same as `"standard"`.
+- **`diagram`** — optional. An inline diagram shown above the question stem. See
+  "Writing graph questions" below for the schema and when to use one.
 
 ## Writing vocabulary/definition questions
 
@@ -163,6 +166,139 @@ Rules specific to formula questions:
   formula questions can draw on any source where that formula appears, including
   older sources from earlier in the course, since the formula itself (not the
   specific numbers) is what's being cited.
+
+## Writing graph questions
+
+Set `"questionType": "graph"` on a question that requires interpreting, translating,
+or reasoning from a graph — moving between a graph and the economic story it
+represents, an economic event and the correct curve shift, a graph shift and the
+resulting equilibrium outcome, or a formula/identity and its graph implication.
+Graph questions power the home screen's **Graph Practice** study mode, which pulls
+every question with `questionType: "graph"` regardless of topic, and they also count
+normally toward every other mode (Full Bank, Shuffle Mixed Practice, New/Unseen,
+Review Missed, Needs Review, and topic-specific practice/missed-review) — Graph
+Practice is a filtered view, not a separate bucket.
+
+A graph question still gets a real `topic` — the substantive economics topic the
+graph belongs to (e.g., a loanable-funds shift question goes under `loanable-funds`,
+not a generic "graphs" topic). Don't create a catch-all graph topic.
+
+### The five graph question skills
+
+Design each graph question to test one of these:
+
+1. **Interpret graph → outcome.** Given a described or shown graph situation
+   (e.g., "saving shifts left in the loanable-funds diagram"), ask what happens to
+   equilibrium price/quantity/rate.
+2. **Event → graph shift.** Given a real-world event (a cost shock, a policy
+   change, a preference shift), ask which curve shifts and in which direction.
+3. **Graph shift → economic story.** Given an abstract shift (e.g., "money demand
+   shifts right with a fixed money supply"), ask which real-world story is most
+   consistent with it.
+4. **Compare two graphs.** Ask the student to compare two linked markets or two
+   versions of the same market (e.g., an open vs. closed economy, a pre-2007 vs.
+   post-2008 interest-rate regime, an import-competing vs. an exporting industry).
+5. **Identify an error in interpretation.** Present a student's (wrong) reasoning
+   about a graph and ask what's wrong with it — this is an especially good format
+   for testing the movement-along-a-curve-vs-shift-of-a-curve distinction.
+
+### Inline diagrams vs. text-described graphs
+
+Both are valid and already used in the bank. Use an inline `diagram` when a visual
+genuinely helps (reading an equilibrium point, seeing a shift's before/after
+position) — but a graph question does **not require** a diagram to be valid. A
+carefully-written stem that fully describes the axes, curves, and shift in words is
+just as testable and just as much a `"graph"`-type question. Don't feel obligated to
+hand-draw a diagram for every graph question; reserve the authoring effort for the
+questions where a picture meaningfully clarifies something words alone would leave
+ambiguous.
+
+When you do add a diagram, use this schema:
+
+```json
+"diagram": {
+  "type": "svg",
+  "alt": "A loanable funds diagram showing the saving curve S shifting left to S', while the investment demand curve I stays fixed. Equilibrium moves from E to E', with the real interest rate rising and investment falling.",
+  "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\">...</svg>"
+}
+```
+
+- **`type`** — currently only `"svg"` is supported.
+- **`alt`** — required, non-empty. Write it as a complete, standalone description of
+  the diagram (axes, curves, what shifts, where the new equilibrium lands) — it's
+  used as both the accessible label (`aria-label`) for screen readers and a visible
+  caption under the diagram for every student, so it should teach, not just
+  describe ("a graph with two lines" is not acceptable; describe what the lines
+  represent and what they show).
+- **`svg`** — required for `type: "svg"`, a raw SVG markup string.
+- Diagrams render **above** the question stem.
+- Every diagram must be **original, hand-authored SVG markup** you (or a future
+  contributor) write for this app — never a screenshot or a traced copy of a
+  specific slide's exact layout. The standard textbook shapes (a supply/demand
+  crossing, a bowed-out PPC, a vertical money-supply line) are not copyrightable in
+  themselves; recreate them as simple original diagrams rather than reproducing a
+  slide's specific image.
+- Keep SVGs simple: straight `<line>` elements for linear curves (matching how the
+  course's own slides draw supply/demand-style relationships as straight lines), a
+  `<path>` with a quadratic Bezier for a bowed PPC, `<text>` labels for axes and
+  curves, and `<circle>` markers for equilibrium points. Use a consistent `viewBox`
+  (`"0 0 260 190"` or `"0 0 270 190"` for slightly wider diagrams) so new diagrams
+  match the existing ones' proportions.
+- Use the app's CSS custom properties for colors instead of hardcoded hex values —
+  e.g. `stroke="var(--text)"` for axes, `stroke="var(--accent)"` for one curve,
+  `stroke="var(--good)"` for a second curve, `stroke="var(--text-muted)"` for guide
+  lines — so the diagram automatically adapts to light/dark mode. Do not set a
+  `width`/`height` attribute on the `<svg>` element itself; the app's CSS
+  (`.diagram-svg-wrap svg`) makes it responsive (`width: 100%; height: auto`,
+  capped at 340px) using the `viewBox` for the aspect ratio.
+- For a shifted curve, draw the original curve as a solid line and the shifted
+  curve as a dashed line (`stroke-dasharray="5 4"`), and label both (e.g., `S` and
+  `S'`) so a student can tell them apart without relying on color alone.
+
+### Common graph distractor types
+
+Good graph-question distractors reflect a specific, common graph-reading mistake —
+not just a different (wrong) outcome:
+
+- Shifting the wrong curve (e.g., shifting supply when the event is a demand
+  shifter, or vice versa).
+- Confusing a movement along a curve with a shift of the curve — this happens when
+  a student mistakes a change in the axis variable itself (e.g., the interest rate
+  on the loanable-funds diagram) for a change in some other, off-axis determinant.
+- Reversing the direction of a shift (rightward instead of leftward, or vice
+  versa).
+- Mixing up supply and demand (or, in specialized markets, mixing up the two
+  analogous curves — e.g., money supply vs. money demand, capital inflows vs.
+  capital outflows).
+- Confusing interest rates with quantities when reading off which axis moved.
+- Confusing capital inflows (foreigners buying domestic assets) with exports
+  (domestic goods/services sold to foreigners) — a current-account/capital-account
+  mixup.
+- Confusing nominal and real interest rates.
+- Getting the price/quantity direction right for one curve's shift but wrong for a
+  combined two-curve shift (e.g., correctly noting quantity rises when both supply
+  and demand increase, but guessing the wrong direction for price without checking
+  which shift is larger).
+
+Each `wrongExplanations` entry should name which of these specific mistakes that
+choice represents (see "Writing good distractors" below for the general rule) — a
+graph distractor is not just "a different price/quantity combination," it should be
+recognizable as *the exact wrong turn* a student who read the graph carelessly would
+take.
+
+### Graph questions must be self-contained and source-grounded
+
+Every graph question — whether or not it has an inline diagram — must fully
+describe the graph situation in its own stem (see the self-containment rule below;
+it applies here just as much as to any other question type). And like every other
+question in this bank, a graph question's tested concept, curve shape, shift
+direction, and equilibrium outcome must be traceable to something actually taught in
+the cited source — don't invent a curve shape or a shift direction that "seems
+right" without checking it against the source's own diagrams or bullet text. If a
+source's chart or diagram is only available as an unreadable image (a photo-only
+slide, a screenshot with no extractable axis/curve data), either skip that content
+or mark the resulting question `needsReview: true` and document why in
+`docs/source-notes.md`, per the rule below.
 
 ## Writing good distractors
 
@@ -288,10 +424,11 @@ console reports something like:
 If it instead lists issues, fix them before committing — the validator checks for
 missing required fields, out-of-range `answerIndex`, mismatched `choices`/
 `wrongExplanations` lengths, a non-null explanation at the correct answer's index,
-empty explanations at incorrect indices, unknown `topic`/`sourceIds` references, and an
-invalid `questionType` (anything other than `"standard"`, `"vocab"`, `"formula"`, or
-omitted).
+empty explanations at incorrect indices, unknown `topic`/`sourceIds` references, an
+invalid `questionType` (anything other than `"standard"`, `"vocab"`, `"formula"`,
+`"graph"`, or omitted), and — if a `diagram` field is present — an unsupported
+`diagram.type`, missing `diagram.alt` text, or a missing `diagram.svg` string.
 
-The same checks (plus vocab- and formula-question counts) run via
+The same checks (plus vocab-, formula-, and graph-question counts) run via
 `node scripts/validate-data.mjs` from the command line — run it before every commit
 that touches `data/`.

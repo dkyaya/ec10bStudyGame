@@ -25,7 +25,8 @@ const REQUIRED_FIELDS = [
   "tags",
 ];
 
-const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula"]);
+const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula", "graph"]);
+const VALID_DIAGRAM_TYPES = new Set(["svg"]);
 
 let errorCount = 0;
 let warnCount = 0;
@@ -99,7 +100,23 @@ function main() {
     }
 
     if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
-      fail(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", or "formula")`);
+      fail(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", "formula", or "graph")`);
+    }
+
+    if (q.diagram !== undefined) {
+      if (!q.diagram || typeof q.diagram !== "object") {
+        fail(`${label}: diagram must be an object`);
+      } else {
+        if (!VALID_DIAGRAM_TYPES.has(q.diagram.type)) {
+          fail(`${label}: diagram.type "${q.diagram.type}" is not supported (must be "svg")`);
+        }
+        if (!q.diagram.alt || !String(q.diagram.alt).trim()) {
+          fail(`${label}: diagram is missing non-empty alt text`);
+        }
+        if (q.diagram.type === "svg" && (!q.diagram.svg || !String(q.diagram.svg).trim())) {
+          fail(`${label}: diagram.type is "svg" but diagram.svg is missing or empty`);
+        }
+      }
     }
 
     (q.sourceIds || []).forEach((sid) => {
@@ -141,9 +158,12 @@ function main() {
 
   const vocabCount = questions.filter((q) => q.questionType === "vocab").length;
   const formulaCount = questions.filter((q) => q.questionType === "formula").length;
+  const graphCount = questions.filter((q) => q.questionType === "graph").length;
+  const diagramCount = questions.filter((q) => q.diagram).length;
   console.log(`Checked ${questions.length} questions, ${topics.length} topics, ${sources.length} sources.`);
   console.log(`Vocabulary/definition questions: ${vocabCount}.`);
   console.log(`Formula/quantitative practice questions: ${formulaCount}.`);
+  console.log(`Graph interpretation questions: ${graphCount} (${diagramCount} with an inline diagram).`);
   printSummaryAndExit();
 }
 

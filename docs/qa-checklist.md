@@ -56,9 +56,12 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   correct, "Why the correct answer is right" still shows the matching explanation, and
   each wrong choice still shows its own matching wrong explanation (not another
   choice's). Confirm this holds in every mode (Full Bank, Shuffle Mixed Practice,
-  Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, topic practice,
-  Review Missed in Topic) and that re-entering Review Missed from the Results screen
-  reshuffles again rather than reusing the prior session's order.
+  Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, Formula Practice,
+  Graph Practice, topic practice, Review Missed in Topic) and that re-entering Review
+  Missed from the Results screen reshuffles again rather than reusing the prior
+  session's order. For graph questions with a `diagram`, confirm the diagram itself
+  (and its alt text) stays the same regardless of choice order — only the answer
+  choices should shuffle, never the diagram.
 - **Formula Practice**: confirm the mode card appears on the home screen with a count
   matching the number of `questionType: "formula"` questions, that clicking Start
   launches a shuffled session containing only formula questions, and that the mode
@@ -76,6 +79,34 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   "Why the correct answer is right" text — it should name the formula, show the
   substitution with the question's actual numbers, and state the resulting value, not
   just assert which choice is correct.
+- **Graph Practice**: confirm the mode card appears on the home screen with a count
+  matching the number of `questionType: "graph"` questions, that clicking Start
+  launches a shuffled session containing only graph questions, and that the mode card
+  is hidden entirely (not just disabled) if the bank ever has zero graph questions.
+  Confirm graph questions also still surface normally in Full Bank, Shuffle Mixed
+  Practice, New/Unseen, Review Missed, Needs Review, and their own topic's practice/
+  missed-review sessions — Graph Practice must not be the only place they appear.
+- **Graph badges**: open a graph-type question in any mode and confirm a small
+  "Graph" badge (visually distinct from the Vocab and Formula badges) renders in the
+  quiz metadata row, without crowding or wrapping awkwardly on mobile widths. Confirm
+  non-graph questions never show this badge.
+- **Diagram rendering**: open several graph questions that include an inline
+  `diagram` field and confirm the SVG renders above the question stem inside a
+  bordered panel, with a visible caption underneath matching the `diagram.alt` text.
+  Confirm the diagram never overflows its container or causes horizontal page
+  scrolling, that its lines/text stay legible in both light and dark mode (the
+  strokes should visibly recolor when toggling `prefers-color-scheme`), and that
+  graph questions with no `diagram` field render normally with no empty gap where a
+  diagram would go.
+- **Diagram mobile responsiveness**: at a ~360–390px viewport width, confirm inline
+  diagrams scale down to fit the screen (no horizontal scroll, no clipped labels)
+  and stay comfortably readable — text labels should not become illegibly small.
+- **Graph answer-choice/explanation mapping**: for a handful of graph questions,
+  verify each wrong choice's explanation actually corresponds to that specific
+  distractor (e.g., a "shifted the wrong curve" explanation should be attached to the
+  choice that actually describes shifting the wrong curve, not a different mistake)
+  — this matters more for graph questions than most, since several choices often
+  describe plausible-sounding but distinct curve/direction combinations.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.

@@ -83,6 +83,10 @@ const Scoring = (() => {
     return questions.filter((q) => q.questionType === "formula");
   }
 
+  function graphQuestions(questions) {
+    return questions.filter((q) => q.questionType === "graph");
+  }
+
   function topicQuestions(questions, topicId) {
     return questions.filter((q) => q.topic === topicId);
   }
@@ -157,6 +161,7 @@ const Scoring = (() => {
     needsReviewQuestions,
     vocabQuestions,
     formulaQuestions,
+    graphQuestions,
     weakestTopics,
     recommendedContinueAction,
     groupQuestionsByTopic,

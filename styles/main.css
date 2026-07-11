@@ -673,6 +673,12 @@ button {
   font-weight: 700;
 }
 
+.meta-graph-badge {
+  color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  font-weight: 700;
+}
+
 .quiz-body {
   padding: 1.5rem 0 1rem;
 }
@@ -683,6 +689,38 @@ button {
   border-radius: var(--radius);
   padding: 1.4rem;
   box-shadow: var(--shadow-sm);
+}
+
+.quiz-diagram {
+  margin: 0 0 1.25rem;
+}
+
+.diagram-figure {
+  margin: 0;
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised, var(--surface));
+  text-align: center;
+}
+
+.diagram-svg-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.diagram-svg-wrap svg {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 340px;
+}
+
+.diagram-caption {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-muted);
 }
 
 .quiz-question {

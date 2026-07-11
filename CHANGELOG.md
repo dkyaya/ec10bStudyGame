@@ -1,5 +1,102 @@
 # Changelog
 
+## 2026-07-11 19:29 — Graph Practice Mode
+
+### Added
+- A new `questionType` value, `"graph"`, for questions that require interpreting,
+  translating, or reasoning from a graph — moving between a graph and the economic
+  story it represents, an event and the correct curve shift, a shift and its
+  equilibrium outcome, or a formula/identity and its graph implication. Accepted in
+  both `src/data.js` (in-browser validation) and `scripts/validate-data.mjs` (CLI).
+- A new **Graph Practice** study mode (`src/app.js`, `src/render.js`,
+  `src/scoring.js`): pulls every question tagged `"graph"` into a shuffled session,
+  shows its count on a home-screen mode card (hidden if no graph questions exist),
+  and displays a small gold/amber "Graph" badge in the quiz metadata row — visually
+  distinct from the existing red "Vocab" and green "Formula" badges. Graph questions
+  also appear normally in every other mode (Full Bank, Shuffle Mixed Practice,
+  New/Unseen, Review Missed, Needs Review, and topic-specific practice/missed-
+  review) — Graph Practice is a filtered view, not a separate bucket.
+- A new optional `diagram` field on the question schema
+  (`{ type: "svg", alt, svg }`) for inline graph diagrams, rendered above the
+  question stem in `src/render.js` inside a `<figure role="img" aria-label="...">`
+  with a visible `<figcaption>` repeating the alt text. Diagrams are responsive
+  (`width: 100%; height: auto`, capped at 340px) via new CSS in `styles/main.css`,
+  and use the app's CSS custom properties for strokes so they automatically adapt
+  to light/dark mode. Validated in both `src/data.js` and
+  `scripts/validate-data.mjs`: if present, `type` must be `"svg"`, non-empty `alt`
+  text is required, and a non-empty `svg` string is required.
+- **37 new graph questions** across 10 existing topics: 8 PPC/supply-and-demand
+  (`comparative-advantage-trade`, `supply-demand-equilibrium`), 6 labor market
+  (`labor-markets`, `inequality-globalization-sbtc`), 8 loanable funds
+  (`loanable-funds`), 6 capital flows (`capital-flows`), 7 money market/monetary
+  policy (`money-banking`, `monetary-policy`), and 2 optional growth/productivity
+  questions (`economic-growth`, `growth-accounting-compound-growth`). No new topics
+  were created. 10 of the 37 include an original, hand-authored inline SVG diagram;
+  the remaining 27 are fully self-contained text-described graph questions.
+- `docs/update-notes/2026-07-11-graph-practice-plan.md` and
+  `-results.md`: the planning note (source graph concepts considered, what was used
+  vs. skipped and why) and the results/audit table (final counts, diagrams added,
+  per-topic/source breakdown).
+- New "Writing graph questions" section in `docs/question-authoring-guide.md`:
+  documents the `"graph"` questionType, the five graph-question skills (interpret
+  → outcome, event → shift, shift → story, compare two graphs, identify an
+  interpretation error), when to use an inline SVG vs. a text-described graph, the
+  diagram schema and SVG authoring conventions, and common graph distractor types
+  (wrong curve, movement vs. shift, reversed direction, supply/demand mixups,
+  capital inflows vs. exports, nominal vs. real rates).
+
+### Changed
+- `README.md`: updated total question count (271, was 234), added the Graph
+  Practice mode description, corrected the Vocabulary count (38 — the 2026-07-11
+  11:21 audit had changed this from 32 but README wasn't updated at the time), and
+  updated the "Adding new questions" section to mention `questionType: "graph"`.
+- `docs/qa-checklist.md`: added Graph Practice mode checks, Graph badge checks,
+  diagram rendering/accessibility checks, diagram mobile-responsiveness checks, and
+  a graph-specific answer-choice/explanation-mapping check; extended the existing
+  answer-choice-shuffling check to cover Graph Practice and confirm diagrams don't
+  change when choices shuffle.
+- `index.html`: added a `#quiz-diagram` container inside the quiz card, above the
+  question stem.
+
+### Fixed
+- N/A (no bugs fixed by this change).
+
+### Notes
+- **Source grounding**: re-extracted `HarvardS10b_Class1.pptx`, `Class3.pptx`,
+  `Class4.pptx`, `Class5.pptx`, `DS1_solutions.pdf`, and `DS2_solutions.pdf` fresh
+  for this pass (Class 6/7, the ECB guest lecture, and DS3 were already in context
+  from earlier the same day). Class 1 and Class 5 turned out to have extensive,
+  explicitly-labeled shift diagrams with the shift-to-equilibrium outcome spelled
+  out directly in the slide bullet text; Class 4 had almost no extractable
+  axis-labeled graph content (mostly chart-only slides), so only 2 growth questions
+  were added, grounded in unambiguous verbal descriptions rather than an extracted
+  diagram. See the plan doc for the full per-source breakdown of what was used and
+  what was skipped (chart/photo-only slides, bond-pricing tables, the reserve-ratio
+  formula on its own).
+- **No verbatim copying**: all scenarios use fresh names/industries/goods (e.g.,
+  pharmaceuticals/furniture instead of Class 3's software/textiles, houseplants and
+  wheat instead of DS1's olive oil/butter/white bread), per the lesson from the
+  2026-07-11 11:21 audit.
+- `needsReview` count: **0** — every graph question's curve shape, shift direction,
+  and equilibrium outcome was checked against an explicit source description before
+  being added.
+- Validation: `node scripts/validate-data.mjs` reports 271 questions, 17 topics, 12
+  sources, 38 vocab, 40 formula, 37 graph (10 with an inline diagram), **0 errors,
+  0 warnings**.
+- QA: verified via a live headless-Chrome session driven over the Chrome DevTools
+  Protocol (not just a static page load) — clicked through Vocabulary, Formula, and
+  Graph Practice mode cards and confirmed each launches a correctly-filtered,
+  correctly-badged session; navigated to a diagram-bearing graph question and
+  confirmed the SVG, `role="img"` `aria-label`, and caption all render correctly;
+  captured a 375px-wide mobile screenshot of a diagram question showing it scales
+  responsively with no horizontal overflow and fully legible labels; answered a
+  graph question and confirmed feedback/explanations render; and exercised Reset
+  Progress (confirmed via `window.confirm` stub) returning the dashboard to 0
+  attempted with the full 271-question total intact.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged.
+- No files from `private-materials/` were staged or committed; the app remains a
+  static, no-build, no-backend site — GitHub Pages compatibility is unaffected.
+
 ## 2026-07-11 11:21 — New Question Quality Audit
 
 ### Added

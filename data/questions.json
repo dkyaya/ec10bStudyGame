@@ -7280,5 +7280,1255 @@
       "labor demand",
       "profit-maximizing hiring"
     ]
+  },
+  {
+    "id": "graph-ppc-001",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC Interpretation",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the PPC diagram shown, point A lies on the curve, point B lies inside the curve, and point C lies outside the curve. Which statement correctly describes these points?",
+    "choices": [
+      "A is efficient, B is inefficient (attainable but wasteful), and C is unattainable with current resources",
+      "A is inefficient, B is efficient, and C is attainable",
+      "A, B, and C are all efficient combinations, just using different resource mixes",
+      "C is efficient, B is unattainable, and A is inefficient"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Points ON the PPC (like A) are efficient -- all resources are fully and effectively used. Points INSIDE the curve (like B) are attainable but inefficient -- some resources are idle or misallocated, since more of both goods could be produced. Points OUTSIDE the curve (like C) are unattainable given the economy's current resources and technology.",
+    "wrongExplanations": [
+      null,
+      "This reverses the standard classification -- points ON the curve (A) are efficient, and points OUTSIDE the curve (C) are unattainable, not attainable.",
+      "Only points ON the curve are efficient; B lies strictly inside the curve, meaning resources are being wasted or underused.",
+      "This mislabels all three points -- efficiency belongs to points on the curve (A), not outside (C); unattainability belongs to points outside the curve (C), not inside (B)."
+    ],
+    "tags": [
+      "PPC",
+      "efficient point",
+      "attainable",
+      "unattainable"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A production possibilities curve bowed outward from the origin, with point A on the curve, point B inside the curve, and point C outside the curve.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Good X</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Good Y</text><path d=\"M 50,20 Q 190,50 230,160\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\"/><circle cx=\"165\" cy=\"70\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"140\" cy=\"105\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"210\" cy=\"45\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"172\" y=\"66\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">A</text><text x=\"147\" y=\"101\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">B</text><text x=\"217\" y=\"41\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">C</text></svg>"
+    }
+  },
+  {
+    "id": "graph-ppc-002",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC and Growth",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A country's PPC shows the maximum combinations of tablets and textbooks it can produce. If the country experiences overall economic growth (more resources and better technology across the whole economy), what happens to its PPC?",
+    "choices": [
+      "The entire PPC shifts outward, away from the origin",
+      "The entire PPC shifts inward, toward the origin",
+      "The PPC stays exactly the same, only the point chosen on it changes",
+      "The PPC becomes a straight line instead of a bowed curve"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Economic growth means the economy can now produce more of both goods than before with its resources, so every point on the PPC moves further from the origin -- an outward shift of the entire curve, as shown by Class 1's 'Shifts in PPF = Economic Growth' framing.",
+    "wrongExplanations": [
+      null,
+      "An inward shift would represent a decline in productive capacity (e.g., destruction of resources), the opposite of growth.",
+      "Growth changes what's achievable, not just which achievable point is chosen -- the curve itself moves outward.",
+      "Growth doesn't change the PPC's fundamental bowed (concave) shape, which comes from increasing opportunity costs, not from the level of resources available."
+    ],
+    "tags": [
+      "PPC",
+      "economic growth",
+      "shift"
+    ]
+  },
+  {
+    "id": "graph-ppc-003",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC and Technology",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1",
+      "ds1"
+    ],
+    "sourceLabel": "Class 1 slides and Discussion Session 1 Solutions",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "An island economy produces only fish and coconuts. A new fishing technology (better nets and boats) improves fish production, but has no effect on coconut farming. How does the island's PPC change?",
+    "choices": [
+      "The PPC shifts outward along the fish axis (more fish attainable at any coconut level), but the maximum coconut output stays the same",
+      "The entire PPC shifts outward proportionally in both directions",
+      "The PPC shifts outward along the coconut axis, but the maximum fish output stays the same",
+      "The PPC shifts inward, since specializing in fishing technology neglects coconut farming"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A technology improvement specific to fish production raises the maximum amount of fish the island can produce (the fish-axis intercept moves out), but doesn't change the maximum coconuts producible if all resources go to coconuts (the coconut-axis intercept is unchanged). This is the same logic DS1 uses for a technology improvement in honey production only shifting the joint PPC out along the honey axis.",
+    "wrongExplanations": [
+      null,
+      "A technology improvement in only ONE good's production doesn't proportionally expand the whole curve -- only the axis for the improved good moves.",
+      "This has the axes backwards -- the improvement is in fish, so it's the fish intercept that should move out, not the coconut intercept.",
+      "A technology improvement expands what's producible; it doesn't shrink the PPC, even though it only benefits one good."
+    ],
+    "tags": [
+      "PPC",
+      "technology",
+      "asymmetric shift"
+    ]
+  },
+  {
+    "id": "graph-ppc-004",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC Slope",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A PPC runs in a straight line from 80 units of Good A (with 0 of Good B) to 40 units of Good B (with 0 of Good A). If the economy moves along this PPC to produce 5 more units of Good B, how many units of Good A must it give up?",
+    "choices": [
+      "10 units of Good A",
+      "5 units of Good A",
+      "2 units of Good A",
+      "40 units of Good A"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The PPC's slope (in absolute value) is the opportunity cost of B in terms of A: 80 A / 40 B = 2 units of A per unit of B. Producing 5 more units of B therefore costs 5 x 2 = 10 units of A.",
+    "wrongExplanations": [
+      null,
+      "5 units of A would be the cost of 5 units of B only if the slope were 1-for-1, but here each unit of B costs 2 units of A.",
+      "2 units of A is the per-unit slope (opportunity cost of one unit of B), not the total cost of 5 additional units.",
+      "40 units of A is the entire A-axis intercept, not the cost of moving 5 units along the curve."
+    ],
+    "tags": [
+      "PPC",
+      "slope",
+      "opportunity cost"
+    ]
+  },
+  {
+    "id": "graph-supplydemand-001",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Market Equilibrium",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the supply-and-demand diagram shown, E marks the market equilibrium. What must be true at point E?",
+    "choices": [
+      "Quantity supplied equals quantity demanded, at price P* and quantity Q*",
+      "Quantity supplied exceeds quantity demanded, creating a surplus",
+      "Quantity demanded exceeds quantity supplied, creating a shortage",
+      "Sellers are on the demand curve and buyers are on the supply curve"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Market equilibrium (E) is defined as the point where the supply and demand curves intersect: quantity supplied equals quantity demanded at price P* and quantity Q*, with no tendency for price or quantity to change.",
+    "wrongExplanations": [
+      null,
+      "A surplus occurs away from equilibrium, when price is above P* -- not at the equilibrium point itself.",
+      "A shortage occurs away from equilibrium, when price is below P* -- not at the equilibrium point itself.",
+      "This reverses the curves -- buyers are on the demand curve and sellers are on the supply curve, not the other way around."
+    ],
+    "tags": [
+      "supply and demand",
+      "market equilibrium"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A standard supply and demand diagram with quantity on the horizontal axis and price on the vertical axis. The downward-sloping demand curve D and upward-sloping supply curve S cross at equilibrium point E, corresponding to equilibrium price P-star and quantity Q-star.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Price</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"135\" y1=\"90\" x2=\"135\" y2=\"160\" stroke=\"var(--border)\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><line x1=\"50\" y1=\"90\" x2=\"135\" y2=\"90\" stroke=\"var(--border)\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">D</text><text x=\"140\" y=\"84\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"38\" y=\"90\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">P*</text><text x=\"135\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Q*</text></svg>"
+    }
+  },
+  {
+    "id": "graph-supplydemand-002",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Demand Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1",
+      "ds1"
+    ],
+    "sourceLabel": "Class 1 slides and Discussion Session 1 Solutions",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Health researchers announce that a popular houseplant variety purifies indoor air more effectively than previously thought, and consumers rush to buy more of it at every price. In the market for this houseplant, this event causes:",
+    "choices": [
+      "The demand curve to shift right, raising both equilibrium price and quantity",
+      "The demand curve to shift left, lowering both equilibrium price and quantity",
+      "The supply curve to shift right, lowering equilibrium price and raising equilibrium quantity",
+      "A movement along the existing demand curve, with no shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A positive preference shock (people wanting more of the plant at every price) shifts the entire demand curve to the right. Per Class 1's shift diagrams, an increase in demand raises both the equilibrium price and the equilibrium quantity.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- favorable news increases demand (shifts it right), it doesn't decrease it.",
+      "The event changes how much buyers want at each price (a demand-side preference change), not how much sellers are willing to offer at each price -- supply is unaffected.",
+      "Because willingness to buy changes at every price (not just in response to a price change), this is a shift of the whole curve, not a movement along a fixed curve."
+    ],
+    "tags": [
+      "demand shift",
+      "supply and demand",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "graph-supplydemand-003",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Supply Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A severe drought destroys much of this year's wheat crop, sharply raising farmers' costs of bringing wheat to market. In the market for wheat, this event causes:",
+    "choices": [
+      "The supply curve to shift left, raising equilibrium price and lowering equilibrium quantity",
+      "The supply curve to shift right, lowering equilibrium price and raising equilibrium quantity",
+      "The demand curve to shift left, lowering both equilibrium price and quantity",
+      "A movement along the existing supply curve, with no shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Higher production costs mean sellers require a higher price to offer any given quantity, shifting the entire supply curve to the left (a decrease in supply). Per Class 1's shift diagrams, a decrease in supply raises the equilibrium price and lowers the equilibrium quantity.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- higher costs decrease supply (shift left), they don't increase it.",
+      "The drought is a cost/input shock affecting sellers, not a change in buyers' willingness to purchase wheat at each price -- demand is unaffected.",
+      "Because sellers' costs change at every price level (not just in response to a price change), this is a shift of the whole curve, not a movement along a fixed curve."
+    ],
+    "tags": [
+      "supply shift",
+      "supply and demand",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "graph-supplydemand-004",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Combined Shifts",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the market for a good, consumer preferences shift toward it (increasing demand) at the same time a key input becomes much cheaper to produce it (increasing supply), with the supply increase larger than the demand increase. In the diagram shown (D to D', S to S'), what happens to equilibrium price and quantity?",
+    "choices": [
+      "Quantity unambiguously increases; price falls because the supply increase dominates the demand increase",
+      "Quantity unambiguously increases; price rises because the demand increase dominates the supply increase",
+      "Quantity unambiguously decreases; price is ambiguous",
+      "Both price and quantity are impossible to determine without more information, even about direction"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "When demand and supply both increase, equilibrium quantity unambiguously rises (both shifts push quantity up). The price direction depends on which shift is larger: here, since supply increases more than demand, the diagram shows the new equilibrium E' at a lower price than the original E, even though quantity is higher -- matching Class 1's combined-shift example.",
+    "wrongExplanations": [
+      null,
+      "This gets the price direction backwards for this specific diagram -- since the supply shift is drawn larger than the demand shift, price falls, not rises, even though this direction WOULD be correct if demand had shifted more instead.",
+      "Both shifts (demand up, supply up) push equilibrium quantity up, not down -- quantity should not decrease here.",
+      "Quantity's direction is NOT ambiguous when both curves increase -- it unambiguously rises; only price's direction depends on the relative sizes of the two shifts, and the diagram shows that outcome clearly."
+    ],
+    "tags": [
+      "supply and demand",
+      "combined shift",
+      "compare graphs"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A supply and demand diagram where both the demand curve (D to D') and supply curve (S to S') shift to the right, with the supply shift larger than the demand shift. The equilibrium moves from E to E', with quantity increasing and price falling.",
+      "svg": "<svg viewBox=\"0 0 270 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Price</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"80\" y1=\"30\" x2=\"230\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"100\" y1=\"150\" x2=\"250\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"165\" cy=\"98\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"140\" y=\"84\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"170\" y=\"106\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">D</text><text x=\"233\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S'</text><text x=\"80\" y=\"168\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">D'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-labor-001",
+    "topic": "labor-markets",
+    "subtopic": "Labor Demand Curve",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The labor demand curve, as taught in Class 3, plots the wage against employment and slopes downward. What does this downward slope reflect?",
+    "choices": [
+      "Diminishing returns to labor: as more workers are hired, the value of the marginal product of each additional worker falls, so firms will only hire more workers at a lower wage",
+      "Workers become less willing to work as the wage rises",
+      "Firms prefer to hire fewer, more expensive workers as the wage falls",
+      "The price of the firm's output falls as employment increases"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 3 explains that a firm hires an additional worker only if that worker's value of marginal product (VMP) exceeds the wage. Diminishing returns to labor mean VMP falls as more workers are added, so firms are only willing to hire more workers (move rightward along the demand curve) at successively lower wages -- the downward slope of labor demand.",
+    "wrongExplanations": [
+      null,
+      "This describes labor SUPPLY behavior (which slopes upward, not downward) -- labor demand is about firms' hiring decisions, not workers' willingness to work.",
+      "This has the relationship backwards -- firms hire MORE workers, not fewer, as the wage falls, since more workers become profitable to hire at a lower wage.",
+      "The demand curve doesn't assume the output price is changing as employment changes; it's diminishing returns to labor (falling marginal product), not a changing output price, that generates the downward slope."
+    ],
+    "tags": [
+      "labor demand",
+      "VMP",
+      "diminishing returns"
+    ]
+  },
+  {
+    "id": "graph-labor-002",
+    "topic": "labor-markets",
+    "subtopic": "Labor Supply Curve",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The labor supply curve, as taught in Class 3, slopes upward when plotted against the real wage. What does this upward slope reflect?",
+    "choices": [
+      "At a higher real wage, more people are willing to work, since work must compensate them for the leisure time and other opportunities they give up",
+      "At a higher real wage, firms want to hire more workers",
+      "At a higher real wage, the value of marginal product of labor rises",
+      "At a higher real wage, fewer people are willing to work because they can meet their needs with less labor"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 3 states the labor supply curve slopes up because a higher real wage draws more people into the workforce -- wages compensate workers for forgone leisure, and each individual has a reservation wage below which they won't work; a higher market wage clears more people's reservation wages.",
+    "wrongExplanations": [
+      null,
+      "This describes labor DEMAND (firms' hiring decisions), not labor supply (workers' willingness to work).",
+      "VMP is a labor-demand-side concept describing what determines how many workers firms want to hire, not why labor supply slopes upward.",
+      "This describes a backward-bending supply response, which is not the basic upward-sloping labor supply relationship Class 3 teaches; higher wages are shown as drawing MORE people into work, not fewer."
+    ],
+    "tags": [
+      "labor supply",
+      "reservation wage"
+    ]
+  },
+  {
+    "id": "graph-labor-003",
+    "topic": "labor-markets",
+    "subtopic": "Labor Demand Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A wave of new equipment makes each worker in a manufacturing plant substantially more productive, while the price of the plant's output and the number of available workers stay the same. In the diagram shown (D shifts to D', S fixed), what happens to the equilibrium wage and employment?",
+    "choices": [
+      "Both the equilibrium wage and equilibrium employment rise",
+      "Both the equilibrium wage and equilibrium employment fall",
+      "The equilibrium wage rises, but equilibrium employment falls",
+      "Equilibrium wage and employment are unaffected, since labor supply didn't change"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Higher worker productivity raises the value of marginal product of labor at every level of employment, shifting the labor demand curve right (D to D'). With labor supply unchanged, the new equilibrium E' has both a higher wage and higher employment than the original E -- exactly the long-run pattern Class 3 describes for productivity-driven wage growth.",
+    "wrongExplanations": [
+      null,
+      "A rightward demand shift raises, not lowers, both the equilibrium wage and employment -- this describes what a leftward shift would do instead.",
+      "With a pure rightward demand shift (supply unchanged), employment rises along with the wage, not falls -- both move in the same direction.",
+      "The scenario describes a productivity change, which is a labor demand shifter -- it's supply that's unaffected, but demand shifting still moves the equilibrium wage and employment even with supply fixed."
+    ],
+    "tags": [
+      "labor demand",
+      "productivity",
+      "shift",
+      "equilibrium wage"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A labor market diagram with employment on the horizontal axis and real wage on the vertical axis. Labor demand D shifts right to D', while labor supply S stays fixed. Equilibrium moves from E to E', with both wage and employment rising.",
+      "svg": "<svg viewBox=\"0 0 270 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Employment</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Real Wage</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"90\" y1=\"30\" x2=\"240\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"150\" cy=\"78\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"122\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"163\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">D</text><text x=\"243\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">D'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-labor-004",
+    "topic": "labor-markets",
+    "subtopic": "Labor Supply Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class3",
+      "ds2"
+    ],
+    "sourceLabel": "Class 3 slides and Discussion Session 2 Solutions",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A national licensing board raises the minimum years of required training to become a registered nurse, sharply reducing the number of new nurses entering the profession each year, while demand for nursing services is unchanged. What happens to the equilibrium wage and quantity of nurses employed?",
+    "choices": [
+      "The equilibrium wage rises and the equilibrium quantity of nurses employed falls",
+      "The equilibrium wage falls and the equilibrium quantity of nurses employed rises",
+      "Both the equilibrium wage and quantity of nurses employed rise",
+      "Neither the equilibrium wage nor quantity changes, since labor demand didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Restricting entry into the profession reduces the number of people willing/able to work as nurses at every wage, shifting the labor supply curve left. With labor demand unchanged, the new equilibrium has a higher wage (nurses are scarcer) and lower employment (fewer nurses are hired) -- the same logic Discussion Session 2 applies to a reduced pool of pilots.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a leftward supply shift raises the wage and lowers employment, it doesn't lower the wage and raise employment.",
+      "A leftward labor supply shift raises the wage but LOWERS employment, not raises it -- fewer nurses are available to hire.",
+      "The wage and quantity both change even though it's supply (not demand) that shifted -- a shift in either curve moves the equilibrium, since supply and demand jointly determine the equilibrium point."
+    ],
+    "tags": [
+      "labor supply",
+      "shift",
+      "equilibrium wage"
+    ]
+  },
+  {
+    "id": "graph-labor-005",
+    "topic": "inequality-globalization-sbtc",
+    "subtopic": "Globalization and Wages",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A country opens to international trade. It has a comparative advantage in producing pharmaceuticals but not in producing furniture. As trade expands, the country exports more pharmaceuticals and imports more furniture. Comparing the labor market diagrams for the pharmaceutical industry and the furniture industry, which best describes what happens?",
+    "choices": [
+      "Labor demand shifts right in the pharmaceutical industry (raising wages and employment there), while labor demand shifts left in the furniture industry (lowering wages and employment there)",
+      "Labor demand shifts right in both industries, raising wages and employment in both",
+      "Labor demand shifts left in both industries, lowering wages and employment in both",
+      "Labor supply (not labor demand) shifts in both industries, while labor demand stays fixed in each"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This mirrors Class 3's globalization/specialization example: as the export industry (pharmaceuticals here) sees rising demand for its output, the value of marginal product of its workers rises, shifting labor demand right and raising wages and employment there. As the import-competing industry (furniture here) loses domestic sales to imports, the value of marginal product of its workers falls, shifting labor demand left and lowering wages and employment there -- creating a wage differential between the two industries where none existed before.",
+    "wrongExplanations": [
+      null,
+      "Only the export industry's labor demand shifts right; the import-competing industry's labor demand shifts left, not right, as domestic sales are lost to imports.",
+      "Only the import-competing industry's labor demand shifts left; the export industry's labor demand shifts right, not left, as export demand rises.",
+      "The mechanism here works through labor DEMAND (via each industry's changing sales and output prices), not labor supply, which Class 3 holds fixed in this example."
+    ],
+    "tags": [
+      "globalization",
+      "labor demand",
+      "trade",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "graph-labor-006",
+    "topic": "inequality-globalization-sbtc",
+    "subtopic": "Skill-Biased Technological Change",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A new wave of workplace technology increases the productivity of highly-educated, technically-trained workers much more than it does workers without that training, while the number of workers in each group and the price of output are unchanged. Comparing the labor market diagrams for skilled and unskilled workers, which best describes what happens?",
+    "choices": [
+      "Labor demand shifts right for skilled workers (raising their wage and employment), while labor demand shifts right much less (or not at all) for unskilled workers, widening the wage gap between the two groups",
+      "Labor demand shifts right equally for both skilled and unskilled workers, so the wage gap between them is unchanged",
+      "Labor demand shifts left for skilled workers and right for unskilled workers, narrowing the wage gap",
+      "Labor supply shifts right for skilled workers only, while labor demand is unaffected for both groups"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This is skill-biased technological change, as Class 3 describes it: technology raises the marginal product of higher-skilled workers by more than it raises the marginal product of lower-skilled workers. Because the productivity gain (and therefore the labor demand shift) is uneven across the two groups, skilled workers' wage and employment rise more than unskilled workers', widening wage inequality between them.",
+    "wrongExplanations": [
+      null,
+      "If demand shifted equally for both groups, the wage gap would stay the same -- but skill-biased technological change is defined by an UNEVEN shift that favors skilled workers, which is what drives rising inequality.",
+      "Skill-biased technological change raises the marginal product of skilled workers, shifting their demand right, not left; it doesn't primarily benefit unskilled workers' demand.",
+      "The mechanism is a change in productivity, which shifts labor DEMAND (via VMP), not labor supply -- the number of workers in each group is held fixed in this scenario."
+    ],
+    "tags": [
+      "skill-biased technological change",
+      "labor demand",
+      "inequality",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-001",
+    "topic": "loanable-funds",
+    "subtopic": "Loanable Funds Curves",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the loanable funds market diagram taught in Class 5, the vertical axis is the real interest rate and the horizontal axis is the quantity of saving and investment. Which of the following correctly describes the two curves?",
+    "choices": [
+      "The saving (S) curve slopes upward and the investment (I) curve slopes downward, both plotted against the real interest rate",
+      "The saving (S) curve slopes downward and the investment (I) curve slopes upward",
+      "Both the saving and investment curves slope upward",
+      "Both the saving and investment curves slope downward"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 5 presents saving as an upward-sloping curve (a higher real interest rate is a greater marginal benefit of saving, so people save more) and investment demand as a downward-sloping curve (a higher real interest rate raises the cost of financing investment, so firms invest less).",
+    "wrongExplanations": [
+      null,
+      "This reverses the two curves' slopes -- saving is upward-sloping (more saving at a higher rate) and investment is downward-sloping (less investment at a higher rate), not the other way around.",
+      "Investment demand slopes downward, not upward, in the real interest rate -- only saving slopes upward.",
+      "Saving slopes upward, not downward, in the real interest rate -- only investment demand slopes downward."
+    ],
+    "tags": [
+      "loanable funds",
+      "saving",
+      "investment"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-002",
+    "topic": "loanable-funds",
+    "subtopic": "Budget Deficits and Crowding Out",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The government's budget deficit increases, reducing national saving while investment demand is unchanged. In the diagram shown (S shifts to S', I fixed), what happens to the equilibrium real interest rate and the level of investment?",
+    "choices": [
+      "The real interest rate rises, and investment falls (a movement up along the fixed investment demand curve) -- private investment is crowded out",
+      "The real interest rate falls, and investment rises",
+      "The real interest rate rises, and investment also rises",
+      "Neither the real interest rate nor investment changes, since investment demand itself didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A larger budget deficit reduces national saving, shifting the saving curve left (S to S'). With investment demand unchanged, the new equilibrium E' sits higher up the same investment demand curve: the real interest rate rises, and the higher rate causes a movement along the (unshifted) investment demand curve to a lower quantity of investment -- private investment is crowded out, exactly as Class 5 describes.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a leftward shift in saving raises the interest rate and lowers investment, not the reverse.",
+      "The interest rate does rise, but investment falls (not rises) as a result -- higher rates discourage investment, moving the economy up and to the left along the investment demand curve.",
+      "Even though investment DEMAND doesn't shift, the equilibrium level of investment still changes, because the equilibrium point moves along the investment demand curve in response to the change in the interest rate caused by the saving shift."
+    ],
+    "tags": [
+      "loanable funds",
+      "budget deficit",
+      "crowding out",
+      "shift"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A loanable funds diagram with saving and investment on the horizontal axis and the real interest rate on the vertical axis. The saving curve S shifts left to S', while the investment demand curve I stays fixed. Equilibrium moves from E to E', with the real interest rate rising and investment falling.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Saving and Investment</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Real Interest Rate</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"30\" y1=\"150\" x2=\"180\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"120\" cy=\"78\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"140\" y=\"84\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"96\" y=\"72\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">I</text><text x=\"26\" y=\"148\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-loanablefunds-003",
+    "topic": "loanable-funds",
+    "subtopic": "Technology and Investment Demand",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A wave of new technology raises the marginal productivity of capital, increasing firms' demand for loanable funds at every interest rate, while the saving curve is unchanged. In the diagram shown (I shifts to I', S fixed), what happens to the equilibrium real interest rate and the level of saving/investment?",
+    "choices": [
+      "The real interest rate rises, and the equilibrium level of saving and investment both rise",
+      "The real interest rate falls, and the equilibrium level of saving and investment both fall",
+      "The real interest rate rises, but the equilibrium level of saving and investment both fall",
+      "The real interest rate is unaffected, since saving didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Higher marginal productivity of capital increases investment demand at every interest rate, shifting the investment demand curve right (I to I'). With saving unchanged, the new equilibrium E' is both a higher interest rate and a higher quantity of saving and investment -- the higher rate induces more saving (a movement along the fixed saving curve) to fund the higher investment demand, exactly as Class 5 describes.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a rightward shift in investment demand raises the interest rate and raises saving/investment, not lowers them.",
+      "The interest rate does rise, but saving and investment both rise as a result (not fall) -- the higher rate draws out more saving to match the higher investment demand.",
+      "The interest rate does change even though saving itself doesn't shift, because the equilibrium point moves along the (unshifted) saving curve in response to the shift in investment demand."
+    ],
+    "tags": [
+      "loanable funds",
+      "technology",
+      "investment demand",
+      "shift"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A loanable funds diagram with saving and investment on the horizontal axis and the real interest rate on the vertical axis. The investment demand curve I shifts right to I', while the saving curve S stays fixed. Equilibrium moves from E to E', with both the real interest rate and the level of saving and investment rising.",
+      "svg": "<svg viewBox=\"0 0 270 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Saving and Investment</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Real Interest Rate</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"90\" y1=\"30\" x2=\"240\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"150\" cy=\"78\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"122\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"163\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">I</text><text x=\"243\" y=\"153\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">I'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-loanablefunds-004",
+    "topic": "loanable-funds",
+    "subtopic": "Movement versus Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A student looks at the loanable funds diagram for the budget-deficit scenario (S shifts left, I fixed) and says: 'The line labeled I must have shifted left too, since the equilibrium interest rate went up.' What is wrong with this interpretation?",
+    "choices": [
+      "The interest rate rose because of a movement along the unchanged investment demand curve (caused by the saving shift), not because the investment demand curve itself shifted",
+      "The interest rate didn't actually rise in this scenario, so the student's premise is wrong",
+      "The I curve did shift, but it shifted right, not left",
+      "There's nothing wrong -- the I curve shifting left is a valid explanation for a higher interest rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A higher equilibrium interest rate can result from EITHER curve shifting -- a leftward shift of saving, or a leftward shift of investment demand, would each raise the equilibrium rate on its own. In this specific scenario, only the saving curve shifts (due to the larger deficit); the investment demand curve stays fixed, and the new equilibrium is found by moving along that same fixed curve. The student incorrectly assumes any interest-rate change must mean the OTHER curve shifted, rather than checking what actually caused the change.",
+    "wrongExplanations": [
+      null,
+      "The interest rate does rise in this scenario -- the crowding-out story explicitly involves a higher interest rate; the error is in what the student attributes the rise to, not whether it happened.",
+      "The investment demand curve doesn't shift at all in this scenario -- Class 5 attributes the crowding-out story entirely to a leftward shift in saving with investment demand held fixed.",
+      "This mistakes a movement along a fixed curve for a shift of that same curve -- a classic graph-reading error, not a valid alternative explanation."
+    ],
+    "tags": [
+      "loanable funds",
+      "movement versus shift",
+      "error identification"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-005",
+    "topic": "loanable-funds",
+    "subtopic": "Surplus and Shortage",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the loanable funds market, if the real interest rate is currently ABOVE its equilibrium level, what results?",
+    "choices": [
+      "A surplus of saving (the quantity of saving supplied exceeds the quantity of investment funds demanded)",
+      "A shortage of saving (the quantity of investment funds demanded exceeds the quantity of saving supplied)",
+      "The market remains in equilibrium regardless of the interest rate",
+      "Both saving and investment demand curves shift until the surplus disappears"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 5 states that if the real interest rate is above equilibrium, there is a surplus of saving: at that high rate, savers want to supply more funds than borrowers want to demand at that rate, since saving increases and investment decreases as the rate rises above equilibrium.",
+    "wrongExplanations": [
+      null,
+      "A shortage results from a rate BELOW equilibrium, not above it -- above equilibrium produces a surplus, the opposite case.",
+      "The market is only in equilibrium exactly at the equilibrium interest rate; away from it (as here), there is a surplus or shortage.",
+      "A surplus is resolved by the interest rate itself falling back toward equilibrium (a movement along both curves), not by the curves shifting."
+    ],
+    "tags": [
+      "loanable funds",
+      "surplus",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-006",
+    "topic": "loanable-funds",
+    "subtopic": "Cost of Investment",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Two separate events both make investment more expensive for firms: (1) the real interest rate itself rises, and (2) the price of new capital equipment rises. In the loanable funds diagram, how do these two events differ in how they show up?",
+    "choices": [
+      "A rise in the real interest rate is a movement along the (fixed) investment demand curve; a rise in the price of capital equipment shifts the investment demand curve left",
+      "Both events are movements along the investment demand curve; neither shifts it",
+      "Both events shift the investment demand curve left",
+      "A rise in the real interest rate shifts investment demand left; a rise in the price of capital equipment is a movement along the curve"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The real interest rate is the variable plotted on the loanable funds diagram's vertical axis, so a change in it moves the economy along the existing investment demand curve. The price of capital equipment is a determinant of the cost of investment that is NOT on either axis -- per Class 5, the cost of investment depends on both the price of capital goods and the real interest rate -- so a rise in the price of capital goods (holding the interest rate fixed) makes investment less attractive at every interest rate, shifting the investment demand curve left.",
+    "wrongExplanations": [
+      null,
+      "The price-of-capital-goods change is not captured by moving along the existing curve -- it changes how much investment firms want at every interest rate, which requires shifting the curve, not just moving along it.",
+      "Only the price-of-capital-goods change shifts the curve; the interest-rate change is a movement along the existing curve, not a shift.",
+      "This reverses the two -- the real interest rate is the axis variable (its own change means a movement along the curve), while the price of capital goods is an off-axis determinant (its change shifts the curve)."
+    ],
+    "tags": [
+      "loanable funds",
+      "movement versus shift",
+      "user cost of capital"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-007",
+    "topic": "loanable-funds",
+    "subtopic": "Open Economy and S + KI = I",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In a closed economy, the equilibrium real interest rate is determined by S = I alone. Now suppose the economy opens up and receives positive net capital inflows (KI > 0) at every interest rate, so the identity becomes S + KI = I. Compared to the closed-economy diagram, how does the open economy's loanable-funds diagram change, and what happens to the equilibrium real interest rate and investment?",
+    "choices": [
+      "The effective supply of funds available for investment (S + KI) is greater than S alone at every interest rate, shifting the effective supply curve right; the equilibrium real interest rate is lower and investment is higher than in the closed economy",
+      "The effective supply of funds (S + KI) is smaller than S alone, shifting the effective supply curve left; the equilibrium real interest rate is higher and investment is lower",
+      "Capital inflows only affect the investment demand curve, shifting it right, while the supply curve is unaffected",
+      "Capital inflows have no graphical effect; they only appear in the NX + KI = 0 identity, not in the loanable funds diagram"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Since S + KI = I, positive net capital inflows add to domestic saving as a source of funds for investment at every interest rate, shifting the effective supply-of-funds curve (S + KI) to the right of the closed economy's S curve alone. Per Class 5's own statement that 'capital inflows mean more investment and lower interest rates,' the open economy reaches equilibrium at a lower real interest rate and a higher level of investment than the closed economy would with saving alone.",
+    "wrongExplanations": [
+      null,
+      "Positive net capital inflows ADD to the funds available for investment (foreign saving supplementing domestic saving), shifting effective supply right, not left -- this choice has the direction backwards.",
+      "Capital inflows are additional funds supplied for investment, not a change in firms' demand for those funds -- they affect the supply side (S + KI) of the diagram, not the investment demand curve.",
+      "Class 5 explicitly ties the S + KI = I identity to a graphical result (lower interest rate, more investment) -- capital inflows do have a direct effect on the loanable funds diagram, not just on the separate trade-balance identity."
+    ],
+    "tags": [
+      "loanable funds",
+      "capital flows",
+      "open economy",
+      "S + KI = I"
+    ]
+  },
+  {
+    "id": "graph-loanablefunds-008",
+    "topic": "loanable-funds",
+    "subtopic": "Private Saving Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Households become more worried about job security and sharply increase precautionary saving out of every dollar of income, while investment demand is unchanged. What happens to the equilibrium real interest rate and the level of investment?",
+    "choices": [
+      "The real interest rate falls, and investment rises (a movement down along the fixed investment demand curve)",
+      "The real interest rate rises, and investment falls",
+      "The real interest rate falls, and investment also falls",
+      "Neither changes, since investment demand itself didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "An increase in precautionary saving shifts the saving curve right (more saving supplied at every interest rate). With investment demand unchanged, the new equilibrium sits lower on the same investment demand curve: the real interest rate falls, and the lower rate causes a movement along the unshifted investment demand curve to a higher quantity of investment -- the mirror image of the budget-deficit crowding-out story.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a rightward shift in saving lowers the interest rate and raises investment, not the reverse (that describes a leftward saving shift, like the budget-deficit case).",
+      "The interest rate does fall, but investment RISES as a result (not falls) -- the lower rate makes more investment projects profitable, moving the economy along the investment demand curve.",
+      "Even though investment demand itself doesn't shift, the equilibrium level of investment still changes, because the equilibrium point moves along the investment demand curve in response to the interest-rate change caused by the saving shift."
+    ],
+    "tags": [
+      "loanable funds",
+      "saving",
+      "precautionary saving",
+      "shift"
+    ]
+  },
+  {
+    "id": "graph-capitalflows-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Inflow Curve",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the capital-inflow curve taught in Class 5, plotted against the domestic real interest rate, the curve slopes upward. What does this upward slope reflect?",
+    "choices": [
+      "Higher domestic real interest rates make domestic assets more attractive to foreign investors, increasing capital inflows",
+      "Higher domestic real interest rates make domestic assets less attractive to foreign investors, decreasing capital inflows",
+      "Higher domestic real interest rates cause more domestic saving to flow abroad",
+      "Higher domestic real interest rates increase the trade deficit directly, with no role for foreign investors"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 5 states that higher domestic interest rates mean greater capital inflows, since foreign investors earn a better return on domestic assets relative to what's available elsewhere -- the key is the relative interest-rate difference. This is why the capital-inflow curve slopes upward in the domestic real interest rate.",
+    "wrongExplanations": [
+      null,
+      "This has the relationship backwards -- Class 5 states HIGHER domestic rates attract MORE capital inflows (make domestic assets more attractive), not fewer.",
+      "This describes capital OUTFLOWS (domestic savers buying foreign assets), which would actually decrease, not increase, as domestic rates become relatively more attractive.",
+      "The trade deficit is linked to capital inflows through the NX + KI = 0 identity, but the direct mechanism shown on this curve is investors' asset-purchase decisions, not the trade balance itself."
+    ],
+    "tags": [
+      "capital flows",
+      "capital inflows",
+      "real interest rate"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A diagram with net capital inflows on the horizontal axis and the domestic real interest rate on the vertical axis. The capital-inflow curve KI slopes upward, showing that higher domestic interest rates attract more capital inflows.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Net Capital Inflows (KI)</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Domestic Real Interest Rate</text><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">KI</text></svg>"
+    }
+  },
+  {
+    "id": "graph-capitalflows-002",
+    "topic": "capital-flows",
+    "subtopic": "Risk and Capital Inflows",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Investors around the world become more worried about a country's political stability and the security of its property rights. In the diagram shown (KI shifts to KI'), what happens to that country's capital-inflow curve, holding the real interest rate fixed?",
+    "choices": [
+      "The capital-inflow curve shifts left: at any given real interest rate, fewer capital inflows occur than before",
+      "The capital-inflow curve shifts right: at any given real interest rate, more capital inflows occur than before",
+      "The curve doesn't shift; there is only a movement along the existing curve",
+      "The capital-inflow curve becomes perfectly vertical, since risk eliminates any relationship with the interest rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 5 states directly that an increase in the perceived riskiness of domestic assets shifts the capital-inflow curve to the left: foreigners become less willing to buy the now-riskier domestic assets (and domestic savers become more willing to buy foreign assets instead), so capital inflows fall at every level of the real interest rate.",
+    "wrongExplanations": [
+      null,
+      "Class 5 states increased riskiness shifts the curve left (decreasing inflows at every rate), not right -- this choice has the direction backwards.",
+      "Risk is not the variable on either axis of this diagram (the axes are the real interest rate and net capital inflows), so a change in perceived risk shifts the whole curve rather than just moving along it.",
+      "Class 5 doesn't describe risk as eliminating the interest-rate relationship -- the curve keeps its normal upward slope, it just shifts to a less favorable position."
+    ],
+    "tags": [
+      "capital flows",
+      "risk",
+      "shift"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A diagram with net capital inflows on the horizontal axis and the domestic real interest rate on the vertical axis. The capital-inflow curve shifts left from KI to KI', showing fewer capital inflows at every interest rate after a rise in perceived risk.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Net Capital Inflows (KI)</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Domestic Real Interest Rate</text><line x1=\"60\" y1=\"150\" x2=\"210\" y2=\"30\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"30\" y1=\"150\" x2=\"180\" y2=\"30\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">KI</text><text x=\"26\" y=\"148\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">KI'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-capitalflows-003",
+    "topic": "capital-flows",
+    "subtopic": "Movement versus Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A country's domestic real interest rate rises relative to rates available abroad, with no change in perceived risk. On the capital-inflow curve, does this represent a shift of the curve or a movement along it?",
+    "choices": [
+      "A movement along the existing capital-inflow curve, since the real interest rate is the variable plotted on the vertical axis",
+      "A shift of the entire capital-inflow curve to the right",
+      "A shift of the entire capital-inflow curve to the left",
+      "Neither -- capital inflows are completely unresponsive to the domestic interest rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The capital-inflow curve is plotted with the domestic real interest rate on the vertical axis, so a change in that same interest rate -- holding risk and foreign returns fixed -- traces out a movement along the existing curve (to a higher point on the same upward-sloping curve), not a shift of the whole curve.",
+    "wrongExplanations": [
+      null,
+      "A curve shift requires a change in something NOT on either axis (like risk); a change in the interest rate itself, which IS the vertical axis variable, produces a movement along the curve instead.",
+      "Same issue as the other shift option -- an interest-rate change is a movement along the curve, not a shift, regardless of direction.",
+      "Class 5 explicitly grounds the capital-inflow curve's upward slope in interest-rate responsiveness -- capital inflows do respond to the domestic real interest rate."
+    ],
+    "tags": [
+      "capital flows",
+      "movement versus shift",
+      "real interest rate"
+    ]
+  },
+  {
+    "id": "graph-capitalflows-004",
+    "topic": "capital-flows",
+    "subtopic": "Movement versus Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A student sees that a country's domestic real interest rate rose and its capital inflows increased, and concludes: 'The capital-inflow curve must have shifted right, since capital inflows went up.' What is the error in this reasoning?",
+    "choices": [
+      "If the interest rate itself rose and nothing else (like risk) changed, the increase in capital inflows is a movement along the unchanged curve, not evidence that the curve shifted",
+      "There is no error -- rising capital inflows always means the curve shifted right",
+      "The error is that capital inflows must have actually decreased, not increased",
+      "The error is that the curve shifted left, not right"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "An increase in capital inflows can come from EITHER a movement along a fixed curve (caused by a change in the domestic interest rate itself) OR a rightward shift of the curve (caused by something else, like reduced risk). The student assumes any increase in capital inflows must mean the curve shifted, without checking what actually caused the change -- here, it was the interest rate itself rising, which is a movement along the existing curve.",
+    "wrongExplanations": [
+      null,
+      "This is exactly the error being tested -- rising capital inflows do NOT always mean the curve shifted; they can also result from a movement along a fixed curve when the interest rate itself changes.",
+      "The scenario states capital inflows increased; there's no reason to think they actually decreased.",
+      "The curve doesn't need to shift at all in this scenario -- the change in inflows is fully explained by the movement along the existing curve caused by the interest-rate change."
+    ],
+    "tags": [
+      "capital flows",
+      "movement versus shift",
+      "error identification"
+    ]
+  },
+  {
+    "id": "graph-capitalflows-005",
+    "topic": "capital-flows",
+    "subtopic": "Open versus Closed Economy",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Compare two versions of the same economy's loanable funds diagram: one is a closed economy (equilibrium where S = I), the other is an open economy receiving positive net capital inflows (equilibrium where S + KI = I). Which statement correctly compares the two diagrams' equilibria?",
+    "choices": [
+      "The open economy's effective supply-of-funds curve lies to the right of the closed economy's saving curve, producing a lower equilibrium real interest rate and a higher level of investment",
+      "The two diagrams are identical, since KI doesn't affect the loanable funds market",
+      "The open economy's effective supply curve lies to the left of the closed economy's, producing a higher equilibrium real interest rate and lower investment",
+      "The open economy has a different investment demand curve than the closed economy, while the supply curve is the same in both"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Positive net capital inflows add foreign funds on top of domestic saving (S + KI), shifting the effective supply-of-funds curve to the right of the closed economy's saving-only curve. This produces a lower equilibrium real interest rate and supports a higher level of investment than the closed economy could achieve with domestic saving alone -- directly reflecting Class 5's statement that capital inflows mean more investment and lower interest rates.",
+    "wrongExplanations": [
+      null,
+      "The S + KI = I identity shows capital inflows directly add to the funds available for investment, so the two diagrams are not identical -- KI does shift the effective supply curve.",
+      "This has the direction backwards -- ADDING capital inflows increases the funds available (shifts supply right), lowering the rate and raising investment, not the reverse.",
+      "It's the supply side (S versus S + KI) that differs between the two economies, not the investment demand curve, which reflects firms' investment decisions and isn't inherently different between an open and closed economy in this comparison."
+    ],
+    "tags": [
+      "capital flows",
+      "loanable funds",
+      "open economy",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "graph-capitalflows-006",
+    "topic": "capital-flows",
+    "subtopic": "Saving, Interest Rates, and the Trade Balance",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A country's national saving rate falls sharply while its investment demand is unchanged. Tracing the effects through both the loanable funds market and the NX + KI = 0 identity, what should happen to the country's real interest rate, net capital inflows, and trade balance?",
+    "choices": [
+      "The real interest rate rises (saving curve shifts left), which increases net capital inflows (a movement along the capital-inflow curve), which in turn implies a trade deficit (since NX = -KI)",
+      "The real interest rate falls, net capital inflows decrease, and the country runs a trade surplus",
+      "The real interest rate rises, but net capital inflows and the trade balance are unaffected, since they're determined independently of the loanable funds market",
+      "Lower national saving directly causes a trade deficit, with no change in the real interest rate or capital inflows"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A fall in national saving shifts the saving curve left in the loanable funds market, raising the equilibrium real interest rate (same crowding-out logic as a larger budget deficit). That higher domestic interest rate makes domestic assets more attractive to foreign investors, increasing net capital inflows (a movement along the upward-sloping capital-inflow curve). Since NX + KI = 0, positive and rising net capital inflows imply a trade deficit -- exactly the link Class 5 draws between low national saving and trade deficits.",
+    "wrongExplanations": [
+      null,
+      "This has the interest rate and capital-inflow directions backwards -- lower saving raises (not lowers) the interest rate, which increases (not decreases) capital inflows, and the country ends up with a deficit, not a surplus.",
+      "Class 5 explicitly links the loanable funds market to capital flows and the trade balance through the real interest rate -- these markets are connected, not independent.",
+      "The link runs through the interest rate and capital inflows, not directly -- lower saving doesn't cause a trade deficit by itself without the interest-rate and capital-flow mechanism in between."
+    ],
+    "tags": [
+      "capital flows",
+      "loanable funds",
+      "trade deficit",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "graph-money-001",
+    "topic": "money-banking",
+    "subtopic": "Money Market Curves",
+    "difficulty": "easy",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the money market diagram shown, Md is downward-sloping and Ms is vertical. What does the vertical shape of Ms represent?",
+    "choices": [
+      "The money supply is set directly by the Fed's policy choices, not by the interest rate, so it doesn't change with the interest rate",
+      "The money supply increases automatically as the interest rate rises",
+      "The money supply decreases automatically as the interest rate rises",
+      "The money supply and money demand are the same curve"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The Fed controls the money supply through tools like open-market bond purchases/sales and the required reserve ratio -- it doesn't passively respond to the interest rate the way money demand does. This is represented as a vertical line at whatever quantity the Fed has chosen, regardless of the interest rate (the vertical axis).",
+    "wrongExplanations": [
+      null,
+      "A vertical line means the quantity supplied doesn't change with the interest rate at all -- it isn't sloping upward with the rate, it's simply fixed.",
+      "Same issue -- a vertical line doesn't slope downward either; the whole point of the vertical shape is that Ms doesn't respond to the interest rate.",
+      "Md and Ms are two distinct curves that cross at the equilibrium interest rate E -- they represent different behaviors (demand for money vs. the Fed's supply choice), not the same curve."
+    ],
+    "tags": [
+      "money market",
+      "money supply",
+      "money demand"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A money market diagram with quantity of money on the horizontal axis and the nominal interest rate on the vertical axis. The downward-sloping money demand curve Md and the vertical money supply line Ms cross at equilibrium point E.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Money</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Nominal Interest Rate</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"135\" y1=\"20\" x2=\"135\" y2=\"160\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"140\" y=\"84\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Md</text><text x=\"140\" y=\"25\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Ms</text></svg>"
+    }
+  },
+  {
+    "id": "graph-money-002",
+    "topic": "money-banking",
+    "subtopic": "Open Market Operations",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The Fed conducts an open-market purchase, buying government bonds from banks. In the diagram shown (Ms shifts to Ms'), what happens to the equilibrium nominal interest rate?",
+    "choices": [
+      "The equilibrium nominal interest rate falls, as the money supply curve shifts right and intersects the unchanged money demand curve at a lower rate",
+      "The equilibrium nominal interest rate rises, as the money supply curve shifts left",
+      "The equilibrium nominal interest rate is unaffected, since only the Fed's balance sheet changes",
+      "The money demand curve shifts left in response, offsetting the change in supply"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Buying bonds injects new reserves into the banking system, increasing the money supply -- the vertical Ms line shifts right (to Ms'). With money demand unchanged, the new equilibrium E' is found where the fixed Md curve crosses the new, further-right Ms' line: a lower equilibrium nominal interest rate, exactly as Discussion Session 3 concludes for Fed bond purchases.",
+    "wrongExplanations": [
+      null,
+      "Buying bonds increases the money supply (shifts Ms right), not left -- this choice has both the shift direction and the resulting rate-change direction backwards.",
+      "The change in the money supply directly changes where Ms crosses Md, which changes the equilibrium interest rate -- it is not just an internal Fed accounting matter.",
+      "Money demand doesn't automatically shift in response to a money-supply change; in this simple diagram, Md stays fixed and the equilibrium moves because Ms shifted, not because both curves moved."
+    ],
+    "tags": [
+      "money market",
+      "open market operations",
+      "Federal Reserve",
+      "shift"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A money market diagram with quantity of money on the horizontal axis and the nominal interest rate on the vertical axis. The money supply line shifts right from Ms to Ms', while money demand Md stays fixed. Equilibrium moves from E to E', with the interest rate falling.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Money</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Nominal Interest Rate</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"135\" y1=\"20\" x2=\"135\" y2=\"160\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"165\" y1=\"20\" x2=\"165\" y2=\"160\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"165\" cy=\"114\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"140\" y=\"84\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"170\" y=\"118\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Md</text><text x=\"140\" y=\"25\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Ms</text><text x=\"170\" y=\"25\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Ms'</text></svg>"
+    }
+  },
+  {
+    "id": "graph-money-003",
+    "topic": "money-banking",
+    "subtopic": "Money Demand Shifts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The economy enters a strong expansion: real income and the volume of transactions rise sharply, while the Fed leaves the money supply unchanged. What happens to money demand and the equilibrium nominal interest rate?",
+    "choices": [
+      "Money demand shifts right (more money is needed for the higher volume of transactions), raising the equilibrium nominal interest rate",
+      "Money demand shifts left, lowering the equilibrium nominal interest rate",
+      "Money demand doesn't shift; there is only a movement along the money supply curve",
+      "The money supply curve shifts right automatically to accommodate the higher transaction volume"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Higher real income means more transactions, and both individuals and businesses need to hold more money to conduct them, shifting the money demand curve right at every interest rate. With the money supply held fixed by the Fed, the new equilibrium (where the shifted Md crosses the unchanged vertical Ms) occurs at a higher nominal interest rate.",
+    "wrongExplanations": [
+      null,
+      "A boom increases (not decreases) the need to hold money for transactions, so money demand shifts right, not left.",
+      "Real income is not on either axis of the standard money-market diagram (interest rate and quantity of money), so a change in real income shifts the money demand curve rather than causing a movement along a fixed curve.",
+      "The problem states the Fed leaves the money supply unchanged -- Ms doesn't move on its own in response to economic conditions; only deliberate Fed action shifts it."
+    ],
+    "tags": [
+      "money demand",
+      "shift",
+      "real income",
+      "nominal interest rate"
+    ]
+  },
+  {
+    "id": "graph-money-004",
+    "topic": "money-banking",
+    "subtopic": "Movement versus Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A student is shown the standard money-market diagram and says: 'If the interest rate rises, money demand must shift left, since people want to hold less money at a higher rate.' What is wrong with this claim?",
+    "choices": [
+      "A change in the interest rate itself is a movement along the existing money demand curve, not a shift of the curve, since the interest rate is the variable plotted on the vertical axis",
+      "Nothing is wrong -- a higher interest rate does shift money demand left",
+      "The claim is backwards -- a higher interest rate shifts money demand right",
+      "Money demand is completely unaffected by the interest rate in any way"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The money demand curve already slopes downward in the interest rate: at a higher interest rate, the quantity of money demanded is lower, but this is read as a movement along the existing downward-sloping curve, not a shift of the whole curve. A shift requires a change in something other than the interest rate itself -- like real income, payment technology, or risk perceptions.",
+    "wrongExplanations": [
+      null,
+      "This confirms the student's error rather than correcting it -- an interest-rate change alone does not shift the curve, even though it does reduce the quantity of money demanded (via a movement along the curve).",
+      "This just swaps the shift direction while keeping the same underlying mistake -- a change in the interest rate is still a movement along the curve, not a shift in either direction.",
+      "The money demand curve's whole downward slope reflects its responsiveness to the interest rate -- money demand is clearly affected by the interest rate, just via a movement along the curve rather than a shift of it."
+    ],
+    "tags": [
+      "money demand",
+      "movement versus shift",
+      "error identification"
+    ]
+  },
+  {
+    "id": "graph-money-005",
+    "topic": "money-banking",
+    "subtopic": "Reserve Ratio and Money Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class6",
+      "ds3"
+    ],
+    "sourceLabel": "Class 6 slides and Discussion Session 3",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The Fed raises the required reserve ratio without conducting any open-market operations. Banks' actual reserves stay the same, but the money multiplier (1/reserve ratio) falls. What happens to the money supply curve, and why?",
+    "choices": [
+      "The money supply curve shifts left, because the same quantity of bank reserves now supports a smaller maximum quantity of deposits under the new, smaller multiplier",
+      "The money supply curve shifts right, because a higher reserve ratio makes banks hold more money in reserve, which counts as an increase in the money supply",
+      "The money supply curve doesn't shift, since only open-market operations (not the reserve ratio) can move Ms",
+      "The money demand curve shifts left, while the money supply curve is unaffected"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The money supply that a given quantity of bank reserves can support equals reserves x the money multiplier (1/reserve ratio). Raising the reserve ratio lowers the multiplier, so the same level of reserves now supports fewer total deposits system-wide -- the maximum sustainable money supply falls at every interest rate, shifting the vertical Ms line left.",
+    "wrongExplanations": [
+      null,
+      "Reserves sitting idle in bank vaults are explicitly NOT part of the money supply (per Class 6) -- a higher reserve requirement shrinks, not grows, the money supply banks can support through lending.",
+      "The required reserve ratio is one of the tools Discussion Session 3 identifies as affecting the money supply, alongside open-market bond purchases/sales -- it isn't limited to OMOs only.",
+      "This scenario is about a change in the money supply (via the multiplier), not money demand -- Ms is the curve that shifts here, not Md."
+    ],
+    "tags": [
+      "money supply",
+      "required reserve ratio",
+      "money multiplier",
+      "shift"
+    ]
+  },
+  {
+    "id": "graph-monetarypolicy-001",
+    "topic": "monetary-policy",
+    "subtopic": "Interest Rate Corridor",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the ECB's pre-2007 interest rate corridor system, the marginal lending rate forms the ceiling and the deposit rate forms the floor around the overnight money-market rate. If the central bank supplies MORE liquidity than banks need for their minimum reserve and cash requirements, what happens to the overnight rate?",
+    "choices": [
+      "It gets pushed down toward the deposit rate floor, since banks have more reserves than they need and are willing to lend them out at a lower rate",
+      "It gets pushed up toward the marginal lending rate ceiling",
+      "It stays exactly at the central bank's key policy rate regardless of how much liquidity is supplied",
+      "The corridor itself widens to absorb the extra liquidity"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The guest lecture explains that supplying more liquidity than needed pushes the market rate down toward the deposit facility rate (the floor of the corridor), since banks with excess reserves are willing to lend them to other banks at rates approaching the deposit rate rather than earn nothing extra by holding them idle.",
+    "wrongExplanations": [
+      null,
+      "Too much liquidity pushes the rate toward the FLOOR (deposit rate), not the ceiling (marginal lending rate) -- the ceiling is approached when there's too LITTLE liquidity instead.",
+      "The guest lecture explains that the rate is only pinned exactly at the central bank's key policy rate when liquidity supplied exactly matches structural needs -- oversupplying liquidity pushes it away from that central point, toward the floor.",
+      "The corridor's width (set by the marginal lending and deposit rates) doesn't change in response to liquidity operations -- it's the market rate's POSITION within the fixed corridor that moves."
+    ],
+    "tags": [
+      "interest rate corridor",
+      "monetary policy",
+      "ECB"
+    ]
+  },
+  {
+    "id": "graph-monetarypolicy-002",
+    "topic": "monetary-policy",
+    "subtopic": "Corridor versus Floor System",
+    "difficulty": "hard",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Compare the ECB's pre-2007 'corridor' system (liquidity supplied to just match structural needs, rate pinned near the center of the corridor) to its post-2008 'floor' system (persistent excess liquidity in the banking system). How does the overnight rate's position differ between the two?",
+    "choices": [
+      "In the corridor system, the rate sits near the center (close to the key policy rate); in the floor system, persistent excess liquidity pushes the rate down to sit at the deposit rate (the floor) instead",
+      "In both systems, the rate sits at the same position -- near the center of the corridor",
+      "In the corridor system, the rate sits at the floor; in the floor system, it sits at the ceiling",
+      "The floor system eliminates the corridor entirely, so there is no ceiling or floor rate anymore"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The guest lecture describes the pre-2007 system as balancing liquidity supply to pin the rate near the center of the corridor (close to the main policy rate), while the post-2008 system operates with persistent excess liquidity, which -- following the same 'too much liquidity pushes the rate toward the floor' logic -- has driven the overnight rate down to sit at the deposit facility rate, making that deposit rate the de facto key policy rate today.",
+    "wrongExplanations": [
+      null,
+      "The two systems are explicitly contrasted in the lecture -- the corridor system centers the rate, while the floor system's excess liquidity pushes it down to the floor; they are not the same.",
+      "This reverses the two systems -- it's the FLOOR system (not the corridor system) where the rate sits at the deposit floor; the corridor system pins it near the center, not at the floor.",
+      "The corridor (marginal lending rate and deposit rate) still formally exists as the boundary in the floor system -- what changed is where within that corridor the rate actually sits, not that the corridor was removed."
+    ],
+    "tags": [
+      "interest rate corridor",
+      "floor system",
+      "ECB",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "graph-growth-001",
+    "topic": "economic-growth",
+    "subtopic": "Diminishing Returns to Capital",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class4"
+    ],
+    "sourceLabel": "Class 4 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Class 4 describes diminishing returns to capital: as more capital is added (holding other inputs fixed), output increases, but by less and less with each additional unit of capital. Which shape best describes the resulting curve of total output plotted against the quantity of capital?",
+    "choices": [
+      "An upward-sloping curve that becomes flatter as capital increases -- output keeps rising but at a decreasing rate",
+      "An upward-sloping straight line -- output rises by the same amount for each additional unit of capital",
+      "A downward-sloping curve -- output falls as capital increases",
+      "An upward-sloping curve that becomes steeper as capital increases -- output rises by more with each additional unit"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Diminishing returns means each additional unit of capital adds LESS to output than the previous unit did, while total output still increases overall. Graphically, this is a curve that keeps rising (slopes upward) but flattens out as capital increases -- a concave, bowed-down shape, not a straight line or a curve that gets steeper.",
+    "wrongExplanations": [
+      null,
+      "A straight line would mean each additional unit of capital adds the SAME amount to output -- constant, not diminishing, returns.",
+      "Output still increases with more capital under diminishing returns; it's the SIZE of each increase that shrinks, not the overall direction of the curve.",
+      "A curve that gets steeper would represent INCREASING returns to capital (each unit adding more than the last), the opposite of diminishing returns."
+    ],
+    "tags": [
+      "diminishing returns",
+      "capital",
+      "production function"
+    ]
+  },
+  {
+    "id": "graph-growth-002",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth Divergence",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class4"
+    ],
+    "sourceLabel": "Class 4 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Two countries start with the same GDP per capita and grow at different constant annual rates for 200 years, as in Class 4's compound-growth illustration. Plotting each country's GDP per capita against time, how does the gap between the two curves behave?",
+    "choices": [
+      "The gap grows increasingly larger over time -- the curves diverge at an accelerating rate, not a constant one",
+      "The gap grows by the same fixed amount every year -- the curves diverge at a constant rate",
+      "The gap stays the same size throughout the 200 years",
+      "The gap shrinks over time as the faster-growing country's growth rate eventually slows on its own"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 4's own example (comparing $10 growing at 2%, 4%, and 6% over 210 years to wildly different final values) illustrates that compound growth is exponential, not linear -- a small, constant difference in growth RATES compounds into an ever-widening ABSOLUTE gap over time, so the two countries' GDP-per-capita curves diverge at an accelerating (not constant) pace.",
+    "wrongExplanations": [
+      null,
+      "Constant-rate divergence would describe simple (linear) growth, not compound growth -- compound growth's whole point is that a fixed percentage difference produces an accelerating, not constant, absolute gap over time.",
+      "A constant-percentage growth-rate difference compounds over time rather than canceling out, so the gap does not stay the same size -- it widens.",
+      "Nothing in Class 4's compound growth formula causes a country's growth rate to slow down on its own over time; the rates are assumed constant, so the gap keeps widening rather than shrinking."
+    ],
+    "tags": [
+      "compound growth",
+      "growth rates",
+      "divergence"
+    ]
   }
 ]

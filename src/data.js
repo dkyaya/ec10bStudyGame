@@ -1,5 +1,6 @@
 const Data = (() => {
-  const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula"]);
+  const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula", "graph"]);
+  const VALID_DIAGRAM_TYPES = new Set(["svg"]);
 
   const REQUIRED_FIELDS = [
     "id",
@@ -57,7 +58,23 @@ const Data = (() => {
       }
 
       if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
-        warn(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", or "formula")`);
+        warn(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", "formula", or "graph")`);
+      }
+
+      if (q.diagram !== undefined) {
+        if (!q.diagram || typeof q.diagram !== "object") {
+          warn(`${label}: diagram must be an object`);
+        } else {
+          if (!VALID_DIAGRAM_TYPES.has(q.diagram.type)) {
+            warn(`${label}: diagram.type "${q.diagram.type}" is not supported (must be "svg")`);
+          }
+          if (!q.diagram.alt || !String(q.diagram.alt).trim()) {
+            warn(`${label}: diagram is missing non-empty alt text`);
+          }
+          if (q.diagram.type === "svg" && (!q.diagram.svg || !String(q.diagram.svg).trim())) {
+            warn(`${label}: diagram.type is "svg" but diagram.svg is missing or empty`);
+          }
+        }
       }
 
       (q.sourceIds || []).forEach((sid) => {

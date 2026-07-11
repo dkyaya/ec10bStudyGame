@@ -62,6 +62,7 @@ const Render = (() => {
     const needsReviewCount = Scoring.needsReviewQuestions(questions).length;
     const vocabCount = Scoring.vocabQuestions(questions).length;
     const formulaCount = Scoring.formulaQuestions(questions).length;
+    const graphCount = Scoring.graphQuestions(questions).length;
 
     const modes = [
       {
@@ -108,6 +109,15 @@ const Render = (() => {
         title: "Formula Practice",
         desc: "Calculation and word-problem questions, shuffled — practice the formulas taught so far.",
         count: formulaCount,
+      });
+    }
+
+    if (graphCount > 0) {
+      modes.push({
+        key: "graph",
+        title: "Graph Practice",
+        desc: "Graph-reading, shift, and interpretation questions, shuffled — practice translating between graphs and economic stories.",
+        count: graphCount,
       });
     }
 
@@ -264,10 +274,33 @@ const Render = (() => {
     if (question.questionType === "formula") {
       nodes.push(Utils.el("span", "meta-formula-badge", "Formula"));
     }
+    if (question.questionType === "graph") {
+      nodes.push(Utils.el("span", "meta-graph-badge", "Graph"));
+    }
     nodes.forEach((n) => container.appendChild(n));
   }
 
+  function renderQuizDiagram(container, diagram) {
+    container.innerHTML = "";
+    if (!diagram || diagram.type !== "svg" || !diagram.svg) {
+      container.hidden = true;
+      return;
+    }
+    container.hidden = false;
+    const figure = Utils.el("figure", "diagram-figure");
+    figure.setAttribute("role", "img");
+    figure.setAttribute("aria-label", diagram.alt || "Diagram");
+    const wrap = Utils.el("div", "diagram-svg-wrap");
+    wrap.innerHTML = diagram.svg;
+    figure.appendChild(wrap);
+    if (diagram.alt) {
+      figure.appendChild(Utils.el("figcaption", "diagram-caption", diagram.alt));
+    }
+    container.appendChild(figure);
+  }
+
   function renderQuizQuestion(elements, question, savedAnswerIndex, onAnswer) {
+    renderQuizDiagram(elements.diagram, question.diagram);
     elements.questionText.textContent = question.question;
     elements.choicesContainer.innerHTML = "";
     elements.feedback.hidden = true;
