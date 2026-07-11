@@ -15,10 +15,12 @@ structured source metadata (`data/sources.json`), and public documentation
 
 ### Current local materials
 
-The question bank (138 questions as of the 2026-07-07 Class 5 update) was generated from:
-- `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx`, `HarvardS10b_Class5.pptx` — lecture slides
-- `DS1_solutions.pdf`, `DS2_solutions.pdf` — discussion-section worked solutions
+The question bank (233 questions as of the 2026-07-11 update) was generated from:
+- `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx`, `HarvardS10b_Class5.pptx`, `HarvardS10b_Class6_7.pptx` — lecture slides
+- `Guest Lecture Slides - Price Stability and Monetary Policy.pptx` — guest lecture slides
+- `DS1_solutions.pdf`, `DS2_solutions.pdf`, `DS3.pdf` + `DS3_solutions.pdf` — discussion-section worked solutions
 - `Problem Set1_Solutions.pdf` — problem-set worked solutions
+- `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` — Canvas quiz export (paraphrased practice only, see below)
 
 These files remain available locally so that future question-bank updates can read them
 directly using Claude Code prompts.
@@ -49,11 +51,16 @@ Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore`
 | `ds1` | `DS1_solutions.pdf` | Worked solutions: PPCs/gains from trade (Canada/USA honey and maple syrup), GDP calculation via three methods (Microsoft chip example), CPI/inflation/deflating/indexing (grad student example), market equilibrium algebra, demand shifters, marginal analysis (lemonade stand). |
 | `ds2` | `DS2_solutions.pdf` | Worked solutions: labor demand/VMP, shifts in labor demand/supply (opticians, pilots), average labor productivity and GDP-per-capita decomposition, cross-country growth catch-up calculations (Richland/Poorland). |
 | `ps1_solutions` | `Problem Set1_Solutions.pdf` | Worked solutions: marginal analysis (compost, calling plans), PPCs/comparative advantage (Helen, Tom and Susan), demand shifters and supply/demand shifts, GDP components and edge cases (inventory, existing assets, transfers, multi-year international goods), CPI/inflation, real interest rates. |
+| `class6` | `HarvardS10b_Class6_7.pptx` | Financial intermediation, present value, money's definition/functions, M1/M2, fractional-reserve banking and the money multiplier, the quantity equation, banking panics/the Fed, bonds, stocks, risk premium, the efficient market hypothesis, and 2007-9 financial-crisis terms. |
+| `guest_lecture_ecb` | `Guest Lecture Slides - Price Stability and Monetary Policy.pptx` | Functions/forms of money, the "loans create deposits" view, the ECB's 2% HICP price-stability mandate, costs of inflation/deflation, second-round effects, why banks need reserves, the monetary base, the overnight rate as the true policy control variable, the interest rate corridor, QE/QT, and the digital euro. |
+| `ds3` | `DS3.pdf` + `DS3_solutions.pdf` (paired) | Worked solutions: the money demand curve and the opportunity cost of holding money, Fed open-market operations and the required reserve ratio, shifters vs. movements along the money demand curve, and money-demand shift scenarios (credit cards, riskier stocks, an economic boom). |
+| `quiz2` | `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` | Canvas quiz (paraphrased practice only): open-economy S+KI=I/trade balance, private/public/national saving, debt paydown and wealth, life-cycle saving, USSR institutions, crowding out, cost of investment, capital inflows/outflows, Ricardian equivalence. |
 
-All eight files were extracted programmatically: the `.pptx` files with `python-pptx`
+All twelve files were extracted programmatically: the `.pptx` files with `python-pptx`
 (slide text, tables, and speaker notes), and the `.pdf` files with `pdftotext -layout`.
-Every extraction completed with no OCR failures or corrupted pages. One partial exception
-was found during the 2026-07-06 audit: see "Known extraction gaps" below.
+Every extraction completed with no OCR failures or corrupted pages, aside from the
+known gaps noted below (one from the original 2026-07-06 audit, one newly found in
+Quiz 2 during the 2026-07-11 update).
 
 ### Known extraction gaps
 
@@ -66,6 +73,15 @@ was found during the 2026-07-06 audit: see "Known extraction gaps" below.
   underlying deflating formula (divide a nominal quantity by its price index) is fully
   and independently documented in `class2` slides 31-32. Flagged here for transparency
   rather than as a `needsReview` item, since the tested formula is otherwise verified.
+- `quiz2` (`Quiz 2_ Principles of Economics_ Macroeconomics.pdf`), Question 2: the
+  data table describing an economy's income/spending figures (needed to compute
+  private/public/national saving) did not extract as text, likely rendered as an
+  image in the Canvas PDF export. No `quiz2-*` question depends on that specific
+  unavailable table — `quiz2-privatepublicnational-saving-001` uses a freshly
+  constructed numeric scenario testing the identical private/public/national saving
+  identities, which are independently and fully documented in `class5`. Flagged here
+  for transparency rather than as a `needsReview` item, since the tested formulas are
+  otherwise verified. See also the Canvas Quiz 2 interpretation note below.
 
 ## How questions were generated
 
@@ -88,19 +104,21 @@ was found during the 2026-07-06 audit: see "Known extraction gaps" below.
 
 ## `needsReview` status
 
-**All 138 questions currently have `needsReview: false`**, including all 34 questions
-added from `class5` in the 2026-07-07 update (see below). Every Class 5 question is
-grounded in extractable slide bullet text or speaker notes; none rely on the chart- or
-photo-only slides in that deck, so none needed the flag. The 104 pre-Class-5 questions'
-status was re-confirmed during the 2026-07-06 question-bank quality audit (see below):
-every question's concept, numbers, and correct answer were checked directly against the
-extracted source text, and every check passed or was fixed in place. The one extraction
-gap found (see "Known extraction gaps" above) does not affect any specific question's
-verifiability. If a future update introduces a source with illegible tables, low-quality
-scans, or truncated slides, mark any question derived from that unclear content with
-`needsReview: true` and add a note here describing what a human should confirm before
-treating it as verified. See `docs/question-authoring-guide.md` for the mechanics of
-setting that flag.
+**All 233 questions currently have `needsReview: false`**, including all 95 questions
+added in the 2026-07-11 update (62 new source-ingestion questions from `class6`,
+`guest_lecture_ecb`, `ds3`, and `quiz2`, plus 33 formula-practice questions grounded in
+existing sources). Every 2026-07-11 question is grounded in extractable slide/PDF text,
+independently checked math, or (for `quiz2`) the user's own directly-confirmed quiz
+results rather than the misleading PDF export layout — none required the flag. The 138
+pre-2026-07-11 questions' status was re-confirmed as part of this update (spot-checked
+against the extraction gaps noted above; no new issues found). The two known extraction
+gaps (see "Known extraction gaps" above) do not affect any specific question's
+verifiability, since every affected question uses a freshly constructed scenario
+testing the same, independently-documented formula. If a future update introduces a
+source with illegible tables, low-quality scans, or truncated slides, mark any question
+derived from that unclear content with `needsReview: true` and add a note here
+describing what a human should confirm before treating it as verified. See
+`docs/question-authoring-guide.md` for the mechanics of setting that flag.
 
 ## 2026-07-06 Question Bank Quality Audit
 
@@ -175,6 +193,123 @@ new questions required a `needsReview` flag.
 slide text (not "pending review") — see the `needsReview` status section above.
 `node scripts/validate-data.mjs` passes with zero errors and zero warnings on the
 resulting 138-question bank, including the new `questionType` field validation.
+
+## 2026-07-11 Midterm-Prep Materials and Formula Practice
+
+Added four new sources — `class6` (`HarvardS10b_Class6_7.pptx`), `guest_lecture_ecb`
+(`Guest Lecture Slides - Price Stability and Monetary Policy.pptx`), `ds3` (paired
+`DS3.pdf` + `DS3_solutions.pdf`), and `quiz2` (`Quiz 2_ Principles of Economics_
+Macroeconomics.pdf`) — and generated 62 new source-ingestion questions from them,
+split across three new topics (`money-banking`, `financial-markets`,
+`monetary-policy`) plus four existing topics reused for the `quiz2` questions
+(`saving-investment`, `loanable-funds`, `capital-flows`, `sources-of-growth`). This
+update also added a separate batch of 33 formula/quantitative practice questions
+(Part G of the update) grounded in existing sources (`class1`-`class5`, `ds1`, `ds2`,
+`ps1_solutions`) with entirely fresh numbers, plus 5 more formula-type questions
+naturally generated from `class6` and 2 from `quiz2` — 40 formula questions total —
+and introduced the `questionType: "formula"` value and the new **Formula Practice**
+study mode. See `docs/update-notes/2026-07-11-new-materials-plan.md` and
+`docs/update-notes/2026-07-11-new-materials-results.md` for the full planning note and
+source-to-question audit table.
+
+Per the update's source restriction, no new source-ingestion questions were generated
+from `class1`-`class5`, `ds1`, `ds2`, or `ps1_solutions` in this update — those sources
+were only reused as formula grounding for the dedicated Formula Practice batch (which
+uses fresh numbers, not those sources' own worked examples) and consulted to avoid
+duplicate questions.
+
+**Topics extracted and used as question sources:**
+- `class6` (money-banking questions): the definition and three functions of money,
+  M1/M2 monetary aggregates, fractional-reserve banking and the money-creation
+  multiplier, the quantity equation and money/inflation in the long run, banking
+  panics and the founding of the Fed, financial intermediation, and self-finance.
+- `class6` (financial-markets questions): present value, bonds (principal, coupon
+  rate, term, credit risk, the inverse bond-price/interest-rate relationship),
+  stocks, risk premium, the efficient market hypothesis, diversification, and the
+  shared role of bond/stock markets.
+- `guest_lecture_ecb` (monetary-policy questions): functions/forms of money and the
+  "loans create deposits" endogenous-money view; the ECB's price-stability mandate and
+  symmetric 2% HICP target; costs of inflation (redistribution, cold progression,
+  price distortion, risk premiums) and deflation (debt-deflation, deflationary
+  spirals); medium-term policy orientation and second-round effects/wage-price
+  spirals; why banks need reserves; the monetary base and reserve injection; the
+  overnight rate as the true policy control variable; the interest rate corridor;
+  forward guidance/QE/QT; and the digital euro.
+- `ds3` (money-banking questions): the money demand curve's downward slope
+  (opportunity cost of holding money), Fed open-market operations and the required
+  reserve ratio, shift-versus-movement on the money demand curve, and money-demand
+  shift scenarios paraphrased from DS3's credit-card, risky-stock, and economic-boom
+  examples.
+- `quiz2` (paraphrased practice questions, reusing existing topics): the open-economy
+  S + KI = I identity and trade balance, private/public/national saving, how debt
+  paydown affects liabilities and wealth, life-cycle saving, USSR institutions and
+  growth, crowding out, the cost of investment, capital inflows/outflows, and
+  Ricardian equivalence.
+
+**Chart/image-only content excluded:** `class6` slides 22, 25, and 27 (a bond-ratings
+title-only slide, a duplicate Efficient Market Hypothesis title-only slide, and a bare
+speaker-note web link) have no extractable body content and were not used. `class6`
+slide 28 ("Important Terms in the 2007-9 Financial Crisis") lists terms (leverage,
+securitization, MBS, CDOs, CDS, shadow banking, counterparty/systemic risk) without
+accompanying definitions in this deck, so it was not used to write definition
+questions — only terms defined elsewhere in the deck (diversification, financial
+intermediation) were used. `guest_lecture_ecb` slide 1 (a cover photo), slide 10 (an
+ECB Governing Council photo), and the repeated "Contents" section-divider slides have
+no substantive content beyond a repeated agenda list and were not used as a basis for
+any question.
+
+**No `needsReview` items:** every 2026-07-11 question is grounded in cleanly
+extracted slide/PDF text or independently verified math; see the `needsReview` status
+section above and the Canvas Quiz 2 and DS3 pairing notes below for how ambiguous
+source formatting was handled without resorting to a `needsReview` flag.
+
+### Canvas Quiz 2 interpretation note
+
+The `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` export from Canvas has a
+misleading layout: each question's per-question "Correct answer" / "Wrong answer"
+result label is rendered *after* that question's own answer choices and immediately
+before the *next* question's number. Read naively top-to-bottom, this makes the label
+look like it belongs to the following question rather than the one it actually
+grades, and the PDF text extraction does not preserve which specific radio button was
+selected — only these (potentially mis-attributed) per-question result labels.
+Separately, Question 2's income/spending data table did not extract as text at all
+(see "Known extraction gaps" above).
+
+Rather than trust a naive reading of the label positions, this update used the user's
+own direct, authoritative account of their results: **overall score was 8 out of 10;
+Question 2 was answered correctly; Questions 3 and 10 were answered incorrectly**
+(meaning Questions 1, 4, 5, 6, 7, 8, and 9 were also answered correctly, consistent
+with the 8/10 total). This is the interpretation recorded in `data/sources.json`'s
+`quiz2` entry and used throughout this update — no question or explanation in
+`data/questions.json` was derived from the scrambled label positions.
+
+Practically, this meant:
+- No `quiz2-*` question reproduces the original quiz's exact wording, choice order, or
+  the unreadable Question 2 table — every one is a paraphrased "Quiz 2 style" practice
+  question with a fresh scenario (and fresh numbers, where a calculation is involved).
+- Extra weight was placed on the two concepts the user's own report showed were
+  missed: paying down debt reduces liabilities and increases wealth/net worth
+  (`quiz2-debtpaydown-wealth-001`, Question 3's concept), and capital inflows are
+  purchases of domestic assets by foreigners while capital outflows are purchases of
+  foreign assets by domestic households/firms (`quiz2-capitalinflows-def-001`,
+  `quiz2-capitaloutflows-def-001`, `quiz2-capitalinflows-vs-exports-001`, and
+  `quiz2-lowerrealrate-capitalflows-001`, all touching Question 10's concept).
+
+### Discussion Session 3 paired-source note
+
+`DS3.pdf` (the question prompts) and `DS3_solutions.pdf` (the worked solutions) are
+two separate files in `private-materials/` covering the same four-item discussion
+sheet on the market for money. Per the task's paired-source handling, they were
+combined into a single source entry, `ds3`, in `data/sources.json`, whose `filename`
+field lists both files (`"DS3.pdf, DS3_solutions.pdf"`) and whose `reliabilityNotes`
+explicitly documents that this is a two-file paired source that must be read together.
+
+Every `ds3-*` question was written by reading the scenario/prompt from `DS3.pdf` and
+verifying the reasoning and correct answer from `DS3_solutions.pdf` — never from only
+one of the two files. No `ds3-*` question was generated from a question/solution pair
+that couldn't be confidently matched between the two files; all four DS3 question
+items matched cleanly (numbering and content lined up 1:1 between the two PDFs), so no
+`ds3-*` question required a `needsReview` flag.
 
 ## Assumptions made
 

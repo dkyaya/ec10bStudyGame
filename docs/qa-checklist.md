@@ -24,7 +24,8 @@ node scripts/validate-data.mjs
 It checks: JSON parses, every question has all required fields, `answerIndex` is in
 range, `choices`/`wrongExplanations` lengths match, the correct choice's
 `wrongExplanations` entry is `null` and every incorrect choice has a non-empty one,
-`topic`/`sourceIds` references exist, no duplicate question IDs, and flags
+`topic`/`sourceIds` references exist, `questionType` (if present) is one of
+`"standard"`, `"vocab"`, or `"formula"`, no duplicate question IDs, and flags
 near-duplicate question text as a warning. Exits non-zero on any error — safe to wire
 into a pre-push hook or CI step later if desired.
 
@@ -58,6 +59,23 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, topic practice,
   Review Missed in Topic) and that re-entering Review Missed from the Results screen
   reshuffles again rather than reusing the prior session's order.
+- **Formula Practice**: confirm the mode card appears on the home screen with a count
+  matching the number of `questionType: "formula"` questions, that clicking Start
+  launches a shuffled session containing only formula questions, and that the mode
+  card is hidden entirely (not just disabled) if the bank ever has zero formula
+  questions. Confirm formula questions also still surface normally in Full Bank,
+  Shuffle Mixed Practice, New/Unseen, Review Missed, Needs Review, and their own
+  topic's practice/missed-review sessions — Formula Practice must not be the only
+  place they appear.
+- **Formula badges**: open a formula-type question in any mode and confirm a small
+  "Formula" badge renders in the quiz metadata row alongside the topic/subtopic/
+  difficulty/source badges, without crowding or wrapping awkwardly on mobile widths.
+  Confirm non-formula questions never show this badge, and vocab questions still show
+  only the "Vocab" badge (not both).
+- **Formula explanations show the math**: spot-check several formula questions'
+  "Why the correct answer is right" text — it should name the formula, show the
+  substitution with the question's actual numbers, and state the resulting value, not
+  just assert which choice is correct.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.

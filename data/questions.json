@@ -137,11 +137,11 @@
       "$9M"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Marginal cost of the 3rd warehouse equals the change in total cost: $15M − $9M = $6M.",
+    "correctExplanation": "Marginal cost of the 3rd warehouse equals the change in total cost: $15M \u2212 $9M = $6M.",
     "wrongExplanations": [
       null,
       "$15M is the total cost at 3 warehouses, not the marginal (incremental) cost of the 3rd one.",
-      "$5M is the marginal cost of the 2nd warehouse ($9M − $4M), not the 3rd.",
+      "$5M is the marginal cost of the 2nd warehouse ($9M \u2212 $4M), not the 3rd.",
       "$9M is the total cost at 2 warehouses, not the marginal cost of building the 3rd."
     ],
     "tags": [
@@ -198,7 +198,7 @@
       "$10.00 per visit"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Slope = change in B / change in V = ($62 − $52) / (25 − 5) = $10 / 20 = $0.50 per visit.",
+    "correctExplanation": "Slope = change in B / change in V = ($62 \u2212 $52) / (25 \u2212 5) = $10 / 20 = $0.50 per visit.",
     "wrongExplanations": [
       null,
       "This misplaces a decimal point relative to the correct $0.50, an arithmetic slip.",
@@ -345,7 +345,7 @@
     "choices": [
       "Northland",
       "Southland",
-      "Neither — their opportunity costs are equal",
+      "Neither \u2014 their opportunity costs are equal",
       "Cannot be determined without market prices"
     ],
     "answerIndex": 0,
@@ -380,7 +380,7 @@
       "Both have equal opportunity costs"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Northland's opportunity cost of wool is 80/40 = 2 units of tea per unit of wool, while Southland's is 60/90 ≈ 0.67 units of tea per unit of wool. Since Southland's opportunity cost is lower, Southland has the comparative advantage in wool.",
+    "correctExplanation": "Northland's opportunity cost of wool is 80/40 = 2 units of tea per unit of wool, while Southland's is 60/90 \u2248 0.67 units of tea per unit of wool. Since Southland's opportunity cost is lower, Southland has the comparative advantage in wool.",
     "wrongExplanations": [
       "Northland's opportunity cost of wool (2 tea per wool) is higher than Southland's, so Northland does not have the comparative advantage in wool.",
       null,
@@ -471,7 +471,7 @@
       "Becomes negative"
     ],
     "answerIndex": 0,
-    "correctExplanation": "This is the principle of increasing opportunity cost: because resources are not equally well suited to producing both goods, shifting further toward cotton requires reassigning increasingly coal-specialized resources, raising the opportunity cost per unit of cotton — which is why PPCs are bowed outward.",
+    "correctExplanation": "This is the principle of increasing opportunity cost: because resources are not equally well suited to producing both goods, shifting further toward cotton requires reassigning increasingly coal-specialized resources, raising the opportunity cost per unit of cotton \u2014 which is why PPCs are bowed outward.",
     "wrongExplanations": [
       null,
       "A decreasing opportunity cost would correspond to a PPC bowed inward, the opposite of the diminishing-returns pattern described.",
@@ -561,7 +561,7 @@
       "60 tea and 40 wool"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Northland specializes fully in tea (its comparative advantage), producing 80 tea; Southland specializes fully in wool (its comparative advantage), producing 90 wool. Together they produce 80 tea and 90 wool — the point of full specialization on the joint PPC.",
+    "correctExplanation": "Northland specializes fully in tea (its comparative advantage), producing 80 tea; Southland specializes fully in wool (its comparative advantage), producing 90 wool. Together they produce 80 tea and 90 wool \u2014 the point of full specialization on the joint PPC.",
     "wrongExplanations": [
       null,
       "This would require both countries to produce only tea, ignoring that Southland's comparative advantage is in wool.",
@@ -646,7 +646,7 @@
     ],
     "sourceLabel": "Discussion Session 1 Solutions",
     "needsReview": false,
-    "question": "The demand for wheat is Qd = 100 − 2P and supply is Qs = −20 + 3P. What is the equilibrium price?",
+    "question": "The demand for wheat is Qd = 100 \u2212 2P and supply is Qs = \u221220 + 3P. What is the equilibrium price?",
     "choices": [
       "$24",
       "$20",
@@ -654,7 +654,7 @@
       "$18"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Set Qd = Qs: 100 − 2P = −20 + 3P → 120 = 5P → P = $24.",
+    "correctExplanation": "Set Qd = Qs: 100 \u2212 2P = \u221220 + 3P \u2192 120 = 5P \u2192 P = $24.",
     "wrongExplanations": [
       null,
       "At P = $20: Qd = 60 and Qs = 40, which are not equal.",
@@ -676,7 +676,7 @@
     ],
     "sourceLabel": "Discussion Session 1 Solutions",
     "needsReview": false,
-    "question": "Using the same wheat market (Qd = 100 − 2P, Qs = −20 + 3P, equilibrium price $24), what is the equilibrium quantity?",
+    "question": "Using the same wheat market (Qd = 100 \u2212 2P, Qs = \u221220 + 3P, equilibrium price $24), what is the equilibrium quantity?",
     "choices": [
       "52",
       "60",
@@ -684,7 +684,7 @@
       "70"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Substitute P = $24 into either equation: Qd = 100 − 2(24) = 52 (and Qs = −20 + 3(24) = 52, confirming the answer).",
+    "correctExplanation": "Substitute P = $24 into either equation: Qd = 100 \u2212 2(24) = 52 (and Qs = \u221220 + 3(24) = 52, confirming the answer).",
     "wrongExplanations": [
       null,
       "60 does not match either equation at P = $24.",
@@ -774,7 +774,7 @@
       "The supply of SUVs decreases"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Gasoline and SUVs are complements. A rise in the price of a complement decreases demand for the related good, shifting the SUV demand curve left — the same logic as the butter/white-bread complement example.",
+    "correctExplanation": "Gasoline and SUVs are complements. A rise in the price of a complement decreases demand for the related good, shifting the SUV demand curve left \u2014 the same logic as the butter/white-bread complement example.",
     "wrongExplanations": [
       null,
       "An increase in demand would instead follow from a substitute (not a complement) becoming more expensive.",
@@ -804,7 +804,7 @@
       "Both price and quantity are unaffected"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Falling battery costs shift supply right (lowering price, raising quantity), while rising preference shifts demand right (raising price, raising quantity). Both shifts raise quantity, but the net effect on price depends on the relative size of the two shifts — the same logic as the iPod example (falling memory prices plus rising preference for on-phone music).",
+    "correctExplanation": "Falling battery costs shift supply right (lowering price, raising quantity), while rising preference shifts demand right (raising price, raising quantity). Both shifts raise quantity, but the net effect on price depends on the relative size of the two shifts \u2014 the same logic as the iPod example (falling memory prices plus rising preference for on-phone music).",
     "wrongExplanations": [
       null,
       "Quantity, not price, is the variable that increases unambiguously here since both shifts push it up; it is price whose direction is ambiguous.",
@@ -835,7 +835,7 @@
       "Buyers pay exactly their reservation price"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Cash on the table means total surplus (buyer's surplus plus seller's surplus) has not yet been fully captured — there are still opportunities to gain from additional purchases or sales. At equilibrium, surplus is maximized and there is no more cash on the table.",
+    "correctExplanation": "Cash on the table means total surplus (buyer's surplus plus seller's surplus) has not yet been fully captured \u2014 there are still opportunities to gain from additional purchases or sales. At equilibrium, surplus is maximized and there is no more cash on the table.",
     "wrongExplanations": [
       null,
       "Tax revenue is unrelated to the cash-on-the-table surplus concept.",
@@ -1017,7 +1017,7 @@
       "$380"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Y = C + G + I + NX. The domestic household's purchase counts as C = $300; the imported wood is an import, so NX = X − M = 0 − 80 = −$80; G and I are $0. Y = $300 + $0 + $0 − $80 = $220.",
+    "correctExplanation": "Y = C + G + I + NX. The domestic household's purchase counts as C = $300; the imported wood is an import, so NX = X \u2212 M = 0 \u2212 80 = \u2212$80; G and I are $0. Y = $300 + $0 + $0 \u2212 $80 = $220.",
     "wrongExplanations": [
       null,
       "This is only the sale price and ignores that the imported wood must be netted out via net exports.",
@@ -1048,7 +1048,7 @@
       "$150"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Value added equals the value of the good produced minus the cost of intermediate goods purchased from others: $300 − $80 = $220, matching the expenditure-method answer.",
+    "correctExplanation": "Value added equals the value of the good produced minus the cost of intermediate goods purchased from others: $300 \u2212 $80 = $220, matching the expenditure-method answer.",
     "wrongExplanations": [
       null,
       "This ignores subtracting the cost of the intermediate wood input.",
@@ -1078,7 +1078,7 @@
       "$300"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Profit = Revenue − Wages − Cost of intermediate inputs = $300 − $150 − $80 = $70. (Under the income method, GDP = labor income $150 + capital income/profit $70 = $220, matching the other two methods.)",
+    "correctExplanation": "Profit = Revenue \u2212 Wages \u2212 Cost of intermediate inputs = $300 \u2212 $150 \u2212 $80 = $70. (Under the income method, GDP = labor income $150 + capital income/profit $70 = $220, matching the other two methods.)",
     "wrongExplanations": [
       null,
       "$150 is the wage (labor income) alone, not the firm's profit.",
@@ -1144,7 +1144,7 @@
       "This would double-count a good already produced and counted as investment in an earlier year.",
       null,
       "There is no reason this transaction would subtract from GDP.",
-      "Newly constructed homes are categorized as residential investment, not consumption — and in any case this is a resale, not new construction, so it is not counted at all."
+      "Newly constructed homes are categorized as residential investment, not consumption \u2014 and in any case this is a resale, not new construction, so it is not counted at all."
     ],
     "tags": [
       "GDP",
@@ -1170,7 +1170,7 @@
       "$42,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "In 2021, inventory investment (I) falls by $12,000 as the previously stored engine leaves inventory, while net exports (NX) rise by $30,000 from exporting the generator. Net GDP effect = $30,000 − $12,000 = $18,000.",
+    "correctExplanation": "In 2021, inventory investment (I) falls by $12,000 as the previously stored engine leaves inventory, while net exports (NX) rise by $30,000 from exporting the generator. Net GDP effect = $30,000 \u2212 $12,000 = $18,000.",
     "wrongExplanations": [
       null,
       "This ignores the offsetting decrease in inventory investment as the stored engine is used up.",
@@ -1198,7 +1198,7 @@
     "choices": [
       "$0 net effect",
       "+$12,000",
-      "−$12,000",
+      "\u2212$12,000",
       "+$24,000"
     ],
     "answerIndex": 0,
@@ -1294,7 +1294,7 @@
       "1.50"
     ],
     "answerIndex": 0,
-    "correctExplanation": "CPI = cost of the basket in the current year / cost of the basket in the base year = $1,010 / $784 ≈ 1.29.",
+    "correctExplanation": "CPI = cost of the basket in the current year / cost of the basket in the base year = $1,010 / $784 \u2248 1.29.",
     "wrongExplanations": [
       null,
       "This does not match the ratio of the two given totals.",
@@ -1324,10 +1324,10 @@
       "About 45%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Inflation rate = (CPI_new − CPI_old) / CPI_old = (1.15 − 1.10) / 1.10 ≈ 0.045 = 4.5%.",
+    "correctExplanation": "Inflation rate = (CPI_new \u2212 CPI_old) / CPI_old = (1.15 \u2212 1.10) / 1.10 \u2248 0.045 = 4.5%.",
     "wrongExplanations": [
       null,
-      "This is just the raw difference (1.15 − 1.10 = 0.05) misread directly as a percentage, without dividing by the base CPI.",
+      "This is just the raw difference (1.15 \u2212 1.10 = 0.05) misread directly as a percentage, without dividing by the base CPI.",
       "This misplaces the decimal point; the correct rate is 4.5%, not 0.05%.",
       "This also misplaces the decimal point; the computed rate is 0.045, i.e. 4.5%, not 45%."
     ],
@@ -1354,7 +1354,7 @@
       "6%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Real interest rate ≈ nominal interest rate − inflation rate = 6% − 2.5% = 3.5%.",
+    "correctExplanation": "Real interest rate \u2248 nominal interest rate \u2212 inflation rate = 6% \u2212 2.5% = 3.5%.",
     "wrongExplanations": [
       null,
       "This incorrectly adds the nominal rate and inflation rate instead of subtracting.",
@@ -1415,7 +1415,7 @@
       "$23,040"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Indexing raises the nominal amount by the percentage increase in the price index: $24,000 × 1.04 = $24,960, preserving purchasing power.",
+    "correctExplanation": "Indexing raises the nominal amount by the percentage increase in the price index: $24,000 \u00d7 1.04 = $24,960, preserving purchasing power.",
     "wrongExplanations": [
       null,
       "This applies only part of the 4% adjustment, not the full percentage increase.",
@@ -1439,13 +1439,13 @@
     "needsReview": false,
     "question": "A worker's nominal salary rises from $50,000 to $52,000 while the CPI rises from 1.00 to 1.06 over the same period. Has the worker's real income increased or decreased?",
     "choices": [
-      "Decreased — deflating gives about $49,057, below the original $50,000",
+      "Decreased \u2014 deflating gives about $49,057, below the original $50,000",
       "Increased, since nominal salary rose by $2,000",
       "Stayed exactly the same in real terms",
       "Cannot be determined without more information"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Deflating the new nominal salary by the new CPI gives $52,000 / 1.06 ≈ $49,057 in base-year dollars, which is below the original $50,000. So real purchasing power decreased even though nominal pay rose.",
+    "correctExplanation": "Deflating the new nominal salary by the new CPI gives $52,000 / 1.06 \u2248 $49,057 in base-year dollars, which is below the original $50,000. So real purchasing power decreased even though nominal pay rose.",
     "wrongExplanations": [
       null,
       "A rise in nominal pay does not guarantee real income rises if prices increased by a larger percentage, as they did here.",
@@ -1598,7 +1598,7 @@
       "The average product of all workers at the firm"
     ],
     "answerIndex": 1,
-    "correctExplanation": "VMP is the extra revenue that an additional worker generates for the firm — the worker's marginal product multiplied by the price of the output.",
+    "correctExplanation": "VMP is the extra revenue that an additional worker generates for the firm \u2014 the worker's marginal product multiplied by the price of the output.",
     "wrongExplanations": [
       "The wage is what the firm pays, not the same thing as VMP, though in a competitive labor market firms hire until the wage equals VMP.",
       null,
@@ -1659,7 +1659,7 @@
       "6"
     ],
     "answerIndex": 0,
-    "correctExplanation": "At a wage of $650, the firm hires workers while VMP is at least the wage. The 4th worker's VMP ($700) still exceeds $650, but the 5th worker's VMP ($600) falls short, so the firm hires 4 workers — one more than at the higher $750 wage, illustrating the downward-sloping labor demand curve.",
+    "correctExplanation": "At a wage of $650, the firm hires workers while VMP is at least the wage. The 4th worker's VMP ($700) still exceeds $650, but the 5th worker's VMP ($600) falls short, so the firm hires 4 workers \u2014 one more than at the higher $750 wage, illustrating the downward-sloping labor demand curve.",
     "wrongExplanations": [
       null,
       "3 was the answer at the higher $750 wage; at the lower $650 wage, the firm can profitably hire one more worker.",
@@ -1694,7 +1694,7 @@
     "wrongExplanations": [
       "This would describe increasing, not diminishing, returns.",
       null,
-      "Diminishing returns still means output rises, just at a decreasing rate — not that it stops changing.",
+      "Diminishing returns still means output rises, just at a decreasing rate \u2014 not that it stops changing.",
       "Diminishing marginal product does not necessarily mean total output falls, only that each successive worker contributes less."
     ],
     "tags": [
@@ -1809,7 +1809,7 @@
       "Both wage and quantity fall"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A lower mandatory retirement age forces mechanics aged 60-64 to retire, decreasing labor supply. With demand unchanged, a leftward shift in supply raises the equilibrium wage and lowers equilibrium employment — the same logic as the pilots' retirement-age example.",
+    "correctExplanation": "A lower mandatory retirement age forces mechanics aged 60-64 to retire, decreasing labor supply. With demand unchanged, a leftward shift in supply raises the equilibrium wage and lowers equilibrium employment \u2014 the same logic as the pilots' retirement-age example.",
     "wrongExplanations": [
       null,
       "This describes the effect of an increase, not a decrease, in labor supply.",
@@ -1839,7 +1839,7 @@
       "Wage rises, quantity falls"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A decline in the value of travel agents' output lowers their VMP, shifting labor demand left. With supply unchanged, this lowers both the equilibrium wage and quantity of employed travel agents — the same logic as the opticians/laser-eye-surgery example.",
+    "correctExplanation": "A decline in the value of travel agents' output lowers their VMP, shifting labor demand left. With supply unchanged, this lowers both the equilibrium wage and quantity of employed travel agents \u2014 the same logic as the opticians/laser-eye-surgery example.",
     "wrongExplanations": [
       null,
       "This would result from an increase, not a decrease, in labor demand.",
@@ -1963,7 +1963,7 @@
     "answerIndex": 1,
     "correctExplanation": "When real wages lag behind productivity growth, labor income falls relative to capital income. The course links this 1990s divergence to rising inequality, especially pronounced in the U.S. and U.K.",
     "wrongExplanations": [
-      "The opposite occurred — capital income rose relative to labor income as wages lagged productivity.",
+      "The opposite occurred \u2014 capital income rose relative to labor income as wages lagged productivity.",
       null,
       "The course explicitly describes labor income falling relative to capital income during this divergence.",
       "The course states inequality rose during this period, not decreased."
@@ -1986,7 +1986,7 @@
     "needsReview": false,
     "question": "GDP per capita (Y/POP) can be decomposed as the product of which two ratios?",
     "choices": [
-      "(Y/N) x (N/POP) — output per worker times the share of the population employed",
+      "(Y/N) x (N/POP) \u2014 output per worker times the share of the population employed",
       "(N/Y) x (POP/N)",
       "(Y/POP) x (N/Y)",
       "(POP/N) x (N/Y)"
@@ -2023,10 +2023,10 @@
       "$10,500"
     ],
     "answerIndex": 0,
-    "correctExplanation": "GDP per capita = average labor productivity x share employed. Year A: $60,000 x 0.40 = $24,000. Year B: $90,000 x 0.45 = $40,500. Change = $40,500 − $24,000 = $16,500.",
+    "correctExplanation": "GDP per capita = average labor productivity x share employed. Year A: $60,000 x 0.40 = $24,000. Year B: $90,000 x 0.45 = $40,500. Change = $40,500 \u2212 $24,000 = $16,500.",
     "wrongExplanations": [
       null,
-      "This is just the raw increase in productivity ($90,000 − $60,000), ignoring the employment-share weighting.",
+      "This is just the raw increase in productivity ($90,000 \u2212 $60,000), ignoring the employment-share weighting.",
       "This does not correspond to a correct computation of either year's GDP per capita or their difference.",
       "This does not match the correctly computed change of $16,500."
     ],
@@ -2201,7 +2201,7 @@
       "Wages are unaffected in either industry"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Opening to trade reduces demand for the import-competing good (e.g., domestic textiles), lowering wages and employment there, while export demand rises for the industry with comparative advantage (e.g., software), raising wages and employment there — creating a wage differential where none existed before.",
+    "correctExplanation": "Opening to trade reduces demand for the import-competing good (e.g., domestic textiles), lowering wages and employment there, while export demand rises for the industry with comparative advantage (e.g., software), raising wages and employment there \u2014 creating a wage differential where none existed before.",
     "wrongExplanations": [
       "This reverses the actual direction of the effect described.",
       null,
@@ -2263,7 +2263,7 @@
       "It becomes negative"
     ],
     "answerIndex": 1,
-    "correctExplanation": "An increase in demand for skilled labor raises skilled wages, while a decrease in demand for unskilled labor lowers unskilled wages, widening the wage gap between the two groups — consistent with the course's skill-biased technological change diagrams.",
+    "correctExplanation": "An increase in demand for skilled labor raises skilled wages, while a decrease in demand for unskilled labor lowers unskilled wages, widening the wage gap between the two groups \u2014 consistent with the course's skill-biased technological change diagrams.",
     "wrongExplanations": [
       "Narrowing would require the opposite pattern of demand shifts, favoring unskilled labor.",
       null,
@@ -2385,7 +2385,7 @@
       "A tax on capital gains"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Transition aid is government assistance intended to help workers adjust — for example, moving from shrinking import-competing industries into expanding export industries; the course notes such aid is limited in the United States.",
+    "correctExplanation": "Transition aid is government assistance intended to help workers adjust \u2014 for example, moving from shrinking import-competing industries into expanding export industries; the course notes such aid is limited in the United States.",
     "wrongExplanations": [
       "Transition aid targets domestic workers affected by trade, not foreign exporters.",
       null,
@@ -2627,9 +2627,9 @@
       "Patents eliminate all spillover effects"
     ],
     "answerIndex": 1,
-    "correctExplanation": "The course explains that firms and individuals do not reap all the benefits of their investment in new ideas — knowledge leaks and benefits others, creating a situation of increasing returns to knowledge investment and helping explain why government may subsidize R&D.",
+    "correctExplanation": "The course explains that firms and individuals do not reap all the benefits of their investment in new ideas \u2014 knowledge leaks and benefits others, creating a situation of increasing returns to knowledge investment and helping explain why government may subsidize R&D.",
     "wrongExplanations": [
-      "The course states the opposite — firms do not capture all the benefits of their innovation investments.",
+      "The course states the opposite \u2014 firms do not capture all the benefits of their innovation investments.",
       null,
       "The course discusses government subsidizing (encouraging), not preventing, technology investment due to these spillovers.",
       "The course does not claim patents fully eliminate knowledge spillovers; the described dynamic is knowledge leaking and benefiting others despite such protections."
@@ -2658,7 +2658,7 @@
       "About $8,500"
     ],
     "answerIndex": 0,
-    "correctExplanation": "At = As(1+g)^(t-s): $8,000 x (1.025)^20 ≈ $8,000 x 1.639 ≈ $13,112, so about $13,100.",
+    "correctExplanation": "At = As(1+g)^(t-s): $8,000 x (1.025)^20 \u2248 $8,000 x 1.639 \u2248 $13,112, so about $13,100.",
     "wrongExplanations": [
       null,
       "This is too low given 20 years of 2.5% compounding; it underestimates compound growth.",
@@ -2680,7 +2680,7 @@
     ],
     "sourceLabel": "Class 4 slides",
     "needsReview": false,
-    "question": "A country's GDP per capita grows from $5,000 to $9,000 over 15 years. Using g = (At/As)^(1/(t-s)) − 1, what is the approximate average annual growth rate?",
+    "question": "A country's GDP per capita grows from $5,000 to $9,000 over 15 years. Using g = (At/As)^(1/(t-s)) \u2212 1, what is the approximate average annual growth rate?",
     "choices": [
       "About 4.0%",
       "About 26.7%",
@@ -2688,10 +2688,10 @@
       "About 80%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "g = (9,000/5,000)^(1/15) − 1 = (1.8)^(1/15) − 1 ≈ 1.040 − 1 = 4.0%.",
+    "correctExplanation": "g = (9,000/5,000)^(1/15) \u2212 1 = (1.8)^(1/15) \u2212 1 \u2248 1.040 \u2212 1 = 4.0%.",
     "wrongExplanations": [
       null,
-      "This is just the total percentage increase over 15 years divided by 3 (80% / 3 ≈ 26.7%), not the correctly compounded annual rate.",
+      "This is just the total percentage increase over 15 years divided by 3 (80% / 3 \u2248 26.7%), not the correctly compounded annual rate.",
       "This misreads the ratio (1.8) itself as a growth rate rather than correctly applying the 1/15 root.",
       "This is the total, non-annualized percentage increase over the entire 15-year period, not the annual growth rate."
     ],
@@ -2718,7 +2718,7 @@
       "72 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Rule of 72: years to double ≈ 72 / growth rate = 72 / 4 = 18 years.",
+    "correctExplanation": "Rule of 72: years to double \u2248 72 / growth rate = 72 / 4 = 18 years.",
     "wrongExplanations": [
       null,
       "This just restates the growth rate, not the doubling time.",
@@ -2748,7 +2748,7 @@
       "432 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Rule of 72: years to double ≈ 72 / 6 = 12 years.",
+    "correctExplanation": "Rule of 72: years to double \u2248 72 / 6 = 12 years.",
     "wrongExplanations": [
       null,
       "This restates the growth rate rather than computing the doubling time.",
@@ -2778,7 +2778,7 @@
       "About 2 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Setting the two growth paths equal, (1.04/1.015)^T = 8,000/4,000 = 2, so T = ln(2) / ln(1.04/1.015) ≈ 0.693 / 0.0243 ≈ 28-29 years, similar in spirit to the Richland/Poorland catch-up calculation from discussion section.",
+    "correctExplanation": "Setting the two growth paths equal, (1.04/1.015)^T = 8,000/4,000 = 2, so T = ln(2) / ln(1.04/1.015) \u2248 0.693 / 0.0243 \u2248 28-29 years, similar in spirit to the Richland/Poorland catch-up calculation from discussion section.",
     "wrongExplanations": [
       null,
       "This is far too short given the initial gap must be closed via a growth-rate differential of only about 2.5 percentage points per year.",
@@ -2808,7 +2808,7 @@
       "Growth compounds only for interest rates, not GDP"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Due to compound growth, even small differences in annual growth rates (e.g., 2% versus 4% versus 6%) produce dramatically different outcomes over long time horizons — illustrated by the course's comparison of the future value of $10 at different interest rates over 210 years.",
+    "correctExplanation": "Due to compound growth, even small differences in annual growth rates (e.g., 2% versus 4% versus 6%) produce dramatically different outcomes over long time horizons \u2014 illustrated by the course's comparison of the future value of $10 at different interest rates over 210 years.",
     "wrongExplanations": [
       null,
       "Compounding affects any nonzero growth rate over time; there is no such threshold below which it doesn't matter.",
@@ -2863,14 +2863,14 @@
     "question": "The Rule of 72's approximation for years to double comes from the fact that:",
     "choices": [
       "72 is exactly the natural log of 2 expressed as a percentage",
-      "ln(2) ≈ 0.69, so growth rate x years to double ≈ 69 (or 72, used because it is more evenly divisible)",
+      "ln(2) \u2248 0.69, so growth rate x years to double \u2248 69 (or 72, used because it is more evenly divisible)",
       "The rule works only for interest rates below 1%",
       "Doubling time is always exactly 72 years regardless of the rate"
     ],
     "answerIndex": 1,
-    "correctExplanation": "From (1+r)^t = 2, taking logs gives t x ln(1+r) ≈ r x t ≈ ln(2) ≈ 0.69, so rate x years ≈ 69 in percentage terms; 72 is commonly used instead of 69 because it is more evenly divisible by common growth rates.",
+    "correctExplanation": "From (1+r)^t = 2, taking logs gives t x ln(1+r) \u2248 r x t \u2248 ln(2) \u2248 0.69, so rate x years \u2248 69 in percentage terms; 72 is commonly used instead of 69 because it is more evenly divisible by common growth rates.",
     "wrongExplanations": [
-      "ln(2) ≈ 0.69, i.e., about 69 (not 72) in percentage terms; 72 is a divisibility-convenient approximation.",
+      "ln(2) \u2248 0.69, i.e., about 69 (not 72) in percentage terms; 72 is a divisibility-convenient approximation.",
       null,
       "The rule is used as a general approximation across a range of realistic growth rates in the course, not restricted to below 1%.",
       "The doubling time varies with the growth rate (72/rate); it is not a fixed 72 years regardless of rate."
@@ -2991,7 +2991,7 @@
     "correctExplanation": "The increase from 0 to 1 machine (150 more units/hour) is larger than the increase from 1 to 2 machines (70 more units/hour), illustrating diminishing returns to capital when labor and hours are held fixed.",
     "wrongExplanations": [
       null,
-      "Increasing returns would require each additional machine to add more, not less, to output per hour — the opposite of what the numbers show.",
+      "Increasing returns would require each additional machine to add more, not less, to output per hour \u2014 the opposite of what the numbers show.",
       "The increases (150, then 70) are not equal in each step, so returns are not constant.",
       "Capital clearly raises output per hour here; the question is about the pattern (diminishing), not whether there is any relationship at all."
     ],
@@ -3018,7 +3018,7 @@
       "The value of a country's natural resources"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Human capital comprises the talents, education, training, and skills of workers — the course cites Germany and Japan's post-WWII emphasis on professional training and early education as an example of building human capital.",
+    "correctExplanation": "Human capital comprises the talents, education, training, and skills of workers \u2014 the course cites Germany and Japan's post-WWII emphasis on professional training and early education as an example of building human capital.",
     "wrongExplanations": [
       "This describes physical capital, a distinct productivity determinant from human capital.",
       null,
@@ -3083,7 +3083,7 @@
       "These are not the flaws identified in the course; the USSR actually had abundant natural resources, human capital, and physical capital.",
       null,
       "The USSR had the ingredients for growth, including human capital and technology; the flaws were institutional (ownership and property rights), not too much of these inputs.",
-      "This reverses the actual issue — the USSR had weak private property rights and heavy central planning, not the reverse."
+      "This reverses the actual issue \u2014 the USSR had weak private property rights and heavy central planning, not the reverse."
     ],
     "tags": [
       "institutions",
@@ -3138,7 +3138,7 @@
       "Specialization alone"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The course states that new technologies — better machines and better organization of capital and labor, grounded in new knowledge and ideas — are the single most important source of productivity improvement.",
+    "correctExplanation": "The course states that new technologies \u2014 better machines and better organization of capital and labor, grounded in new knowledge and ideas \u2014 are the single most important source of productivity improvement.",
     "wrongExplanations": [
       null,
       "Culture is listed as one of the 8 productivity determinants, but is not singled out as the single most important source.",
@@ -3201,7 +3201,7 @@
       "Saving accumulated over exactly one calendar year"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Wealth is a stock — the value of everything an economic unit owns (assets) minus everything it owes (liabilities) — measured at a specific point in time, not over a period.",
+    "correctExplanation": "Wealth is a stock \u2014 the value of everything an economic unit owns (assets) minus everything it owes (liabilities) \u2014 measured at a specific point in time, not over a period.",
     "wrongExplanations": [
       "This describes saving, a flow measured over a period of time, not wealth, which is a stock at a point in time.",
       null,
@@ -3233,7 +3233,7 @@
       "Wealth divided by income"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The saving rate is saving divided by income — the share of income that isn't spent on current needs.",
+    "correctExplanation": "The saving rate is saving divided by income \u2014 the share of income that isn't spent on current needs.",
     "wrongExplanations": [
       null,
       "This inverts the ratio; the saving rate is saving over income, not income over saving.",
@@ -3264,11 +3264,11 @@
       "The nominal interest rate divided by the rate of inflation"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The real interest rate r equals the nominal interest rate i minus the inflation rate: r = i − inflation. It measures the actual increase in purchasing power from saving, not just the dollar amount of interest earned.",
+    "correctExplanation": "The real interest rate r equals the nominal interest rate i minus the inflation rate: r = i \u2212 inflation. It measures the actual increase in purchasing power from saving, not just the dollar amount of interest earned.",
     "wrongExplanations": [
       null,
       "Adding inflation to the nominal rate overstates the real return; inflation erodes purchasing power and must be subtracted, not added.",
-      "This reverses the formula — it's the nominal rate minus inflation, not inflation minus the nominal rate.",
+      "This reverses the formula \u2014 it's the nominal rate minus inflation, not inflation minus the nominal rate.",
       "Dividing isn't the relationship; the real rate is the nominal rate minus the inflation rate."
     ],
     "tags": [
@@ -3296,7 +3296,7 @@
       "Money households deposit into a savings account"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Macroeconomic investment means the creation of new capital goods and housing — new productive capacity — which is what saving ultimately funds, not the purchase of existing financial assets.",
+    "correctExplanation": "Macroeconomic investment means the creation of new capital goods and housing \u2014 new productive capacity \u2014 which is what saving ultimately funds, not the purchase of existing financial assets.",
     "wrongExplanations": [
       "Buying existing stocks or bonds transfers ownership of an existing financial claim; it doesn't create new capital goods, so it isn't investment in the macroeconomic sense.",
       null,
@@ -3322,17 +3322,17 @@
     "questionType": "standard",
     "question": "The \"user cost of capital\" for a piece of capital equipment is calculated as:",
     "choices": [
-      "Price of the capital × (real interest rate + depreciation rate)",
-      "Price of the capital ÷ (real interest rate + depreciation rate)",
-      "Price of the capital × real interest rate only",
-      "Value of the marginal product − price of the capital"
+      "Price of the capital \u00d7 (real interest rate + depreciation rate)",
+      "Price of the capital \u00f7 (real interest rate + depreciation rate)",
+      "Price of the capital \u00d7 real interest rate only",
+      "Value of the marginal product \u2212 price of the capital"
     ],
     "answerIndex": 0,
-    "correctExplanation": "User cost of capital = Price × (r + depreciation rate). It captures both the opportunity cost of the funds tied up in the capital (r) and the capital's physical wearing out (depreciation).",
+    "correctExplanation": "User cost of capital = Price \u00d7 (r + depreciation rate). It captures both the opportunity cost of the funds tied up in the capital (r) and the capital's physical wearing out (depreciation).",
     "wrongExplanations": [
       null,
       "Dividing instead of multiplying doesn't match the formula; user cost scales up with the price of the capital, not down.",
-      "This omits the depreciation rate, which is also part of the cost of using capital over time — the capital wears out even if it's owned outright.",
+      "This omits the depreciation rate, which is also part of the cost of using capital over time \u2014 the capital wears out even if it's owned outright.",
       "This describes a comparison used in the investment decision (benefit minus cost), not the user cost of capital itself, which is a cost calculation on its own."
     ],
     "tags": [
@@ -3363,7 +3363,7 @@
     "correctExplanation": "Assets are anything of value one owns (the checking account and stock); liabilities are debts one owes (the student loans and credit card balance). A balance sheet lists both to determine net worth.",
     "wrongExplanations": [
       null,
-      "This reverses the categories — things she owns are assets, and debts she owes are liabilities, not the other way around.",
+      "This reverses the categories \u2014 things she owns are assets, and debts she owes are liabilities, not the other way around.",
       "The student loans and credit card balance are debts she owes, so they are liabilities, not assets.",
       "The checking account and stock are things of value she owns, so they are assets, not liabilities."
     ],
@@ -3392,7 +3392,7 @@
       "Public saving"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Life-cycle saving is saving to meet a long-term, generally expected objective — like a planned future home purchase — which matches this scenario exactly.",
+    "correctExplanation": "Life-cycle saving is saving to meet a long-term, generally expected objective \u2014 like a planned future home purchase \u2014 which matches this scenario exactly.",
     "wrongExplanations": [
       null,
       "Precautionary saving is for protection against unexpected setbacks (job loss, medical emergencies), not a planned, expected purchase.",
@@ -3423,7 +3423,7 @@
       "Private saving"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Precautionary saving is saving for protection against setbacks — an emergency fund for unexpected job loss or medical costs is a textbook example.",
+    "correctExplanation": "Precautionary saving is saving for protection against setbacks \u2014 an emergency fund for unexpected job loss or medical costs is a textbook example.",
     "wrongExplanations": [
       "Life-cycle saving targets long-term, expected objectives, not protection against an unexpected setback.",
       null,
@@ -3456,7 +3456,7 @@
     "answerIndex": 2,
     "correctExplanation": "Bequest saving is saving undertaken specifically to leave an inheritance; the course notes this motive is concentrated mainly among higher-income groups, matching this scenario.",
     "wrongExplanations": [
-      "She isn't saving to protect against an unexpected setback — her income already covers her own needs.",
+      "She isn't saving to protect against an unexpected setback \u2014 her income already covers her own needs.",
       "Life-cycle saving targets the saver's own long-term expected needs, not a transfer to heirs.",
       null,
       "Public saving describes the government sector, not an individual retiree's motive."
@@ -3477,7 +3477,7 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "A firm is deciding whether to invest in a new machine. Which of the following would increase the benefit side of that decision — the value of the marginal product of the capital?",
+    "question": "A firm is deciding whether to invest in a new machine. Which of the following would increase the benefit side of that decision \u2014 the value of the marginal product of the capital?",
     "choices": [
       "A higher real interest rate on the funds needed to buy the machine",
       "A technical innovation that raises the machine's output per unit of capital",
@@ -3516,10 +3516,10 @@
       "$414,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Total assets = $3,000 + $15,000 + $220,000 = $238,000. Total liabilities = $6,000 + $170,000 = $176,000. Net worth = assets − liabilities = $238,000 − $176,000 = $62,000.",
+    "correctExplanation": "Total assets = $3,000 + $15,000 + $220,000 = $238,000. Total liabilities = $6,000 + $170,000 = $176,000. Net worth = assets \u2212 liabilities = $238,000 \u2212 $176,000 = $62,000.",
     "wrongExplanations": [
       null,
-      "$238,000 is total assets only — it ignores the household's liabilities.",
+      "$238,000 is total assets only \u2014 it ignores the household's liabilities.",
       "$176,000 is total liabilities only, not net worth.",
       "$414,000 comes from adding assets and liabilities together instead of subtracting liabilities from assets."
     ],
@@ -3548,7 +3548,7 @@
       "6%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Real interest rate = nominal interest rate − inflation rate = 6% − 2.5% = 3.5%.",
+    "correctExplanation": "Real interest rate = nominal interest rate \u2212 inflation rate = 6% \u2212 2.5% = 3.5%.",
     "wrongExplanations": [
       null,
       "8.5% comes from adding inflation to the nominal rate instead of subtracting it.",
@@ -3579,12 +3579,12 @@
       "21%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Saving rate = saving ÷ income = $10,500 ÷ $70,000 = 0.15 = 15%.",
+    "correctExplanation": "Saving rate = saving \u00f7 income = $10,500 \u00f7 $70,000 = 0.15 = 15%.",
     "wrongExplanations": [
       null,
-      "85% is the share of income spent (100% − 15%), not the saving rate, which measures the share saved.",
+      "85% is the share of income spent (100% \u2212 15%), not the saving rate, which measures the share saved.",
       "10.5% mistakes the dollar amount saved for a percentage; the saving rate must be computed as saving divided by income.",
-      "21% doesn't match $10,500 ÷ $70,000; recomputing the division gives 15%, not 21%."
+      "21% doesn't match $10,500 \u00f7 $70,000; recomputing the division gives 15%, not 21%."
     ],
     "tags": [
       "saving rate",
@@ -3604,18 +3604,18 @@
     "questionType": "vocab",
     "question": "Private saving, as defined in this course, equals:",
     "choices": [
-      "Y – T – C",
-      "Y – C – G",
-      "T – G",
-      "C – T"
+      "Y \u2013 T \u2013 C",
+      "Y \u2013 C \u2013 G",
+      "T \u2013 G",
+      "C \u2013 T"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving is after-tax income minus consumption: S_PRIVATE = Y − T − C, where T is net taxes (taxes minus transfers minus government interest payments).",
+    "correctExplanation": "Private saving is after-tax income minus consumption: S_PRIVATE = Y \u2212 T \u2212 C, where T is net taxes (taxes minus transfers minus government interest payments).",
     "wrongExplanations": [
       null,
-      "Y − C − G is the formula for national saving, not private saving specifically.",
-      "T − G is the formula for public saving, not private saving.",
-      "C − T isn't one of the saving identities covered; it doesn't represent private saving."
+      "Y \u2212 C \u2212 G is the formula for national saving, not private saving specifically.",
+      "T \u2212 G is the formula for public saving, not private saving.",
+      "C \u2212 T isn't one of the saving identities covered; it doesn't represent private saving."
     ],
     "tags": [
       "private saving",
@@ -3635,18 +3635,18 @@
     "questionType": "vocab",
     "question": "Public saving is defined as:",
     "choices": [
-      "T – G",
-      "Y – T – C",
-      "G – T",
-      "Y – C – G"
+      "T \u2013 G",
+      "Y \u2013 T \u2013 C",
+      "G \u2013 T",
+      "Y \u2013 C \u2013 G"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Public saving is the public sector's income (net taxes, T) minus its spending on current needs (G): S_PUBLIC = T − G.",
+    "correctExplanation": "Public saving is the public sector's income (net taxes, T) minus its spending on current needs (G): S_PUBLIC = T \u2212 G.",
     "wrongExplanations": [
       null,
-      "Y − T − C is private saving, not public saving.",
-      "G − T reverses the terms; public saving is net taxes minus government spending, not the other way around.",
-      "Y − C − G is national saving (private plus public combined), not public saving alone."
+      "Y \u2212 T \u2212 C is private saving, not public saving.",
+      "G \u2212 T reverses the terms; public saving is net taxes minus government spending, not the other way around.",
+      "Y \u2212 C \u2212 G is national saving (private plus public combined), not public saving alone."
     ],
     "tags": [
       "public saving",
@@ -3672,7 +3672,7 @@
       "Private saving exceeds public saving"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A budget deficit is the excess of government spending over net tax collections (G > T). The course describes a budget deficit as \"public dissaving\" — the public sector is spending more than it is taking in.",
+    "correctExplanation": "A budget deficit is the excess of government spending over net tax collections (G > T). The course describes a budget deficit as \"public dissaving\" \u2014 the public sector is spending more than it is taking in.",
     "wrongExplanations": [
       null,
       "This describes a budget surplus, the opposite of a deficit.",
@@ -3703,7 +3703,7 @@
       "The market that sets the nominal wage for labor"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The loanable funds market — sometimes called the financial market — is where the equilibrium real interest rate equates the amount of saving supplied with the amount of investment funds demanded.",
+    "correctExplanation": "The loanable funds market \u2014 sometimes called the financial market \u2014 is where the equilibrium real interest rate equates the amount of saving supplied with the amount of investment funds demanded.",
     "wrongExplanations": [
       null,
       "Foreign-currency trading describes the foreign exchange market, not the loanable funds market.",
@@ -3738,9 +3738,9 @@
     "correctExplanation": "Crowding out occurs when a larger government budget deficit reduces national saving, pushing up the equilibrium interest rate along the investment demand curve and reducing (crowding out) private investment.",
     "wrongExplanations": [
       null,
-      "This describes the effect of a technology-driven increase in investment demand, which raises both saving and investment — the opposite dynamic from crowding out.",
+      "This describes the effect of a technology-driven increase in investment demand, which raises both saving and investment \u2014 the opposite dynamic from crowding out.",
       "Higher private saving shifting the saving curve outward would lower the interest rate; this is not what \"crowding out\" describes.",
-      "This describes how capital inflows can finance more investment than domestic saving alone — a different open-economy concept, not crowding out."
+      "This describes how capital inflows can finance more investment than domestic saving alone \u2014 a different open-economy concept, not crowding out."
     ],
     "tags": [
       "crowding out",
@@ -3770,7 +3770,7 @@
     "correctExplanation": "Ricardian equivalence holds that if households fully anticipate that today's government borrowing means higher future taxes, they raise their own saving to offset it, leaving national saving unchanged. The course notes that in practice, this does not fully hold.",
     "wrongExplanations": [
       null,
-      "This is close to the opposite of the idea — a rising deficit reduces national saving unless households' behavior offsets it exactly, which Ricardian equivalence claims only imperfectly holds in practice.",
+      "This is close to the opposite of the idea \u2014 a rising deficit reduces national saving unless households' behavior offsets it exactly, which Ricardian equivalence claims only imperfectly holds in practice.",
       "Ricardian equivalence is about saving behavior offsetting the deficit, not a direct claim that debt automatically lowers the interest rate.",
       "Ricardian equivalence is about domestic household saving responding to debt, not about capital inflows offsetting deficits."
     ],
@@ -3791,7 +3791,7 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "In a closed economy — one with no international trade or capital flows — the equilibrium condition in the loanable funds market is:",
+    "question": "In a closed economy \u2014 one with no international trade or capital flows \u2014 the equilibrium condition in the loanable funds market is:",
     "choices": [
       "S = I",
       "S + KI = I",
@@ -3832,11 +3832,11 @@
       "$430 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "National saving is S = Y − C − G = $500B − $340B − $90B = $70 billion.",
+    "correctExplanation": "National saving is S = Y \u2212 C \u2212 G = $500B \u2212 $340B \u2212 $90B = $70 billion.",
     "wrongExplanations": [
       null,
-      "$160 billion equals Y − C only; it omits subtracting government spending G.",
-      "$410 billion equals Y − G only; it omits subtracting consumption C.",
+      "$160 billion equals Y \u2212 C only; it omits subtracting government spending G.",
+      "$410 billion equals Y \u2212 G only; it omits subtracting consumption C.",
       "$430 billion is C + G added together, not income minus current-needs spending."
     ],
     "tags": [
@@ -3865,11 +3865,11 @@
       "$40 million"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving = Y − T − C = $200M − $40M − $130M = $30M. Public saving = T − G = $40M − $35M = $5M. National saving = private + public = $30M + $5M = $35 million (which also matches S = Y − C − G = $200M − $130M − $35M = $35M).",
+    "correctExplanation": "Private saving = Y \u2212 T \u2212 C = $200M \u2212 $40M \u2212 $130M = $30M. Public saving = T \u2212 G = $40M \u2212 $35M = $5M. National saving = private + public = $30M + $5M = $35 million (which also matches S = Y \u2212 C \u2212 G = $200M \u2212 $130M \u2212 $35M = $35M).",
     "wrongExplanations": [
       null,
-      "$30 million is private saving alone (Y − T − C); it omits public saving.",
-      "$5 million is public saving alone (T − G); it omits private saving.",
+      "$30 million is private saving alone (Y \u2212 T \u2212 C); it omits public saving.",
+      "$5 million is public saving alone (T \u2212 G); it omits private saving.",
       "$40 million is simply net taxes (T); it isn't a saving calculation at all."
     ],
     "tags": [
@@ -3902,7 +3902,7 @@
     "correctExplanation": "A larger government budget deficit reduces national saving, shifting the saving (supply) curve for loanable funds inward. This raises the equilibrium real interest rate, which moves the economy up along the investment demand curve, reducing (crowding out) the equilibrium quantity of investment.",
     "wrongExplanations": [
       null,
-      "Investment rises along the investment demand curve only if the interest rate falls, not rises — a reduced supply of saving pushes the rate up and investment down.",
+      "Investment rises along the investment demand curve only if the interest rate falls, not rises \u2014 a reduced supply of saving pushes the rate up and investment down.",
       "A leftward shift in the supply of saving raises, not lowers, the equilibrium interest rate.",
       "Both parts are backward: a smaller supply of loanable funds raises the interest rate and reduces investment, not the reverse."
     ],
@@ -3965,10 +3965,10 @@
       "A foreign firm importing goods from a domestic seller"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A capital inflow is the purchase of a domestic asset (real or financial) by a foreign household or firm — money flowing in to acquire an asset, not to buy currently produced goods or services.",
+    "correctExplanation": "A capital inflow is the purchase of a domestic asset (real or financial) by a foreign household or firm \u2014 money flowing in to acquire an asset, not to buy currently produced goods or services.",
     "wrongExplanations": [
       null,
-      "This describes a capital outflow — a domestic purchase of a foreign asset — the reverse direction.",
+      "This describes a capital outflow \u2014 a domestic purchase of a foreign asset \u2014 the reverse direction.",
       "Exporting goods is a trade transaction (counted in NX), not a capital flow, which involves the purchase of existing assets.",
       "Importing goods is also a trade transaction, not a capital flow."
     ],
@@ -3997,7 +3997,7 @@
       "National saving minus investment"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Net capital inflows equal capital inflows (foreign purchases of domestic assets) minus capital outflows (domestic purchases of foreign assets): KI = inflows − outflows.",
+    "correctExplanation": "Net capital inflows equal capital inflows (foreign purchases of domestic assets) minus capital outflows (domestic purchases of foreign assets): KI = inflows \u2212 outflows.",
     "wrongExplanations": [
       null,
       "Adding inflows and outflows together doesn't isolate the net direction of capital flows; the \"net\" in net capital inflows specifically means inflows minus outflows.",
@@ -4029,7 +4029,7 @@
       "Because capital inflows and net exports are unrelated to each other"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The identity NX + KI = 0 (equivalently KI = −NX) means a trade deficit (NX < 0) is mechanically matched by positive net capital inflows (KI > 0): the dollars foreigners receive for the goods they sell to us are used to buy domestic assets.",
+    "correctExplanation": "The identity NX + KI = 0 (equivalently KI = \u2212NX) means a trade deficit (NX < 0) is mechanically matched by positive net capital inflows (KI > 0): the dollars foreigners receive for the goods they sell to us are used to buy domestic assets.",
     "wrongExplanations": [
       null,
       "There is no such legal requirement; the relationship is an accounting identity, not a legal rule.",
@@ -4087,20 +4087,20 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "A country's net exports (NX) are −$25 billion this year. Using the identity NX + KI = 0, what are its net capital inflows (KI)?",
+    "question": "A country's net exports (NX) are \u2212$25 billion this year. Using the identity NX + KI = 0, what are its net capital inflows (KI)?",
     "choices": [
       "+$25 billion",
-      "−$25 billion",
+      "\u2212$25 billion",
       "$0",
       "+$50 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Since NX + KI = 0, KI = −NX = −(−$25B) = +$25 billion. A trade deficit of $25 billion is matched by $25 billion in net capital inflows.",
+    "correctExplanation": "Since NX + KI = 0, KI = \u2212NX = \u2212(\u2212$25B) = +$25 billion. A trade deficit of $25 billion is matched by $25 billion in net capital inflows.",
     "wrongExplanations": [
       null,
-      "−$25 billion would mean net capital outflows of the same size as the trade deficit, which doesn't satisfy NX + KI = 0 (−25 + −25 ≠ 0).",
-      "KI = 0 would only satisfy the identity if NX were also 0, but NX is −$25 billion here.",
-      "+$50 billion doesn't come from the identity NX + KI = 0; it isn't consistent with NX = −$25 billion."
+      "\u2212$25 billion would mean net capital outflows of the same size as the trade deficit, which doesn't satisfy NX + KI = 0 (\u221225 + \u221225 \u2260 0).",
+      "KI = 0 would only satisfy the identity if NX were also 0, but NX is \u2212$25 billion here.",
+      "+$50 billion doesn't come from the identity NX + KI = 0; it isn't consistent with NX = \u2212$25 billion."
     ],
     "tags": [
       "NX + KI = 0",
@@ -4134,7 +4134,7 @@
       null,
       "Higher perceived risk makes domestic assets less attractive to foreign buyers, shifting the curve left (decreasing inflows), not right.",
       "Risk is explicitly one of the factors that shifts the capital inflow curve; it isn't a case of no effect.",
-      "A leftward shift of the curve corresponds to lower inflows at a given interest rate, not higher — the shift direction and the quantity effect move together here."
+      "A leftward shift of the curve corresponds to lower inflows at a given interest rate, not higher \u2014 the shift direction and the quantity effect move together here."
     ],
     "tags": [
       "risk",
@@ -4197,7 +4197,7 @@
     "correctExplanation": "Net exports (NX) measures the value of currently produced goods and services traded across borders. Capital flows are purchases or sales of existing real and financial assets, a different kind of transaction, so they aren't counted directly in NX, though NX and KI are linked through the identity NX + KI = 0.",
     "wrongExplanations": [
       null,
-      "Capital flows commonly involve private households and firms buying stocks, bonds, and real estate — not just central banks.",
+      "Capital flows commonly involve private households and firms buying stocks, bonds, and real estate \u2014 not just central banks.",
       "Capital flows are generally not zero; countries regularly run net capital inflows or outflows.",
       "NX measures the trade balance in goods and services (exports minus imports), not domestic consumption spending."
     ],
@@ -4220,17 +4220,17 @@
     "questionType": "standard",
     "question": "A U.S. resident buys a Japanese-made motorcycle for $12,000. The Japanese manufacturer deposits the $12,000 in a U.S. bank account and uses it to purchase U.S. government bonds rather than U.S. goods. What are the resulting values of NX and KI from this transaction?",
     "choices": [
-      "NX = −$12,000; KI = +$12,000",
-      "NX = +$12,000; KI = −$12,000",
-      "NX = −$12,000; KI = −$12,000",
+      "NX = \u2212$12,000; KI = +$12,000",
+      "NX = +$12,000; KI = \u2212$12,000",
+      "NX = \u2212$12,000; KI = \u2212$12,000",
       "NX = $0; KI = $0"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The motorcycle purchase is a U.S. import, so NX falls by $12,000 (NX = −$12,000). Because the manufacturer uses the dollars to buy a U.S. bond (a domestic financial asset) instead of U.S. goods, that's a capital inflow of $12,000 (KI = +$12,000) — consistent with NX + KI = 0, since −$12,000 + $12,000 = 0.",
+    "correctExplanation": "The motorcycle purchase is a U.S. import, so NX falls by $12,000 (NX = \u2212$12,000). Because the manufacturer uses the dollars to buy a U.S. bond (a domestic financial asset) instead of U.S. goods, that's a capital inflow of $12,000 (KI = +$12,000) \u2014 consistent with NX + KI = 0, since \u2212$12,000 + $12,000 = 0.",
     "wrongExplanations": [
       null,
       "This reverses both signs: importing a good makes NX negative (not positive), and a foreign purchase of a U.S. asset is a capital inflow (positive KI), not a capital outflow.",
-      "KI cannot also be negative here — the Japanese manufacturer buying a U.S. bond is a purchase of a domestic asset by a foreigner, which is a capital inflow (positive KI), not a capital outflow.",
+      "KI cannot also be negative here \u2014 the Japanese manufacturer buying a U.S. bond is a purchase of a domestic asset by a foreigner, which is a capital inflow (positive KI), not a capital outflow.",
       "Both values are nonzero: the purchase reduces NX by the full amount, and the bond purchase is a real capital inflow of the same amount, satisfying NX + KI = 0."
     ],
     "tags": [
@@ -4238,6 +4238,3014 @@
       "capital inflow",
       "trade deficit",
       "calculation"
+    ]
+  },
+  {
+    "id": "class6-money-def-001",
+    "topic": "money-banking",
+    "subtopic": "Definition of Money",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Using the economist's definition of money presented in Class 6, which of the following is NOT money?",
+    "choices": [
+      "Currency in circulation",
+      "A checking account balance",
+      "A share of corporate stock",
+      "A traveler's check"
+    ],
+    "answerIndex": 2,
+    "correctExplanation": "Class 6 defines money as any asset that can be used in making purchases -- currency, checking account balances, and traveler's checks all qualify. Stocks (and bonds) are financial assets but are not themselves money, since they cannot be used directly to make most purchases.",
+    "wrongExplanations": [
+      "Currency in circulation is one of the examples of money given in Class 6.",
+      "Checking account balances are explicitly listed as money in Class 6, since they can be used to make purchases.",
+      null,
+      "Traveler's checks are explicitly listed as an example of money in Class 6."
+    ],
+    "tags": [
+      "money",
+      "definition of money"
+    ]
+  },
+  {
+    "id": "class6-money-uses-001",
+    "topic": "money-banking",
+    "subtopic": "Functions of Money",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Money eliminates the need for barter primarily through which of its three principal uses?",
+    "choices": [
+      "Medium of exchange",
+      "Unit of account",
+      "Store of value",
+      "Legal tender"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that money's role as a medium of exchange -- something accepted in exchange for goods and services -- is what makes barter unnecessary.",
+    "wrongExplanations": [
+      null,
+      "Unit of account is money's role as a common measure for stating prices and values, not what eliminates barter.",
+      "Store of value is money's ability to hold purchasing power over time, not what eliminates barter.",
+      "Legal tender describes money backed/recognized by government; it is not one of the three principal uses Class 6 lists."
+    ],
+    "tags": [
+      "money",
+      "functions of money"
+    ]
+  },
+  {
+    "id": "class6-reserveratio-001",
+    "topic": "money-banking",
+    "subtopic": "Fractional-Reserve Banking",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In Class 6's discussion of fractional-reserve banking, the reserve-deposit ratio is defined as:",
+    "choices": [
+      "Bank reserves divided by total deposits",
+      "Total loans divided by bank reserves",
+      "Total deposits divided by bank reserves",
+      "Bank reserves divided by total loans"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 defines the reserve-deposit ratio as bank reserves divided by total deposits; under fractional-reserve banking this ratio is less than 100%.",
+    "wrongExplanations": [
+      null,
+      "This divides loans by reserves, which is not how Class 6 defines the reserve-deposit ratio.",
+      "This inverts the ratio -- it would give the reciprocal of the reserve-deposit ratio, not the ratio itself.",
+      "This compares reserves to loans, not to deposits, so it isn't the reserve-deposit ratio."
+    ],
+    "tags": [
+      "fractional reserve banking",
+      "reserve-deposit ratio"
+    ]
+  },
+  {
+    "id": "class6-100pctreserve-001",
+    "topic": "money-banking",
+    "subtopic": "Fractional-Reserve Banking",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A bank operating under 100% reserve banking, as described in Class 6's 'Macroland' example, is one in which:",
+    "choices": [
+      "Bank reserves equal 100% of deposits, so no deposits are lent out",
+      "Banks lend out all of their deposits and keep no reserves",
+      "Reserves equal 100% of a bank's loans",
+      "Depositors receive 100% of the bank's profits"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 defines 100% reserve banking as banks holding reserves equal to 100% of their deposits -- in the Macroland example, all deposited currency simply sits as reserves rather than being lent out.",
+    "wrongExplanations": [
+      null,
+      "This describes the opposite situation -- lending out all deposits with zero reserves is what fractional-reserve banking allows, not 100% reserve banking.",
+      "100% reserve banking compares reserves to deposits, not to loans (and under 100% reserve banking there are no loans made from those deposits).",
+      "100% reserve banking is about the reserve-deposit ratio, not about how bank profits are distributed to depositors."
+    ],
+    "tags": [
+      "fractional reserve banking",
+      "100% reserve banking"
+    ]
+  },
+  {
+    "id": "class6-moneymultiplier-001",
+    "topic": "money-banking",
+    "subtopic": "Money Creation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A bank in a fractional-reserve system holds a reserve-deposit ratio of 20%. If the bank receives a new deposit of $50,000 and the money-creation process runs through the entire banking system, by how much can total deposits in the banking system eventually increase?",
+    "choices": [
+      "$250,000",
+      "$50,000",
+      "$10,000",
+      "$1,000,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 shows that with a reserve ratio rr, each dollar of reserves supports 1/rr dollars of deposits system-wide. Here the multiplier is 1/0.20 = 5, so a $50,000 initial deposit can support up to 5 x $50,000 = $250,000 in total deposits.",
+    "wrongExplanations": [
+      null,
+      "This just repeats the initial deposit; it ignores that banks re-lend most of it, and that re-lent money becomes new deposits elsewhere in the system.",
+      "This treats the reserve ratio itself as the multiplier (0.20 x $50,000) instead of its reciprocal (1/0.20).",
+      "This overstates the multiplier by an extra factor of 4 beyond the correct 1/0.20 = 5."
+    ],
+    "tags": [
+      "money multiplier",
+      "fractional reserve banking",
+      "money creation"
+    ]
+  },
+  {
+    "id": "class6-quantityequation-001",
+    "topic": "money-banking",
+    "subtopic": "Money and Inflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In an economy, the money stock M is $400 billion and the velocity of money V is 5. If real GDP (Y) is $2,500 billion, what price level (P) does the quantity equation M x V = P x Y imply?",
+    "choices": [
+      "0.8",
+      "1.25",
+      "2.0",
+      "5.0"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The quantity equation is M x V = P x Y. Substituting, $400B x 5 = $2,000B = P x $2,500B, so P = 2,000 / 2,500 = 0.8.",
+    "wrongExplanations": [
+      null,
+      "This inverts the correct ratio; solving for P requires dividing M x V by Y, not the reverse.",
+      "This uses M/V instead of M x V, which doesn't match the quantity equation.",
+      "This is just the velocity figure, not the price level implied by solving M x V = P x Y for P."
+    ],
+    "tags": [
+      "quantity equation",
+      "velocity of money",
+      "money and inflation"
+    ]
+  },
+  {
+    "id": "class6-quantityequation-longrun-001",
+    "topic": "money-banking",
+    "subtopic": "Money and Inflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 explains that if velocity (V) and real GDP (Y) are both constant, the quantity equation M x V = P x Y implies that:",
+    "choices": [
+      "An X% increase in the money supply causes roughly an X% increase in the price level",
+      "An X% increase in the money supply causes roughly an X% increase in real GDP",
+      "An X% increase in the money supply causes the price level to fall by X%",
+      "The price level is unaffected by changes in the money supply"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "With V and Y held constant, M x V = P x Y means any percentage change in M must be matched by the same percentage change in P, since the other two terms don't move.",
+    "wrongExplanations": [
+      null,
+      "The quantity equation holds Y (real GDP) constant in this scenario, so money growth shows up in P, not in real GDP.",
+      "This reverses the direction; a rise in the money supply raises, not lowers, the price level here.",
+      "The equation directly ties M to P when V and Y are fixed, so the price level is not unaffected by money-supply changes."
+    ],
+    "tags": [
+      "quantity equation",
+      "money and inflation",
+      "long run"
+    ]
+  },
+  {
+    "id": "class6-bankingpanics-001",
+    "topic": "money-banking",
+    "subtopic": "Banking Panics and the Fed",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to Class 6, the banking panic of 1907 directly led to which policy response?",
+    "choices": [
+      "The creation of the Federal Reserve in 1913",
+      "The introduction of 100% reserve banking nationwide",
+      "The abolition of fractional-reserve banking",
+      "The creation of federal deposit insurance"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that the 1907 Panic led to the 1913 creation of the Fed, which was intended to regulate bank activity and provide liquidity ('funding') during runs.",
+    "wrongExplanations": [
+      null,
+      "Class 6 does not describe the Fed's creation as mandating 100% reserve banking; fractional-reserve banking continued.",
+      "Fractional-reserve banking was not abolished; the Fed was created to regulate and backstop it, not eliminate it.",
+      "Class 6 attributes the Fed's creation, not deposit insurance, to the 1907 panic."
+    ],
+    "tags": [
+      "banking panics",
+      "Federal Reserve",
+      "financial history"
+    ]
+  },
+  {
+    "id": "class6-shadowbanking-001",
+    "topic": "money-banking",
+    "subtopic": "Banking Panics and the Fed",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 notes that the Fed regulates bank activity and provides liquidity during panics. Which limitation of this framework does the slide identify?",
+    "choices": [
+      "Many financial institutions are part of a 'shadow banking system' that is not regulated the same way as traditional banks",
+      "The Fed cannot set required reserve ratios",
+      "The Fed only regulates banks outside the United States",
+      "Fractional-reserve banking was banned after 1913"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 explicitly notes that many financial institutions are NOT regulated the way traditional banks are, forming a 'shadow banking system' outside the Fed's direct oversight.",
+    "wrongExplanations": [
+      null,
+      "Class 6 lists setting required reserve ratios as one of the Fed's actual tools, not something it cannot do.",
+      "Class 6 describes the Fed as the U.S. central bank regulating the U.S. banking system, not foreign banks.",
+      "Fractional-reserve banking continued after 1913; the Fed was created to regulate and support it, not ban it."
+    ],
+    "tags": [
+      "shadow banking",
+      "Federal Reserve",
+      "banking panics"
+    ]
+  },
+  {
+    "id": "class6-financialintermediation-001",
+    "topic": "money-banking",
+    "subtopic": "Financial Intermediation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 states that banks (as financial intermediaries) can extend credit more efficiently than an individual saver acting alone mainly because banks:",
+    "choices": [
+      "Have a lower cost of evaluating borrowers and can pool many savers' funds to make large loans",
+      "Are legally required to lend to every applicant",
+      "Charge no interest on loans, unlike individual lenders",
+      "Avoid all risk by lending only to the government"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 explains that banks specialize in evaluating borrower quality at a lower cost than an individual could, and they pool the savings of many individuals together to make loans too large for a single saver to fund alone.",
+    "wrongExplanations": [
+      null,
+      "Class 6 does not describe any legal requirement to lend to every applicant; banks specialize in evaluating which borrowers are creditworthy.",
+      "Banks earn interest on loans, which is in turn paid out to depositors -- lending is not interest-free.",
+      "Class 6 describes banks lending to a range of borrowers (businesses, homeowners), not exclusively to the government."
+    ],
+    "tags": [
+      "financial intermediation",
+      "banks"
+    ]
+  },
+  {
+    "id": "class6-selffinance-001",
+    "topic": "money-banking",
+    "subtopic": "Financing Projects",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 notes that even when a business finances a project entirely from its own savings ('self-finance'), this choice:",
+    "choices": [
+      "Still entails an opportunity cost",
+      "Is free, since no interest is paid to a bank",
+      "Eliminates all risk to the business",
+      "Is only available to governments"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that self-financing from one's own savings still entails an opportunity cost -- those funds could have earned a return elsewhere.",
+    "wrongExplanations": [
+      null,
+      "Not paying bank interest doesn't make self-finance free; the opportunity cost of not investing those funds elsewhere is still a real cost.",
+      "Self-finance doesn't eliminate business risk; it only changes how the project is funded.",
+      "Class 6 discusses self-finance as an option for financing any project, not one restricted to governments."
+    ],
+    "tags": [
+      "self-finance",
+      "opportunity cost",
+      "financing projects"
+    ]
+  },
+  {
+    "id": "class6-m1m2-001",
+    "topic": "money-banking",
+    "subtopic": "Measuring Money (M1/M2)",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Compared to M1, the M2 measure of the money supply additionally includes items such as:",
+    "choices": [
+      "Savings deposits and money market mutual funds",
+      "Only physical currency",
+      "Only demand deposits",
+      "Corporate stock holdings"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6's table shows M2 = M1 plus savings deposits, small-denomination time notes, and money market mutual funds -- broader, less liquid components not counted in the narrower M1.",
+    "wrongExplanations": [
+      null,
+      "Physical currency alone is already part of M1; it isn't something added uniquely by the broader M2 measure.",
+      "Demand deposits are already counted within M1, not an addition unique to M2.",
+      "Stock holdings are not counted in either M1 or M2, since stocks are not money."
+    ],
+    "tags": [
+      "M1",
+      "M2",
+      "monetary aggregates"
+    ]
+  },
+  {
+    "id": "class6-pv-001",
+    "topic": "financial-markets",
+    "subtopic": "Present Value",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Using the present-value concept from Class 6, how much would you need to invest today at a 4% annual interest rate to have exactly $10,400 one year from now?",
+    "choices": [
+      "$10,000",
+      "$10,400",
+      "$9,984",
+      "$10,816"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 defines present value as the amount that must be saved today at interest rate i to have amount AT in T years: PV = AT / (1+i)^T. Here, PV = $10,400 / 1.04 = $10,000.",
+    "wrongExplanations": [
+      null,
+      "$10,400 is the future value itself -- it hasn't been discounted back by the interest rate to find its present value.",
+      "This subtracts 4% from $10,400 rather than dividing by 1.04, which understates the true present value.",
+      "This multiplies $10,400 by 1.04 instead of dividing by it, moving further from today's value rather than discounting back to it."
+    ],
+    "tags": [
+      "present value",
+      "time value of money"
+    ]
+  },
+  {
+    "id": "class6-bondprice-001",
+    "topic": "financial-markets",
+    "subtopic": "Bonds",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A one-year bond with a $1,000 principal and a 4% coupon rate will pay $1,040 in one year. If the market interest rate on comparable one-year bonds rises to 8%, what happens to this older bond's price, and approximately what will it sell for today?",
+    "choices": [
+      "It falls to approximately $963",
+      "It rises to approximately $1,081",
+      "It stays at $1,000 because the principal hasn't changed",
+      "It falls to approximately $520"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Bond price = promised payment / (1 + market rate) = $1,040 / 1.08 \u2248 $963. Because this bond's 4% coupon is now below the 8% market rate, investors will only pay a discounted price for it -- confirming that bond prices and interest rates move inversely, as Class 6 states.",
+    "wrongExplanations": [
+      null,
+      "Bond prices move inversely with interest rates -- a higher market rate should push this older, lower-coupon bond's price down, not up.",
+      "The bond's price depends on discounting its promised payment at today's market rate, not just its stated principal; since the market rate now exceeds the coupon rate, the price must fall below $1,000.",
+      "This divides by roughly double the correct discount factor, overstating how far the price falls."
+    ],
+    "tags": [
+      "bond pricing",
+      "interest rates",
+      "present value"
+    ]
+  },
+  {
+    "id": "class6-coupon-determinants-001",
+    "topic": "financial-markets",
+    "subtopic": "Bonds",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to Class 6, which of the following would most likely INCREASE a newly issued corporate bond's coupon rate?",
+    "choices": [
+      "A longer term to maturity",
+      "A shorter term to maturity",
+      "Being a municipal bond exempt from federal taxes",
+      "A lower probability of default"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that the coupon rate depends on the bond's term (longer term, higher coupon rate), the issuer's credit risk (higher risk, higher coupon rate), and tax treatment (lower taxes, lower coupon rate).",
+    "wrongExplanations": [
+      null,
+      "Class 6 states a shorter term is associated with a lower coupon rate, not a higher one.",
+      "Municipal bonds' federal tax exemption is associated with lower coupon rates, since investors accept a lower rate for the tax benefit.",
+      "A lower probability of default (lower credit risk) is associated with a lower coupon rate, not a higher one."
+    ],
+    "tags": [
+      "bonds",
+      "coupon rate"
+    ]
+  },
+  {
+    "id": "class6-municipalbonds-001",
+    "topic": "financial-markets",
+    "subtopic": "Bonds",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 notes that municipal bonds tend to carry lower coupon rates than otherwise-similar corporate bonds mainly because:",
+    "choices": [
+      "Municipal bond coupon payments are free from federal taxes, so investors accept a lower rate",
+      "Municipal bonds always have a shorter term",
+      "Municipal governments never default",
+      "Municipal bonds are not sold on financial markets"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 explains that municipal bonds' coupon payments are free from federal taxes, and this tax advantage lets issuers offer a lower coupon rate while still being attractive to investors.",
+    "wrongExplanations": [
+      null,
+      "Class 6 ties the lower coupon rate to tax treatment, not to term length, which can vary independently.",
+      "Class 6 does not claim municipal governments are default-free; credit risk is a separate factor from tax treatment.",
+      "Class 6 discusses municipal bonds as bonds that are issued and traded, just like corporate or government bonds."
+    ],
+    "tags": [
+      "bonds",
+      "municipal bonds",
+      "coupon rate"
+    ]
+  },
+  {
+    "id": "class6-riskpremium-001",
+    "topic": "financial-markets",
+    "subtopic": "Risk Premium",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "The safe (risk-free) interest rate in the market is 3%. Investors require a risk premium of 5 percentage points to hold a particular risky stock. What discount rate should be used to value that stock's expected future payments?",
+    "choices": [
+      "8%",
+      "3%",
+      "5%",
+      "15%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 defines the discount rate for a risky asset as the safe interest rate plus the risk premium: 3% + 5% = 8%.",
+    "wrongExplanations": [
+      null,
+      "3% is only the safe rate; it ignores the additional risk premium investors require to hold this risky stock.",
+      "5% is only the risk premium; the discount rate also needs the safe rate added to it.",
+      "15% doesn't come from adding the safe rate and risk premium (3% + 5%); it overstates the correct discount rate."
+    ],
+    "tags": [
+      "risk premium",
+      "discount rate",
+      "stocks"
+    ]
+  },
+  {
+    "id": "class6-emh-001",
+    "topic": "financial-markets",
+    "subtopic": "Efficient Market Hypothesis",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The Efficient Market Hypothesis, as presented in Class 6, implies that:",
+    "choices": [
+      "Individual investors cannot reliably beat the market except during short, anomalous periods, because stock prices already reflect available information",
+      "Diversification increases both the risk and the expected return of a portfolio",
+      "Stock prices never change once a company's fundamentals are known",
+      "Active investment strategies reliably outperform a diversified index over the long run"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that markets for stocks efficiently aggregate all information, so individual investors cannot reliably beat the market except for short anomalous occasions.",
+    "wrongExplanations": [
+      null,
+      "Class 6 states diversification reduces risk but does not increase expected return.",
+      "Class 6 does not claim prices stop changing; efficient markets continuously incorporate new information into prices.",
+      "This is the opposite of what the EMH implies -- Class 6 states active investment is largely 'pointless' precisely because it does not reliably beat the market."
+    ],
+    "tags": [
+      "efficient market hypothesis",
+      "stocks"
+    ]
+  },
+  {
+    "id": "class6-diversification-001",
+    "topic": "financial-markets",
+    "subtopic": "Financial Markets",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Diversification, as defined in Class 6, refers to:",
+    "choices": [
+      "Spreading one's wealth over a variety of investments to reduce risk",
+      "Investing all of one's wealth in a single high-performing stock",
+      "Borrowing money to increase the size of an investment",
+      "Selling a bond before its maturation date"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 defines diversification as spreading one's wealth over a variety of investments in order to reduce risk.",
+    "wrongExplanations": [
+      null,
+      "Concentrating wealth in a single stock is the opposite of diversification and increases, not reduces, risk.",
+      "Borrowing to increase investment size describes leverage, a different concept from diversification.",
+      "Selling a bond before maturity is a bond-market transaction, not what diversification means."
+    ],
+    "tags": [
+      "diversification",
+      "financial markets"
+    ]
+  },
+  {
+    "id": "class6-financialmarkets-role-001",
+    "topic": "financial-markets",
+    "subtopic": "Financial Markets",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Class 6 identifies which of the following as a shared function of both bond markets and stock markets?",
+    "choices": [
+      "Channeling funds from savers to borrowers with productive investment opportunities",
+      "Guaranteeing a fixed return with no risk to investors",
+      "Directly setting the required reserve ratio for banks",
+      "Replacing the need for financial intermediaries entirely"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that bond and stock markets both channel funds from savers to borrowers with productive investment opportunities, and provide information and risk-sharing along the way.",
+    "wrongExplanations": [
+      null,
+      "Stocks in particular are explicitly described as risky, with returns that are not guaranteed.",
+      "Setting reserve ratios is a central-bank/regulatory function, not something bond or stock markets do.",
+      "Bond and stock markets operate alongside banks and other intermediaries; Class 6 does not describe them as replacing intermediaries."
+    ],
+    "tags": [
+      "financial markets",
+      "bonds",
+      "stocks"
+    ]
+  },
+  {
+    "id": "ds3-moneydemand-slope-001",
+    "topic": "money-banking",
+    "subtopic": "Money Demand",
+    "difficulty": "easy",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The money demand curve slopes downward when plotted against the nominal interest rate because:",
+    "choices": [
+      "At higher interest rates, the opportunity cost of holding money (which pays little or no interest) is higher, so people want to hold less of it",
+      "At higher interest rates, banks require larger minimum deposits",
+      "At higher interest rates, people dislike using banks",
+      "At higher interest rates, the opportunity cost of holding money is lower"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "DS3's solution explains that money (cash and non-interest-bearing deposits) earns little or no interest, so holding it means giving up the interest that could have been earned on an interest-bearing asset. A higher interest rate raises this opportunity cost, so people want to hold less money -- a downward-sloping money demand curve.",
+    "wrongExplanations": [
+      null,
+      "DS3 does not attribute the downward slope to minimum deposit requirements; it's about the opportunity cost of holding non-interest-bearing money.",
+      "DS3's reasoning is about the cost of holding money, not a general dislike of banks.",
+      "This reverses the actual relationship -- a higher interest rate raises, not lowers, the opportunity cost of holding money."
+    ],
+    "tags": [
+      "money demand",
+      "opportunity cost",
+      "interest rate"
+    ]
+  },
+  {
+    "id": "ds3-fed-openmarket-001",
+    "topic": "money-banking",
+    "subtopic": "Fed Control of the Money Supply",
+    "difficulty": "easy",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Which of the following Fed actions would most likely INCREASE the money supply?",
+    "choices": [
+      "The Fed buys government bonds in the open market",
+      "The Fed sells government bonds in the open market",
+      "The Fed raises the required reserve ratio",
+      "None of these actions changes the money supply"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "DS3's solution states that buying bonds in the open market increases the money supply, since the Fed pays for the bonds with money that enters the banking system as new reserves.",
+    "wrongExplanations": [
+      null,
+      "DS3's solution states that selling bonds tends to decrease the money supply, the opposite of increasing it.",
+      "DS3's solution states that increasing the required reserve ratio tends to decrease the money supply, since banks can lend out a smaller share of deposits.",
+      "Both bond purchases and reserve-ratio changes are identified in DS3 as tools that do change the money supply."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "open market operations",
+      "money supply"
+    ]
+  },
+  {
+    "id": "ds3-fed-reserveratio-001",
+    "topic": "money-banking",
+    "subtopic": "Fed Control of the Money Supply",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "If the Fed wants to DECREASE the money supply, which combination of actions is consistent with that goal?",
+    "choices": [
+      "Selling bonds in the open market and raising the required reserve ratio",
+      "Buying bonds in the open market and lowering the required reserve ratio",
+      "Selling bonds in the open market and lowering the required reserve ratio",
+      "Buying bonds in the open market and raising the required reserve ratio"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "DS3's solution identifies both selling bonds and raising the required reserve ratio as actions that decrease the money supply, so combining them both decreases it.",
+    "wrongExplanations": [
+      null,
+      "Buying bonds and lowering the reserve ratio are both identified in DS3 as actions that increase, not decrease, the money supply.",
+      "Lowering the reserve ratio works against the goal of decreasing the money supply, even though selling bonds works toward it.",
+      "Buying bonds works against the goal of decreasing the money supply, even though raising the reserve ratio works toward it."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "open market operations",
+      "required reserve ratio",
+      "money supply"
+    ]
+  },
+  {
+    "id": "ds3-shift-vs-movement-001",
+    "topic": "money-banking",
+    "subtopic": "Money Demand",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A rise in the nominal interest rate, holding all else constant, causes:",
+    "choices": [
+      "A movement along the existing money demand curve, not a shift of the curve",
+      "The money demand curve to shift to the right",
+      "The money demand curve to shift to the left",
+      "The money supply curve to become horizontal"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "DS3's solution explains that a change in the interest rate itself is what the money demand curve is plotted against, so it produces a movement along the curve rather than a shift of the whole curve.",
+    "wrongExplanations": [
+      null,
+      "A rightward shift would come from something that changes money demand at every interest rate (like higher real income), not from a change in the interest rate itself.",
+      "A leftward shift would likewise require a change in some factor other than the interest rate.",
+      "DS3's question is about the money demand curve, not the shape of the money supply curve."
+    ],
+    "tags": [
+      "money demand",
+      "movement along a curve",
+      "shift versus movement"
+    ]
+  },
+  {
+    "id": "ds3-shifter-realincome-001",
+    "topic": "money-banking",
+    "subtopic": "Money Demand",
+    "difficulty": "easy",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "An increase in the economy's real income (holding the interest rate and price level constant) would be expected to:",
+    "choices": [
+      "Shift the money demand curve to the right, since more transactions require holding more money",
+      "Shift the money demand curve to the left",
+      "Cause a movement along the money demand curve with no shift",
+      "Have no effect on money demand"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "DS3's solution identifies a rise in real income as a genuine shifter of money demand: higher real output means more transactions, so both individuals and businesses need to hold more money at every interest rate, shifting the curve right.",
+    "wrongExplanations": [
+      null,
+      "A leftward shift would mean less money demanded at every interest rate, the opposite of what more transactions require.",
+      "Because real income (not the interest rate) is what's changing here, this is a shift of the curve, not a movement along it.",
+      "DS3's solution explicitly treats a rise in real income as a shifter of money demand, not a non-event."
+    ],
+    "tags": [
+      "money demand",
+      "real income",
+      "shifters"
+    ]
+  },
+  {
+    "id": "ds3-mobilepayments-scenario-001",
+    "topic": "money-banking",
+    "subtopic": "Money Demand Shifters",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Suppose mobile payment apps become so widely accepted that most consumers stop carrying cash for everyday purchases. Holding the money supply fixed, what happens to the money demand curve and the nominal interest rate?",
+    "choices": [
+      "Money demand shifts left (falls) because less liquidity is needed for transactions, so the nominal interest rate falls",
+      "Money demand shifts right (rises) because people need more money for transactions, so the nominal interest rate rises",
+      "Money demand does not shift; only a movement along the curve occurs",
+      "Money demand shifts left, but the nominal interest rate rises"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This mirrors DS3's solution for credit cards reducing the need for liquidity: easier access to cashless payment reduces the demand for holding money, shifting money demand down/left, and with the money supply unchanged, the equilibrium nominal interest rate falls.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- easier access to cashless payment reduces, not increases, the need to hold money.",
+      "Payment technology is a genuine shifter of money demand (it changes demand at every interest rate), not just something that moves the economy along a fixed curve.",
+      "A leftward shift in demand (with supply fixed) lowers, not raises, the equilibrium interest rate."
+    ],
+    "tags": [
+      "money demand",
+      "shifters",
+      "nominal interest rate"
+    ]
+  },
+  {
+    "id": "ds3-fedresponse-liquidity-001",
+    "topic": "money-banking",
+    "subtopic": "Fed Control of the Money Supply",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In the mobile-payments scenario above, if the Fed wants to keep the nominal interest rate unchanged after money demand falls, it should:",
+    "choices": [
+      "Decrease the money supply",
+      "Increase the money supply",
+      "Leave the money supply unchanged",
+      "Raise the required reserve ratio only, with no change in bond holdings"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Since money demand fell, the equilibrium interest rate would fall unless the Fed also reduces the money supply, shifting money supply back to intersect the lower demand curve at the original interest rate -- exactly the logic DS3's solution applies to the credit-card scenario.",
+    "wrongExplanations": [
+      null,
+      "Increasing the money supply would push the interest rate down even further, moving it away from the original level, not back to it.",
+      "Leaving the money supply unchanged would let the interest rate fall along with the drop in money demand, not hold it constant.",
+      "Raising the reserve ratio alone decreases the money supply, which is directionally right, but the Fed's tool for this task (per DS3) is adjusting the money supply generally, most directly via open-market bond sales."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "money supply",
+      "nominal interest rate"
+    ]
+  },
+  {
+    "id": "ds3-riskyassets-scenario-001",
+    "topic": "money-banking",
+    "subtopic": "Money Demand Shifters",
+    "difficulty": "medium",
+    "sourceIds": [
+      "ds3"
+    ],
+    "sourceLabel": "Discussion Session 3",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Suppose investors become worried about volatility in a popular asset class and shift more of their wealth into cash and liquid bank deposits instead. Holding the money supply fixed, what happens to money demand and the nominal interest rate?",
+    "choices": [
+      "Money demand shifts right (rises), so the nominal interest rate rises",
+      "Money demand shifts left (falls), so the nominal interest rate falls",
+      "Money demand does not shift; this only changes the money supply",
+      "Money demand shifts right, but the nominal interest rate falls"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This mirrors DS3's solution for investors worried about riskier stocks: when households want to hold more wealth in safe, liquid forms like cash and deposits, money demand shifts up/right, and with the money supply unchanged, the equilibrium nominal interest rate rises.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- wanting to hold more money (not less) shifts demand right, not left.",
+      "A change in investors' desired asset mix shifts money demand itself; it doesn't operate through the money supply.",
+      "A rightward shift in demand (with supply fixed) raises, not lowers, the equilibrium interest rate."
+    ],
+    "tags": [
+      "money demand",
+      "shifters",
+      "nominal interest rate"
+    ]
+  },
+  {
+    "id": "ecb-money-functions-001",
+    "topic": "monetary-policy",
+    "subtopic": "Functions of Money",
+    "difficulty": "easy",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "According to the ECB guest lecture, money's role as a 'store of value' means that money:",
+    "choices": [
+      "Preserves purchasing power over time",
+      "Provides a standardized measure for stating prices",
+      "Settles outstanding debt contracts directly",
+      "Is backed by a central bank's tax authority"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The guest lecture explains that as a store of value, money preserves purchasing power over time, ensuring that wealth held today retains predictable utility tomorrow.",
+    "wrongExplanations": [
+      null,
+      "This describes money's unit-of-account function, not its store-of-value function.",
+      "This describes money's medium-of-exchange function (settling debts and transactions), not store of value.",
+      "State backing (via tax demand) is discussed as part of why money works as a medium of exchange, not the definition of store of value."
+    ],
+    "tags": [
+      "functions of money",
+      "store of value"
+    ]
+  },
+  {
+    "id": "ecb-money-statebacking-001",
+    "topic": "monetary-policy",
+    "subtopic": "Functions of Money",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture argues that digital tokens like Bitcoin fail to qualify as 'real money' mainly because they:",
+    "choices": [
+      "Lack state backing for tax settlement and are too volatile to serve as a stable unit of account or store of value",
+      "Cannot be transferred electronically",
+      "Are illegal in the European Union",
+      "Are only accepted by commercial banks, not the general public"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's notes state that digital tokens lack the state backing required to settle tax liabilities, and their extreme price volatility disqualifies them from serving as a stable unit of account or reliable store of value.",
+    "wrongExplanations": [
+      null,
+      "The lecture's objection is about state backing and volatility, not about the technical ability to transfer tokens electronically.",
+      "The lecture does not claim such tokens are illegal; its argument is that they fail to functionally satisfy money's three roles.",
+      "The lecture's argument is about the tokens' own properties (backing and volatility), not about who is willing to accept them."
+    ],
+    "tags": [
+      "functions of money",
+      "digital currency"
+    ]
+  },
+  {
+    "id": "ecb-m1m2m3-001",
+    "topic": "monetary-policy",
+    "subtopic": "Monetary Aggregates",
+    "difficulty": "easy",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Narrow money (M1), as defined in the guest lecture, consists of:",
+    "choices": [
+      "Cash in circulation and overnight deposits",
+      "Cash in circulation only",
+      "All short-term bank deposits, including time deposits",
+      "Government bonds held by commercial banks"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The guest lecture defines narrow money (M1) as cash in circulation plus overnight deposits -- the narrowest definition of money, directly targeting the medium-of-exchange function.",
+    "wrongExplanations": [
+      null,
+      "M1 includes overnight deposits in addition to cash, not cash alone.",
+      "Broader short-term deposits (including time deposits) are part of the broader M2/M3 aggregates, not the narrower M1.",
+      "Government bonds are not counted as money in any of the aggregates the lecture describes."
+    ],
+    "tags": [
+      "monetary aggregates",
+      "M1",
+      "M2",
+      "M3"
+    ]
+  },
+  {
+    "id": "ecb-loanscreatedeposits-001",
+    "topic": "monetary-policy",
+    "subtopic": "Money Creation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture's 'loans create deposits' view of banking argues that:",
+    "choices": [
+      "Commercial banks create new deposit money by extending credit, rather than simply lending out pre-existing customer deposits",
+      "Banks must collect deposits before they are able to make any loans",
+      "Central banks directly create all commercial bank deposits",
+      "Deposits are assets of the commercial bank, not liabilities"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that, per major central banks' own accounts, banks do not lend out existing deposits -- credit creation comes first, and deposits arise from that lending; only afterward can income be saved and flow back to banks as deposits.",
+    "wrongExplanations": [
+      null,
+      "This is the traditional, textbook-only view the lecture explicitly rejects: the lecture states loans create deposits, not the reverse sequence.",
+      "The lecture attributes deposit creation to commercial banks' own lending decisions, not direct central bank action.",
+      "The lecture explicitly states a demand deposit is a liability of the commercial bank (a promise to pay), not an asset."
+    ],
+    "tags": [
+      "money creation",
+      "endogenous money",
+      "commercial banks"
+    ]
+  },
+  {
+    "id": "ecb-loanscreatedeposits-002",
+    "topic": "monetary-policy",
+    "subtopic": "Money Creation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In the guest lecture's balance-sheet example, when a commercial bank grants a new loan to a customer, the newly created demand deposit is recorded on the bank's balance sheet as:",
+    "choices": [
+      "A liability of the bank",
+      "An asset of the bank",
+      "Neither an asset nor a liability",
+      "A liability of the central bank"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states the demand deposit is a liability of the commercial bank -- a promise to pay ('IOU') that is available to the customer on demand, while the loan itself is recorded as an asset.",
+    "wrongExplanations": [
+      null,
+      "The loan (not the deposit) is the bank's asset in this transaction; the newly created deposit is the matching liability.",
+      "The balance sheet extension explicitly records the deposit as a liability, not as something outside the balance sheet.",
+      "The lecture describes this as a liability of the commercial bank that created it, not of the central bank."
+    ],
+    "tags": [
+      "money creation",
+      "bank balance sheets"
+    ]
+  },
+  {
+    "id": "ecb-mandate-001",
+    "topic": "monetary-policy",
+    "subtopic": "ECB Mandate",
+    "difficulty": "easy",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "According to the guest lecture, the primary mandate of the ECB (the Eurosystem) is to:",
+    "choices": [
+      "Maintain price stability",
+      "Maximize shareholder value",
+      "Directly set wages across the euro area",
+      "Guarantee full employment above all other goals"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture cites the Treaty of Maastricht: the primary objective of the ESCB (Eurosystem) is to maintain price stability, with support for general economic policy as a secondary goal.",
+    "wrongExplanations": [
+      null,
+      "Maximizing shareholder value is the lecture's description of a commercial bank's target, explicitly contrasted with a central bank's public mandate.",
+      "The lecture does not describe the ECB as setting wages; that is not part of its mandate.",
+      "Price stability is the ECB's primary objective; supporting broader economic policy (which can include employment) is secondary and 'without prejudice' to price stability."
+    ],
+    "tags": [
+      "ECB mandate",
+      "price stability"
+    ]
+  },
+  {
+    "id": "ecb-target-001",
+    "topic": "monetary-policy",
+    "subtopic": "ECB Mandate",
+    "difficulty": "easy",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The ECB's definition of price stability, as presented in the guest lecture, is:",
+    "choices": [
+      "A symmetric 2% increase in the HICP for the euro area, measured over the medium term",
+      "Exactly 0% inflation at all times",
+      "A 2% inflation ceiling with no floor",
+      "Whatever inflation rate maximizes short-term GDP growth"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture defines price stability as a symmetric 2% increase in the Harmonized Index of Consumer Prices (HICP) for the euro area, compared to the previous year, in the medium term -- with upward and downward deviations equally undesirable.",
+    "wrongExplanations": [
+      null,
+      "The lecture explicitly explains why the ECB does NOT target 0% inflation, citing deflation risk among other reasons.",
+      "The target is symmetric, meaning inflation below 2% is treated as equally undesirable as inflation above 2%, not just a ceiling.",
+      "The lecture defines a specific numeric inflation target, not a discretionary goal tied to short-term growth maximization."
+    ],
+    "tags": [
+      "ECB mandate",
+      "price stability",
+      "inflation target"
+    ]
+  },
+  {
+    "id": "ecb-why2pct-001",
+    "topic": "monetary-policy",
+    "subtopic": "ECB Mandate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture gives several reasons the ECB targets 2% inflation rather than 0%. Which of the following is one of those reasons?",
+    "choices": [
+      "A positive inflation buffer provides a safety margin against deflation and preserves room to cut interest rates",
+      "2% is the maximum inflation rate central banks are legally allowed to target",
+      "0% inflation would eliminate the need for a central bank",
+      "Consumers prefer round numbers"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists a safety margin against deflation (preserving room to cut nominal rates), statistical measurement bias, the euro area's heterogeneity, and downward nominal wage rigidities as reasons for a positive, not zero, inflation target.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes 2% as the ECB's own chosen target, not a legal ceiling imposed on all central banks.",
+      "The lecture does not suggest 0% inflation would make central banks unnecessary; price stability itself remains the goal at any target level.",
+      "This is not among the lecture's stated reasons (safety margin, measurement bias, heterogeneity, wage rigidity)."
+    ],
+    "tags": [
+      "ECB mandate",
+      "inflation target"
+    ]
+  },
+  {
+    "id": "ecb-coldprogression-001",
+    "topic": "monetary-policy",
+    "subtopic": "Costs of Inflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "'Cold progression,' as described in the guest lecture, refers to the way unexpected inflation:",
+    "choices": [
+      "Pushes workers into higher tax brackets, increasing their real tax burden even without a real income increase",
+      "Automatically lowers everyone's taxes",
+      "Only affects government bondholders",
+      "Causes deflation in the following year"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes cold progression ('bracket creep') as inflation pushing workers' nominal incomes into higher tax brackets, disproportionately increasing their real tax burden even when their real income hasn't actually risen.",
+    "wrongExplanations": [
+      null,
+      "Cold progression raises, not lowers, the real tax burden -- it works through bracket creep in a progressive tax system.",
+      "The lecture describes this as affecting workers broadly through the tax system, not narrowly limited to bondholders.",
+      "Cold progression is a real cost of inflation itself, not a mechanism that causes deflation afterward."
+    ],
+    "tags": [
+      "costs of inflation",
+      "cold progression",
+      "redistribution effects"
+    ]
+  },
+  {
+    "id": "ecb-inflationredistribution-001",
+    "topic": "monetary-policy",
+    "subtopic": "Costs of Inflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture explains that inflation's redistribution effects are most severe when inflation is:",
+    "choices": [
+      "Unanticipated, since nominal contracts based on fixed incomes or fixed-value assets/liabilities don't adjust in advance",
+      "Anticipated, since everyone plans around it",
+      "Exactly equal to the ECB's 2% target",
+      "Negative"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states redistribution effects primarily occur with unexpected inflation: if the ECB's target is credible and everyone adapts their expectations, nominal contracts adjust and there are no real redistributive effects, but a surprise causes real declines for those with fixed nominal incomes.",
+    "wrongExplanations": [
+      null,
+      "The lecture states the opposite: when inflation is anticipated and expectations adapt, redistribution effects largely disappear.",
+      "The lecture's redistribution discussion is about anticipated versus unanticipated inflation, not about hitting the 2% target exactly.",
+      "The lecture's redistribution-effects discussion is framed around inflation, not deflation, which it treats separately."
+    ],
+    "tags": [
+      "costs of inflation",
+      "redistribution effects"
+    ]
+  },
+  {
+    "id": "ecb-inflationriskpremium-001",
+    "topic": "monetary-policy",
+    "subtopic": "Costs of Inflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the guest lecture, high and volatile inflation tends to raise real interest rates and hamper investment mainly because:",
+    "choices": [
+      "Risk-averse investors demand a higher inflation risk premium to compensate for the added uncertainty",
+      "The central bank is legally required to raise rates whenever inflation rises",
+      "High inflation directly lowers the nominal money supply",
+      "Volatile inflation eliminates the need for price signals"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that higher inflation volatility increases uncertainty, and risk-averse investors demand an inflation risk premium as compensation, which drives up real interest rates and hampers investment activity.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes an economic mechanism through risk premiums, not a legal requirement forcing the central bank's hand.",
+      "The lecture does not claim inflation mechanically shrinks the nominal money supply; its concern is distorted price signals and risk premiums.",
+      "The lecture argues high inflation distorts price signals (making them less useful), not that it removes the need for them."
+    ],
+    "tags": [
+      "costs of inflation",
+      "risk premium",
+      "real interest rate"
+    ]
+  },
+  {
+    "id": "ecb-debtdeflation-001",
+    "topic": "monetary-policy",
+    "subtopic": "Costs of Deflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture's 'debt-deflation' danger during deflation refers to the fact that falling prices:",
+    "choices": [
+      "Increase the real value of existing nominal debt, raising the burden on borrowers even as their revenues fall",
+      "Reduce the real value of existing nominal debt, helping borrowers",
+      "Only affect government debt, not household or corporate debt",
+      "Immediately eliminate all bank lending"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that while falling prices superficially increase purchasing power, they also increase the real value of nominal debt, worsening the position of indebted households and firms even as their revenues decline -- a core driver of the deflationary spiral.",
+    "wrongExplanations": [
+      null,
+      "This reverses the mechanism -- deflation increases, not decreases, the real burden of existing nominal debt.",
+      "The lecture describes rising payment delays and bankruptcies among indebted companies and households broadly, not government debt alone.",
+      "The lecture describes a gradual credit crunch as non-performing loans rise, not an immediate halt to all lending."
+    ],
+    "tags": [
+      "costs of deflation",
+      "debt deflation"
+    ]
+  },
+  {
+    "id": "ecb-deflationaryspiral-001",
+    "topic": "monetary-policy",
+    "subtopic": "Costs of Deflation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the guest lecture, a self-reinforcing deflationary spiral can occur because:",
+    "choices": [
+      "Falling prices and rising unemployment lead households to postpone consumption in anticipation of even lower prices, further reducing demand and prices",
+      "Falling prices always increase aggregate demand immediately",
+      "Central banks are unable to lower interest rates during deflation",
+      "Deflation causes hyperinflation within a year"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes a chain: falling prices raise real debt burdens, causing bankruptcies and non-performing loans, which triggers a credit crunch; households then postpone spending expecting further price drops, reinforcing the downward spiral.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes households postponing spending, which reduces (not increases) aggregate demand during deflation.",
+      "The lecture doesn't claim central banks are mechanically unable to cut rates during deflation, though very low starting rates can limit room to cut further (the effective lower bound), which is a separate point.",
+      "The lecture describes deflationary spirals leading to depression-like outcomes, not a sudden reversal into hyperinflation."
+    ],
+    "tags": [
+      "costs of deflation",
+      "deflationary spiral"
+    ]
+  },
+  {
+    "id": "ecb-secondround-001",
+    "topic": "monetary-policy",
+    "subtopic": "Medium-Term Policy Orientation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture describes a 'wage-price spiral' as occurring when:",
+    "choices": [
+      "Rising inflation expectations lead workers to demand higher wages, which raises firms' costs and pushes prices up further",
+      "Wages and prices both fall together in a predictable, one-time adjustment",
+      "The central bank raises interest rates in response to a supply shock",
+      "Firms lower wages to offset a one-off price shock"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that if inflation expectations rise, workers may demand higher wage compensation, raising corporate costs and leading to a further price surge -- a self-reinforcing wage-price spiral, which is exactly the 'second-round effect' the ECB watches for.",
+    "wrongExplanations": [
+      null,
+      "A wage-price spiral is described as an upward, self-reinforcing dynamic (rising wages and prices), not a one-time joint decline.",
+      "A wage-price spiral is a real-economy dynamic between wages and prices, distinct from the ECB's own policy-rate decisions.",
+      "The lecture describes wages rising, not falling, as the driver of a wage-price spiral."
+    ],
+    "tags": [
+      "second-round effects",
+      "wage-price spiral"
+    ]
+  },
+  {
+    "id": "ecb-lookthrough-001",
+    "topic": "monetary-policy",
+    "subtopic": "Medium-Term Policy Orientation",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture explains that the ECB 'looks through' a temporary, one-off price shock (like an energy price spike) when:",
+    "choices": [
+      "There is no evidence of second-round effects, so the shock is expected to fade on its own without a wage-price spiral",
+      "Inflation expectations are already unanchored",
+      "The shock is expected to persist indefinitely",
+      "The ECB has no medium-term inflation target"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that without second-round effects, a price shock 'washes itself out' over time, so a restrictive policy response would be unnecessary and costly in terms of growth and employment -- this is when the ECB 'looks through' the shock.",
+    "wrongExplanations": [
+      null,
+      "Unanchored expectations would be a warning sign of likely second-round effects, which is exactly when the ECB would NOT simply look through the shock.",
+      "'Looking through' applies specifically to temporary, one-off shocks expected to fade, not to persistent ones.",
+      "The ECB's medium-term orientation is precisely what allows it to tolerate short-term deviations and look through temporary shocks; it isn't the absence of a target."
+    ],
+    "tags": [
+      "medium-term orientation",
+      "second-round effects",
+      "supply shocks"
+    ]
+  },
+  {
+    "id": "ecb-whybanksneedreserves-001",
+    "topic": "monetary-policy",
+    "subtopic": "Bank Reserves",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture gives three reasons commercial banks are structurally forced to turn to the central bank for reserves. Which of the following is NOT one of them?",
+    "choices": [
+      "Setting their own interest rates on customer loans",
+      "Meeting customer cash withdrawals",
+      "Meeting minimum reserve requirements",
+      "Settling cashless interbank payments"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's three reasons are: cash withdrawals, the minimum reserve requirement, and settling cashless payments between banks using central bank money. Setting loan interest rates is a commercial decision, not one of these three reasons.",
+    "wrongExplanations": [
+      null,
+      "Cash withdrawals are explicitly listed as one of the three reasons banks need central bank reserves.",
+      "The minimum reserve requirement is explicitly listed as one of the three reasons.",
+      "Settling interbank cashless payments is explicitly listed as the third, most important reason in the lecture."
+    ],
+    "tags": [
+      "bank reserves",
+      "central bank"
+    ]
+  },
+  {
+    "id": "ecb-monetarybase-001",
+    "topic": "monetary-policy",
+    "subtopic": "Monetary Base",
+    "difficulty": "easy",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "The 'monetary base' (M0), as defined in the guest lecture, consists of:",
+    "choices": [
+      "Physical currency in circulation plus bank reserves held at the central bank",
+      "Only physical currency in circulation",
+      "All bank deposits in the economy, including savings accounts",
+      "Government bonds held by the central bank"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture defines the monetary base (M0) as physical currency in circulation plus bank reserves held at the central bank.",
+    "wrongExplanations": [
+      null,
+      "The monetary base also includes bank reserves at the central bank, not currency alone.",
+      "Broad bank deposits held by the public (like savings accounts) are part of broader monetary aggregates (M2/M3), not the monetary base itself.",
+      "Government bonds held by the central bank are assets on the central bank's balance sheet, not part of the monetary base measure."
+    ],
+    "tags": [
+      "monetary base",
+      "M0"
+    ]
+  },
+  {
+    "id": "ecb-reserveinjection-001",
+    "topic": "monetary-policy",
+    "subtopic": "Monetary Base",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture describes two ways a central bank injects reserves into the banking system. One is lending to banks against collateral (refinancing operations); the other is:",
+    "choices": [
+      "Buying securities outright from the market (asset purchase programs)",
+      "Printing new banknotes and mailing them to households",
+      "Lowering banks' minimum reserve requirement to zero",
+      "Requiring banks to hold fewer government bonds"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes refinancing operations (loans against collateral) and asset purchase programs (outright purchases of securities like government bonds) as the two ways reserves are injected into the system.",
+    "wrongExplanations": [
+      null,
+      "The lecture does not describe reserve injection as directly mailing currency to households; reserves are injected into the banking system, not distributed as cash to the public.",
+      "Reducing the reserve requirement changes how much of existing reserves banks must hold; it is not described as a method of injecting new reserves.",
+      "The lecture does not describe reserve injection as reducing banks' bond holdings; asset purchases involve the central bank buying securities from banks, adding to reserves."
+    ],
+    "tags": [
+      "monetary base",
+      "reserve injection",
+      "central bank operations"
+    ]
+  },
+  {
+    "id": "ecb-overnightrate-control-001",
+    "topic": "monetary-policy",
+    "subtopic": "Interest Rate Policy",
+    "difficulty": "hard",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture argues that traditional theory is mistaken in claiming that central banks control the economy primarily by controlling the quantity of reserves. Instead, the true policy control variable is:",
+    "choices": [
+      "The overnight interest rate, which the central bank sets directly regardless of the level of reserves",
+      "The total money supply, M2",
+      "The exchange rate against the U.S. dollar",
+      "The minimum reserve requirement alone"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture cites central bank research stating that the true control variable is the overnight interest rate, not the monetary base -- and that this remains true even in an environment of abundant excess reserves.",
+    "wrongExplanations": [
+      null,
+      "The lecture explicitly states M3/M2 are no longer used as direct leading indicators or control variables for policy.",
+      "The lecture's discussion of policy control is about the interest rate mechanism, not exchange-rate targeting.",
+      "The reserve requirement is one structural reason banks need reserves, but the lecture identifies the overnight rate, not the reserve requirement, as the actual policy control variable."
+    ],
+    "tags": [
+      "interest rate policy",
+      "monetary base",
+      "overnight rate"
+    ]
+  },
+  {
+    "id": "ecb-corridor-001",
+    "topic": "monetary-policy",
+    "subtopic": "Interest Rate Corridor",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In the pre-2007 interest rate corridor system described in the guest lecture, the overnight money market rate was kept near the central bank's key policy rate by:",
+    "choices": [
+      "Injecting exactly enough reserves to cover structural liquidity needs, keeping the rate between the marginal lending rate (ceiling) and deposit rate (floor)",
+      "Setting the deposit rate above the marginal lending rate",
+      "Eliminating the deposit facility entirely",
+      "Allowing the overnight rate to float completely freely with no bounds"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that supplying just enough reserves to cover minimum reserve and cash needs pinned the overnight rate near the Main Refinancing Operation rate, in the center of a corridor bounded by the marginal lending rate (ceiling) and deposit rate (floor).",
+    "wrongExplanations": [
+      null,
+      "The lecture describes the marginal lending rate as the ceiling, above the deposit rate floor -- not the reverse.",
+      "The deposit facility is described as one of the two boundaries of the corridor, not something eliminated.",
+      "The corridor system is specifically about bounding the overnight rate between a ceiling and floor, not letting it float unbounded."
+    ],
+    "tags": [
+      "interest rate corridor",
+      "monetary policy implementation"
+    ]
+  },
+  {
+    "id": "ecb-qeqt-001",
+    "topic": "monetary-policy",
+    "subtopic": "Unconventional Monetary Policy",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the guest lecture, quantitative easing (QE) supports the economy once interest rates are near their effective lower bound mainly by:",
+    "choices": [
+      "Large-scale asset purchases that directly lower longer-term yields and term premiums",
+      "Raising the required reserve ratio",
+      "Selling foreign currency reserves",
+      "Increasing the ECB's key policy rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes QE as large-scale asset purchase programs that directly lower longer-term yields and term premiums, used once conventional rate cuts lose their stimulative power at the effective lower bound.",
+    "wrongExplanations": [
+      null,
+      "Raising the reserve requirement is not described as part of QE; QE works through large-scale asset purchases.",
+      "The lecture's description of unconventional tools centers on domestic asset purchases and forward guidance, not foreign-currency operations.",
+      "QE is used specifically because further conventional rate cuts (lowering, not raising, the key rate) are no longer effective at the lower bound."
+    ],
+    "tags": [
+      "quantitative easing",
+      "unconventional monetary policy"
+    ]
+  },
+  {
+    "id": "ecb-digitaleuro-001",
+    "topic": "monetary-policy",
+    "subtopic": "Digital Euro",
+    "difficulty": "medium",
+    "sourceIds": [
+      "guest_lecture_ecb"
+    ],
+    "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The guest lecture explains that individual holding limits on the digital euro (e.g., a cap of a few thousand euros) exist mainly to:",
+    "choices": [
+      "Prevent large-scale, destabilizing shifts of deposits out of commercial banks and into central bank digital currency",
+      "Limit how much cash citizens can withdraw from banks",
+      "Guarantee that the digital euro pays a higher interest rate than bank deposits",
+      "Ensure every citizen uses only physical cash"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explains that holding limits act as a structural firewall to prevent large, sudden shifts of retail deposits out of commercial banks into risk-free digital euro accounts, protecting bank liquidity and financial stability.",
+    "wrongExplanations": [
+      null,
+      "The holding limits apply to the digital euro itself, not to physical cash withdrawals, which are a separate matter.",
+      "The lecture does not describe the digital euro as paying a higher interest rate; its core services are described as free, not interest-bearing incentives.",
+      "The digital euro is designed to coexist with cash and bank deposits, not to force citizens away from digital payments entirely."
+    ],
+    "tags": [
+      "digital euro",
+      "financial stability"
+    ]
+  },
+  {
+    "id": "quiz2-openeconomy-savinginvestment-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Flows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a given year, a country's domestic saving is $180 billion and its domestic investment is $150 billion. Based on the identity S + KI = I, this country will have:",
+    "choices": [
+      "A trade surplus and negative net capital inflows (net capital outflows)",
+      "A trade deficit and positive net capital inflows",
+      "A trade surplus and positive net capital inflows",
+      "A trade deficit and negative net capital inflows"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "From S + KI = I, KI = I - S = $150B - $180B = -$30B, so net capital inflows are negative -- the country has net capital outflows. From NX + KI = 0, NX = -KI = +$30B, a trade surplus.",
+    "wrongExplanations": [
+      null,
+      "This has both parts backwards -- saving exceeding investment implies a trade surplus and net capital outflows, not a deficit with inflows.",
+      "Net capital inflows are negative here (outflows), not positive, since saving exceeds investment.",
+      "The trade balance is a surplus, not a deficit, since saving exceeds investment in this economy."
+    ],
+    "tags": [
+      "open economy",
+      "S + KI = I",
+      "capital flows",
+      "trade balance"
+    ]
+  },
+  {
+    "id": "quiz2-privatepublicnational-saving-001",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a given year: GDP (Y) = $12,000; Consumption (C) = $8,500; Government purchases (G) = $2,000; Net taxes (T) = $2,200. What are private saving, public saving, and national saving, respectively?",
+    "choices": [
+      "1,300; 200; 1,500",
+      "1,300; 200; 1,300",
+      "1,500; 200; 1,700",
+      "1,300; -200; 1,100"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving = Y - T - C = 12,000 - 2,200 - 8,500 = 1,300. Public saving = T - G = 2,200 - 2,000 = 200. National saving = private + public = 1,300 + 200 = 1,500 (matches Y - C - G = 12,000 - 8,500 - 2,000 = 1,500).",
+    "wrongExplanations": [
+      null,
+      "This correctly computes private and public saving but doesn't add them together for national saving.",
+      "This overstates private saving and, as a result, overstates national saving.",
+      "This flips the sign on public saving -- with T > G here, the government runs a surplus (positive public saving), not a deficit."
+    ],
+    "tags": [
+      "private saving",
+      "public saving",
+      "national saving"
+    ]
+  },
+  {
+    "id": "quiz2-debtpaydown-wealth-001",
+    "topic": "saving-investment",
+    "subtopic": "Wealth and Net Worth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Priya's income this month is $150 more than she needs for her regular consumption spending. She takes that extra $150 and uses it to pay down her credit card balance rather than depositing it in her savings account. As a result of using the $150 this way:",
+    "choices": [
+      "Her liabilities decrease and her wealth increases",
+      "Both her liabilities and her wealth decrease",
+      "Her assets increase and her wealth increases",
+      "Her assets decrease while her wealth stays the same"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Net worth (wealth) = assets - liabilities. The extra $150 is unconsumed income -- a form of saving either way. Because Priya sends it straight to her credit card issuer rather than holding it as cash or savings, her measured assets don't rise this month, but her credit card balance (a liability) falls by $150. Since wealth = assets - liabilities, a $150 drop in liabilities with no change in assets raises her net worth by $150.",
+    "wrongExplanations": [
+      null,
+      "Wealth does not fall here -- paying down debt with unconsumed income is a form of saving that raises net worth, even though it shows up as a lower liability rather than a larger cash balance.",
+      "Because the $150 is paid directly to the credit card issuer rather than kept as cash, her measured assets do not increase this month; it's the drop in liabilities that raises her wealth.",
+      "Her wealth rises, it does not stay flat -- paying down debt with unconsumed income has exactly the same wealth-building effect as any other form of saving."
+    ],
+    "tags": [
+      "wealth",
+      "net worth",
+      "saving",
+      "liabilities"
+    ]
+  },
+  {
+    "id": "quiz2-lifecycle-saving-001",
+    "topic": "saving-investment",
+    "subtopic": "Saving Motives",
+    "difficulty": "easy",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Saving specifically to meet long-term objectives such as retirement, buying a home, or paying for college is called:",
+    "choices": [
+      "Life-cycle saving",
+      "Precautionary saving",
+      "Bequest saving",
+      "Public saving"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Life-cycle saving is saving undertaken to meet long-term objectives like retirement, education, or a home purchase.",
+    "wrongExplanations": [
+      null,
+      "Precautionary saving is saving as a buffer against unexpected events (like job loss or medical bills), not planned long-term goals.",
+      "Bequest saving is saving intended to leave an inheritance to heirs, a different motive from funding one's own long-term goals.",
+      "Public saving is government saving (T - G), not a household saving motive at all."
+    ],
+    "tags": [
+      "saving motives",
+      "life-cycle saving"
+    ]
+  },
+  {
+    "id": "quiz2-ussr-growth-001",
+    "topic": "sources-of-growth",
+    "subtopic": "Institutions and Growth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "At the time of its 1991 collapse, the Soviet Union had a highly educated workforce, abundant natural resources, and a large capital stock, yet still failed to sustain strong economic growth. Which key determinant of growth was it missing?",
+    "choices": [
+      "A political and legal environment (institutions) that promoted economic productivity",
+      "Access to technology and knowledge spillovers",
+      "A high saving rate",
+      "A large population"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Despite possessing human capital, natural resources, and physical capital, the USSR lacked institutions -- secure property rights, constraints on elites, and equal opportunity -- that channel those inputs into productive economic activity.",
+    "wrongExplanations": [
+      null,
+      "The USSR's failure is attributed to weak institutions, not primarily a lack of technology access.",
+      "The USSR maintained very high investment/saving rates; the missing ingredient was the institutional environment, not saving.",
+      "Population size is not identified as the missing determinant; the USSR had a large population but lacked productive institutions."
+    ],
+    "tags": [
+      "economic growth",
+      "institutions",
+      "USSR"
+    ]
+  },
+  {
+    "id": "quiz2-crowdingout-001",
+    "topic": "loanable-funds",
+    "subtopic": "Crowding Out",
+    "difficulty": "easy",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "'Crowding out' refers to the tendency for larger government budget deficits to:",
+    "choices": [
+      "Reduce investment spending, as government borrowing competes with private borrowers for loanable funds",
+      "Increase investment spending",
+      "Increase consumption spending",
+      "Have no effect on private spending"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Crowding out is the tendency for larger government deficits to reduce private investment spending, because increased government borrowing raises the real interest rate and competes with private borrowers for a limited pool of loanable funds.",
+    "wrongExplanations": [
+      null,
+      "Crowding out describes a reduction, not an increase, in investment spending.",
+      "Crowding out is specifically about investment spending being displaced by government borrowing, not a direct effect on consumption.",
+      "Crowding out is precisely the claim that larger deficits DO affect private spending, by reducing investment."
+    ],
+    "tags": [
+      "crowding out",
+      "budget deficit",
+      "loanable funds"
+    ]
+  },
+  {
+    "id": "quiz2-costofinvestment-001",
+    "topic": "loanable-funds",
+    "subtopic": "Investment Decisions",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The cost of investment for a firm depends on:",
+    "choices": [
+      "The price of new capital goods and the real interest rate",
+      "The marginal product of capital and the relative price of the firm's output",
+      "Taxes levied on revenue and the relative price of the firm's output",
+      "The relative price of the firm's output and the real interest rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The cost of investment (the user cost of capital) depends on the price of new capital goods and the real interest rate (plus depreciation); together these determine how expensive it is to acquire and finance new capital.",
+    "wrongExplanations": [
+      null,
+      "The marginal product of capital and output price relate to the benefit/return side of the investment decision, not its cost.",
+      "Revenue taxes and output price are not the two factors identified as determining the cost of investment.",
+      "The relative price of output belongs to the benefit side of the investment decision, not the cost side."
+    ],
+    "tags": [
+      "investment",
+      "user cost of capital"
+    ]
+  },
+  {
+    "id": "quiz2-lowerrealrate-capitalflows-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Flows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Holding risk and foreign real returns constant, a decrease in the domestic real interest rate will:",
+    "choices": [
+      "Decrease capital inflows, increase capital outflows, and decrease net capital inflows",
+      "Increase capital inflows, increase capital outflows, and increase net capital inflows",
+      "Increase capital inflows, decrease capital outflows, and increase net capital inflows",
+      "Decrease capital inflows, decrease capital outflows, and increase net capital inflows"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A lower domestic real interest rate makes domestic assets less attractive to foreign investors (capital inflows decrease) and makes foreign assets relatively more attractive to domestic investors (capital outflows increase). Both effects lower net capital inflows.",
+    "wrongExplanations": [
+      null,
+      "A lower domestic rate should make domestic assets less, not more, attractive to foreigners, so capital inflows fall rather than rise.",
+      "Lower domestic rates make foreign assets more attractive to domestic investors, so capital outflows should rise, not fall.",
+      "With inflows falling and outflows rising, net capital inflows should fall, not rise."
+    ],
+    "tags": [
+      "capital flows",
+      "real interest rate",
+      "net capital inflows"
+    ]
+  },
+  {
+    "id": "quiz2-ricardianequivalence-001",
+    "topic": "loanable-funds",
+    "subtopic": "Ricardian Equivalence",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "The idea that a decline in the government's budget deficit leads to little change in national saving -- because households increase current spending in anticipation of future tax cuts -- is known as:",
+    "choices": [
+      "Ricardian equivalence",
+      "Precautionary saving",
+      "Crowding out",
+      "The loanable funds effect"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Ricardian equivalence is the idea that households anticipate future tax changes implied by current deficits, adjusting their own saving/spending to offset the government's saving decision, leaving national saving little changed.",
+    "wrongExplanations": [
+      null,
+      "Precautionary saving is a household saving motive tied to guarding against unexpected events, not a theory about offsetting government saving decisions.",
+      "Crowding out describes deficits reducing investment through higher interest rates, the opposite mechanism from the households-anticipate-taxes story here.",
+      "'Loanable funds effect' is not the name of this concept; the loanable funds market is the broader framework in which crowding out (a different concept) operates."
+    ],
+    "tags": [
+      "Ricardian equivalence",
+      "government budget",
+      "national saving"
+    ]
+  },
+  {
+    "id": "quiz2-capitalinflows-def-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Flows",
+    "difficulty": "easy",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "From the point of view of a particular country, 'capital inflows' are:",
+    "choices": [
+      "Purchases of domestic assets by foreigners",
+      "Purchases of domestic goods or services by foreigners",
+      "Purchases of foreign assets by domestic households or firms",
+      "Purchases of foreign goods or services by domestic households or firms"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Capital inflows are purchases of domestic assets by foreigners -- for example, a foreign investor buying domestic stocks, bonds, or real estate.",
+    "wrongExplanations": [
+      null,
+      "This describes exports (a trade/current-account concept involving goods and services), not a capital inflow, which involves assets.",
+      "This describes capital outflows, the mirror-image concept -- domestic purchases of foreign assets.",
+      "This describes imports (a trade/current-account concept), not a capital-account transaction."
+    ],
+    "tags": [
+      "capital flows",
+      "capital inflows"
+    ]
+  },
+  {
+    "id": "quiz2-capitaloutflows-def-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Flows",
+    "difficulty": "easy",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "From the point of view of a particular country, 'capital outflows' are:",
+    "choices": [
+      "Purchases of foreign assets by domestic households or firms",
+      "Purchases of domestic assets by foreigners",
+      "Purchases of domestic goods or services by foreigners",
+      "Exports of domestic goods and services"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Capital outflows occur when domestic households or firms buy foreign assets (e.g., a domestic investor buying foreign government bonds) -- the mirror image of capital inflows, which are foreigners buying domestic assets.",
+    "wrongExplanations": [
+      null,
+      "That describes capital inflows, not outflows.",
+      "That describes exports (a current-account/trade concept involving goods and services), not a capital-account transaction in assets.",
+      "Exports are a current-account (trade) concept, not a capital-account/capital-outflow concept, even though the two accounts are linked through NX + KI = 0."
+    ],
+    "tags": [
+      "capital flows",
+      "capital outflows"
+    ]
+  },
+  {
+    "id": "quiz2-capitalinflows-vs-exports-001",
+    "topic": "capital-flows",
+    "subtopic": "Capital Flows",
+    "difficulty": "medium",
+    "sourceIds": [
+      "quiz2"
+    ],
+    "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A German pension fund buys newly issued U.S. Treasury bonds. From the U.S. point of view, this transaction is:",
+    "choices": [
+      "A capital inflow, because a foreigner is purchasing a domestic (U.S.) asset",
+      "An export, because the bonds are sold to a foreign buyer",
+      "A capital outflow, because money is leaving the U.S. financial system",
+      "Neither a capital inflow nor an export, since bonds are not real goods"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Capital inflows are purchases of domestic assets by foreigners. The German pension fund is a foreign buyer purchasing a U.S. asset (a Treasury bond), so this is a capital inflow -- not an export, since Treasury bonds are a financial asset, not a good or service.",
+    "wrongExplanations": [
+      null,
+      "Exports are sales of domestically produced goods or services to foreigners; a bond is a financial asset, not a good or service, so this is a capital-account transaction, not a trade transaction.",
+      "Capital outflows are domestic purchases of foreign assets -- the opposite of what's happening here, since a foreigner is buying a domestic asset.",
+      "This is exactly the definition of a capital inflow; capital flows measure purchases of financial assets, not just physical goods."
+    ],
+    "tags": [
+      "capital flows",
+      "capital inflows",
+      "trade versus capital account"
+    ]
+  },
+  {
+    "id": "formula-oppcost-001",
+    "topic": "econ-analysis-basics",
+    "subtopic": "Opportunity Cost",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Elena can spend her Saturday afternoon either tutoring for $45 or working at a bookstore for $30, but not both. If she chooses to tutor, her opportunity cost of that decision is:",
+    "choices": [
+      "$30",
+      "$45",
+      "$75",
+      "$15"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Opportunity cost is the value of the best forgone alternative. If Elena tutors, the alternative she gives up is the $30 bookstore shift, so her opportunity cost is $30.",
+    "wrongExplanations": [
+      null,
+      "$45 is what she earns from tutoring itself, not the value of the alternative she gave up.",
+      "$75 adds the two options together, but opportunity cost is the value of the single best alternative forgone, not the sum of both.",
+      "$15 is the difference between the two wages, not the opportunity cost of choosing to tutor."
+    ],
+    "tags": [
+      "opportunity cost"
+    ]
+  },
+  {
+    "id": "formula-oppcost-002",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "Opportunity Cost Ratios",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In one day, Country A can produce either 8 tons of steel or 4 tons of grain using all its resources on one good. Country A's opportunity cost of producing 1 ton of steel, in terms of grain, is:",
+    "choices": [
+      "0.5 tons of grain",
+      "2 tons of grain",
+      "4 tons of grain",
+      "8 tons of grain"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "If all resources devoted to steel yield 8 tons of steel or, alternatively, 4 tons of grain, then producing 1 ton of steel costs 4/8 = 0.5 tons of grain in forgone production.",
+    "wrongExplanations": [
+      null,
+      "2 tons of grain would be the opportunity cost of steel only if the ratio were reversed (grain-to-steel instead of steel-to-grain).",
+      "4 tons of grain is the total grain output, not the cost of a single ton of steel.",
+      "8 tons of grain is the total steel output number misapplied to grain; it isn't the per-unit opportunity cost."
+    ],
+    "tags": [
+      "opportunity cost",
+      "comparative advantage"
+    ]
+  },
+  {
+    "id": "formula-ppc-001",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC Slope",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's production possibilities curve is a straight line running from 60 units of Good X (with 0 units of Good Y) to 30 units of Good Y (with 0 units of Good X). The slope of this PPC (in absolute value, units of X given up per unit of Y gained) is:",
+    "choices": [
+      "2",
+      "0.5",
+      "30",
+      "90"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The PPC's slope (in absolute value) equals the opportunity cost of Y in terms of X: change in X / change in Y = 60/30 = 2. Each additional unit of Y costs 2 units of X.",
+    "wrongExplanations": [
+      null,
+      "0.5 inverts the ratio; that would be the opportunity cost of X in terms of Y, not Y in terms of X.",
+      "30 is just the Y-intercept value, not a slope.",
+      "90 adds the two intercepts together rather than dividing one by the other."
+    ],
+    "tags": [
+      "PPC",
+      "slope",
+      "opportunity cost"
+    ]
+  },
+  {
+    "id": "formula-ppc-002",
+    "topic": "comparative-advantage-trade",
+    "subtopic": "PPC Tradeoffs",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A worker's PPC runs from 20 loaves of bread (0 shirts) to 10 shirts (0 loaves) and is a straight line. If she is currently producing 8 shirts and decides to produce 2 more shirts instead, how much bread must she give up?",
+    "choices": [
+      "4 loaves of bread",
+      "2 loaves of bread",
+      "10 loaves of bread",
+      "8 loaves of bread"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The PPC's slope is 20 bread / 10 shirts = 2 loaves of bread per shirt. Producing 2 more shirts therefore costs 2 shirts x 2 loaves/shirt = 4 loaves of bread.",
+    "wrongExplanations": [
+      null,
+      "2 loaves is the per-shirt opportunity cost, not the total cost of producing 2 additional shirts.",
+      "10 loaves would be the cost of 5 additional shirts, not 2.",
+      "8 loaves would be the cost of 4 additional shirts, not 2."
+    ],
+    "tags": [
+      "PPC",
+      "opportunity cost",
+      "tradeoffs"
+    ]
+  },
+  {
+    "id": "formula-supplydemand-001",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Equilibrium Price and Quantity",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "The demand for a good is Qd = 100 - 2P and supply is Qs = 10 + 3P. What is the equilibrium price?",
+    "choices": [
+      "18",
+      "20",
+      "10",
+      "90"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Set Qd = Qs: 100 - 2P = 10 + 3P leads to 90 = 5P, so P = 18.",
+    "wrongExplanations": [
+      null,
+      "20 doesn't satisfy Qd = Qs when substituted back into either equation.",
+      "10 is the supply equation's intercept, not the equilibrium price.",
+      "90 is the value of 100 - 10 (the constants' difference), not the price found by solving 90 = 5P."
+    ],
+    "tags": [
+      "supply and demand",
+      "equilibrium",
+      "linear equations"
+    ]
+  },
+  {
+    "id": "formula-supplydemand-002",
+    "topic": "supply-demand-equilibrium",
+    "subtopic": "Price Controls",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class1"
+    ],
+    "sourceLabel": "Class 1 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Demand is Qd = 100 - 2P and supply is Qs = 10 + 3P (equilibrium price $18, quantity 64). If the government imposes a price ceiling of $12, what is the resulting shortage?",
+    "choices": [
+      "30 units",
+      "64 units",
+      "12 units",
+      "8 units"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "At P = $12: Qd = 100 - 2(12) = 76, Qs = 10 + 3(12) = 46. The shortage is Qd - Qs = 76 - 46 = 30 units.",
+    "wrongExplanations": [
+      null,
+      "64 is the equilibrium quantity at the market-clearing price, not the shortage at the price ceiling.",
+      "12 is the price ceiling itself, not a quantity.",
+      "8 doesn't come from correctly evaluating both Qd and Qs at P = 12."
+    ],
+    "tags": [
+      "price ceiling",
+      "shortage",
+      "supply and demand"
+    ]
+  },
+  {
+    "id": "formula-gdp-001",
+    "topic": "gdp-accounting",
+    "subtopic": "Expenditure Approach",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a given year, a small economy records: Consumption = $500B, Investment = $120B, Government purchases = $90B, Exports = $40B, Imports = $60B. Using the expenditure approach, GDP equals:",
+    "choices": [
+      "$690B",
+      "$710B",
+      "$730B",
+      "$650B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP = C + I + G + NX = 500 + 120 + 90 + (40 - 60) = 710 - 20 = $690B.",
+    "wrongExplanations": [
+      null,
+      "710 forgets to subtract imports, effectively treating net exports as just exports.",
+      "730 adds exports and imports together instead of subtracting imports from exports.",
+      "650 subtracts imports twice rather than computing net exports (exports minus imports) just once."
+    ],
+    "tags": [
+      "GDP",
+      "expenditure approach"
+    ]
+  },
+  {
+    "id": "formula-gdp-002",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A farmer grows wheat and sells it to a miller for $40. The miller grinds it into flour and sells it to a baker for $70. The baker bakes bread and sells it to consumers for $110. Using the value-added method, GDP contributed by this chain is:",
+    "choices": [
+      "$110",
+      "$220",
+      "$70",
+      "$150"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value added at each stage: the farmer contributes $40 (no purchased inputs), the miller adds $70 - $40 = $30, and the baker adds $110 - $70 = $40. Total value added = $40 + $30 + $40 = $110 -- equal to the final sale price, as it must be.",
+    "wrongExplanations": [
+      null,
+      "220 sums all three sale prices ($40+$70+$110) instead of each stage's value added, double- and triple-counting the wheat and flour.",
+      "70 only captures the miller's sale price, not the sum of value added across all three stages.",
+      "150 miscalculates one of the value-added steps rather than correctly subtracting each stage's input cost."
+    ],
+    "tags": [
+      "GDP",
+      "value added",
+      "double counting"
+    ]
+  },
+  {
+    "id": "formula-gdp-003",
+    "topic": "gdp-accounting",
+    "subtopic": "Production vs. Sales",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class2",
+      "ps1_solutions"
+    ],
+    "sourceLabel": "Class 2 slides and Problem Set 1 Solutions",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "This year a furniture factory produces 500 chairs. It sells 420 of them to retailers for $60 each and keeps 80 unsold chairs in year-end inventory (valued at the same $60 production cost each). How much do the chairs produced this year contribute to GDP?",
+    "choices": [
+      "$30,000 (all 500 chairs, since unsold output counts as inventory investment)",
+      "$25,200 (only the 420 chairs actually sold)",
+      "$4,800 (only the 80 unsold chairs)",
+      "$0, since unsold chairs are not part of GDP"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP measures the value of goods produced this year, not just goods sold. The 420 sold chairs count as final sales, and the 80 unsold chairs count as inventory investment (a component of I) -- both are part of current production. Total = 500 x $60 = $30,000.",
+    "wrongExplanations": [
+      null,
+      "$25,200 only counts the chairs actually sold and wrongly excludes the 80 unsold chairs, which still count as inventory investment in this year's GDP.",
+      "$4,800 only counts the unsold chairs and ignores the 420 that were sold.",
+      "Unsold goods are not excluded from GDP -- a build-up in inventory is itself counted as investment spending in the year the goods are produced."
+    ],
+    "tags": [
+      "GDP",
+      "inventory investment",
+      "production versus sales"
+    ]
+  },
+  {
+    "id": "formula-cpi-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "CPI Calculation",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A fixed basket of goods cost $200 in the base year. This year, the same basket costs $250. The CPI for this year (base year = 100) is:",
+    "choices": [
+      "125",
+      "150",
+      "50",
+      "100"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "CPI = (cost of basket this year / cost of basket in base year) x 100 = (250/200) x 100 = 125.",
+    "wrongExplanations": [
+      null,
+      "150 doesn't follow from dividing 250 by 200 and multiplying by 100.",
+      "50 inverts the ratio in the wrong direction; dividing the base-year cost by this year's cost and multiplying by 100 would give 80, not 50.",
+      "100 is the base-year CPI by definition, not this year's CPI."
+    ],
+    "tags": [
+      "CPI",
+      "price index"
+    ]
+  },
+  {
+    "id": "formula-cpi-002",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Inflation Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "The CPI was 180 last year and is 189 this year. The inflation rate over the past year is approximately:",
+    "choices": [
+      "5%",
+      "9%",
+      "1.05%",
+      "50%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Inflation rate = (CPI this year - CPI last year) / CPI last year = (189-180)/180 = 9/180 = 0.05 = 5%.",
+    "wrongExplanations": [
+      null,
+      "9% mistakes the raw point change in the index (9) for a percentage rate; it must be divided by last year's CPI first.",
+      "1.05% comes from mis-locating the decimal point in the correct 5% answer.",
+      "50% is off by a factor of 10 from the correct 5%."
+    ],
+    "tags": [
+      "inflation rate",
+      "CPI"
+    ]
+  },
+  {
+    "id": "formula-deflate-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Deflating Nominal Values",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class2",
+      "ds1"
+    ],
+    "sourceLabel": "Class 2 slides and Discussion Session 1 Solutions",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A retiree's nominal pension payment was $2,000 per month in a base year when the CPI was 100. This year the CPI is 125 and her nominal payment is still $2,000 per month. Her real pension payment this year, in base-year dollars, is:",
+    "choices": [
+      "$1,600",
+      "$2,000",
+      "$2,500",
+      "$1,250"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Deflating converts a nominal amount to real terms: real = nominal / (CPI/100) = $2,000 / 1.25 = $1,600. Because prices rose 25% but her nominal payment didn't, her real purchasing power fell.",
+    "wrongExplanations": [
+      null,
+      "$2,000 is just her unchanged nominal payment; it hasn't been deflated for the rise in prices.",
+      "$2,500 multiplies by the price index instead of dividing by it, which would inflate rather than deflate the amount.",
+      "$1,250 divides by the wrong figure rather than dividing by CPI/100 = 1.25."
+    ],
+    "tags": [
+      "deflating",
+      "real versus nominal",
+      "CPI"
+    ]
+  },
+  {
+    "id": "formula-index-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A rental contract is indexed to inflation: the rent adjusts each year by the same percentage as the CPI. Last year's rent was $1,800/month, and the CPI rose from 140 to 147 over the year. This year's indexed rent is:",
+    "choices": [
+      "$1,890",
+      "$1,807",
+      "$1,940",
+      "$1,800"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Indexing raises a payment by the same percentage as inflation. The CPI rose (147-140)/140 = 5%, so the new rent is $1,800 x 1.05 = $1,890.",
+    "wrongExplanations": [
+      null,
+      "$1,807 only adds the raw 7-point CPI change in dollars rather than applying it as a percentage.",
+      "$1,940 applies too large a percentage increase.",
+      "$1,800 leaves the rent unindexed, ignoring the CPI increase entirely."
+    ],
+    "tags": [
+      "indexing",
+      "CPI",
+      "inflation"
+    ]
+  },
+  {
+    "id": "formula-realint-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class2"
+    ],
+    "sourceLabel": "Class 2 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A savings account pays a 6% nominal interest rate. Inflation over the year is 2.5%. Using the (approximate) Fisher relationship, the real interest rate is approximately:",
+    "choices": [
+      "3.5%",
+      "8.5%",
+      "2.4%",
+      "6%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The (approximate) Fisher equation gives the real interest rate as the nominal rate minus the inflation rate: 6% - 2.5% = 3.5%.",
+    "wrongExplanations": [
+      null,
+      "8.5% adds inflation to the nominal rate instead of subtracting it.",
+      "2.4% doesn't come from correctly subtracting 2.5 from 6.",
+      "6% is just the nominal rate, not adjusted for inflation at all."
+    ],
+    "tags": [
+      "real interest rate",
+      "Fisher equation"
+    ]
+  },
+  {
+    "id": "formula-realint-002",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class2",
+      "ps1_solutions"
+    ],
+    "sourceLabel": "Class 2 slides and Problem Set 1 Solutions",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A lender wants to earn a real return of 4% on a one-year loan. Expected inflation over the year is 7%. What nominal interest rate should the lender charge?",
+    "choices": [
+      "11%",
+      "3%",
+      "28%",
+      "4%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "By the (approximate) Fisher equation, nominal rate = real rate + expected inflation = 4% + 7% = 11%.",
+    "wrongExplanations": [
+      null,
+      "3% subtracts inflation from the desired real rate instead of adding it, which would undercompensate the lender for inflation.",
+      "28% multiplies the two rates together rather than adding them.",
+      "4% is just the desired real rate, with no adjustment for expected inflation at all."
+    ],
+    "tags": [
+      "real interest rate",
+      "Fisher equation",
+      "nominal interest rate"
+    ]
+  },
+  {
+    "id": "formula-saving-001",
+    "topic": "saving-investment",
+    "subtopic": "Saving Rate",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A household earns $6,000 this month, spends $4,800 on consumption, and saves the rest. Its saving rate (saving as a share of income) is:",
+    "choices": [
+      "20%",
+      "80%",
+      "25%",
+      "12%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Saving = income - consumption = $6,000 - $4,800 = $1,200. The saving rate = saving / income = $1,200 / $6,000 = 20%.",
+    "wrongExplanations": [
+      null,
+      "80% is the consumption rate (spending as a share of income), not the saving rate.",
+      "25% comes from dividing saving by consumption ($1,200/$4,800) instead of by income.",
+      "12% doesn't correctly divide $1,200 by $6,000."
+    ],
+    "tags": [
+      "saving rate"
+    ]
+  },
+  {
+    "id": "formula-saving-002",
+    "topic": "saving-investment",
+    "subtopic": "Private Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An economy has GDP (Y) = $900B, net taxes (T) = $150B, and consumption (C) = $600B. Private saving is:",
+    "choices": [
+      "$150B",
+      "$300B",
+      "$450B",
+      "$750B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving = Y - T - C = $900B - $150B - $600B = $150B.",
+    "wrongExplanations": [
+      null,
+      "$300B leaves out one of the three terms in the private saving identity.",
+      "$450B only subtracts consumption, forgetting to also subtract net taxes.",
+      "$750B only subtracts net taxes, forgetting to also subtract consumption."
+    ],
+    "tags": [
+      "private saving",
+      "saving identity"
+    ]
+  },
+  {
+    "id": "formula-saving-003",
+    "topic": "saving-investment",
+    "subtopic": "Public and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "The government collects net taxes (T) of $150B and spends G = $170B on government purchases. Combined with private saving of $150B, national saving equals:",
+    "choices": [
+      "$130B",
+      "$150B",
+      "$170B",
+      "$20B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Public saving = T - G = $150B - $170B = -$20B (the government runs a deficit). National saving = private saving + public saving = $150B + (-$20B) = $130B.",
+    "wrongExplanations": [
+      null,
+      "$150B is only private saving; it ignores the government's budget deficit, which subtracts from national saving.",
+      "$170B is government purchases, not national saving.",
+      "$20B is the size of the budget deficit itself, not national saving."
+    ],
+    "tags": [
+      "public saving",
+      "national saving",
+      "government budget"
+    ]
+  },
+  {
+    "id": "formula-saving-004",
+    "topic": "saving-investment",
+    "subtopic": "Private Saving",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An economy has GDP (Y) = $1,000B, gross taxes collected by the government = $220B, government transfer payments to households = $40B, and consumption (C) = $650B. What is private saving?",
+    "choices": [
+      "$170B",
+      "$130B",
+      "$90B",
+      "$350B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Net taxes = gross taxes - transfers = $220B - $40B = $180B (transfers are subtracted from gross taxes because they are effectively negative taxes paid back to households). Private saving = Y - T - C = $1,000B - $180B - $650B = $170B.",
+    "wrongExplanations": [
+      null,
+      "This uses gross taxes ($220B) as net taxes and forgets to subtract the $40B in transfer payments. That overstates net taxes (using $220B instead of the correct $180B), which in turn understates private saving at $130B.",
+      "This adds transfers to gross taxes ($220B + $40B = $260B) instead of subtracting them, overstating net taxes even further in the wrong direction.",
+      "This leaves net taxes out of the private saving formula entirely (Y - C only), ignoring taxes and transfers altogether."
+    ],
+    "tags": [
+      "private saving",
+      "net taxes",
+      "transfer payments"
+    ]
+  },
+  {
+    "id": "formula-wealth-001",
+    "topic": "saving-investment",
+    "subtopic": "Wealth and Net Worth",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Diego's assets total $85,000 (a car, a savings account, and a retirement fund) and his liabilities total $32,000 (student loans and a car loan). Diego's wealth (net worth) is:",
+    "choices": [
+      "$53,000",
+      "$117,000",
+      "$32,000",
+      "$85,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Wealth (net worth) = assets - liabilities = $85,000 - $32,000 = $53,000.",
+    "wrongExplanations": [
+      null,
+      "$117,000 adds assets and liabilities together instead of subtracting.",
+      "$32,000 is just his total liabilities, not his net worth.",
+      "$85,000 is just his total assets, ignoring his liabilities entirely."
+    ],
+    "tags": [
+      "wealth",
+      "net worth",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "formula-wealth-002",
+    "topic": "saving-investment",
+    "subtopic": "Wealth and Net Worth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "At the start of the year, Priya's net worth was $40,000. Over the year she saves $6,000 of new income (added to her assets) and also pays down $2,500 of an existing loan (reducing her liabilities), with no other change in asset value. Her net worth at the end of the year is:",
+    "choices": [
+      "$48,500",
+      "$46,000",
+      "$43,500",
+      "$40,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Wealth = assets - liabilities. Saving $6,000 raises her assets by $6,000, and paying down $2,500 of debt lowers her liabilities by $2,500 -- both changes raise net worth. New net worth = $40,000 + $6,000 + $2,500 = $48,500.",
+    "wrongExplanations": [
+      null,
+      "$46,000 only counts the new saving and ignores the extra boost to net worth from paying down debt.",
+      "$43,500 only counts the debt paydown and ignores the new saving added to assets.",
+      "$40,000 assumes no change in net worth, but both saving and debt repayment increase it."
+    ],
+    "tags": [
+      "wealth",
+      "net worth",
+      "saving"
+    ]
+  },
+  {
+    "id": "formula-usercost-001",
+    "topic": "saving-investment",
+    "subtopic": "User Cost of Capital",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A piece of equipment costs $50,000 to purchase. The real interest rate is 6% and the equipment depreciates at a rate of 4% per year. The annual user cost of capital for this equipment is:",
+    "choices": [
+      "$5,000",
+      "$3,000",
+      "$2,000",
+      "$50,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "User cost of capital = price of capital x (real interest rate + depreciation rate) = $50,000 x (0.06 + 0.04) = $50,000 x 0.10 = $5,000 per year.",
+    "wrongExplanations": [
+      null,
+      "$3,000 uses only the real interest rate (6%) and leaves out depreciation.",
+      "$2,000 uses only the depreciation rate (4%) and leaves out the real interest rate.",
+      "$50,000 is just the purchase price, not the much smaller annual user cost flow."
+    ],
+    "tags": [
+      "user cost of capital",
+      "investment"
+    ]
+  },
+  {
+    "id": "formula-loanable-001",
+    "topic": "loanable-funds",
+    "subtopic": "Crowding Out",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "National saving is initially $400B and investment is $400B, so the loanable funds market clears. The government's budget deficit then grows by $60B, with private saving unchanged. If investment falls by the full amount of the resulting drop in national saving (full crowding out), by how much does investment fall?",
+    "choices": [
+      "$60B",
+      "$400B",
+      "$30B",
+      "$0"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A larger deficit reduces public saving dollar-for-dollar, so national saving falls by $60B (with private saving unchanged). Under full crowding out, investment falls by the same $60B to keep the loanable funds market in balance.",
+    "wrongExplanations": [
+      null,
+      "$400B is the original level of saving/investment, not the change caused by the larger deficit.",
+      "$30B is only half of the $60B change in the deficit.",
+      "$0 would only be correct if private saving fully offset the deficit (Ricardian equivalence), which this question does not assume."
+    ],
+    "tags": [
+      "crowding out",
+      "loanable funds",
+      "budget deficit"
+    ]
+  },
+  {
+    "id": "formula-loanable-002",
+    "topic": "loanable-funds",
+    "subtopic": "Loanable Funds Equilibrium",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In the loanable funds market, national saving is S = 200 + 40r and investment demand is I = 800 - 60r, where r is the real interest rate in percent (e.g., r=5 means 5%). What is the equilibrium real interest rate?",
+    "choices": [
+      "6%",
+      "5%",
+      "10%",
+      "3%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Set S = I: 200 + 40r = 800 - 60r leads to 100r = 600, so r = 6 (percent). Checking: S = 200+40(6)=440 and I=800-60(6)=440, confirming equilibrium at r=6%.",
+    "wrongExplanations": [
+      null,
+      "5% doesn't satisfy S=I when substituted back into both equations.",
+      "10% overshoots; substituting back gives S=600 and I=200, which are not equal.",
+      "3% undershoots; substituting back gives S=320 and I=620, which are not equal."
+    ],
+    "tags": [
+      "loanable funds",
+      "equilibrium interest rate",
+      "saving and investment"
+    ]
+  },
+  {
+    "id": "formula-openecon-001",
+    "topic": "capital-flows",
+    "subtopic": "Open-Economy Identity",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An open economy has national saving S = $250B and investment I = $310B. Using the identity S + KI = I, net capital inflows (KI) equal:",
+    "choices": [
+      "$60B",
+      "$560B",
+      "-$60B",
+      "$310B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "From S + KI = I, KI = I - S = $310B - $250B = $60B. Since investment exceeds domestic saving, the country needs positive net capital inflows (foreign funding) to finance the gap.",
+    "wrongExplanations": [
+      null,
+      "$560B adds S and I together instead of subtracting.",
+      "-$60B has the correct magnitude but the wrong sign; since I > S, net capital inflows must be positive, not negative.",
+      "$310B is just the investment figure, not the net capital inflow implied by the identity."
+    ],
+    "tags": [
+      "open economy",
+      "capital inflows",
+      "S + KI = I"
+    ]
+  },
+  {
+    "id": "formula-openecon-002",
+    "topic": "capital-flows",
+    "subtopic": "Open-Economy Identity",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class5"
+    ],
+    "sourceLabel": "Class 5 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In an open economy, net capital inflows are KI = -$45B (the country has net capital outflows of $45B). Using the identity NX + KI = 0, what is this economy's net exports (NX)?",
+    "choices": [
+      "$45B (a trade surplus)",
+      "-$45B (a trade deficit)",
+      "$0",
+      "$90B (a trade surplus)"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "From NX + KI = 0, NX = -KI = -(-$45B) = $45B, a trade surplus. A country that is a net lender to the rest of the world (negative KI, meaning net capital outflows) must be running a trade surplus to balance the identity.",
+    "wrongExplanations": [
+      null,
+      "-$45B keeps the same sign as KI instead of flipping it; the identity requires NX = -KI.",
+      "$0 would only hold if KI were also $0.",
+      "$90B doubles the correct magnitude."
+    ],
+    "tags": [
+      "open economy",
+      "trade balance",
+      "NX + KI = 0"
+    ]
+  },
+  {
+    "id": "formula-laborprod-001",
+    "topic": "productivity-real-wages",
+    "subtopic": "Average Labor Productivity",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An economy produces $2,400B of real GDP (Y) using 60 million workers (N). Average labor productivity (Y/N) is:",
+    "choices": [
+      "$40,000 per worker",
+      "$2,400 per worker",
+      "$60,000 per worker",
+      "$400,000 per worker"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Average labor productivity = Y/N = $2,400,000,000,000 / 60,000,000 = $40,000 of output per worker.",
+    "wrongExplanations": [
+      null,
+      "$2,400 drops several orders of magnitude by mishandling the billions-versus-workers units.",
+      "$60,000 divides the wrong way (mixing up N and Y) rather than correctly computing Y/N.",
+      "$400,000 is off by a factor of 10 from the correct division."
+    ],
+    "tags": [
+      "labor productivity",
+      "GDP per worker"
+    ]
+  },
+  {
+    "id": "formula-gdppercapita-001",
+    "topic": "productivity-real-wages",
+    "subtopic": "GDP per Capita Decomposition",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class3",
+      "ds2"
+    ],
+    "sourceLabel": "Class 3 slides and Discussion Session 2 Solutions",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In an economy, average labor productivity (Y/N) is $50,000 per worker, and the employment-to-population ratio (N/POP) is 0.4 (40% of the population is employed). Using Y/POP = (Y/N) x (N/POP), GDP per capita is:",
+    "choices": [
+      "$20,000",
+      "$50,000",
+      "$125,000",
+      "$20,000,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP per capita = (Y/N) x (N/POP) = $50,000 x 0.4 = $20,000.",
+    "wrongExplanations": [
+      null,
+      "$50,000 is just labor productivity (Y/N); it hasn't been scaled down by the share of the population that's employed.",
+      "$125,000 divides instead of multiplying ($50,000 / 0.4).",
+      "$20,000,000 misplaces a decimal point rather than correctly multiplying by 0.4."
+    ],
+    "tags": [
+      "GDP per capita",
+      "labor productivity",
+      "decomposition"
+    ]
+  },
+  {
+    "id": "formula-growth-001",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class4"
+    ],
+    "sourceLabel": "Class 4 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's real GDP is $300B today and grows at a constant 3% per year. Using the compound growth formula, GDP after 2 years will be approximately:",
+    "choices": [
+      "$318.3B",
+      "$309B",
+      "$327.5B",
+      "$300B"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Future value = present value x (1+g)^t = $300B x (1.03)^2 = $300B x 1.0609, approximately $318.3B.",
+    "wrongExplanations": [
+      null,
+      "$309B only applies one year of 3% growth ($300B x 1.03) instead of compounding over both years.",
+      "$327.5B overstates the growth, as if using a higher rate or simple (non-compounding) growth over more than 2 years.",
+      "$300B assumes no growth at all."
+    ],
+    "tags": [
+      "compound growth",
+      "GDP growth"
+    ]
+  },
+  {
+    "id": "formula-growth-002",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Rule of 72",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class4"
+    ],
+    "sourceLabel": "Class 4 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Using the Rule of 72, approximately how many years will it take for an economy growing at a constant 4% per year to double in size?",
+    "choices": [
+      "18 years",
+      "4 years",
+      "36 years",
+      "288 years"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The Rule of 72 approximates doubling time as 72 / (growth rate in percent) = 72 / 4 = 18 years.",
+    "wrongExplanations": [
+      null,
+      "4 years is just the growth rate itself, not a doubling time.",
+      "36 years would be the doubling time for a 2% growth rate, not 4%.",
+      "288 years multiplies 72 by 4 instead of dividing."
+    ],
+    "tags": [
+      "rule of 72",
+      "compound growth",
+      "doubling time"
+    ]
+  },
+  {
+    "id": "formula-growth-003",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Growth Catch-Up",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class4",
+      "ds2"
+    ],
+    "sourceLabel": "Class 4 slides and Discussion Session 2 Solutions",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Poorland's real GDP per capita is $12,000 and grows at a constant 5% per year. Using the Rule of 72 logic (approximating with doubling times), roughly how many years will it take Poorland to reach an income level of $48,000?",
+    "choices": [
+      "approximately 28.8 years",
+      "approximately 14.4 years",
+      "approximately 57.6 years",
+      "approximately 9.6 years"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Poorland must roughly quadruple its income (from $12,000 to $48,000), which is two doublings. At 5% growth, the Rule of 72 gives a doubling time of 72/5, approximately 14.4 years, so two doublings take about 2 x 14.4, approximately 28.8 years.",
+    "wrongExplanations": [
+      null,
+      "approximately 14.4 years is only one doubling (to $24,000), not the two doublings needed to reach $48,000 from $12,000.",
+      "approximately 57.6 years would be four doublings (to $192,000), overshooting the target.",
+      "approximately 9.6 years divides the single doubling time rather than multiplying it by the two doublings needed."
+    ],
+    "tags": [
+      "rule of 72",
+      "growth catch-up",
+      "compound growth"
+    ]
+  },
+  {
+    "id": "formula-vmp-001",
+    "topic": "labor-markets",
+    "subtopic": "Value of Marginal Product",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A firm's marginal product of labor for its 10th worker is 8 units of output per day. Each unit of output sells for $25. The value of the marginal product of that 10th worker is:",
+    "choices": [
+      "$200 per day",
+      "$25 per day",
+      "$8 per day",
+      "$33 per day"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value of marginal product of labor (VMP) = marginal product x price of output = 8 units x $25 = $200 per day.",
+    "wrongExplanations": [
+      null,
+      "$25 is just the price per unit, not multiplied by the marginal product.",
+      "$8 is just the marginal product in physical units, not converted to a dollar value.",
+      "$33 adds the marginal product and price together instead of multiplying them."
+    ],
+    "tags": [
+      "value of marginal product",
+      "labor demand"
+    ]
+  },
+  {
+    "id": "formula-vmp-002",
+    "topic": "labor-markets",
+    "subtopic": "Profit-Maximizing Hiring",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class3"
+    ],
+    "sourceLabel": "Class 3 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A firm currently employs 4 workers. It's deciding whether to hire additional workers at a daily wage of $180 each. The marginal product of the 5th worker is 11 units/day, the 6th is 9 units/day, and the 7th is 7 units/day; output sells for $20/unit. Applying the rule 'hire an additional worker only if VMP is at least the wage,' how many of these three additional workers should the firm hire?",
+    "choices": [
+      "2 additional workers (hire the 5th and 6th, but not the 7th)",
+      "1 additional worker (hire only the 5th)",
+      "3 additional workers (hire all of the 5th, 6th, and 7th)",
+      "0 additional workers, since the wage already equals VMP for the 6th worker"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "VMP = marginal product x price. VMP(5th) = 11x$20=$220, at least the $180 wage, so hire. VMP(6th) = 9x$20=$180, equal to the wage, so still worth hiring. VMP(7th) = 7x$20=$140, below the $180 wage, so don't hire. The firm should hire 2 more workers: the 5th and 6th.",
+    "wrongExplanations": [
+      null,
+      "This stops one worker too early -- the 6th worker's VMP ($180) still equals the wage, so hiring that worker is still worthwhile.",
+      "This hires one worker too many -- the 7th worker's VMP ($140) is below the $180 wage, so hiring that worker would reduce profit.",
+      "The firm should still hire through the 6th worker, whose VMP exactly equals the wage; only the 7th worker's VMP falls short of the wage."
+    ],
+    "tags": [
+      "value of marginal product",
+      "labor demand",
+      "profit-maximizing hiring"
     ]
   }
 ]

@@ -1,5 +1,5 @@
 const Data = (() => {
-  const VALID_QUESTION_TYPES = new Set(["standard", "vocab"]);
+  const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula"]);
 
   const REQUIRED_FIELDS = [
     "id",
@@ -57,7 +57,7 @@ const Data = (() => {
       }
 
       if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
-        warn(`${label}: invalid questionType "${q.questionType}" (must be "standard" or "vocab")`);
+        warn(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", or "formula")`);
       }
 
       (q.sourceIds || []).forEach((sid) => {

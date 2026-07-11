@@ -11,15 +11,25 @@ problem-set solutions, organized by topic, with progress saved locally in the br
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized into 14 topics spanning basic economic analysis, comparative
+- Questions are organized into 17 topics spanning basic economic analysis, comparative
   advantage and trade, supply and demand, GDP accounting, CPI/inflation, labor markets,
-  productivity and wages, inequality/globalization, economic growth, and — as of the
-  Class 5 update — saving/wealth/investment, the loanable funds market and government
-  budgets, and open-economy capital flows.
+  productivity and wages, inequality/globalization, economic growth, saving/wealth/
+  investment, the loanable funds market and government budgets, open-economy capital
+  flows, and — as of the 2026-07-11 update — money/banking/the money market, bonds/
+  stocks/financial markets, and central banking/monetary policy.
 - A **Vocabulary / Definitions** study mode pulls every question tagged
-  `"questionType": "vocab"` across the whole bank (21 questions as of the Class 5
+  `"questionType": "vocab"` across the whole bank (32 questions as of the 2026-07-11
   update) into a shuffled, definition-focused practice session, in addition to each
   question's normal place within its topic.
+- A **Formula Practice** study mode pulls every question tagged
+  `"questionType": "formula"` across the whole bank (40 questions as of the 2026-07-11
+  update) into a shuffled session of calculation/word-problem questions — opportunity
+  cost, PPCs, supply/demand equilibrium, GDP by any method, CPI/inflation/deflating/
+  indexing, real interest rates, saving/wealth identities, loanable funds, the
+  open-economy identities, labor productivity, compound growth/Rule of 72, value of
+  marginal product, and user cost of capital. Formula questions still appear in their
+  normal topic and in every other study mode; Formula Practice is just a filtered view.
+  Formula questions show a small "Formula" badge in the quiz header.
 - All progress (attempts, correct/incorrect history, per-topic accuracy) is saved to
   `localStorage` in the student's own browser. There is no login, no backend, and no
   external database — nothing leaves the device.
@@ -41,7 +51,7 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (138 questions as of the 2026-07-07 Class 5 update)
+  questions.json                 the question bank (233 questions as of the 2026-07-11 update)
   topics.json                    topic list (id, name, description)
   sources.json                   source-material metadata (which file, what it covers, reliability notes)
 docs/
@@ -124,8 +134,9 @@ guidance, and conventions for adding topics/sources. Short version:
 3. Add questions to `questions.json` following the existing schema — every question
    needs a correct-answer explanation and a specific wrong-answer explanation for each
    distractor. Set `"questionType": "vocab"` on pure definition/term-recognition
-   questions so they show up in the Vocabulary / Definitions study mode; omit the field
-   (or set `"standard"`) for everything else.
+   questions so they show up in the Vocabulary / Definitions study mode, or
+   `"questionType": "formula"` on calculation/word-problem questions so they show up in
+   Formula Practice; omit the field (or set `"standard"`) for everything else.
 4. If any source content was unclear or only partially readable, set that question's
    `needsReview: true` and document what needs confirming in `docs/source-notes.md`.
 5. Reload the app locally and check the browser console — `src/data.js` runs schema

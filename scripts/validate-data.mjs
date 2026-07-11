@@ -25,7 +25,7 @@ const REQUIRED_FIELDS = [
   "tags",
 ];
 
-const VALID_QUESTION_TYPES = new Set(["standard", "vocab"]);
+const VALID_QUESTION_TYPES = new Set(["standard", "vocab", "formula"]);
 
 let errorCount = 0;
 let warnCount = 0;
@@ -99,7 +99,7 @@ function main() {
     }
 
     if (q.questionType !== undefined && !VALID_QUESTION_TYPES.has(q.questionType)) {
-      fail(`${label}: invalid questionType "${q.questionType}" (must be "standard" or "vocab")`);
+      fail(`${label}: invalid questionType "${q.questionType}" (must be "standard", "vocab", or "formula")`);
     }
 
     (q.sourceIds || []).forEach((sid) => {
@@ -140,8 +140,10 @@ function main() {
   });
 
   const vocabCount = questions.filter((q) => q.questionType === "vocab").length;
+  const formulaCount = questions.filter((q) => q.questionType === "formula").length;
   console.log(`Checked ${questions.length} questions, ${topics.length} topics, ${sources.length} sources.`);
   console.log(`Vocabulary/definition questions: ${vocabCount}.`);
+  console.log(`Formula/quantitative practice questions: ${formulaCount}.`);
   printSummaryAndExit();
 }
 

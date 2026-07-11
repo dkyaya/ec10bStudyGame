@@ -667,6 +667,12 @@ button {
   font-weight: 700;
 }
 
+.meta-formula-badge {
+  color: var(--good) !important;
+  border-color: var(--good) !important;
+  font-weight: 700;
+}
+
 .quiz-body {
   padding: 1.5rem 0 1rem;
 }

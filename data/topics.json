@@ -68,5 +68,20 @@
     "id": "capital-flows",
     "name": "Capital Flows and Open-Economy Saving",
     "description": "Capital inflows/outflows, net capital inflows, NX/KI relationships, trade deficits, and open-economy investment financing."
+  },
+  {
+    "id": "money-banking",
+    "name": "Money, Banking, and the Money Market",
+    "description": "What money is and does, fractional-reserve banking and money creation, the quantity equation, and the market for money (money demand, Fed control of the money supply)."
+  },
+  {
+    "id": "financial-markets",
+    "name": "Bonds, Stocks, and Financial Markets",
+    "description": "Present value, bonds and bond pricing, stocks and risk premium, the efficient market hypothesis, and financial intermediation."
+  },
+  {
+    "id": "monetary-policy",
+    "name": "Central Banks and Monetary Policy",
+    "description": "The central bank's price-stability mandate, costs of inflation and deflation, bank reserves, the overnight interest rate, and modern monetary policy tools."
   }
 ]

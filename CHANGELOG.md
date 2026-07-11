@@ -1,5 +1,95 @@
 # Changelog
 
+## 2026-07-11 11:01 — New Midterm Materials and Formula Practice Mode
+
+### Added
+- Four new sources in `data/sources.json`: `class6` (`HarvardS10b_Class6_7.pptx` —
+  money, banking, financial markets, and the 2007-9 crisis), `guest_lecture_ecb`
+  (`Guest Lecture Slides - Price Stability and Monetary Policy.pptx`), `ds3` (a
+  paired source combining `DS3.pdf` and `DS3_solutions.pdf`), and `quiz2` (`Quiz 2_
+  Principles of Economics_ Macroeconomics.pdf`, used only for paraphrased practice —
+  see Notes).
+- Three new topics in `data/topics.json`: `money-banking`, `financial-markets`, and
+  `monetary-policy`.
+- 95 new questions in `data/questions.json`: 62 new source-ingestion questions from
+  the four new sources above, plus 33 dedicated formula/quantitative word problems
+  (Part G of this update) grounded in existing sources with entirely fresh numbers.
+  Final bank: **233 questions** (up from 138), spanning **17 topics** (up from 14)
+  and **12 sources** (up from 8).
+- A new `questionType: "formula"` value and a new **Formula Practice** study mode
+  (`src/app.js`, `src/render.js`, `src/scoring.js`): pulls every question tagged
+  `"formula"` into a shuffled calculation/word-problem session, shows its count on a
+  home-screen mode card (hidden if no formula questions exist), and displays a small
+  green "Formula" badge in the quiz metadata row. Formula questions also appear
+  normally in every other mode (Full Bank, Shuffle Mixed Practice, New/Unseen, Review
+  Missed, Needs Review, and topic-specific practice/missed-review) — Formula Practice
+  is a filtered view, not a separate bucket. **40 formula questions** total (was 0).
+- `docs/update-notes/2026-07-11-new-materials-plan.md` and
+  `docs/update-notes/2026-07-11-new-materials-results.md`: the planning note and
+  source-to-question audit table for this update.
+- New "Writing formula/quantitative practice questions" section in
+  `docs/question-authoring-guide.md`, and new Formula Practice / badge / explanation
+  checks in `docs/qa-checklist.md`.
+
+### Changed
+- `VALID_QUESTION_TYPES` in `src/data.js` and `scripts/validate-data.mjs` now accepts
+  `"standard"`, `"vocab"`, or `"formula"` (previously just `"standard"`/`"vocab"`).
+- `data/sources.json`'s `ds3` entry documents that it pairs two local files
+  (`DS3.pdf` + `DS3_solutions.pdf`) in its `filename` and `reliabilityNotes` fields,
+  per the task's paired-source handling — every `ds3-*` question was checked against
+  both files together (prompt from `DS3.pdf`, verified answer from
+  `DS3_solutions.pdf`).
+- `docs/source-notes.md`: added detailed sections for all four new sources, a Canvas
+  Quiz 2 interpretation note, a Discussion Session 3 paired-source note, and an
+  updated `needsReview` status summary for the full 233-question bank.
+- `README.md`: updated topic/source/question counts, added Formula Practice and
+  Vocabulary mode descriptions, and noted the new midterm-prep coverage.
+- Vocabulary questions: 32 total (up from 21; +11 new, from `class6`, `guest_lecture_ecb`,
+  and `quiz2`).
+
+### Fixed
+- N/A (no bugs fixed by this change).
+
+### Notes
+- **Canvas Quiz 2 interpretation**: the `quiz2` PDF export renders each question's
+  "Correct answer"/"Wrong answer" result label *after* that question's choices and
+  immediately before the *next* question's number — a misleading layout that reads as
+  if the label belongs to the following question. Per the user's own direct
+  clarification (not derived from the scrambled labels): overall score was 8/10,
+  Question 2 was correct, and Questions 3 and 10 were incorrect. No `quiz2-*`
+  question reproduces the original quiz's wording; all are paraphrased practice
+  questions, with extra weight on the two missed concepts (debt paydown reducing
+  liabilities and raising wealth; capital inflows as purchases of domestic assets by
+  foreigners vs. capital outflows as purchases of foreign assets by domestic
+  households/firms). See `docs/source-notes.md` for the full note.
+- **Discussion Session 3 pairing**: `DS3.pdf` (questions) and `DS3_solutions.pdf`
+  (solutions) were combined into one paired source, `ds3`, per the task's paired-
+  source handling, rather than two separate source IDs.
+- Per the update's source restriction, no new source-ingestion questions were
+  generated from `class1`-`class5`, `ds1`, `ds2`, or `ps1_solutions` — those sources
+  were reused only as formula grounding for the dedicated Formula Practice batch
+  (with fresh numbers, never the sources' own worked-example figures) and to avoid
+  duplicate questions.
+- `needsReview` count: **0** — no question in this update required the flag; every
+  new question is grounded in cleanly extracted source text, independently
+  double-checked arithmetic, or (for `quiz2`) the user's own confirmed quiz results.
+- Validation: `node scripts/validate-data.mjs` reports 233 questions, 17 topics, 12
+  sources, 32 vocab questions, 40 formula questions, **0 errors, 0 warnings**.
+- QA: playtested via a headless Chrome session loading the app end-to-end — browser
+  console shows the app's own validation message ("233 questions passed all checks")
+  and no errors; confirmed the Formula Practice and Vocabulary/Definitions mode cards
+  both render on the home screen with correct counts (40 and 32 questions
+  respectively) alongside Full Bank, Shuffle Mixed Practice, Review Missed, and
+  New/Unseen. Independently re-simulated the app's answer-choice-shuffling logic in
+  Python across all 233 questions (3 shuffles each, 699 total) with zero correctness
+  mismatches. Independently recomputed every formula question's arithmetic (61 checks
+  across all calculation-based questions) against its stated correct answer with zero
+  mismatches.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged.
+- No files from `private-materials/` were staged or committed; the app remains a
+  static, no-build, no-backend site with only relative paths, so GitHub Pages
+  compatibility is unaffected.
+
 ## 2026-07-08 00:00 — Answer Choice Shuffling
 
 ### Added

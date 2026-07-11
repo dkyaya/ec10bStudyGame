@@ -105,6 +105,9 @@
       case "vocab":
         list = Utils.shuffle(Scoring.vocabQuestions(questions));
         break;
+      case "formula":
+        list = Utils.shuffle(Scoring.formulaQuestions(questions));
+        break;
       default:
         list = [...questions];
     }

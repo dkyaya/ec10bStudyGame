@@ -53,10 +53,10 @@ Field rules:
   calculation, subtle accounting distinction, or comparative-static reasoning).
 - **`needsReview`** — see below.
 - **`questionType`** — optional. One of `"standard"` (the default; a regular
-  conceptual, calculation, or graph question) or `"vocab"` (a vocabulary/definition
-  question — see below). Existing questions written before this field existed may omit
-  it entirely; the app and validator both treat a missing `questionType` the same as
-  `"standard"`.
+  conceptual or graph question), `"vocab"` (a vocabulary/definition question — see
+  below), or `"formula"` (a calculation/formula word problem — see below). Existing
+  questions written before this field existed may omit it entirely; the app and
+  validator both treat a missing `questionType` the same as `"standard"`.
 
 ## Writing vocabulary/definition questions
 
@@ -105,6 +105,64 @@ is genuinely a pure definition-recognition question (e.g., "X refers to:", "X is
 described as:"). Don't relabel a question that requires applying a concept to a scenario
 or doing a calculation — that's still a `"standard"` question, even if it also happens to
 test knowledge of a term.
+
+## Writing formula/quantitative practice questions
+
+Set `"questionType": "formula"` on a question whose point is a calculation or
+numeric word problem built around a formula the course has taught (opportunity cost,
+PPC slope, supply/demand equilibrium, GDP by any method, CPI/inflation/deflating/
+indexing, real interest rates, saving/wealth identities, loanable funds, the
+open-economy identities, labor productivity, compound growth/Rule of 72, value of
+marginal product, user cost of capital, etc.). Formula questions power the home
+screen's **Formula Practice** study mode, which pulls every question with
+`questionType: "formula"` regardless of topic, and they also count normally toward
+every other mode (Full Bank, Shuffle Mixed Practice, New/Unseen, Review Missed, Needs
+Review, and topic-specific practice/missed-review) — Formula Practice is a filtered
+view, not a separate bucket that excludes formula questions elsewhere.
+
+A formula question still gets a real `topic` — the substantive economics topic the
+formula belongs to (e.g., a CPI calculation goes under `gdp-cpi-inflation`, not a
+generic "formulas" topic). Don't create a catch-all formula topic; Formula Practice
+mode already provides the cross-topic view.
+
+Rules specific to formula questions:
+
+- **Always use fresh numbers and a fresh short scenario.** Never reuse a source's own
+  worked-example figures (a slide's data table, a discussion-solution's numbers), even
+  when citing that source as where the formula was taught — this is the same
+  no-verbatim-answer-key rule that applies to every calculation question in this
+  guide, just doubly important here since formula questions are calculations by
+  definition.
+- **`correctExplanation` must show the work**: name the formula, show the
+  substitution with the question's actual numbers, give the resulting number, and
+  give a one-line interpretation. A student should be able to learn the calculation
+  method from the explanation alone, not just see the final answer confirmed.
+- **Good formula distractors are wrong in a specific, teachable way** — not just a
+  different number. Aim for distractors that come from a plausible calculation
+  mistake:
+  - using nominal instead of real (or vice versa)
+  - forgetting to net out transfer payments when computing net taxes
+  - confusing capital inflows with exports, or capital outflows with imports
+  - using a total/average value where a marginal value is required (or the reverse)
+  - confusing private saving with national saving, or public saving with private
+  - reversing which alternative is "given up" in an opportunity-cost calculation
+  - inverting a ratio (e.g., computing X/Y when the question asks for Y/X)
+  - adding two figures that should be subtracted, or the reverse
+  - stopping a multi-step calculation one step early
+
+  Each `wrongExplanations` entry should name which specific mistake that choice
+  represents, the same way non-formula distractor explanations name a misconception
+  (see "Writing good distractors" below) — never just "this is the wrong number."
+- **Four choices, one clearly correct answer**, same as every other question type.
+  For `easy` formula questions this is usually direct substitution into a single
+  formula; `medium` adds one extra step or a short interpretation; `hard` requires a
+  multi-step identity, a comparison, or a trap involving the correct accounting
+  category (e.g., private vs. national saving, or capital inflows vs. capital
+  outflows).
+- `sourceIds`/`sourceLabel` still point to wherever the formula itself is taught —
+  formula questions can draw on any source where that formula appears, including
+  older sources from earlier in the course, since the formula itself (not the
+  specific numbers) is what's being cited.
 
 ## Writing good distractors
 
@@ -208,7 +266,9 @@ If it instead lists issues, fix them before committing — the validator checks 
 missing required fields, out-of-range `answerIndex`, mismatched `choices`/
 `wrongExplanations` lengths, a non-null explanation at the correct answer's index,
 empty explanations at incorrect indices, unknown `topic`/`sourceIds` references, and an
-invalid `questionType` (anything other than `"standard"`, `"vocab"`, or omitted).
+invalid `questionType` (anything other than `"standard"`, `"vocab"`, `"formula"`, or
+omitted).
 
-The same checks (plus a vocab-question count) run via `node scripts/validate-data.mjs`
-from the command line — run it before every commit that touches `data/`.
+The same checks (plus vocab- and formula-question counts) run via
+`node scripts/validate-data.mjs` from the command line — run it before every commit
+that touches `data/`.

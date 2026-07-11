@@ -61,6 +61,7 @@ const Render = (() => {
     const unseen = Scoring.unseenQuestions(questions).length;
     const needsReviewCount = Scoring.needsReviewQuestions(questions).length;
     const vocabCount = Scoring.vocabQuestions(questions).length;
+    const formulaCount = Scoring.formulaQuestions(questions).length;
 
     const modes = [
       {
@@ -98,6 +99,15 @@ const Render = (() => {
         title: "Vocabulary / Definitions",
         desc: "Term- and definition-focused questions, shuffled — great for drilling key vocabulary.",
         count: vocabCount,
+      });
+    }
+
+    if (formulaCount > 0) {
+      modes.push({
+        key: "formula",
+        title: "Formula Practice",
+        desc: "Calculation and word-problem questions, shuffled — practice the formulas taught so far.",
+        count: formulaCount,
       });
     }
 
@@ -250,6 +260,9 @@ const Render = (() => {
     const nodes = [topicName, sub, diff, source, progress];
     if (question.questionType === "vocab") {
       nodes.push(Utils.el("span", "meta-vocab-badge", "Vocab"));
+    }
+    if (question.questionType === "formula") {
+      nodes.push(Utils.el("span", "meta-formula-badge", "Formula"));
     }
     nodes.forEach((n) => container.appendChild(n));
   }

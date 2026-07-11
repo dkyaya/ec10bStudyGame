@@ -79,6 +79,10 @@ const Scoring = (() => {
     return questions.filter((q) => q.questionType === "vocab");
   }
 
+  function formulaQuestions(questions) {
+    return questions.filter((q) => q.questionType === "formula");
+  }
+
   function topicQuestions(questions, topicId) {
     return questions.filter((q) => q.topic === topicId);
   }
@@ -152,6 +156,7 @@ const Scoring = (() => {
     unseenQuestions,
     needsReviewQuestions,
     vocabQuestions,
+    formulaQuestions,
     weakestTopics,
     recommendedContinueAction,
     groupQuestionsByTopic,
