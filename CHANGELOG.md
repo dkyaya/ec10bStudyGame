@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-07-11 11:21 — New Question Quality Audit
+
+### Added
+- `class6-stocks-001`: a new question covering Class 6's stocks/dividends/capital-
+  gains content, which had no dedicated question in the prior update. This is the
+  only net addition from this audit — no question was removed.
+- `docs/update-notes/2026-07-11-new-question-quality-audit-plan.md` and
+  `-results.md`: the audit scope/plan and the detailed results, including a
+  per-question fix table.
+- Two new rules in `docs/question-authoring-guide.md`: the no-verbatim rule now
+  explicitly covers answer-choice wording/structure (not just numbers), and a new
+  rule that every question must be self-contained (no "the scenario above" /
+  cross-question references), since the app displays one question at a time.
+
+### Changed
+- Reclassified 6 questions from `questionType: "standard"` to `"vocab"`
+  (`ecb-target-001`, `ecb-coldprogression-001`, `ecb-debtdeflation-001`,
+  `ecb-secondround-001`, `class6-reserveratio-001`, `class6-100pctreserve-001`) —
+  each is a pure term-to-definition question that matches the vocab rule better than
+  its prior `standard` label. Vocabulary questions: 38 (was 32).
+- Relabeled difficulty on 2 questions from `medium` to `easy`
+  (`class6-shadowbanking-001`, `class6-riskpremium-001`) for consistency with
+  structurally identical sibling questions already labeled `easy`.
+- Added `class1` as a co-source (`sourceIds`/`sourceLabel`) on `formula-loanable-002`,
+  since solving its loanable-funds equilibrium as linear equations is a technique
+  taught in `class1`, not just the loanable-funds concept taught in `class5`.
+- Renamed a scenario country name in `formula-growth-003` ("Poorland" → "Farland")
+  to fully avoid overlapping with one of `ds2`'s own two example country names.
+
+### Fixed
+- **Verbatim-wording violations (7 questions rewritten).** A source-fidelity re-read
+  found several `ds3-*`/`quiz2-*` questions whose stems and/or all four answer
+  choices were near-verbatim (in one case, 100% verbatim) reuses of the original
+  DS3/Quiz 2 source text: `ds3-moneydemand-slope-001`, `ds3-fed-openmarket-001`,
+  `quiz2-costofinvestment-001`, `quiz2-lowerrealrate-capitalflows-001`,
+  `quiz2-ricardianequivalence-001`, and — most notably — `quiz2-capitalinflows-def-001`
+  (the question specifically meant to reinforce the user's missed "capital inflows"
+  concept, which was a straight copy of the original quiz question). All seven were
+  rewritten with fresh scenarios/phrasing while preserving the exact tested concept
+  and correct answer.
+- **Source-grounding gap.** `formula-supplydemand-002` tested price ceilings and
+  shortages, citing `class1` — but re-extracting `HarvardS10b_Class1.pptx` directly
+  confirmed no mention of "ceiling," "floor," "shortage," or "price control"
+  anywhere in that deck. Rewrote the question to test a grounded supply-shift
+  re-equilibration instead, using the same linear-equation technique class1 does
+  teach.
+- **Ambiguous distractor.** `ds3-fedresponse-liquidity-001`'s distractor "raise the
+  required reserve ratio" was actually also a valid way to achieve the question's
+  stated goal (per DS3's own solutions), making the question have two defensibly-
+  correct answers. Changed the distractor to "lower the required reserve ratio"
+  (unambiguously wrong). The same question also referenced "the scenario above,"
+  which breaks when displayed standalone outside its original sequence; rewritten to
+  restate its own scenario inline.
+
+### Notes
+- **Scope**: this audit covered exactly the 95 questions added by the same-day "New
+  Midterm Materials and Formula Practice Mode" update (`class6-*`, `ecb-*`, `ds3-*`,
+  `quiz2-*`, `formula-*`, or any question whose `sourceIds` includes `class6`,
+  `guest_lecture_ecb`, `ds3`, or `quiz2`). The pre-existing 138-question bank was not
+  re-audited.
+- **Arithmetic**: independently recomputed all 40 in-scope formula-type questions'
+  calculations (43 discrete checks) in a fresh script separate from the original
+  authoring-time verification — **zero arithmetic errors found**. The prior update's
+  math was correct; this audit's fixes were about wording fidelity, grounding, and
+  labeling, not calculation mistakes.
+- 76 of the 95 audited questions needed no changes at all — they were checked
+  against source text and/or independently recomputed and found to be accurate,
+  well-grounded, and appropriately labeled. This audit reports **verified and
+  corrected**, not "found to be broken" — most of the batch held up well.
+- `needsReview` count: **0** — every issue found was directly fixable (a rewrite, a
+  reclassification, or a small correction), so no in-scope question needed the flag.
+- Validation: `node scripts/validate-data.mjs` reports 234 questions, 17 topics, 12
+  sources, 38 vocab questions, 40 formula questions, **0 errors, 0 warnings**.
+- QA: reloaded the app via a headless Chrome session — console shows the app's own
+  validation message ("234 questions passed all checks (38 vocab)") and no errors;
+  confirmed Formula Practice (40 questions) and Vocabulary/Definitions (38
+  questions) mode cards render with the updated counts. Independently re-simulated
+  the answer-choice-shuffling logic across all 234 questions (3 shuffles each, 702
+  total) with zero correctness mismatches, and confirmed zero duplicate question IDs.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged; all fixed questions
+  kept their existing IDs (only `class6-stocks-001` is a new ID), so no student
+  progress is orphaned.
+- No files from `private-materials/` were staged or committed; the app remains a
+  static, no-build, no-backend site — GitHub Pages compatibility is unaffected.
+
 ## 2026-07-11 11:01 — New Midterm Materials and Formula Practice Mode
 
 ### Added

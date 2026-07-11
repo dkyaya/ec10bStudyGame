@@ -311,6 +311,87 @@ that couldn't be confidently matched between the two files; all four DS3 questio
 items matched cleanly (numbering and content lined up 1:1 between the two PDFs), so no
 `ds3-*` question required a `needsReview` flag.
 
+## 2026-07-11 New Question Quality Audit
+
+A focused quality audit was performed on exactly the 95 questions added in the
+2026-07-11 update above (`class6-*`, `ecb-*`, `ds3-*`, `quiz2-*`, `formula-*` — see
+`docs/update-notes/2026-07-11-new-question-quality-audit-plan.md` and
+`-results.md` for the full scope and outcome). The pre-existing 138-question bank
+was not re-audited. Findings and fixes:
+
+- **Verbatim-wording violations (7 questions rewritten).** Re-reading the extracted
+  `DS3.pdf`/`DS3_solutions.pdf` and Quiz 2 PDF text side-by-side with the shipped
+  questions turned up several cases where a question's stem and/or all four answer
+  choices were near-verbatim (in one case, fully verbatim) reuses of the source's own
+  wording, rather than genuine paraphrases:
+  - `ds3-moneydemand-slope-001` and `ds3-fed-openmarket-001` reused DS3's own answer-
+    choice phrasing and question stem almost word-for-word.
+  - `quiz2-costofinvestment-001` and `quiz2-lowerrealrate-capitalflows-001` reused the
+    original Canvas quiz's exact four answer-choice pairings, just reformatted from
+    fill-in-the-blank to full sentences.
+  - `quiz2-ricardianequivalence-001`'s stem was an almost word-for-word copy of the
+    original quiz question's descriptive clause.
+  - `quiz2-capitalinflows-def-001` — the question specifically meant to reinforce the
+    user's missed "capital inflows" concept from Quiz 2 — was a **100% verbatim copy**
+    of the original quiz question's stem and all four choices. This was the most
+    serious finding in the audit, precisely because it was the question the task most
+    wanted paraphrased and reinforced correctly.
+  
+  All seven were rewritten with fresh scenarios, phrasing, and (where applicable)
+  distractor sets while preserving the exact same tested concept and correct answer.
+- **Source-grounding gap (1 question rewritten).** `formula-supplydemand-002`
+  originally tested a price ceiling causing a shortage, citing `class1` as the
+  source. Re-extracting `HarvardS10b_Class1.pptx` directly (all 38 slides) found no
+  mention of "ceiling," "floor," "shortage," or "price control" anywhere in the deck,
+  and `class1`'s own `coverageSummary` in `data/sources.json` doesn't list price
+  controls either. The question was rewritten to test a supply-shift
+  re-equilibration instead (still class1-grounded via its "linear supply/demand
+  equations" and "causes of shifts in supply and demand" content), using the same
+  linear-equation-solving technique.
+- **Correctness/ambiguity fix (1 question).** `ds3-fedresponse-liquidity-001`'s
+  distractor "raise the required reserve ratio" was actually **also** a valid way to
+  decrease the money supply (DS3's own solutions confirm raising the reserve ratio
+  decreases the money supply), making the question have two defensibly-correct
+  answers. Changed that distractor to "lower the required reserve ratio" (which
+  increases the money supply — unambiguously wrong for the stated goal). The same
+  question also referenced "the scenario above," which breaks when the app displays
+  it standalone (e.g., in Shuffle Mixed Practice) rather than immediately after its
+  companion question; rewritten to restate its own scenario inline.
+- **`questionType` mislabels (6 questions reclassified `standard` → `vocab`):**
+  `ecb-target-001`, `ecb-coldprogression-001`, `ecb-debtdeflation-001`,
+  `ecb-secondround-001`, `class6-reserveratio-001`, `class6-100pctreserve-001`. Each
+  is a pure "X refers to / is defined as" term-recognition question with no scenario
+  application or calculation, matching the vocab rule in
+  `docs/question-authoring-guide.md` (and the guide's own example pattern) rather
+  than the `standard` type they'd been given.
+- **Difficulty mislabels (2 questions, `medium` → `easy`):**
+  `class6-shadowbanking-001` (a direct-recall fact, same structure as the `easy`
+  sibling `class6-bankingpanics-001`) and `class6-riskpremium-001` (a single-step
+  addition, same structure as other `easy`-tier single-operation formula questions).
+- **Grounding-citation precision (1 question).** `formula-loanable-002` tests solving
+  a linear loanable-funds equilibrium (S(r) = I(r)); the loanable-funds concept is
+  taught in `class5`, but representing supply/demand-style relationships as solvable
+  linear equations is the technique specifically taught in `class1`. Added `class1`
+  to its `sourceIds`/`sourceLabel` alongside `class5`.
+- **Minor scenario-naming precaution (1 question).** `formula-growth-003` used the
+  country name "Poorland," one of the two exact country names (`Richland`/
+  `Poorland`) from `ds2`'s own worked catch-up-growth example. Renamed to "Farland"
+  to fully avoid the overlap, consistent with the no-verbatim-scenario convention
+  already documented under "Assumptions made" below.
+- **Coverage gap (1 question added).** `class6`'s stocks content (dividends, capital
+  gains, present value of a stock) had no dedicated question — only indirectly
+  touched via the risk-premium and EMH questions. Added `class6-stocks-001` to close
+  this gap. This is the only net addition; no question was removed.
+
+**No `needsReview` items were required.** Every issue found during this audit was
+directly fixable (a rewrite, a reclassification, or a small correction) rather than
+a case of genuinely unverifiable or ambiguous source content, so no in-scope question
+needed the flag. All 96 questions currently attributed to `class6`, `guest_lecture_ecb`,
+`ds3`, `quiz2`, or a `formula-*` ID (95 from the original update plus the one
+`class6-stocks-001` addition) have been read against their source text (or, for
+`formula-*`, had their arithmetic independently recomputed) as part of this audit and
+are considered verified.
+
 ## Assumptions made
 
 - Where a slide names a general relationship without a numeric example (e.g., "which of

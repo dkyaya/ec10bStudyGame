@@ -189,6 +189,29 @@ rewritten with fresh scenarios. When a slide teaches a calculation using a speci
 table, write the question with new numbers that produce an analogous (not identical)
 answer, even though the slide isn't a graded answer key.
 
+**The no-verbatim rule covers wording and answer-choice structure, not just
+numbers.** A discussion-section or quiz question with non-numeric, qualitative
+choices (e.g., "which factor determines X — pick the right pairing of concepts")
+can still be copied in substance even when you change zero numbers, by reusing the
+source's exact answer-choice pairings or its exact question-stem phrasing with only
+cosmetic edits. The 2026-07-11 audit found several questions derived from Discussion
+Session 3 and a Canvas quiz that had done exactly this — matching answer-choice sets
+term-for-term, or stems that were near word-for-word copies — despite using "fresh"
+framing elsewhere in the question. Before finalizing a question derived from a
+non-calculation source question, compare your draft's stem and all four choices
+side-by-side against the source's actual wording; if more than one or two words
+differ per choice, restructure the scenario or the sentence architecture, not just
+individual words, until it reads as an independently-written question testing the
+same concept.
+
+**Every question must be self-contained — never reference "the scenario above" or
+another question.** The app displays one question at a time and questions can be
+reached individually via Shuffle Mixed Practice, Review Missed, topic practice, or
+any other mode — a student may never see whatever question you intended as "above."
+If two questions share a common setup (e.g., testing two different implications of
+the same scenario), repeat the necessary scenario details in each question's own
+stem rather than cross-referencing.
+
 ## Marking `needsReview`
 
 Set `"needsReview": true` when a question is derived from source content that was:

@@ -4312,7 +4312,7 @@
     ],
     "sourceLabel": "Class 6 slides",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "In Class 6's discussion of fractional-reserve banking, the reserve-deposit ratio is defined as:",
     "choices": [
       "Bank reserves divided by total deposits",
@@ -4343,7 +4343,7 @@
     ],
     "sourceLabel": "Class 6 slides",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "A bank operating under 100% reserve banking, as described in Class 6's 'Macroland' example, is one in which:",
     "choices": [
       "Bank reserves equal 100% of deposits, so no deposits are lent out",
@@ -4496,7 +4496,7 @@
     "id": "class6-shadowbanking-001",
     "topic": "money-banking",
     "subtopic": "Banking Panics and the Fed",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceIds": [
       "class6"
     ],
@@ -4749,7 +4749,7 @@
     "id": "class6-riskpremium-001",
     "topic": "financial-markets",
     "subtopic": "Risk Premium",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceIds": [
       "class6"
     ],
@@ -4872,6 +4872,38 @@
     ]
   },
   {
+    "id": "class6-stocks-001",
+    "topic": "financial-markets",
+    "subtopic": "Stocks",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class6"
+    ],
+    "sourceLabel": "Class 6 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to Class 6, a stockholder's return on a share comes from dividends and:",
+    "choices": [
+      "Capital gains, if the stock's price rises",
+      "Guaranteed coupon payments",
+      "A fixed share of the firm's tax refund",
+      "Interest paid by the issuing company"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Class 6 states that stockholders receive dividends (a periodic payment out of firm profits) and capital gains if the price of the stock increases -- the stock's present value reflects dividends plus the expected future sale price, both of which are uncertain, making stocks risky.",
+    "wrongExplanations": [
+      null,
+      "Coupon payments are a bond feature (a fixed, promised interest payment), not a stock feature; stock dividends are set by management out of profits and aren't guaranteed.",
+      "Stocks are a claim on firm ownership and profits, not tied to a tax refund.",
+      "Stocks don't pay interest like a bond or loan; a stock's return comes from dividends and capital gains, not interest."
+    ],
+    "tags": [
+      "stocks",
+      "dividends",
+      "capital gains"
+    ]
+  },
+  {
     "id": "ds3-moneydemand-slope-001",
     "topic": "money-banking",
     "subtopic": "Money Demand",
@@ -4882,20 +4914,20 @@
     "sourceLabel": "Discussion Session 3",
     "needsReview": false,
     "questionType": "standard",
-    "question": "The money demand curve slopes downward when plotted against the nominal interest rate because:",
+    "question": "As the nominal interest rate on bonds and savings accounts rises, the quantity of money (cash and low- or non-interest checking balances) that households and businesses want to hold:",
     "choices": [
-      "At higher interest rates, the opportunity cost of holding money (which pays little or no interest) is higher, so people want to hold less of it",
-      "At higher interest rates, banks require larger minimum deposits",
-      "At higher interest rates, people dislike using banks",
-      "At higher interest rates, the opportunity cost of holding money is lower"
+      "Falls, because holding money instead of an interest-bearing asset means giving up more forgone interest",
+      "Rises, because higher rates make banks pay more interest on checking accounts",
+      "Falls, because higher rates make people trust banks less",
+      "Stays the same, because money and bonds are always held in fixed proportions"
     ],
     "answerIndex": 0,
-    "correctExplanation": "DS3's solution explains that money (cash and non-interest-bearing deposits) earns little or no interest, so holding it means giving up the interest that could have been earned on an interest-bearing asset. A higher interest rate raises this opportunity cost, so people want to hold less money -- a downward-sloping money demand curve.",
+    "correctExplanation": "Money -- cash and non-interest (or low-interest) checking balances -- earns little to no interest, while bonds and savings accounts pay the market interest rate. As that market rate rises, the interest given up by holding money instead of an interest-bearing asset rises too, so households and businesses economize on money holdings. This opportunity-cost logic is exactly why the money demand curve slopes downward in the interest rate, per Discussion Session 3.",
     "wrongExplanations": [
       null,
-      "DS3 does not attribute the downward slope to minimum deposit requirements; it's about the opportunity cost of holding non-interest-bearing money.",
-      "DS3's reasoning is about the cost of holding money, not a general dislike of banks.",
-      "This reverses the actual relationship -- a higher interest rate raises, not lowers, the opportunity cost of holding money."
+      "Higher market interest rates don't mean checking accounts suddenly pay much more interest -- the whole point is that money pays little or no interest even as rates on other assets rise, which is exactly what makes holding it more costly.",
+      "The relationship here is about the financial cost (forgone interest) of holding money, not about trust in banks.",
+      "People actively rebalance between money and interest-bearing assets as rates change -- that's precisely why money demand responds to (and is downward-sloping in) the interest rate."
     ],
     "tags": [
       "money demand",
@@ -4914,20 +4946,20 @@
     "sourceLabel": "Discussion Session 3",
     "needsReview": false,
     "questionType": "standard",
-    "question": "Which of the following Fed actions would most likely INCREASE the money supply?",
+    "question": "A central bank's open-market desk purchases $2 billion in Treasury bonds directly from commercial banks, paying with newly created reserves. All else equal, what happens to the money supply?",
     "choices": [
-      "The Fed buys government bonds in the open market",
-      "The Fed sells government bonds in the open market",
-      "The Fed raises the required reserve ratio",
-      "None of these actions changes the money supply"
+      "It increases, since the Fed's payment for the bonds becomes new bank reserves that can support additional loans and deposits",
+      "It decreases, because the Fed is pulling bonds out of the hands of the public and banks",
+      "It stays the same, since the Fed is simply swapping one financial asset (reserves) for another (bonds)",
+      "It's impossible to know without also knowing the required reserve ratio"
     ],
     "answerIndex": 0,
-    "correctExplanation": "DS3's solution states that buying bonds in the open market increases the money supply, since the Fed pays for the bonds with money that enters the banking system as new reserves.",
+    "correctExplanation": "When the Fed buys bonds in the open market, it pays with newly created reserves that flow into the banking system. Banks can then lend out most of these new reserves, expanding deposits and the money supply -- the same 'buying bonds increases the money supply' result covered in Discussion Session 3.",
     "wrongExplanations": [
       null,
-      "DS3's solution states that selling bonds tends to decrease the money supply, the opposite of increasing it.",
-      "DS3's solution states that increasing the required reserve ratio tends to decrease the money supply, since banks can lend out a smaller share of deposits.",
-      "Both bond purchases and reserve-ratio changes are identified in DS3 as tools that do change the money supply."
+      "This focuses on the bonds leaving circulation rather than the reserves entering it -- the Fed's payment is what expands the money supply, not the removal of bonds.",
+      "This asset-swap framing ignores the fractional-reserve money-creation process -- once banks receive the new reserves, they can lend out most of them, expanding deposits system-wide rather than leaving the money supply unchanged.",
+      "The DIRECTION of the change (an increase) doesn't depend on the reserve ratio -- only the eventual SIZE of the increase (via the money multiplier) depends on the reserve ratio."
     ],
     "tags": [
       "Federal Reserve",
@@ -5075,12 +5107,12 @@
     "sourceLabel": "Discussion Session 3",
     "needsReview": false,
     "questionType": "standard",
-    "question": "In the mobile-payments scenario above, if the Fed wants to keep the nominal interest rate unchanged after money demand falls, it should:",
+    "question": "Suppose mobile payment apps become so widely accepted that most consumers stop carrying cash, causing money demand to shift left (fall) and, with the money supply initially unchanged, the nominal interest rate to fall. If the Fed wants to keep the nominal interest rate at its original level, it should:",
     "choices": [
       "Decrease the money supply",
       "Increase the money supply",
       "Leave the money supply unchanged",
-      "Raise the required reserve ratio only, with no change in bond holdings"
+      "Lower the required reserve ratio, with no change in bond holdings"
     ],
     "answerIndex": 0,
     "correctExplanation": "Since money demand fell, the equilibrium interest rate would fall unless the Fed also reduces the money supply, shifting money supply back to intersect the lower demand curve at the original interest rate -- exactly the logic DS3's solution applies to the credit-card scenario.",
@@ -5088,7 +5120,7 @@
       null,
       "Increasing the money supply would push the interest rate down even further, moving it away from the original level, not back to it.",
       "Leaving the money supply unchanged would let the interest rate fall along with the drop in money demand, not hold it constant.",
-      "Raising the reserve ratio alone decreases the money supply, which is directionally right, but the Fed's tool for this task (per DS3) is adjusting the money supply generally, most directly via open-market bond sales."
+      "Lowering the required reserve ratio INCREASES the money supply, moving further in the wrong direction -- the Fed needs to decrease, not increase, the money supply here."
     ],
     "tags": [
       "Federal Reserve",
@@ -5327,7 +5359,7 @@
     ],
     "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "The ECB's definition of price stability, as presented in the guest lecture, is:",
     "choices": [
       "A symmetric 2% increase in the HICP for the euro area, measured over the medium term",
@@ -5390,7 +5422,7 @@
     ],
     "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "'Cold progression,' as described in the guest lecture, refers to the way unexpected inflation:",
     "choices": [
       "Pushes workers into higher tax brackets, increasing their real tax burden even without a real income increase",
@@ -5485,7 +5517,7 @@
     ],
     "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "The guest lecture's 'debt-deflation' danger during deflation refers to the fact that falling prices:",
     "choices": [
       "Increase the real value of existing nominal debt, raising the burden on borrowers even as their revenues fall",
@@ -5547,7 +5579,7 @@
     ],
     "sourceLabel": "Guest Lecture: Price Stability and the Monetary Policy of the ECB",
     "needsReview": false,
-    "questionType": "standard",
+    "questionType": "vocab",
     "question": "The guest lecture describes a 'wage-price spiral' as occurring when:",
     "choices": [
       "Rising inflation expectations lead workers to demand higher wages, which raises firms' costs and pushes prices up further",
@@ -6023,20 +6055,20 @@
     "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
     "needsReview": false,
     "questionType": "standard",
-    "question": "The cost of investment for a firm depends on:",
+    "question": "Which two factors determine the (annual) cost of an investment in new capital, as taught in this course?",
     "choices": [
       "The price of new capital goods and the real interest rate",
       "The marginal product of capital and the relative price of the firm's output",
-      "Taxes levied on revenue and the relative price of the firm's output",
-      "The relative price of the firm's output and the real interest rate"
+      "The firm's total revenue and the nominal interest rate",
+      "The relative price of the firm's output and the nominal interest rate"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The cost of investment (the user cost of capital) depends on the price of new capital goods and the real interest rate (plus depreciation); together these determine how expensive it is to acquire and finance new capital.",
+    "correctExplanation": "The (user) cost of investment depends on the price of new capital goods (how expensive the equipment itself is) and the real interest rate (the true, inflation-adjusted cost of financing that purchase, or the forgone real return from investing the funds elsewhere).",
     "wrongExplanations": [
       null,
-      "The marginal product of capital and output price relate to the benefit/return side of the investment decision, not its cost.",
-      "Revenue taxes and output price are not the two factors identified as determining the cost of investment.",
-      "The relative price of output belongs to the benefit side of the investment decision, not the cost side."
+      "The marginal product of capital and the output price determine the BENEFIT of investment (its expected return), not its cost -- the cost side is about how expensive the capital and financing are, not how productive or valuable the investment's output is.",
+      "Total revenue and the nominal interest rate aren't the two determinants of investment cost; using the nominal rather than the real interest rate ignores the effect of inflation on the true cost of financing.",
+      "The output price is a benefit-side factor, not a cost-side factor, and using the nominal instead of the real interest rate overstates the true financing cost during periods of inflation."
     ],
     "tags": [
       "investment",
@@ -6054,20 +6086,20 @@
     "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
     "needsReview": false,
     "questionType": "standard",
-    "question": "Holding risk and foreign real returns constant, a decrease in the domestic real interest rate will:",
+    "question": "The U.S. real interest rate falls while the real interest rate available in other countries, and investors' risk perceptions, are unchanged. What happens to foreign purchases of U.S. assets, U.S. purchases of foreign assets, and the U.S.'s net capital inflows?",
     "choices": [
-      "Decrease capital inflows, increase capital outflows, and decrease net capital inflows",
-      "Increase capital inflows, increase capital outflows, and increase net capital inflows",
-      "Increase capital inflows, decrease capital outflows, and increase net capital inflows",
-      "Decrease capital inflows, decrease capital outflows, and increase net capital inflows"
+      "Foreign purchases of U.S. assets fall, U.S. purchases of foreign assets rise, and net capital inflows fall",
+      "Foreign purchases of U.S. assets rise, U.S. purchases of foreign assets rise, and net capital inflows rise",
+      "Foreign purchases of U.S. assets rise, U.S. purchases of foreign assets fall, and net capital inflows rise",
+      "Foreign purchases of U.S. assets fall, U.S. purchases of foreign assets fall, and net capital inflows rise"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A lower domestic real interest rate makes domestic assets less attractive to foreign investors (capital inflows decrease) and makes foreign assets relatively more attractive to domestic investors (capital outflows increase). Both effects lower net capital inflows.",
+    "correctExplanation": "A lower U.S. real interest rate makes U.S. assets relatively less attractive to foreign investors, so foreign purchases of U.S. assets (capital inflows) fall. It also makes foreign assets relatively more attractive to U.S. investors, so U.S. purchases of foreign assets (capital outflows) rise. With inflows falling and outflows rising, net capital inflows fall.",
     "wrongExplanations": [
       null,
-      "A lower domestic rate should make domestic assets less, not more, attractive to foreigners, so capital inflows fall rather than rise.",
-      "Lower domestic rates make foreign assets more attractive to domestic investors, so capital outflows should rise, not fall.",
-      "With inflows falling and outflows rising, net capital inflows should fall, not rise."
+      "This says foreign demand for U.S. assets rises when U.S. rates fall -- but a lower U.S. interest rate makes U.S. assets less attractive to foreign investors, not more, so foreign purchases of U.S. assets should fall, not rise.",
+      "This has U.S. purchases of foreign assets falling -- but a lower U.S. rate makes foreign assets relatively more attractive to U.S. investors, so U.S. purchases of foreign assets should rise, not fall.",
+      "U.S. investors should find foreign assets relatively MORE attractive (not less) when the U.S. rate falls, so U.S. purchases of foreign assets should rise, not fall -- this choice gets that direction backwards."
     ],
     "tags": [
       "capital flows",
@@ -6086,20 +6118,20 @@
     "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
     "needsReview": false,
     "questionType": "vocab",
-    "question": "The idea that a decline in the government's budget deficit leads to little change in national saving -- because households increase current spending in anticipation of future tax cuts -- is known as:",
+    "question": "Suppose the government cuts its budget deficit by raising taxes today. Rather than reducing their own consumption in response, households instead save less out of their current income than they otherwise would, correctly anticipating that this year's tax hike will let the government cut taxes again in the future. As a result, national saving barely changes. This behavior illustrates:",
     "choices": [
       "Ricardian equivalence",
       "Precautionary saving",
       "Crowding out",
-      "The loanable funds effect"
+      "Bequest saving"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Ricardian equivalence is the idea that households anticipate future tax changes implied by current deficits, adjusting their own saving/spending to offset the government's saving decision, leaving national saving little changed.",
+    "correctExplanation": "This is Ricardian equivalence: households recognize that a smaller deficit today (funded by higher current taxes) implies lower taxes in the future, so they reduce their own saving today by roughly the same amount the government's saving increased -- leaving national saving (private + public) little changed overall.",
     "wrongExplanations": [
       null,
-      "Precautionary saving is a household saving motive tied to guarding against unexpected events, not a theory about offsetting government saving decisions.",
-      "Crowding out describes deficits reducing investment through higher interest rates, the opposite mechanism from the households-anticipate-taxes story here.",
-      "'Loanable funds effect' is not the name of this concept; the loanable funds market is the broader framework in which crowding out (a different concept) operates."
+      "Precautionary saving is a household motive for saving as a buffer against unexpected events, not a theory about how households respond to government tax/deficit changes.",
+      "Crowding out describes how larger deficits raise interest rates and reduce private investment -- a different mechanism from households directly adjusting their own saving in anticipation of future taxes.",
+      "Bequest saving is saving intended to leave an inheritance, a household motive unrelated to anticipating government tax policy changes."
     ],
     "tags": [
       "Ricardian equivalence",
@@ -6118,20 +6150,20 @@
     "sourceLabel": "Canvas Quiz 2 (paraphrased practice)",
     "needsReview": false,
     "questionType": "vocab",
-    "question": "From the point of view of a particular country, 'capital inflows' are:",
+    "question": "When economists describe a country's 'capital inflows,' they are referring to:",
     "choices": [
-      "Purchases of domestic assets by foreigners",
-      "Purchases of domestic goods or services by foreigners",
-      "Purchases of foreign assets by domestic households or firms",
-      "Purchases of foreign goods or services by domestic households or firms"
+      "Purchases of that country's assets (stocks, bonds, real estate, etc.) by residents of other countries",
+      "Purchases of that country's goods and services by residents of other countries",
+      "Purchases of foreign assets by that country's own residents or firms",
+      "Purchases of foreign goods and services by that country's own residents or firms"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Capital inflows are purchases of domestic assets by foreigners -- for example, a foreign investor buying domestic stocks, bonds, or real estate.",
+    "correctExplanation": "Capital inflows are purchases of a country's own assets -- financial or real assets such as stocks, bonds, or real estate -- by residents of other countries. For example, if a foreign pension fund buys U.S. government bonds or a foreign company buys shares in a U.S. firm, that is a U.S. capital inflow.",
     "wrongExplanations": [
       null,
-      "This describes exports (a trade/current-account concept involving goods and services), not a capital inflow, which involves assets.",
-      "This describes capital outflows, the mirror-image concept -- domestic purchases of foreign assets.",
-      "This describes imports (a trade/current-account concept), not a capital-account transaction."
+      "This describes an export (a good/service sold to foreigners), which is a current-account/trade concept -- capital inflows are about foreigners buying assets, not goods or services.",
+      "This describes capital outflows -- the country's own residents buying assets abroad -- the mirror image of capital inflows.",
+      "This describes an import (a good/service bought from foreigners) purchased by domestic residents -- a trade concept, not a capital-account one, and also the wrong direction (domestic buying, not foreign buying)."
     ],
     "tags": [
       "capital flows",
@@ -6361,7 +6393,7 @@
   {
     "id": "formula-supplydemand-002",
     "topic": "supply-demand-equilibrium",
-    "subtopic": "Price Controls",
+    "subtopic": "Supply Shifts",
     "difficulty": "medium",
     "sourceIds": [
       "class1"
@@ -6369,24 +6401,24 @@
     "sourceLabel": "Class 1 slides",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Demand is Qd = 100 - 2P and supply is Qs = 10 + 3P (equilibrium price $18, quantity 64). If the government imposes a price ceiling of $12, what is the resulting shortage?",
+    "question": "Demand for a good is Qd = 100 - 2P and supply is Qs = 10 + 3P, giving an initial equilibrium price of $18. Suppose a supply shock shifts supply to Qs' = 40 + 3P (more is now supplied at every price). What is the new equilibrium price?",
     "choices": [
-      "30 units",
-      "64 units",
-      "12 units",
-      "8 units"
+      "$12",
+      "$18",
+      "$26",
+      "$60"
     ],
     "answerIndex": 0,
-    "correctExplanation": "At P = $12: Qd = 100 - 2(12) = 76, Qs = 10 + 3(12) = 46. The shortage is Qd - Qs = 76 - 46 = 30 units.",
+    "correctExplanation": "After the shift, set Qd = Qs': 100 - 2P = 40 + 3P leads to 60 = 5P, so P = $12. Checking: Qd = 100-2(12)=76 and Qs' = 40+3(12)=76, confirming the new equilibrium price is $12 (down from the original $18, since supply increased).",
     "wrongExplanations": [
       null,
-      "64 is the equilibrium quantity at the market-clearing price, not the shortage at the price ceiling.",
-      "12 is the price ceiling itself, not a quantity.",
-      "8 doesn't come from correctly evaluating both Qd and Qs at P = 12."
+      "This is the ORIGINAL equilibrium price before the supply shift; it ignores that supply increased at every price, which should lower the equilibrium price.",
+      "This applies the +40 shift to the demand curve instead of the supply curve, moving in the wrong direction -- the shock was to supply, not demand.",
+      "This stops after computing 60 = 5P without completing the final division step to solve for P; the equilibrium price is 60/5 = $12, not $60."
     ],
     "tags": [
-      "price ceiling",
-      "shortage",
+      "supply shift",
+      "market equilibrium",
       "supply and demand"
     ]
   },
@@ -6935,9 +6967,10 @@
     "subtopic": "Loanable Funds Equilibrium",
     "difficulty": "hard",
     "sourceIds": [
-      "class5"
+      "class5",
+      "class1"
     ],
-    "sourceLabel": "Class 5 slides",
+    "sourceLabel": "Class 5 slides and Class 1 slides",
     "needsReview": false,
     "questionType": "formula",
     "question": "In the loanable funds market, national saving is S = 200 + 40r and investment demand is I = 800 - 60r, where r is the real interest rate in percent (e.g., r=5 means 5%). What is the equilibrium real interest rate?",
@@ -7164,7 +7197,7 @@
     "sourceLabel": "Class 4 slides and Discussion Session 2 Solutions",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Poorland's real GDP per capita is $12,000 and grows at a constant 5% per year. Using the Rule of 72 logic (approximating with doubling times), roughly how many years will it take Poorland to reach an income level of $48,000?",
+    "question": "Farland's real GDP per capita is $12,000 and grows at a constant 5% per year. Using the Rule of 72 logic (approximating with doubling times), roughly how many years will it take Farland to reach an income level of $48,000?",
     "choices": [
       "approximately 28.8 years",
       "approximately 14.4 years",
@@ -7172,7 +7205,7 @@
       "approximately 9.6 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Poorland must roughly quadruple its income (from $12,000 to $48,000), which is two doublings. At 5% growth, the Rule of 72 gives a doubling time of 72/5, approximately 14.4 years, so two doublings take about 2 x 14.4, approximately 28.8 years.",
+    "correctExplanation": "Farland must roughly quadruple its income (from $12,000 to $48,000), which is two doublings. At 5% growth, the Rule of 72 gives a doubling time of 72/5, approximately 14.4 years, so two doublings take about 2 x 14.4, approximately 28.8 years.",
     "wrongExplanations": [
       null,
       "approximately 14.4 years is only one doubling (to $24,000), not the two doublings needed to reach $48,000 from $12,000.",
