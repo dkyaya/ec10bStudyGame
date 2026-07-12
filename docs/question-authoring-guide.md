@@ -351,6 +351,22 @@ differ per choice, restructure the scenario or the sentence architecture, not ju
 individual words, until it reads as an independently-written question testing the
 same concept.
 
+**Avoid "mad-libs" number substitution — fresh numbers alone are not enough.**
+A calculation question can still be a near-copy of a source's worked problem
+even when every number has been changed, if the sentence structure and clause
+order are otherwise identical to the source (e.g., the source's "In a closed
+economy, X and Y save $A this year... the government runs a $B budget deficit.
+What is investment?" copied with only `$A`/`$B` and the noun swapped out is
+still a mad-libs copy, not an original question). The 2026-07-12 midterm-
+review audit found 8 of 17 questions in that batch had fallen into this
+pattern despite already following the fresh-numbers rule above. When adapting
+a source's worked word problem, change the cover story/framing (a different
+kind of purchase, loan, or business relationship — not just renamed people or
+firms), reorder which facts appear in which sentence, and vary the sentence
+count and structure, not just the digits and nouns. A useful test: if you
+can produce the source's original sentence by find-and-replacing only numbers
+and proper nouns in your draft, restructure further.
+
 **Every question must be self-contained — never reference "the scenario above" or
 another question.** The app displays one question at a time and questions can be
 reached individually via Shuffle Mixed Practice, Review Missed, topic practice, or

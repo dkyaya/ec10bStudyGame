@@ -8542,19 +8542,19 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "In a closed economy, households and businesses together save $1.8 trillion this year, and the government runs a budget deficit of $200 billion. What is the value of investment?",
+    "question": "A small closed economy's households and firms save a combined $2.4 billion this year. The government's budget is not balanced -- it spends $350 million more than it collects in net taxes. Using the fact that in a closed economy investment equals national saving, what is this economy's investment level this year?",
     "choices": [
-      "$1.6 trillion",
-      "$2.0 trillion",
-      "$1.8 trillion",
-      "$200 billion"
+      "$2.05 billion",
+      "$2.75 billion",
+      "$2.4 billion",
+      "$350 million"
     ],
     "answerIndex": 0,
-    "correctExplanation": "In a closed economy, national saving equals investment. National saving = private saving - the deficit's drain on public saving = $1.8 trillion - $200 billion = $1.6 trillion, so investment is $1.6 trillion.",
+    "correctExplanation": "In a closed economy, national saving equals investment. The government spending more than it collects is a budget deficit -- public dissaving -- which reduces national saving below private saving alone: $2.4 billion - $350 million = $2.05 billion, so investment is $2.05 billion.",
     "wrongExplanations": [
       null,
-      "This adds the deficit to private saving instead of subtracting it -- a budget deficit is public dissaving, which reduces national saving.",
-      "This uses only private saving and ignores the government's budget deficit entirely.",
+      "This adds the deficit to private saving instead of subtracting it -- a budget deficit is public dissaving, which reduces national saving, not increases it.",
+      "This uses only the combined private saving figure and ignores the government's budget deficit entirely.",
       "This is just the size of the deficit, not the economy's total national saving/investment."
     ],
     "tags": [
@@ -8574,20 +8574,20 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A borrower takes out an $8,000 loan at a fixed nominal interest rate of 9% per year, with both principal and all interest due in one lump sum after 3 years. If inflation averages 3% per year over that period, how much will she owe after 3 years, measured in constant (today's) dollars?",
+    "question": "To finance a new food truck, an entrepreneur borrows $15,000 from a bank at a fixed 8% annual interest rate. The full loan, plus all accumulated interest, is due as a single payment 5 years later. Over those 5 years, prices rise by an average of 3% per year. In today's (inflation-adjusted) dollars, how large is that final payment expected to be?",
     "choices": [
-      "$9,528",
-      "$10,360",
-      "$9,440",
-      "$8,000"
+      "$19,144",
+      "$22,040",
+      "$18,750",
+      "$15,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The real interest rate is the nominal rate minus inflation: 9% - 3% = 6%. In constant (real) dollars, the amount owed compounds at this real rate: $8,000 x (1.06)^3 = $9,528.",
+    "correctExplanation": "The real interest rate is the nominal rate minus inflation: 8% - 3% = 5%. In today's (real) dollars, the loan compounds at this real rate over the 5 years: $15,000 x (1.05)^5, which is approximately $19,144.",
     "wrongExplanations": [
       null,
-      "This compounds the loan at the NOMINAL rate (9%) instead of the real rate -- since the question asks for the amount in constant dollars, inflation must be stripped out first using the real rate.",
-      "This uses the correct 6% real rate but applies it as simple (non-compounding) interest instead of compounding it over the 3 years.",
-      "This is just the original principal, with no interest applied at all."
+      "This compounds the loan at the NOMINAL rate (8%) instead of the real rate -- since the question asks for the payment in today's dollars, inflation must be stripped out first using the real rate.",
+      "This uses the correct 5% real rate but applies it as simple (non-compounding) interest instead of compounding it over the 5 years.",
+      "This is just the original loan amount, with no interest applied at all."
     ],
     "tags": [
       "real interest rate",
@@ -8638,20 +8638,20 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Silicon Works sells $40,000 worth of processor chips to Vertex Computers. Vertex also licenses software from NovaSoft for $30,000. Using the chips and the licensed software, Vertex assembles computers and sells them to RetailMart for $300,000. RetailMart then sells the computers to the public for $450,000. Using the value-added method, what is the total contribution to GDP from this chain?",
+    "question": "A logging company sells $25,000 worth of raw lumber to a furniture manufacturer. The manufacturer turns the lumber into finished tables and chairs and sells them to a wholesale distributor for $90,000. The distributor sells the furniture to retail stores for $130,000, and the retail stores sell it to the public for $180,000. Using the value-added method, what is the total contribution to GDP from this chain?",
     "choices": [
-      "$450,000",
-      "$820,000",
-      "$300,000",
-      "$150,000"
+      "$180,000",
+      "$425,000",
+      "$130,000",
+      "$50,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Value added at each stage: Silicon Works contributes $40,000 (no purchased inputs), NovaSoft contributes $30,000 (no purchased inputs), Vertex contributes $300,000 - ($40,000 + $30,000) = $230,000, and RetailMart contributes $450,000 - $300,000 = $150,000. Total value added = $40,000 + $30,000 + $230,000 + $150,000 = $450,000 -- equal to the final sale price to the public, as it must be.",
+    "correctExplanation": "Value added at each stage: the logging company contributes $25,000 (no purchased inputs), the manufacturer contributes $90,000 - $25,000 = $65,000, the distributor contributes $130,000 - $90,000 = $40,000, and the retail stores contribute $180,000 - $130,000 = $50,000. Total value added = $25,000 + $65,000 + $40,000 + $50,000 = $180,000 -- equal to the final sale price to the public, as it must be.",
     "wrongExplanations": [
       null,
-      "This sums all four firms' full revenues ($40,000 + $30,000 + $300,000 + $450,000) instead of each firm's value added, double- and triple-counting the chips and software along the way.",
-      "This is only Vertex's sale price to RetailMart, not the total value added across the whole chain.",
-      "This is only RetailMart's own value added, ignoring the value added by the other three firms earlier in the chain."
+      "This sums all four firms' full revenues ($25,000 + $90,000 + $130,000 + $180,000) instead of each firm's value added, double- and triple-counting the lumber and furniture along the way.",
+      "This is only the distributor's sale price to retail stores, not the total value added across the whole chain.",
+      "This is only the retail stores' own value added, ignoring the value added by the other three firms earlier in the chain."
     ],
     "tags": [
       "GDP",
@@ -8702,25 +8702,25 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A city's minimum wage was $8.00 per hour in a year when the CPI was 110. Years later, the CPI has risen to 176. If the city wants to reset the minimum wage so that it has the same purchasing power it had back when the CPI was 110, what should the new minimum wage be?",
+    "question": "A retiree's monthly pension was set at $1,200 in a year when the CPI stood at 110. The CPI has since climbed to 176. To restore the pension to its original real (inflation-adjusted) purchasing power, what monthly amount should it be updated to?",
     "choices": [
-      "$12.80",
-      "$8.00",
-      "$5.00",
-      "$14.08"
+      "$1,920",
+      "$1,200",
+      "$750",
+      "$2,112"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Indexing scales a nominal amount by the ratio of the new price index to the old one: $8.00 x (176/110) = $8.00 x 1.6 = $12.80.",
+    "correctExplanation": "Indexing scales a nominal amount by the ratio of the new price index to the old one: $1,200 x (176/110) = $1,200 x 1.6 = $1,920.",
     "wrongExplanations": [
       null,
-      "This leaves the wage unchanged, ignoring the rise in prices entirely -- with no adjustment, its purchasing power would have fallen.",
-      "This inverts the CPI ratio (110/176 instead of 176/110), which would understate the wage needed to preserve purchasing power.",
+      "This leaves the pension unchanged, ignoring the rise in prices entirely -- with no adjustment, its real purchasing power would have fallen.",
+      "This inverts the CPI ratio (110/176 instead of 176/110), which understates the pension needed to preserve purchasing power.",
       "This multiplies by 1.76 (treating the new CPI as if it were already a ratio) instead of by the correct ratio of 176 to the base value of 110."
     ],
     "tags": [
       "indexing",
       "CPI",
-      "minimum wage"
+      "pension"
     ]
   },
   {
@@ -8797,20 +8797,20 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "In a closed economy: GDP (Y) = $9,000; Consumption (C) = $6,000; Government purchases (G) = $1,500; Taxes minus transfers (T) = $1,600. What are private saving, public saving, and national saving, respectively?",
+    "question": "An economy that engages in no trade with the rest of the world produces $7,500 billion in total output this year. Households and businesses spend $5,200 billion of after-tax income on consumption. The government collects $1,350 billion more in taxes than it pays out in transfer payments, and spends $1,100 billion on government purchases. What are this economy's private saving, public saving, and national saving, respectively?",
     "choices": [
-      "1,400; 100; 1,500",
-      "1,400; 100; 1,300",
-      "1,500; 100; 1,600",
-      "1,400; -100; 1,300"
+      "950; 250; 1,200",
+      "950; 250; 1,050",
+      "1,050; 250; 1,300",
+      "950; -250; 700"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving = Y - T - C = 9,000 - 1,600 - 6,000 = 1,400. Public saving = T - G = 1,600 - 1,500 = 100. National saving = private + public = 1,400 + 100 = 1,500 (matches Y - C - G = 9,000 - 6,000 - 1,500 = 1,500).",
+    "correctExplanation": "Private saving = total output - net taxes - consumption = 7,500 - 1,350 - 5,200 = 950. Public saving = net taxes - government purchases = 1,350 - 1,100 = 250. National saving = private + public = 950 + 250 = 1,200 (matches total output - consumption - government purchases = 7,500 - 5,200 - 1,100 = 1,200).",
     "wrongExplanations": [
       null,
       "This correctly computes private and public saving but doesn't add them together for national saving.",
       "This miscalculates private saving, which overstates national saving as a result.",
-      "This flips the sign on public saving -- with T > G here, the government runs a surplus (positive public saving), not a deficit."
+      "This flips the sign on public saving -- with taxes exceeding government purchases here, the government runs a surplus (positive public saving), not a deficit."
     ],
     "tags": [
       "private saving",
@@ -8829,19 +8829,19 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Continuing the same economy (GDP = $9,000, private saving fixed at $1,400, taxes minus transfers T = $1,600 unchanged): suppose the government increases purchases from $1,500 to $1,800. What is the new level of national saving?",
+    "question": "Continuing the same economy from the previous question (total output $7,500 billion, private saving fixed at $950 billion regardless of the interest rate, and net taxes unchanged at $1,350 billion): the government raises its purchases from $1,100 billion to $1,400 billion. What is the new level of national saving?",
     "choices": [
-      "$1,200",
-      "$1,500",
-      "$1,600",
-      "$200"
+      "$900 billion",
+      "$1,200 billion",
+      "$1,000 billion",
+      "-$50 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Public saving is now T - G = $1,600 - $1,800 = -$200. With private saving unchanged at $1,400, national saving = $1,400 + (-$200) = $1,200.",
+    "correctExplanation": "Public saving is now net taxes - government purchases = $1,350 billion - $1,400 billion = -$50 billion. With private saving unchanged at $950 billion, national saving = $950 billion + (-$50 billion) = $900 billion.",
     "wrongExplanations": [
       null,
-      "This is the original national saving figure -- it doesn't account for the increase in G, which lowers public saving.",
-      "This flips the sign on the new public saving figure (using G - T = $200 instead of T - G = -$200), overstating national saving.",
+      "This is the original national saving figure -- it doesn't account for the increase in government purchases, which lowers public saving.",
+      "This flips the sign on the new public saving figure (using government purchases minus net taxes = $50 billion instead of -$50 billion), overstating national saving.",
       "This reports only the new (negative) public saving figure by itself, not the full national saving total (private plus public)."
     ],
     "tags": [
@@ -8861,15 +8861,15 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "graph",
-    "question": "Continuing the same economy: assume the aggregate saving-supply curve in the loanable funds market is a vertical line (national saving does not respond to the real interest rate), while investment demand is downward-sloping as usual. When the government's increased purchases reduce national saving from $1,500 to $1,200 (as in the previous question), the vertical saving-supply line shifts left, as shown in the diagram (S to S'). What happens to the equilibrium real interest rate and the level of investment?",
+    "question": "Continuing the same economy: assume the aggregate saving-supply curve in the loanable funds market is a vertical line (national saving does not respond to the real interest rate), while investment demand is downward-sloping as usual. When the government's increased purchases reduce national saving from $1,200 to $900 (as in the previous question), the vertical saving-supply line shifts left, as shown in the diagram (S to S'). What happens to the equilibrium real interest rate and the level of investment?",
     "choices": [
-      "The real interest rate rises, and investment falls to $1,200 (matching the new lower national saving, since investment must still equal national saving in a closed economy)",
+      "The real interest rate rises, and investment falls to $900 (matching the new lower national saving, since investment must still equal national saving in a closed economy)",
       "The real interest rate falls, and investment rises",
       "Neither the real interest rate nor investment changes, since a vertical saving-supply curve is completely insensitive to the interest rate",
-      "The real interest rate rises, but investment stays at $1,500 since the investment demand curve itself didn't shift"
+      "The real interest rate rises, but investment stays at $1,200 since the investment demand curve itself didn't shift"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Even though the saving-supply curve is vertical (doesn't respond to r), its position still shifts left when national saving falls, from $1,500 to $1,200. Since it's a closed economy, investment must equal national saving in equilibrium, so investment falls to $1,200 too. Reading this new, lower quantity off the downward-sloping investment demand curve requires a higher real interest rate -- the same qualitative result as an upward-sloping saving curve shifting left, just via a vertical curve's position moving instead of a slope-preserving parallel shift.",
+    "correctExplanation": "Even though the saving-supply curve is vertical (doesn't respond to r), its position still shifts left when national saving falls, from $1,200 to $900. Since it's a closed economy, investment must equal national saving in equilibrium, so investment falls to $900 too. Reading this new, lower quantity off the downward-sloping investment demand curve requires a higher real interest rate -- the same qualitative result as an upward-sloping saving curve shifting left, just via a vertical curve's position moving instead of a slope-preserving parallel shift.",
     "wrongExplanations": [
       null,
       "This has both directions backwards -- a leftward shift in the saving-supply line (a decrease in the funds available) raises the equilibrium interest rate and lowers investment, not the reverse.",
@@ -8931,20 +8931,20 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "An investor is willing to pay $200 today for a share of stock that will pay no dividends over the next two years. The current interest rate on safe government bonds is 4%, and this particular stock carries a risk premium of 6%. Based on this present-value calculation, what price does the investor expect to be able to sell the stock for in two years?",
+    "question": "A collector purchases a rare, non-dividend-paying share of a private company for $500, expecting to hold it for three years before selling. Comparable safe investments currently yield 3% per year, and investors demand an extra 7 percentage points of return to compensate for this particular stock's risk. Assuming the $500 purchase price reflects the present value of the expected future sale price, what sale price would justify paying $500 today?",
     "choices": [
-      "$242",
-      "$216",
-      "$225",
-      "$240"
+      "$665.50",
+      "$546",
+      "$613",
+      "$650"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The discount rate for a risky asset is the safe rate plus the risk premium: 4% + 6% = 10%. Solving the present-value equation for the future price: $200 = X / (1.10)^2, so X = $200 x (1.10)^2 = $242.",
+    "correctExplanation": "The discount rate for a risky asset is the safe rate plus the risk premium: 3% + 7% = 10%. Solving the present-value equation for the future price over 3 years: $500 = X / (1.10)^3, so X = $500 x (1.10)^3, approximately $665.50.",
     "wrongExplanations": [
       null,
-      "This uses only the safe rate (4%) as the discount rate, ignoring the risk premium the stock actually carries.",
-      "This uses only the risk premium (6%) as the discount rate, ignoring the safe rate that should also be included.",
-      "This applies the correct 10% discount rate but as simple (non-compounding) interest over the two years instead of compounding it."
+      "This uses only the safe rate (3%) as the discount rate, ignoring the extra return investors demand for the stock's risk.",
+      "This uses only the risk premium (7%) as the discount rate, ignoring the safe rate that should also be included.",
+      "This applies the correct 10% discount rate but as simple (non-compounding) interest over the three years instead of compounding it."
     ],
     "tags": [
       "stock pricing",

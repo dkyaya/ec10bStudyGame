@@ -462,6 +462,66 @@ every other file in `private-materials/`, is excluded from git via `.gitignore`
 and was never staged or committed; only the derived `data/questions.json` entries
 and this documentation are part of the public repository.
 
+## 2026-07-12 Midterm Review Quality Audit
+
+A focused quality audit was performed on exactly the 17 questions added from
+`midterm_review` in the "2026-07-12 Exam Materials Integration" update above
+— see `docs/update-notes/2026-07-12-midterm-review-quality-audit-plan.md` and
+`-results.md` for the full scope and outcome. No other question in the bank
+was re-audited.
+
+- **Near-verbatim sentence-architecture copying (8 of 17 questions rewritten).**
+  Side-by-side comparison against a freshly re-extracted copy of
+  `MidtermStudyMaterials_Summer2026.doc` found that 8 questions — despite
+  already using fresh numbers, per the no-verbatim-answer-key rule — had
+  preserved the source's own worked problem's exact sentence structure and
+  clause order, only substituting numbers and light synonyms (a "mad-libs"
+  pattern): `formula-examprep-closedeconomy-si-001`,
+  `formula-examprep-realrepayment-001`, `formula-examprep-valueadded-001`,
+  `formula-examprep-cpiindex-001`, `formula-examprep-nationalsaving-001`,
+  `formula-examprep-nationalsaving-002`, `graph-examprep-verticalsaving-001`,
+  and `formula-examprep-stockpv-001`. All eight were rewritten with
+  restructured sentence architecture, new cover stories/framings (e.g., a
+  logging-to-furniture supply chain instead of the source's chip-and-license
+  chain; a pension instead of a minimum-wage indexing problem; a food-truck
+  loan instead of a student loan), and new numbers, while preserving the
+  identical tested concept and correct-answer logic. Every replacement
+  number set was independently re-verified via a fresh arithmetic script
+  before being written. This finding prompted a new documented rule in
+  `docs/question-authoring-guide.md` (see "Avoid 'mad-libs' number
+  substitution" under the no-verbatim-wording section) since it's a distinct
+  failure mode from both previously-documented verbatim risks (exact numbers,
+  and exact answer-choice sets).
+- **Two questions updated only for scenario consistency, not source
+  fidelity.** `formula-examprep-nationalsaving-002` and
+  `graph-examprep-verticalsaving-001` are a deliberate two-question
+  continuation (see the plan doc's self-containment check); their dollar
+  figures were updated to cascade from Fix 5's new numbers in
+  `formula-examprep-nationalsaving-001`, and both were re-confirmed to fully
+  restate every number needed to answer standalone (e.g., outside sequential
+  Midterm Review play). The diagram SVG in `graph-examprep-verticalsaving-001`
+  needed no changes — it uses only abstract `S`/`S'`/`I`/`E`/`E'` labels, no
+  embedded dollar figures — and its line-intersection geometry was
+  independently re-verified as still accurate.
+- **No arithmetic errors, distractor-defensibility issues, explanation-
+  fidelity issues, diagram-geometry issues, difficulty/questionType/topic
+  mislabels, or duplication issues were found** among the 17 questions —
+  these audit dimensions all passed cleanly and required no fixes. The 9
+  questions not listed above (`standard-examprep-housingsavings-001`,
+  `standard-examprep-valueadded-002`, `formula-examprep-
+  productivitycounterfactual-001`, `formula-examprep-
+  productivitycounterfactual-002`, `formula-examprep-inventorysale-001`,
+  `formula-examprep-realgdpgrowth-001`, `graph-examprep-foreignshock-001`,
+  `standard-examprep-usnxki-001`, `vocab-examprep-moneyassets-001`) needed no
+  changes at all.
+- **Coverage/duplication check:** confirmed all 11 of the source's worked
+  practice problems remain represented in the 17-question batch with no
+  duplicates; the batch was kept at 17 questions (no additions, no removals).
+- **No `needsReview` items required.** Every issue found was directly
+  fixable via rewrite; none of the 17 questions involved genuinely
+  unverifiable or ambiguous source content. All 17 remain `needsReview:
+  false`.
+
 ## Assumptions made
 
 - Where a slide names a general relationship without a numeric example (e.g., "which of

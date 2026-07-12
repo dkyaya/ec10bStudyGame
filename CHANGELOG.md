@@ -1,5 +1,69 @@
 # Changelog
 
+## 2026-07-12 09:02 — Midterm Review Quality Audit
+
+### Added
+- `docs/update-notes/2026-07-12-midterm-review-quality-audit-plan.md` and
+  `-results.md`: the audit plan (exact question-ID scope, checks performed,
+  advance risk flags) and results doc (counts audited, fixes made, final
+  counts, validation result) for this focused follow-up audit.
+- A new documented rule in `docs/question-authoring-guide.md`: "Avoid
+  'mad-libs' number substitution" — using fresh numbers in a rewritten word
+  problem is not sufficient on its own if the sentence structure and clause
+  order still mirror the source's worked example; the scenario framing and
+  sentence architecture must also be restructured.
+
+### Changed
+- Focused quality audit of exactly the **17 questions** added from
+  `midterm_review` in the previous "Exam Materials Integration" update (11
+  `formula`, 2 `graph`, 3 `standard`, 1 `vocab`) — no other question in the
+  288-question bank was touched. Verified concept coverage, `sourceIds`/
+  `sourceLabel` accuracy, self-containment, correctness, distractor
+  defensibility, explanation fidelity, non-verbatim wording, and fit for a
+  study game. Independently re-derived the arithmetic for all 11 formula
+  questions from scratch and re-verified the diagram geometry for the 1
+  graph question with an inline SVG.
+- **8 of 17 questions rewritten** for near-verbatim sentence-architecture
+  copying of the source's worked problems — despite already using fresh
+  numbers, these had preserved the source's exact clause order and sentence
+  structure (a "mad-libs" pattern): `formula-examprep-closedeconomy-si-001`,
+  `formula-examprep-realrepayment-001`, `formula-examprep-valueadded-001`,
+  `formula-examprep-cpiindex-001`, `formula-examprep-nationalsaving-001`,
+  `formula-examprep-nationalsaving-002`, `graph-examprep-verticalsaving-001`,
+  and `formula-examprep-stockpv-001`. Each was rewritten with a new cover
+  story/framing, restructured sentences, and fresh numbers (correctness
+  independently re-verified via a standalone arithmetic script), while
+  preserving its original question ID, topic, difficulty, questionType,
+  sourceIds, and sourceLabel. `formula-examprep-cpiindex-001`'s `tags` also
+  updated from "minimum wage" to "pension" to match its new scenario.
+
+### Fixed
+- No arithmetic errors, distractor-defensibility issues, explanation-fidelity
+  issues, diagram-geometry issues, or difficulty/questionType/topic
+  mislabels were found — this audit's fixes were exclusively wording/
+  structural, not correctness fixes. The remaining 9 of the 17 questions
+  needed no changes at all.
+
+### Notes
+- All fixes were verified/corrected, not rebuilt from scratch — the batch's
+  underlying concepts, correct answers, and source grounding were already
+  sound; only sentence-level fidelity to the source needed correction.
+- Coverage/duplication check confirmed all 11 of the source's worked
+  practice problems remain represented with no duplicates; the batch stays
+  at **17 questions** (no additions, no removals). Total bank size
+  unchanged at **288 questions**.
+- **0 questions require `needsReview`** — every issue found was directly
+  fixable via rewrite.
+- `node scripts/validate-data.mjs` passes with **no errors and no
+  warnings** on the resulting 288-question bank (39 vocab, 51 formula, 39
+  graph with 11 diagrammed, 17 topics, 13 sources).
+- Live-playtested in headless Chrome: Vocabulary/Definitions, Formula
+  Practice, Graph Practice, and Midterm Review modes all load correctly;
+  answer-choice shuffling and grading were specifically re-verified for all
+  8 rewritten questions (clicking each one's correct choice — in its
+  shuffled position — graded correctly in every case).
+- No raw materials from `private-materials/` were staged or committed.
+
 ## 2026-07-12 08:41 — Exam Materials Integration
 
 ### Added
