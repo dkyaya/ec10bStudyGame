@@ -55,12 +55,14 @@ Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore`
 | `guest_lecture_ecb` | `Guest Lecture Slides - Price Stability and Monetary Policy.pptx` | Functions/forms of money, the "loans create deposits" view, the ECB's 2% HICP price-stability mandate, costs of inflation/deflation, second-round effects, why banks need reserves, the monetary base, the overnight rate as the true policy control variable, the interest rate corridor, QE/QT, and the digital euro. |
 | `ds3` | `DS3.pdf` + `DS3_solutions.pdf` (paired) | Worked solutions: the money demand curve and the opportunity cost of holding money, Fed open-market operations and the required reserve ratio, shifters vs. movements along the money demand curve, and money-demand shift scenarios (credit cards, riskier stocks, an economic boom). |
 | `quiz2` | `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` | Canvas quiz (paraphrased practice only): open-economy S+KI=I/trade balance, private/public/national saving, debt paydown and wealth, life-cycle saving, USSR institutions, crowding out, cost of investment, capital inflows/outflows, Ricardian equivalence. |
+| `midterm_review` | `MidtermStudyMaterials_Summer2026.doc` | Instructor midterm study guide (paraphrased practice only): closed-economy saving/investment identity, real interest rate + compound interest, wealth effects on saving, value-added GDP (multi-firm chain), CPI indexing, labor-productivity counterfactual/piecewise compound growth, national/private/public saving with a vertical saving-supply curve, inventory-GDP timing, stock present value with a risk premium, compound real-GDP growth rate, and an open-economy capital-inflows shock. |
 
-All twelve files were extracted programmatically: the `.pptx` files with `python-pptx`
-(slide text, tables, and speaker notes), and the `.pdf` files with `pdftotext -layout`.
-Every extraction completed with no OCR failures or corrupted pages, aside from the
-known gaps noted below (one from the original 2026-07-06 audit, one newly found in
-Quiz 2 during the 2026-07-11 update).
+All thirteen files were extracted programmatically: the `.pptx` files with `python-pptx`
+(slide text, tables, and speaker notes), the `.pdf` files with `pdftotext -layout`, and
+the one legacy `.doc` file with macOS's `textutil` (converted to plain text). Every
+extraction completed with no OCR failures or corrupted pages, aside from the known
+gaps noted below (one from the original 2026-07-06 audit, one found in Quiz 2 during
+the 2026-07-11 update).
 
 ### Known extraction gaps
 
@@ -391,6 +393,74 @@ needed the flag. All 96 questions currently attributed to `class6`, `guest_lectu
 `class6-stocks-001` addition) have been read against their source text (or, for
 `formula-*`, had their arithmetic independently recomputed) as part of this audit and
 are considered verified.
+
+## 2026-07-12 Exam Materials Integration
+
+Added one new source, `midterm_review` (`MidtermStudyMaterials_Summer2026.doc`),
+and generated 17 new practice questions from it, split across six existing topics
+(`saving-investment`, `gdp-cpi-inflation`, `gdp-accounting`,
+`growth-accounting-compound-growth`, `loanable-funds`, `financial-markets`,
+`capital-flows`, `money-banking` — no new topics were created). See
+`docs/update-notes/2026-07-12-exam-materials-plan.md` and
+`-results.md` for the full planning note and per-question audit table.
+
+**Academic-integrity check performed before any question generation.** This file
+was read in full (converted to plain text via macOS's `textutil`, since it is a
+legacy `.doc` binary format) specifically to confirm it was appropriate to use.
+It is an instructor-released study guide, not a live or current exam: it is
+explicitly titled "Study Outline for Ec S10b Midterm Exam" and "Practice
+Problems for Ec S10b Midterm," includes a "Suggested Solutions to Extra Midterm
+Practice Problems" section addressed to students, and its own text frames the
+practice problems as illustrative ("only meant to be suggestive of what you
+might see on the exam"), not as exam content itself. The file's metadata lists
+"Last Saved By: Tanseli Savaser," matching the instructor named on the Class 1
+slides. No file was excluded on academic-integrity grounds in this update.
+
+**Topics covered:** the document has two parts — a topic-outline section (used
+only to confirm topic coverage/emphasis for this batch, not mined directly into
+questions, since it's a bulleted list with no gradeable content of its own and
+nearly every topic it names is already covered by the existing Class 1-6/DS1-3/
+Quiz 2 sources) and 11 worked practice problems with full suggested solutions
+(the source of every new question): the closed-economy saving/investment
+identity, a real loan-repayment calculation (Fisher equation + compound
+interest), a wealth-effect-on-saving question, a four-firm value-added GDP
+calculation, CPI-indexing the minimum wage, a labor-productivity counterfactual-
+growth comparison (split into a single-rate and a piecewise dual-rate compounding
+question), a multi-part national/private/public saving problem that introduces a
+perfectly vertical (interest-rate-insensitive) saving-supply curve, an inventory-
+drawdown GDP-timing question, a two-period stock-present-value calculation with a
+risk premium, a compound real-GDP growth-rate calculation, and an open-economy
+loanable-funds question about a foreign income shock's effect on U.S. capital
+inflows.
+
+**Extraction reliability:** the `.doc` file converted cleanly to plain text via
+`textutil` with no illegible sections or formatting corruption (confirmed by
+reading the full converted output). **A full answer key (the "Suggested
+Solutions" section) was available** for every one of the 11 practice problems,
+and every solution's arithmetic was independently recomputed (not just read) via
+a standalone verification script before any question was written with fresh
+numbers.
+
+**One adaptation worth flagging:** the open-economy practice problem's own
+suggested solution included a secondary claim about the effect on U.S. net
+exports (NX) that rests on a looser, more debatable mix of price and quantity
+trade effects than the same problem's much cleaner capital-inflows (KI) claim,
+which follows directly from the S + KI = I framework Class 5 teaches. The
+adapted question (`graph-examprep-foreignshock-001`) keeps only the clean,
+defensible capital-inflows mechanism and omits the debatable NX claim rather
+than presenting it as a settled correct answer. The scenario was also changed
+to a fictional country (Nortavia) instead of reusing the source's real-country
+example, consistent with this bank's no-verbatim-scenario convention.
+
+**No question required a `needsReview` flag.** Every one of the 17 new
+questions' underlying concept and arithmetic was independently verified against
+the source's own worked solution before being written with a fresh scenario/
+numbers, per the no-verbatim-copying rule.
+
+**Raw materials remain local-only.** `MidtermStudyMaterials_Summer2026.doc`, like
+every other file in `private-materials/`, is excluded from git via `.gitignore`
+and was never staged or committed; only the derived `data/questions.json` entries
+and this documentation are part of the public repository.
 
 ## Assumptions made
 

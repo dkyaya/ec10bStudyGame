@@ -1,5 +1,103 @@
 # Changelog
 
+## 2026-07-12 08:41 — Exam Materials Integration
+
+### Added
+- A new source, `midterm_review` (`MidtermStudyMaterials_Summer2026.doc`) — an
+  instructor-released midterm study outline and 11 worked practice problems
+  with full suggested solutions. Before use, the file was read in full and
+  checked for academic-integrity concerns: it is explicitly titled "Study
+  Outline for Ec S10b Midterm Exam" / "Practice Problems for Ec S10b Midterm,"
+  includes a "Suggested Solutions" section addressed to students, and its
+  metadata ties it to the course's own instructor (Tanseli Savaser, named on
+  the Class 1 slides) — confirmed legitimate, released study material, not a
+  live/current exam. See `docs/update-notes/2026-07-12-exam-materials-plan.md`
+  for the full assessment.
+- **17 new questions** from this source: 11 `formula`, 2 `graph` (one with a
+  new original inline SVG diagram — a vertical, interest-rate-insensitive
+  saving-supply curve, a visually distinct pattern from the existing upward-
+  sloping loanable-funds diagrams), 3 `standard`, and 1 `vocab`, across 8
+  existing topics (`saving-investment`, `gdp-accounting`,
+  `growth-accounting-compound-growth`, `capital-flows`, `gdp-cpi-inflation`,
+  `financial-markets`, `loanable-funds`, `money-banking`). No new topics were
+  created. Final bank: **288 questions** (up from 271), **39 vocab** (was 38),
+  **51 formula** (was 40), **39 graph** (was 37, now **11** with an inline
+  diagram), **13 sources** (was 12).
+- A new **Midterm Review** study mode (`src/scoring.js`, `src/render.js`,
+  `src/app.js`): pulls every question whose `sourceIds` includes
+  `midterm_review` into a shuffled session, shows its count (17) on a home-
+  screen mode card, and hides gracefully if no exam-prep questions exist.
+  Implemented as a `sourceIds`-based filter (`Scoring.midtermReviewQuestions`)
+  rather than a new schema field, since `sourceIds` already unambiguously
+  identifies these questions — see the design rationale in
+  `docs/question-authoring-guide.md`'s new "Adding exam-prep / midterm-review
+  sources" section. Midterm Review questions still appear normally in Full
+  Bank, Shuffle Mixed Practice, New/Unseen, Review Missed, topic practice, and
+  (for the ones with a matching `questionType`) Formula Practice, Graph
+  Practice, and Vocabulary/Definitions.
+- `docs/update-notes/2026-07-12-exam-materials-plan.md` and `-results.md`: the
+  planning note (file inventory, academic-integrity assessment, question plan)
+  and the results/audit table (per-question breakdown, arithmetic
+  verification, coverage balance check).
+- A new "Adding exam-prep / midterm-review sources" section in
+  `docs/question-authoring-guide.md`, documenting the academic-integrity check
+  required before using any new exam/prep material and the `sourceIds`-based
+  filtering pattern for a review-mode.
+
+### Changed
+- `README.md`: updated total question count (288, was 271), vocab/formula/
+  graph counts, added the Midterm Review mode description, and noted its
+  `sourceIds`-based (not `questionType`-based) filtering design.
+- `docs/source-notes.md`: added a `midterm_review` row to the materials table,
+  a new 2026-07-12 dated section documenting the academic-integrity check,
+  topics covered, extraction reliability, and one adapted claim (see Notes
+  below), and a statement that the raw `.doc` file remains local-only.
+- `docs/qa-checklist.md`: added Midterm Review mode checks, a note that it has
+  no dedicated badge (relies on the existing `sourceLabel` display), and an
+  exam-prep-specific answer-choice-shuffling check.
+
+### Fixed
+- N/A (no bugs fixed by this change).
+
+### Notes
+- **Academic-integrity determination**: legitimate, instructor-released study
+  material — safe to use. No file was excluded or required stopping to report
+  a concern.
+- **One claim adapted, not reused as-is**: the source's own open-economy
+  practice problem included a secondary net-exports (NX) claim resting on a
+  looser, more debatable mix of trade effects than the same problem's much
+  cleaner capital-inflows (KI) claim. The adapted question
+  (`graph-examprep-foreignshock-001`) keeps only the defensible capital-
+  inflows mechanism and omits the debatable NX claim, and uses a fictional
+  country (Nortavia) instead of the source's real-country example.
+- **Arithmetic verification**: every one of the 11 formula questions' correct
+  answers and numeric distractors (including two multi-step calculations
+  combining the Fisher equation with compounding, and a piecewise dual-rate
+  compound-growth comparison) were independently computed via a standalone
+  script before being written into the bank with fresh numbers.
+- `needsReview` count: **0** — every question's underlying concept and
+  arithmetic was verified against the source's own worked solution before
+  being written with a fresh scenario.
+- Validation: `node scripts/validate-data.mjs` reports 288 questions, 17
+  topics, 13 sources, 39 vocab, 51 formula, 39 graph (11 with an inline
+  diagram), **0 errors, 0 warnings**.
+- QA: verified via a live headless-Chrome session driven over the Chrome
+  DevTools Protocol — confirmed all 8 mode cards render with correct counts;
+  launched a full 17-question Midterm Review session, confirmed the
+  `sourceLabel` ("Instructor Midterm Study Guide and Practice Problems") and
+  each question's own `questionType` badge (Formula/Graph/Vocab, where
+  applicable) both render correctly, confirmed the new diagram appears within
+  the session, answered all 17 questions, and reached the Results screen with
+  a score; confirmed Vocabulary, Formula Practice, and Graph Practice modes
+  still work (regression check); confirmed a clean page load with the app's
+  own validation message and no errors in the console; and exercised Reset
+  Progress, returning the dashboard to 0 attempted with the full 288-question
+  total intact.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged.
+- No files from `private-materials/` were staged or committed; the app remains
+  a static, no-build, no-backend site — GitHub Pages compatibility is
+  unaffected.
+
 ## 2026-07-11 20:10 — Graph Question Quality Audit
 
 ### Added

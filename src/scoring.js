@@ -87,6 +87,18 @@ const Scoring = (() => {
     return questions.filter((q) => q.questionType === "graph");
   }
 
+  // Midterm Review pulls any question sourced from a designated exam/prep
+  // review source (currently just "midterm_review"), regardless of
+  // questionType or topic — a cross-cutting filter like vocab/formula/graph,
+  // not a separate topic.
+  const MIDTERM_REVIEW_SOURCE_IDS = new Set(["midterm_review"]);
+
+  function midtermReviewQuestions(questions) {
+    return questions.filter((q) =>
+      (q.sourceIds || []).some((sid) => MIDTERM_REVIEW_SOURCE_IDS.has(sid))
+    );
+  }
+
   function topicQuestions(questions, topicId) {
     return questions.filter((q) => q.topic === topicId);
   }
@@ -162,6 +174,7 @@ const Scoring = (() => {
     vocabQuestions,
     formulaQuestions,
     graphQuestions,
+    midtermReviewQuestions,
     weakestTopics,
     recommendedContinueAction,
     groupQuestionsByTopic,

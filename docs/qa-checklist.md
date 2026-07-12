@@ -57,11 +57,11 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   each wrong choice still shows its own matching wrong explanation (not another
   choice's). Confirm this holds in every mode (Full Bank, Shuffle Mixed Practice,
   Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, Formula Practice,
-  Graph Practice, topic practice, Review Missed in Topic) and that re-entering Review
-  Missed from the Results screen reshuffles again rather than reusing the prior
-  session's order. For graph questions with a `diagram`, confirm the diagram itself
-  (and its alt text) stays the same regardless of choice order — only the answer
-  choices should shuffle, never the diagram.
+  Graph Practice, Midterm Review, topic practice, Review Missed in Topic) and that
+  re-entering Review Missed from the Results screen reshuffles again rather than
+  reusing the prior session's order. For graph questions with a `diagram`, confirm
+  the diagram itself (and its alt text) stays the same regardless of choice order —
+  only the answer choices should shuffle, never the diagram.
 - **Formula Practice**: confirm the mode card appears on the home screen with a count
   matching the number of `questionType: "formula"` questions, that clicking Start
   launches a shuffled session containing only formula questions, and that the mode
@@ -107,6 +107,23 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   choice that actually describes shifting the wrong curve, not a different mistake)
   — this matters more for graph questions than most, since several choices often
   describe plausible-sounding but distinct curve/direction combinations.
+- **Midterm Review**: confirm the mode card appears on the home screen with a count
+  matching the number of questions sourced from `midterm_review` (or any future
+  exam-prep source added to `Scoring.midtermReviewQuestions`'s allow-list), that
+  clicking Start launches a shuffled session, and that the mode card is hidden
+  entirely if no exam-prep questions exist. Confirm Midterm Review questions also
+  still surface normally in Full Bank, Shuffle Mixed Practice, New/Unseen, Review
+  Missed, topic practice, and — for the ones with a matching `questionType` — Formula
+  Practice, Graph Practice, and Vocabulary/Definitions; Midterm Review must not be
+  the only place they appear. Since Midterm Review is a source-based filter (not a
+  `questionType`), confirm it has no dedicated badge and instead shows its
+  `sourceLabel` ("Instructor Midterm Study Guide and Practice Problems") in the quiz
+  metadata row like any other sourced question.
+- **Exam-prep questions with answer-choice shuffling**: within a Midterm Review
+  session, confirm formula-type questions still show correct computed values
+  regardless of shuffle position, and the one graph-type question with a diagram
+  (`graph-examprep-verticalsaving-001`) still renders its diagram correctly
+  alongside shuffled choices.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.

@@ -112,6 +112,9 @@
       case "graph":
         list = Utils.shuffle(Scoring.graphQuestions(questions));
         break;
+      case "midtermReview":
+        list = Utils.shuffle(Scoring.midtermReviewQuestions(questions));
+        break;
       default:
         list = [...questions];
     }

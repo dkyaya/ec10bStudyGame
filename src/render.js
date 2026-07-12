@@ -63,6 +63,7 @@ const Render = (() => {
     const vocabCount = Scoring.vocabQuestions(questions).length;
     const formulaCount = Scoring.formulaQuestions(questions).length;
     const graphCount = Scoring.graphQuestions(questions).length;
+    const midtermReviewCount = Scoring.midtermReviewQuestions(questions).length;
 
     const modes = [
       {
@@ -118,6 +119,15 @@ const Render = (() => {
         title: "Graph Practice",
         desc: "Graph-reading, shift, and interpretation questions, shuffled — practice translating between graphs and economic stories.",
         count: graphCount,
+      });
+    }
+
+    if (midtermReviewCount > 0) {
+      modes.push({
+        key: "midtermReview",
+        title: "Midterm Review",
+        desc: "Practice problems adapted from the instructor's midterm study guide, shuffled — exam-style questions covering the first half of the course.",
+        count: midtermReviewCount,
       });
     }
 

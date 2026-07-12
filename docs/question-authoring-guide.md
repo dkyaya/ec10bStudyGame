@@ -421,6 +421,46 @@ flag set.
 4. Add new questions referencing the new source id, and update the "Initial question
    bank" counts in `README.md` and the `CHANGELOG.md` entry for the change.
 
+## Adding exam-prep / midterm-review sources
+
+Practice exams, past exams, review sheets, answer keys, Canvas review quizzes, or
+other instructor-provided study materials get added the same way as any other
+source (see "Adding a new source" above), with one extra step **before** anything
+else:
+
+**Read the file in full and confirm it's appropriate to use before writing a
+single question.** Only use materials that are legitimately released to students
+for study purposes. Concrete signals that a file is safe to use: it's explicitly
+labeled as a study guide, review sheet, or practice problem set; it includes
+worked solutions or an answer key addressed to students (a live/current exam
+would not ship with this); its own text frames itself as illustrative practice
+rather than the actual exam; and/or its metadata or content ties it to the
+course's own instructor. If a file looks like it could be an unreleased, live,
+or currently-administered exam — no solutions, framed as the actual assessment
+rather than practice for one, or any other reason to doubt it was meant for
+students to have in advance — **stop and report the concern instead of
+generating questions from it.** Document the academic-integrity check you
+performed (what you looked for, what you found) in both the source's
+`reliabilityNotes` field and in a per-update planning note under
+`docs/update-notes/`, even when the answer is "this is clearly fine" — future
+contributors adding the next source should be able to see that this check
+happened and how it was reasoned through, not just trust that it did.
+
+**Filtering exam-prep questions into a dedicated study mode.** If you want a
+filtered "Midterm Review" / "Exam Style" mode (or a similar named mode for a
+different exam), the simplest approach — used for the first `midterm_review`
+source — is to filter directly on `sourceIds` rather than adding a new schema
+field: `Scoring.midtermReviewQuestions(questions)` in `src/scoring.js` returns
+every question whose `sourceIds` includes one of a small allow-list of
+exam-review source IDs (currently just `"midterm_review"`). This avoids adding
+schema complexity for a filter that `sourceIds` can already express
+unambiguously. If a future exam-prep source should feed into the *same* review
+mode, just add its source ID to that allow-list in `src/scoring.js`. Only
+consider adding a dedicated field (e.g., `examTag` or `reviewSet`) if a single
+review mode needs to pull together *some but not all* questions from a source
+(a mix of exam-prep and non-exam-prep questions in the same file), which the
+first exam-prep source didn't require.
+
 ## Running the validation checks
 
 Open the app in a browser and check the console. `src/data.js` runs schema validation

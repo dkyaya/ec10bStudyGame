@@ -8530,5 +8530,554 @@
       "growth rates",
       "divergence"
     ]
+  },
+  {
+    "id": "formula-examprep-closedeconomy-si-001",
+    "topic": "saving-investment",
+    "subtopic": "National Saving and Investment",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a closed economy, households and businesses together save $1.8 trillion this year, and the government runs a budget deficit of $200 billion. What is the value of investment?",
+    "choices": [
+      "$1.6 trillion",
+      "$2.0 trillion",
+      "$1.8 trillion",
+      "$200 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "In a closed economy, national saving equals investment. National saving = private saving - the deficit's drain on public saving = $1.8 trillion - $200 billion = $1.6 trillion, so investment is $1.6 trillion.",
+    "wrongExplanations": [
+      null,
+      "This adds the deficit to private saving instead of subtracting it -- a budget deficit is public dissaving, which reduces national saving.",
+      "This uses only private saving and ignores the government's budget deficit entirely.",
+      "This is just the size of the deficit, not the economy's total national saving/investment."
+    ],
+    "tags": [
+      "saving and investment",
+      "closed economy",
+      "budget deficit"
+    ]
+  },
+  {
+    "id": "formula-examprep-realrepayment-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate and Compounding",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A borrower takes out an $8,000 loan at a fixed nominal interest rate of 9% per year, with both principal and all interest due in one lump sum after 3 years. If inflation averages 3% per year over that period, how much will she owe after 3 years, measured in constant (today's) dollars?",
+    "choices": [
+      "$9,528",
+      "$10,360",
+      "$9,440",
+      "$8,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The real interest rate is the nominal rate minus inflation: 9% - 3% = 6%. In constant (real) dollars, the amount owed compounds at this real rate: $8,000 x (1.06)^3 = $9,528.",
+    "wrongExplanations": [
+      null,
+      "This compounds the loan at the NOMINAL rate (9%) instead of the real rate -- since the question asks for the amount in constant dollars, inflation must be stripped out first using the real rate.",
+      "This uses the correct 6% real rate but applies it as simple (non-compounding) interest instead of compounding it over the 3 years.",
+      "This is just the original principal, with no interest applied at all."
+    ],
+    "tags": [
+      "real interest rate",
+      "Fisher equation",
+      "compound interest"
+    ]
+  },
+  {
+    "id": "standard-examprep-housingsavings-001",
+    "topic": "saving-investment",
+    "subtopic": "Saving Behavior and Wealth Effects",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Over a multi-year period, the value of many households' stock portfolios rises substantially, even though their income and day-to-day spending habits are otherwise unchanged. What is the most likely effect of these capital gains on the (measured) household saving rate?",
+    "choices": [
+      "The saving rate falls, since households feel wealthier and treat the capital gains as a substitute for actively saving out of income",
+      "The saving rate rises, since capital gains are themselves counted as additional saving out of income",
+      "The saving rate is unaffected, since saving is defined only in terms of income and current consumption, which haven't changed",
+      "The saving rate rises because households become more cautious after a large wealth increase and cut back on consumption"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Rising asset prices are a form of capital gains -- an increase in the value of existing assets, not new saving out of current income. Households often treat these gains as a substitute for actively saving out of their paycheck, so the measured saving rate (income minus consumption, divided by income) tends to fall even as wealth rises.",
+    "wrongExplanations": [
+      null,
+      "Capital gains are a change in asset value, not income saved out of a paycheck -- the standard measure of saving (income minus consumption spending) does not directly include unrealized capital gains.",
+      "While the definition of saving doesn't change, the behavioral response does: feeling wealthier from capital gains tends to make households consume more (and therefore save less) out of a given income, not leave saving unaffected.",
+      "This describes the opposite behavioral response (a precautionary reaction) from what actually tends to happen -- rising wealth typically makes households feel more, not less, comfortable spending, which lowers rather than raises saving."
+    ],
+    "tags": [
+      "saving rate",
+      "wealth effect",
+      "capital gains"
+    ]
+  },
+  {
+    "id": "formula-examprep-valueadded-001",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Silicon Works sells $40,000 worth of processor chips to Vertex Computers. Vertex also licenses software from NovaSoft for $30,000. Using the chips and the licensed software, Vertex assembles computers and sells them to RetailMart for $300,000. RetailMart then sells the computers to the public for $450,000. Using the value-added method, what is the total contribution to GDP from this chain?",
+    "choices": [
+      "$450,000",
+      "$820,000",
+      "$300,000",
+      "$150,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value added at each stage: Silicon Works contributes $40,000 (no purchased inputs), NovaSoft contributes $30,000 (no purchased inputs), Vertex contributes $300,000 - ($40,000 + $30,000) = $230,000, and RetailMart contributes $450,000 - $300,000 = $150,000. Total value added = $40,000 + $30,000 + $230,000 + $150,000 = $450,000 -- equal to the final sale price to the public, as it must be.",
+    "wrongExplanations": [
+      null,
+      "This sums all four firms' full revenues ($40,000 + $30,000 + $300,000 + $450,000) instead of each firm's value added, double- and triple-counting the chips and software along the way.",
+      "This is only Vertex's sale price to RetailMart, not the total value added across the whole chain.",
+      "This is only RetailMart's own value added, ignoring the value added by the other three firms earlier in the chain."
+    ],
+    "tags": [
+      "GDP",
+      "value added",
+      "double counting"
+    ]
+  },
+  {
+    "id": "standard-examprep-valueadded-002",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In a multi-firm production chain, why does summing the value added at each stage give the same GDP total as simply taking the market value of the final good sold to the public?",
+    "choices": [
+      "Because each firm's value added excludes the cost of intermediate goods it purchased from earlier firms, so summing value added avoids counting the same output more than once, leaving only the final good's total value",
+      "Because every firm in the chain always adds exactly the same dollar amount of value, so the sum trivially equals the final price",
+      "Because value added only counts labor costs, and the final sale price is also just the sum of labor costs across firms",
+      "Because intermediate goods are excluded from GDP entirely, so only the value-added method captures any of the transactions in the chain"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value added at each stage equals that firm's revenue minus what it paid for inputs from earlier firms, so intermediate purchases are subtracted out exactly once at each step. Summing these value-added figures telescopes down to just the final sale price -- the same total you'd get by counting only the final good sold to the public, without double-counting the intermediate transactions along the way.",
+    "wrongExplanations": [
+      null,
+      "Firms typically add very different amounts of value at each stage; the two methods still agree even when value added differs firm to firm, because of how intermediate costs are subtracted, not because every firm adds an identical amount.",
+      "Value added includes all costs a firm doesn't pay to other firms in the chain (labor, capital income, profits), not labor costs alone -- and the final sale price is a market price, not a sum of labor costs.",
+      "Intermediate goods aren't excluded from every stage of the chain -- they just aren't counted twice; the value-added method still incorporates their value indirectly, at the stage where they are transformed and resold."
+    ],
+    "tags": [
+      "GDP",
+      "value added",
+      "double counting"
+    ]
+  },
+  {
+    "id": "formula-examprep-cpiindex-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A city's minimum wage was $8.00 per hour in a year when the CPI was 110. Years later, the CPI has risen to 176. If the city wants to reset the minimum wage so that it has the same purchasing power it had back when the CPI was 110, what should the new minimum wage be?",
+    "choices": [
+      "$12.80",
+      "$8.00",
+      "$5.00",
+      "$14.08"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Indexing scales a nominal amount by the ratio of the new price index to the old one: $8.00 x (176/110) = $8.00 x 1.6 = $12.80.",
+    "wrongExplanations": [
+      null,
+      "This leaves the wage unchanged, ignoring the rise in prices entirely -- with no adjustment, its purchasing power would have fallen.",
+      "This inverts the CPI ratio (110/176 instead of 176/110), which would understate the wage needed to preserve purchasing power.",
+      "This multiplies by 1.76 (treating the new CPI as if it were already a ratio) instead of by the correct ratio of 176 to the base value of 110."
+    ],
+    "tags": [
+      "indexing",
+      "CPI",
+      "minimum wage"
+    ]
+  },
+  {
+    "id": "formula-examprep-productivitycounterfactual-001",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Suppose average labor productivity in a country grew at a constant 3.0% per year from 1965 to 1995 (30 years). If that same 3.0% growth rate had instead continued for a longer 40-year period (1965 to 2005), productivity in 2005 would have been approximately what multiple of its 1965 level?",
+    "choices": [
+      "about 3.26 times",
+      "about 2.43 times",
+      "about 2.20 times",
+      "about 1.03 times"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Compound growth over 40 years at 3.0% per year: (1.03)^40 is approximately 3.26 -- productivity would be about 3.26 times its 1965 level.",
+    "wrongExplanations": [
+      null,
+      "This is (1.03)^30, the multiple for the original 30-year period, not the extended 40-year period the question asks about.",
+      "This uses simple (non-compounding) growth -- 1 + (0.03 x 40) -- instead of compounding the 3.0% rate over 40 years.",
+      "This is just 1 plus the annual rate (1.03), as if applying it for only a single year instead of compounding over 40 years."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity"
+    ]
+  },
+  {
+    "id": "formula-examprep-productivitycounterfactual-002",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's average labor productivity grew at 2.5% per year from 1965-1980 (15 years), then slowed to 1.0% per year from 1980-2010 (30 years). If productivity had instead continued growing at the initial 2.5% rate for the full 45-year period (1965-2010), approximately how much higher would 2010 productivity have been under that counterfactual, compared to the actual 2010 level (after the slowdown)?",
+    "choices": [
+      "about 55.6% higher",
+      "about 7.5% higher",
+      "about 11.8% higher",
+      "about 26.9% higher"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Counterfactual (2.5% for the full 45 years): (1.025)^45 is about 3.038 times the 1965 level. Actual (2.5% for 15 years, then 1.0% for 30 years): (1.025)^15 x (1.010)^30 is about 1.952 times the 1965 level. The counterfactual is 3.038 / 1.952 is about 1.556 times the actual level -- about 55.6% higher.",
+    "wrongExplanations": [
+      null,
+      "This compounds the counterfactual for only 30 years (matching the length of the second, slower period) instead of the full 45-year span the question asks about.",
+      "This incorrectly averages the two growth rates into one flat 1.75% rate applied for 45 years, instead of compounding each sub-period separately at its own rate.",
+      "This uses simple (non-compounding) interest for both the counterfactual and the actual figures instead of compound growth."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity",
+      "growth slowdown"
+    ]
+  },
+  {
+    "id": "formula-examprep-nationalsaving-001",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a closed economy: GDP (Y) = $9,000; Consumption (C) = $6,000; Government purchases (G) = $1,500; Taxes minus transfers (T) = $1,600. What are private saving, public saving, and national saving, respectively?",
+    "choices": [
+      "1,400; 100; 1,500",
+      "1,400; 100; 1,300",
+      "1,500; 100; 1,600",
+      "1,400; -100; 1,300"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving = Y - T - C = 9,000 - 1,600 - 6,000 = 1,400. Public saving = T - G = 1,600 - 1,500 = 100. National saving = private + public = 1,400 + 100 = 1,500 (matches Y - C - G = 9,000 - 6,000 - 1,500 = 1,500).",
+    "wrongExplanations": [
+      null,
+      "This correctly computes private and public saving but doesn't add them together for national saving.",
+      "This miscalculates private saving, which overstates national saving as a result.",
+      "This flips the sign on public saving -- with T > G here, the government runs a surplus (positive public saving), not a deficit."
+    ],
+    "tags": [
+      "private saving",
+      "public saving",
+      "national saving"
+    ]
+  },
+  {
+    "id": "formula-examprep-nationalsaving-002",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Continuing the same economy (GDP = $9,000, private saving fixed at $1,400, taxes minus transfers T = $1,600 unchanged): suppose the government increases purchases from $1,500 to $1,800. What is the new level of national saving?",
+    "choices": [
+      "$1,200",
+      "$1,500",
+      "$1,600",
+      "$200"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Public saving is now T - G = $1,600 - $1,800 = -$200. With private saving unchanged at $1,400, national saving = $1,400 + (-$200) = $1,200.",
+    "wrongExplanations": [
+      null,
+      "This is the original national saving figure -- it doesn't account for the increase in G, which lowers public saving.",
+      "This flips the sign on the new public saving figure (using G - T = $200 instead of T - G = -$200), overstating national saving.",
+      "This reports only the new (negative) public saving figure by itself, not the full national saving total (private plus public)."
+    ],
+    "tags": [
+      "national saving",
+      "public saving",
+      "government purchases"
+    ]
+  },
+  {
+    "id": "graph-examprep-verticalsaving-001",
+    "topic": "loanable-funds",
+    "subtopic": "Vertical Saving Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Continuing the same economy: assume the aggregate saving-supply curve in the loanable funds market is a vertical line (national saving does not respond to the real interest rate), while investment demand is downward-sloping as usual. When the government's increased purchases reduce national saving from $1,500 to $1,200 (as in the previous question), the vertical saving-supply line shifts left, as shown in the diagram (S to S'). What happens to the equilibrium real interest rate and the level of investment?",
+    "choices": [
+      "The real interest rate rises, and investment falls to $1,200 (matching the new lower national saving, since investment must still equal national saving in a closed economy)",
+      "The real interest rate falls, and investment rises",
+      "Neither the real interest rate nor investment changes, since a vertical saving-supply curve is completely insensitive to the interest rate",
+      "The real interest rate rises, but investment stays at $1,500 since the investment demand curve itself didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Even though the saving-supply curve is vertical (doesn't respond to r), its position still shifts left when national saving falls, from $1,500 to $1,200. Since it's a closed economy, investment must equal national saving in equilibrium, so investment falls to $1,200 too. Reading this new, lower quantity off the downward-sloping investment demand curve requires a higher real interest rate -- the same qualitative result as an upward-sloping saving curve shifting left, just via a vertical curve's position moving instead of a slope-preserving parallel shift.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a leftward shift in the saving-supply line (a decrease in the funds available) raises the equilibrium interest rate and lowers investment, not the reverse.",
+      "The curve's insensitivity to r (its vertical shape) is different from the curve's position being fixed -- the vertical line can still shift left or right when the total quantity of saving supplied changes, even though its slope never changes.",
+      "Investment demand doesn't shift, but the equilibrium level of investment still changes, because in a closed economy investment must equal whatever the new equilibrium level of saving is; a movement to a new point along the fixed investment demand curve is exactly how that adjustment happens."
+    ],
+    "tags": [
+      "loanable funds",
+      "vertical supply curve",
+      "shift",
+      "movement versus shift"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A loanable funds diagram with saving and investment on the horizontal axis and the real interest rate on the vertical axis. A vertical saving-supply line shifts left from S to S', while the downward-sloping investment demand curve I stays fixed. Equilibrium moves from E to E', with the real interest rate rising and the quantity of saving and investment falling.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Saving and Investment</text><text x=\"12\" y=\"90.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 12 90.0)\">Real Interest Rate</text><line x1=\"60\" y1=\"30\" x2=\"210\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"165\" y1=\"20\" x2=\"165\" y2=\"160\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" /><line x1=\"135\" y1=\"20\" x2=\"135\" y2=\"160\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"5 4\"/><circle cx=\"165\" cy=\"114\" r=\"3.2\" fill=\"var(--text)\"/><circle cx=\"135\" cy=\"90\" r=\"3.2\" fill=\"var(--text)\"/><text x=\"170\" y=\"118\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E</text><text x=\"105\" y=\"86\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">E'</text><text x=\"213\" y=\"33\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">I</text><text x=\"170\" y=\"25\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S</text><text x=\"100\" y=\"25\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">S'</text></svg>"
+    }
+  },
+  {
+    "id": "formula-examprep-inventorysale-001",
+    "topic": "gdp-accounting",
+    "subtopic": "Inventory and GDP Timing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A furniture retailer built up $2.4 million worth of unsold inventory during 2019 (counted as inventory investment in 2019's GDP). In 2020, the retailer sells off this entire stockpile to customers, with no new furniture produced that year. How does this $2.4 million in sales affect 2020's GDP?",
+    "choices": [
+      "It has no effect on 2020 GDP -- the furniture was already counted as production (inventory investment) in 2019, and selling it in 2020 is offset by a matching drawdown in inventory investment",
+      "It adds the full $2.4 million to 2020 GDP as consumption spending",
+      "It subtracts $2.4 million from 2020 GDP, since inventory investment reverses",
+      "It adds $2.4 million to 2020 GDP, but only if the furniture was sold at its original production cost"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP counts goods in the year they are produced, not the year they are sold. The $2.4 million was already counted as inventory investment (a component of I) when the furniture was produced/stockpiled in 2019. When it's sold in 2020, consumption spending (C) rises by $2.4 million, but inventory investment (I) falls by the same $2.4 million as the stockpile is drawn down -- the two effects exactly offset, leaving 2020 GDP unaffected by this sale.",
+    "wrongExplanations": [
+      null,
+      "This ignores the offsetting drop in inventory investment; consumption rising by $2.4 million is exactly canceled by inventory investment falling by $2.4 million in the same year.",
+      "GDP doesn't fall either -- the rise in consumption spending and the fall in inventory investment net out to zero, not a net negative.",
+      "The sale price doesn't matter to this GDP-timing question; regardless of price, the furniture's contribution to GDP was already recorded in 2019 when it was produced, not when it's eventually sold."
+    ],
+    "tags": [
+      "GDP",
+      "inventory investment",
+      "production versus sales"
+    ]
+  },
+  {
+    "id": "formula-examprep-stockpv-001",
+    "topic": "financial-markets",
+    "subtopic": "Stock Pricing and Risk Premium",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An investor is willing to pay $200 today for a share of stock that will pay no dividends over the next two years. The current interest rate on safe government bonds is 4%, and this particular stock carries a risk premium of 6%. Based on this present-value calculation, what price does the investor expect to be able to sell the stock for in two years?",
+    "choices": [
+      "$242",
+      "$216",
+      "$225",
+      "$240"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The discount rate for a risky asset is the safe rate plus the risk premium: 4% + 6% = 10%. Solving the present-value equation for the future price: $200 = X / (1.10)^2, so X = $200 x (1.10)^2 = $242.",
+    "wrongExplanations": [
+      null,
+      "This uses only the safe rate (4%) as the discount rate, ignoring the risk premium the stock actually carries.",
+      "This uses only the risk premium (6%) as the discount rate, ignoring the safe rate that should also be included.",
+      "This applies the correct 10% discount rate but as simple (non-compounding) interest over the two years instead of compounding it."
+    ],
+    "tags": [
+      "stock pricing",
+      "present value",
+      "risk premium"
+    ]
+  },
+  {
+    "id": "formula-examprep-realgdpgrowth-001",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's real GDP was $4,200 billion in 1995 and grew to $6,800 billion by 2015 (a 20-year period). What was the approximate compound annual growth rate of real GDP over this period?",
+    "choices": [
+      "about 2.4%",
+      "about 3.1%",
+      "about 61.9%",
+      "about 1.2%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The compound annual growth rate solves ($6,800 / $4,200) = (1+g)^20 for g: g = (6,800/4,200)^(1/20) - 1, which is approximately 2.4%.",
+    "wrongExplanations": [
+      null,
+      "This mistakenly divides the total percentage change over the period (about 61.9%) by the number of years, treating growth as simple/linear rather than compound.",
+      "This is the total percentage change in real GDP over the full 20 years, without annualizing it into a yearly compound growth rate.",
+      "This mistakenly uses 40 years in the exponent instead of the actual 20-year period, roughly halving the correctly implied annual rate."
+    ],
+    "tags": [
+      "compound growth",
+      "real GDP",
+      "growth rate"
+    ]
+  },
+  {
+    "id": "graph-examprep-foreignshock-001",
+    "topic": "capital-flows",
+    "subtopic": "Foreign Shocks and U.S. Capital Inflows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The fictional country of Nortavia experiences a period of rapid income growth. As Nortavian households and firms consume and invest more of their own rising income at home, less of Nortavia's saving is available to flow abroad as capital sent to the United States. Holding everything else in the U.S. loanable funds market constant, what happens to the equilibrium U.S. real interest rate and the level of U.S. investment?",
+    "choices": [
+      "U.S. net capital inflows fall, shifting the U.S. effective supply-of-funds curve (S + KI) left; the U.S. real interest rate rises and U.S. investment falls",
+      "U.S. net capital inflows rise, shifting the effective supply curve right; the U.S. real interest rate falls and U.S. investment rises",
+      "U.S. investment demand shifts left, while the supply of funds is unaffected",
+      "There is no effect on the U.S. loanable funds market, since Nortavia's saving decisions are a purely domestic Nortavian matter"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Less Nortavian saving flowing abroad means fewer capital inflows into the U.S. (lower KI), which reduces the effective supply of funds available for U.S. investment (S + KI shifts left, since KI is now a smaller positive addition to domestic saving S). A leftward shift in the effective supply of loanable funds raises the equilibrium U.S. real interest rate and lowers the equilibrium level of U.S. investment -- the same crowding-out-style logic as a domestic saving decrease, just driven by a foreign shock instead.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- Nortavia sending less capital abroad means U.S. capital inflows fall, not rise, which shifts the effective U.S. supply curve left, not right.",
+      "The shock changes how much foreign saving is available to fund U.S. investment (a supply-side effect via KI), not U.S. firms' own demand for investment funds -- investment demand is unaffected here.",
+      "Capital inflows are exactly the channel connecting a foreign country's saving decisions to the U.S. loanable funds market -- via S + KI = I, a change in foreign capital available to the U.S. does have a direct effect on the U.S. equilibrium interest rate and investment."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "S + KI = I",
+      "compare graphs"
+    ]
+  },
+  {
+    "id": "standard-examprep-usnxki-001",
+    "topic": "capital-flows",
+    "subtopic": "U.S. Trade and Capital Flows",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "For most of the past several decades, the United States has run a trade deficit (negative net exports) while financing it through positive net capital inflows. Which statement correctly describes this pattern using the identity NX + KI = 0?",
+    "choices": [
+      "NX is negative and KI is positive: the U.S. imports more than it exports, and finances the difference by selling domestic assets to foreigners",
+      "NX is positive and KI is negative: the U.S. exports more than it imports, and lends the surplus abroad",
+      "Both NX and KI are negative, since a trade deficit means the U.S. is losing funds on both sides of the identity",
+      "NX and KI are both positive, since the identity requires them to move in the same direction"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The U.S. has run persistent trade deficits, meaning NX (exports minus imports) is negative. Since NX + KI = 0, a negative NX requires a positive KI -- positive net capital inflows, meaning foreigners are net purchasers of U.S. assets (stocks, bonds, real estate), which is exactly how the U.S. finances buying more from the rest of the world than it sells.",
+    "wrongExplanations": [
+      null,
+      "This describes the pattern of a country running a trade surplus and lending abroad (like a net exporter), which is the opposite of the U.S.'s actual longstanding trade-deficit pattern.",
+      "The identity NX + KI = 0 means the two must sum to exactly zero, so they cannot both be negative (or both positive) at the same time -- one must be positive when the other is negative.",
+      "The identity requires NX and KI to have opposite signs (so they sum to zero), not the same sign."
+    ],
+    "tags": [
+      "capital flows",
+      "trade balance",
+      "NX + KI = 0"
+    ]
+  },
+  {
+    "id": "vocab-examprep-moneyassets-001",
+    "topic": "money-banking",
+    "subtopic": "Money versus Other Financial Assets",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Among loans, bonds, stocks, and money, which is distinguished by paying a nominal interest rate of exactly zero?",
+    "choices": [
+      "Money",
+      "Bonds",
+      "Stocks",
+      "Loans"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Money (cash and similar non-interest-bearing balances) is defined as an asset with a zero nominal interest rate -- it is held for its liquidity as a medium of exchange, not for a direct interest return, unlike bonds (which pay coupon interest), loans (which charge interest), or stocks (which can pay dividends and offer capital gains).",
+    "wrongExplanations": [
+      null,
+      "Bonds pay coupon interest as compensation for lending funds to the issuer -- they are not a zero-interest asset.",
+      "Stocks can pay dividends and offer capital gains as a return; they are not defined by a zero nominal interest rate.",
+      "Loans charge the borrower interest as the lender's compensation -- they are not a zero-interest asset either."
+    ],
+    "tags": [
+      "money",
+      "financial assets"
+    ]
   }
 ]
