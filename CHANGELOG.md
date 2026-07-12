@@ -1,5 +1,85 @@
 # Changelog
 
+## 2026-07-11 20:10 — Graph Question Quality Audit
+
+### Added
+- `docs/update-notes/2026-07-11-graph-question-quality-audit-plan.md` and
+  `-results.md`: the audit scope/plan (exact question IDs, source files,
+  high-risk areas flagged in advance) and the detailed results (per-fix table,
+  what was checked and how).
+- A difficulty-classification clarification in
+  `docs/question-authoring-guide.md`'s "Writing graph questions" section: "compare
+  two graphs" and "identify an error in interpretation" questions should default
+  to the `hard` tier, documenting the reasoning behind this audit's difficulty
+  reclassifications for future graph-question authors.
+
+### Changed
+- Relabeled difficulty on 4 of the 37 graph questions:
+  `graph-loanablefunds-004`, `graph-capitalflows-004`, and `graph-money-004`
+  (`medium` → `hard` — these are "identify the error in interpretation"
+  questions, matching this audit's explicit hard-tier rubric for that skill) and
+  `graph-growth-001` (`medium` → `easy` — a direct curve-shape recognition
+  question with no shift/equilibrium chain, consistent with sibling `easy`-tier
+  questions `graph-labor-001`/`graph-labor-002`). New distribution: 10 easy, 15
+  medium, 12 hard (was 9/19/9).
+
+### Fixed
+- N/A — no graph-logic, distractor, diagram, source-grounding, or duplication
+  issues were found. This audit's re-verification (independently re-derived
+  every shift direction and equilibrium outcome from freshly re-extracted source
+  text, and independently recomputed every diagram's line-intersection
+  coordinates rather than just visually inspecting the SVGs) found the batch
+  accurate as shipped, aside from the four difficulty relabels above.
+
+### Notes
+- **Scope**: this audit covered exactly the 37 `questionType: "graph"` questions
+  added by the same-day "Graph Practice Mode" update (`graph-ppc-*`,
+  `graph-supplydemand-*`, `graph-labor-*`, `graph-loanablefunds-*`,
+  `graph-capitalflows-*`, `graph-money-*`, `graph-monetarypolicy-*`,
+  `graph-growth-*`). No `standard`/`vocab`/`formula` questions were re-audited.
+- **Source re-verification**: freshly re-extracted `HarvardS10b_Class1.pptx`,
+  `Class3.pptx`, `Class4.pptx`, `Class5.pptx`, `DS1_solutions.pdf`, and
+  `DS2_solutions.pdf` (Class 6/7, the ECB guest lecture, and DS3 were already
+  available from the same-day authoring pass) and re-read the exact passages
+  each question depends on — budget-deficit/technology shift language (Class 5
+  slides 20-22), capital-inflow/risk language (slides 37-38), the S + KI = I /
+  trade-deficit link (slides 40-41), the two costs-of-investment factors (slide
+  19), DS1's PPC technology-shift example, DS2's pilots supply-shift example,
+  Class 4's compound-growth table, and the ECB guest lecture's interest-rate-
+  corridor slides/notes — all confirmed to match the shipped questions' claims
+  exactly.
+- **Diagram verification**: for all 10 inline SVG diagrams, independently
+  recomputed each drawn curve's line-intersection coordinates from the raw `x1,
+  y1, x2, y2` values stored in the SVG markup and confirmed every equilibrium
+  marker sits exactly on the computed intersection, and that every claimed
+  price/wage/rate and quantity/employment/investment direction matches the
+  diagram's own coordinate geometry. No diagram defects found.
+- **Duplication/coverage**: ran an exact-normalized-text duplicate check plus a
+  pairwise word-overlap scan across all 37 questions; found no true duplicates.
+  The graph question count and per-topic distribution are unchanged from the
+  original update.
+- `needsReview` count: **0** — every graph question's tested concept was
+  traceable to an explicit, unambiguous source passage, and no question was left
+  uncertain.
+- Validation: `node scripts/validate-data.mjs` reports 271 questions, 17 topics,
+  12 sources, 38 vocab, 40 formula, 37 graph (10 with an inline diagram), **0
+  errors, 0 warnings**.
+- QA: verified via a live headless-Chrome session driven over the Chrome
+  DevTools Protocol — confirmed the Graph Practice mode card, badge rendering
+  (including the updated `hard` difficulty badge), and diagram rendering (SVG,
+  `aria-label`, caption, 340px responsive width) all work correctly; confirmed
+  Vocabulary and Formula Practice modes still work (regression check); captured
+  a 375px mobile screenshot of a diagram question; and — specifically for this
+  audit — launched three independent fresh Graph Practice sessions and confirmed
+  a known graph question's answer choices shuffle into a different order each
+  time, with the correct choice (wherever it landed) always producing "✓
+  Correct!" and the matching `correctExplanation` text, confirming the shuffle-
+  to-explanation mapping holds for graph questions specifically.
+- `localStorage` schema (`econ10bStudyGame:v1`) is unchanged; all 37 graph
+  questions kept their existing IDs, so no student progress is orphaned.
+- No files from `private-materials/` were staged or committed; the app remains a
+  static, no-build, no-backend site — GitHub Pages compatibility is unaffected.
+
 ## 2026-07-11 19:29 — Graph Practice Mode
 
 ### Added

@@ -7866,7 +7866,7 @@
     "id": "graph-loanablefunds-004",
     "topic": "loanable-funds",
     "subtopic": "Movement versus Shift",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "sourceIds": [
       "class5"
     ],
@@ -8134,7 +8134,7 @@
     "id": "graph-capitalflows-004",
     "topic": "capital-flows",
     "subtopic": "Movement versus Shift",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "sourceIds": [
       "class5"
     ],
@@ -8340,7 +8340,7 @@
     "id": "graph-money-004",
     "topic": "money-banking",
     "subtopic": "Movement versus Shift",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "sourceIds": [
       "ds3"
     ],
@@ -8471,7 +8471,7 @@
     "id": "graph-growth-001",
     "topic": "economic-growth",
     "subtopic": "Diminishing Returns to Capital",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "sourceIds": [
       "class4"
     ],

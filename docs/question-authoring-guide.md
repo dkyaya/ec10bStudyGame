@@ -202,6 +202,17 @@ Design each graph question to test one of these:
    about a graph and ask what's wrong with it — this is an especially good format
    for testing the movement-along-a-curve-vs-shift-of-a-curve distinction.
 
+**Difficulty note for skill 4 and skill 5:** a "compare two graphs" question
+(comparing two linked markets, or two versions/regimes of the same market) and an
+"identify an error in interpretation" question should both default to `"hard"`,
+not `"medium"` — even when the underlying single concept being tested (e.g.,
+movement vs. shift) is one a `"medium"` question might use directly. Presenting a
+plausible-but-wrong diagnosis for the student to debug, or asking for a comparison
+across two markets/regimes, adds a layer of reasoning beyond a direct event → shift
+→ equilibrium question, which is what the `"hard"` tier is meant to capture (see
+the 2026-07-11 graph-question quality audit, which reclassified three
+error-identification questions from `medium` to `hard` for this reason).
+
 ### Inline diagrams vs. text-described graphs
 
 Both are valid and already used in the bank. Use an inline `diagram` when a visual
