@@ -375,6 +375,35 @@ If two questions share a common setup (e.g., testing two different implications 
 the same scenario), repeat the necessary scenario details in each question's own
 stem rather than cross-referencing.
 
+**Generating multiple variants from one worked practice problem (e.g., a
+midterm/exam-prep expansion).** When a task calls for turning one source problem
+into several questions — as in the 2026-07-12 Midterm Review expansion, which
+took the source's 11 worked practice problems to roughly 68 questions — don't
+just repeat the "compute the value" task with different numbers four times.
+Vary the *task type* across the variant set for each worked problem:
+
+- **compute a value** (the source's own direction),
+- **infer a missing input** given an outcome (reverse-solve for one of the
+  scenario's own numbers),
+- **diagnose a mistaken formula or a common student error** (present a flawed
+  calculation or claim and ask what's wrong with it),
+- **compare two cases** (two scenarios, two policies, or two curve shapes,
+  asking which produces the larger/smaller/different outcome), and
+- **connect to a graph** (identify which curve shifts, in which direction, and
+  what happens to equilibrium) where the underlying concept has a graphical
+  representation.
+
+Each new variant still needs its own fresh scenario, sentence structure, and
+numbers per the no-verbatim and no-mad-libs rules above — varying the task type
+doesn't exempt a variant from those rules. Before finalizing a batch of variants
+from the same source problem, independently recompute every variant's correct
+answer and every numeric distractor from that variant's own scenario numbers
+(a quick `node -e` one-liner per variant, or a single standalone verification
+script covering the whole batch) rather than reasoning through the arithmetic
+by hand or assuming a pattern from an earlier variant still holds — small
+number changes between variants can silently break a distractor that was only
+plausible for the original numbers.
+
 ## Marking `needsReview`
 
 Set `"needsReview": true` when a question is derived from source content that was:

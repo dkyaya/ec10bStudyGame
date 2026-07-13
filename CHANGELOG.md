@@ -1,5 +1,103 @@
 # Changelog
 
+## 2026-07-12 21:19 — Midterm Review Expansion
+
+### Added
+- **52 new Midterm Review questions** (`midterm-var-*` IDs), roughly
+  quadrupling the Midterm Review set from 17 to **69 questions**. Every new
+  question is a fresh scenario grounded in one of the `midterm_review`
+  source's 11 worked practice problems, with new entities, new numbers, new
+  sentence structure, and new answer-choice wording/order — never a
+  number-substitution "mad-libs" copy of the source's own worked problem or
+  of an existing app question. Each worked problem received 3-6 variants
+  spanning multiple task directions: compute a value, infer a missing input
+  given an outcome (reverse calculation), diagnose a mistaken formula or
+  common student error, compare two cases, and (where applicable) connect
+  the concept to a loanable-funds or open-economy graph.
+- `docs/update-notes/2026-07-12-midterm-expansion-plan.md` and
+  `-results.md`: the expansion plan (file-by-file `private-materials/`
+  comparison, academic-integrity re-confirmation, target counts, concept
+  coverage plan) and results doc (final counts, IDs added, concept coverage
+  map, arithmetic-verification method and outcome).
+- New "Generating multiple variants from one worked practice problem"
+  section in `docs/question-authoring-guide.md`, documenting the
+  task-direction rotation approach (compute / infer / diagnose / compare /
+  graph) and the requirement to independently recompute every variant's
+  arithmetic from its own scenario numbers before finalizing a batch.
+- New "2026-07-12 Midterm Review Expansion" section in
+  `docs/source-notes.md` summarizing the source-handling decisions (no new
+  sheet found, expansion strategy, verification method) for future
+  contributors.
+
+### Changed
+- **No new source added.** Every file in `private-materials/` was compared
+  against `data/sources.json`; all 13 files (including
+  `MidtermStudyMaterials_Summer2026.doc`) were already represented from the
+  prior update. `data/sources.json` was not modified. Confirmed no
+  unreleased/live exam material is present (same instructor-released study
+  guide already vetted in the prior update; the determination was
+  re-confirmed, not re-litigated, since nothing about the file changed).
+- `src/scoring.js`'s existing `MIDTERM_REVIEW_SOURCE_IDS` Set (added in the
+  prior update specifically to support this scenario) needed no changes,
+  since no second exam-prep source was added.
+- Total question bank: **340 questions** (was 288), **17 topics**
+  (unchanged), **13 sources** (unchanged).
+- Vocabulary/definition questions: **42** (was 39). Formula/quantitative
+  questions: **78** (was 51). Graph interpretation questions: **46** (was
+  39), still **11** with an inline SVG diagram (all 7 new graph questions
+  use a fully text-described graph situation instead of a new SVG).
+- Midterm Review `questionType` breakdown: **38 formula** (was 11), **18
+  standard** (was 3), **9 graph** (was 2), **4 vocab** (was 1) — within the
+  task's suggested ranges for a healthy exam-prep mix.
+- `README.md`: updated total question count (340, was 288), Midterm Review
+  count (69, was 17), vocab/formula/graph counts, and the Midterm Review
+  mode description's question count.
+- `docs/qa-checklist.md`: updated the Midterm Review count reference (69),
+  expanded the answer-choice-shuffling check to spot-check multiple new
+  formula questions across different worked-problem topics and at least one
+  new text-described graph variant (not just the original diagram-bearing
+  question), and added a "Midterm Review variant quality spot-check" item.
+
+### Fixed
+- Nothing — this was a pure content-addition update; no existing question
+  was modified.
+
+### Notes
+- **Academic integrity / source transformation.** All 52 new questions are
+  paraphrased practice grounded in the instructor's own released study
+  guide, not reproductions of it: fresh scenarios/entities, fresh sentence
+  architecture, fresh numbers (independently computed, not copied), and
+  fresh answer-choice wording and ordering throughout. No question reuses
+  the source document's own numbers, company/country names, or sentence
+  structure, and none reuse an existing `*-examprep-*` question's specific
+  scenario or answer-choice set.
+- **Arithmetic verification.** Every new formula question's numbers were
+  computed via real JavaScript arithmetic during authoring, then
+  independently re-verified a second time via a fully standalone
+  recomputation script checked against the final `data/questions.json`
+  entries. All checks matched; zero arithmetic errors found in either pass.
+- **`needsReview` count: 0.** No new question required the flag.
+- **Validation result:**
+  ```
+  $ node scripts/validate-data.mjs
+  Checked 340 questions, 17 topics, 13 sources.
+  Vocabulary/definition questions: 42.
+  Formula/quantitative practice questions: 78.
+  Graph interpretation questions: 46 (11 with an inline diagram).
+  All checks passed with no errors or warnings.
+  ```
+- **Playtest.** Drove the app in a headless browser (Playwright):
+  confirmed no console errors on load; confirmed the home screen's Total
+  Questions (340), Formula Practice (78), Graph Practice (46), Vocabulary /
+  Definitions (42), and Midterm Review (69) counts all match; launched a
+  Midterm Review session and stepped through 8 shuffled questions across
+  `formula`, `standard`, `vocab`, and unbadged types, confirming
+  answer-choice shuffling and correct/incorrect grading both work correctly
+  for the newly added questions; confirmed the app remains fully static
+  (served via `python3 -m http.server`, no backend, no build step).
+- **No raw files from `private-materials/` were committed** — verified via
+  `git status --short` before staging.
+
 ## 2026-07-12 09:02 — Midterm Review Quality Audit
 
 ### Added

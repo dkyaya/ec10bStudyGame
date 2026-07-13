@@ -137,11 +137,11 @@
       "$9M"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Marginal cost of the 3rd warehouse equals the change in total cost: $15M \u2212 $9M = $6M.",
+    "correctExplanation": "Marginal cost of the 3rd warehouse equals the change in total cost: $15M − $9M = $6M.",
     "wrongExplanations": [
       null,
       "$15M is the total cost at 3 warehouses, not the marginal (incremental) cost of the 3rd one.",
-      "$5M is the marginal cost of the 2nd warehouse ($9M \u2212 $4M), not the 3rd.",
+      "$5M is the marginal cost of the 2nd warehouse ($9M − $4M), not the 3rd.",
       "$9M is the total cost at 2 warehouses, not the marginal cost of building the 3rd."
     ],
     "tags": [
@@ -198,7 +198,7 @@
       "$10.00 per visit"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Slope = change in B / change in V = ($62 \u2212 $52) / (25 \u2212 5) = $10 / 20 = $0.50 per visit.",
+    "correctExplanation": "Slope = change in B / change in V = ($62 − $52) / (25 − 5) = $10 / 20 = $0.50 per visit.",
     "wrongExplanations": [
       null,
       "This misplaces a decimal point relative to the correct $0.50, an arithmetic slip.",
@@ -345,7 +345,7 @@
     "choices": [
       "Northland",
       "Southland",
-      "Neither \u2014 their opportunity costs are equal",
+      "Neither — their opportunity costs are equal",
       "Cannot be determined without market prices"
     ],
     "answerIndex": 0,
@@ -380,7 +380,7 @@
       "Both have equal opportunity costs"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Northland's opportunity cost of wool is 80/40 = 2 units of tea per unit of wool, while Southland's is 60/90 \u2248 0.67 units of tea per unit of wool. Since Southland's opportunity cost is lower, Southland has the comparative advantage in wool.",
+    "correctExplanation": "Northland's opportunity cost of wool is 80/40 = 2 units of tea per unit of wool, while Southland's is 60/90 ≈ 0.67 units of tea per unit of wool. Since Southland's opportunity cost is lower, Southland has the comparative advantage in wool.",
     "wrongExplanations": [
       "Northland's opportunity cost of wool (2 tea per wool) is higher than Southland's, so Northland does not have the comparative advantage in wool.",
       null,
@@ -471,7 +471,7 @@
       "Becomes negative"
     ],
     "answerIndex": 0,
-    "correctExplanation": "This is the principle of increasing opportunity cost: because resources are not equally well suited to producing both goods, shifting further toward cotton requires reassigning increasingly coal-specialized resources, raising the opportunity cost per unit of cotton \u2014 which is why PPCs are bowed outward.",
+    "correctExplanation": "This is the principle of increasing opportunity cost: because resources are not equally well suited to producing both goods, shifting further toward cotton requires reassigning increasingly coal-specialized resources, raising the opportunity cost per unit of cotton — which is why PPCs are bowed outward.",
     "wrongExplanations": [
       null,
       "A decreasing opportunity cost would correspond to a PPC bowed inward, the opposite of the diminishing-returns pattern described.",
@@ -561,7 +561,7 @@
       "60 tea and 40 wool"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Northland specializes fully in tea (its comparative advantage), producing 80 tea; Southland specializes fully in wool (its comparative advantage), producing 90 wool. Together they produce 80 tea and 90 wool \u2014 the point of full specialization on the joint PPC.",
+    "correctExplanation": "Northland specializes fully in tea (its comparative advantage), producing 80 tea; Southland specializes fully in wool (its comparative advantage), producing 90 wool. Together they produce 80 tea and 90 wool — the point of full specialization on the joint PPC.",
     "wrongExplanations": [
       null,
       "This would require both countries to produce only tea, ignoring that Southland's comparative advantage is in wool.",
@@ -646,7 +646,7 @@
     ],
     "sourceLabel": "Discussion Session 1 Solutions",
     "needsReview": false,
-    "question": "The demand for wheat is Qd = 100 \u2212 2P and supply is Qs = \u221220 + 3P. What is the equilibrium price?",
+    "question": "The demand for wheat is Qd = 100 − 2P and supply is Qs = −20 + 3P. What is the equilibrium price?",
     "choices": [
       "$24",
       "$20",
@@ -654,7 +654,7 @@
       "$18"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Set Qd = Qs: 100 \u2212 2P = \u221220 + 3P \u2192 120 = 5P \u2192 P = $24.",
+    "correctExplanation": "Set Qd = Qs: 100 − 2P = −20 + 3P → 120 = 5P → P = $24.",
     "wrongExplanations": [
       null,
       "At P = $20: Qd = 60 and Qs = 40, which are not equal.",
@@ -676,7 +676,7 @@
     ],
     "sourceLabel": "Discussion Session 1 Solutions",
     "needsReview": false,
-    "question": "Using the same wheat market (Qd = 100 \u2212 2P, Qs = \u221220 + 3P, equilibrium price $24), what is the equilibrium quantity?",
+    "question": "Using the same wheat market (Qd = 100 − 2P, Qs = −20 + 3P, equilibrium price $24), what is the equilibrium quantity?",
     "choices": [
       "52",
       "60",
@@ -684,7 +684,7 @@
       "70"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Substitute P = $24 into either equation: Qd = 100 \u2212 2(24) = 52 (and Qs = \u221220 + 3(24) = 52, confirming the answer).",
+    "correctExplanation": "Substitute P = $24 into either equation: Qd = 100 − 2(24) = 52 (and Qs = −20 + 3(24) = 52, confirming the answer).",
     "wrongExplanations": [
       null,
       "60 does not match either equation at P = $24.",
@@ -774,7 +774,7 @@
       "The supply of SUVs decreases"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Gasoline and SUVs are complements. A rise in the price of a complement decreases demand for the related good, shifting the SUV demand curve left \u2014 the same logic as the butter/white-bread complement example.",
+    "correctExplanation": "Gasoline and SUVs are complements. A rise in the price of a complement decreases demand for the related good, shifting the SUV demand curve left — the same logic as the butter/white-bread complement example.",
     "wrongExplanations": [
       null,
       "An increase in demand would instead follow from a substitute (not a complement) becoming more expensive.",
@@ -804,7 +804,7 @@
       "Both price and quantity are unaffected"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Falling battery costs shift supply right (lowering price, raising quantity), while rising preference shifts demand right (raising price, raising quantity). Both shifts raise quantity, but the net effect on price depends on the relative size of the two shifts \u2014 the same logic as the iPod example (falling memory prices plus rising preference for on-phone music).",
+    "correctExplanation": "Falling battery costs shift supply right (lowering price, raising quantity), while rising preference shifts demand right (raising price, raising quantity). Both shifts raise quantity, but the net effect on price depends on the relative size of the two shifts — the same logic as the iPod example (falling memory prices plus rising preference for on-phone music).",
     "wrongExplanations": [
       null,
       "Quantity, not price, is the variable that increases unambiguously here since both shifts push it up; it is price whose direction is ambiguous.",
@@ -835,7 +835,7 @@
       "Buyers pay exactly their reservation price"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Cash on the table means total surplus (buyer's surplus plus seller's surplus) has not yet been fully captured \u2014 there are still opportunities to gain from additional purchases or sales. At equilibrium, surplus is maximized and there is no more cash on the table.",
+    "correctExplanation": "Cash on the table means total surplus (buyer's surplus plus seller's surplus) has not yet been fully captured — there are still opportunities to gain from additional purchases or sales. At equilibrium, surplus is maximized and there is no more cash on the table.",
     "wrongExplanations": [
       null,
       "Tax revenue is unrelated to the cash-on-the-table surplus concept.",
@@ -1017,7 +1017,7 @@
       "$380"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Y = C + G + I + NX. The domestic household's purchase counts as C = $300; the imported wood is an import, so NX = X \u2212 M = 0 \u2212 80 = \u2212$80; G and I are $0. Y = $300 + $0 + $0 \u2212 $80 = $220.",
+    "correctExplanation": "Y = C + G + I + NX. The domestic household's purchase counts as C = $300; the imported wood is an import, so NX = X − M = 0 − 80 = −$80; G and I are $0. Y = $300 + $0 + $0 − $80 = $220.",
     "wrongExplanations": [
       null,
       "This is only the sale price and ignores that the imported wood must be netted out via net exports.",
@@ -1048,7 +1048,7 @@
       "$150"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Value added equals the value of the good produced minus the cost of intermediate goods purchased from others: $300 \u2212 $80 = $220, matching the expenditure-method answer.",
+    "correctExplanation": "Value added equals the value of the good produced minus the cost of intermediate goods purchased from others: $300 − $80 = $220, matching the expenditure-method answer.",
     "wrongExplanations": [
       null,
       "This ignores subtracting the cost of the intermediate wood input.",
@@ -1078,7 +1078,7 @@
       "$300"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Profit = Revenue \u2212 Wages \u2212 Cost of intermediate inputs = $300 \u2212 $150 \u2212 $80 = $70. (Under the income method, GDP = labor income $150 + capital income/profit $70 = $220, matching the other two methods.)",
+    "correctExplanation": "Profit = Revenue − Wages − Cost of intermediate inputs = $300 − $150 − $80 = $70. (Under the income method, GDP = labor income $150 + capital income/profit $70 = $220, matching the other two methods.)",
     "wrongExplanations": [
       null,
       "$150 is the wage (labor income) alone, not the firm's profit.",
@@ -1144,7 +1144,7 @@
       "This would double-count a good already produced and counted as investment in an earlier year.",
       null,
       "There is no reason this transaction would subtract from GDP.",
-      "Newly constructed homes are categorized as residential investment, not consumption \u2014 and in any case this is a resale, not new construction, so it is not counted at all."
+      "Newly constructed homes are categorized as residential investment, not consumption — and in any case this is a resale, not new construction, so it is not counted at all."
     ],
     "tags": [
       "GDP",
@@ -1170,7 +1170,7 @@
       "$42,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "In 2021, inventory investment (I) falls by $12,000 as the previously stored engine leaves inventory, while net exports (NX) rise by $30,000 from exporting the generator. Net GDP effect = $30,000 \u2212 $12,000 = $18,000.",
+    "correctExplanation": "In 2021, inventory investment (I) falls by $12,000 as the previously stored engine leaves inventory, while net exports (NX) rise by $30,000 from exporting the generator. Net GDP effect = $30,000 − $12,000 = $18,000.",
     "wrongExplanations": [
       null,
       "This ignores the offsetting decrease in inventory investment as the stored engine is used up.",
@@ -1198,7 +1198,7 @@
     "choices": [
       "$0 net effect",
       "+$12,000",
-      "\u2212$12,000",
+      "−$12,000",
       "+$24,000"
     ],
     "answerIndex": 0,
@@ -1294,7 +1294,7 @@
       "1.50"
     ],
     "answerIndex": 0,
-    "correctExplanation": "CPI = cost of the basket in the current year / cost of the basket in the base year = $1,010 / $784 \u2248 1.29.",
+    "correctExplanation": "CPI = cost of the basket in the current year / cost of the basket in the base year = $1,010 / $784 ≈ 1.29.",
     "wrongExplanations": [
       null,
       "This does not match the ratio of the two given totals.",
@@ -1324,10 +1324,10 @@
       "About 45%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Inflation rate = (CPI_new \u2212 CPI_old) / CPI_old = (1.15 \u2212 1.10) / 1.10 \u2248 0.045 = 4.5%.",
+    "correctExplanation": "Inflation rate = (CPI_new − CPI_old) / CPI_old = (1.15 − 1.10) / 1.10 ≈ 0.045 = 4.5%.",
     "wrongExplanations": [
       null,
-      "This is just the raw difference (1.15 \u2212 1.10 = 0.05) misread directly as a percentage, without dividing by the base CPI.",
+      "This is just the raw difference (1.15 − 1.10 = 0.05) misread directly as a percentage, without dividing by the base CPI.",
       "This misplaces the decimal point; the correct rate is 4.5%, not 0.05%.",
       "This also misplaces the decimal point; the computed rate is 0.045, i.e. 4.5%, not 45%."
     ],
@@ -1354,7 +1354,7 @@
       "6%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Real interest rate \u2248 nominal interest rate \u2212 inflation rate = 6% \u2212 2.5% = 3.5%.",
+    "correctExplanation": "Real interest rate ≈ nominal interest rate − inflation rate = 6% − 2.5% = 3.5%.",
     "wrongExplanations": [
       null,
       "This incorrectly adds the nominal rate and inflation rate instead of subtracting.",
@@ -1415,7 +1415,7 @@
       "$23,040"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Indexing raises the nominal amount by the percentage increase in the price index: $24,000 \u00d7 1.04 = $24,960, preserving purchasing power.",
+    "correctExplanation": "Indexing raises the nominal amount by the percentage increase in the price index: $24,000 × 1.04 = $24,960, preserving purchasing power.",
     "wrongExplanations": [
       null,
       "This applies only part of the 4% adjustment, not the full percentage increase.",
@@ -1439,13 +1439,13 @@
     "needsReview": false,
     "question": "A worker's nominal salary rises from $50,000 to $52,000 while the CPI rises from 1.00 to 1.06 over the same period. Has the worker's real income increased or decreased?",
     "choices": [
-      "Decreased \u2014 deflating gives about $49,057, below the original $50,000",
+      "Decreased — deflating gives about $49,057, below the original $50,000",
       "Increased, since nominal salary rose by $2,000",
       "Stayed exactly the same in real terms",
       "Cannot be determined without more information"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Deflating the new nominal salary by the new CPI gives $52,000 / 1.06 \u2248 $49,057 in base-year dollars, which is below the original $50,000. So real purchasing power decreased even though nominal pay rose.",
+    "correctExplanation": "Deflating the new nominal salary by the new CPI gives $52,000 / 1.06 ≈ $49,057 in base-year dollars, which is below the original $50,000. So real purchasing power decreased even though nominal pay rose.",
     "wrongExplanations": [
       null,
       "A rise in nominal pay does not guarantee real income rises if prices increased by a larger percentage, as they did here.",
@@ -1598,7 +1598,7 @@
       "The average product of all workers at the firm"
     ],
     "answerIndex": 1,
-    "correctExplanation": "VMP is the extra revenue that an additional worker generates for the firm \u2014 the worker's marginal product multiplied by the price of the output.",
+    "correctExplanation": "VMP is the extra revenue that an additional worker generates for the firm — the worker's marginal product multiplied by the price of the output.",
     "wrongExplanations": [
       "The wage is what the firm pays, not the same thing as VMP, though in a competitive labor market firms hire until the wage equals VMP.",
       null,
@@ -1659,7 +1659,7 @@
       "6"
     ],
     "answerIndex": 0,
-    "correctExplanation": "At a wage of $650, the firm hires workers while VMP is at least the wage. The 4th worker's VMP ($700) still exceeds $650, but the 5th worker's VMP ($600) falls short, so the firm hires 4 workers \u2014 one more than at the higher $750 wage, illustrating the downward-sloping labor demand curve.",
+    "correctExplanation": "At a wage of $650, the firm hires workers while VMP is at least the wage. The 4th worker's VMP ($700) still exceeds $650, but the 5th worker's VMP ($600) falls short, so the firm hires 4 workers — one more than at the higher $750 wage, illustrating the downward-sloping labor demand curve.",
     "wrongExplanations": [
       null,
       "3 was the answer at the higher $750 wage; at the lower $650 wage, the firm can profitably hire one more worker.",
@@ -1694,7 +1694,7 @@
     "wrongExplanations": [
       "This would describe increasing, not diminishing, returns.",
       null,
-      "Diminishing returns still means output rises, just at a decreasing rate \u2014 not that it stops changing.",
+      "Diminishing returns still means output rises, just at a decreasing rate — not that it stops changing.",
       "Diminishing marginal product does not necessarily mean total output falls, only that each successive worker contributes less."
     ],
     "tags": [
@@ -1809,7 +1809,7 @@
       "Both wage and quantity fall"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A lower mandatory retirement age forces mechanics aged 60-64 to retire, decreasing labor supply. With demand unchanged, a leftward shift in supply raises the equilibrium wage and lowers equilibrium employment \u2014 the same logic as the pilots' retirement-age example.",
+    "correctExplanation": "A lower mandatory retirement age forces mechanics aged 60-64 to retire, decreasing labor supply. With demand unchanged, a leftward shift in supply raises the equilibrium wage and lowers equilibrium employment — the same logic as the pilots' retirement-age example.",
     "wrongExplanations": [
       null,
       "This describes the effect of an increase, not a decrease, in labor supply.",
@@ -1839,7 +1839,7 @@
       "Wage rises, quantity falls"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A decline in the value of travel agents' output lowers their VMP, shifting labor demand left. With supply unchanged, this lowers both the equilibrium wage and quantity of employed travel agents \u2014 the same logic as the opticians/laser-eye-surgery example.",
+    "correctExplanation": "A decline in the value of travel agents' output lowers their VMP, shifting labor demand left. With supply unchanged, this lowers both the equilibrium wage and quantity of employed travel agents — the same logic as the opticians/laser-eye-surgery example.",
     "wrongExplanations": [
       null,
       "This would result from an increase, not a decrease, in labor demand.",
@@ -1963,7 +1963,7 @@
     "answerIndex": 1,
     "correctExplanation": "When real wages lag behind productivity growth, labor income falls relative to capital income. The course links this 1990s divergence to rising inequality, especially pronounced in the U.S. and U.K.",
     "wrongExplanations": [
-      "The opposite occurred \u2014 capital income rose relative to labor income as wages lagged productivity.",
+      "The opposite occurred — capital income rose relative to labor income as wages lagged productivity.",
       null,
       "The course explicitly describes labor income falling relative to capital income during this divergence.",
       "The course states inequality rose during this period, not decreased."
@@ -1986,7 +1986,7 @@
     "needsReview": false,
     "question": "GDP per capita (Y/POP) can be decomposed as the product of which two ratios?",
     "choices": [
-      "(Y/N) x (N/POP) \u2014 output per worker times the share of the population employed",
+      "(Y/N) x (N/POP) — output per worker times the share of the population employed",
       "(N/Y) x (POP/N)",
       "(Y/POP) x (N/Y)",
       "(POP/N) x (N/Y)"
@@ -2023,10 +2023,10 @@
       "$10,500"
     ],
     "answerIndex": 0,
-    "correctExplanation": "GDP per capita = average labor productivity x share employed. Year A: $60,000 x 0.40 = $24,000. Year B: $90,000 x 0.45 = $40,500. Change = $40,500 \u2212 $24,000 = $16,500.",
+    "correctExplanation": "GDP per capita = average labor productivity x share employed. Year A: $60,000 x 0.40 = $24,000. Year B: $90,000 x 0.45 = $40,500. Change = $40,500 − $24,000 = $16,500.",
     "wrongExplanations": [
       null,
-      "This is just the raw increase in productivity ($90,000 \u2212 $60,000), ignoring the employment-share weighting.",
+      "This is just the raw increase in productivity ($90,000 − $60,000), ignoring the employment-share weighting.",
       "This does not correspond to a correct computation of either year's GDP per capita or their difference.",
       "This does not match the correctly computed change of $16,500."
     ],
@@ -2201,7 +2201,7 @@
       "Wages are unaffected in either industry"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Opening to trade reduces demand for the import-competing good (e.g., domestic textiles), lowering wages and employment there, while export demand rises for the industry with comparative advantage (e.g., software), raising wages and employment there \u2014 creating a wage differential where none existed before.",
+    "correctExplanation": "Opening to trade reduces demand for the import-competing good (e.g., domestic textiles), lowering wages and employment there, while export demand rises for the industry with comparative advantage (e.g., software), raising wages and employment there — creating a wage differential where none existed before.",
     "wrongExplanations": [
       "This reverses the actual direction of the effect described.",
       null,
@@ -2263,7 +2263,7 @@
       "It becomes negative"
     ],
     "answerIndex": 1,
-    "correctExplanation": "An increase in demand for skilled labor raises skilled wages, while a decrease in demand for unskilled labor lowers unskilled wages, widening the wage gap between the two groups \u2014 consistent with the course's skill-biased technological change diagrams.",
+    "correctExplanation": "An increase in demand for skilled labor raises skilled wages, while a decrease in demand for unskilled labor lowers unskilled wages, widening the wage gap between the two groups — consistent with the course's skill-biased technological change diagrams.",
     "wrongExplanations": [
       "Narrowing would require the opposite pattern of demand shifts, favoring unskilled labor.",
       null,
@@ -2385,7 +2385,7 @@
       "A tax on capital gains"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Transition aid is government assistance intended to help workers adjust \u2014 for example, moving from shrinking import-competing industries into expanding export industries; the course notes such aid is limited in the United States.",
+    "correctExplanation": "Transition aid is government assistance intended to help workers adjust — for example, moving from shrinking import-competing industries into expanding export industries; the course notes such aid is limited in the United States.",
     "wrongExplanations": [
       "Transition aid targets domestic workers affected by trade, not foreign exporters.",
       null,
@@ -2627,9 +2627,9 @@
       "Patents eliminate all spillover effects"
     ],
     "answerIndex": 1,
-    "correctExplanation": "The course explains that firms and individuals do not reap all the benefits of their investment in new ideas \u2014 knowledge leaks and benefits others, creating a situation of increasing returns to knowledge investment and helping explain why government may subsidize R&D.",
+    "correctExplanation": "The course explains that firms and individuals do not reap all the benefits of their investment in new ideas — knowledge leaks and benefits others, creating a situation of increasing returns to knowledge investment and helping explain why government may subsidize R&D.",
     "wrongExplanations": [
-      "The course states the opposite \u2014 firms do not capture all the benefits of their innovation investments.",
+      "The course states the opposite — firms do not capture all the benefits of their innovation investments.",
       null,
       "The course discusses government subsidizing (encouraging), not preventing, technology investment due to these spillovers.",
       "The course does not claim patents fully eliminate knowledge spillovers; the described dynamic is knowledge leaking and benefiting others despite such protections."
@@ -2658,7 +2658,7 @@
       "About $8,500"
     ],
     "answerIndex": 0,
-    "correctExplanation": "At = As(1+g)^(t-s): $8,000 x (1.025)^20 \u2248 $8,000 x 1.639 \u2248 $13,112, so about $13,100.",
+    "correctExplanation": "At = As(1+g)^(t-s): $8,000 x (1.025)^20 ≈ $8,000 x 1.639 ≈ $13,112, so about $13,100.",
     "wrongExplanations": [
       null,
       "This is too low given 20 years of 2.5% compounding; it underestimates compound growth.",
@@ -2680,7 +2680,7 @@
     ],
     "sourceLabel": "Class 4 slides",
     "needsReview": false,
-    "question": "A country's GDP per capita grows from $5,000 to $9,000 over 15 years. Using g = (At/As)^(1/(t-s)) \u2212 1, what is the approximate average annual growth rate?",
+    "question": "A country's GDP per capita grows from $5,000 to $9,000 over 15 years. Using g = (At/As)^(1/(t-s)) − 1, what is the approximate average annual growth rate?",
     "choices": [
       "About 4.0%",
       "About 26.7%",
@@ -2688,10 +2688,10 @@
       "About 80%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "g = (9,000/5,000)^(1/15) \u2212 1 = (1.8)^(1/15) \u2212 1 \u2248 1.040 \u2212 1 = 4.0%.",
+    "correctExplanation": "g = (9,000/5,000)^(1/15) − 1 = (1.8)^(1/15) − 1 ≈ 1.040 − 1 = 4.0%.",
     "wrongExplanations": [
       null,
-      "This is just the total percentage increase over 15 years divided by 3 (80% / 3 \u2248 26.7%), not the correctly compounded annual rate.",
+      "This is just the total percentage increase over 15 years divided by 3 (80% / 3 ≈ 26.7%), not the correctly compounded annual rate.",
       "This misreads the ratio (1.8) itself as a growth rate rather than correctly applying the 1/15 root.",
       "This is the total, non-annualized percentage increase over the entire 15-year period, not the annual growth rate."
     ],
@@ -2718,7 +2718,7 @@
       "72 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Rule of 72: years to double \u2248 72 / growth rate = 72 / 4 = 18 years.",
+    "correctExplanation": "Rule of 72: years to double ≈ 72 / growth rate = 72 / 4 = 18 years.",
     "wrongExplanations": [
       null,
       "This just restates the growth rate, not the doubling time.",
@@ -2748,7 +2748,7 @@
       "432 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Rule of 72: years to double \u2248 72 / 6 = 12 years.",
+    "correctExplanation": "Rule of 72: years to double ≈ 72 / 6 = 12 years.",
     "wrongExplanations": [
       null,
       "This restates the growth rate rather than computing the doubling time.",
@@ -2778,7 +2778,7 @@
       "About 2 years"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Setting the two growth paths equal, (1.04/1.015)^T = 8,000/4,000 = 2, so T = ln(2) / ln(1.04/1.015) \u2248 0.693 / 0.0243 \u2248 28-29 years, similar in spirit to the Richland/Poorland catch-up calculation from discussion section.",
+    "correctExplanation": "Setting the two growth paths equal, (1.04/1.015)^T = 8,000/4,000 = 2, so T = ln(2) / ln(1.04/1.015) ≈ 0.693 / 0.0243 ≈ 28-29 years, similar in spirit to the Richland/Poorland catch-up calculation from discussion section.",
     "wrongExplanations": [
       null,
       "This is far too short given the initial gap must be closed via a growth-rate differential of only about 2.5 percentage points per year.",
@@ -2808,7 +2808,7 @@
       "Growth compounds only for interest rates, not GDP"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Due to compound growth, even small differences in annual growth rates (e.g., 2% versus 4% versus 6%) produce dramatically different outcomes over long time horizons \u2014 illustrated by the course's comparison of the future value of $10 at different interest rates over 210 years.",
+    "correctExplanation": "Due to compound growth, even small differences in annual growth rates (e.g., 2% versus 4% versus 6%) produce dramatically different outcomes over long time horizons — illustrated by the course's comparison of the future value of $10 at different interest rates over 210 years.",
     "wrongExplanations": [
       null,
       "Compounding affects any nonzero growth rate over time; there is no such threshold below which it doesn't matter.",
@@ -2863,14 +2863,14 @@
     "question": "The Rule of 72's approximation for years to double comes from the fact that:",
     "choices": [
       "72 is exactly the natural log of 2 expressed as a percentage",
-      "ln(2) \u2248 0.69, so growth rate x years to double \u2248 69 (or 72, used because it is more evenly divisible)",
+      "ln(2) ≈ 0.69, so growth rate x years to double ≈ 69 (or 72, used because it is more evenly divisible)",
       "The rule works only for interest rates below 1%",
       "Doubling time is always exactly 72 years regardless of the rate"
     ],
     "answerIndex": 1,
-    "correctExplanation": "From (1+r)^t = 2, taking logs gives t x ln(1+r) \u2248 r x t \u2248 ln(2) \u2248 0.69, so rate x years \u2248 69 in percentage terms; 72 is commonly used instead of 69 because it is more evenly divisible by common growth rates.",
+    "correctExplanation": "From (1+r)^t = 2, taking logs gives t x ln(1+r) ≈ r x t ≈ ln(2) ≈ 0.69, so rate x years ≈ 69 in percentage terms; 72 is commonly used instead of 69 because it is more evenly divisible by common growth rates.",
     "wrongExplanations": [
-      "ln(2) \u2248 0.69, i.e., about 69 (not 72) in percentage terms; 72 is a divisibility-convenient approximation.",
+      "ln(2) ≈ 0.69, i.e., about 69 (not 72) in percentage terms; 72 is a divisibility-convenient approximation.",
       null,
       "The rule is used as a general approximation across a range of realistic growth rates in the course, not restricted to below 1%.",
       "The doubling time varies with the growth rate (72/rate); it is not a fixed 72 years regardless of rate."
@@ -2991,7 +2991,7 @@
     "correctExplanation": "The increase from 0 to 1 machine (150 more units/hour) is larger than the increase from 1 to 2 machines (70 more units/hour), illustrating diminishing returns to capital when labor and hours are held fixed.",
     "wrongExplanations": [
       null,
-      "Increasing returns would require each additional machine to add more, not less, to output per hour \u2014 the opposite of what the numbers show.",
+      "Increasing returns would require each additional machine to add more, not less, to output per hour — the opposite of what the numbers show.",
       "The increases (150, then 70) are not equal in each step, so returns are not constant.",
       "Capital clearly raises output per hour here; the question is about the pattern (diminishing), not whether there is any relationship at all."
     ],
@@ -3018,7 +3018,7 @@
       "The value of a country's natural resources"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Human capital comprises the talents, education, training, and skills of workers \u2014 the course cites Germany and Japan's post-WWII emphasis on professional training and early education as an example of building human capital.",
+    "correctExplanation": "Human capital comprises the talents, education, training, and skills of workers — the course cites Germany and Japan's post-WWII emphasis on professional training and early education as an example of building human capital.",
     "wrongExplanations": [
       "This describes physical capital, a distinct productivity determinant from human capital.",
       null,
@@ -3083,7 +3083,7 @@
       "These are not the flaws identified in the course; the USSR actually had abundant natural resources, human capital, and physical capital.",
       null,
       "The USSR had the ingredients for growth, including human capital and technology; the flaws were institutional (ownership and property rights), not too much of these inputs.",
-      "This reverses the actual issue \u2014 the USSR had weak private property rights and heavy central planning, not the reverse."
+      "This reverses the actual issue — the USSR had weak private property rights and heavy central planning, not the reverse."
     ],
     "tags": [
       "institutions",
@@ -3138,7 +3138,7 @@
       "Specialization alone"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The course states that new technologies \u2014 better machines and better organization of capital and labor, grounded in new knowledge and ideas \u2014 are the single most important source of productivity improvement.",
+    "correctExplanation": "The course states that new technologies — better machines and better organization of capital and labor, grounded in new knowledge and ideas — are the single most important source of productivity improvement.",
     "wrongExplanations": [
       null,
       "Culture is listed as one of the 8 productivity determinants, but is not singled out as the single most important source.",
@@ -3201,7 +3201,7 @@
       "Saving accumulated over exactly one calendar year"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Wealth is a stock \u2014 the value of everything an economic unit owns (assets) minus everything it owes (liabilities) \u2014 measured at a specific point in time, not over a period.",
+    "correctExplanation": "Wealth is a stock — the value of everything an economic unit owns (assets) minus everything it owes (liabilities) — measured at a specific point in time, not over a period.",
     "wrongExplanations": [
       "This describes saving, a flow measured over a period of time, not wealth, which is a stock at a point in time.",
       null,
@@ -3233,7 +3233,7 @@
       "Wealth divided by income"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The saving rate is saving divided by income \u2014 the share of income that isn't spent on current needs.",
+    "correctExplanation": "The saving rate is saving divided by income — the share of income that isn't spent on current needs.",
     "wrongExplanations": [
       null,
       "This inverts the ratio; the saving rate is saving over income, not income over saving.",
@@ -3264,11 +3264,11 @@
       "The nominal interest rate divided by the rate of inflation"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The real interest rate r equals the nominal interest rate i minus the inflation rate: r = i \u2212 inflation. It measures the actual increase in purchasing power from saving, not just the dollar amount of interest earned.",
+    "correctExplanation": "The real interest rate r equals the nominal interest rate i minus the inflation rate: r = i − inflation. It measures the actual increase in purchasing power from saving, not just the dollar amount of interest earned.",
     "wrongExplanations": [
       null,
       "Adding inflation to the nominal rate overstates the real return; inflation erodes purchasing power and must be subtracted, not added.",
-      "This reverses the formula \u2014 it's the nominal rate minus inflation, not inflation minus the nominal rate.",
+      "This reverses the formula — it's the nominal rate minus inflation, not inflation minus the nominal rate.",
       "Dividing isn't the relationship; the real rate is the nominal rate minus the inflation rate."
     ],
     "tags": [
@@ -3296,7 +3296,7 @@
       "Money households deposit into a savings account"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Macroeconomic investment means the creation of new capital goods and housing \u2014 new productive capacity \u2014 which is what saving ultimately funds, not the purchase of existing financial assets.",
+    "correctExplanation": "Macroeconomic investment means the creation of new capital goods and housing — new productive capacity — which is what saving ultimately funds, not the purchase of existing financial assets.",
     "wrongExplanations": [
       "Buying existing stocks or bonds transfers ownership of an existing financial claim; it doesn't create new capital goods, so it isn't investment in the macroeconomic sense.",
       null,
@@ -3322,17 +3322,17 @@
     "questionType": "standard",
     "question": "The \"user cost of capital\" for a piece of capital equipment is calculated as:",
     "choices": [
-      "Price of the capital \u00d7 (real interest rate + depreciation rate)",
-      "Price of the capital \u00f7 (real interest rate + depreciation rate)",
-      "Price of the capital \u00d7 real interest rate only",
-      "Value of the marginal product \u2212 price of the capital"
+      "Price of the capital × (real interest rate + depreciation rate)",
+      "Price of the capital ÷ (real interest rate + depreciation rate)",
+      "Price of the capital × real interest rate only",
+      "Value of the marginal product − price of the capital"
     ],
     "answerIndex": 0,
-    "correctExplanation": "User cost of capital = Price \u00d7 (r + depreciation rate). It captures both the opportunity cost of the funds tied up in the capital (r) and the capital's physical wearing out (depreciation).",
+    "correctExplanation": "User cost of capital = Price × (r + depreciation rate). It captures both the opportunity cost of the funds tied up in the capital (r) and the capital's physical wearing out (depreciation).",
     "wrongExplanations": [
       null,
       "Dividing instead of multiplying doesn't match the formula; user cost scales up with the price of the capital, not down.",
-      "This omits the depreciation rate, which is also part of the cost of using capital over time \u2014 the capital wears out even if it's owned outright.",
+      "This omits the depreciation rate, which is also part of the cost of using capital over time — the capital wears out even if it's owned outright.",
       "This describes a comparison used in the investment decision (benefit minus cost), not the user cost of capital itself, which is a cost calculation on its own."
     ],
     "tags": [
@@ -3363,7 +3363,7 @@
     "correctExplanation": "Assets are anything of value one owns (the checking account and stock); liabilities are debts one owes (the student loans and credit card balance). A balance sheet lists both to determine net worth.",
     "wrongExplanations": [
       null,
-      "This reverses the categories \u2014 things she owns are assets, and debts she owes are liabilities, not the other way around.",
+      "This reverses the categories — things she owns are assets, and debts she owes are liabilities, not the other way around.",
       "The student loans and credit card balance are debts she owes, so they are liabilities, not assets.",
       "The checking account and stock are things of value she owns, so they are assets, not liabilities."
     ],
@@ -3392,7 +3392,7 @@
       "Public saving"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Life-cycle saving is saving to meet a long-term, generally expected objective \u2014 like a planned future home purchase \u2014 which matches this scenario exactly.",
+    "correctExplanation": "Life-cycle saving is saving to meet a long-term, generally expected objective — like a planned future home purchase — which matches this scenario exactly.",
     "wrongExplanations": [
       null,
       "Precautionary saving is for protection against unexpected setbacks (job loss, medical emergencies), not a planned, expected purchase.",
@@ -3423,7 +3423,7 @@
       "Private saving"
     ],
     "answerIndex": 1,
-    "correctExplanation": "Precautionary saving is saving for protection against setbacks \u2014 an emergency fund for unexpected job loss or medical costs is a textbook example.",
+    "correctExplanation": "Precautionary saving is saving for protection against setbacks — an emergency fund for unexpected job loss or medical costs is a textbook example.",
     "wrongExplanations": [
       "Life-cycle saving targets long-term, expected objectives, not protection against an unexpected setback.",
       null,
@@ -3456,7 +3456,7 @@
     "answerIndex": 2,
     "correctExplanation": "Bequest saving is saving undertaken specifically to leave an inheritance; the course notes this motive is concentrated mainly among higher-income groups, matching this scenario.",
     "wrongExplanations": [
-      "She isn't saving to protect against an unexpected setback \u2014 her income already covers her own needs.",
+      "She isn't saving to protect against an unexpected setback — her income already covers her own needs.",
       "Life-cycle saving targets the saver's own long-term expected needs, not a transfer to heirs.",
       null,
       "Public saving describes the government sector, not an individual retiree's motive."
@@ -3477,7 +3477,7 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "A firm is deciding whether to invest in a new machine. Which of the following would increase the benefit side of that decision \u2014 the value of the marginal product of the capital?",
+    "question": "A firm is deciding whether to invest in a new machine. Which of the following would increase the benefit side of that decision — the value of the marginal product of the capital?",
     "choices": [
       "A higher real interest rate on the funds needed to buy the machine",
       "A technical innovation that raises the machine's output per unit of capital",
@@ -3516,10 +3516,10 @@
       "$414,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Total assets = $3,000 + $15,000 + $220,000 = $238,000. Total liabilities = $6,000 + $170,000 = $176,000. Net worth = assets \u2212 liabilities = $238,000 \u2212 $176,000 = $62,000.",
+    "correctExplanation": "Total assets = $3,000 + $15,000 + $220,000 = $238,000. Total liabilities = $6,000 + $170,000 = $176,000. Net worth = assets − liabilities = $238,000 − $176,000 = $62,000.",
     "wrongExplanations": [
       null,
-      "$238,000 is total assets only \u2014 it ignores the household's liabilities.",
+      "$238,000 is total assets only — it ignores the household's liabilities.",
       "$176,000 is total liabilities only, not net worth.",
       "$414,000 comes from adding assets and liabilities together instead of subtracting liabilities from assets."
     ],
@@ -3548,7 +3548,7 @@
       "6%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Real interest rate = nominal interest rate \u2212 inflation rate = 6% \u2212 2.5% = 3.5%.",
+    "correctExplanation": "Real interest rate = nominal interest rate − inflation rate = 6% − 2.5% = 3.5%.",
     "wrongExplanations": [
       null,
       "8.5% comes from adding inflation to the nominal rate instead of subtracting it.",
@@ -3579,12 +3579,12 @@
       "21%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Saving rate = saving \u00f7 income = $10,500 \u00f7 $70,000 = 0.15 = 15%.",
+    "correctExplanation": "Saving rate = saving ÷ income = $10,500 ÷ $70,000 = 0.15 = 15%.",
     "wrongExplanations": [
       null,
-      "85% is the share of income spent (100% \u2212 15%), not the saving rate, which measures the share saved.",
+      "85% is the share of income spent (100% − 15%), not the saving rate, which measures the share saved.",
       "10.5% mistakes the dollar amount saved for a percentage; the saving rate must be computed as saving divided by income.",
-      "21% doesn't match $10,500 \u00f7 $70,000; recomputing the division gives 15%, not 21%."
+      "21% doesn't match $10,500 ÷ $70,000; recomputing the division gives 15%, not 21%."
     ],
     "tags": [
       "saving rate",
@@ -3604,18 +3604,18 @@
     "questionType": "vocab",
     "question": "Private saving, as defined in this course, equals:",
     "choices": [
-      "Y \u2013 T \u2013 C",
-      "Y \u2013 C \u2013 G",
-      "T \u2013 G",
-      "C \u2013 T"
+      "Y – T – C",
+      "Y – C – G",
+      "T – G",
+      "C – T"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving is after-tax income minus consumption: S_PRIVATE = Y \u2212 T \u2212 C, where T is net taxes (taxes minus transfers minus government interest payments).",
+    "correctExplanation": "Private saving is after-tax income minus consumption: S_PRIVATE = Y − T − C, where T is net taxes (taxes minus transfers minus government interest payments).",
     "wrongExplanations": [
       null,
-      "Y \u2212 C \u2212 G is the formula for national saving, not private saving specifically.",
-      "T \u2212 G is the formula for public saving, not private saving.",
-      "C \u2212 T isn't one of the saving identities covered; it doesn't represent private saving."
+      "Y − C − G is the formula for national saving, not private saving specifically.",
+      "T − G is the formula for public saving, not private saving.",
+      "C − T isn't one of the saving identities covered; it doesn't represent private saving."
     ],
     "tags": [
       "private saving",
@@ -3635,18 +3635,18 @@
     "questionType": "vocab",
     "question": "Public saving is defined as:",
     "choices": [
-      "T \u2013 G",
-      "Y \u2013 T \u2013 C",
-      "G \u2013 T",
-      "Y \u2013 C \u2013 G"
+      "T – G",
+      "Y – T – C",
+      "G – T",
+      "Y – C – G"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Public saving is the public sector's income (net taxes, T) minus its spending on current needs (G): S_PUBLIC = T \u2212 G.",
+    "correctExplanation": "Public saving is the public sector's income (net taxes, T) minus its spending on current needs (G): S_PUBLIC = T − G.",
     "wrongExplanations": [
       null,
-      "Y \u2212 T \u2212 C is private saving, not public saving.",
-      "G \u2212 T reverses the terms; public saving is net taxes minus government spending, not the other way around.",
-      "Y \u2212 C \u2212 G is national saving (private plus public combined), not public saving alone."
+      "Y − T − C is private saving, not public saving.",
+      "G − T reverses the terms; public saving is net taxes minus government spending, not the other way around.",
+      "Y − C − G is national saving (private plus public combined), not public saving alone."
     ],
     "tags": [
       "public saving",
@@ -3672,7 +3672,7 @@
       "Private saving exceeds public saving"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A budget deficit is the excess of government spending over net tax collections (G > T). The course describes a budget deficit as \"public dissaving\" \u2014 the public sector is spending more than it is taking in.",
+    "correctExplanation": "A budget deficit is the excess of government spending over net tax collections (G > T). The course describes a budget deficit as \"public dissaving\" — the public sector is spending more than it is taking in.",
     "wrongExplanations": [
       null,
       "This describes a budget surplus, the opposite of a deficit.",
@@ -3703,7 +3703,7 @@
       "The market that sets the nominal wage for labor"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The loanable funds market \u2014 sometimes called the financial market \u2014 is where the equilibrium real interest rate equates the amount of saving supplied with the amount of investment funds demanded.",
+    "correctExplanation": "The loanable funds market — sometimes called the financial market — is where the equilibrium real interest rate equates the amount of saving supplied with the amount of investment funds demanded.",
     "wrongExplanations": [
       null,
       "Foreign-currency trading describes the foreign exchange market, not the loanable funds market.",
@@ -3738,9 +3738,9 @@
     "correctExplanation": "Crowding out occurs when a larger government budget deficit reduces national saving, pushing up the equilibrium interest rate along the investment demand curve and reducing (crowding out) private investment.",
     "wrongExplanations": [
       null,
-      "This describes the effect of a technology-driven increase in investment demand, which raises both saving and investment \u2014 the opposite dynamic from crowding out.",
+      "This describes the effect of a technology-driven increase in investment demand, which raises both saving and investment — the opposite dynamic from crowding out.",
       "Higher private saving shifting the saving curve outward would lower the interest rate; this is not what \"crowding out\" describes.",
-      "This describes how capital inflows can finance more investment than domestic saving alone \u2014 a different open-economy concept, not crowding out."
+      "This describes how capital inflows can finance more investment than domestic saving alone — a different open-economy concept, not crowding out."
     ],
     "tags": [
       "crowding out",
@@ -3770,7 +3770,7 @@
     "correctExplanation": "Ricardian equivalence holds that if households fully anticipate that today's government borrowing means higher future taxes, they raise their own saving to offset it, leaving national saving unchanged. The course notes that in practice, this does not fully hold.",
     "wrongExplanations": [
       null,
-      "This is close to the opposite of the idea \u2014 a rising deficit reduces national saving unless households' behavior offsets it exactly, which Ricardian equivalence claims only imperfectly holds in practice.",
+      "This is close to the opposite of the idea — a rising deficit reduces national saving unless households' behavior offsets it exactly, which Ricardian equivalence claims only imperfectly holds in practice.",
       "Ricardian equivalence is about saving behavior offsetting the deficit, not a direct claim that debt automatically lowers the interest rate.",
       "Ricardian equivalence is about domestic household saving responding to debt, not about capital inflows offsetting deficits."
     ],
@@ -3791,7 +3791,7 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "In a closed economy \u2014 one with no international trade or capital flows \u2014 the equilibrium condition in the loanable funds market is:",
+    "question": "In a closed economy — one with no international trade or capital flows — the equilibrium condition in the loanable funds market is:",
     "choices": [
       "S = I",
       "S + KI = I",
@@ -3832,11 +3832,11 @@
       "$430 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "National saving is S = Y \u2212 C \u2212 G = $500B \u2212 $340B \u2212 $90B = $70 billion.",
+    "correctExplanation": "National saving is S = Y − C − G = $500B − $340B − $90B = $70 billion.",
     "wrongExplanations": [
       null,
-      "$160 billion equals Y \u2212 C only; it omits subtracting government spending G.",
-      "$410 billion equals Y \u2212 G only; it omits subtracting consumption C.",
+      "$160 billion equals Y − C only; it omits subtracting government spending G.",
+      "$410 billion equals Y − G only; it omits subtracting consumption C.",
       "$430 billion is C + G added together, not income minus current-needs spending."
     ],
     "tags": [
@@ -3865,11 +3865,11 @@
       "$40 million"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving = Y \u2212 T \u2212 C = $200M \u2212 $40M \u2212 $130M = $30M. Public saving = T \u2212 G = $40M \u2212 $35M = $5M. National saving = private + public = $30M + $5M = $35 million (which also matches S = Y \u2212 C \u2212 G = $200M \u2212 $130M \u2212 $35M = $35M).",
+    "correctExplanation": "Private saving = Y − T − C = $200M − $40M − $130M = $30M. Public saving = T − G = $40M − $35M = $5M. National saving = private + public = $30M + $5M = $35 million (which also matches S = Y − C − G = $200M − $130M − $35M = $35M).",
     "wrongExplanations": [
       null,
-      "$30 million is private saving alone (Y \u2212 T \u2212 C); it omits public saving.",
-      "$5 million is public saving alone (T \u2212 G); it omits private saving.",
+      "$30 million is private saving alone (Y − T − C); it omits public saving.",
+      "$5 million is public saving alone (T − G); it omits private saving.",
       "$40 million is simply net taxes (T); it isn't a saving calculation at all."
     ],
     "tags": [
@@ -3902,7 +3902,7 @@
     "correctExplanation": "A larger government budget deficit reduces national saving, shifting the saving (supply) curve for loanable funds inward. This raises the equilibrium real interest rate, which moves the economy up along the investment demand curve, reducing (crowding out) the equilibrium quantity of investment.",
     "wrongExplanations": [
       null,
-      "Investment rises along the investment demand curve only if the interest rate falls, not rises \u2014 a reduced supply of saving pushes the rate up and investment down.",
+      "Investment rises along the investment demand curve only if the interest rate falls, not rises — a reduced supply of saving pushes the rate up and investment down.",
       "A leftward shift in the supply of saving raises, not lowers, the equilibrium interest rate.",
       "Both parts are backward: a smaller supply of loanable funds raises the interest rate and reduces investment, not the reverse."
     ],
@@ -3965,10 +3965,10 @@
       "A foreign firm importing goods from a domestic seller"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A capital inflow is the purchase of a domestic asset (real or financial) by a foreign household or firm \u2014 money flowing in to acquire an asset, not to buy currently produced goods or services.",
+    "correctExplanation": "A capital inflow is the purchase of a domestic asset (real or financial) by a foreign household or firm — money flowing in to acquire an asset, not to buy currently produced goods or services.",
     "wrongExplanations": [
       null,
-      "This describes a capital outflow \u2014 a domestic purchase of a foreign asset \u2014 the reverse direction.",
+      "This describes a capital outflow — a domestic purchase of a foreign asset — the reverse direction.",
       "Exporting goods is a trade transaction (counted in NX), not a capital flow, which involves the purchase of existing assets.",
       "Importing goods is also a trade transaction, not a capital flow."
     ],
@@ -3997,7 +3997,7 @@
       "National saving minus investment"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Net capital inflows equal capital inflows (foreign purchases of domestic assets) minus capital outflows (domestic purchases of foreign assets): KI = inflows \u2212 outflows.",
+    "correctExplanation": "Net capital inflows equal capital inflows (foreign purchases of domestic assets) minus capital outflows (domestic purchases of foreign assets): KI = inflows − outflows.",
     "wrongExplanations": [
       null,
       "Adding inflows and outflows together doesn't isolate the net direction of capital flows; the \"net\" in net capital inflows specifically means inflows minus outflows.",
@@ -4029,7 +4029,7 @@
       "Because capital inflows and net exports are unrelated to each other"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The identity NX + KI = 0 (equivalently KI = \u2212NX) means a trade deficit (NX < 0) is mechanically matched by positive net capital inflows (KI > 0): the dollars foreigners receive for the goods they sell to us are used to buy domestic assets.",
+    "correctExplanation": "The identity NX + KI = 0 (equivalently KI = −NX) means a trade deficit (NX < 0) is mechanically matched by positive net capital inflows (KI > 0): the dollars foreigners receive for the goods they sell to us are used to buy domestic assets.",
     "wrongExplanations": [
       null,
       "There is no such legal requirement; the relationship is an accounting identity, not a legal rule.",
@@ -4087,20 +4087,20 @@
     "sourceLabel": "Class 5 slides",
     "needsReview": false,
     "questionType": "standard",
-    "question": "A country's net exports (NX) are \u2212$25 billion this year. Using the identity NX + KI = 0, what are its net capital inflows (KI)?",
+    "question": "A country's net exports (NX) are −$25 billion this year. Using the identity NX + KI = 0, what are its net capital inflows (KI)?",
     "choices": [
       "+$25 billion",
-      "\u2212$25 billion",
+      "−$25 billion",
       "$0",
       "+$50 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Since NX + KI = 0, KI = \u2212NX = \u2212(\u2212$25B) = +$25 billion. A trade deficit of $25 billion is matched by $25 billion in net capital inflows.",
+    "correctExplanation": "Since NX + KI = 0, KI = −NX = −(−$25B) = +$25 billion. A trade deficit of $25 billion is matched by $25 billion in net capital inflows.",
     "wrongExplanations": [
       null,
-      "\u2212$25 billion would mean net capital outflows of the same size as the trade deficit, which doesn't satisfy NX + KI = 0 (\u221225 + \u221225 \u2260 0).",
-      "KI = 0 would only satisfy the identity if NX were also 0, but NX is \u2212$25 billion here.",
-      "+$50 billion doesn't come from the identity NX + KI = 0; it isn't consistent with NX = \u2212$25 billion."
+      "−$25 billion would mean net capital outflows of the same size as the trade deficit, which doesn't satisfy NX + KI = 0 (−25 + −25 ≠ 0).",
+      "KI = 0 would only satisfy the identity if NX were also 0, but NX is −$25 billion here.",
+      "+$50 billion doesn't come from the identity NX + KI = 0; it isn't consistent with NX = −$25 billion."
     ],
     "tags": [
       "NX + KI = 0",
@@ -4134,7 +4134,7 @@
       null,
       "Higher perceived risk makes domestic assets less attractive to foreign buyers, shifting the curve left (decreasing inflows), not right.",
       "Risk is explicitly one of the factors that shifts the capital inflow curve; it isn't a case of no effect.",
-      "A leftward shift of the curve corresponds to lower inflows at a given interest rate, not higher \u2014 the shift direction and the quantity effect move together here."
+      "A leftward shift of the curve corresponds to lower inflows at a given interest rate, not higher — the shift direction and the quantity effect move together here."
     ],
     "tags": [
       "risk",
@@ -4197,7 +4197,7 @@
     "correctExplanation": "Net exports (NX) measures the value of currently produced goods and services traded across borders. Capital flows are purchases or sales of existing real and financial assets, a different kind of transaction, so they aren't counted directly in NX, though NX and KI are linked through the identity NX + KI = 0.",
     "wrongExplanations": [
       null,
-      "Capital flows commonly involve private households and firms buying stocks, bonds, and real estate \u2014 not just central banks.",
+      "Capital flows commonly involve private households and firms buying stocks, bonds, and real estate — not just central banks.",
       "Capital flows are generally not zero; countries regularly run net capital inflows or outflows.",
       "NX measures the trade balance in goods and services (exports minus imports), not domestic consumption spending."
     ],
@@ -4220,17 +4220,17 @@
     "questionType": "standard",
     "question": "A U.S. resident buys a Japanese-made motorcycle for $12,000. The Japanese manufacturer deposits the $12,000 in a U.S. bank account and uses it to purchase U.S. government bonds rather than U.S. goods. What are the resulting values of NX and KI from this transaction?",
     "choices": [
-      "NX = \u2212$12,000; KI = +$12,000",
-      "NX = +$12,000; KI = \u2212$12,000",
-      "NX = \u2212$12,000; KI = \u2212$12,000",
+      "NX = −$12,000; KI = +$12,000",
+      "NX = +$12,000; KI = −$12,000",
+      "NX = −$12,000; KI = −$12,000",
       "NX = $0; KI = $0"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The motorcycle purchase is a U.S. import, so NX falls by $12,000 (NX = \u2212$12,000). Because the manufacturer uses the dollars to buy a U.S. bond (a domestic financial asset) instead of U.S. goods, that's a capital inflow of $12,000 (KI = +$12,000) \u2014 consistent with NX + KI = 0, since \u2212$12,000 + $12,000 = 0.",
+    "correctExplanation": "The motorcycle purchase is a U.S. import, so NX falls by $12,000 (NX = −$12,000). Because the manufacturer uses the dollars to buy a U.S. bond (a domestic financial asset) instead of U.S. goods, that's a capital inflow of $12,000 (KI = +$12,000) — consistent with NX + KI = 0, since −$12,000 + $12,000 = 0.",
     "wrongExplanations": [
       null,
       "This reverses both signs: importing a good makes NX negative (not positive), and a foreign purchase of a U.S. asset is a capital inflow (positive KI), not a capital outflow.",
-      "KI cannot also be negative here \u2014 the Japanese manufacturer buying a U.S. bond is a purchase of a domestic asset by a foreigner, which is a capital inflow (positive KI), not a capital outflow.",
+      "KI cannot also be negative here — the Japanese manufacturer buying a U.S. bond is a purchase of a domestic asset by a foreigner, which is a capital inflow (positive KI), not a capital outflow.",
       "Both values are nonzero: the purchase reduces NX by the full amount, and the bond purchase is a real capital inflow of the same amount, satisfying NX + KI = 0."
     ],
     "tags": [
@@ -4669,7 +4669,7 @@
       "It falls to approximately $520"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Bond price = promised payment / (1 + market rate) = $1,040 / 1.08 \u2248 $963. Because this bond's 4% coupon is now below the 8% market rate, investors will only pay a discounted price for it -- confirming that bond prices and interest rates move inversely, as Class 6 states.",
+    "correctExplanation": "Bond price = promised payment / (1 + market rate) = $1,040 / 1.08 ≈ $963. Because this bond's 4% coupon is now below the 8% market rate, investors will only pay a discounted price for it -- confirming that bond prices and interest rates move inversely, as Class 6 states.",
     "wrongExplanations": [
       null,
       "Bond prices move inversely with interest rates -- a higher market rate should push this older, lower-coupon bond's price down, not up.",
@@ -9078,6 +9078,1679 @@
     "tags": [
       "money",
       "financial assets"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-001",
+    "topic": "saving-investment",
+    "subtopic": "National Saving and Investment",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A closed economy's investment this year totals $3.6 billion. The government's budget shows a $420 million deficit. Using the closed-economy identity that investment equals national saving, what is the combined saving of this economy's households and firms (private saving)?",
+    "choices": [
+      "$4.02 billion",
+      "$3.18 billion",
+      "$3.6 billion",
+      "$420 million"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "In a closed economy, investment equals national saving, and national saving is private saving plus public saving. A budget deficit is negative public saving, so private saving = investment + deficit = $3.6 billion + $420 million = $4.02 billion.",
+    "wrongExplanations": [
+      null,
+      "This subtracts the deficit from investment instead of adding it back -- since the deficit already pulled national saving (and therefore investment) down, private saving must be larger than investment, not smaller.",
+      "This reports investment itself, ignoring that a budget deficit means private saving must exceed the investment/national-saving total.",
+      "This is just the size of the deficit, not the economy's private saving."
+    ],
+    "tags": [
+      "saving and investment",
+      "closed economy",
+      "budget deficit",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-002",
+    "topic": "saving-investment",
+    "subtopic": "National Saving and Investment",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In a closed economy, households and firms save a combined $1.8 billion this year. The government runs a budget surplus of $300 million (it collects more in net taxes than it spends). What is this economy's investment level?",
+    "choices": [
+      "$2.1 billion",
+      "$1.5 billion",
+      "$1.8 billion",
+      "$300 million"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A budget surplus is positive public saving, which adds to private saving to get national saving (and, in a closed economy, investment): $1.8 billion + $300 million = $2.1 billion.",
+    "wrongExplanations": [
+      null,
+      "This subtracts the surplus instead of adding it -- a surplus is positive public saving and should increase national saving, not decrease it.",
+      "This uses only private saving and ignores the government surplus entirely.",
+      "This is just the size of the surplus, not the economy's total investment."
+    ],
+    "tags": [
+      "saving and investment",
+      "closed economy",
+      "budget surplus"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-003",
+    "topic": "saving-investment",
+    "subtopic": "National Saving and Investment",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In a closed economy, households and firms save $2.0 billion, and the government runs a budget deficit of $600 million. A student argues that investment must be $2.6 billion, reasoning that \"more government borrowing means more total funds available for investment.\" Evaluate this reasoning.",
+    "choices": [
+      "The reasoning is wrong: a budget deficit is public dissaving, which subtracts from private saving to get national saving/investment, so investment is $1.4 billion, not $2.6 billion",
+      "The reasoning is correct: government borrowing adds directly to the pool of loanable funds, so investment is $2.6 billion",
+      "The reasoning is wrong, but investment is still $2.0 billion, since the government's budget position doesn't affect national saving",
+      "The reasoning is wrong, but investment equals $600 million, the size of the deficit itself"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A budget deficit means the government is borrowing, not supplying funds -- it is public dissaving. National saving (and, in a closed economy, investment) is private saving plus public saving: $2.0 billion + (-$600 million) = $1.4 billion. The deficit reduces the funds available for investment rather than adding to them.",
+    "wrongExplanations": [
+      null,
+      "This restates the student's flawed reasoning -- government borrowing competes for loanable funds rather than adding to their supply.",
+      "This correctly rejects the student's number but incorrectly ignores the deficit's effect on national saving; public saving is part of the national-saving identity and cannot be dropped.",
+      "This misidentifies the deficit itself as the level of investment, rather than as one component that reduces national saving from its private-saving starting point."
+    ],
+    "tags": [
+      "saving and investment",
+      "closed economy",
+      "budget deficit",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-001",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate and Compounding",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A small business borrows $22,000 at a fixed 9% annual interest rate. The full loan, plus all accumulated interest, is due as a single payment 6 years later. Over those 6 years, prices rise by an average of 4% per year. In today's (inflation-adjusted) dollars, how large is that final payment expected to be?",
+    "choices": [
+      "$29,482",
+      "$36,896",
+      "$28,600",
+      "$22,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The real interest rate is the nominal rate minus inflation: 9% - 4% = 5%. In today's (real) dollars, the loan compounds at this real rate over 6 years: $22,000 x (1.05)^6, which is approximately $29,482.",
+    "wrongExplanations": [
+      null,
+      "This compounds the loan at the NOMINAL rate (9%) instead of the real rate -- since the question asks for the payment in today's dollars, inflation must be stripped out first using the real rate.",
+      "This uses the correct 5% real rate but applies it as simple (non-compounding) interest instead of compounding it over the 6 years.",
+      "This is just the original loan amount, with no interest applied at all."
+    ],
+    "tags": [
+      "real interest rate",
+      "fisher equation",
+      "compound interest"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-002",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate and Compounding",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An investor deposits $8,000 in an account with a fixed 7% nominal annual interest rate. After 4 years, the account balance is worth approximately $9,004 in today's purchasing power. Approximately what was the average annual inflation rate over these 4 years?",
+    "choices": [
+      "about 4%",
+      "about 7%",
+      "about 10%",
+      "about 3%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "First find the real rate that turns $8,000 into $9,004 over 4 years: (1+r)^4 = 9,004/8,000 = 1.1255, so r is approximately 3%. Since the real rate equals the nominal rate minus inflation, inflation = nominal rate - real rate = 7% - 3% = 4%.",
+    "wrongExplanations": [
+      null,
+      "This is just the nominal interest rate itself, without subtracting out the real growth the deposit actually achieved.",
+      "This adds the nominal rate and the implied real rate (7% + 3%) instead of subtracting the real rate from the nominal rate.",
+      "This reports the implied real rate (about 3%) as if it were the inflation rate, rather than using it to back out inflation from the nominal rate."
+    ],
+    "tags": [
+      "real interest rate",
+      "fisher equation",
+      "compound interest",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-003",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate and Compounding",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Two savers each deposit $10,000 for 3 years. Saver A earns a fixed 6% nominal annual rate while inflation averages 2% per year. Saver B earns a fixed 8% nominal annual rate while inflation averages 5% per year. In real (inflation-adjusted) terms, which saver ends up with more purchasing power, and by roughly how much?",
+    "choices": [
+      "Saver A, by about $322, because A's real interest rate (4%) is higher than B's (3%), despite B's higher nominal rate",
+      "Saver B, by about $322, because B's nominal rate (8%) is higher than A's (6%)",
+      "Saver B, because a higher inflation rate directly boosts real investment returns",
+      "They end up with identical real purchasing power, since both started with the same $10,000 deposit"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Real rates are nominal minus inflation: Saver A earns 6% - 2% = 4% real, Saver B earns 8% - 5% = 3% real. Over 3 years, A's real value is $10,000 x (1.04)^3 is about $11,249, while B's is $10,000 x (1.03)^3 is about $10,927 -- A ends up ahead by about $322, because A's real rate is higher even though B's nominal rate is higher.",
+    "wrongExplanations": [
+      null,
+      "This picks the right winner's approximate margin but the wrong saver -- comparing nominal rates directly is misleading once the two savers face different inflation rates.",
+      "Higher inflation erodes real returns; it does not boost them. B's higher inflation rate is exactly why B's real rate ends up lower than A's despite B's higher nominal rate.",
+      "The two real rates (4% vs. 3%) are different, so the two savers do not end up with the same real purchasing power after 3 years of compounding."
+    ],
+    "tags": [
+      "real interest rate",
+      "fisher equation",
+      "compound interest",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-004",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Real Interest Rate and Compounding",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A borrower says: \"My loan charges 8% interest and inflation is 3%, so in real terms I'm paying back 11% more each year.\" What is wrong with this reasoning?",
+    "choices": [
+      "The real rate is approximately nominal minus inflation (about 5% here), not nominal plus inflation; the borrower added instead of subtracted inflation",
+      "The real rate is approximately nominal plus inflation, so 11% is the correct real rate",
+      "Inflation doesn't affect what the borrower actually owes, so the real rate is just the nominal 8%",
+      "The real rate equals inflation minus the nominal rate, so it would be -5%, meaning the loan effectively pays the borrower"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The (approximate) real interest rate is the nominal rate minus the inflation rate: 8% - 3% = 5%. The borrower incorrectly added the inflation rate to the nominal rate instead of subtracting it, overstating the true real cost of the loan.",
+    "wrongExplanations": [
+      null,
+      "This repeats the borrower's exact mistake -- adding inflation to the nominal rate -- instead of correctly subtracting it.",
+      "Inflation directly affects the real burden of a fixed nominal loan: it erodes the real value of what's owed, so the real rate paid is lower than the nominal rate, not equal to it.",
+      "This flips the correct subtraction order; the real rate is nominal minus inflation, not inflation minus nominal, and a real loan cost is not typically negative when the nominal rate exceeds inflation."
+    ],
+    "tags": [
+      "real interest rate",
+      "fisher equation",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-004",
+    "topic": "saving-investment",
+    "subtopic": "Saving Behavior and Wealth Effects",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Household A sets aside an extra $5,000 of this year's paycheck that it doesn't spend. Household B doesn't change its income or spending at all this year, but the value of the house it already owns rises by $30,000 due to a hot local housing market. How does each event affect this year's measured household saving (income minus consumption)?",
+    "choices": [
+      "Household A's $5,000 counts as saving; Household B's $30,000 does not, since saving is measured from current income and consumption, not from changes in the value of assets already owned",
+      "Both amounts count equally as saving this year, since both increase household wealth by a similar order of magnitude",
+      "Neither amount counts as saving, since saving requires actually depositing cash in a formal bank account",
+      "Household B's $30,000 counts as saving, but Household A's $5,000 does not, since capital gains are a larger and more durable form of wealth building"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Saving is defined as current income minus current consumption. Household A's unspent $5,000 fits this definition directly. Household B's $30,000 is a capital gain -- a rise in the value of an asset it already owned -- which is not income earned or saved this year, even though it does raise the household's overall wealth.",
+    "wrongExplanations": [
+      null,
+      "Wealth and saving are related but distinct: a capital gain raises wealth without being counted as saving out of current income, so the two amounts do not count equally as saving.",
+      "Saving simply requires income exceeding consumption; it doesn't require the unspent amount to sit in any particular type of account.",
+      "This reverses which amount fits the definition of saving -- capital gains are a wealth effect, not saving, regardless of their size relative to income saved."
+    ],
+    "tags": [
+      "saving rate",
+      "wealth effect",
+      "capital gains",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-005",
+    "topic": "saving-investment",
+    "subtopic": "Saving Behavior and Wealth Effects",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A classmate claims: \"Home values have risen for decades, so this must mean U.S. households have been actively saving more and more of their income.\" Evaluate this claim.",
+    "choices": [
+      "The claim is false: rising home values are capital gains, not income-based saving, and in practice rising housing wealth has been associated with households saving LESS of their income, not more",
+      "The claim is true: rising asset values are the primary way the measured household saving rate increases over time",
+      "The claim is true, but only because rising home values eventually get spent on home improvements, which counts as investment spending",
+      "The claim cannot be evaluated, since the household saving rate is unrelated to housing markets in any way"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Rising home values are capital gains -- increases in the value of an asset already owned -- not saving out of current income. Empirically, when households feel wealthier from rising home values, they tend to treat those gains as a substitute for actively saving, which is associated with a LOWER measured saving rate, the opposite of the classmate's claim.",
+    "wrongExplanations": [
+      null,
+      "This gets the relationship backwards; capital gains are not counted as saving, and the associated wealth effect tends to reduce, not raise, the saving rate.",
+      "Home improvement spending is a separate decision from the capital gain itself and isn't the mechanism connecting rising home values to household saving behavior.",
+      "The housing market's effect on household wealth and spending decisions is directly relevant to (and tends to lower) the measured household saving rate."
+    ],
+    "tags": [
+      "saving rate",
+      "wealth effect",
+      "capital gains",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-006",
+    "topic": "saving-investment",
+    "subtopic": "Saving Behavior and Wealth Effects",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Which term specifically describes an increase in the market value of an asset a household already owns (such as a home or a share of stock), as distinct from unconsumed current income?",
+    "choices": [
+      "Capital gain",
+      "Private saving",
+      "Disposable income",
+      "Public saving"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A capital gain is an increase in the value of an existing asset. It is a change in wealth, not income earned or saved out of a paycheck, which is why it is treated differently from saving in national accounting.",
+    "wrongExplanations": [
+      null,
+      "Private saving is disposable income minus consumption spending -- a flow measured from current income, not a change in an asset's market value.",
+      "Disposable income is income after taxes and transfers; it says nothing about whether an existing asset's value has changed.",
+      "Public saving is the government's net taxes minus its purchases -- unrelated to a household asset's change in value."
+    ],
+    "tags": [
+      "capital gains",
+      "saving rate",
+      "wealth effect"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-001",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A coffee farmer sells raw beans for $40,000 to a processor. The processor cleans and dries the beans and sells them for $58,000 to a roaster. The roaster roasts the beans and sells them for $95,000 to a distributor. The distributor sells the roasted coffee to retail stores for $150,000, and the retail stores sell it to the public for $310,000. Using the value-added method, what is the total contribution to GDP from this chain?",
+    "choices": [
+      "$310,000",
+      "$653,000",
+      "$150,000",
+      "$160,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value added at each stage: farmer $40,000 (no purchased inputs), processor $58,000 - $40,000 = $18,000, roaster $95,000 - $58,000 = $37,000, distributor $150,000 - $95,000 = $55,000, and retail stores $310,000 - $150,000 = $160,000. Total value added = $40,000 + $18,000 + $37,000 + $55,000 + $160,000 = $310,000 -- equal to the final sale price to the public, as it must be.",
+    "wrongExplanations": [
+      null,
+      "This sums all five firms' full revenues ($40,000 + $58,000 + $95,000 + $150,000 + $310,000) instead of each firm's value added, double- and triple-counting the beans and coffee along the way.",
+      "This is only the distributor's sale price to retail stores, not the total value added across the whole chain.",
+      "This is only the retail stores' own value added, ignoring the value added by the other four firms earlier in the chain."
+    ],
+    "tags": [
+      "gdp",
+      "value added",
+      "double counting"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-002",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A three-firm chain contributes $220,000 in total value added to GDP. The first firm (a raw-materials supplier) adds $60,000 in value, and the third firm (a retailer) adds $95,000 in value. What is the value added by the second firm (a manufacturer) in the middle of the chain?",
+    "choices": [
+      "$65,000",
+      "$155,000",
+      "$220,000",
+      "$125,000"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Total value added is the sum of every firm's individual value added, so the manufacturer's value added is the total minus the other two firms' shares: $220,000 - $60,000 - $95,000 = $65,000.",
+    "wrongExplanations": [
+      null,
+      "This adds the supplier's and retailer's value added together instead of subtracting them from the total to isolate the manufacturer's share.",
+      "This reports the chain's total value added, ignoring that the supplier and retailer already account for part of that total.",
+      "This subtracts only the retailer's value added from the total, forgetting to also subtract the supplier's."
+    ],
+    "tags": [
+      "gdp",
+      "value added",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-003",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Using the five-firm coffee chain above (farmer $40,000, processor $58,000, roaster $95,000, distributor $150,000, retail $310,000, with correct total value added of $310,000), suppose a student instead sums all five firms' revenues to estimate GDP. By how much does the student's (incorrect) total overstate the chain's actual contribution to GDP?",
+    "choices": [
+      "$343,000",
+      "$653,000",
+      "$310,000",
+      "$0"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The student's total (summing all revenues) is $40,000 + $58,000 + $95,000 + $150,000 + $310,000 = $653,000. The correct GDP contribution is $310,000. The overstatement is $653,000 - $310,000 = $343,000, reflecting the value of intermediate goods counted multiple times.",
+    "wrongExplanations": [
+      null,
+      "This is the student's (incorrect) total itself, not the size of the overstatement relative to the correct figure.",
+      "This is the correct GDP contribution using the value-added method, not the amount by which the flawed revenue-summing method overstates it.",
+      "The two methods do not give the same total here -- summing revenues double- and triple-counts intermediate goods, producing a total well above the correct value-added figure."
+    ],
+    "tags": [
+      "gdp",
+      "value added",
+      "double counting"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-004",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Chain X has a raw-materials producer, a manufacturer, and a retailer (3 firms), with the retailer's final sale to the public at $500,000. Chain Y has a raw-materials producer, a processor, a manufacturer, a wholesaler, and a retailer (5 firms), with the retailer's final sale to the public also at $500,000. Assuming both chains' value-added figures are computed correctly with no errors or omissions, how do their total contributions to GDP compare?",
+    "choices": [
+      "They contribute the same $500,000 to GDP, since total value added always sums to the final sale price to the public, regardless of how many production stages exist",
+      "Chain Y contributes more to GDP, since it has more firms each adding their own value",
+      "Chain X contributes more to GDP, since fewer stages mean less value is lost to intermediate costs",
+      "It cannot be determined without knowing each firm's individual value added in both chains"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "When value added is computed correctly at every stage, the sum always telescopes down to the final good's market value -- intermediate purchases are subtracted out exactly once at each step regardless of how many stages there are. Since both chains end in a $500,000 final sale, both contribute exactly $500,000 to GDP.",
+    "wrongExplanations": [
+      null,
+      "More production stages divide the same final value among more firms; they don't create additional value added beyond the final sale price.",
+      "Fewer stages don't \"save\" value from being lost -- correctly computed value added always sums to the final sale price regardless of the number of intermediate firms.",
+      "The final sale price alone is sufficient here, since correctly computed value added is guaranteed to sum to that price no matter how the individual firms' shares are split."
+    ],
+    "tags": [
+      "gdp",
+      "value added",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-005",
+    "topic": "gdp-accounting",
+    "subtopic": "Value-Added Method",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In GDP accounting, a firm's \"value added\" is best defined as which of the following?",
+    "choices": [
+      "The firm's revenue from sales minus the cost of intermediate goods and services it purchased from other firms",
+      "The firm's total revenue from all sales, including sales to other businesses",
+      "The firm's profit after subtracting all costs, including wages, capital costs, and taxes",
+      "The total market value of the final good sold directly to the public"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Value added is a firm's revenue minus what it paid for intermediate inputs purchased from other firms. It therefore includes payments to labor and capital plus profit, but excludes the value of inputs bought from earlier stages in the chain -- which avoids double-counting when value added is summed across firms.",
+    "wrongExplanations": [
+      null,
+      "Using total revenue double-counts the value of any purchased inputs, since that value was already counted at the firm that produced those inputs.",
+      "Value added includes payments to labor and capital, not just profit -- it is broader than profit alone.",
+      "This describes the final-goods approach to GDP, which happens to sum to the same total as value added across a whole chain, but it is not the definition of an individual firm's own value added."
+    ],
+    "tags": [
+      "gdp",
+      "value added"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-005",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A rent-control ordinance set a base monthly rent of $900 in a year when the local cost-of-living index stood at 128. The index has since risen to 168. If landlords may raise rents only enough to keep pace with the cost-of-living index, what is the new allowed monthly rent?",
+    "choices": [
+      "$1,181",
+      "$686",
+      "$900",
+      "$1,512"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Indexing scales a nominal amount by the ratio of the new price index to the old one: $900 x (168/128) is approximately $1,181.25, or about $1,181.",
+    "wrongExplanations": [
+      null,
+      "This inverts the index ratio (128/168 instead of 168/128), which understates the rent needed to keep pace with the rising cost of living.",
+      "This leaves the rent unchanged, ignoring the rise in the cost-of-living index entirely.",
+      "This multiplies by 1.68 (treating the new index value as if it were already a ratio) instead of by the correct ratio of 168 to the base value of 128."
+    ],
+    "tags": [
+      "indexing",
+      "cpi",
+      "rent"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-006",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A union contract indexes wages to inflation. A worker's wage was $22.00 per hour when the relevant price index stood at 140. The wage has since been adjusted upward to $28.60 per hour to preserve its real purchasing power. What must the price index be now?",
+    "choices": [
+      "182",
+      "108",
+      "146.6",
+      "130"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Indexing means new wage = old wage x (new index / old index). Solving for the new index: 182 = 140 x (28.60 / 22.00), since 28.60/22.00 = 1.3 and 140 x 1.3 = 182.",
+    "wrongExplanations": [
+      null,
+      "This inverts the wage ratio (using 22.00/28.60 instead of 28.60/22.00), applying it to the old index in the wrong direction.",
+      "This adds the dollar increase in the wage ($6.60) directly to the old index (140), rather than applying the proportional wage-growth ratio to the index.",
+      "This reports the wage-growth ratio itself (1.30, read as \"130\") rather than multiplying it by the old index value of 140."
+    ],
+    "tags": [
+      "indexing",
+      "cpi",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-007",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Two retirees each had a $2,000 monthly pension when the price index was 150. Five years later, the price index has risen to 195. Retiree A's pension is fully indexed to inflation. Retiree B's pension has stayed fixed in nominal dollars at $2,000. What is the gap between Retiree A's (indexed) nominal pension and Retiree B's (fixed) nominal pension after five years?",
+    "choices": [
+      "$600",
+      "$2,600",
+      "$1,300",
+      "$0"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Retiree A's indexed pension is $2,000 x (195/150) = $2,600. Retiree B's pension stays at $2,000. The gap is $2,600 - $2,000 = $600.",
+    "wrongExplanations": [
+      null,
+      "This is Retiree A's new indexed pension amount itself, not the gap between the two retirees' pensions.",
+      "This is roughly half of Retiree A's new pension, not the actual dollar gap between the two retirees.",
+      "This incorrectly assumes indexing wouldn't change Retiree A's nominal pension at all, so there'd be no gap -- but indexing raises A's nominal pension to keep pace with the price index."
+    ],
+    "tags": [
+      "indexing",
+      "cpi",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-cpi-008",
+    "topic": "gdp-cpi-inflation",
+    "subtopic": "Indexing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A payroll clerk needs to index a $1,500 stipend from a year when the price index was 120 to today's index of 150. The clerk computes $1,500 x (120/150) = $1,200. What did the clerk do wrong, and what is the correct indexed amount?",
+    "choices": [
+      "The clerk inverted the ratio; multiplying by the old-over-new index instead of new-over-old gives an amount that's too low -- the correct indexed amount is $1,875",
+      "The clerk's method and answer of $1,200 are correct",
+      "The clerk should have subtracted the index values instead of taking a ratio, giving $1,470",
+      "The correct indexed amount is $1,200, but the clerk's reasoning happened to be wrong even though the number is right"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Indexing an amount forward in time multiplies it by (new index / old index), not (old index / new index). The correct calculation is $1,500 x (150/120) = $1,875. The clerk's inverted ratio produces a smaller number than the original stipend, even though prices rose, which is the giveaway that the ratio was flipped.",
+    "wrongExplanations": [
+      null,
+      "This restates the clerk's exact mistake and its (incorrect) result.",
+      "Subtracting index values isn't how indexing works -- indexing uses a ratio of the two index values, not their difference.",
+      "$1,200 is not the correct indexed amount; with prices rising (index 120 to 150), the correctly indexed stipend should rise above $1,500, not fall below it."
+    ],
+    "tags": [
+      "indexing",
+      "cpi",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-001",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Suppose average labor productivity in a country grew at a constant 2.2% per year from 1970 to 1990 (20 years). If that same 2.2% growth rate had instead continued for a longer 35-year period (1970 to 2005), productivity in 2005 would have been approximately what multiple of its 1970 level?",
+    "choices": [
+      "about 2.14 times",
+      "about 1.55 times",
+      "about 1.77 times",
+      "about 1.02 times"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Compound growth over 35 years at 2.2% per year: (1.022)^35 is approximately 2.14 -- productivity would be about 2.14 times its 1970 level.",
+    "wrongExplanations": [
+      null,
+      "This is (1.022)^20, the multiple for the original 20-year period, not the extended 35-year period the question asks about.",
+      "This uses simple (non-compounding) growth -- 1 + (0.022 x 35) -- instead of compounding the 2.2% rate over 35 years.",
+      "This is just 1 plus the annual rate (1.022), as if applying it for only a single year instead of compounding over 35 years."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-002",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth and Rule of 72",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's labor productivity grows at a constant 8% per year. Approximately how many years would it take for productivity to double (become 2.0 times its starting level) at this growth rate?",
+    "choices": [
+      "about 9 years",
+      "about 12.5 years",
+      "about 8 years",
+      "about 18 years"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The Rule of 72 approximates doubling time as 72 divided by the annual growth rate: 72 / 8 is 9 years (the precise compound-growth answer, solving (1.08)^n = 2, is also about 9.0 years).",
+    "wrongExplanations": [
+      null,
+      "This applies a \"Rule of 100\" (100 / 8) instead of the correct Rule of 72, overstating the doubling time.",
+      "This mistakes the growth rate's numeral (8) for the number of years, rather than using it to compute a doubling time.",
+      "This applies the Rule of 72 with half the actual growth rate (72 / 4) instead of the given 8% rate, doubling the true doubling time."
+    ],
+    "tags": [
+      "rule of 72",
+      "compound growth",
+      "labor productivity"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-003",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's average labor productivity grew at 3.0% per year from 1980-1995 (15 years), then slowed to 1.5% per year from 1995-2015 (20 years). If productivity had instead continued growing at the initial 3.0% rate for the full 35-year period (1980-2015), approximately how much higher would 2015 productivity have been under that counterfactual, compared to the actual 2015 level (after the slowdown)?",
+    "choices": [
+      "about 34.1% higher",
+      "about 3.8% higher",
+      "about 17.1% higher",
+      "about 13.9% lower"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Counterfactual (3.0% for the full 35 years): (1.03)^35 is about 2.814 times the 1980 level. Actual (3.0% for 15 years, then 1.5% for 20 years): (1.03)^15 x (1.015)^20 is about 2.098 times the 1980 level. The counterfactual is 2.814 / 2.098 is about 1.341 times the actual level -- about 34.1% higher.",
+    "wrongExplanations": [
+      null,
+      "This incorrectly averages the two growth rates into one flat 2.25% rate applied for 35 years, instead of compounding each sub-period separately at its own rate.",
+      "This uses simple (non-compounding) interest for both the counterfactual and the actual figures instead of compound growth.",
+      "This compounds the counterfactual for only 20 years (matching the length of the second, slower period) instead of the full 35-year span the question asks about."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity",
+      "growth slowdown"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-004",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A study reports that a country's labor productivity grew 2% per year for 10 years, then 5% per year for the next 15 years. A student concludes that total productivity growth over the 25 years must be exactly 95% (2% x 10 + 5% x 15, since 20 + 75 = 95). What is wrong with this reasoning?",
+    "choices": [
+      "The reasoning is wrong: growth compounds multiplicatively across years, so the growth factors (1.02)^10 and (1.05)^15 must be multiplied together, giving a total increase of about 153%, not 95%",
+      "The reasoning is correct: adding 2% x 10 years and 5% x 15 years exactly captures total growth",
+      "The reasoning is wrong because the two annual rates (2% and 5%) should be multiplied together directly, giving a combined rate of 0.1% per year",
+      "The reasoning is wrong because only the later, higher growth rate (5%) matters for the total; the earlier decade should be ignored"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Growth compounds multiplicatively, not additively. The correct total multiple is (1.02)^10 x (1.05)^15, which is about 2.534 -- a total increase of about 153%, well above the naive 95% estimate from simply adding percentages.",
+    "wrongExplanations": [
+      null,
+      "This restates the student's flawed additive method as if it were correct.",
+      "Multiplying the two annual rates together (0.02 x 0.05) confuses multiplying growth rates with multiplying growth factors; it produces a nonsensically tiny combined rate.",
+      "Both sub-periods contribute to total growth; compounding multiplies the growth factors from both periods together rather than discarding one of them."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-005",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Productivity grew at 2.0% per year for the first 10 years of a 30-year period, then slowed to a constant lower rate for the remaining 20 years. Economists calculate that had the initial 2.0% rate continued for the full 30 years, productivity would have ended up about 21.8% higher than it actually did. Approximately what was the slower growth rate during the last 20 years?",
+    "choices": [
+      "about 1.0%",
+      "about 1.5%",
+      "about 2.0%",
+      "about 0.5%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The full-30-year counterfactual multiple is (1.02)^30, about 1.811 times the starting level. If the actual multiple is 21.8% lower, it is 1.811 / 1.218, about 1.487 times the starting level. Since the first 10 years contribute (1.02)^10, about 1.219 times, the remaining 20 years must contribute 1.487 / 1.219, about 1.220 times -- solving (1+g)^20 = 1.220 gives g of approximately 1.0%.",
+    "wrongExplanations": [
+      null,
+      "This overstates the slowdown; a 1.5% second-period rate would produce a smaller counterfactual gap than the 21.8% given.",
+      "This understates the slowdown further; a 2.0% second-period rate (i.e., no slowdown at all) would produce no counterfactual gap, not a 21.8% one.",
+      "This is a plausible-looking but too-low rate; solving the compounding equation precisely (not by linear approximation) gives approximately 1.0%, not 0.5%."
+    ],
+    "tags": [
+      "compound growth",
+      "labor productivity",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-007",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A closed economy produces $6,400 billion in total output this year. Households and businesses spend $4,300 billion of after-tax income on consumption. The government collects $1,600 billion in net taxes and spends $900 billion on government purchases. What are this economy's private saving, public saving, and national saving, respectively?",
+    "choices": [
+      "500; 700; 1,200",
+      "500; 700; 1,000",
+      "700; 500; 1,200",
+      "500; -700; -200"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving = total output - net taxes - consumption = 6,400 - 1,600 - 4,300 = 500. Public saving = net taxes - government purchases = 1,600 - 900 = 700. National saving = private + public = 500 + 700 = 1,200 (matches total output - consumption - government purchases = 6,400 - 4,300 - 900 = 1,200).",
+    "wrongExplanations": [
+      null,
+      "This correctly computes private and public saving but doesn't add them together for national saving.",
+      "This swaps the private and public saving figures with each other.",
+      "This flips the sign on public saving -- with net taxes exceeding government purchases here, the government runs a surplus (positive public saving), not a deficit."
+    ],
+    "tags": [
+      "private saving",
+      "public saving",
+      "national saving"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-008",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An economy produces $9,000 billion in total output, with consumption of $6,100 billion. Private saving this year is $2,000 billion. What must net taxes (T) be?",
+    "choices": [
+      "$900 billion",
+      "$4,900 billion",
+      "$2,900 billion",
+      "$2,000 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving = total output - net taxes - consumption, so net taxes = total output - consumption - private saving = 9,000 - 6,100 - 2,000 = $900 billion.",
+    "wrongExplanations": [
+      null,
+      "This adds private saving to (output - consumption) instead of subtracting it, which is the wrong direction for isolating T.",
+      "This uses only output minus consumption (9,000 - 6,100 = 2,900), forgetting to also subtract private saving to isolate net taxes.",
+      "This reports the private saving figure itself as if it were net taxes."
+    ],
+    "tags": [
+      "private saving",
+      "national saving",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-saving-009",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Continuing the same economy (total output $6,400 billion, private saving fixed at $500 billion regardless of the interest rate, and government purchases unchanged at $900 billion): the government cuts net taxes from $1,600 billion to $1,300 billion. What is the new level of national saving?",
+    "choices": [
+      "$900 billion",
+      "$1,200 billion",
+      "$1,000 billion",
+      "$400 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Public saving is now net taxes - government purchases = $1,300 billion - $900 billion = $400 billion (down from $700 billion). With private saving unchanged at $500 billion, national saving = $500 billion + $400 billion = $900 billion.",
+    "wrongExplanations": [
+      null,
+      "This is the original national saving figure before the tax cut -- it doesn't account for the drop in net taxes, which lowers public saving.",
+      "This is a plausible-looking but incorrect intermediate figure that doesn't follow from correctly recomputing public saving after the tax cut.",
+      "This reports only the new public saving figure by itself, not the full national saving total (private plus public)."
+    ],
+    "tags": [
+      "national saving",
+      "public saving",
+      "tax cut"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-001",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In an economy where private saving does not respond to the interest rate, the government increases its purchases by $300 billion, financed entirely by additional borrowing (net taxes unchanged). By how much does national saving fall as a result?",
+    "choices": [
+      "$300 billion",
+      "$150 billion",
+      "$0 -- private saving offsets the change",
+      "$600 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "With net taxes unchanged, public saving (net taxes minus government purchases) falls dollar-for-dollar with the increase in government purchases, a decrease of $300 billion. Since private saving is fixed and does not respond to the resulting change in the interest rate, national saving falls by exactly that same $300 billion.",
+    "wrongExplanations": [
+      null,
+      "This assumes only half of the spending increase reduces public saving, but the entire increase in government purchases (with taxes unchanged) reduces public saving one-for-one.",
+      "Private saving doesn't offset the change here, because it is fixed and does not respond to the interest rate -- there is no cushioning effect.",
+      "This double-counts the spending increase; public saving falls by exactly the $300 billion increase in purchases, not by twice that amount."
+    ],
+    "tags": [
+      "national saving",
+      "public saving",
+      "government spending",
+      "crowding out"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-002",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student computes private saving for a closed economy as simply total output (Y) minus consumption (C), without adjusting for taxes. Using Y = $5,000 billion, C = $3,200 billion, and net taxes T = $700 billion, what is the student's error and the correct private saving figure?",
+    "choices": [
+      "The student forgot to subtract net taxes; private saving is Y - T - C = $1,100 billion, not $1,800 billion",
+      "The student's method and answer of $1,800 billion are correct",
+      "The student should have added taxes instead of subtracting them, giving $5,700 billion",
+      "Private saving cannot be computed without also knowing government purchases (G)"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Private saving is disposable income (Y minus net taxes) minus consumption: Y - T - C = 5,000 - 700 - 3,200 = $1,100 billion. The student's Y - C = $1,800 billion omits the tax adjustment entirely, overstating private saving by exactly the amount of net taxes.",
+    "wrongExplanations": [
+      null,
+      "This repeats the student's own (incorrect) figure, which omits net taxes from the calculation.",
+      "Adding taxes moves in the wrong direction -- net taxes reduce the after-tax income households have available to save, so they should be subtracted, not added.",
+      "Private saving is defined independently of government purchases (G); G enters the separate public saving calculation, not private saving."
+    ],
+    "tags": [
+      "private saving",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-003",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student computes public saving as government purchases minus net taxes (G - T). For an economy with G = $1,800 billion and T = $1,500 billion, the student reports public saving of $300 billion. What is wrong, and what is the correct figure?",
+    "choices": [
+      "Public saving is net taxes minus government purchases (T - G), not G - T; the correct figure is -$300 billion (the government is running a deficit, not a surplus)",
+      "The student's formula and answer are correct",
+      "The formula is right, but the student made an arithmetic error; the correct value is $1,800 billion",
+      "Public saving equals total government purchases (G) alone; net taxes are irrelevant"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Public saving is defined as net taxes minus government purchases: T - G = 1,500 - 1,800 = -$300 billion. The student's G - T flips the sign, turning an actual $300 billion deficit into what looks like a $300 billion surplus.",
+    "wrongExplanations": [
+      null,
+      "This restates the student's flipped formula and its resulting (incorrect) sign.",
+      "The formula itself is inverted, not just the arithmetic; correcting the formula (T - G) gives a different sign, not a different magnitude of the same value.",
+      "Public saving depends on both net taxes and government purchases together (as their difference), not on government purchases alone."
+    ],
+    "tags": [
+      "public saving",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-004",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Two policy options each change the government's budget position by the same $250 billion: Option A raises government purchases by $250 billion with net taxes unchanged. Option B cuts net taxes by $250 billion with government purchases unchanged. How do the two options compare in their direct effect on public saving?",
+    "choices": [
+      "Both reduce public saving by the same $250 billion, since public saving equals net taxes minus government purchases and both options change that gap by $250 billion in the same direction",
+      "Option A reduces public saving by more, since raising spending is a more direct form of dissaving than cutting taxes",
+      "Option B reduces public saving by more, since tax cuts directly remove government revenue while spending increases only indirectly affect the budget",
+      "Neither option affects public saving, since public saving depends only on total output (Y), not on the specific mix of G and T"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Public saving is T - G. Option A lowers T - G by raising G by $250 billion; Option B lowers T - G by cutting T by $250 billion. Both changes reduce the T - G gap by exactly $250 billion, so their direct effect on public saving is identical.",
+    "wrongExplanations": [
+      null,
+      "Both options change the T - G gap by the same amount; there's no basis in the identity itself for spending increases to have a larger direct effect than equal-sized tax cuts.",
+      "Both options change the T - G gap by the same amount; there's no basis in the identity itself for tax cuts to have a larger direct effect than equal-sized spending increases.",
+      "Public saving is defined directly in terms of G and T (as T - G); it isn't computed from output (Y) alone."
+    ],
+    "tags": [
+      "public saving",
+      "government spending",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-005",
+    "topic": "loanable-funds",
+    "subtopic": "Vertical Saving Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Two economies each experience the same $300 billion decrease in national saving (from a larger government budget deficit), shifting their saving-supply curve left by the same amount in the loanable funds diagram. Economy A has the usual upward-sloping saving-supply curve. Economy B has a perfectly vertical (interest-rate-insensitive) saving-supply curve. Holding investment demand identical in both, in which economy does the equilibrium real interest rate rise by more?",
+    "choices": [
+      "Economy B (vertical supply): a sloped saving curve's higher interest rate calls forth additional private saving that partly cushions the decline, while a vertical curve offers no such cushioning, so the interest rate and investment move more when supply is vertical",
+      "Economy A (upward-sloping supply): a sloped curve amplifies interest rate movements more than a fixed vertical line",
+      "Both economies see identical interest rate increases, since the size of the initial saving decrease is the same in both cases",
+      "Neither economy sees any interest rate change, since a decrease in saving supply is fully absorbed by a matching decrease in investment demand"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "With an upward-sloping saving curve, the higher interest rate that results from the shock itself calls forth some additional private saving along the new curve, partially cushioning the quantity decline and limiting how far the interest rate has to rise. A vertical saving curve offers no such self-correcting response, so the full decrease in saving passes through, requiring investment demand to absorb a larger quantity change -- which, given a downward-sloping investment demand curve, means a larger interest rate increase.",
+    "wrongExplanations": [
+      null,
+      "This has the comparison backwards -- the sloped curve's own responsiveness to the interest rate is what dampens (not amplifies) the equilibrium adjustment relative to the unresponsive vertical curve.",
+      "The two economies' saving curves respond differently to the resulting interest rate, so the equilibrium outcomes differ even though the initial shift is the same size.",
+      "Investment demand doesn't shift at all in this scenario; only the saving-supply curve shifts, so the equilibrium interest rate and investment do change in both economies."
+    ],
+    "tags": [
+      "loanable funds",
+      "vertical supply curve",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-006",
+    "topic": "loanable-funds",
+    "subtopic": "Vertical Saving Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Continuing the vertical-saving-curve economy: suppose instead that a booming economy raises private saving so much that national saving rises from $900 billion to $1,300 billion, shifting the vertical saving-supply line to the right. Holding the downward-sloping investment demand curve fixed, what happens to the equilibrium real interest rate and the level of investment?",
+    "choices": [
+      "The real interest rate falls, and investment rises to $1,300 billion",
+      "The real interest rate rises, and investment falls",
+      "Neither changes, since a vertical curve cannot shift",
+      "The real interest rate falls, but investment stays at $900 billion since investment demand didn't shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A rightward shift of the vertical saving-supply line means more funds are available at every interest rate. Reading the new, higher quantity off the fixed downward-sloping investment demand curve requires a lower real interest rate. Since investment must equal national saving in a closed economy, investment rises to the new saving level of $1,300 billion.",
+    "wrongExplanations": [
+      null,
+      "This has both directions backwards -- a rightward shift in saving supply (an increase in available funds) lowers the equilibrium interest rate and raises investment, not the reverse.",
+      "A vertical curve's fixed slope (its insensitivity to the interest rate) is different from its position being fixed -- the line can still shift left or right when the total quantity of saving supplied changes.",
+      "Investment demand doesn't shift, but the equilibrium level of investment still changes, because in a closed economy investment must equal the new, higher equilibrium level of national saving."
+    ],
+    "tags": [
+      "loanable funds",
+      "vertical supply curve",
+      "shift"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-007",
+    "topic": "loanable-funds",
+    "subtopic": "Vertical Saving Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In a closed economy with a vertical saving-supply curve fixed at $900 billion of national saving, suppose new technology raises the expected returns to capital, shifting the investment demand curve to the right (firms want to invest more at every interest rate). What happens to the equilibrium real interest rate and the level of investment?",
+    "choices": [
+      "The equilibrium real interest rate rises, but the level of investment stays at $900 billion, since the vertical saving-supply curve fixes total investment regardless of the demand shift",
+      "Both the real interest rate and investment rise, since higher investment demand always increases the equilibrium quantity of investment",
+      "The real interest rate falls, and investment rises, since more investment demand puts downward pressure on borrowing costs",
+      "Neither the real interest rate nor investment changes, since investment demand shifts don't affect the loanable funds market"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "In a closed economy, investment can never exceed the (fixed) quantity of national saving, $900 billion, when the saving-supply curve is vertical. The rightward shift in investment demand raises the price firms are willing to pay for those funds, so the equilibrium real interest rate rises, but the equilibrium quantity of investment is capped at $900 billion by the vertical supply curve.",
+    "wrongExplanations": [
+      null,
+      "This is true when the saving-supply curve is upward-sloping, but not when it's vertical -- a vertical supply curve caps the equilibrium quantity regardless of how far demand shifts.",
+      "This reverses the direction of the interest rate change; higher investment demand puts upward, not downward, pressure on the interest rate.",
+      "A shift in investment demand does change the equilibrium real interest rate, even though the vertical saving-supply curve keeps the equilibrium quantity of investment unchanged."
+    ],
+    "tags": [
+      "loanable funds",
+      "vertical supply curve",
+      "investment demand shift"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-008",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In a closed-economy loanable funds diagram with the real interest rate on the vertical axis and the quantity of saving/investment on the horizontal axis, a DECREASE in the government budget deficit (a smaller deficit than before) is best represented as which of the following?",
+    "choices": [
+      "A rightward shift of the saving-supply curve, since a smaller deficit means smaller public dissaving and therefore higher national saving at every interest rate -- equilibrium r falls and investment rises",
+      "A leftward shift of the saving-supply curve, since a smaller deficit means less government borrowing pressure on the loanable funds market",
+      "A rightward shift of the investment demand curve, since the government competes less with private investment for funds",
+      "A movement along the existing saving-supply curve to a new interest rate, without any shift in the curve itself"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A smaller budget deficit means less public dissaving, which raises national saving (private plus public) at every interest rate -- a rightward shift of the saving-supply curve. This lowers the equilibrium real interest rate and raises the equilibrium quantity of investment.",
+    "wrongExplanations": [
+      null,
+      "This gets the shift direction backwards -- a smaller deficit raises national saving and shifts the saving-supply curve right, not left.",
+      "Budget deficits affect the loanable funds market through the saving-supply side (via public saving), not through investment demand.",
+      "The deficit change is an independent shock to public saving, not a response to the interest rate itself, so it causes a shift of the curve rather than a movement along a fixed curve."
+    ],
+    "tags": [
+      "loanable funds",
+      "budget deficit",
+      "shift versus movement"
+    ]
+  },
+  {
+    "id": "midterm-var-loanable-009",
+    "topic": "loanable-funds",
+    "subtopic": "Government Budgets and National Saving",
+    "difficulty": "easy",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In the loanable funds market, \"crowding out\" refers to which of the following?",
+    "choices": [
+      "A larger government budget deficit raising the real interest rate, which reduces the amount of private investment that gets financed",
+      "A situation where the government directly purchases private companies, replacing private ownership",
+      "Foreign capital inflows crowding out domestic saving as a source of loanable funds",
+      "Rising private investment demand crowding out consumer spending"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Crowding out describes how a larger government budget deficit (more public borrowing) reduces national saving, raising the equilibrium real interest rate in the loanable funds market. That higher interest rate discourages some private investment projects that would otherwise have been financed -- the government's borrowing \"crowds out\" private investment.",
+    "wrongExplanations": [
+      null,
+      "Crowding out is about the government competing for loanable funds through borrowing, not about government ownership of companies.",
+      "This describes a different concept (capital inflows) from crowding out, which specifically concerns the effect of government borrowing on private investment.",
+      "Crowding out specifically concerns investment being displaced by government borrowing, not a general relationship between investment and consumption."
+    ],
+    "tags": [
+      "crowding out",
+      "loanable funds",
+      "budget deficit"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-006",
+    "topic": "gdp-accounting",
+    "subtopic": "Inventory and GDP Timing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An electronics wholesaler built up $6.0 million worth of unsold inventory during 2021 (counted as inventory investment in 2021's GDP). In 2022, the wholesaler sells off 60% of this stockpile to retailers, producing no new inventory that year. How does this partial inventory sell-off affect 2022 GDP?",
+    "choices": [
+      "$0 effect -- the rise in sales is exactly offset by the matching drawdown in inventory investment, regardless of what fraction of the stockpile is sold",
+      "Adds $3.6 million (60% of $6.0 million) to 2022 GDP",
+      "Subtracts $3.6 million from 2022 GDP",
+      "Adds $2.4 million (the remaining 40% still in inventory) to 2022 GDP"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP counts goods in the year they are produced, not the year they are sold. The inventory was already counted as inventory investment in 2021. Selling any portion of it in 2022 raises sales/consumption by that amount but lowers inventory investment by the exact same amount, leaving 2022 GDP unaffected -- this holds regardless of what fraction of the stockpile is sold.",
+    "wrongExplanations": [
+      null,
+      "This ignores the offsetting drop in inventory investment that exactly cancels the rise in sales in the same year.",
+      "GDP doesn't fall either -- the rise in sales and the fall in inventory investment net out to zero, not a net negative.",
+      "The unsold remainder isn't relevant to 2022's GDP effect; only the portion sold in 2022 enters this year's sales-versus-inventory offset, and even that portion nets to zero."
+    ],
+    "tags": [
+      "gdp",
+      "inventory investment",
+      "production versus sales"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-007",
+    "topic": "gdp-accounting",
+    "subtopic": "Inventory and GDP Timing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A clothing retailer sells $850,000 worth of last year's unsold inventory this year, with no new production. Consumption spending (C) recorded this year rises by $850,000 because of these sales. For this year's total GDP to be unaffected by the sale, as the GDP-timing rules require, what must happen to measured inventory investment (I) this year?",
+    "choices": [
+      "Inventory investment (I) falls by $850,000, exactly offsetting the rise in consumption",
+      "Inventory investment (I) also rises by $850,000, alongside consumption",
+      "Inventory investment (I) is unaffected; only consumption changes",
+      "Government purchases (G) must fall by $850,000 to compensate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP = C + I + G + NX. For GDP to be unaffected by the sale, the $850,000 rise in C must be exactly offset elsewhere. Since the goods are drawn out of last year's inventory rather than newly produced, inventory investment (I) falls by $850,000 -- a drawdown -- canceling the rise in C.",
+    "wrongExplanations": [
+      null,
+      "If I also rose alongside C, GDP would rise by $1.7 million instead of staying unaffected -- this doubles the effect instead of offsetting it.",
+      "If only C changed and I stayed the same, GDP would rise by $850,000, contradicting the requirement that this year's GDP be unaffected by the sale.",
+      "Government purchases are unrelated to a private retailer's inventory sale; the offset happens within I (inventory investment), not G."
+    ],
+    "tags": [
+      "gdp",
+      "inventory investment",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-gdp-008",
+    "topic": "gdp-accounting",
+    "subtopic": "Inventory and GDP Timing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student argues: \"If a company sells $1 million of goods in 2023, that $1 million must count toward 2023's GDP, since GDP measures the value of goods sold in the economy that year.\" Is this reasoning correct?",
+    "choices": [
+      "Not quite -- GDP counts goods in the year they are produced, not sold; if the goods were produced in an earlier year and held as inventory, selling them later doesn't add to that later year's GDP",
+      "Yes, this is exactly correct -- GDP is defined by the timing of final sales to consumers",
+      "No -- GDP never counts inventory-related transactions at all, in any year",
+      "Yes, but only for goods sold directly to foreign buyers (exports), not domestic sales"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "GDP measures the value of goods and services produced in a given year, not sold. Goods produced and stockpiled as inventory in one year are already counted (as inventory investment) in that year's GDP. If they're sold in a later year without new production, the sale itself doesn't add anything new to that later year's GDP, since the corresponding drop in inventory investment offsets the rise in sales.",
+    "wrongExplanations": [
+      null,
+      "GDP is a production-based, not a sales-based, measure -- this is precisely the point the student's reasoning gets wrong.",
+      "Inventory investment is one of the components of GDP; it just isn't counted a second time when the inventory is later sold.",
+      "The production-versus-sales timing distinction applies to both domestic sales and exports; it isn't limited to international transactions."
+    ],
+    "tags": [
+      "gdp",
+      "inventory investment",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-financialmarkets-001",
+    "topic": "financial-markets",
+    "subtopic": "Stock Pricing and Risk Premium",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "An investor pays $1,200 today for a share of a private startup that pays no dividends, planning to hold it for 4 years before selling. The risk-free rate is 4% per year, and investors demand an extra 6 percentage points of return to compensate for this stock's risk. Assuming the $1,200 purchase price reflects the present value of the expected future sale price, what future sale price would justify paying $1,200 today?",
+    "choices": [
+      "$1,757",
+      "$1,404",
+      "$1,515",
+      "$1,680"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The discount rate for a risky asset is the risk-free rate plus the risk premium: 4% + 6% = 10%. Solving the present-value equation for the future price over 4 years: $1,200 = X / (1.10)^4, so X = $1,200 x (1.10)^4, approximately $1,757.",
+    "wrongExplanations": [
+      null,
+      "This uses only the risk-free rate (4%) as the discount rate, ignoring the extra return investors demand for the stock's risk.",
+      "This uses only the risk premium (6%) as the discount rate, ignoring the risk-free rate that should also be included.",
+      "This applies the correct 10% discount rate but as simple (non-compounding) interest over the four years instead of compounding it."
+    ],
+    "tags": [
+      "stock pricing",
+      "present value",
+      "risk premium"
+    ]
+  },
+  {
+    "id": "midterm-var-financialmarkets-002",
+    "topic": "financial-markets",
+    "subtopic": "Stock Pricing and Risk Premium",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A buyer pays $800 today for a non-dividend-paying share, expecting to sell it in 2 years for $980. The risk-free rate is 3% per year. What risk premium is implied by this pricing?",
+    "choices": [
+      "about 7.7 percentage points",
+      "about 10.7 percentage points",
+      "about 3.0 percentage points",
+      "about 22.5 percentage points"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The implied discount rate r solves $800 = $980 / (1+r)^2, so (1+r)^2 = 980/800 = 1.225 and r is approximately 10.68%. The risk premium is the discount rate minus the risk-free rate: 10.68% - 3% is approximately 7.7 percentage points.",
+    "wrongExplanations": [
+      null,
+      "This reports the full implied discount rate (about 10.7%) without subtracting the risk-free rate to isolate the risk premium itself.",
+      "This is just the risk-free rate given in the problem, not the additional premium implied by the stock's pricing.",
+      "This is the raw, uncompounded percentage price growth over 2 years ((980-800)/800), not an annualized discount rate or risk premium."
+    ],
+    "tags": [
+      "stock pricing",
+      "present value",
+      "risk premium",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-financialmarkets-003",
+    "topic": "financial-markets",
+    "subtopic": "Stock Pricing and Risk Premium",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Two non-dividend-paying stocks are each expected to be worth $1,000 in 3 years. The risk-free rate is 4% for both. Stock A carries a 4-percentage-point risk premium; Stock B carries a 9-percentage-point risk premium. Which stock should trade for a higher price today, and why?",
+    "choices": [
+      "Stock A, because its lower risk premium produces a lower discount rate, making its future payoff worth more in present-value terms (about $794 vs. about $693 for Stock B)",
+      "Stock B, because a higher risk premium means investors are compensated more, which raises its price today",
+      "Both stocks trade at the same price today, since they have the same expected future value",
+      "Stock B, because riskier assets are always worth more to investors seeking higher returns"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Stock A's discount rate is 4% + 4% = 8%, so its present value is $1,000 / (1.08)^3, about $794. Stock B's discount rate is 4% + 9% = 13%, so its present value is $1,000 / (1.13)^3, about $693. A higher discount rate lowers present value for a given future payoff, so Stock A (the lower-risk-premium stock) is worth more today.",
+    "wrongExplanations": [
+      null,
+      "This confuses the compensation an investor requires (a higher expected return) with a higher current price; a higher required return actually means the asset must be bought CHEAPER today to deliver that return.",
+      "The two stocks are discounted at different rates (8% vs. 13%), so an identical future payoff is worth a different amount today for each.",
+      "Riskier assets require a higher discount rate for a given future payoff, which lowers -- not raises -- their present value today."
+    ],
+    "tags": [
+      "stock pricing",
+      "present value",
+      "risk premium",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-financialmarkets-004",
+    "topic": "financial-markets",
+    "subtopic": "Stock Pricing and Risk Premium",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "An analyst values a risky, non-dividend-paying stock expected to be worth $2,000 in 5 years by discounting it only at the 3% risk-free rate, ignoring risk entirely, and arrives at a present value of about $1,725. A colleague objects to this approach. What is the colleague's most likely, and correct, objection?",
+    "choices": [
+      "The stock should be discounted at the risk-free rate plus a risk premium; adding a risk premium raises the discount rate and would give a present value LOWER than $1,725, not higher",
+      "The stock should be discounted at the risk-free rate plus a risk premium, which would raise the present value above $1,725",
+      "The analyst's method is correct; risk premiums only apply to bonds, not stocks",
+      "The analyst should have ignored the risk-free rate entirely and discounted using only a risk premium"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A risky asset should be discounted at the risk-free rate plus a risk premium, not the risk-free rate alone. Adding a risk premium raises the discount rate, and a higher discount rate lowers present value for a given future payoff -- so the correct present value is below $1,725, not equal to or above it.",
+    "wrongExplanations": [
+      null,
+      "This correctly identifies the missing risk premium but gets its effect on present value backwards -- a higher discount rate lowers, not raises, present value.",
+      "Risk premiums apply broadly to any risky asset, including stocks -- they are not limited to bonds.",
+      "The discount rate for a risky asset is the risk-free rate PLUS a risk premium; the risk-free rate is still part of the calculation, not something to discard."
+    ],
+    "tags": [
+      "stock pricing",
+      "present value",
+      "risk premium",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-006",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's real GDP was $3,000 billion in 2000 and grew to $5,400 billion by 2024 (a 24-year period). What was the approximate compound annual growth rate of real GDP over this period?",
+    "choices": [
+      "about 2.5%",
+      "about 3.3%",
+      "about 80%",
+      "about 1.2%"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The compound annual growth rate solves ($5,400 / $3,000) = (1+g)^24 for g: g = (5,400/3,000)^(1/24) - 1, which is approximately 2.5%.",
+    "wrongExplanations": [
+      null,
+      "This mistakenly divides the total percentage change over the period (about 80%) by the number of years, treating growth as simple/linear rather than compound.",
+      "This is the total percentage change in real GDP over the full 24 years, without annualizing it into a yearly compound growth rate.",
+      "This mistakenly uses 48 years in the exponent instead of the actual 24-year period, roughly halving the correctly implied annual rate."
+    ],
+    "tags": [
+      "compound growth",
+      "real gdp",
+      "growth rate"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-007",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth Rate",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A country's real GDP grew at a compound annual rate of approximately 3% for 15 years, reaching $4,650 billion at the end of the period. Approximately what was real GDP at the START of this 15-year period?",
+    "choices": [
+      "about $2,985 billion",
+      "about $7,246 billion",
+      "about $3,207 billion",
+      "about $2,558 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Ending GDP equals starting GDP compounded at 3% for 15 years: Ending = Starting x (1.03)^15. Solving for the starting value: Starting = $4,650 billion / (1.03)^15, approximately $2,985 billion.",
+    "wrongExplanations": [
+      null,
+      "This multiplies the ending value by (1.03)^15 instead of dividing by it, which projects the ending value further FORWARD rather than discounting it back to the start.",
+      "This divides by simple (non-compounding) growth -- 1 + (0.03 x 15) -- instead of dividing by the compound growth factor (1.03)^15.",
+      "This subtracts a simple percentage (0.03 x 15 x $4,650) from the ending value instead of dividing by the compound growth factor."
+    ],
+    "tags": [
+      "compound growth",
+      "real gdp",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "midterm-var-growth-008",
+    "topic": "growth-accounting-compound-growth",
+    "subtopic": "Compound Growth Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student is told real GDP rose from $2,000 billion to $3,200 billion over 16 years, and computes the annual growth rate as (3,200-2,000)/2,000 = 60%, then divides by 16 to get 3.75% per year. Is this the correct compound annual growth rate?",
+    "choices": [
+      "No -- dividing total percent change by years is a simple average, not compound growth; the correct compound annual rate is about 3.0%, not 3.75%",
+      "Yes, this is exactly how compound annual growth rates are calculated",
+      "No -- the student should have divided by 15 (16 minus 1) instead of 16, which would give the correct compound rate",
+      "No -- the student's total percentage change of 60% is itself wrong; it should be calculated as (3,200-2,000)/3,200"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The correct compound annual growth rate solves (3,200/2,000) = (1+g)^16 for g, which gives approximately 3.0% per year. Dividing the total 60% change by 16 years is a simple linear approximation, not the true compound rate, and it overstates the actual annual rate here (3.75% vs. the correct 3.0%).",
+    "wrongExplanations": [
+      null,
+      "This endorses the student's linear (divide-by-years) method, which is not how compound annual growth rates are calculated.",
+      "Changing the divisor from 16 to 15 doesn't fix the underlying problem -- dividing total percentage change by any number of years is still a linear approximation, not compound growth.",
+      "The total percentage change calculation itself, (3,200-2,000)/2,000 = 60%, is a standard and correct way to compute total percentage change; the error is in how that 60% is then converted into an annual rate."
+    ],
+    "tags": [
+      "compound growth",
+      "real gdp",
+      "diagnose mistake"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-001",
+    "topic": "capital-flows",
+    "subtopic": "Open-Economy Saving and Investment",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "In an open economy, domestic saving (S) is $850 billion and net capital inflows (KI) are $120 billion. Using the open-economy identity S + KI = I, what is the level of investment?",
+    "choices": [
+      "$970 billion",
+      "$730 billion",
+      "$850 billion",
+      "$120 billion"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The open-economy identity states that investment equals domestic saving plus net capital inflows: I = S + KI = $850 billion + $120 billion = $970 billion.",
+    "wrongExplanations": [
+      null,
+      "This subtracts capital inflows from domestic saving instead of adding them -- positive net capital inflows are an additional source of funds for investment, not a subtraction.",
+      "This uses only domestic saving and ignores capital inflows entirely.",
+      "This reports only the capital inflows figure, not the full investment total."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "s + ki = i"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-002",
+    "topic": "capital-flows",
+    "subtopic": "Foreign Shocks and U.S. Capital Inflows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The fictional country of Larenthia falls into a recession, and Larenthian households sharply cut back consumption and investment at home, leaving more of Larenthia's saving available to flow abroad as capital sent to the United States. Holding everything else in the U.S. loanable funds market constant, what happens to U.S. net capital inflows, the U.S. real interest rate, and U.S. investment?",
+    "choices": [
+      "U.S. net capital inflows rise, shifting the effective supply-of-funds curve right; the U.S. real interest rate falls and U.S. investment rises",
+      "U.S. net capital inflows fall, shifting the effective supply curve left; the U.S. real interest rate rises and U.S. investment falls",
+      "U.S. investment demand shifts right, while the supply of funds is unaffected",
+      "There is no effect on the U.S. loanable funds market, since Larenthia's saving decisions are a purely domestic Larenthian matter"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "More Larenthian saving flowing abroad means higher capital inflows into the U.S. (higher KI), which raises the effective supply of funds available for U.S. investment (S + KI shifts right). A rightward shift in the effective supply of loanable funds lowers the equilibrium U.S. real interest rate and raises the equilibrium level of U.S. investment.",
+    "wrongExplanations": [
+      null,
+      "This describes the opposite scenario (a foreign boom reducing capital sent abroad), not a foreign recession that increases the saving available to flow to the U.S.",
+      "The shock changes how much foreign saving is available to fund U.S. investment (a supply-side effect via KI), not U.S. firms' own demand for investment funds -- investment demand is unaffected here.",
+      "Capital inflows are exactly the channel connecting a foreign country's saving decisions to the U.S. loanable funds market -- via S + KI = I, a change in foreign capital available to the U.S. does have a direct effect on the U.S. equilibrium interest rate and investment."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "s + ki = i"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-003",
+    "topic": "capital-flows",
+    "subtopic": "Foreign Shocks and U.S. Capital Inflows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Compare two scenarios for the U.S. open-economy loanable funds market: in Scenario 1, a foreign boom reduces the saving foreigners send to the U.S. (lower KI). In Scenario 2, a foreign recession increases the saving foreigners send to the U.S. (higher KI). How do U.S. equilibrium investment and the U.S. real interest rate compare across the two scenarios?",
+    "choices": [
+      "The two scenarios move the U.S. equilibrium in opposite directions: Scenario 1 raises the U.S. real interest rate and lowers investment, while Scenario 2 lowers the U.S. real interest rate and raises investment",
+      "Both scenarios have an identical effect on the U.S. economy, since a foreign shock's effect on U.S. capital inflows doesn't depend on whether it's a boom or a recession abroad",
+      "Both scenarios raise the U.S. real interest rate, since any foreign economic shock increases uncertainty and reduces capital flows to the U.S. regardless of direction",
+      "Both scenarios lower U.S. investment, since foreign shocks of any kind reduce U.S. firms' access to loanable funds"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Scenario 1 (lower KI) shifts the effective U.S. supply of funds (S + KI) left, raising the U.S. real interest rate and lowering U.S. investment. Scenario 2 (higher KI) shifts the same curve right, lowering the U.S. real interest rate and raising U.S. investment. Since KI moves in opposite directions in the two scenarios, so does the U.S. equilibrium.",
+    "wrongExplanations": [
+      null,
+      "The direction of the foreign shock (boom vs. recession) determines the direction of the KI change, and therefore the direction of the U.S. equilibrium change -- the two scenarios are not equivalent.",
+      "Only a scenario that reduces KI (like a foreign boom pulling saving home) raises the U.S. interest rate; a scenario that increases KI has the opposite effect.",
+      "Only a scenario that reduces KI lowers U.S. investment; a scenario that increases KI (like a foreign recession) raises U.S. investment instead."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-004",
+    "topic": "capital-flows",
+    "subtopic": "Foreign Shocks and U.S. Capital Inflows",
+    "difficulty": "hard",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the U.S. open-economy loanable funds diagram (real interest rate on the vertical axis; saving and investment on the horizontal axis), the effective supply-of-funds curve is drawn as S + KI. A foreign recession increases capital inflows to the U.S., shifting this S + KI curve to the right, while the downward-sloping U.S. investment demand curve I stays fixed. Which of the following correctly describes the new equilibrium?",
+    "choices": [
+      "A lower real interest rate and higher investment, at the point where the new, further-right S + KI curve crosses the unchanged investment demand curve I",
+      "A higher real interest rate and lower investment, at the point where the new S + KI curve crosses I",
+      "A lower real interest rate and higher investment, found where the ORIGINAL S + KI curve crosses a new, rightward-shifted investment demand curve",
+      "No change in the real interest rate, since the investment demand curve did not shift"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The shock shifts the supply-side curve (S + KI), not investment demand. Sliding the new equilibrium along the fixed, downward-sloping investment demand curve to the point where it meets the further-right S + KI curve gives both a lower real interest rate and a higher quantity of investment.",
+    "wrongExplanations": [
+      null,
+      "This has the direction backwards -- a rightward shift in the effective supply of funds lowers, not raises, the equilibrium real interest rate.",
+      "This correctly identifies the resulting direction of r and I, but misidentifies which curve moved -- it was S + KI (supply) that shifted, not investment demand.",
+      "The supply-side curve shifting still changes the equilibrium along the fixed demand curve; a shift in supply alone is sufficient to move both the equilibrium interest rate and quantity."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "s + ki = i",
+      "shift versus movement"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-005",
+    "topic": "capital-flows",
+    "subtopic": "Open-Economy Saving and Investment",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "A country transitions from being a closed economy (where only domestic saving S determines the supply of loanable funds) to an open economy that receives positive net capital inflows (KI > 0). Holding domestic saving and investment demand otherwise the same, how does the supply-of-funds curve change, and what happens to the equilibrium real interest rate?",
+    "choices": [
+      "The supply curve shifts right, from S to S + KI, since positive capital inflows add to the funds available at every interest rate; the equilibrium real interest rate falls and investment rises above the closed-economy level",
+      "The supply curve shifts left, from S to S + KI, since foreign investors compete with domestic savers for the same funds",
+      "The investment demand curve shifts right, while the supply curve is unaffected by opening to capital flows",
+      "Nothing changes in the diagram, since KI only affects the trade balance (NX), not the loanable funds market"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Positive net capital inflows are an additional source of funds for investment on top of domestic saving (per S + KI = I), so the effective supply-of-funds curve shifts right from S alone to S + KI. This rightward shift lowers the equilibrium real interest rate and raises equilibrium investment above what the closed economy could achieve with domestic saving alone.",
+    "wrongExplanations": [
+      null,
+      "Capital inflows ADD to the supply of funds available for investment; they don't compete with or subtract from domestic saving.",
+      "Opening to capital flows changes the supply side of the loanable funds market (via KI), not U.S. firms' own investment demand.",
+      "KI is directly part of the effective supply of funds via S + KI = I; it affects the loanable funds market and the trade balance together, not one to the exclusion of the other."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "s + ki = i",
+      "shift"
+    ]
+  },
+  {
+    "id": "midterm-var-capitalflows-006",
+    "topic": "capital-flows",
+    "subtopic": "Open-Economy Saving and Investment",
+    "difficulty": "medium",
+    "sourceIds": [
+      "midterm_review"
+    ],
+    "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the open-economy loanable funds diagram, suppose net capital inflows (KI) fall to exactly zero (the country becomes financially closed to the rest of the world), while domestic saving (S) and investment demand are unchanged. How does the new equilibrium compare to the prior open-economy equilibrium in which KI was positive?",
+    "choices": [
+      "The supply curve shifts left, from S + KI back to just S; the equilibrium real interest rate rises and investment falls to the level supported by domestic saving alone",
+      "The supply curve shifts right, since removing foreign capital inflows leaves more funds for domestic savers",
+      "The investment demand curve shifts left, while the supply curve is unaffected",
+      "The equilibrium is unaffected, since KI only matters when it is a large share of total funds"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "With KI falling to zero, the effective supply of funds shrinks from S + KI back down to just S -- a leftward shift. This raises the equilibrium real interest rate and lowers equilibrium investment to whatever level domestic saving alone can support.",
+    "wrongExplanations": [
+      null,
+      "Capital inflows add to, rather than compete with, domestic saving; removing them shrinks the total supply of funds rather than freeing up more for domestic savers.",
+      "The shock is on the supply side (KI, part of S + KI), not on investment demand.",
+      "Even a full drop to zero from a previously positive KI value changes the effective supply of funds and therefore the equilibrium, regardless of how large a share KI previously was."
+    ],
+    "tags": [
+      "capital flows",
+      "open economy",
+      "s + ki = i",
+      "shift"
     ]
   }
 ]

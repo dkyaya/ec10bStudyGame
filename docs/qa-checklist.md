@@ -108,22 +108,37 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   — this matters more for graph questions than most, since several choices often
   describe plausible-sounding but distinct curve/direction combinations.
 - **Midterm Review**: confirm the mode card appears on the home screen with a count
-  matching the number of questions sourced from `midterm_review` (or any future
-  exam-prep source added to `Scoring.midtermReviewQuestions`'s allow-list), that
-  clicking Start launches a shuffled session, and that the mode card is hidden
-  entirely if no exam-prep questions exist. Confirm Midterm Review questions also
-  still surface normally in Full Bank, Shuffle Mixed Practice, New/Unseen, Review
-  Missed, topic practice, and — for the ones with a matching `questionType` — Formula
-  Practice, Graph Practice, and Vocabulary/Definitions; Midterm Review must not be
-  the only place they appear. Since Midterm Review is a source-based filter (not a
-  `questionType`), confirm it has no dedicated badge and instead shows its
-  `sourceLabel` ("Instructor Midterm Study Guide and Practice Problems") in the quiz
-  metadata row like any other sourced question.
+  matching the number of questions sourced from `midterm_review` (69 as of the
+  2026-07-12 expansion — check `Scoring.midtermReviewQuestions(questions).length`
+  or filter `data/questions.json` on `sourceIds.includes("midterm_review")`), or any
+  future exam-prep source added to `Scoring.midtermReviewQuestions`'s allow-list in
+  `src/scoring.js`, that clicking Start launches a shuffled session, and that the
+  mode card is hidden entirely if no exam-prep questions exist. Confirm Midterm
+  Review questions also still surface normally in Full Bank, Shuffle Mixed Practice,
+  New/Unseen, Review Missed, topic practice, and — for the ones with a matching
+  `questionType` — Formula Practice, Graph Practice, and Vocabulary/Definitions;
+  Midterm Review must not be the only place they appear. Since Midterm Review is a
+  source-based filter (not a `questionType`), confirm it has no dedicated badge and
+  instead shows its `sourceLabel` ("Instructor Midterm Study Guide and Practice
+  Problems") in the quiz metadata row like any other sourced question. If a second
+  exam-prep source is ever added, confirm both source IDs are present in the
+  `MIDTERM_REVIEW_SOURCE_IDS` Set in `src/scoring.js` and that the mode's count
+  reflects both sources combined, not just one.
 - **Exam-prep questions with answer-choice shuffling**: within a Midterm Review
-  session, confirm formula-type questions still show correct computed values
-  regardless of shuffle position, and the one graph-type question with a diagram
-  (`graph-examprep-verticalsaving-001`) still renders its diagram correctly
-  alongside shuffled choices.
+  session, spot-check several `formula`-type questions across different worked-
+  problem topics (saving/investment, CPI/indexing, compound growth, value-added GDP,
+  stock present value, capital flows) and confirm each still shows the correct
+  computed value regardless of shuffle position. Confirm at least a few of the
+  `graph`-type questions (both the original diagram-bearing one,
+  `graph-examprep-verticalsaving-001`, and at least one of the newer text-described
+  graph variants) render correctly and grade correctly after shuffling.
+- **Midterm Review variant quality spot-check**: for a sample of the
+  `midterm-var-*` questions, confirm the question reads as a self-contained, freshly
+  worded scenario (not a number-swapped copy of the source's own worked problem or
+  of the original `*-examprep-*` question testing the same concept), and
+  independently recompute one or two formula answers by hand against the stated
+  `correctExplanation` to confirm no transcription error crept in between the
+  authoring script and `data/questions.json`.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.

@@ -533,3 +533,62 @@ was re-audited.
   bank distinct from a straight copy of the answer key while testing the identical
   underlying skill (computing opportunity cost, comparative advantage, or catch-up
   growth time).
+
+## 2026-07-12 Midterm Review Expansion
+
+Expanded the Midterm Review question set from 17 to 69 questions (52 new
+`midterm-var-*` questions), per a task requesting the set be roughly
+quadrupled. Full plan and results are in
+`docs/update-notes/2026-07-12-midterm-expansion-plan.md` and
+`docs/update-notes/2026-07-12-midterm-expansion-results.md`; this section
+summarizes the source-handling decisions for future contributors.
+
+**No new sheet/exam-prep file was found.** Every file in `private-materials/`
+was compared against `data/sources.json`, and all 13 files (including
+`MidtermStudyMaterials_Summer2026.doc`) were already represented by an
+existing source entry from the prior update. This update therefore did not
+add a new source ID or modify `data/sources.json` at all — it only added
+more questions to the existing `midterm_review` source.
+
+**Source used and its reliability:** `midterm_review`
+(`MidtermStudyMaterials_Summer2026.doc`) — see its existing entry in
+`data/sources.json` and the "2026-07-12 Midterm Study Materials" narrative
+below for the full reliability notes and academic-integrity determination
+(instructor-released study guide, not a live exam). That determination was
+not re-litigated since nothing about the file changed; it was reconfirmed as
+still applicable before any new question was written.
+
+**Expansion strategy:** every one of the source document's 11 worked
+practice problems received 3-6 new question variants (52 total), each
+varying the *task type* relative to the original problem — compute a value
+(the original direction), infer a missing input given an outcome, diagnose a
+mistaken formula or common student error, compare two cases, or connect the
+concept to a loanable-funds/open-economy graph — rather than generating
+several near-identical "swap the numbers" copies of the same calculation.
+Every new question uses a fresh scenario, fresh sentence structure, and
+independently-verified fresh numbers; none reuse the source document's own
+numbers, entities, or sentence architecture, and none reuse an existing
+`*-examprep-*` question's specific scenario or answer-choice wording/order.
+The topic-outline section of the document was again not mined into
+questions (same rationale as the prior update — no gradeable content, and
+its topics are already covered elsewhere in the bank).
+
+**Skipped/uncertain material:** none. All 11 worked practice problems were
+used; no portion of the document was found unclear, incomplete, or
+unreadable in this pass (the document was already fully transcribed and
+reliability-audited in the prior update).
+
+**Arithmetic verification:** every new formula question's numbers were
+computed twice independently via real JavaScript arithmetic (not by hand) —
+once during initial authoring, and a second time via a fully standalone
+recomputation script checked against the final `data/questions.json`
+entries — before being committed. See the results doc for the full method
+and outcome (all checks matched, zero arithmetic errors found).
+
+**`needsReview` count:** 0. No new question required the flag.
+
+**Raw materials remain local-only.** As with every other source in this
+bank, `MidtermStudyMaterials_Summer2026.doc` and every other file in
+`private-materials/` stay on the local machine only and are excluded from
+git via `.gitignore`; only the derived, paraphrased question JSON and this
+documentation are committed and pushed to GitHub Pages.

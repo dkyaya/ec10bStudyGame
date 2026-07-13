@@ -18,11 +18,11 @@ problem-set solutions, organized by topic, with progress saved locally in the br
   flows, money/banking/the money market, bonds/stocks/financial markets, and central
   banking/monetary policy.
 - A **Vocabulary / Definitions** study mode pulls every question tagged
-  `"questionType": "vocab"` across the whole bank (39 questions) into a shuffled,
+  `"questionType": "vocab"` across the whole bank (42 questions) into a shuffled,
   definition-focused practice session, in addition to each question's normal place
   within its topic.
 - A **Formula Practice** study mode pulls every question tagged
-  `"questionType": "formula"` across the whole bank (51 questions) into a shuffled
+  `"questionType": "formula"` across the whole bank (78 questions) into a shuffled
   session of calculation/word-problem questions — opportunity cost, PPCs, supply/demand
   equilibrium, GDP by any method, CPI/inflation/deflating/indexing, real interest rates,
   saving/wealth identities, loanable funds, the open-economy identities, labor
@@ -31,19 +31,19 @@ problem-set solutions, organized by topic, with progress saved locally in the br
   mode; Formula Practice is just a filtered view. Formula questions show a small
   "Formula" badge in the quiz header.
 - A **Graph Practice** study mode pulls every question tagged `"questionType": "graph"`
-  across the whole bank (39 questions) into a shuffled session of graph-interpretation
+  across the whole bank (46 questions) into a shuffled session of graph-interpretation
   and graph-translation questions — reading a supply/demand or PPC diagram, matching a
   real-world event to the correct curve shift, tracing a shift through to its
   equilibrium outcome, distinguishing a movement along a curve from a shift of the
   curve, comparing two linked markets, and connecting a formula/identity (like
   S + KI = I) to its graph implication. Some graph questions include a small original
-  inline SVG diagram (11 of the 39); the rest fully describe the graph situation in the
+  inline SVG diagram (11 of the 46); the rest fully describe the graph situation in the
   question text. Graph questions still appear in their normal topic and in every other
   study mode; Graph Practice is just a filtered view. Graph questions show a small
   "Graph" badge in the quiz header.
 - A **Midterm Review** study mode pulls every question sourced from the instructor's
-  released midterm study guide and practice problems (17 questions, as of the
-  2026-07-12 update) into a shuffled, exam-style practice session covering the first
+  released midterm study guide and practice problems (69 questions, as of the
+  2026-07-12 expansion) into a shuffled, exam-style practice session covering the first
   half of the course. These questions are paraphrased from the instructor's own
   practice-problem solutions with fresh numbers/scenarios, span `formula`, `graph`,
   `standard`, and `vocab` question types, and still appear in their normal topic and
@@ -70,7 +70,7 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (288 questions as of the 2026-07-12 Exam Materials update)
+  questions.json                 the question bank (340 questions as of the 2026-07-12 Midterm Review expansion)
   topics.json                    topic list (id, name, description)
   sources.json                   source-material metadata (which file, what it covers, reliability notes)
 docs/
