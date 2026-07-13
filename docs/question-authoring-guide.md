@@ -404,6 +404,34 @@ by hand or assuming a pattern from an earlier variant still holds — small
 number changes between variants can silently break a distractor that was only
 plausible for the original numbers.
 
+**The mad-libs risk applies to an existing app question's own wording, not
+just the raw source's wording — and it hides in the explanations as much as
+the question stem.** The 2026-07-12 midterm-expansion quality audit found 8
+of the 52 new variants had copied a sibling `*-examprep-*` question's
+sentence architecture almost word-for-word, even though every one of them
+used fresh numbers and a fresh scenario per the rules above. This happens
+easily when a new variant is authored *from* an existing app question's
+concept (rather than straight from the raw source), since the existing
+question's exact phrasing is right there as a template to unconsciously
+follow. It is not enough to check only the question stem: in several cases
+the stem was already reasonably distinct, but the `correctExplanation` and
+`wrongExplanations` still reused the sibling's exact clause structure (e.g.,
+"Indexing scales a nominal amount by the ratio of the new price index to
+the old one:" copied verbatim into a new indexing question's explanation).
+Before finalizing a variant, compare its full text — stem, choices, *and*
+every explanation — against its closest sibling question, not just against
+the raw source document. For a large batch, a small standalone script that
+finds shared multi-word phrases (e.g., shared 6-7-word sequences) between
+every new question and its siblings is far more reliable than eyeballing,
+and was the method that caught these 8 cases after a first manual pass had
+already missed some of them. Short, unavoidable technical phrases that
+precisely name a specific identity or mechanism (e.g., "what happens to the
+equilibrium real interest rate and the level of investment," which mirrors
+the source document's own practice-problem phrasing) are not a violation on
+their own — the target is *narrative* sentence architecture (how a scenario
+is set up and explained), not the minimal vocabulary needed to state a
+formula or identity precisely.
+
 ## Marking `needsReview`
 
 Set `"needsReview": true` when a question is derived from source content that was:

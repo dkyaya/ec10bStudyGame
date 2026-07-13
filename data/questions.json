@@ -9084,14 +9084,14 @@
     "id": "midterm-var-saving-001",
     "topic": "saving-investment",
     "subtopic": "National Saving and Investment",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "sourceIds": [
       "midterm_review"
     ],
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A closed economy's investment this year totals $3.6 billion. The government's budget shows a $420 million deficit. Using the closed-economy identity that investment equals national saving, what is the combined saving of this economy's households and firms (private saving)?",
+    "question": "This year, a closed economy invests $3.6 billion. Digging into its national accounts, an analyst finds the government ran a $420 million budget deficit over the same period. Since a closed economy's investment must equal its national saving, how much did the economy's households and firms save (combined, as private saving)?",
     "choices": [
       "$4.02 billion",
       "$3.18 billion",
@@ -9104,7 +9104,7 @@
       null,
       "This subtracts the deficit from investment instead of adding it back -- since the deficit already pulled national saving (and therefore investment) down, private saving must be larger than investment, not smaller.",
       "This reports investment itself, ignoring that a budget deficit means private saving must exceed the investment/national-saving total.",
-      "This is just the size of the deficit, not the economy's private saving."
+      "This is only the size of the deficit, not the amount households and firms actually saved."
     ],
     "tags": [
       "saving and investment",
@@ -9124,7 +9124,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "In a closed economy, households and firms save a combined $1.8 billion this year. The government runs a budget surplus of $300 million (it collects more in net taxes than it spends). What is this economy's investment level?",
+    "question": "This year, a closed economy's government collects $300 million more in net taxes than it spends -- a budget surplus. Over the same period, the economy's households and firms together save $1.8 billion. What level of investment does this support?",
     "choices": [
       "$2.1 billion",
       "$1.5 billion",
@@ -9156,7 +9156,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "standard",
-    "question": "In a closed economy, households and firms save $2.0 billion, and the government runs a budget deficit of $600 million. A student argues that investment must be $2.6 billion, reasoning that \"more government borrowing means more total funds available for investment.\" Evaluate this reasoning.",
+    "question": "A student is checking a closed economy's numbers: households and firms save $2.0 billion this year, and the government's budget shows $600 million more spent than collected in net taxes. The student concludes that investment must total $2.6 billion, on the theory that \"more government borrowing means more total funds available for investment.\" Evaluate the student's reasoning.",
     "choices": [
       "The reasoning is wrong: a budget deficit is public dissaving, which subtracts from private saving to get national saving/investment, so investment is $1.4 billion, not $2.6 billion",
       "The reasoning is correct: government borrowing adds directly to the pool of loanable funds, so investment is $2.6 billion",
@@ -9189,7 +9189,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A small business borrows $22,000 at a fixed 9% annual interest rate. The full loan, plus all accumulated interest, is due as a single payment 6 years later. Over those 6 years, prices rise by an average of 4% per year. In today's (inflation-adjusted) dollars, how large is that final payment expected to be?",
+    "question": "Prices are expected to rise by an average of 4% per year over the next 6 years. Against that backdrop, a small business takes out a $22,000 loan at a fixed 9% annual interest rate, with the entire balance -- principal plus all accumulated interest -- due as one lump sum at the end of year 6. In real terms (today's purchasing power), how large is that lump-sum payment expected to be?",
     "choices": [
       "$29,482",
       "$36,896",
@@ -9197,12 +9197,12 @@
       "$22,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The real interest rate is the nominal rate minus inflation: 9% - 4% = 5%. In today's (real) dollars, the loan compounds at this real rate over 6 years: $22,000 x (1.05)^6, which is approximately $29,482.",
+    "correctExplanation": "Strip inflation out of the nominal rate first: the real interest rate is 9% - 4% = 5%. The loan balance grows at this real rate for 6 years: $22,000 x (1.05)^6, which comes to approximately $29,482 in today's purchasing power.",
     "wrongExplanations": [
       null,
-      "This compounds the loan at the NOMINAL rate (9%) instead of the real rate -- since the question asks for the payment in today's dollars, inflation must be stripped out first using the real rate.",
-      "This uses the correct 5% real rate but applies it as simple (non-compounding) interest instead of compounding it over the 6 years.",
-      "This is just the original loan amount, with no interest applied at all."
+      "This compounds the loan balance at the loan's stated 9% nominal rate rather than stripping out inflation first -- since the question asks for the real, inflation-adjusted burden, the 5% real rate (9% minus 4% inflation) must be used instead.",
+      "This correctly identifies the 5% real rate but grows the balance with simple (non-compounding) interest across the 6 years rather than compounding it year over year.",
+      "This is only the original $22,000 principal, with no interest -- real or nominal -- applied at all."
     ],
     "tags": [
       "real interest rate",
@@ -9417,7 +9417,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A coffee farmer sells raw beans for $40,000 to a processor. The processor cleans and dries the beans and sells them for $58,000 to a roaster. The roaster roasts the beans and sells them for $95,000 to a distributor. The distributor sells the roasted coffee to retail stores for $150,000, and the retail stores sell it to the public for $310,000. Using the value-added method, what is the total contribution to GDP from this chain?",
+    "question": "Coffee moves through five stages before reaching a customer's cup. A farmer sells raw beans to a processor for $40,000. The processor cleans and dries them, reselling to a roaster for $58,000. After roasting, the beans go to a distributor for $95,000, then to retail stores for $150,000, and finally to the public for $310,000. What total amount does this chain contribute to GDP, using the value-added method?",
     "choices": [
       "$310,000",
       "$653,000",
@@ -9425,12 +9425,12 @@
       "$160,000"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Value added at each stage: farmer $40,000 (no purchased inputs), processor $58,000 - $40,000 = $18,000, roaster $95,000 - $58,000 = $37,000, distributor $150,000 - $95,000 = $55,000, and retail stores $310,000 - $150,000 = $160,000. Total value added = $40,000 + $18,000 + $37,000 + $55,000 + $160,000 = $310,000 -- equal to the final sale price to the public, as it must be.",
+    "correctExplanation": "Value added at each stage is that firm's sale price minus what it paid for inputs: the farmer contributes $40,000 (no inputs purchased), the processor $58,000 - $40,000 = $18,000, the roaster $95,000 - $58,000 = $37,000, the distributor $150,000 - $95,000 = $55,000, and retail stores $310,000 - $150,000 = $160,000. Summing these gives $40,000 + $18,000 + $37,000 + $55,000 + $160,000 = $310,000, matching the price the public ultimately paid, as it must.",
     "wrongExplanations": [
       null,
-      "This sums all five firms' full revenues ($40,000 + $58,000 + $95,000 + $150,000 + $310,000) instead of each firm's value added, double- and triple-counting the beans and coffee along the way.",
-      "This is only the distributor's sale price to retail stores, not the total value added across the whole chain.",
-      "This is only the retail stores' own value added, ignoring the value added by the other four firms earlier in the chain."
+      "This adds up every firm's full sale price ($40,000 + $58,000 + $95,000 + $150,000 + $310,000) rather than each firm's own value added, so the beans and coffee get counted again at each handoff.",
+      "This is only the price the distributor charged retail stores -- one link in the chain, not the total value added across all five.",
+      "This is only the retail stores' own markup over what they paid the distributor, leaving out the value the first four firms added earlier in the chain."
     ],
     "tags": [
       "gdp",
@@ -9481,7 +9481,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Using the five-firm coffee chain above (farmer $40,000, processor $58,000, roaster $95,000, distributor $150,000, retail $310,000, with correct total value added of $310,000), suppose a student instead sums all five firms' revenues to estimate GDP. By how much does the student's (incorrect) total overstate the chain's actual contribution to GDP?",
+    "question": "Consider a five-firm coffee supply chain with sale prices of $40,000 (farmer), $58,000 (processor), $95,000 (roaster), $150,000 (distributor), and $310,000 (retail) -- correctly totaling $310,000 in value added. A student instead sums all five firms' sale prices to estimate GDP. By how much does the student's (incorrect) total overstate the chain's actual contribution to GDP?",
     "choices": [
       "$343,000",
       "$653,000",
@@ -9576,7 +9576,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A rent-control ordinance set a base monthly rent of $900 in a year when the local cost-of-living index stood at 128. The index has since risen to 168. If landlords may raise rents only enough to keep pace with the cost-of-living index, what is the new allowed monthly rent?",
+    "question": "Under a local rent-control ordinance, landlords may only raise rents in step with the cost-of-living index. The base monthly rent was fixed at $900 back when that index read 128; today, the index has climbed to 168. What monthly rent does the ordinance now allow?",
     "choices": [
       "$1,181",
       "$686",
@@ -9584,12 +9584,12 @@
       "$1,512"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Indexing scales a nominal amount by the ratio of the new price index to the old one: $900 x (168/128) is approximately $1,181.25, or about $1,181.",
+    "correctExplanation": "To index a dollar amount forward, multiply it by how much the price index has risen: $900 x (168/128), which works out to approximately $1,181.25 -- about $1,181.",
     "wrongExplanations": [
       null,
-      "This inverts the index ratio (128/168 instead of 168/128), which understates the rent needed to keep pace with the rising cost of living.",
-      "This leaves the rent unchanged, ignoring the rise in the cost-of-living index entirely.",
-      "This multiplies by 1.68 (treating the new index value as if it were already a ratio) instead of by the correct ratio of 168 to the base value of 128."
+      "This flips the index ratio (128 over 168 rather than 168 over 128), which understates how much the rent needs to rise to keep pace.",
+      "This keeps the rent at its original level, which ignores that the cost-of-living index moved at all.",
+      "This multiplies by 1.68 as though the index value itself were a growth factor, rather than dividing 168 by the base value of 128 first to get the correct ratio."
     ],
     "tags": [
       "indexing",
@@ -9704,7 +9704,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Suppose average labor productivity in a country grew at a constant 2.2% per year from 1970 to 1990 (20 years). If that same 2.2% growth rate had instead continued for a longer 35-year period (1970 to 2005), productivity in 2005 would have been approximately what multiple of its 1970 level?",
+    "question": "Between 1970 and 1990, a country's average labor productivity grew at a steady 2.2% annual rate. An economist wants to know what would have happened had that same pace simply kept going for another 15 years, all the way through 2005 -- a 35-year run from the 1970 starting point. Under that scenario, productivity in 2005 would be approximately what multiple of where it stood in 1970?",
     "choices": [
       "about 2.14 times",
       "about 1.55 times",
@@ -9712,12 +9712,12 @@
       "about 1.02 times"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Compound growth over 35 years at 2.2% per year: (1.022)^35 is approximately 2.14 -- productivity would be about 2.14 times its 1970 level.",
+    "correctExplanation": "Compounding 2.2% growth over the full 35-year span: (1.022)^35 works out to approximately 2.14 -- so productivity in 2005 would be about 2.14 times its 1970 level under this counterfactual.",
     "wrongExplanations": [
       null,
-      "This is (1.022)^20, the multiple for the original 20-year period, not the extended 35-year period the question asks about.",
-      "This uses simple (non-compounding) growth -- 1 + (0.022 x 35) -- instead of compounding the 2.2% rate over 35 years.",
-      "This is just 1 plus the annual rate (1.022), as if applying it for only a single year instead of compounding over 35 years."
+      "This is (1.022)^20 -- the growth multiple for the original 1970-1990 stretch, not the full 35-year run through 2005 the question asks about.",
+      "This adds up the growth linearly (1 + 0.022 x 35) instead of compounding the 2.2% rate year after year for 35 years.",
+      "This applies the 2.2% rate for just a single year (1 + 0.022) rather than compounding it across the full 35-year span."
     ],
     "tags": [
       "compound growth",
@@ -9767,7 +9767,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A country's average labor productivity grew at 3.0% per year from 1980-1995 (15 years), then slowed to 1.5% per year from 1995-2015 (20 years). If productivity had instead continued growing at the initial 3.0% rate for the full 35-year period (1980-2015), approximately how much higher would 2015 productivity have been under that counterfactual, compared to the actual 2015 level (after the slowdown)?",
+    "question": "Picture two possible timelines for the same country's average labor productivity, both starting from an identical 1980 baseline. In the real timeline, productivity grew 3.0% annually through 1995, then cooled to 1.5% annually for the next 20 years, reaching 2015. In an alternate timeline, the initial 3.0% pace never slowed at all and simply ran for the entire 35 years to 2015. Roughly how much higher would 2015 productivity be in the alternate (no-slowdown) timeline compared with the real one?",
     "choices": [
       "about 34.1% higher",
       "about 3.8% higher",
@@ -9775,12 +9775,12 @@
       "about 13.9% lower"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Counterfactual (3.0% for the full 35 years): (1.03)^35 is about 2.814 times the 1980 level. Actual (3.0% for 15 years, then 1.5% for 20 years): (1.03)^15 x (1.015)^20 is about 2.098 times the 1980 level. The counterfactual is 2.814 / 2.098 is about 1.341 times the actual level -- about 34.1% higher.",
+    "correctExplanation": "Alternate (no-slowdown) timeline: (1.03)^35 is about 2.814 times the 1980 baseline. Real timeline: (1.03)^15 x (1.015)^20 is about 2.098 times the baseline. Comparing them, 2.814 / 2.098 is about 1.341 -- the alternate timeline ends up about 34.1% higher than the real one.",
     "wrongExplanations": [
       null,
-      "This incorrectly averages the two growth rates into one flat 2.25% rate applied for 35 years, instead of compounding each sub-period separately at its own rate.",
-      "This uses simple (non-compounding) interest for both the counterfactual and the actual figures instead of compound growth.",
-      "This compounds the counterfactual for only 20 years (matching the length of the second, slower period) instead of the full 35-year span the question asks about."
+      "This blends the two rates into one flat 2.25% average applied across all 35 years, rather than compounding the 3.0% and 1.5% sub-periods separately at their own rates.",
+      "This uses simple, non-compounding interest for both timelines instead of compounding growth year over year.",
+      "This only compounds the alternate timeline's 3.0% rate for 20 years -- matching the length of the real timeline's slower stretch -- instead of the full 35 years the alternate timeline actually covers."
     ],
     "tags": [
       "compound growth",
@@ -9863,7 +9863,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A closed economy produces $6,400 billion in total output this year. Households and businesses spend $4,300 billion of after-tax income on consumption. The government collects $1,600 billion in net taxes and spends $900 billion on government purchases. What are this economy's private saving, public saving, and national saving, respectively?",
+    "question": "This year, a closed economy's government collects $1,600 billion in net taxes and spends $900 billion on government purchases. Meanwhile, total output for the economy comes to $6,400 billion, of which households and businesses direct $4,300 billion of after-tax income toward consumption. Find this economy's private saving, its public saving, and its national saving.",
     "choices": [
       "500; 700; 1,200",
       "500; 700; 1,000",
@@ -9871,12 +9871,12 @@
       "500; -700; -200"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Private saving = total output - net taxes - consumption = 6,400 - 1,600 - 4,300 = 500. Public saving = net taxes - government purchases = 1,600 - 900 = 700. National saving = private + public = 500 + 700 = 1,200 (matches total output - consumption - government purchases = 6,400 - 4,300 - 900 = 1,200).",
+    "correctExplanation": "Private saving = output - net taxes - consumption = 6,400 - 1,600 - 4,300 = 500. Public saving = net taxes - government purchases = 1,600 - 900 = 700. National saving is the sum of the two: 500 + 700 = 1,200, which also matches output - consumption - government purchases = 6,400 - 4,300 - 900 = 1,200.",
     "wrongExplanations": [
       null,
-      "This correctly computes private and public saving but doesn't add them together for national saving.",
-      "This swaps the private and public saving figures with each other.",
-      "This flips the sign on public saving -- with net taxes exceeding government purchases here, the government runs a surplus (positive public saving), not a deficit."
+      "This gets private and public saving right individually but stops short of summing them into the national saving total.",
+      "This swaps the private and public saving values with each other.",
+      "This treats the government's larger tax collection as a deficit rather than a surplus -- with taxes exceeding purchases, public saving here is positive, not negative."
     ],
     "tags": [
       "private saving",
@@ -9927,7 +9927,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Continuing the same economy (total output $6,400 billion, private saving fixed at $500 billion regardless of the interest rate, and government purchases unchanged at $900 billion): the government cuts net taxes from $1,600 billion to $1,300 billion. What is the new level of national saving?",
+    "question": "Return to that same economy -- total output of $6,400 billion, private saving locked in at $500 billion regardless of the interest rate, and government purchases holding steady at $900 billion. Now suppose the government cuts net taxes from $1,600 billion down to $1,300 billion. What does national saving become?",
     "choices": [
       "$900 billion",
       "$1,200 billion",
@@ -9935,12 +9935,12 @@
       "$400 billion"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Public saving is now net taxes - government purchases = $1,300 billion - $900 billion = $400 billion (down from $700 billion). With private saving unchanged at $500 billion, national saving = $500 billion + $400 billion = $900 billion.",
+    "correctExplanation": "After the tax cut, public saving falls to $1,300 billion - $900 billion (net taxes minus government purchases) = $400 billion, down from its earlier $700 billion. Private saving hasn't moved from $500 billion, so adding the two together gives national saving of $500 billion + $400 billion = $900 billion.",
     "wrongExplanations": [
       null,
-      "This is the original national saving figure before the tax cut -- it doesn't account for the drop in net taxes, which lowers public saving.",
-      "This is a plausible-looking but incorrect intermediate figure that doesn't follow from correctly recomputing public saving after the tax cut.",
-      "This reports only the new public saving figure by itself, not the full national saving total (private plus public)."
+      "This is where national saving stood before the tax cut -- it skips over the fact that lower net taxes also lowers public saving.",
+      "This number doesn't fall out of correctly recomputing public saving after the cut -- it's an intermediate figure that looks plausible but doesn't match the arithmetic.",
+      "This is just the new public saving figure on its own, not the combined private-plus-public national saving total the question asks for."
     ],
     "tags": [
       "national saving",
@@ -9983,8 +9983,8 @@
   },
   {
     "id": "midterm-var-loanable-002",
-    "topic": "loanable-funds",
-    "subtopic": "Government Budgets and National Saving",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
     "difficulty": "medium",
     "sourceIds": [
       "midterm_review"
@@ -10014,8 +10014,8 @@
   },
   {
     "id": "midterm-var-loanable-003",
-    "topic": "loanable-funds",
-    "subtopic": "Government Budgets and National Saving",
+    "topic": "saving-investment",
+    "subtopic": "Saving Identities",
     "difficulty": "medium",
     "sourceIds": [
       "midterm_review"
@@ -10118,7 +10118,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "graph",
-    "question": "Continuing the vertical-saving-curve economy: suppose instead that a booming economy raises private saving so much that national saving rises from $900 billion to $1,300 billion, shifting the vertical saving-supply line to the right. Holding the downward-sloping investment demand curve fixed, what happens to the equilibrium real interest rate and the level of investment?",
+    "question": "In a closed economy with a perfectly vertical (interest-rate-insensitive) saving-supply curve, a booming economy raises private saving so much that national saving rises from $900 billion to $1,300 billion, shifting the vertical saving-supply line to the right. Holding the downward-sloping investment demand curve fixed, what happens to the equilibrium real interest rate and the level of investment?",
     "choices": [
       "The real interest rate falls, and investment rises to $1,300 billion",
       "The real interest rate rises, and investment falls",
@@ -10126,12 +10126,12 @@
       "The real interest rate falls, but investment stays at $900 billion since investment demand didn't shift"
     ],
     "answerIndex": 0,
-    "correctExplanation": "A rightward shift of the vertical saving-supply line means more funds are available at every interest rate. Reading the new, higher quantity off the fixed downward-sloping investment demand curve requires a lower real interest rate. Since investment must equal national saving in a closed economy, investment rises to the new saving level of $1,300 billion.",
+    "correctExplanation": "When the vertical saving-supply line moves right, a larger quantity of funds is on offer no matter what the interest rate is. Tracing that larger quantity along the fixed, downward-sloping investment demand curve only works at a lower real interest rate. And because a closed economy's investment always matches its national saving, investment climbs to the new $1,300 billion figure.",
     "wrongExplanations": [
       null,
-      "This has both directions backwards -- a rightward shift in saving supply (an increase in available funds) lowers the equilibrium interest rate and raises investment, not the reverse.",
-      "A vertical curve's fixed slope (its insensitivity to the interest rate) is different from its position being fixed -- the line can still shift left or right when the total quantity of saving supplied changes.",
-      "Investment demand doesn't shift, but the equilibrium level of investment still changes, because in a closed economy investment must equal the new, higher equilibrium level of national saving."
+      "Both directions are flipped here -- more funds on offer (a rightward supply shift) pushes the interest rate down and investment up, the opposite of what this choice claims.",
+      "Being vertical only means the line doesn't respond to the interest rate -- it says nothing about whether the line's position can move. A vertical line shifts left or right just fine whenever the total quantity supplied changes.",
+      "Investment demand staying put doesn't mean investment itself stays put -- in a closed economy, investment has to track whatever national saving becomes, so the equilibrium quantity moves even without a demand-side shift."
     ],
     "tags": [
       "loanable funds",
@@ -10246,7 +10246,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "An electronics wholesaler built up $6.0 million worth of unsold inventory during 2021 (counted as inventory investment in 2021's GDP). In 2022, the wholesaler sells off 60% of this stockpile to retailers, producing no new inventory that year. How does this partial inventory sell-off affect 2022 GDP?",
+    "question": "Over the course of 2021, an electronics wholesaler's unsold stock grew by $6.0 million -- a buildup counted as inventory investment in that year's GDP. The following year, with no new inventory produced, the wholesaler moves 60% of that stockpile out to retailers. What effect does this partial sell-off have on 2022 GDP?",
     "choices": [
       "$0 effect -- the rise in sales is exactly offset by the matching drawdown in inventory investment, regardless of what fraction of the stockpile is sold",
       "Adds $3.6 million (60% of $6.0 million) to 2022 GDP",
@@ -10254,12 +10254,12 @@
       "Adds $2.4 million (the remaining 40% still in inventory) to 2022 GDP"
     ],
     "answerIndex": 0,
-    "correctExplanation": "GDP counts goods in the year they are produced, not the year they are sold. The inventory was already counted as inventory investment in 2021. Selling any portion of it in 2022 raises sales/consumption by that amount but lowers inventory investment by the exact same amount, leaving 2022 GDP unaffected -- this holds regardless of what fraction of the stockpile is sold.",
+    "correctExplanation": "The key GDP-accounting rule here is timing: production is what counts, not the sale itself. That $6.0 million buildup already flowed into 2021's GDP as inventory investment when it was produced. Selling 60% of it off in 2022 pushes consumption up by that same amount, but it also draws the inventory stockpile down by an equal amount -- one effect cancels the other, so 2022's GDP doesn't move, no matter what fraction gets sold.",
     "wrongExplanations": [
       null,
-      "This ignores the offsetting drop in inventory investment that exactly cancels the rise in sales in the same year.",
-      "GDP doesn't fall either -- the rise in sales and the fall in inventory investment net out to zero, not a net negative.",
-      "The unsold remainder isn't relevant to 2022's GDP effect; only the portion sold in 2022 enters this year's sales-versus-inventory offset, and even that portion nets to zero."
+      "This treats the rise in sales as a net addition to GDP, but it overlooks the matching decline in inventory investment that cancels it out in the same year.",
+      "GDP isn't pushed down either -- the extra sales and the shrinking inventory stockpile offset each other exactly, landing at zero net change, not a negative one.",
+      "What's left in inventory doesn't factor into this year's GDP calculation one way or the other; the only relevant piece is the portion actually sold in 2022, and that portion's effect nets out to zero anyway."
     ],
     "tags": [
       "gdp",
@@ -10342,7 +10342,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "An investor pays $1,200 today for a share of a private startup that pays no dividends, planning to hold it for 4 years before selling. The risk-free rate is 4% per year, and investors demand an extra 6 percentage points of return to compensate for this stock's risk. Assuming the $1,200 purchase price reflects the present value of the expected future sale price, what future sale price would justify paying $1,200 today?",
+    "question": "The risk-free rate currently sits at 4% per year, and the market demands an additional 6 percentage points to hold a particularly risky, non-dividend-paying startup share -- a stock an investor buys today for $1,200, intending to sell it in 4 years. Given that this $1,200 price is the present value of whatever the share fetches at resale, what does the market appear to be pricing in as that 4-year-out sale price?",
     "choices": [
       "$1,757",
       "$1,404",
@@ -10350,12 +10350,12 @@
       "$1,680"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The discount rate for a risky asset is the risk-free rate plus the risk premium: 4% + 6% = 10%. Solving the present-value equation for the future price over 4 years: $1,200 = X / (1.10)^4, so X = $1,200 x (1.10)^4, approximately $1,757.",
+    "correctExplanation": "The appropriate discount rate for a risky asset is the risk-free rate plus the risk premium: 4% + 6% = 10%. Solving $1,200 = X / (1.10)^4 for X gives X = $1,200 x (1.10)^4, or approximately $1,757 -- the resale price the $1,200 purchase price is implicitly pricing in.",
     "wrongExplanations": [
       null,
-      "This uses only the risk-free rate (4%) as the discount rate, ignoring the extra return investors demand for the stock's risk.",
-      "This uses only the risk premium (6%) as the discount rate, ignoring the risk-free rate that should also be included.",
-      "This applies the correct 10% discount rate but as simple (non-compounding) interest over the four years instead of compounding it."
+      "This discounts using only the 4% risk-free rate, leaving out the extra compensation investors require for holding a risky asset.",
+      "This discounts using only the 6-percentage-point risk premium, leaving out the risk-free rate that should also be part of the discount rate.",
+      "This gets the 10% discount rate right but grows the price with simple, non-compounding interest across the 4 years instead of compounding it."
     ],
     "tags": [
       "stock pricing",
@@ -10473,7 +10473,7 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A country's real GDP was $3,000 billion in 2000 and grew to $5,400 billion by 2024 (a 24-year period). What was the approximate compound annual growth rate of real GDP over this period?",
+    "question": "An economic report notes that a country's real GDP climbed from $3,000 billion to $5,400 billion across the 24 years spanning 2000 to 2024. Treating this as steady compound growth throughout, roughly what annual growth rate does that imply?",
     "choices": [
       "about 2.5%",
       "about 3.3%",
@@ -10481,12 +10481,12 @@
       "about 1.2%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "The compound annual growth rate solves ($5,400 / $3,000) = (1+g)^24 for g: g = (5,400/3,000)^(1/24) - 1, which is approximately 2.5%.",
+    "correctExplanation": "Solve ($5,400/$3,000) = (1+g)^24 for g: g = (5,400/3,000)^(1/24) - 1, which comes out to approximately 2.5% per year.",
     "wrongExplanations": [
       null,
-      "This mistakenly divides the total percentage change over the period (about 80%) by the number of years, treating growth as simple/linear rather than compound.",
-      "This is the total percentage change in real GDP over the full 24 years, without annualizing it into a yearly compound growth rate.",
-      "This mistakenly uses 48 years in the exponent instead of the actual 24-year period, roughly halving the correctly implied annual rate."
+      "This takes the total 80% rise over the full 24 years and simply divides by 24, which treats growth as a flat linear trend rather than something that compounds.",
+      "This is the total percentage increase in real GDP across the whole 24-year span, not an annualized rate.",
+      "This doubles the actual number of years (using 48 instead of 24) in the exponent, which roughly cuts the true annual rate in half."
     ],
     "tags": [
       "compound growth",
@@ -10601,20 +10601,20 @@
     "sourceLabel": "Instructor Midterm Study Guide and Practice Problems",
     "needsReview": false,
     "questionType": "standard",
-    "question": "The fictional country of Larenthia falls into a recession, and Larenthian households sharply cut back consumption and investment at home, leaving more of Larenthia's saving available to flow abroad as capital sent to the United States. Holding everything else in the U.S. loanable funds market constant, what happens to U.S. net capital inflows, the U.S. real interest rate, and U.S. investment?",
+    "question": "A U.S. policymaker who tracks the loanable funds market notices that foreign capital inflows into the United States have picked up. Digging into the cause, she finds that the fictional country of Larenthia has slipped into a recession -- Larenthian households and firms have sharply pulled back on spending and investing at home, freeing up more of Larenthia's saving to flow abroad, much of it into U.S. assets. Assuming nothing else in the U.S. loanable funds market changes, what should she expect to happen to the equilibrium U.S. real interest rate and the level of U.S. investment?",
     "choices": [
-      "U.S. net capital inflows rise, shifting the effective supply-of-funds curve right; the U.S. real interest rate falls and U.S. investment rises",
-      "U.S. net capital inflows fall, shifting the effective supply curve left; the U.S. real interest rate rises and U.S. investment falls",
-      "U.S. investment demand shifts right, while the supply of funds is unaffected",
-      "There is no effect on the U.S. loanable funds market, since Larenthia's saving decisions are a purely domestic Larenthian matter"
+      "More capital flows into the U.S., pushing the effective U.S. supply-of-funds curve (S + KI) to the right -- the U.S. real interest rate drops and U.S. investment climbs",
+      "Less capital flows into the U.S., pulling the effective supply-of-funds curve to the left -- the U.S. real interest rate climbs and U.S. investment drops",
+      "U.S. firms suddenly want to invest more, shifting investment demand rightward, while the supply of loanable funds stays put",
+      "None of this touches the U.S. loanable funds market -- Larenthia's saving choices stay a purely internal Larenthian affair"
     ],
     "answerIndex": 0,
-    "correctExplanation": "More Larenthian saving flowing abroad means higher capital inflows into the U.S. (higher KI), which raises the effective supply of funds available for U.S. investment (S + KI shifts right). A rightward shift in the effective supply of loanable funds lowers the equilibrium U.S. real interest rate and raises the equilibrium level of U.S. investment.",
+    "correctExplanation": "When more of Larenthia's saving heads to the U.S., that pushes U.S. net capital inflows (KI) up, which means a bigger pool of funds is on offer for U.S. investment -- graphically, the S + KI line moves rightward. With more funds on offer, the U.S. real interest rate settles lower and U.S. investment settles higher.",
     "wrongExplanations": [
       null,
-      "This describes the opposite scenario (a foreign boom reducing capital sent abroad), not a foreign recession that increases the saving available to flow to the U.S.",
-      "The shock changes how much foreign saving is available to fund U.S. investment (a supply-side effect via KI), not U.S. firms' own demand for investment funds -- investment demand is unaffected here.",
-      "Capital inflows are exactly the channel connecting a foreign country's saving decisions to the U.S. loanable funds market -- via S + KI = I, a change in foreign capital available to the U.S. does have a direct effect on the U.S. equilibrium interest rate and investment."
+      "This describes the flip side -- a foreign boom keeping capital at home -- not a recession sending more of it abroad.",
+      "A recession abroad reshapes the supply of funds coming into the U.S. via capital inflows; it doesn't touch how eager U.S. firms themselves are to invest, so investment demand stays put.",
+      "Larenthia's saving decisions reach the U.S. market directly through KI -- the S + KI = I identity ties them together, so the equilibrium U.S. rate and investment level do respond."
     ],
     "tags": [
       "capital flows",

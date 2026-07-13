@@ -1,5 +1,112 @@
 # Changelog
 
+## 2026-07-12 21:57 — Midterm Expansion Quality Audit
+
+### Added
+- `docs/update-notes/2026-07-12-midterm-expansion-quality-audit-plan.md`
+  and `-results.md`: the audit plan (scope, method, high-risk areas flagged
+  in advance) and results doc (fixes made, final counts, validation result)
+  for a focused quality audit of the 52 `midterm-var-*` questions added in
+  the prior "Midterm Review Expansion" update.
+- New "The mad-libs risk applies to an existing app question's own wording"
+  section in `docs/question-authoring-guide.md`, documenting that
+  sentence-architecture copying can hide in `correctExplanation`/
+  `wrongExplanations` even when the question stem is already distinct, and
+  that a small shared-phrase script catches this more reliably than
+  eyeballing.
+- New "Shared-phrase check for multi-variant batches" item in
+  `docs/qa-checklist.md`.
+
+### Changed
+- Audited all **52 `midterm-var-*` questions** (27 formula, 15 standard, 7
+  graph, 3 vocab) — no other question in the 340-question bank was
+  touched, including the 17 `*-examprep-*` midterm_review questions from
+  the prior update (used only as read-only comparison material).
+- **18 of 52 questions revised** for source-transformation issues:
+  - **8 full rewrites** (question + explanations, and in one case choices)
+    for questions that had copied a sibling `*-examprep-*` question's
+    sentence architecture nearly word-for-word despite already using fresh
+    numbers: `midterm-var-cpi-001`, `midterm-var-gdp-001`,
+    `midterm-var-growth-001`, `midterm-var-growth-003`,
+    `midterm-var-growth-006`, `midterm-var-saving-007`,
+    `midterm-var-financialmarkets-001`, `midterm-var-capitalflows-002`.
+  - **5 second-pass explanation rewrites** where a first fix had corrected
+    the question stem but left the `correctExplanation`/
+    `wrongExplanations` as near-verbatim copies of a sibling's explanation
+    text: `midterm-var-cpi-005`, `midterm-var-saving-001`,
+    `midterm-var-loanable-006`, `midterm-var-capitalflows-002` (further
+    revised), `midterm-var-saving-009`.
+  - **4 lighter question-stem restructurings** for shared opening/closing
+    templates: `midterm-var-saving-002`, `midterm-var-saving-003`,
+    `midterm-var-gdp-006`, `midterm-var-cpi-005` (stem portion).
+  - **2 self-containment fixes**: `midterm-var-gdp-003` (removed a literal
+    "the five-firm coffee chain above" self-reference) and
+    `midterm-var-loanable-006` (removed a dangling "Continuing the
+    vertical-saving-curve economy" opener that implied unestablished prior
+    context).
+  - **1 difficulty fix**: `midterm-var-saving-001` medium -> hard (a
+    reverse-calculation question, per the stated difficulty rubric and for
+    consistency with every other reverse-calculation question in the
+    batch, which was already labeled hard).
+  - **2 topic/subtopic fixes**: `midterm-var-loanable-002` and
+    `midterm-var-loanable-003` moved from `loanable-funds` to
+    `saving-investment` (topic `subtopic` -> "Saving Identities"), since
+    both test only the private/public saving formulas with no interest-
+    rate or equilibrium content, matching `saving-investment`'s topic
+    description more precisely.
+- **No arithmetic errors were found anywhere in the 27 formula
+  questions** — every correct answer and every numeric distractor was
+  independently re-verified against the final question text via a
+  standalone script, and a second script independently re-derived several
+  results a second time from scratch. All 27 matched.
+- **No graph-reasoning errors were found in the 7 graph questions** —
+  curve identity, shift direction, and equilibrium implications were all
+  confirmed correct, including a first-principles linear supply-and-demand
+  derivation verifying the one genuinely novel comparative-statics claim in
+  the batch (`midterm-var-loanable-005`'s vertical-vs-sloped saving-supply
+  curve comparison).
+- **No distractor-defensibility, standard/vocab correctness, or
+  duplicate/near-duplicate issues were found** beyond the mad-libs/
+  sentence-architecture cases already listed.
+
+### Fixed
+- See "Changed" above — all 18 fixes were corrections to existing question
+  text, choices, explanations, difficulty, topic, or subtopic fields. No
+  question was added or removed; every original `midterm-var-*` question
+  ID, `sourceIds`, `sourceLabel`, and `questionType` was preserved.
+
+### Notes
+- **Final counts (unchanged from the prior update, since this was a pure
+  revision pass):** Total questions: **340**. `midterm-var-*` questions:
+  **52**. Midterm Review questions: **69** (38 formula, 18 standard, 9
+  graph, 4 vocab). Vocabulary: **42**. Formula: **78**. Graph: **46** (11
+  with an inline diagram). Topics: **17**. Sources: **13**.
+- **`needsReview` count: 0.** Every issue found was resolvable via rewrite
+  or relabeling; no question required the flag.
+- **Validation result:**
+  ```
+  $ node scripts/validate-data.mjs
+  Checked 340 questions, 17 topics, 13 sources.
+  Vocabulary/definition questions: 42.
+  Formula/quantitative practice questions: 78.
+  Graph interpretation questions: 46 (11 with an inline diagram).
+  All checks passed with no errors or warnings.
+  ```
+- **Playtest.** Drove the app in a headless browser (Playwright): confirmed
+  no console errors on load or during quiz interaction; confirmed all home
+  screen mode-card counts (340/42/78/46/69) match; launched Midterm Review
+  and stepped through 18 shuffled questions, hitting several of the fixed
+  questions directly (`midterm-var-saving-003`, `midterm-var-saving-007`,
+  `midterm-var-gdp-003`, `midterm-var-gdp-007`, `midterm-var-loanable-002`,
+  `midterm-var-loanable-003`, `midterm-var-loanable-005`) and confirming
+  each grades correctly (both correct and incorrect selections) after
+  answer-choice shuffling; separately confirmed Formula Practice, Graph
+  Practice, and Vocabulary / Definitions each launch cleanly with the
+  correct question count and badge. App remains fully static (served via
+  `python3 -m http.server`, no backend, no build step).
+- No raw files from `private-materials/` were committed — verified via
+  `git status --short` before staging.
+
 ## 2026-07-12 21:19 — Midterm Review Expansion
 
 ### Added

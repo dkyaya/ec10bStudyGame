@@ -139,6 +139,20 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   independently recompute one or two formula answers by hand against the stated
   `correctExplanation` to confirm no transcription error crept in between the
   authoring script and `data/questions.json`.
+- **Shared-phrase check for multi-variant batches**: whenever a batch of several
+  new questions is authored from the same handful of source problems (as with
+  the `midterm-var-*` expansion), run a small script that finds shared
+  multi-word phrases (6-7+ consecutive words) between each new question's full
+  text (stem + choices + all explanations) and its closest sibling question,
+  not just a manual read-through. The 2026-07-12 quality audit found several
+  cases where the question stem read as sufficiently distinct on a manual pass
+  but the `correctExplanation`/`wrongExplanations` still reused a sibling's
+  exact clause structure — a shared-phrase script catches this reliably where
+  eyeballing missed it. Distinguish genuine template copying from short,
+  unavoidable technical phrasing that precisely names a specific formula or
+  identity (e.g., "what happens to the equilibrium real interest rate and the
+  level of investment") — the latter is expected to recur across a family of
+  questions testing the same identity and is not itself a violation.
 - **Shuffle Mixed Practice**: test 10 / 20 / All session lengths — confirm the session
   length matches the selection, pulls from multiple topics, and never repeats a question
   within one session.
