@@ -83,5 +83,10 @@
     "id": "monetary-policy",
     "name": "Central Banks and Monetary Policy",
     "description": "The central bank's price-stability mandate, costs of inflation and deflation, bank reserves, the overnight interest rate, and modern monetary policy tools."
+  },
+  {
+    "id": "financial-crisis-2008",
+    "name": "The 2008 Financial Crisis",
+    "description": "Subprime lending and securitization, MBS/CDO tranching, moral hazard and principal-agent problems, leverage and too-big-to-fail, credit default swaps, regulatory gaps, and the Fed's crisis response."
   }
 ]

@@ -189,6 +189,46 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   taken immediately after answering looks washed out, that's the ~0.2s feedback
   fade-in animation, not a contrast bug — wait a beat and re-check.)
 
+## Checks for new fair-game/theory-heavy source additions
+
+Run these in addition to the standard checks above whenever a new batch of
+questions is added from a dense, mostly-non-quantitative lecture source
+(one flagged as "fair game" material students feel underprepared for,
+rather than a quiz/discussion-solutions/problem-set source with worked
+numeric answers):
+
+- **Source-grounding spot check**: for a random sample of ~20% of the new
+  questions, re-open the extracted source text and confirm the quoted or
+  paraphrased line in `correctExplanation` actually appears in the source,
+  not just plausible-sounding economics.
+- **Hard-but-fair review**: for every question marked `"difficulty":
+  "hard"`, confirm it's hard because it requires applying the source's own
+  logic to a new scenario, rejecting a plausible-but-wrong mechanism, or
+  connecting two concepts from the same source — not because of obscure
+  wording, ambiguity, or two defensible answer choices. If a hard question
+  can't be defended this way, either fix it or downgrade its difficulty.
+- **Ambiguity check**: for each question, confirm exactly one choice is
+  correct under any reasonable reading of the source — no two choices
+  should both be defensible depending on an unstated assumption.
+- **No invented content**: confirm no question tests a claim, mechanism,
+  or number that doesn't actually appear in (or follow directly from) the
+  source material — outside general-knowledge economics is not a
+  substitute for source-grounding, even when it happens to be correct.
+- **Type-quota honesty**: confirm `graph`/`formula` questions were only
+  added if the source actually teaches curve-shift/equilibrium-diagram
+  reasoning or requires a calculation, respectively — a source with no
+  such content should show `0` for that type rather than a forced
+  question shoehorned into the wrong `questionType`.
+- **Shared-phrase check for multi-question batches**: run a quick
+  normalized-substring scan across the new batch's `question` and
+  `correctExplanation` text (see the mad-libs note in
+  `docs/question-authoring-guide.md`) to catch sentence-architecture
+  copying between sibling questions on the same subtopic.
+- **New topic (if added) appears correctly**: confirm the new topic shows
+  up on the home dashboard with a 0%-progress card, its questions are
+  reachable both from that topic card and from Full Bank/Shuffle Mixed
+  Practice, and its name/description read clearly out of context.
+
 ## Verifying GitHub Pages compatibility
 
 - Keep `index.html` at the repo root with only relative paths (`./styles/...`,

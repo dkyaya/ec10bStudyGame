@@ -15,12 +15,14 @@ structured source metadata (`data/sources.json`), and public documentation
 
 ### Current local materials
 
-The question bank (233 questions as of the 2026-07-11 update) was generated from:
+The question bank (377 questions as of the 2026-07-14 update) was generated from:
 - `HarvardS10b_Class1.pptx`, `HarvardS10b_Class2.pptx`, `HarvardS10b_Class3.pptx`, `HarvardS10b_Class4.pptx`, `HarvardS10b_Class5.pptx`, `HarvardS10b_Class6_7.pptx` — lecture slides
 - `Guest Lecture Slides - Price Stability and Monetary Policy.pptx` — guest lecture slides
+- `Economic Crisis.pdf` — supplementary lecture slides on the 2008 financial crisis
 - `DS1_solutions.pdf`, `DS2_solutions.pdf`, `DS3.pdf` + `DS3_solutions.pdf` — discussion-section worked solutions
 - `Problem Set1_Solutions.pdf` — problem-set worked solutions
 - `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` — Canvas quiz export (paraphrased practice only, see below)
+- `MidtermStudyMaterials_Summer2026.doc` — instructor midterm study guide and practice problems (paraphrased practice only, see below)
 
 These files remain available locally so that future question-bank updates can read them
 directly using Claude Code prompts.
@@ -56,13 +58,15 @@ Never commit raw `.pptx`, `.pdf`, or other course files to git. The `.gitignore`
 | `ds3` | `DS3.pdf` + `DS3_solutions.pdf` (paired) | Worked solutions: the money demand curve and the opportunity cost of holding money, Fed open-market operations and the required reserve ratio, shifters vs. movements along the money demand curve, and money-demand shift scenarios (credit cards, riskier stocks, an economic boom). |
 | `quiz2` | `Quiz 2_ Principles of Economics_ Macroeconomics.pdf` | Canvas quiz (paraphrased practice only): open-economy S+KI=I/trade balance, private/public/national saving, debt paydown and wealth, life-cycle saving, USSR institutions, crowding out, cost of investment, capital inflows/outflows, Ricardian equivalence. |
 | `midterm_review` | `MidtermStudyMaterials_Summer2026.doc` | Instructor midterm study guide (paraphrased practice only): closed-economy saving/investment identity, real interest rate + compound interest, wealth effects on saving, value-added GDP (multi-firm chain), CPI indexing, labor-productivity counterfactual/piecewise compound growth, national/private/public saving with a vertical saving-supply curve, inventory-GDP timing, stock present value with a risk premium, compound real-GDP growth rate, and an open-economy capital-inflows shock. |
+| `financial_crisis_2008` | `Economic Crisis.pdf` | Supplementary lecture slides on the 2008 financial crisis: subprime lending and the originate-to-distribute model, securitization mechanics, MBS pass-through vs. CDO/CMO tranche seniority, credit rating agency conflicts, Fannie Mae/Freddie Mac, leverage and capital ratios, moral hazard and risk-taking incentives, too-big-to-fail/counterparty risk, credit default swaps and AIG, regulatory gaps between commercial and investment banks, the Fed's traditional vs. unconventional crisis response, debt overhang, emergency lending/TARP, and the balance-sheet/credit-channel transmission to the real economy. See the "2026-07-14 New Fair-Game Slides" narrative below for full reliability notes. |
 
-All thirteen files were extracted programmatically: the `.pptx` files with `python-pptx`
+All fourteen files were extracted programmatically: the `.pptx` files with `python-pptx`
 (slide text, tables, and speaker notes), the `.pdf` files with `pdftotext -layout`, and
 the one legacy `.doc` file with macOS's `textutil` (converted to plain text). Every
 extraction completed with no OCR failures or corrupted pages, aside from the known
 gaps noted below (one from the original 2026-07-06 audit, one found in Quiz 2 during
-the 2026-07-11 update).
+the 2026-07-11 update, and two chart-only slides in `financial_crisis_2008` noted in
+the 2026-07-14 update below).
 
 ### Known extraction gaps
 
@@ -592,3 +596,91 @@ bank, `MidtermStudyMaterials_Summer2026.doc` and every other file in
 `private-materials/` stay on the local machine only and are excluded from
 git via `.gitignore`; only the derived, paraphrased question JSON and this
 documentation are committed and pushed to GitHub Pages.
+
+## 2026-07-14 New Fair-Game Slides: The 2008 Financial Crisis
+
+Added one new source, one new topic, and 37 new questions covering a
+supplementary lecture deck on the 2008 financial crisis that the user
+flagged as fair game for the exam and an area no one felt prepared for.
+Full plan and results are in
+`docs/update-notes/2026-07-14-new-fair-game-slides-plan.md` and
+`docs/update-notes/2026-07-14-new-fair-game-slides-results.md`; this
+section summarizes the source-handling decisions for future contributors.
+
+**One new file was found:** `Economic Crisis.pdf`. Every other file in
+`private-materials/` was already represented in `data/sources.json` (see
+the plan doc for the full file-by-file comparison, which also documents an
+earlier pass in this same update where zero new files were found before
+this file was added to the folder).
+
+**Source added:** `financial_crisis_2008` (`Economic Crisis.pdf`) — a
+24-slide supplementary lecture deck (PDF export of a PowerPoint titled
+"Economic Crisis," authored by Gabrielle Penrose per the PDF metadata, a
+different presenter than the course's own instructor). See its full entry
+in `data/sources.json` for the complete coverage summary and reliability
+notes. Extracted with `pdftotext -layout`; all bullet-point body text
+across all 24 pages extracted cleanly.
+
+**Academic-integrity check:** the deck contains only explanatory,
+discussion-question-headed bullet content (e.g., "Why did the crisis
+spread from real estate market to Wall Street?"), no questions posed to
+students, no answer key, and no framing as an assessment of any kind — it
+reads as a standard supplementary lecture on crisis mechanics, not an exam
+instrument. No concern was found or needed flagging.
+
+**Extraction gaps:** two slides (the basic-MBS payment-stream diagram and
+the CDO/CMO tranche-waterfall diagram) are simple bar charts whose axis
+labels rendered as garbled font-encoding artifacts with no usable numeric
+data. These charts were not read directly; the same underlying concepts
+(pro-rata pass-through payment-sharing for a basic MBS, and tranche
+seniority/loss-waterfall order for a CDO) are independently and fully
+documented in the surrounding bullet text (e.g., "D-tranche takes the
+biggest hit... Seniority: D has least seniority, C has more, B has more, A
+has most"), so the tranche-seniority mechanism/ranking questions in this
+batch are grounded in that text, not in reading the chart pixels. The
+deck's final slide ("Crisis Timeline & Regulation") contains only two bare
+external hyperlinks (a New York Fed PDF and an SEC Dodd-Frank page) with no
+body content and was not used as a basis for any question.
+
+**New topic added:** `financial-crisis-2008` ("The 2008 Financial
+Crisis") — the deck's core concepts (securitization/tranching mechanics,
+moral hazard and principal-agent problems specific to mortgage
+origination and rating agencies, leverage/too-big-to-fail, CDS/AIG,
+regulatory asymmetry, the Fed's unconventional crisis-era LOLR actions,
+debt overhang, and the balance-sheet/credit-channel transmission
+mechanism) are not covered by the existing `financial-markets`,
+`money-banking`, or `monetary-policy` topics, which focus on bonds/stocks/
+PV/EMH, basic banking/the money market, and the ECB's own price-stability
+framework respectively. A new topic was judged appropriate rather than
+overloading an existing one.
+
+**Question generation approach:** 37 new `crisis2008-*` questions across
+16 subtopics spanning the deck's full concept range (2-3 questions per
+subtopic, so no single mechanism is over-tested). Per the task's framing
+(theory-heavy material with no math/formula content and no supply/demand-
+style curve-shift diagrams), the batch is entirely `standard` (34) and
+`vocab` (3) questions — no `graph` or `formula` questions were generated,
+since this deck teaches neither curve-shift/equilibrium-diagram reasoning
+nor calculation-based content. Difficulty mix: 5 easy, 19 medium, 13 hard
+(roughly 14%/51%/35%), skewed toward medium/hard per the task's request
+for challenging mechanism, contrast, policy-interpretation, common-
+confusion, scenario-transfer, and ranking questions rather than simple
+recall. Every question is a paraphrase grounded in specific lecture bullet
+text (quoted in each question's `correctExplanation` for traceability),
+never a verbatim copy of the deck's own wording or answer-choice
+structure, and several hard questions apply the deck's own logic to a
+fresh scenario not found in the slides (e.g., applying the leverage/
+capital-ratio arithmetic to new numbers, or classifying a new hypothetical
+Fed action as traditional vs. unconventional).
+
+**Skipped/uncertain material:** the two chart-only slides and the final
+hyperlink-only slide noted above under "Extraction gaps." No other
+content in the deck was skipped.
+
+**`needsReview` count:** 0. Every question is grounded in cleanly-
+extracted bullet text; none required the flag.
+
+**Raw materials remain local-only.** `Economic Crisis.pdf`, like every
+other file in `private-materials/`, stays on the local machine only and is
+excluded from git via `.gitignore`; only the derived question JSON and
+this documentation are committed and pushed to GitHub Pages.

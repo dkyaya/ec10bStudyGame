@@ -534,6 +534,45 @@ review mode needs to pull together *some but not all* questions from a source
 (a mix of exam-prep and non-exam-prep questions in the same file), which the
 first exam-prep source didn't require.
 
+## Writing questions from theory-heavy, non-quantitative sources
+
+Some sources (e.g., `financial_crisis_2008`) are dense conceptual lecture
+decks with no calculations and no supply/demand-style curve-shift
+diagrams — just a chain of "why did X happen" explanatory bullets. A few
+lessons from writing the first batch from this kind of source:
+
+- **Don't force a `formula` or `graph` classification just because the
+  source has numbers or a chart.** A capital ratio like "3 percent" or a
+  dollar figure like "$1.4 trillion" used as a comparison point in a
+  conceptual question is not the same as a `formula` question, which
+  requires the student to actually compute something. Likewise, a bar
+  chart illustrating a payment waterfall or tranche structure is not the
+  same as a `graph` question in this app's sense, which specifically means
+  supply/demand- or equilibrium-style curve-shift reasoning. If the source
+  doesn't teach that specific skill, don't add `graph` questions just to
+  hit a type quota — leave the count at zero and say so in the source's
+  results note.
+- **Quote the specific bullet in `correctExplanation`.** For a theory-heavy
+  deck with no worked numeric examples to anchor a question to, quoting
+  (or closely paraphrasing) the exact sentence that grounds the answer
+  makes the question's source-fidelity checkable at a glance, and makes it
+  easy to write a distractor that names a *different, plausible* sentence
+  from the same deck rather than an arbitrary wrong answer.
+- **Favor "apply the deck's own mechanism to a new scenario" over
+  "restate the deck's claim."** A theory deck's individual claims (e.g.,
+  "CRAs were paid by the issuers they rated") can be quizzed directly at
+  easy/medium difficulty, but the harder, more exam-realistic questions ask
+  the student to run that same mechanism on a fresh hypothetical (a new
+  loan type, a new institution, a new shock) — see the
+  `crisis2008-origination-002`, `crisis2008-toobigtofail-002`, and
+  `crisis2008-leverage-003` questions for examples of this pattern.
+- **Two-step contrasts embedded in the source make strong "common
+  confusion" questions.** When a deck explicitly separates two related but
+  distinct explanations (e.g., "two possibilities: they didn't realize the
+  risk, or they did but had bad incentives"), that structure is a ready-
+  made source for a question asking the student to tell the two apart,
+  rather than needing to invent an artificial confusion.
+
 ## Running the validation checks
 
 Open the app in a browser and check the console. `src/data.js` runs schema validation

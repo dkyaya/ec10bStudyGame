@@ -1,5 +1,85 @@
 # Changelog
 
+## 2026-07-14 21:21 — New Fair-Game Slides Questions: The 2008 Financial Crisis
+
+### Added
+- New source `financial_crisis_2008` (`Economic Crisis.pdf`, a 24-slide
+  supplementary lecture deck on the 2008 financial crisis) in
+  `data/sources.json`, added after a re-scan of `private-materials/` found
+  this one new, unrepresented file (a first scan earlier in the day found
+  zero new files and stopped without making changes — see
+  `docs/update-notes/2026-07-14-new-fair-game-slides-plan.md`).
+- New topic `financial-crisis-2008` ("The 2008 Financial Crisis") in
+  `data/topics.json`, covering securitization/CDO tranching, moral hazard
+  and principal-agent problems, leverage and too-big-to-fail, credit
+  default swaps, regulatory gaps, the Fed's crisis-era response, debt
+  overhang, and the balance-sheet/credit-channel transmission mechanism —
+  none of which were covered by the existing `financial-markets`,
+  `money-banking`, or `monetary-policy` topics.
+- **37 new questions** (IDs `crisis2008-*`, all `sourceIds:
+  ["financial_crisis_2008"]`), skewed toward challenging mechanism,
+  contrast, policy-interpretation, common-confusion, scenario-transfer,
+  and ranking questions per the task's "hard but fair" framing for
+  theory-heavy, underprepared-for material.
+- `docs/update-notes/2026-07-14-new-fair-game-slides-plan.md` and
+  `-results.md`: the file-comparison audit (both the initial "no new
+  files" pass and the follow-up pass after the new file was added),
+  academic-integrity check, source/topic rationale, and full question-
+  batch breakdown.
+- New "Writing questions from theory-heavy, non-quantitative sources"
+  section in `docs/question-authoring-guide.md`.
+- New "Checks for new fair-game/theory-heavy source additions" section in
+  `docs/qa-checklist.md`.
+
+### Changed
+- `README.md`: topic count 17 -> 18, vocab count 42 -> 45, question-bank
+  count/date reference updated to 377 questions / 2026-07-14.
+- `docs/source-notes.md`: added the new source to "Current local
+  materials" and the "Materials used" table, and added a new dated
+  narrative section with the full reliability/extraction-gap notes.
+
+### Fixed
+- None — this was a pure addition; no existing question, source, or topic
+  was modified.
+
+### Notes
+- **Difficulty breakdown (new batch):** 5 easy, 19 medium, 13 hard
+  (~14% / 51% / 35%).
+- **`questionType` breakdown (new batch):** 34 `standard`, 3 `vocab`, 0
+  `graph`, 0 `formula` — this deck teaches neither curve-shift/
+  equilibrium-diagram reasoning nor calculation-based content, so no
+  `graph` or `formula` questions were forced in just to hit a type quota.
+- **Final total question count: 377** (340 + 37). Vocabulary/definition:
+  **45** (42 + 3). Formula/quantitative: **78** (unchanged). Graph
+  interpretation: **46** (unchanged, still 11 with an inline SVG diagram).
+  Topics: **18** (17 + 1). Sources: **14** (13 + 1).
+- **`needsReview` count: 0.** Two chart-only slides (an MBS payment-stream
+  bar chart and a CDO tranche-waterfall bar chart) didn't extract usable
+  numeric data, but the same seniority/pass-through concepts they
+  illustrate are independently documented in the surrounding bullet text,
+  so no question depends on unreadable chart pixels. A final
+  hyperlink-only slide was not used as a basis for any question.
+- **Source-grounding:** every new question's `correctExplanation` quotes
+  or closely paraphrases the specific lecture bullet it's grounded in;
+  none copy the deck's exact wording or answer-choice structure verbatim,
+  and none were checked to duplicate or near-duplicate any of the
+  existing 340 questions (automated normalized-text check, zero
+  collisions).
+- **Validation:** `node scripts/validate-data.mjs` reports "Checked 377
+  questions, 18 topics, 14 sources... All checks passed with no errors or
+  warnings."
+- **QA/playtest:** verified live in a headless-Chromium session against a
+  local static server — zero console errors on load; the new topic card
+  appears on the home dashboard with the correct question count; a quiz
+  session on the new topic renders questions with 4 shuffled choices and
+  full correct/wrong-answer explanations; Vocabulary/Definitions mode
+  shows "Question 1 of 45"; Shuffle Mixed Practice (All) shows "Question 1
+  of 377"; Reset Progress returns the dashboard to a clean 0-attempted
+  state.
+- **No raw private materials were committed.** `Economic Crisis.pdf` and
+  every other file in `private-materials/` remain local-only, excluded via
+  `.gitignore`; only derived JSON and documentation were staged.
+
 ## 2026-07-12 21:57 — Midterm Expansion Quality Audit
 
 ### Added

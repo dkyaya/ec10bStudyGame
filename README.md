@@ -11,14 +11,15 @@ problem-set solutions, organized by topic, with progress saved locally in the br
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized into 17 topics spanning basic economic analysis, comparative
+- Questions are organized into 18 topics spanning basic economic analysis, comparative
   advantage and trade, supply and demand, GDP accounting, CPI/inflation, labor markets,
   productivity and wages, inequality/globalization, economic growth, saving/wealth/
   investment, the loanable funds market and government budgets, open-economy capital
-  flows, money/banking/the money market, bonds/stocks/financial markets, and central
-  banking/monetary policy.
+  flows, money/banking/the money market, bonds/stocks/financial markets, central
+  banking/monetary policy, and the 2008 financial crisis (securitization/tranching,
+  leverage and too-big-to-fail, moral hazard, and the Fed's crisis response).
 - A **Vocabulary / Definitions** study mode pulls every question tagged
-  `"questionType": "vocab"` across the whole bank (42 questions) into a shuffled,
+  `"questionType": "vocab"` across the whole bank (45 questions) into a shuffled,
   definition-focused practice session, in addition to each question's normal place
   within its topic.
 - A **Formula Practice** study mode pulls every question tagged
@@ -70,7 +71,7 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (340 questions as of the 2026-07-12 Midterm Review expansion)
+  questions.json                 the question bank (377 questions as of the 2026-07-14 fair-game slides update)
   topics.json                    topic list (id, name, description)
   sources.json                   source-material metadata (which file, what it covers, reliability notes)
 docs/

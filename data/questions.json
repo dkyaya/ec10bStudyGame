@@ -10752,5 +10752,1189 @@
       "s + ki = i",
       "shift"
     ]
+  },
+  {
+    "id": "crisis2008-origins-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Origins of the Crisis",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "During the run-up to the 2008 financial crisis, many subprime borrowers took out mortgages with low initial ('teaser') interest rates that were scheduled to reset higher after a few years. According to the crisis lecture, why did this combination make later mass defaults more likely?",
+    "choices": [
+      "Borrowers and lenders both assumed rising home prices would let borrowers refinance before the reset, so when rates reset higher and prices stopped rising, many borrowers suddenly couldn't afford the new payments",
+      "Teaser rates were illegal, so regulators forced lenders to call in the loans early, triggering defaults",
+      "Teaser rates only applied to prime borrowers, so subprime borrowers faced high rates from day one and never benefited from them",
+      "The Federal Reserve required all adjustable-rate mortgages to reset to the same interest rate simultaneously, creating a nationwide payment shock"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture ties the assumption that 'house prices could only go up' together with rates staying 'too low for too long,' noting that rate resets 'don't seem so scary' as long as refinancing on rising home equity is expected to be available. Once price appreciation stalled, the reset payment shock became unaffordable and defaults followed.",
+    "wrongExplanations": [
+      null,
+      "The lecture never describes any regulatory action forcing early loan recall -- the problem is decribed as originating from borrower/lender assumptions, not a regulatory intervention.",
+      "This contradicts the lecture's framing of subprime loans as specifically going to borrowers with poor credit, for whom lower initial teaser rates were a key part of the borrowing appeal.",
+      "No such Fed-mandated simultaneous reset rule appears in the lecture -- resets were a feature of individual loan terms, not a coordinated nationwide event."
+    ],
+    "tags": [
+      "subprime mortgages",
+      "teaser rates",
+      "origins of the crisis"
+    ]
+  },
+  {
+    "id": "crisis2008-origins-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Origins of the Crisis",
+    "difficulty": "easy",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "A student claims that a 'subprime' mortgage is any home loan whose interest rate is below the prime rate. Based on how the crisis lecture uses the term, what's wrong with that claim?",
+    "choices": [
+      "'Subprime' describes the borrower's credit risk -- a large loan to someone with a poor credit history and a low down payment -- not the loan's interest rate relative to the prime rate",
+      "Subprime loans are a type of loan issued exclusively by the Federal Reserve, not private lenders",
+      "The claim is correct -- subprime loans by definition carry below-prime interest rates",
+      "Subprime loans are defined only by the size of the down payment, with credit history playing no role"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture defines subprime as 'big loans to people with bad credit history with low down payments' -- a label for the borrower's risk profile, not a statement about where the loan's rate sits relative to the prime benchmark.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes subprime loans being issued by private lenders and mortgage brokers, not the Federal Reserve.",
+      "The lecture's own definition is about credit history and down payment size, not about the rate sitting below any prime benchmark, so this claim isn't supported by the source.",
+      "The lecture explicitly mentions both a 'bad credit history' and 'low down payments' as part of the definition, not down payment size alone."
+    ],
+    "tags": [
+      "subprime mortgages",
+      "vocab",
+      "common confusion"
+    ]
+  },
+  {
+    "id": "crisis2008-origination-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Originate-to-Distribute and Moral Hazard",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In a traditional 'originate-to-hold' model, a bank that issues a mortgage keeps it on its own books and bears any losses if the borrower defaults. The crisis lecture argues that a shift toward an 'originate-to-distribute' model changed lender behavior. What is the key mechanism it describes?",
+    "choices": [
+      "Once a lender sells the mortgage to someone else shortly after origination, the lender bears none of the default risk, so it has little incentive to carefully check the borrower's creditworthiness before approving the loan",
+      "Originate-to-distribute made mortgages more expensive for borrowers, which reduced the total number of subprime loans issued",
+      "Originate-to-distribute required lenders to hold more capital against each loan, making them more cautious about approving risky borrowers",
+      "Originate-to-distribute shifted mortgage approval decisions from private lenders to the Federal Reserve"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that lenders who 'originate the mortgage and sell it to someone else' bear no risk and so have 'no incentive to check credit history,' calling this a principal-agent problem, and adds that independent mortgage brokers earn more fees the more loans they sell.",
+    "wrongExplanations": [
+      null,
+      "The lecture doesn't describe originate-to-distribute raising loan prices or shrinking loan volume -- if anything, the fee-driven incentive described pushed toward selling more loans, not fewer.",
+      "This reverses the mechanism -- selling the loan off is exactly what let lenders avoid holding capital against it, not a reason to hold more.",
+      "No shift of approval authority to the Federal Reserve is described; the change described is about who bears the risk after a private lender approves a loan."
+    ],
+    "tags": [
+      "originate-to-distribute",
+      "principal-agent problem",
+      "moral hazard"
+    ]
+  },
+  {
+    "id": "crisis2008-origination-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Originate-to-Distribute and Moral Hazard",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Suppose a new type of auto loan becomes common in which the dealership originates the loan but immediately sells it to an investment fund that pools many such loans into a security. Applying the lecture's logic about mortgage origination, whose incentive to screen borrowers carefully is most weakened by this arrangement?",
+    "choices": [
+      "The dealership that originates the loan, since it no longer bears the risk of the borrower defaulting once the loan is sold",
+      "The investment fund that ends up holding the pooled security, since it now bears all the default risk directly",
+      "The borrower, since they no longer have any incentive to repay the loan",
+      "The credit rating agency that later rates the pooled security, since rating agencies do not evaluate loan quality"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This mirrors the lecture's point that the party who bears no risk after selling the loan has 'no incentive to check credit history.' The dealership is the one making the initial approval decision, and it is precisely that party's screening incentive that disappears once the loan is sold off.",
+    "wrongExplanations": [
+      null,
+      "The fund does bear the default risk, but it wasn't the party doing the borrower screening at origination -- its own risk exposure doesn't restore the dealership's weakened incentive to screen carefully in the first place.",
+      "The lecture's mechanism is about lender-side screening incentives, not about whether borrowers personally want to repay their loans.",
+      "The rating agency's role (discussed later in the lecture) is a separate incentive problem about rating the resulting security, not about screening individual borrowers at origination, which is the dealership's job."
+    ],
+    "tags": [
+      "originate-to-distribute",
+      "scenario transfer",
+      "principal-agent problem"
+    ]
+  },
+  {
+    "id": "crisis2008-securitization-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Securitization Mechanics",
+    "difficulty": "easy",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "According to the crisis lecture, what does 'securitization' of mortgages mean?",
+    "choices": [
+      "Pooling many individual mortgages together and slicing the pool into marketable securities that are then sold to investors",
+      "Requiring every mortgage to be insured by a government agency before it can be issued",
+      "Converting adjustable-rate mortgages into fixed-rate mortgages before resale",
+      "Combining a bank's mortgage loans with its stock shares into a single tradable asset"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture defines securitization as pooling 'a bunch of mortgages' and slicing the pool 'into marketable securities which are then sold to investors' -- households' payments flow to a custodian, get pooled, and are passed on to the investors who bought the resulting securities.",
+    "wrongExplanations": [
+      null,
+      "No government insurance requirement is described as part of securitization in the lecture.",
+      "The lecture doesn't describe securitization as changing a mortgage's rate structure -- it describes pooling and repackaging existing mortgages, rate type unchanged.",
+      "The lecture never describes combining loans with equity shares -- securitization is specifically about mortgage debt being pooled into new debt-like securities."
+    ],
+    "tags": [
+      "securitization",
+      "MBS",
+      "vocab"
+    ]
+  },
+  {
+    "id": "crisis2008-securitization-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Securitization Mechanics",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture describes securitization as having both a benefit and a problem. Which pair correctly captures that trade-off?",
+    "choices": [
+      "Benefit: pooling mortgages from different geographic areas diversifies lenders' exposure to a downturn in any one housing market. Problem: it becomes harder for investors to gauge the quality of the underlying loans",
+      "Benefit: it guarantees investors will never lose money on mortgage-backed securities. Problem: it makes mortgages more expensive for borrowers",
+      "Benefit: it eliminates default risk entirely by spreading it across many investors. Problem: it increases the interest rate borrowers must pay",
+      "Benefit: it allows banks to avoid all regulatory capital requirements. Problem: it slows down the mortgage approval process"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists diversification 'across geographical areas so that lenders can reduce their exposure to downturns in specific housing markets' as the benefit, and difficulty gauging 'the quality of the underlying assets' (trusting the originator or a rating agency) as the problem.",
+    "wrongExplanations": [
+      null,
+      "Diversification reduces, but doesn't guarantee against, losses -- the lecture never claims securities become loss-proof, and it doesn't describe a borrower interest-rate effect as the 'problem.'",
+      "Pooling loans across regions reduces geographic concentration risk; it does not eliminate default risk altogether, which is exactly why the opacity problem the lecture describes still matters.",
+      "The lecture doesn't list avoiding capital requirements as a stated benefit of securitization, nor slower approvals as its problem."
+    ],
+    "tags": [
+      "securitization",
+      "diversification",
+      "opacity"
+    ]
+  },
+  {
+    "id": "crisis2008-tranching-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "MBS vs. CDO/CMO Tranching",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture contrasts a 'basic' mortgage-backed security (MBS) with a collateralized mortgage obligation (CMO/CDO). What is the key structural difference it describes?",
+    "choices": [
+      "In a basic MBS, every investor holds a fixed proportional share of the entire payment stream, so a wave of defaults reduces everyone's payment equally; in a CMO/CDO, the payment stream is divided into tranches with different seniority, so losses hit the lowest tranches first",
+      "A basic MBS pays a fixed dollar amount regardless of defaults, while a CMO/CDO's payments rise when defaults increase",
+      "A basic MBS is only sold to banks, while a CMO/CDO is only sold to individual retail investors",
+      "A basic MBS is backed by a government guarantee, while a CMO/CDO carries no credit risk at all"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes the basic MBS as giving 'every investor... a fixed share of every payment,' with heavy defaults reducing 'all investors' payments equally, while the CMO/CDO divides the repayment stream into tranches (A through D) 'based on the ratings,' where the least senior tranche (D) 'takes the biggest hit' first.",
+    "wrongExplanations": [
+      null,
+      "MBS payments fall proportionally as defaults rise rather than staying fixed, and CDO tranche payments don't rise with defaults -- if anything the junior tranches fall first.",
+      "The lecture draws no distinction about which buyer type (banks vs. retail investors) holds each instrument.",
+      "The lecture calls CMOs/CDOs 'more opaque,' not risk-free, and doesn't describe a government guarantee behind basic MBS either."
+    ],
+    "tags": [
+      "MBS",
+      "CDO",
+      "CMO",
+      "tranching"
+    ]
+  },
+  {
+    "id": "crisis2008-tranching-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "MBS vs. CDO/CMO Tranching",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A CMO has been sliced into four tranches, from most senior to least senior: A, B, C, and D. If mortgage defaults are heavy enough that losses exceed what tranche D alone can absorb, which tranche is hit next, according to the lecture's seniority structure?",
+    "choices": [
+      "Tranche C, since seniority runs A (most senior) through D (least senior), so losses move up the seniority ladder only after the least-senior tranche below it is wiped out",
+      "Tranche A, since the most senior tranche is always first to absorb any losses",
+      "All four tranches absorb the additional losses equally and simultaneously",
+      "Tranche D absorbs all losses no matter how large, since it was designed to hold unlimited downside risk"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that under heavy defaults, 'D-tranche takes the biggest hit' because 'D has least seniority, C has more, B has more, A has most' -- meaning losses are absorbed bottom-up, moving to C only once D is exhausted.",
+    "wrongExplanations": [
+      null,
+      "This reverses the seniority order described -- A is the most protected tranche, the last to absorb losses, not the first.",
+      "Equal, simultaneous loss-sharing is how the lecture describes a basic pass-through MBS working, which is exactly what tranching is meant to be different from.",
+      "No tranche is described as having unlimited capacity -- once D is exhausted, the lecture's seniority ladder means losses move up to C next."
+    ],
+    "tags": [
+      "CDO",
+      "tranching",
+      "seniority",
+      "ranking"
+    ]
+  },
+  {
+    "id": "crisis2008-tranching-003",
+    "topic": "financial-crisis-2008",
+    "subtopic": "MBS vs. CDO/CMO Tranching",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "An insurance company that must avoid risky assets and a hedge fund seeking high returns are both offered shares of the same CMO. Based on the lecture's tranche-seniority logic, which allocation makes the most sense for each investor?",
+    "choices": [
+      "The insurance company buys the senior A tranche (least exposed to early losses), and the hedge fund buys the junior D tranche (most exposed to losses, but likely offering more return for that risk)",
+      "The insurance company buys the junior D tranche because it is paid first, and the hedge fund buys the senior A tranche because it offers the highest possible return",
+      "Both investors should be indifferent between tranches, since the lecture states every investor in a CMO receives an identical share of the payment stream",
+      "The insurance company should avoid CMOs entirely, since the lecture states that every CMO tranche is riskier than a basic pass-through MBS"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Since tranche D absorbs losses first and tranche A is protected longest, a risk-averse buyer rationally prefers the senior tranche, while a return-seeking, risk-tolerant buyer is better suited to the junior tranche that bears first losses.",
+    "wrongExplanations": [
+      null,
+      "This reverses the seniority logic -- D is hit by losses first, not 'paid first' in any protective sense, and A is the safer, not the highest-return, tranche.",
+      "An identical pass-through share for every investor is how the lecture describes a basic MBS, which it explicitly contrasts with a CMO's tranched structure.",
+      "The lecture never claims every CMO tranche is riskier than a basic MBS overall -- the point of tranching is precisely to create tranches, like senior A, with less exposure than others."
+    ],
+    "tags": [
+      "CDO",
+      "tranching",
+      "risk preference",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "crisis2008-ratingagencies-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Credit Rating Agency Conflicts",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Why does the lecture say credit rating agencies (CRAs) assigned unrealistically high ratings to many mortgage-backed securities?",
+    "choices": [
+      "Two combined reasons: the underlying securities were hard to assess, so CRAs leaned on simplified statistical assumptions and issuer-supplied information, and CRAs were paid by the very issuers whose securities they rated, creating pressure not to be too tough",
+      "CRAs were legally required by regulators to assign the highest possible rating to any mortgage-backed security",
+      "CRAs had no financial relationship with issuers at all, so the high ratings must reflect an honest analytical mistake with no incentive problem involved",
+      "CRAs based their ratings entirely on the personal creditworthiness of each individual homeowner, which they verified directly"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture gives two reasons: opacity ('harder to assess MBS -- so they used simple statistical assumptions and information provided by the issuer') and a principal-agent issue ('CRAs are paid by the very issuers they are rating -- if too tough, issuers will shop around for the best rating').",
+    "wrongExplanations": [
+      null,
+      "No such regulatory mandate is described in the lecture.",
+      "This directly contradicts the issuer-pays principal-agent point the lecture makes about CRA incentives.",
+      "CRAs rated pooled securities based on statistical assumptions and issuer-supplied information, not by directly verifying each individual homeowner's credit, according to the lecture."
+    ],
+    "tags": [
+      "credit rating agencies",
+      "principal-agent problem",
+      "opacity"
+    ]
+  },
+  {
+    "id": "crisis2008-ratingagencies-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Credit Rating Agency Conflicts",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student argues that credit rating agencies simply made an honest analytical mistake when rating mortgage-backed securities, with no conflict of interest involved. What does this claim leave out, based on the lecture?",
+    "choices": [
+      "It ignores the principal-agent problem the lecture identifies: CRAs were paid by the same issuers whose securities they rated, giving them a financial incentive to avoid overly strict ratings, in addition to any analytical difficulty from opacity",
+      "It ignores that CRAs were themselves the ones originating the risky mortgages before securitization",
+      "It ignores that CRAs had no analytical role at all and only rubber-stamped ratings set by government regulators",
+      "Nothing -- the lecture attributes the high ratings entirely to honest statistical error, with no incentive-based explanation"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture gives two reasons for the inflated ratings, and the student's claim captures only the opacity/statistical-difficulty half while missing the issuer-pays incentive conflict the lecture also describes.",
+    "wrongExplanations": [
+      null,
+      "Mortgage origination is described as the role of lenders and mortgage brokers earlier in the lecture, a different set of actors from the CRAs.",
+      "The lecture describes CRAs using their own statistical assumptions and issuer-supplied information, not simply rubber-stamping a government-set rating.",
+      "This contradicts the lecture, which explicitly gives a second, incentive-based reason (the issuer-pays principal-agent problem) alongside the opacity explanation."
+    ],
+    "tags": [
+      "credit rating agencies",
+      "common confusion",
+      "principal-agent problem"
+    ]
+  },
+  {
+    "id": "crisis2008-fanniefreddie-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Fannie Mae and Freddie Mac",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the lecture, how did Fannie Mae and Freddie Mac's (F&F) role change after they were privatized in the 1990s?",
+    "choices": [
+      "They shifted from purely securitizing mortgages and selling them off to the private sector, to also buying and holding large amounts of mortgages and mortgage-backed securities themselves, financed by very low-cost borrowing",
+      "They stopped securitizing mortgages altogether and became purely retail mortgage lenders to individual homebuyers",
+      "They were converted into a division of the Federal Reserve responsible for setting the overnight interest rate",
+      "They began requiring all mortgage originators to hold the loans they issued rather than sell them"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states F&F were 'originally government agencies whose job it was to securitize mortgages, and then sell them off to the private sector,' but 'in 1990's, after being privatized, they started buying and holding mortgages, and the securities derived from these mortgages,' financed by very low interest rates.",
+    "wrongExplanations": [
+      null,
+      "This is the opposite of what's described -- F&F added a holding role on top of securitizing, rather than abandoning securitization.",
+      "F&F are not described as part of the Federal Reserve, and no interest-rate-setting role is attributed to them.",
+      "This describes the opposite of the originate-to-distribute problem discussed earlier, and isn't attributed to F&F in the lecture."
+    ],
+    "tags": [
+      "Fannie Mae and Freddie Mac",
+      "GSEs"
+    ]
+  },
+  {
+    "id": "crisis2008-fanniefreddie-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Fannie Mae and Freddie Mac",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture cites Fannie Mae and Freddie Mac's rescue as an example of the 'too big to fail' argument. Which reasoning best matches how the lecture frames that rescue?",
+    "choices": [
+      "F&F provided so much mortgage-related insurance and held so many obligations that their default would have sharply increased the risk borne by the many other institutions holding MBS tied to them, so their size made a government rescue necessary to avoid a broader chain of failures",
+      "F&F were rescued simply because they were the two oldest financial institutions in the country, regardless of their size or connections to other firms",
+      "F&F were rescued because they were the only firms in the crisis operating with capital ratios above the 8 percent regulatory minimum",
+      "F&F were rescued because their failure would have had no effect on any other financial institution, so the bailout was a low-risk use of public funds"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that 'due to its sheer size, F&F were saved from failure by de facto nationalization,' because 'they provide so much insurance, their default would have increased risk associated with lots of MBS held by others' -- directly echoing the too-big-to-fail/counterparty-risk logic described just before it.",
+    "wrongExplanations": [
+      null,
+      "Age is not the stated reason -- size and interconnectedness are what the lecture cites.",
+      "The lecture separately describes highly leveraged institutions (with capital ratios far below 8 percent) as the vulnerable ones; F&F aren't described as unusually well-capitalized.",
+      "This directly contradicts the too-big-to-fail logic, which is precisely that their failure would have spread risk to others."
+    ],
+    "tags": [
+      "Fannie Mae and Freddie Mac",
+      "too big to fail",
+      "counterparty risk"
+    ]
+  },
+  {
+    "id": "crisis2008-leverage-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Leverage and Capital Ratios",
+    "difficulty": "easy",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In the crisis lecture's discussion of over-leveraging, what does a financial institution's 'capital ratio' represent?",
+    "choices": [
+      "The share of a firm's assets that is financed by the firm's own equity (its cushion against losses), rather than by debt",
+      "The interest rate a bank charges on the loans it issues",
+      "The share of a firm's employees who work in its capital markets division",
+      "The percentage of a firm's assets held in cash rather than in mortgages or securities"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's example -- 'For every $100 of subprime debt they owned, they would have only 3 dollars worth of equity -- and equity is the \"cushion\" firms keep to insure against potential losses' -- frames the capital ratio as equity held relative to assets.",
+    "wrongExplanations": [
+      null,
+      "This confuses the capital ratio with a lending interest rate, a different concept entirely.",
+      "This isn't related to the financial meaning of 'capital' used in the lecture's leverage discussion.",
+      "This confuses the capital ratio with a liquid-asset or cash-holding measure, rather than an equity cushion against losses."
+    ],
+    "tags": [
+      "leverage",
+      "capital ratio",
+      "vocab"
+    ]
+  },
+  {
+    "id": "crisis2008-leverage-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Leverage and Capital Ratios",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture notes that many large financial institutions operated with roughly a 3 percent capital ratio, while commercial banks typically face an 8 to 10 percent minimum. Why does this gap matter so much for how much risk each type of institution can absorb?",
+    "choices": [
+      "With only a 3 percent equity cushion, a loss of just 3 percent of assets wipes out a firm's entire equity, whereas a firm with an 8 to 10 percent cushion can absorb a much larger asset-value decline before becoming insolvent",
+      "The gap doesn't matter, since capital ratios only affect a firm's profitability, not its ability to survive a loss",
+      "A lower capital ratio means a firm holds more cash reserves, making it more resistant to short-term losses",
+      "An 8 to 10 percent capital ratio means a firm is legally guaranteed against insolvency, regardless of the size of any loss"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This follows directly from the lecture's own arithmetic: 'for every $100 of subprime debt they owned, they would have only 3 dollars worth of equity' -- a smaller equity cushion is exhausted by a much smaller percentage loss than a larger one.",
+    "wrongExplanations": [
+      null,
+      "This contradicts the lecture's framing of equity as a loss-absorbing 'cushion,' which is directly tied to solvency, not just profitability.",
+      "This reverses the relationship -- the capital ratio measures equity funding, not cash holdings, and a lower ratio means less of a cushion, not more resistance to losses.",
+      "No capital ratio 'guarantees' against insolvency -- an 8 to 10 percent cushion can still be exhausted by a large enough loss, just a smaller loss than would be needed to exhaust a 3 percent cushion."
+    ],
+    "tags": [
+      "leverage",
+      "capital ratio",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "crisis2008-leverage-003",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Leverage and Capital Ratios",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A financial firm holds $200 of assets financed by a 4 percent capital ratio (so $8 of equity and $192 of debt). Applying the lecture's over-leveraging logic, roughly what decline in the value of the firm's assets would be enough to wipe out its entire equity cushion?",
+    "choices": [
+      "About a 4 percent decline in asset value, since a $8 loss on $200 of assets exactly equals the firm's entire equity cushion",
+      "About a 50 percent decline in asset value, since equity typically absorbs half of any asset-value decline",
+      "About a 96 percent decline in asset value, since debt financing means almost all losses fall on debt holders first",
+      "No decline in asset value could wipe out the firm's equity, since equity is protected by the capital ratio requirement itself"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This scales the lecture's own leverage logic to new numbers: a firm's equity cushion equals its capital ratio times its assets, so an asset-value decline equal to that same percentage (here, 4 percent of $200, or $8) exactly exhausts the cushion.",
+    "wrongExplanations": [
+      null,
+      "No fixed 'half' rule is implied by the lecture -- the loss-absorbing capacity is set by the capital ratio percentage itself, not a flat 50 percent.",
+      "This reverses the loss-absorption order -- equity holders bear losses before debt holders, which is exactly why a thin equity cushion (a low capital ratio) is dangerous.",
+      "This contradicts the entire point of the leverage discussion -- the capital ratio describes the size of the cushion, it doesn't prevent that cushion from being exhausted by a large enough loss."
+    ],
+    "tags": [
+      "leverage",
+      "capital ratio",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "crisis2008-moralhazard-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Moral Hazard and Risk-Taking Incentives",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture offers two broad explanations for why financial institutions took on so much subprime-related risk: one where firms didn't realize how much risk they held, and another where they did realize it but chose to take it on anyway. What distinguishes these two categories?",
+    "choices": [
+      "The first category is a misperception problem (trusting CRAs or flawed statistical models), while the second is an incentive problem (moral hazard from expecting a bailout or from executives' short-term compensation)",
+      "The first category applies only to commercial banks, while the second applies only to investment banks",
+      "The first category describes firms with too little leverage, while the second describes firms with too much liquidity",
+      "There is no real distinction -- both categories describe the exact same underlying cause, described in two different sentences"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explicitly frames these as 'two possibilities': firms 'didn't [realize the risk] because they trusted CRAs and/or relied too heavily on their own statistical models,' versus firms that 'did realize it, but incentive to take excessive risk were high due to' bailout expectations and/or executive short-termism.",
+    "wrongExplanations": [
+      null,
+      "The lecture doesn't sort these two categories by institution type.",
+      "Leverage and liquidity levels aren't the axis being described here -- misperception versus incentives is.",
+      "The lecture explicitly frames these as two distinct possibilities, not a restatement of a single idea."
+    ],
+    "tags": [
+      "moral hazard",
+      "risk-taking",
+      "common confusion"
+    ]
+  },
+  {
+    "id": "crisis2008-moralhazard-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Moral Hazard and Risk-Taking Incentives",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Within the 'they did realize the risk, but took it on anyway' explanation, the lecture gives two distinct incentive-based reasons: expecting a government bailout, and short-termism in executive compensation. A student says these are really the same mechanism just described twice. What's the flaw in that claim?",
+    "choices": [
+      "They operate through different parties and time horizons: a bailout expectation shifts downside risk onto taxpayers/government, while short-termist compensation rewards executives for near-term results regardless of longer-run risk -- a firm could face either one without the other",
+      "They are identical, since both ultimately mean firms wanted to earn higher profits, so there is no meaningful difference between them",
+      "A bailout expectation only affects investment banks, while short-termism in compensation only affects commercial banks, so they can't overlap",
+      "Short-termism in compensation is not actually mentioned in the lecture as a reason for excessive risk-taking"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The two channels are genuinely distinct: one is about who ultimately bears the downside (a bailout expectation means the firm doesn't fully internalize its own losses), and the other is about an individual executive's time horizon versus the firm's own risk horizon -- a firm could plausibly have one without the other.",
+    "wrongExplanations": [
+      null,
+      "Collapsing both to 'wanting higher profits' erases the distinct mechanisms -- who bears the loss versus whose personal horizon is short -- that the lecture separates into two bullet points.",
+      "The lecture doesn't restrict either reason to one institution type.",
+      "This contradicts the lecture, which explicitly lists the ''short-termism' of executives' compensation' as one of the two incentive-based reasons."
+    ],
+    "tags": [
+      "moral hazard",
+      "executive compensation",
+      "too big to fail"
+    ]
+  },
+  {
+    "id": "crisis2008-toobigtofail-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Too Big to Fail and Systemic Risk",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "What is the core mechanism behind the lecture's 'too big to fail' argument?",
+    "choices": [
+      "A large financial institution may be a counterparty in so many complex transactions with other institutions that its failure would be hard to unwind cleanly, and could set off a much larger chain of failures across the financial system",
+      "A large institution is 'too big to fail' simply because it employs more people than any government agency could afford to support with unemployment benefits",
+      "A large institution's size guarantees that it cannot legally become insolvent, regardless of its losses",
+      "A large institution is protected from failure because its size alone frightens away potential competitors"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that 'a FI may be a counterparty in a huge number of complicated transactions which would be hard to sort out in the event of a failure. In such a case, the failure of one institution can set off a much larger chain of failures. (Counterparty Risk)'",
+    "wrongExplanations": [
+      null,
+      "This isn't the mechanism described -- the lecture's concern is about interconnected transactions, not headcount or unemployment-benefit costs.",
+      "No such legal insolvency-immunity is described; the concern is about the consequences of failure, not immunity from it.",
+      "This is unrelated to the counterparty-risk mechanism the lecture actually describes."
+    ],
+    "tags": [
+      "too big to fail",
+      "counterparty risk"
+    ]
+  },
+  {
+    "id": "crisis2008-toobigtofail-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Too Big to Fail and Systemic Risk",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A mid-sized regional bank with few connections to other financial institutions is failing. A large multinational bank deeply interconnected with dozens of other institutions' derivatives contracts is also failing. Based on the lecture's too-big-to-fail logic, which failure poses the greater systemic risk, and why?",
+    "choices": [
+      "The multinational bank's failure, because its many interconnected counterparty relationships mean its collapse could be hard to unwind and could trigger a cascade of losses at other institutions, unlike the regional bank's more isolated failure",
+      "The regional bank's failure, because smaller institutions are always harder for regulators to monitor closely",
+      "Both failures pose identical systemic risk, since the lecture's argument is based only on an institution's total dollar size, not its connections to other firms",
+      "Neither failure poses systemic risk, since the lecture argues that no single financial institution's failure can affect the broader financial system"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's too-big-to-fail logic centers on counterparty interconnectedness, not just raw size or monitoring difficulty -- an institution with dense ties to many others is precisely the case the lecture describes as capable of setting off 'a much larger chain of failures.'",
+    "wrongExplanations": [
+      null,
+      "Monitoring difficulty isn't the mechanism the lecture describes; interconnectedness is.",
+      "The lecture's own example (F&F's rescue, tied to 'so much insurance' held by others) shows that connectedness, not just size, is central to the argument.",
+      "This directly contradicts the lecture's stated concern about cascading failures."
+    ],
+    "tags": [
+      "too big to fail",
+      "counterparty risk",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "crisis2008-cds-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Credit Default Swaps and AIG",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the lecture, what role did AIG play in the crisis through the credit default swap (CDS) market?",
+    "choices": [
+      "AIG was a major seller of CDS contracts, effectively insuring holders of debt against default; because the CDS market was tightly linked to the MBS market and AIG was seen as too big to fail, its exposure became a systemic concern",
+      "AIG originated the majority of subprime mortgages that were later securitized into MBS",
+      "AIG was the primary credit rating agency responsible for rating mortgage-backed securities",
+      "AIG regulated the capital ratios of commercial banks during the crisis"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes AIG as 'a big player in credit default swap market,' noting the 'CDS market is huge and so closely tied to the MBS market' and that 'AIG was perceived as too big to fail.'",
+    "wrongExplanations": [
+      null,
+      "AIG isn't described as a mortgage originator -- that role belongs to lenders and mortgage brokers discussed earlier in the lecture.",
+      "AIG is not described as a credit rating agency; the lecture names Moody's and S&P as the CRAs.",
+      "AIG is not described as a bank regulator anywhere in the lecture."
+    ],
+    "tags": [
+      "credit default swaps",
+      "AIG",
+      "too big to fail"
+    ]
+  },
+  {
+    "id": "crisis2008-cds-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Credit Default Swaps and AIG",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture describes a credit default swap (CDS) as a contract that lets a bondholder insure against that bond's default. If the underlying bond does default, what happens under the lecture's description of a CDS?",
+    "choices": [
+      "The bondholder who bought the CDS is compensated for the loss, while the party on the other side of the contract -- who had been earning a return for betting the debt would not default -- absorbs that cost",
+      "Both parties to the CDS split the loss equally, regardless of which side bet on default versus non-default",
+      "The CDS seller is compensated for the loss, while the original bondholder absorbs the full loss with no protection",
+      "The CDS contract is automatically cancelled with no payment to either party once a default occurs"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes a CDS as a 'contract that allows holders of debt to insure against that debt's default,' with investors 'on the other side of the transaction... betting that the debt will not default, and earning a return on their willingness to bear that risk' -- so the protection-buyer is paid out, and the protection-seller bears the loss.",
+    "wrongExplanations": [
+      null,
+      "This isn't an equal-split contract -- one side is described as insuring against loss, and the other as bearing the risk in exchange for a return.",
+      "This reverses which side is protected -- the bondholder (debt holder) is the one insuring against default, not the seller of the swap.",
+      "This contradicts the entire purpose of the contract described -- a CDS is meant to pay out precisely when the underlying debt defaults."
+    ],
+    "tags": [
+      "credit default swaps",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "crisis2008-regulation-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Regulatory Gaps",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Why, according to the lecture, could investment banks like Lehman Brothers operate with a much lower capital ratio than commercial banks?",
+    "choices": [
+      "Commercial banks answer to regulators (like the Fed and FDIC) that impose minimum capital ratios, liquidity requirements, and risk-management standards, while investment banks were not subject to any comparable regulation",
+      "Investment banks were required by law to hold higher capital ratios than commercial banks, but chose to violate that law without consequence",
+      "Commercial banks and investment banks faced identical regulatory requirements, but investment banks simply had less risky assets",
+      "Investment banks were regulated more strictly than commercial banks, which is why they could safely operate with lower capital ratios"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states 'commercial banks answer to one or more regulators... who insist on minimum capital ratios... Investment banks like Lehman were not subject to any comparable regulations, which is why they could get away with a 3 percent (or less) capital ratio.'",
+    "wrongExplanations": [
+      null,
+      "This inverts the situation -- there was no legal requirement being violated; the regulatory gap itself is the point the lecture makes.",
+      "This contradicts the lecture's explicit claim of a regulatory asymmetry between the two types of institutions.",
+      "This directly reverses the lecture's claim -- investment banks were less, not more, regulated than commercial banks."
+    ],
+    "tags": [
+      "regulation",
+      "leverage",
+      "capital ratio"
+    ]
+  },
+  {
+    "id": "crisis2008-regulation-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Regulatory Gaps",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture notes that the Fed eventually toughened Regulation Z (the Truth in Lending Act) to rein in some mortgage-broker practices, but only after the crisis had already begun. What point is this example most directly meant to illustrate?",
+    "choices": [
+      "Even when a regulator has some tool available to address a known problem, a delayed regulatory response can arrive too late to prevent the harm it was meant to address",
+      "Regulation Z gave the Fed no authority whatsoever over mortgage lending practices, at any point in time",
+      "The Fed's toughening of Regulation Z single-handedly caused the 2008 financial crisis",
+      "Investment banks, not mortgage brokers, were the primary target of Regulation Z"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states the Fed 'might have been able to rein in some of mortgage brokers by toughening Regulation Z... which it eventually did, but only after the crisis began, by which time it was too late' -- the point is about the timing of the response relative to when the tool actually took effect.",
+    "wrongExplanations": [
+      null,
+      "This contradicts the lecture, which describes the Fed actually using Regulation Z as an available tool, just belatedly.",
+      "This reverses cause and effect -- the lecture frames the crisis as already underway before this regulatory response, not caused by it.",
+      "Regulation Z is described as aimed at mortgage brokers' practices, not investment banks."
+    ],
+    "tags": [
+      "regulation",
+      "policy interpretation",
+      "timing"
+    ]
+  },
+  {
+    "id": "crisis2008-regulation-003",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Regulatory Gaps",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture notes that Fannie Mae and Freddie Mac did have a government regulator, yet that regulator had little power to rein them in. What reason does the lecture give for this?",
+    "choices": [
+      "F&F's relentless lobbying efforts over the years defeated legislative attempts to strengthen their regulator's oversight power",
+      "Their regulator was abolished entirely before the crisis began, leaving F&F with no oversight body at all",
+      "Their regulator was actually the Federal Reserve itself, which chose not to regulate F&F for unrelated reasons",
+      "F&F voluntarily requested weaker regulation, and their regulator agreed out of concern for cost savings"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states 'Fannie and Freddie do have a government regulator. It never had much power to begin with, and thanks to the institutions' relentless lobbying efforts over the years, all legislative attempts to strengthen its oversight have been defeated.'",
+    "wrongExplanations": [
+      null,
+      "This contradicts the lecture -- a regulator did exist for F&F, just a historically weak one.",
+      "The lecture doesn't identify the Federal Reserve as F&F's regulator.",
+      "This isn't described in the lecture; the weakness is attributed to lobbying defeating strengthening efforts, not a voluntary request from F&F."
+    ],
+    "tags": [
+      "Fannie Mae and Freddie Mac",
+      "regulation",
+      "lobbying"
+    ]
+  },
+  {
+    "id": "crisis2008-fedresponse-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "The Fed's Crisis Response",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture distinguishes the Fed's traditional 'lender of last resort' (LOLR) function from its unconventional actions during the 2008 crisis. Which of the following is an example of an unconventional action, according to the lecture?",
+    "choices": [
+      "Lending funds against toxic mortgage-backed securities as collateral, which exposed the Fed to real default risk",
+      "Lending cash to a bank experiencing a temporary liquidity shortage, backed by good collateral",
+      "Setting reserve requirements for commercial banks during normal economic conditions",
+      "Refusing to lend to any institution under any circumstances, traditional or otherwise"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that traditionally, 'CB's lend cash to banks experiencing temporary shortage of liquidity backed by collateral -- LOLR function,' while listing 'untraditional functions under Bernanke' as including 'lending funds against toxic MBSs -- default risk!', lending to non-bank entities, and direct involvement in the CP market.",
+    "wrongExplanations": [
+      null,
+      "This describes the traditional LOLR function itself, not an unconventional action.",
+      "This isn't part of either the traditional or unconventional crisis-response list described in the lecture.",
+      "This contradicts the entire point -- the Fed became more, not less, willing to lend during the crisis."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "lender of last resort",
+      "monetary policy"
+    ]
+  },
+  {
+    "id": "crisis2008-fedresponse-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "The Fed's Crisis Response",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Why does the lecture flag the Fed's decision to lend against toxic mortgage-backed securities as a departure from its traditional lender-of-last-resort role?",
+    "choices": [
+      "Traditional LOLR lending is backed by good collateral, so the central bank is unlikely to lose money if it must seize that collateral; lending against toxic MBS instead exposes the Fed itself to the risk that the collateral's value has fallen and won't cover the loan if it defaults",
+      "Traditional LOLR lending is not backed by any collateral at all, while lending against toxic MBS is fully collateralized and therefore safer",
+      "Lending against toxic MBS is illegal under the Fed's charter, regardless of the collateral's quality",
+      "Traditional LOLR lending is only available to non-bank entities, while lending against toxic MBS is only available to commercial banks"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture flags this specific risk directly: 'lending funds against toxic MBSs -- default risk!' -- the concern is collateral quality, since this collateral, unlike the 'good collateral' implied by traditional LOLR practice, might not retain its value.",
+    "wrongExplanations": [
+      null,
+      "This reverses which side is collateralized and safer -- traditional LOLR lending is described as backed by collateral, and it's the toxic-MBS lending that introduces default risk, not the reverse.",
+      "No legality claim like this appears in the lecture; the concern raised is about default risk, not legal authority.",
+      "The lecture lists 'lending to non-bank entities' as a separate, additional unconventional action, not as a description of traditional LOLR lending's target."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "lender of last resort",
+      "default risk"
+    ]
+  },
+  {
+    "id": "crisis2008-fedresponse-003",
+    "topic": "financial-crisis-2008",
+    "subtopic": "The Fed's Crisis Response",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "During a future crisis, suppose the Fed begins directly purchasing short-term debt issued by non-financial corporations in the commercial paper (CP) market, something it does not normally do. Based on the lecture's framework, how would this action be classified?",
+    "choices": [
+      "As an unconventional action, since the lecture specifically lists 'direct involvement in the CP market' alongside lending to non-banks and lending against toxic MBS as departures from the Fed's traditional role",
+      "As a traditional LOLR action, since the Fed has always directly purchased commercial paper as part of its routine operations",
+      "As an action outside the Fed's ability to undertake under any circumstances, traditional or otherwise",
+      "As identical to setting the discount rate for commercial banks, which the lecture describes as the Fed's only traditional tool"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explicitly names 'direct involvement in the CP market' as one of three untraditional functions taken on 'under Bernanke... to ensure financial stability,' alongside lending against toxic MBS and lending to non-banks.",
+    "wrongExplanations": [
+      null,
+      "This contradicts the lecture's framing of this as an untraditional, not routine, action.",
+      "This contradicts the lecture, which describes the Fed actually taking this action during the crisis.",
+      "The lecture doesn't describe traditional LOLR lending as limited only to setting a discount rate, and CP-market involvement is listed as a distinct action from LOLR lending itself."
+    ],
+    "tags": [
+      "Federal Reserve",
+      "monetary policy",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "crisis2008-debtoverhang-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Debt Overhang and Recapitalization",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture asks why distressed financial institutions couldn't simply issue more equity to rebuild their capital cushion. What reason does it give for why this is especially hard for a firm close to insolvency?",
+    "choices": [
+      "If the firm is close to insolvency, some of the funds raised from new equity would end up benefiting existing bondholders, since bondholders have a prior claim on the firm's assets -- making new investors reluctant to buy equity that mostly protects someone else's claim",
+      "Issuing new equity is illegal for any firm that has ever reported a financial loss",
+      "New equity investors would legally become liable for all of the firm's existing debts",
+      "Raising equity always dilutes voting control more than raising debt does, with no other economic consequence"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states that 'for firms close to insolvency, it's very hard to raise funds with new equity. The reason is that if the firm does become insolvent, some of the funds raised by the new equity issue will go to benefit the bondholders, since they're the one with the first claim on the firm's assets.'",
+    "wrongExplanations": [
+      null,
+      "No such legal prohibition is described in the lecture.",
+      "New equity holders don't become personally liable for the firm's debts -- the issue described is about how proceeds get distributed if insolvency occurs, not about creating a new personal liability.",
+      "This reduces the mechanism to a generic dilution point and ignores the specific reason the lecture gives -- bondholders' prior claim capturing new equity proceeds in insolvency."
+    ],
+    "tags": [
+      "debt overhang",
+      "capital raising",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "crisis2008-debtoverhang-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Debt Overhang and Recapitalization",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student says, 'If a bank needs more capital, it should just sell new shares of stock -- that's an easy fix.' Based on the lecture, what is this claim missing?",
+    "choices": [
+      "It overlooks that, for a firm close to insolvency, new equity investors know some of their money would effectively flow through to existing bondholders' prior claim rather than fully building a new cushion for the firm -- making such investors reluctant to buy in, so it is not actually an easy fix in that situation",
+      "It overlooks that selling new shares is only possible for firms that are already fully solvent and profitable",
+      "It overlooks that stock can only be sold to a firm's own existing shareholders, never to new investors",
+      "Nothing is missing -- the lecture confirms that issuing new equity is always a simple and effective fix for any distressed financial institution"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture specifically explains why raising new equity is not simple for firms 'close to insolvency,' due to the bondholders'-prior-claim dynamic -- the student's claim is too generic and ignores that specific condition.",
+    "wrongExplanations": [
+      null,
+      "This mischaracterizes the lecture's point, which is about firms near insolvency specifically finding it hard to raise equity, not about a strict solvent/insolvent line making the claim 'trivially true.'",
+      "No such restriction to existing shareholders is described -- new outside investors are exactly who would be reluctant to buy in for the reason the lecture gives.",
+      "This directly contradicts the lecture's explicit explanation of why raising new equity is difficult for distressed firms."
+    ],
+    "tags": [
+      "debt overhang",
+      "common confusion",
+      "capital raising"
+    ]
+  },
+  {
+    "id": "crisis2008-tarp-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Emergency Lending and TARP",
+    "difficulty": "easy",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture describes roughly $1.4 trillion in emergency lending as 'life support for distressed banks,' separate from the $700+ billion TARP program. What best characterizes the difference in purpose between these two categories, based on the lecture?",
+    "choices": [
+      "Emergency lending provided short-term liquidity support to keep distressed banks operating, while TARP ('bailout') funds were used for larger interventions like potentially nationalizing banks or buying up banks' bad loans",
+      "Emergency lending and TARP are two different names for exactly the same $700 billion program",
+      "Emergency lending was funded entirely by private banks, while TARP was funded entirely by foreign governments",
+      "Emergency lending was used only to pay bank executives' salaries, while TARP funded new mortgage originations"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists them as two separate line items: 'emergency lending -- life support for distressed banks -- $1.4 trillion' and \"'bailouts' -- $700+ billion TARP -- nationalizing banks? buying banks' bad loans?\"",
+    "wrongExplanations": [
+      null,
+      "The lecture lists these as two separate figures and programs, not the same thing.",
+      "No such funding-source claim appears in the lecture for either program.",
+      "Neither of these purposes is described in the lecture for either program."
+    ],
+    "tags": [
+      "TARP",
+      "bailout",
+      "policy response"
+    ]
+  },
+  {
+    "id": "crisis2008-tarp-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Emergency Lending and TARP",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture lists two possible approaches under the TARP 'bailout' umbrella: nationalizing banks, and buying banks' bad loans. How do these two approaches differ in what the government ends up owning?",
+    "choices": [
+      "Nationalizing a bank means the government takes an ownership stake in (or control of) the bank itself, while buying banks' bad loans means the government instead takes on the specific troubled assets, leaving the bank's ownership structure otherwise intact",
+      "Both approaches are legally identical, since 'nationalizing' just means the government purchases the bank's IOUs",
+      "Nationalizing means the government forgives all of a bank's debts, while buying bad loans means the government forgives none of them",
+      "Nationalizing applies only to investment banks, while buying bad loans applies only to Fannie Mae and Freddie Mac"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture presents these as two distinct question-mark options under 'what has been done' -- one targets the institution's ownership (nationalizing banks), the other targets specific troubled assets on its balance sheet (buying banks' bad loans), a meaningfully different kind of intervention.",
+    "wrongExplanations": [
+      null,
+      "These are presented as two distinct possible approaches, not a single legal mechanism.",
+      "Neither approach is described in the lecture as simple debt forgiveness.",
+      "The lecture doesn't restrict either approach to a specific institution type."
+    ],
+    "tags": [
+      "TARP",
+      "bailout",
+      "policy interpretation"
+    ]
+  },
+  {
+    "id": "crisis2008-transmission-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Transmission to the Real Economy",
+    "difficulty": "easy",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture asks 'why should we care?' about the financial crisis and draws a comparison to the Great Depression, citing a pattern of rising home foreclosures, falling savings values, and rising unemployment. What is this comparison meant to illustrate?",
+    "choices": [
+      "That a financial-sector crisis is not just a Wall Street problem -- it can spread into the broader real economy through falling household wealth and rising unemployment, much as happened in the Great Depression",
+      "That the 2008 crisis and the Great Depression had completely unrelated causes and no comparable effects on households",
+      "That home foreclosures cause unemployment directly, with no financial-sector mechanism involved at all",
+      "That the Great Depression was caused by mortgage-backed securities, decades before they existed"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture invokes this parallel specifically to motivate 'why should we care,' using the shared pattern of foreclosures, falling savings, and unemployment to show the real-economy stakes of a crisis that might otherwise look like a purely financial-sector problem.",
+    "wrongExplanations": [
+      null,
+      "This contradicts the point of drawing the comparison at all -- the lecture invokes it precisely because of a shared pattern of effects.",
+      "This skips over the balance sheet and credit channel mechanisms the lecture goes on to describe as the actual link between the financial crisis and the real economy.",
+      "This isn't a claim the lecture makes -- the comparison is used only to illustrate similar real-economy symptoms, not a causal claim about MBS causing the Depression."
+    ],
+    "tags": [
+      "transmission to real economy",
+      "Great Depression"
+    ]
+  },
+  {
+    "id": "crisis2008-transmission-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Transmission to the Real Economy",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture describes two distinct channels through which the financial crisis affected the broader economy: the 'balance sheet channel' and the 'credit channel.' How do these two channels differ?",
+    "choices": [
+      "The balance sheet channel works through falling asset values making households and firms feel poorer and cut spending; the credit channel works through a breakdown in the financial system disrupting the flow of funds from savers to borrowers, hurting sectors that depend on credit",
+      "The balance sheet channel and the credit channel both describe the exact same mechanism -- falling asset prices -- described with two different names",
+      "The balance sheet channel affects only the government's budget, while the credit channel affects only private household spending",
+      "The credit channel describes rising asset prices increasing spending, while the balance sheet channel describes falling interest rates decreasing spending"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists these as two numbered channels: '1) Balance Sheet Channel: asset values down -- poorer -- spending down. 2) Credit Channel: breakdown of the financial system disrupts the flow of funds from savers to borrowers -- negative effects on real sector which depends on credit.'",
+    "wrongExplanations": [
+      null,
+      "The lecture explicitly numbers and separately defines these as two distinct channels, not one renamed mechanism.",
+      "Neither channel is restricted to only the government budget or only household spending in the lecture's description.",
+      "This reverses both channels' actual direction and content as described in the lecture."
+    ],
+    "tags": [
+      "balance sheet channel",
+      "credit channel",
+      "transmission"
+    ]
+  },
+  {
+    "id": "crisis2008-transmission-003",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Transmission to the Real Economy",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A homeowner whose house has lost significant value cuts back on everyday spending because they feel poorer. Separately, a profitable small business that has always relied on a bank line of credit suddenly can't get a loan because banks have stopped lending, even though the business's own finances haven't changed. Which lecture channel does each situation best illustrate?",
+    "choices": [
+      "The homeowner's situation illustrates the balance sheet channel (falling asset value making a household feel poorer and cut spending); the business's situation illustrates the credit channel (a breakdown in the flow of funds from savers to borrowers hurting a credit-dependent borrower)",
+      "Both situations illustrate the balance sheet channel, since the lecture describes the credit channel as applying only to government borrowing",
+      "Both situations illustrate the credit channel, since falling home values are themselves a form of credit disruption",
+      "The homeowner's situation illustrates the credit channel, and the business's situation illustrates the balance sheet channel"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The homeowner's spending cut follows directly from an asset-value decline making them feel poorer -- the balance sheet channel; the business's sudden inability to borrow despite unchanged fundamentals reflects a disruption in the flow of credit itself -- the credit channel. This matches the lecture's two-channel description exactly.",
+    "wrongExplanations": [
+      null,
+      "The lecture doesn't restrict the credit channel to government borrowing; it's framed around the real sector's dependence on credit generally.",
+      "This conflates the two channels -- falling home values are an asset-value/balance-sheet effect, not itself a description of disrupted credit flows.",
+      "This swaps the two channels backwards relative to the mechanisms each situation actually illustrates."
+    ],
+    "tags": [
+      "balance sheet channel",
+      "credit channel",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "crisis2008-synthesis-001",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Cross-Cutting Synthesis",
+    "difficulty": "hard",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Suppose an unexpected 5 percent decline in asset values hits every large financial institution at once. Based on the lecture's discussion of capital ratios, which type of institution is placed in more immediate danger of insolvency: a commercial bank with a 10 percent capital ratio, or an investment bank with a 3 percent capital ratio?",
+    "choices": [
+      "The investment bank with a 3 percent capital ratio, since a 5 percent asset-value decline exceeds its entire equity cushion, while the commercial bank's larger 10 percent cushion can absorb the same decline without being wiped out",
+      "The commercial bank with a 10 percent capital ratio, since a higher capital ratio means a bank has taken on more total risk",
+      "Both institutions face identical danger, since the lecture argues that capital ratios have no bearing on an institution's ability to absorb losses",
+      "Neither institution faces any danger, since the lecture states that a 5 percent asset-value decline is too small to matter for any financial institution"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This follows directly from the lecture's own leverage arithmetic: a loss exceeding the equity cushion (capital ratio times assets) wipes out equity. 5 percent exceeds 3 percent, so the investment bank's cushion is exhausted, while 5 percent is less than 10 percent, so the commercial bank's is not.",
+    "wrongExplanations": [
+      null,
+      "This reverses the relationship -- a higher capital ratio means a larger, more protective cushion, not more risk-taking.",
+      "This directly contradicts the lecture's central point about why leverage differences mattered so much during the crisis.",
+      "This contradicts the lecture's own numerical example, where a loss much smaller than 5 percent of assets ($3 out of $100, or 3 percent) was already enough to wipe out a firm's equity."
+    ],
+    "tags": [
+      "leverage",
+      "capital ratio",
+      "ranking",
+      "comparative statics"
+    ]
+  },
+  {
+    "id": "crisis2008-synthesis-002",
+    "topic": "financial-crisis-2008",
+    "subtopic": "Cross-Cutting Synthesis",
+    "difficulty": "medium",
+    "sourceIds": [
+      "financial_crisis_2008"
+    ],
+    "sourceLabel": "2008 Financial Crisis: Background (Lecture Slides)",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student argues that because securitization diversifies mortgage risk across many geographic areas, mortgage-backed securities must be essentially risk-free. What is wrong with this reasoning, based on the lecture?",
+    "choices": [
+      "Diversification only reduces exposure to any one region's downturn -- it does not address the separate problem the lecture identifies, that it is hard for investors to gauge the underlying quality of the pooled mortgages in the first place (the opacity problem)",
+      "Nothing is wrong -- the lecture confirms that diversification across geography makes mortgage-backed securities entirely risk-free",
+      "The reasoning is wrong only because mortgages cannot legally be pooled across different geographic areas",
+      "The reasoning is wrong only because diversification actually increases the number of tranches a security must be divided into"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explicitly lists diversification as a 'benefit' and difficulty gauging asset quality (opacity) as a separate 'problem' of securitization -- one doesn't cancel out the other, so pooling loans doesn't make the resulting security risk-free.",
+    "wrongExplanations": [
+      null,
+      "This contradicts the lecture, which explicitly lists a 'problem' alongside the diversification 'benefit.'",
+      "No such legal restriction is described -- pooling loans across geography is exactly what the lecture says diversification benefits from.",
+      "This isn't a relationship the lecture draws -- diversification (basic pooling) and tranching (CDO structuring) are described as separate concepts."
+    ],
+    "tags": [
+      "securitization",
+      "diversification",
+      "common confusion"
+    ]
   }
 ]
