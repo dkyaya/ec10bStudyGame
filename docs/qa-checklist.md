@@ -224,6 +224,15 @@ numeric answers):
   `correctExplanation` text (see the mad-libs note in
   `docs/question-authoring-guide.md`) to catch sentence-architecture
   copying between sibling questions on the same subtopic.
+- **Correct-choice-vs.-source wording check**: separately from the
+  source-grounding spot check above (which looks at `correctExplanation`),
+  compare each correct answer choice's exact wording against the source's
+  own distinctive phrases. It's easy for a choice written right next to a
+  source quote in `correctExplanation` to end up as a synonym-swapped
+  near-copy of that same sentence rather than an independent paraphrase —
+  this was the central finding of the 2026-07-14 crisis2008 audit (13 of
+  37 choices rewritten for this reason; see
+  `docs/update-notes/2026-07-14-crisis2008-quality-audit-results.md`).
 - **New topic (if added) appears correctly**: confirm the new topic shows
   up on the home dashboard with a 0%-progress card, its questions are
   reachable both from that topic card and from Full Bank/Shuffle Mixed

@@ -10798,7 +10798,7 @@
     "questionType": "vocab",
     "question": "A student claims that a 'subprime' mortgage is any home loan whose interest rate is below the prime rate. Based on how the crisis lecture uses the term, what's wrong with that claim?",
     "choices": [
-      "'Subprime' describes the borrower's credit risk -- a large loan to someone with a poor credit history and a low down payment -- not the loan's interest rate relative to the prime rate",
+      "'Subprime' is a label for how risky the borrower looks to a lender -- someone borrowing heavily despite a weak credit record and little money down -- and has nothing to do with where the loan's rate sits relative to the prime benchmark",
       "Subprime loans are a type of loan issued exclusively by the Federal Reserve, not private lenders",
       "The claim is correct -- subprime loans by definition carry below-prime interest rates",
       "Subprime loans are defined only by the size of the down payment, with credit history playing no role"
@@ -10830,7 +10830,7 @@
     "questionType": "standard",
     "question": "In a traditional 'originate-to-hold' model, a bank that issues a mortgage keeps it on its own books and bears any losses if the borrower defaults. The crisis lecture argues that a shift toward an 'originate-to-distribute' model changed lender behavior. What is the key mechanism it describes?",
     "choices": [
-      "Once a lender sells the mortgage to someone else shortly after origination, the lender bears none of the default risk, so it has little incentive to carefully check the borrower's creditworthiness before approving the loan",
+      "Once a lender sells the mortgage to someone else shortly after origination, none of the default risk stays with that lender, which weakens its motivation to scrutinize the borrower's ability to repay before approving the loan",
       "Originate-to-distribute made mortgages more expensive for borrowers, which reduced the total number of subprime loans issued",
       "Originate-to-distribute required lenders to hold more capital against each loan, making them more cautious about approving risky borrowers",
       "Originate-to-distribute shifted mortgage approval decisions from private lenders to the Federal Reserve"
@@ -10845,8 +10845,7 @@
     ],
     "tags": [
       "originate-to-distribute",
-      "principal-agent problem",
-      "moral hazard"
+      "principal-agent problem"
     ]
   },
   {
@@ -10894,7 +10893,7 @@
     "questionType": "vocab",
     "question": "According to the crisis lecture, what does 'securitization' of mortgages mean?",
     "choices": [
-      "Pooling many individual mortgages together and slicing the pool into marketable securities that are then sold to investors",
+      "Bundling a large number of individual mortgages into a single pool, then dividing claims on that pool into tradable securities that investors can purchase",
       "Requiring every mortgage to be insured by a government agency before it can be issued",
       "Converting adjustable-rate mortgages into fixed-rate mortgages before resale",
       "Combining a bank's mortgage loans with its stock shares into a single tradable asset"
@@ -10926,7 +10925,7 @@
     "questionType": "standard",
     "question": "The lecture describes securitization as having both a benefit and a problem. Which pair correctly captures that trade-off?",
     "choices": [
-      "Benefit: pooling mortgages from different geographic areas diversifies lenders' exposure to a downturn in any one housing market. Problem: it becomes harder for investors to gauge the quality of the underlying loans",
+      "Benefit: combining mortgages from many different regions means a downturn in any single local housing market has a smaller impact on overall exposure. Problem: investors find it much harder to assess how sound the loans backing the security actually are",
       "Benefit: it guarantees investors will never lose money on mortgage-backed securities. Problem: it makes mortgages more expensive for borrowers",
       "Benefit: it eliminates default risk entirely by spreading it across many investors. Problem: it increases the interest rate borrowers must pay",
       "Benefit: it allows banks to avoid all regulatory capital requirements. Problem: it slows down the mortgage approval process"
@@ -11057,7 +11056,7 @@
     "questionType": "standard",
     "question": "Why does the lecture say credit rating agencies (CRAs) assigned unrealistically high ratings to many mortgage-backed securities?",
     "choices": [
-      "Two combined reasons: the underlying securities were hard to assess, so CRAs leaned on simplified statistical assumptions and issuer-supplied information, and CRAs were paid by the very issuers whose securities they rated, creating pressure not to be too tough",
+      "Two combined reasons: assessing these pooled securities was genuinely difficult, pushing CRAs toward simplified models and data supplied by the issuer itself, and CRAs earned their fees from the same firms whose debt they were rating, which discouraged unfavorable ratings",
       "CRAs were legally required by regulators to assign the highest possible rating to any mortgage-backed security",
       "CRAs had no financial relationship with issuers at all, so the high ratings must reflect an honest analytical mistake with no incentive problem involved",
       "CRAs based their ratings entirely on the personal creditworthiness of each individual homeowner, which they verified directly"
@@ -11152,7 +11151,7 @@
     "questionType": "standard",
     "question": "The lecture cites Fannie Mae and Freddie Mac's rescue as an example of the 'too big to fail' argument. Which reasoning best matches how the lecture frames that rescue?",
     "choices": [
-      "F&F provided so much mortgage-related insurance and held so many obligations that their default would have sharply increased the risk borne by the many other institutions holding MBS tied to them, so their size made a government rescue necessary to avoid a broader chain of failures",
+      "F&F had written so much mortgage-related insurance and held so many obligations that a default by either one would have sharply raised the risk facing every other institution holding MBS connected to them, so their scale made a government rescue necessary to head off a wider chain of failures",
       "F&F were rescued simply because they were the two oldest financial institutions in the country, regardless of their size or connections to other firms",
       "F&F were rescued because they were the only firms in the crisis operating with capital ratios above the 8 percent regulatory minimum",
       "F&F were rescued because their failure would have had no effect on any other financial institution, so the bailout was a low-risk use of public funds"
@@ -11344,7 +11343,7 @@
     "questionType": "standard",
     "question": "What is the core mechanism behind the lecture's 'too big to fail' argument?",
     "choices": [
-      "A large financial institution may be a counterparty in so many complex transactions with other institutions that its failure would be hard to unwind cleanly, and could set off a much larger chain of failures across the financial system",
+      "A large financial institution can be tied into so many complex transactions with other institutions that untangling its failure would be extremely difficult, letting one collapse cascade into losses well beyond that single firm",
       "A large institution is 'too big to fail' simply because it employs more people than any government agency could afford to support with unemployment benefits",
       "A large institution's size guarantees that it cannot legally become insolvent, regardless of its losses",
       "A large institution is protected from failure because its size alone frightens away potential competitors"
@@ -11439,7 +11438,7 @@
     "questionType": "standard",
     "question": "The lecture describes a credit default swap (CDS) as a contract that lets a bondholder insure against that bond's default. If the underlying bond does default, what happens under the lecture's description of a CDS?",
     "choices": [
-      "The bondholder who bought the CDS is compensated for the loss, while the party on the other side of the contract -- who had been earning a return for betting the debt would not default -- absorbs that cost",
+      "The bondholder who purchased the CDS is made whole for the loss, while the counterparty on the other side of the contract -- who collected a payment in exchange for wagering the debt would perform -- ends up bearing that cost",
       "Both parties to the CDS split the loss equally, regardless of which side bet on default versus non-default",
       "The CDS seller is compensated for the loss, while the original bondholder absorbs the full loss with no protection",
       "The CDS contract is automatically cancelled with no payment to either party once a default occurs"
@@ -11470,7 +11469,7 @@
     "questionType": "standard",
     "question": "Why, according to the lecture, could investment banks like Lehman Brothers operate with a much lower capital ratio than commercial banks?",
     "choices": [
-      "Commercial banks answer to regulators (like the Fed and FDIC) that impose minimum capital ratios, liquidity requirements, and risk-management standards, while investment banks were not subject to any comparable regulation",
+      "Commercial banks answer to regulators (like the Fed and FDIC) that impose minimum capital ratios, liquidity requirements, and risk-management standards, while investment banks operated largely outside that kind of oversight",
       "Investment banks were required by law to hold higher capital ratios than commercial banks, but chose to violate that law without consequence",
       "Commercial banks and investment banks faced identical regulatory requirements, but investment banks simply had less risky assets",
       "Investment banks were regulated more strictly than commercial banks, which is why they could safely operate with lower capital ratios"
@@ -11662,7 +11661,7 @@
     "questionType": "standard",
     "question": "The lecture asks why distressed financial institutions couldn't simply issue more equity to rebuild their capital cushion. What reason does it give for why this is especially hard for a firm close to insolvency?",
     "choices": [
-      "If the firm is close to insolvency, some of the funds raised from new equity would end up benefiting existing bondholders, since bondholders have a prior claim on the firm's assets -- making new investors reluctant to buy equity that mostly protects someone else's claim",
+      "If the firm is near insolvency, a chunk of any money new shareholders put in would ultimately flow to the bondholders instead, because debt holders get paid out of the firm's assets ahead of shareholders -- leaving new investors little reason to buy in",
       "Issuing new equity is illegal for any firm that has ever reported a financial loss",
       "New equity investors would legally become liable for all of the firm's existing debts",
       "Raising equity always dilutes voting control more than raising debt does, with no other economic consequence"
@@ -11694,7 +11693,7 @@
     "questionType": "standard",
     "question": "A student says, 'If a bank needs more capital, it should just sell new shares of stock -- that's an easy fix.' Based on the lecture, what is this claim missing?",
     "choices": [
-      "It overlooks that, for a firm close to insolvency, new equity investors know some of their money would effectively flow through to existing bondholders' prior claim rather than fully building a new cushion for the firm -- making such investors reluctant to buy in, so it is not actually an easy fix in that situation",
+      "It overlooks that, for a firm close to insolvency, new shareholders would in effect be handing part of their investment to the bondholders standing ahead of them in line for the firm's assets, rather than fully rebuilding the firm's own cushion -- which makes such investors reluctant to buy in, so it is not actually an easy fix in that situation",
       "It overlooks that selling new shares is only possible for firms that are already fully solvent and profitable",
       "It overlooks that stock can only be sold to a firm's own existing shareholders, never to new investors",
       "Nothing is missing -- the lecture confirms that issuing new equity is always a simple and effective fix for any distressed financial institution"
@@ -11717,7 +11716,7 @@
     "id": "crisis2008-tarp-001",
     "topic": "financial-crisis-2008",
     "subtopic": "Emergency Lending and TARP",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceIds": [
       "financial_crisis_2008"
     ],
@@ -11781,7 +11780,7 @@
     "id": "crisis2008-transmission-001",
     "topic": "financial-crisis-2008",
     "subtopic": "Transmission to the Real Economy",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "sourceIds": [
       "financial_crisis_2008"
     ],
@@ -11821,7 +11820,7 @@
     "questionType": "standard",
     "question": "The lecture describes two distinct channels through which the financial crisis affected the broader economy: the 'balance sheet channel' and the 'credit channel.' How do these two channels differ?",
     "choices": [
-      "The balance sheet channel works through falling asset values making households and firms feel poorer and cut spending; the credit channel works through a breakdown in the financial system disrupting the flow of funds from savers to borrowers, hurting sectors that depend on credit",
+      "The balance sheet channel operates through declining asset values, which make households and firms feel less wealthy and pull back on spending; the credit channel operates through a broken financial system failing to move funds from savers to borrowers, hitting sectors that rely on credit to operate",
       "The balance sheet channel and the credit channel both describe the exact same mechanism -- falling asset prices -- described with two different names",
       "The balance sheet channel affects only the government's budget, while the credit channel affects only private household spending",
       "The credit channel describes rising asset prices increasing spending, while the balance sheet channel describes falling interest rates decreasing spending"
@@ -11853,7 +11852,7 @@
     "questionType": "standard",
     "question": "A homeowner whose house has lost significant value cuts back on everyday spending because they feel poorer. Separately, a profitable small business that has always relied on a bank line of credit suddenly can't get a loan because banks have stopped lending, even though the business's own finances haven't changed. Which lecture channel does each situation best illustrate?",
     "choices": [
-      "The homeowner's situation illustrates the balance sheet channel (falling asset value making a household feel poorer and cut spending); the business's situation illustrates the credit channel (a breakdown in the flow of funds from savers to borrowers hurting a credit-dependent borrower)",
+      "The homeowner's situation illustrates the balance sheet channel (falling asset value making a household feel poorer and cut spending); the business's situation illustrates the credit channel (a disruption in how funds move from savers to borrowers cutting off a business that depends on credit)",
       "Both situations illustrate the balance sheet channel, since the lecture describes the credit channel as applying only to government borrowing",
       "Both situations illustrate the credit channel, since falling home values are themselves a form of credit disruption",
       "The homeowner's situation illustrates the credit channel, and the business's situation illustrates the balance sheet channel"

@@ -684,3 +684,70 @@ extracted bullet text; none required the flag.
 other file in `private-materials/`, stays on the local machine only and is
 excluded from git via `.gitignore`; only the derived question JSON and
 this documentation are committed and pushed to GitHub Pages.
+
+## 2026-07-14 2008 Financial Crisis Quality Audit
+
+A focused quality audit was performed on exactly the 37 `crisis2008-*`
+questions added in the "2026-07-14 New Fair-Game Slides" update above — see
+`docs/update-notes/2026-07-14-crisis2008-quality-audit-plan.md` and
+`-results.md` for the full scope and outcome. No other question in the bank
+was re-audited.
+
+- **Near-verbatim answer-choice wording (13 of 37 questions rewritten).**
+  Side-by-side comparison against a freshly re-extracted copy of
+  `Economic Crisis.pdf` found that 13 questions' *correct answer choice*
+  (not just the citation-style `correctExplanation`, which is expected to
+  quote the deck directly) reused the deck's own distinctive multi-word
+  phrases and sentence skeleton with only light synonym substitution —
+  e.g., `crisis2008-toobigtofail-001` copied "set off a much larger chain
+  of failures" verbatim, and `crisis2008-regulation-001` copied "not
+  subject to any comparable regulation" verbatim. This is a different
+  failure mode from the "mad-libs" *numeric* substitution pattern found in
+  the 2026-07-12 midterm-review audit above: this deck has no numbers to
+  substitute, so the analogous risk here is prose-level, not number-level.
+  All 13 were rewritten with meaningfully different sentence structure and
+  vocabulary while preserving the exact tested claim:
+  `crisis2008-origins-002`, `crisis2008-origination-001`,
+  `crisis2008-securitization-001`, `crisis2008-securitization-002`,
+  `crisis2008-ratingagencies-001`, `crisis2008-fanniefreddie-002`,
+  `crisis2008-toobigtofail-001`, `crisis2008-cds-002`,
+  `crisis2008-regulation-001`, `crisis2008-debtoverhang-001`,
+  `crisis2008-debtoverhang-002`, `crisis2008-transmission-002`, and
+  `crisis2008-transmission-003`. This finding prompted a new documented
+  rule in `docs/question-authoring-guide.md` (see "Reworking the *correct
+  choice*, not just the citation" under the theory-heavy-sources section).
+- **Two difficulty reclassifications (`easy` → `medium`).**
+  `crisis2008-tarp-001` and `crisis2008-transmission-001` were originally
+  labeled `easy` but actually require distinguishing or synthesizing two
+  adjacent concepts (emergency lending vs. TARP; why the Great Depression
+  analogy is invoked) rather than single-term recall, so they were moved to
+  `medium` to match the project's difficulty rubric. The remaining 3 `easy`
+  questions are genuine single-term `vocab` definitions and were confirmed
+  correctly labeled.
+- **One tag fix, no content error.** `crisis2008-origination-001` carried
+  both a `"principal-agent problem"` tag and a `"moral hazard"` tag, but
+  its question and explanations only ever use the deck's own
+  "principal-agent problem" framing for the originate-to-distribute
+  mechanism — the deck reserves "moral hazard" specifically for the later
+  FI risk-taking-incentive discussion (bailout expectations, executive
+  short-termism). The `"moral hazard"` tag was removed to avoid implying
+  the two deck-specific terms are interchangeable, per the audit brief's
+  explicit concern about this exact confusion. The question's actual
+  content never conflated the terms.
+- **No concept-coverage, correctness, distractor-defensibility,
+  explanation-fidelity, mechanism/causal-chain, duplication, topic, or
+  `sourceIds`/`sourceLabel` errors were found** among the 37 questions —
+  these audit dimensions all passed cleanly and required no fixes. In
+  particular, the four capital-ratio/leverage questions
+  (`crisis2008-leverage-001/002/003`, `crisis2008-synthesis-001`) were
+  checked specifically for redundancy, given leverage is the most
+  numerically rich sub-topic in an otherwise non-quantitative deck, and
+  confirmed to each test a genuinely distinct skill.
+- **Coverage/duplication check:** confirmed all 16 subtopics from the
+  original authoring pass remain represented with no exact or near-
+  duplicate questions; the batch was kept at 37 questions (no additions,
+  no removals).
+- **No `needsReview` items required.** Every issue found was directly
+  fixable via rewrite or a metadata correction; none of the 37 questions
+  involved genuinely unverifiable or ambiguous source content. All 37
+  remain `needsReview: false`.

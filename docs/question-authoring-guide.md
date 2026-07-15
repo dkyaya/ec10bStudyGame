@@ -572,6 +572,23 @@ lessons from writing the first batch from this kind of source:
   risk, or they did but had bad incentives"), that structure is a ready-
   made source for a question asking the student to tell the two apart,
   rather than needing to invent an artificial confusion.
+- **Reworking the *correct choice*, not just the citation.** A theory-heavy
+  deck with vivid, quotable prose creates a specific trap: it's natural to
+  quote the source's exact sentence in `correctExplanation` (encouraged
+  above, for checkability), and then, anchored by that quote, write the
+  answer choice itself as a light synonym-swap of the same sentence rather
+  than an independently worded paraphrase. The 2026-07-14 crisis2008 audit
+  found this in 13 of 37 questions — e.g., "not subject to any comparable
+  regulation" and "set off a much larger chain of failures" were both
+  reused almost verbatim in a choice even though the explanation below them
+  was a proper citation. This is a distinct failure mode from the
+  "mad-libs" *numeric* substitution pattern (see the midterm-review
+  section below): here there are no numbers to swap, so the equivalent
+  discipline is to draft the correct choice's sentence structure and
+  vocabulary from scratch, then check it against the source quote
+  afterward — not the other way around. (See "Avoid 'mad-libs' number
+  substitution" earlier in this doc for the numeric-substitution sibling
+  of this rule.)
 
 ## Running the validation checks
 

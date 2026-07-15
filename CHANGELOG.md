@@ -1,5 +1,65 @@
 # Changelog
 
+## 2026-07-14 22:10 — 2008 Financial Crisis Quality Audit
+
+### Added
+- `docs/update-notes/2026-07-14-crisis2008-quality-audit-plan.md` and
+  `-results.md`: a focused quality audit of exactly the 37 `crisis2008-*`
+  questions added earlier the same day, covering source-fidelity, mechanism/
+  causal-chain correctness, distractor defensibility, difficulty/
+  `questionType`/topic/tag accuracy, and duplication/coverage.
+- New "Reworking the *correct choice*, not just the citation" rule in
+  `docs/question-authoring-guide.md`, documenting the near-verbatim-wording
+  failure mode this audit found (distinct from the previously-documented
+  "mad-libs" *numeric* substitution pattern, since this deck has no numbers
+  to substitute).
+- New "Correct-choice-vs.-source wording check" bullet in
+  `docs/qa-checklist.md`'s fair-game/theory-heavy-source section.
+
+### Changed
+- `data/questions.json`: reworded the correct answer choice on 13 of the 37
+  `crisis2008-*` questions (`crisis2008-origins-002`,
+  `crisis2008-origination-001`, `crisis2008-securitization-001`,
+  `crisis2008-securitization-002`, `crisis2008-ratingagencies-001`,
+  `crisis2008-fanniefreddie-002`, `crisis2008-toobigtofail-001`,
+  `crisis2008-cds-002`, `crisis2008-regulation-001`,
+  `crisis2008-debtoverhang-001`, `crisis2008-debtoverhang-002`,
+  `crisis2008-transmission-002`, `crisis2008-transmission-003`) to remove
+  near-verbatim reuse of the source deck's own sentences while preserving
+  the exact tested claim.
+- `data/questions.json`: reclassified `crisis2008-tarp-001` and
+  `crisis2008-transmission-001` from `difficulty: "easy"` to `"medium"`,
+  since both require distinguishing/synthesizing two adjacent concepts
+  rather than single-term recall.
+- `data/questions.json`: removed a `"moral hazard"` tag from
+  `crisis2008-origination-001` (kept `"principal-agent problem"`), since
+  the question and its explanations only ever use the deck's own
+  principal-agent framing for this mechanism — the tag risked implying the
+  two deck-specific terms are interchangeable.
+- `docs/source-notes.md`: added a new "2026-07-14 2008 Financial Crisis
+  Quality Audit" narrative section summarizing the above findings.
+
+### Fixed
+- No correctness, concept-coverage, distractor-defensibility, explanation-
+  fidelity, mechanism/causal-chain, duplication, or `sourceIds`/
+  `sourceLabel`/topic errors were found in any of the 37 `crisis2008-*`
+  questions — every fix made was a wording, difficulty, or tag refinement,
+  not a factual correction.
+
+### Notes
+- **37 / 37 `crisis2008-*` questions verified/corrected** against
+  `Economic Crisis.pdf`; all 37 remain `needsReview: false` — no unresolved
+  `needsReview` items from this audit.
+- `questionType` breakdown (unchanged): 34 `standard`, 3 `vocab`, 0
+  `formula`, 0 `graph`.
+- Difficulty breakdown after audit: 3 easy, 21 medium, 13 hard (was 5/19/13
+  before).
+- Final counts: **377 total questions** (unchanged), 37 `crisis2008-*`
+  questions (unchanged), 45 vocab, 78 formula, 46 graph, 18 topics, 14
+  sources (all unchanged).
+- Validation: `node scripts/validate-data.mjs` passes with no errors or
+  warnings.
+
 ## 2026-07-14 21:21 — New Fair-Game Slides Questions: The 2008 Financial Crisis
 
 ### Added
