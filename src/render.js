@@ -63,7 +63,6 @@ const Render = (() => {
     const vocabCount = Scoring.vocabQuestions(questions).length;
     const formulaCount = Scoring.formulaQuestions(questions).length;
     const graphCount = Scoring.graphQuestions(questions).length;
-    const midtermReviewCount = Scoring.midtermReviewQuestions(questions).length;
 
     const modes = [
       {
@@ -71,6 +70,7 @@ const Render = (() => {
         title: "Full Bank",
         desc: "Every question in the bank, start to finish.",
         count: questions.length,
+        disabled: questions.length === 0,
       },
       {
         key: "shuffle",
@@ -78,6 +78,7 @@ const Render = (() => {
         desc: "A random mix pulled from every topic — great for testing overall recall.",
         count: questions.length,
         hasLengthSelector: true,
+        disabled: questions.length === 0,
       },
       {
         key: "missed",
@@ -119,15 +120,6 @@ const Render = (() => {
         title: "Graph Practice",
         desc: "Graph-reading, shift, and interpretation questions, shuffled — practice translating between graphs and economic stories.",
         count: graphCount,
-      });
-    }
-
-    if (midtermReviewCount > 0) {
-      modes.push({
-        key: "midtermReview",
-        title: "Midterm Review",
-        desc: "Practice problems adapted from the instructor's midterm study guide, shuffled — exam-style questions covering the first half of the course.",
-        count: midtermReviewCount,
       });
     }
 

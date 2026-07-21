@@ -8,10 +8,13 @@
   const homeEls = {
     summary: Utils.byId("home-summary"),
     weakestBanner: Utils.byId("weakest-banner"),
+    emptyBankMessage: Utils.byId("empty-bank-message"),
     continueBtn: Utils.byId("continueBtn"),
+    modesSection: Utils.byId("study-modes-section"),
     modes: Utils.byId("study-modes"),
     focusNextBlock: Utils.byId("focus-next-block"),
     focusNext: Utils.byId("focus-next"),
+    topicsSection: Utils.byId("topics-section"),
     topicCards: Utils.byId("topic-cards"),
   };
 
@@ -51,6 +54,19 @@
   }
 
   function renderHome() {
+    const isEmpty = questions.length === 0;
+    homeEls.emptyBankMessage.hidden = !isEmpty;
+    homeEls.continueBtn.hidden = isEmpty;
+    homeEls.modesSection.hidden = isEmpty;
+    homeEls.topicsSection.hidden = isEmpty;
+    homeEls.weakestBanner.hidden = true;
+    homeEls.focusNextBlock.hidden = true;
+
+    if (isEmpty) {
+      Render.renderHomeSummary(homeEls.summary, questions, null);
+      return;
+    }
+
     const topicProgressList = Scoring.topicProgress(questions, topics);
     const weakest = Scoring.weakestTopics(topicProgressList, 1)[0] || null;
     const recommended = Scoring.recommendedContinueAction(questions);
@@ -111,9 +127,6 @@
         break;
       case "graph":
         list = Utils.shuffle(Scoring.graphQuestions(questions));
-        break;
-      case "midtermReview":
-        list = Utils.shuffle(Scoring.midtermReviewQuestions(questions));
         break;
       default:
         list = [...questions];

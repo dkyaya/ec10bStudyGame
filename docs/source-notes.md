@@ -4,6 +4,30 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## 2026-07-21 Post-midterm reset — active sources are currently empty
+
+The midterm is over. On 2026-07-21 the app was intentionally reset for the
+post-midterm phase: `data/questions.json`, `data/topics.json`, and
+`data/sources.json` were all wiped to `[]`, and the old Midterm Review study
+mode was removed permanently. See
+`docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md` for the full
+before/after record.
+
+**Every source described below (`class1` through `financial_crisis_2008`,
+including `midterm_review`) is no longer active data.** None of these source
+IDs exist in the current `data/sources.json`, and no question in
+`data/questions.json` currently cites any of them. The sections below are
+kept as a **historical project record** of how the pre-midterm bank was
+built — useful if similar materials come up again, or for understanding past
+audits referenced in `CHANGELOG.md` — not as documentation of the app's
+current state.
+
+**Active post-midterm sources are currently empty**, pending new Canvas
+materials. When new materials are uploaded to `private-materials/`, add
+their entries to `data/sources.json` and document them in a new dated
+section at the top of this file (leave the historical sections below
+untouched), following the workflow in "Workflow for future updates" below.
+
 ## Local-only source materials
 
 The original course materials (lecture slides, discussion-section solutions, problem-set

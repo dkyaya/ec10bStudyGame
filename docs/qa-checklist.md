@@ -25,9 +25,11 @@ It checks: JSON parses, every question has all required fields, `answerIndex` is
 range, `choices`/`wrongExplanations` lengths match, the correct choice's
 `wrongExplanations` entry is `null` and every incorrect choice has a non-empty one,
 `topic`/`sourceIds` references exist, `questionType` (if present) is one of
-`"standard"`, `"vocab"`, or `"formula"`, no duplicate question IDs, and flags
-near-duplicate question text as a warning. Exits non-zero on any error — safe to wire
-into a pre-push hook or CI step later if desired.
+`"standard"`, `"vocab"`, `"formula"`, or `"graph"`, no duplicate question IDs, and
+flags near-duplicate question text as a warning. Exits non-zero on any error — safe
+to wire into a pre-push hook or CI step later if desired. Also passes cleanly on an
+intentionally empty bank (`[]` in all three data files) — see "Empty-bank / reset
+checks" below.
 
 The same schema checks also run in-browser on page load via `src/data.js`, logging any
 issues to the console (`console.warn`) without blocking the app.
@@ -39,6 +41,38 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
 - Click **Reset Progress** at the bottom of the home screen (asks for confirmation), or
 - In the browser console: `localStorage.removeItem('econ10bStudyGame:v1')` then reload, or
 - Clear all site data for `localhost`/the GitHub Pages origin via browser dev tools.
+
+## Empty-bank / reset checks
+
+Run these whenever `data/questions.json`, `data/topics.json`, or
+`data/sources.json` is intentionally emptied (as in the 2026-07-21
+post-midterm reset) or before generating a new batch into an empty bank:
+
+- **App loads with 0 questions**: open the app with the current (empty) data
+  files and confirm it loads with no console errors — no "Could not load the
+  question bank" message, no uncaught exceptions.
+- **No old topics/sources/questions appear anywhere**: the home screen, quiz
+  screen, and results screen never reference pre-midterm topic names, source
+  labels, or question text. `data/questions.json`, `data/topics.json`, and
+  `data/sources.json` all parse to `[]`.
+- **No Midterm Review card appears**: confirm there is no "Midterm Review"
+  mode card, badge, or reference anywhere in the rendered UI.
+- **Mode cards with 0 questions hide or disable gracefully**: Full Bank and
+  Shuffle Mixed Practice should be disabled ("Nothing here yet") rather than
+  launching an empty session; Vocabulary/Definitions, Formula Practice, and
+  Graph Practice should not render at all (their cards are gated on
+  `count > 0`); with an empty bank the whole Study Modes section, Focus Next
+  block, and topic dashboard should be hidden in favor of the "No questions
+  yet. Add new course materials and generate a new bank." message.
+- **Reset Progress works**: click it with an empty bank loaded — it should
+  still clear `localStorage` and return to the home screen without error.
+- **Validation passes**: `node scripts/validate-data.mjs` exits 0 with
+  "Checked 0 questions, 0 topics, 0 sources" and no errors/warnings.
+- **Old `localStorage` does not crash the app**: with old
+  `econ10bStudyGame:v1` progress data still present from before the reset
+  (don't clear it first), reload the app against the new empty data files and
+  confirm it still loads cleanly — orphaned question-id stats for
+  now-deleted questions should simply go unused, not throw.
 
 ## Key flows to test before pushing
 
@@ -57,7 +91,7 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   each wrong choice still shows its own matching wrong explanation (not another
   choice's). Confirm this holds in every mode (Full Bank, Shuffle Mixed Practice,
   Review Missed, New/Unseen, Needs Review, Vocabulary/Definitions, Formula Practice,
-  Graph Practice, Midterm Review, topic practice, Review Missed in Topic) and that
+  Graph Practice, topic practice, Review Missed in Topic) and that
   re-entering Review Missed from the Results screen reshuffles again rather than
   reusing the prior session's order. For graph questions with a `diagram`, confirm
   the diagram itself (and its alt text) stays the same regardless of choice order —
@@ -107,38 +141,13 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
   choice that actually describes shifting the wrong curve, not a different mistake)
   — this matters more for graph questions than most, since several choices often
   describe plausible-sounding but distinct curve/direction combinations.
-- **Midterm Review**: confirm the mode card appears on the home screen with a count
-  matching the number of questions sourced from `midterm_review` (69 as of the
-  2026-07-12 expansion — check `Scoring.midtermReviewQuestions(questions).length`
-  or filter `data/questions.json` on `sourceIds.includes("midterm_review")`), or any
-  future exam-prep source added to `Scoring.midtermReviewQuestions`'s allow-list in
-  `src/scoring.js`, that clicking Start launches a shuffled session, and that the
-  mode card is hidden entirely if no exam-prep questions exist. Confirm Midterm
-  Review questions also still surface normally in Full Bank, Shuffle Mixed Practice,
-  New/Unseen, Review Missed, topic practice, and — for the ones with a matching
-  `questionType` — Formula Practice, Graph Practice, and Vocabulary/Definitions;
-  Midterm Review must not be the only place they appear. Since Midterm Review is a
-  source-based filter (not a `questionType`), confirm it has no dedicated badge and
-  instead shows its `sourceLabel` ("Instructor Midterm Study Guide and Practice
-  Problems") in the quiz metadata row like any other sourced question. If a second
-  exam-prep source is ever added, confirm both source IDs are present in the
-  `MIDTERM_REVIEW_SOURCE_IDS` Set in `src/scoring.js` and that the mode's count
-  reflects both sources combined, not just one.
-- **Exam-prep questions with answer-choice shuffling**: within a Midterm Review
-  session, spot-check several `formula`-type questions across different worked-
-  problem topics (saving/investment, CPI/indexing, compound growth, value-added GDP,
-  stock present value, capital flows) and confirm each still shows the correct
-  computed value regardless of shuffle position. Confirm at least a few of the
-  `graph`-type questions (both the original diagram-bearing one,
-  `graph-examprep-verticalsaving-001`, and at least one of the newer text-described
-  graph variants) render correctly and grade correctly after shuffling.
-- **Midterm Review variant quality spot-check**: for a sample of the
-  `midterm-var-*` questions, confirm the question reads as a self-contained, freshly
-  worded scenario (not a number-swapped copy of the source's own worked problem or
-  of the original `*-examprep-*` question testing the same concept), and
-  independently recompute one or two formula answers by hand against the stated
-  `correctExplanation` to confirm no transcription error crept in between the
-  authoring script and `data/questions.json`.
+> **Note (2026-07-21 reset):** the Midterm Review mode, its `midterm_review`-
+> sourced questions, and the checks that used to cover them here were removed
+> along with the rest of the pre-midterm/midterm bank — see
+> `docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md`. The
+> shared-phrase check below is kept since it applies to any future multi-
+> variant batch, not just the old midterm expansion.
+
 - **Shared-phrase check for multi-variant batches**: whenever a batch of several
   new questions is authored from the same handful of source problems (as with
   the `midterm-var-*` expansion), run a small script that finds shared

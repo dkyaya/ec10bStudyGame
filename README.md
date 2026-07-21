@@ -5,57 +5,65 @@ A static, no-build, no-backend study game for Harvard Summer School's Econ S10-b
 generated from the course's own lecture slides, discussion-section solutions, and
 problem-set solutions, organized by topic, with progress saved locally in the browser.
 
+## Current status: reset for the post-midterm phase
+
+The midterm is over, and this app was **intentionally reset to an empty question
+bank** on 2026-07-21 in preparation for post-midterm course materials. The old
+pre-midterm/midterm question bank (377 questions across 18 topics and 14 sources)
+and the old **Midterm Review** study mode have been permanently removed — see
+`docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md` for the full
+before/after record.
+
+- **Active question count: 0.** The app loads normally with an empty bank: it shows
+  0 total questions, hides study-mode cards and the topic dashboard, and displays a
+  "No questions yet. Add new course materials and generate a new bank." message on
+  the home screen instead of crashing.
+- New questions will be generated once new Canvas materials are placed in
+  `private-materials/` (see "Local course materials" below) — nothing pre-built or
+  reused from the old bank.
+- The **Midterm Review** mode is gone for good, not just empty — it was tied
+  specifically to the instructor's midterm study guide, which is no longer relevant
+  post-midterm.
+- All general app infrastructure is preserved and ready to activate automatically
+  once questions exist again: Full Bank, Shuffle Mixed Practice, Review Missed,
+  New/Unseen, Needs Review, Vocabulary / Definitions, Formula Practice, and Graph
+  Practice.
+
 ## What this is
 
 - **Multiple choice only**, four answer choices per question (unless a source clearly
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized into 18 topics spanning basic economic analysis, comparative
-  advantage and trade, supply and demand, GDP accounting, CPI/inflation, labor markets,
-  productivity and wages, inequality/globalization, economic growth, saving/wealth/
-  investment, the loanable funds market and government budgets, open-economy capital
-  flows, money/banking/the money market, bonds/stocks/financial markets, central
-  banking/monetary policy, and the 2008 financial crisis (securitization/tranching,
-  leverage and too-big-to-fail, moral hazard, and the Fed's crisis response).
+- Questions are organized by topic (currently 0 topics, pending new post-midterm
+  materials — see "Current status" above).
 - A **Vocabulary / Definitions** study mode pulls every question tagged
-  `"questionType": "vocab"` across the whole bank (45 questions) into a shuffled,
+  `"questionType": "vocab"` across the whole bank into a shuffled,
   definition-focused practice session, in addition to each question's normal place
-  within its topic.
+  within its topic. The mode card only appears once there's at least one vocab
+  question.
 - A **Formula Practice** study mode pulls every question tagged
-  `"questionType": "formula"` across the whole bank (78 questions) into a shuffled
-  session of calculation/word-problem questions — opportunity cost, PPCs, supply/demand
-  equilibrium, GDP by any method, CPI/inflation/deflating/indexing, real interest rates,
-  saving/wealth identities, loanable funds, the open-economy identities, labor
-  productivity, compound growth/Rule of 72, value of marginal product, and user cost of
-  capital. Formula questions still appear in their normal topic and in every other study
-  mode; Formula Practice is just a filtered view. Formula questions show a small
-  "Formula" badge in the quiz header.
+  `"questionType": "formula"` across the whole bank into a shuffled
+  session of calculation/word-problem questions. Formula questions still appear in
+  their normal topic and in every other study mode; Formula Practice is just a
+  filtered view. Formula questions show a small "Formula" badge in the quiz header.
+  The mode card only appears once there's at least one formula question.
 - A **Graph Practice** study mode pulls every question tagged `"questionType": "graph"`
-  across the whole bank (46 questions) into a shuffled session of graph-interpretation
-  and graph-translation questions — reading a supply/demand or PPC diagram, matching a
-  real-world event to the correct curve shift, tracing a shift through to its
-  equilibrium outcome, distinguishing a movement along a curve from a shift of the
-  curve, comparing two linked markets, and connecting a formula/identity (like
-  S + KI = I) to its graph implication. Some graph questions include a small original
-  inline SVG diagram (11 of the 46); the rest fully describe the graph situation in the
-  question text. Graph questions still appear in their normal topic and in every other
-  study mode; Graph Practice is just a filtered view. Graph questions show a small
-  "Graph" badge in the quiz header.
-- A **Midterm Review** study mode pulls every question sourced from the instructor's
-  released midterm study guide and practice problems (69 questions, as of the
-  2026-07-12 expansion) into a shuffled, exam-style practice session covering the first
-  half of the course. These questions are paraphrased from the instructor's own
-  practice-problem solutions with fresh numbers/scenarios, span `formula`, `graph`,
-  `standard`, and `vocab` question types, and still appear in their normal topic and
-  every other study mode; Midterm Review is just a filtered view (filtered by source,
-  not by a separate schema field — see `docs/question-authoring-guide.md`).
+  across the whole bank into a shuffled session of graph-interpretation
+  and graph-translation questions, optionally with an inline SVG diagram. Graph
+  questions still appear in their normal topic and in every other study mode; Graph
+  Practice is just a filtered view. Graph questions show a small "Graph" badge in the
+  quiz header. The mode card only appears once there's at least one graph question.
 - All progress (attempts, correct/incorrect history, per-topic accuracy) is saved to
   `localStorage` in the student's own browser. There is no login, no backend, and no
   external database — nothing leaves the device.
-- The question bank is meant to grow: as new lecture slides, discussion sections, or
-  problem sets are added, new questions get appended following the conventions in
-  `docs/question-authoring-guide.md`.
+- The question bank is meant to grow: as new post-midterm lecture slides, discussion
+  sections, or problem sets are added, new questions get appended following the
+  conventions in `docs/question-authoring-guide.md` — including its new "Post-midterm
+  difficulty standard" section, which asks future batches to lean toward
+  application/mechanism-heavy medium and hard questions (interpreting a formula,
+  tracing a causal step, diagnosing a common mistake, comparing two cases) rather
+  than the simple recall the old bank leaned on more heavily.
 
 ## Project structure
 
@@ -71,9 +79,9 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (377 questions as of the 2026-07-14 fair-game slides update)
-  topics.json                    topic list (id, name, description)
-  sources.json                   source-material metadata (which file, what it covers, reliability notes)
+  questions.json                 the question bank (empty — reset for the post-midterm phase, 2026-07-21)
+  topics.json                    topic list (id, name, description) — empty pending new materials
+  sources.json                   source-material metadata (which file, what it covers, reliability notes) — empty pending new materials
 docs/
   source-notes.md                what materials were used, what was extracted, any caveats
   question-authoring-guide.md    schema reference and conventions for adding new questions

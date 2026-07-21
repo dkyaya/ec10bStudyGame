@@ -202,6 +202,20 @@ button {
   display: none;
 }
 
+.empty-bank-message {
+  background: var(--surface-raised);
+  color: var(--text-muted);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.1rem;
+  font-size: 0.92rem;
+  margin-bottom: 1rem;
+}
+
+.empty-bank-message[hidden] {
+  display: none;
+}
+
 .weakest-banner-icon {
   flex-shrink: 0;
 }

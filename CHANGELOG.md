@@ -1,5 +1,78 @@
 # Changelog
 
+## 2026-07-21 16:00 — Post-Midterm Empty Bank Reset
+
+### Added
+- Empty-bank UI support: when `data/questions.json` has zero questions, the
+  home screen now shows a "No questions yet. Add new course materials and
+  generate a new bank." message and hides the Study Modes, Focus Next, and
+  Topic Dashboard sections instead of rendering empty/disabled clutter
+  (`index.html`, `src/app.js`, `styles/main.css`).
+- `docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md`: full
+  before/after record of this reset — old counts, user intent, what was
+  removed vs. preserved, and the plan for the next materials upload.
+- New "Post-midterm difficulty standard" section in
+  `docs/question-authoring-guide.md`: future batches should default to
+  medium/hard rather than easy, with concrete guidance per question type
+  (theory/mechanism, formula direct/reverse/interpret/diagnose, vocab
+  boundary questions) and a target mix (~15–20% easy, 45–55% medium,
+  30–40% hard) for the first post-midterm batch.
+- New "Empty-bank / reset checks" section in `docs/qa-checklist.md`.
+
+### Changed
+- `src/render.js`: Full Bank and Shuffle Mixed Practice mode cards now
+  disable ("Nothing here yet") when the bank has zero questions, matching
+  the existing disabled behavior of Review Missed/New-Unseen/Needs Review.
+- `README.md`: rewritten to describe the app as reset for the post-midterm
+  phase, with a 0 active-question count, no Midterm Review in the active
+  mode list, and a pointer to the reset plan note.
+- `docs/qa-checklist.md`: removed the Midterm-Review-specific checks (mode
+  card, exam-prep shuffling, variant quality spot-check) and replaced with a
+  pointer to this reset; kept the shared-phrase check since it's not
+  midterm-specific.
+- `docs/question-authoring-guide.md`: reworked the "Adding exam-prep /
+  midterm-review sources" section (now "Adding exam-prep / review sources")
+  to describe the filtering technique generically for possible future reuse,
+  rather than describing the now-removed Midterm Review mode as current.
+- `docs/source-notes.md`: added a "2026-07-21 Post-midterm reset" section at
+  the top marking every previously-documented source as no longer active
+  and noting that active post-midterm sources are currently empty pending
+  new Canvas uploads. All historical narrative sections below were left
+  intact as a project record.
+
+### Removed
+- **The entire pre-midterm/midterm question bank**: all 377 questions
+  wiped from `data/questions.json` (now `[]`), all 18 topics wiped from
+  `data/topics.json` (now `[]`), all 14 sources wiped from
+  `data/sources.json` (now `[]`). This includes the old Midterm Review
+  question set. Old progress in `localStorage` no longer maps to any
+  question — this was intentional, not a bug.
+- **The Midterm Review study mode**, permanently: its mode card in
+  `src/render.js` (`buildModeList`), its case in the `onModeSelect` switch
+  in `src/app.js`, and `Scoring.midtermReviewQuestions` /
+  `MIDTERM_REVIEW_SOURCE_IDS` in `src/scoring.js`.
+
+### Fixed
+- N/A — this was an intentional reset, not a bug fix.
+
+### Notes
+- **Final active counts: 0 questions, 0 topics, 0 sources** (0 vocab, 0
+  formula, 0 graph). This is expected and intentional — no placeholder bank
+  was added, per instruction not to generate new source-grounded questions
+  before new Canvas materials are available.
+- `node scripts/validate-data.mjs` passes cleanly against the empty bank:
+  "Checked 0 questions, 0 topics, 0 sources" with no errors or warnings.
+- No files from `private-materials/` were staged or committed.
+- The app was manually verified to load with no console errors against the
+  empty bank, show the "No questions yet" message, hide all study-mode
+  cards and the topic dashboard, and still support Reset Progress and
+  pre-existing `econ10bStudyGame:v1` `localStorage` data without crashing.
+- Next step: once new Canvas materials are placed in `private-materials/`,
+  follow `docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md`
+  and the new "Post-midterm difficulty standard" section of
+  `docs/question-authoring-guide.md` to generate the first post-midterm
+  batch.
+
 ## 2026-07-14 22:10 — 2008 Financial Crisis Quality Audit
 
 ### Added

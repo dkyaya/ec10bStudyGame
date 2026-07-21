@@ -3,6 +3,77 @@
 This guide explains how to add new questions, topics, and sources to the Econ 10b
 study game as new course materials become available.
 
+## Post-midterm difficulty standard
+
+The midterm is over and the pre-midterm/midterm question bank was wiped in the
+2026-07-21 reset (see `docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md`).
+Any new batch generated from post-midterm materials should be **noticeably
+harder on average than the old bank** — the old bank leaned too heavily on
+direct recall. This is not "seasoning economist" hard; it's "requires
+thinking for a moment" hard.
+
+- **Default new batches to medium/hard, not easy.** Easy questions should be
+  reserved for essential definitions and foundational formulas — the handful
+  of things a student must simply know cold, not a large fraction of the
+  batch.
+- **Medium questions** require applying a concept to a fresh scenario,
+  interpreting a formula (not just plugging into it), or tracing one
+  causal/mechanism step (if X happens, what happens to Y next).
+- **Hard questions** require multi-step reasoning, diagnosing a plausible but
+  mistaken calculation or claim, comparing two cases side by side,
+  interpreting a graph/diagram, or connecting two related concepts from
+  different parts of the course.
+- **Avoid making questions hard through vague wording or obscure details.**
+  Difficulty should come from the reasoning required, never from ambiguity,
+  trick phrasing, or a fact so minor it wasn't really taught. A hard question
+  is only good if exactly one answer is clearly correct under any reasonable
+  reading, and its explanation actually teaches the reasoning chain a student
+  should have followed — not just asserts which choice wins.
+- **For theory-heavy material** (dense conceptual decks with no
+  calculations), prioritize mechanism questions ("why did X lead to Y"),
+  contrast questions (two related-but-distinct explanations from the same
+  material), policy-interpretation questions, common-confusion questions, and
+  scenario-transfer questions (apply the deck's own mechanism to a new
+  hypothetical) over simple restate-the-claim recall. See "Writing questions
+  from theory-heavy, non-quantitative sources" below for the established
+  technique.
+- **For formulas**, cover all four task types per concept where the source
+  supports it: direct calculation, reverse calculation (infer a missing
+  input from a given outcome), interpretation (what does this term in the
+  formula represent, what happens if it changes), and common-error diagnosis
+  (present a flawed calculation or claim and ask what's wrong with it). See
+  "Generating multiple variants from one worked practice problem" below for
+  the task-type-variation technique this reuses.
+- **For vocab**, include boundary questions — "which of these two
+  similar-sounding terms is this, and specifically why not the other one" —
+  not just "match the term to its definition" in isolation. Boundary
+  questions catch the confusions that pure recall questions can't.
+- **Use fresh scenarios; avoid verbatim or near-verbatim source wording**,
+  per the no-verbatim and no-mad-libs rules below — this applies just as
+  much to harder questions as easy ones. A hard question built on a
+  copy-pasted scenario is still a copying problem, not a difficulty win.
+- **Keep every rule already established for question quality**, all still in
+  force for post-midterm batches:
+  - no verbatim copying of source wording or answer-choice structure,
+  - no "mad-libs" number substitution (fresh numbers alone don't make a
+    question original),
+  - every question must be self-contained (never reference "the scenario
+    above" or another question),
+  - graph questions must be source-grounded and accessible (see "Writing
+    graph questions" below),
+  - theory-heavy source questions must be hard but fair — hard because of
+    real reasoning, never because of vagueness or an indefensible distractor
+    (see the "Checks for new fair-game/theory-heavy source additions"
+    section of `docs/qa-checklist.md`).
+- **Vocabulary and formula coverage should stay expansive** once new source
+  materials are available — the post-midterm difficulty push is about the
+  *mix* skewing harder, not about dropping the Vocabulary/Definitions or
+  Formula Practice modes' breadth. A well-covered vocab/formula base is what
+  makes the harder application/mechanism questions gradable and fair.
+- **Target mix for the first post-midterm batch:** roughly 15–20% easy,
+  45–55% medium, 30–40% hard — see the update-notes reset plan referenced
+  above for the reasoning behind these targets.
+
 ## Question schema
 
 Every question in `data/questions.json` is an object with these fields:
@@ -494,7 +565,16 @@ flag set.
 4. Add new questions referencing the new source id, and update the "Initial question
    bank" counts in `README.md` and the `CHANGELOG.md` entry for the change.
 
-## Adding exam-prep / midterm-review sources
+## Adding exam-prep / review sources
+
+> **Note (2026-07-21 post-midterm reset):** the app previously had a dedicated
+> "Midterm Review" study mode built on this pattern, filtering on a
+> `midterm_review` source id. That mode, its `MIDTERM_REVIEW_SOURCE_IDS`
+> allow-list and `Scoring.midtermReviewQuestions` function in `src/scoring.js`,
+> and the old pre-midterm question bank it drew from have all been removed —
+> the midterm is over and those questions are gone for good. The technique
+> below is kept as a reference for *if* a similar filtered review mode is ever
+> wanted again (e.g., for a final exam), not because one currently exists.
 
 Practice exams, past exams, review sheets, answer keys, Canvas review quizzes, or
 other instructor-provided study materials get added the same way as any other
@@ -519,20 +599,20 @@ performed (what you looked for, what you found) in both the source's
 contributors adding the next source should be able to see that this check
 happened and how it was reasoned through, not just trust that it did.
 
-**Filtering exam-prep questions into a dedicated study mode.** If you want a
-filtered "Midterm Review" / "Exam Style" mode (or a similar named mode for a
-different exam), the simplest approach — used for the first `midterm_review`
-source — is to filter directly on `sourceIds` rather than adding a new schema
-field: `Scoring.midtermReviewQuestions(questions)` in `src/scoring.js` returns
-every question whose `sourceIds` includes one of a small allow-list of
-exam-review source IDs (currently just `"midterm_review"`). This avoids adding
-schema complexity for a filter that `sourceIds` can already express
-unambiguously. If a future exam-prep source should feed into the *same* review
-mode, just add its source ID to that allow-list in `src/scoring.js`. Only
-consider adding a dedicated field (e.g., `examTag` or `reviewSet`) if a single
-review mode needs to pull together *some but not all* questions from a source
-(a mix of exam-prep and non-exam-prep questions in the same file), which the
-first exam-prep source didn't require.
+**Filtering exam-prep questions into a dedicated study mode (optional).** If a
+future task calls for a filtered "Exam Review" mode again (or a similarly
+named mode for a specific exam), the simplest approach — used by the now-
+removed `midterm_review`-based mode — is to filter directly on `sourceIds`
+rather than adding a new schema field: add a small allow-list `Set` of
+exam-review source IDs in `src/scoring.js`, a function that returns every
+question whose `sourceIds` includes one of them, a case in the `onModeSelect`
+switch in `src/app.js`, and a mode-card entry (gated on `count > 0`, same as
+Vocabulary/Formula/Graph) in `buildModeList` in `src/render.js`. This avoids
+adding schema complexity for a filter that `sourceIds` can already express
+unambiguously. Only consider adding a dedicated field (e.g., `examTag` or
+`reviewSet`) if a single review mode needs to pull together *some but not
+all* questions from a source (a mix of exam-prep and non-exam-prep questions
+in the same file).
 
 ## Writing questions from theory-heavy, non-quantitative sources
 
