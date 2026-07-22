@@ -44,6 +44,15 @@ Progress is stored under the key `econ10bStudyGame:v1`. To reset while testing:
 
 ## Empty-bank / reset checks
 
+**Status update (2026-07-21, later the same day):** the empty bank described
+below was populated the same day with the first post-midterm batch (105
+questions, 6 topics, 2 sources — see
+`docs/update-notes/2026-07-21-first-post-midterm-bank-results.md`). The
+checks in this section are kept as-is for the *next* time the bank is
+intentionally emptied (a future reset), not because the bank is currently
+empty — see "Checks specific to the first post-midterm batch" further below
+for checks that apply to the bank's current, populated state.
+
 Run these whenever `data/questions.json`, `data/topics.json`, or
 `data/sources.json` is intentionally emptied (as in the 2026-07-21
 post-midterm reset) or before generating a new batch into an empty bank:
@@ -246,6 +255,51 @@ numeric answers):
   up on the home dashboard with a 0%-progress card, its questions are
   reachable both from that topic card and from Full Bank/Shuffle Mixed
   Practice, and its name/description read clearly out of context.
+
+## Checks specific to the first post-midterm batch (`class8`/`class9`)
+
+Run these when reviewing or extending the 2026-07-21 first post-midterm
+batch (105 questions across `unemployment`, `business-cycles-output-gaps`,
+`keynesian-cross-model`, `fiscal-policy`, `money-market`, and
+`monetary-policy-postmidterm`):
+
+- **No stale pre-midterm topic/source IDs are active**: confirm
+  `data/topics.json` and `data/sources.json` contain only the 6 new topics
+  and 2 new sources (`class8`, `class9`) — none of the old pre-midterm IDs
+  (`class1`-`class6`, `ds1`-`ds3`, `money-banking`, `loanable-funds`, etc.)
+  should appear anywhere in the active data files.
+- **`class9`'s fiscal-policy gap is respected**: confirm no question with
+  `"topic": "fiscal-policy"` cites `"class9"` in its `sourceIds` — per
+  `docs/source-notes.md`, `class9`'s own agenda lists fiscal policy but the
+  deck has no extractable fiscal-policy content; every fiscal-policy
+  question should cite `class8` only.
+- **Fresh Keynesian-r-model numbers, not the slide's own example**: `class9`
+  teaches its C/IP/PAE-with-r example using specific coefficients (C0=1000,
+  mpc=0.75, IP0=300, G=300, T=200, NX=20). Confirm no formula question in
+  `monetary-policy-postmidterm` reuses these exact coefficients — the bank's
+  `monpolicy-formula-003`/`004` questions use an independently constructed
+  economy (C0=900, mpc=0.7, IP0=250, G=320, T=180, NX=30) per the
+  no-verbatim-numeric-example rule.
+- **Money-market has 0 formula questions, by design**: confirm
+  `data/questions.json` has no `"topic": "money-market"` question with
+  `"questionType": "formula"` — `class9`'s money-supply/demand section is
+  conceptual with no worked numeric example, so forcing a calculation
+  question there would violate the type-quota-honesty rule (see
+  `docs/source-notes.md`'s type-quota-honesty note for the reallocation
+  this produced).
+- **Okun's Law and output-gap sign conventions are consistent**: spot-check
+  a few `business-cycles-output-gaps` formula questions to confirm the
+  output-gap formula is always applied as `(Y - Y*)/Y* x 100` (not
+  `(Y* - Y)/Y*`) and Okun's Law as `-2 x (u - u*)` (not `2 x (u - u*)` or
+  `-2 x (u* - u)`) — several questions in this batch specifically test
+  sign-error diagnosis, so it's worth re-verifying the *correct* answer's
+  own sign is right, not just the distractors'.
+- **Taylor rule arithmetic re-verified independently**: for
+  `monpolicy-formula-005`/`006`/`007`, recompute
+  `r = r* + 0.5(π-π*) - 0.5[(Y*-Y)/Y* x 100]` by hand or with a quick
+  script for each question's own numbers, rather than trusting the stored
+  answer — this formula has two sign-sensitive terms and is the batch's
+  most error-prone calculation.
 
 ## Verifying GitHub Pages compatibility
 

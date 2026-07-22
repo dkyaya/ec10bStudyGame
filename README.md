@@ -5,29 +5,36 @@ A static, no-build, no-backend study game for Harvard Summer School's Econ S10-b
 generated from the course's own lecture slides, discussion-section solutions, and
 problem-set solutions, organized by topic, with progress saved locally in the browser.
 
-## Current status: reset for the post-midterm phase
+## Current status: first post-midterm question bank
 
-The midterm is over, and this app was **intentionally reset to an empty question
-bank** on 2026-07-21 in preparation for post-midterm course materials. The old
-pre-midterm/midterm question bank (377 questions across 18 topics and 14 sources)
-and the old **Midterm Review** study mode have been permanently removed — see
-`docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md` for the full
-before/after record.
+The midterm is over. On 2026-07-21 this app was intentionally reset to an empty
+question bank (the old pre-midterm/midterm bank — 377 questions across 18 topics
+and 14 sources — and the old **Midterm Review** study mode were permanently
+removed), and later the same day, the **first post-midterm question bank** was
+generated from newly uploaded Class 8 and Class 9 course materials. See
+`docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md` for the reset and
+`docs/update-notes/2026-07-21-first-post-midterm-bank-results.md` for this batch.
 
-- **Active question count: 0.** The app loads normally with an empty bank: it shows
-  0 total questions, hides study-mode cards and the topic dashboard, and displays a
-  "No questions yet. Add new course materials and generate a new bank." message on
-  the home screen instead of crashing.
-- New questions will be generated once new Canvas materials are placed in
-  `private-materials/` (see "Local course materials" below) — nothing pre-built or
-  reused from the old bank.
-- The **Midterm Review** mode is gone for good, not just empty — it was tied
-  specifically to the instructor's midterm study guide, which is no longer relevant
-  post-midterm.
-- All general app infrastructure is preserved and ready to activate automatically
-  once questions exist again: Full Bank, Shuffle Mixed Practice, Review Missed,
+- **Active question count: 105**, across **6 topics** and **2 sources**
+  (`class8`, `class9`).
+- **Question type breakdown:** 41 `standard`, 26 `vocab`, 27 `formula`, 11 `graph`
+  (9 of the 11 graph questions include an inline SVG diagram).
+- **Difficulty breakdown:** 16 easy (15%), 53 medium (50%), 36 hard (34%) — a
+  noticeably harder mix than the old pre-midterm bank, per the "Post-midterm
+  difficulty standard" in `docs/question-authoring-guide.md`.
+- **Topics:** Unemployment: Measurement, Costs, and Types · Business Cycles,
+  Output Gaps, and Okun's Law · The Keynesian Cross Model of Short-Run Output ·
+  Fiscal Policy and Stabilization · The Fed, Money Supply, and Money Demand ·
+  Monetary Policy Transmission and the Financial Crisis Response.
+- **Active study modes:** Full Bank, Shuffle Mixed Practice, Review Missed,
   New/Unseen, Needs Review, Vocabulary / Definitions, Formula Practice, and Graph
-  Practice.
+  Practice — all populated and working.
+- **The Midterm Review mode remains permanently removed** — it is not part of the
+  current app and was not reintroduced by this batch. It was tied specifically to
+  the instructor's midterm study guide, which is no longer relevant post-midterm.
+- No pre-midterm/midterm source is reused in this batch; both new sources
+  (`HarvardS10b_Class8.pptx`, `HarvardS10b_Class9_Preliminary.pdf`) were uploaded
+  fresh to `private-materials/` after the reset.
 
 ## What this is
 
@@ -35,8 +42,8 @@ before/after record.
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized by topic (currently 0 topics, pending new post-midterm
-  materials — see "Current status" above).
+- Questions are organized by topic (currently 6 topics — see "Current status"
+  above).
 - A **Vocabulary / Definitions** study mode pulls every question tagged
   `"questionType": "vocab"` across the whole bank into a shuffled,
   definition-focused practice session, in addition to each question's normal place
@@ -79,9 +86,9 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (empty — reset for the post-midterm phase, 2026-07-21)
-  topics.json                    topic list (id, name, description) — empty pending new materials
-  sources.json                   source-material metadata (which file, what it covers, reliability notes) — empty pending new materials
+  questions.json                 the question bank (105 questions — first post-midterm batch, 2026-07-21)
+  topics.json                    topic list (id, name, description) — 6 post-midterm topics
+  sources.json                   source-material metadata (which file, what it covers, reliability notes) — 2 sources (class8, class9)
 docs/
   source-notes.md                what materials were used, what was extracted, any caveats
   question-authoring-guide.md    schema reference and conventions for adding new questions

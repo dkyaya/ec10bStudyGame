@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "unemployment",
+    "name": "Unemployment: Measurement, Costs, and Types",
+    "description": "Labor force statistics and the unemployment/participation rate formulas, the economic/psychological/social costs of unemployment, unemployment duration, and the frictional/cyclical/structural typology."
+  },
+  {
+    "id": "business-cycles-output-gaps",
+    "name": "Business Cycles, Output Gaps, and Okun's Law",
+    "description": "Recessions and expansions, potential vs. actual output, the output gap formula, the natural rate of unemployment, and Okun's Law linking cyclical unemployment to the output gap."
+  },
+  {
+    "id": "keynesian-cross-model",
+    "name": "The Keynesian Cross Model of Short-Run Output",
+    "description": "Planned aggregate expenditure and its components, the consumption function, solving for short-run equilibrium output, and the income-expenditure multiplier."
+  },
+  {
+    "id": "fiscal-policy",
+    "name": "Fiscal Policy and Stabilization",
+    "description": "Stabilization policy goals, how taxes and transfers affect spending, supply-side effects on potential output, deficit spending tradeoffs, fiscal policy's flexibility limits, and automatic stabilizers."
+  },
+  {
+    "id": "money-market",
+    "name": "The Fed, Money Supply, and Money Demand",
+    "description": "The Federal Reserve's structure and tools for controlling the money supply, the determinants of money demand, and how the money market reaches equilibrium at a given nominal interest rate."
+  },
+  {
+    "id": "monetary-policy-postmidterm",
+    "name": "Monetary Policy Transmission and the Financial Crisis Response",
+    "description": "How the Fed's control of the nominal interest rate becomes control of the real interest rate, the channels through which monetary policy affects spending, policy reaction functions and the Taylor rule, and the Fed's unconventional response to the 2008-09 crisis."
+  }
+]

@@ -22,11 +22,115 @@ built — useful if similar materials come up again, or for understanding past
 audits referenced in `CHANGELOG.md` — not as documentation of the app's
 current state.
 
-**Active post-midterm sources are currently empty**, pending new Canvas
-materials. When new materials are uploaded to `private-materials/`, add
-their entries to `data/sources.json` and document them in a new dated
-section at the top of this file (leave the historical sections below
-untouched), following the workflow in "Workflow for future updates" below.
+**Update:** as of 2026-07-21 (later the same day), the first post-midterm
+materials were uploaded and the first post-midterm question bank was
+generated from them. See the new section immediately below,
+"2026-07-21 First post-midterm question bank — active sources," for the
+current active source list. This placeholder paragraph is left in place
+as part of the historical record of the reset itself.
+
+## 2026-07-21 First post-midterm question bank — active sources
+
+Two new files were uploaded to `private-materials/` after the empty-bank
+reset above: `HarvardS10b_Class8.pptx` and
+`HarvardS10b_Class9_Preliminary.pdf`. Both have a filesystem modified time
+of 2026-07-21 20:54, after the reset commit, and both continue the course's
+own numbering (Class 8, Class 9) into topics never taught pre-midterm
+(unemployment, business cycles, the Keynesian model, fiscal policy, the
+Fed, and monetary policy) — confirming they are the new post-midterm unit.
+Every other file in `private-materials/` predates the reset and was already
+used to build the (now wiped) pre-midterm/midterm bank documented later in
+this file; none of them was reused for this batch. Full file-by-file
+reasoning is in
+`docs/update-notes/2026-07-21-first-post-midterm-bank-plan.md`.
+
+**Active sources (`data/sources.json`):**
+
+- **`class8`** — `HarvardS10b_Class8.pptx`, "Class 8: Unemployment,
+  Recessions, the Keynesian Model, and Fiscal Policy." All 56 slides'
+  bullet text and speaker notes extracted cleanly via `python-pptx`.
+  Covers: unemployment measurement (labor force, unemployment rate,
+  participation rate, with real BLS data tables for June 2026/2020/2019),
+  costs and duration of unemployment, frictional/cyclical/structural
+  unemployment (including a minimum-wage labor-market diagram), business
+  cycles, potential vs. actual output and the output-gap formula, the
+  natural rate of unemployment and Okun's Law, sticky prices, the
+  Keynesian model (PAE, the consumption function, the Keynesian cross, the
+  multiplier), and fiscal policy (stabilization policy, taxes/transfers,
+  supply-side effects, deficits, flexibility limits, automatic
+  stabilizers, and the 2008-09 stimulus acts). A handful of slides
+  (title/photo cards, a generic business-cycle wave graphic, a FRED
+  output-gap/NROU chart, the Keynesian-cross plot image itself, an
+  appendix multiplier slide, and a bare "Monetary Policy (Next class)"
+  divider) are diagram/photo-only and were not used as a standalone
+  source; where a diagram's underlying concept is also explained in
+  adjacent bullet text, that text is the actual grounding. The real BLS
+  employment tables (slides 6-8) were used only to confirm the
+  unemployment-rate/participation-rate formulas — every formula question
+  uses freshly invented figures, per the no-verbatim/no-mad-libs rule. No
+  question in this source's set required a `needsReview` flag.
+- **`class9`** — `HarvardS10b_Class9_Preliminary.pdf`, "Class 9: Central
+  Banks, the Federal Reserve, and Monetary Policy." A 46-page PDF export
+  (filename marked `_Preliminary`, i.e. a work-in-progress deck) extracted
+  with `pdftotext -layout`. Covers: the Fed's structure and objective; the
+  Fed's money-supply tools (open-market operations, discount window
+  lending, the reserve requirement, interest on reserves, quantitative
+  easing); money demand (opportunity cost, determinants, the downward-
+  sloping MD curve and its shifters); money-market equilibrium and how the
+  Fed shifts the vertical MS curve to hit a target nominal rate; the
+  federal funds rate; the Fed's control over the real rate (r = i - π) and
+  monetary policy's transmission to C and IP, including a worked
+  Keynesian-r numeric example; the bank lending, asset price, and exchange
+  rate channels; inflation's effect on the stock market; policy reaction
+  functions and the Taylor rule; and the 2008-09 crisis's monetary policy
+  response (near-zero fed funds rate, unconventional policy/QE, the zero
+  lower bound). Roughly a third of the deck's 46 pages are diagram/photo-
+  only with 0-2 lines of extractable text (a per-page text-line-count
+  check found this) — the `MS`/`MD` shift diagrams beyond their bare axis
+  labels, a Fed-leaders composite photo, an FOMC-minutes screenshot, an
+  "Expanding the Fed's Balance Sheet" chart, and a Covid-19 policy-response
+  chart. None of these was used as the source of any factual claim; every
+  graph/diagram question is grounded in the deck's own surrounding bullet
+  text (e.g., "Supply of money is vertical," "Fed increases the money
+  supply to MS'... interest rates decrease to i'"), never in reading
+  unreadable chart pixels. **Known gap:** the deck's agenda lists "1.
+  Fiscal policy" as its first topic, but no slide between the title/agenda
+  pages and the "Federal Reserve" section has any extractable
+  fiscal-policy text (confirmed via the same per-page line-count check) —
+  consistent with the file's preliminary status, since `class8` already
+  teaches fiscal policy in full. **No fiscal-policy question in this bank
+  cites `class9`; all cite `class8`.** No question in this source's set
+  required a `needsReview` flag.
+
+**Active topics (`data/topics.json`):** `unemployment`,
+`business-cycles-output-gaps`, `keynesian-cross-model`, `fiscal-policy`,
+`money-market`, `monetary-policy-postmidterm` — six topics split cleanly
+along the two decks' natural sections. None of the old pre-midterm topic
+IDs (e.g., `money-banking`, `loanable-funds`) were reused; `money-market`
+and `monetary-policy-postmidterm` are new IDs scoped specifically to the
+Class 9 material.
+
+**Type-quota-honesty note:** the original plan
+(`docs/update-notes/2026-07-21-first-post-midterm-bank-plan.md`) proposed
+2 `formula` questions for `money-market`, but on closer review, `class9`'s
+money-supply/demand section turned out to be entirely conceptual (no
+worked numeric examples or stated reserve-ratio figures) — so those 2
+formula slots were reallocated to `monetary-policy-postmidterm` instead
+(which does have grounded quantitative content: the Keynesian-r model and
+the Taylor rule), rather than forcing a calculation question onto content
+that doesn't support one. See the matching results note,
+`docs/update-notes/2026-07-21-first-post-midterm-bank-results.md`, for the
+final counts.
+
+**`needsReview` count for this batch: 0.** No content in either file was
+ambiguous enough to require the flag; unreadable diagram-only slides were
+simply skipped as sources rather than guessed at.
+
+**Raw materials remain local-only.** `HarvardS10b_Class8.pptx` and
+`HarvardS10b_Class9_Preliminary.pdf` live only in `private-materials/`
+(git-ignored) — nothing from the raw files themselves is committed, only
+the structured `data/sources.json` metadata and the original questions
+derived from them.
 
 ## Local-only source materials
 

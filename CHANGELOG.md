@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-07-21 21:30 — First Post-Midterm Question Bank
+
+### Added
+- **The first post-midterm question bank: 105 questions, 6 topics, 2
+  sources.** Generated from two newly uploaded course materials —
+  `HarvardS10b_Class8.pptx` (source `class8`: unemployment, business
+  cycles/output gaps, the Keynesian cross model, and fiscal policy) and
+  `HarvardS10b_Class9_Preliminary.pdf` (source `class9`: the Fed, the
+  money market, and monetary policy transmission, including the 2008-09
+  crisis's monetary response). Both files have a filesystem modified time
+  after the 2026-07-21 empty-bank reset and continue the course's own
+  Class 8/9 numbering into topics never taught pre-midterm.
+- Six new topics in `data/topics.json`: `unemployment` (16 questions),
+  `business-cycles-output-gaps` (18), `keynesian-cross-model` (20),
+  `fiscal-policy` (16), `money-market` (14), and
+  `monetary-policy-postmidterm` (21).
+- `docs/update-notes/2026-07-21-first-post-midterm-bank-plan.md` and
+  `docs/update-notes/2026-07-21-first-post-midterm-bank-results.md`: the
+  full plan (file-by-file new-vs-old determination, proposed topics/
+  sources/counts) and results (final counts, validation, QA/playtest) for
+  this batch.
+- A new "2026-07-21 First post-midterm question bank — active sources"
+  section in `docs/source-notes.md`, documenting both sources' coverage,
+  extraction reliability, skipped diagram/photo-only slides, and the
+  `class9` fiscal-policy content gap (no fiscal-policy question cites
+  `class9`; all cite `class8`).
+- 9 new inline SVG diagrams (money-demand/money-supply curves, a
+  minimum-wage labor-market floor, an output-gap-over-time chart, two
+  Keynesian-cross diagrams, and a nominal/real-rate time-series chart),
+  all original hand-authored markup using the app's existing theme-aware
+  CSS custom properties.
+
+### Changed
+- `README.md`: now describes the app as populated with the first
+  post-midterm bank (105 questions / 6 topics / 2 sources / 41 standard,
+  26 vocab, 27 formula, 11 graph / 16 easy, 53 medium, 36 hard), lists the
+  six new topics, and reconfirms Midterm Review remains permanently
+  removed and not part of the current app.
+- `docs/qa-checklist.md`: added a "Checks specific to the first
+  post-midterm batch (class8/class9)" section (stale-ID check, the
+  `class9` fiscal-policy-citation check, the fresh-numbers check on the
+  Keynesian-r example, the money-market zero-formula check, and Okun's
+  Law/Taylor rule sign-convention re-verification); noted in the
+  "Empty-bank / reset checks" section that the bank was repopulated the
+  same day the reset shipped.
+- `data/sources.json`: added `class8` and `class9` entries (filename,
+  title, type, coverage summary, date added, reliability notes).
+
+### Removed
+- Nothing removed. Midterm Review remains permanently removed from the
+  2026-07-21 16:00 reset above; this batch did not reintroduce it or any
+  pre-midterm/midterm source, topic, or question.
+
+### Fixed
+- N/A — this is a net-new content batch, not a bug-fix update.
+
+### Notes
+- **Difficulty mix:** 16 easy (15%), 53 medium (50%), 36 hard (34%) —
+  within the post-midterm difficulty standard's 15-20%/45-55%/30-40%
+  target, and noticeably harder than the old pre-midterm bank's mix.
+- **questionType mix:** 41 standard, 26 vocab, 27 formula, 11 graph (9
+  with an inline diagram) — vocab and formula coverage kept expansive per
+  the authoring guide, consistent with the reset plan's guidance.
+- **Validation:** `node scripts/validate-data.mjs` passes with 0 errors
+  and 0 warnings. No duplicate IDs, no near-duplicate question text, no
+  stale pre-midterm topic/source IDs referenced, no answerIndex/
+  explanation mismatches, no malformed diagrams, no unsupported
+  `questionType` values, and no Midterm Review references anywhere.
+- **`needsReview` count: 0.** No content in either source required the
+  flag; unreadable diagram/photo-only slides were skipped as sources
+  rather than guessed at.
+- **Source-grounding / non-copying:** every question was checked against
+  the actual extracted slide text; no verbatim slide wording, no copied
+  answer-choice structure, no "mad-libs" number swaps, and no reuse of
+  `class9`'s own worked Keynesian-r numeric example — a fresh, independently
+  constructed economy was used instead for the equivalent formula
+  questions.
+- **No raw private materials committed.** `HarvardS10b_Class8.pptx` and
+  `HarvardS10b_Class9_Preliminary.pdf` remain local-only in
+  `private-materials/` (git-ignored); only the derived `data/sources.json`
+  metadata and original questions were committed.
+- **Midterm Review remains removed.** This batch did not reintroduce the
+  mode, any `midterm_review`-sourced question, or any other pre-midterm/
+  midterm source, topic, or question.
+
 ## 2026-07-21 16:00 — Post-Midterm Empty Bank Reset
 
 ### Added
