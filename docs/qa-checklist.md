@@ -256,6 +256,63 @@ numeric answers):
   reachable both from that topic card and from Full Bank/Shuffle Mixed
   Practice, and its name/description read clearly out of context.
 
+## Checks specific to the first final-exam batch (2026-07-27)
+
+Run these when reviewing or extending the 2026-07-27 final-exam batch (104
+new questions added to the 105-question post-midterm bank, bringing the
+total to 209 across 9 topics and 10 sources):
+
+- **No stale pre-midterm topic/source IDs are active**: confirm
+  `data/topics.json` and `data/sources.json` contain only the 9 active
+  topics and 10 active sources listed in
+  `docs/update-notes/2026-07-27-final-exam-bank-plan.md` — none of the old
+  pre-midterm materials (`HarvardS10b_Class1-6_7.pptx`, the DS/problem-set/
+  quiz solutions, `MidtermStudyMaterials_Summer2026.doc`, or the ECB guest
+  lecture) should appear as a `sourceIds` reference anywhere.
+- **`financial_crisis_reading` inclusion is justified, not a restoration**:
+  confirm the source's `reliabilityNotes` and the plan note both document
+  why this pre-midterm-era file was reused (the final study guide's outline
+  explicitly requires its content, and no other active source covers it) —
+  this is the one deliberate exception to "don't restore old sources," and
+  it should stay documented, not quietly normalized.
+- **Reading-heavy topic gets real factual/vocab coverage**:
+  `financial-crisis-2008` should have a meaningfully higher vocab share than
+  the lecture-slide-heavy topics (`aggregate-demand-supply`,
+  `inflation-dynamics`) — confirm it does (9 of 26 new questions are vocab,
+  versus 5 of 24 and 5 of 16 respectively).
+- **Formula coverage is expansive, not padded to a quota**: confirm every
+  `formula` question in this batch uses a freshly invented scenario/numbers
+  (never `problemset4`'s or the study guide's own figures, since neither
+  ships with an answer key the batch could safely mirror) and that every
+  correct answer and numeric distractor was independently computed (see the
+  results note's formula-verification method) rather than estimated.
+- **Okun's Law sign-convention note**: this batch's new Okun's Law questions
+  (`cycles-formula-008/009/010`) use the convention `(Y* - Y)/Y* = 2(u - u*)`,
+  matching the final study guide's own stated form. The existing
+  `class8`-based Okun's Law questions use the algebraically equivalent but
+  differently-signed `(Y - Y*)/Y* = -2(u - u*)` form. Both are correct and
+  consistent with each other (they're the same identity rearranged) — don't
+  "fix" one to match the other's sign convention without re-deriving both
+  from scratch first.
+- **The exchange-rate/international-macro gap is intentional**: confirm no
+  new standalone topic was created for exchange rates — the handful of
+  exchange-rate-channel questions this batch added
+  (`monpolicy-standard-009`, and `problemset4`-grounded items) are folded
+  into the existing `monetary-policy-postmidterm` topic, since the pending
+  final lecture is expected to be the primary source for that material.
+- **Graph questions are grounded in an actual taught curve, not an invented
+  one**: for the `financial-crisis-2008` and `aggregate-demand-supply`
+  graph questions (`fincrisis-graph-001`, `adas-graph-001` through `005`),
+  confirm each shift direction traces back to a specific class10 mechanism
+  (a demand shock, an inflation shock, a capacity shock) rather than a
+  plausible-sounding but unsupported curve movement.
+- **Formula multi-step questions independently re-derived**: for
+  `keynes-formula-011` (the output-gap-plus-tax-cut multi-step problem) and
+  `monpolicy-formula-008`/`009` (the r = i - pi feed-through into the
+  Keynesian cross), recompute each step by hand or with a quick script
+  rather than trusting the stored answer — these are the batch's most
+  error-prone multi-step calculations.
+
 ## Checks specific to the first post-midterm batch (`class8`/`class9`)
 
 Run these when reviewing or extending the 2026-07-21 first post-midterm

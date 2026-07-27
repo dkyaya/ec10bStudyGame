@@ -28,5 +28,20 @@
     "id": "monetary-policy-postmidterm",
     "name": "Monetary Policy Transmission and the Financial Crisis Response",
     "description": "How the Fed's control of the nominal interest rate becomes control of the real interest rate, the channels through which monetary policy affects spending, policy reaction functions and the Taylor rule, and the Fed's unconventional response to the 2008-09 crisis."
+  },
+  {
+    "id": "aggregate-demand-supply",
+    "name": "The AD-AS Model: Equilibrium, Shocks, and Policy Responses",
+    "description": "The aggregate demand and aggregate supply curves, why AD slopes down and what shifts it versus moves along it, the AS curve's short-run equation and its shifters, short-run versus long-run equilibrium, and how the AD-AS model responds to demand shocks, inflation shocks, and capacity shocks under different policy choices."
+  },
+  {
+    "id": "inflation-dynamics",
+    "name": "Inflation Dynamics and Monetary Policy Credibility",
+    "description": "Inflation inertia and inflation expectations, the self-correcting economy and stabilization-policy tradeoffs, the 1970s-80s Great Inflation and Volcker's disinflation, the post-1980s Great Moderation, central-bank credibility, and the inside/outside lags that limit any stabilization policy."
+  },
+  {
+    "id": "financial-crisis-2008",
+    "name": "The 2008 Financial Crisis: Mechanics, Response, and Historical Lessons",
+    "description": "The subprime-mortgage and securitization mechanics behind the 2007-09 crisis, leverage and balance-sheet dynamics, too-big-to-fail and the credit crunch, the Fed's unconventional monetary policy at the zero lower bound, and the fiscal-multiplier and Great-Depression-era policy debates the crisis revived."
   }
 ]

@@ -5,36 +5,47 @@ A static, no-build, no-backend study game for Harvard Summer School's Econ S10-b
 generated from the course's own lecture slides, discussion-section solutions, and
 problem-set solutions, organized by topic, with progress saved locally in the browser.
 
-## Current status: first post-midterm question bank
+## Current status: final exam question bank (first batch)
 
-The midterm is over. On 2026-07-21 this app was intentionally reset to an empty
-question bank (the old pre-midterm/midterm bank — 377 questions across 18 topics
-and 14 sources — and the old **Midterm Review** study mode were permanently
-removed), and later the same day, the **first post-midterm question bank** was
-generated from newly uploaded Class 8 and Class 9 course materials. See
-`docs/update-notes/2026-07-21-post-midterm-empty-reset-plan.md` for the reset and
-`docs/update-notes/2026-07-21-first-post-midterm-bank-results.md` for this batch.
+The midterm is over and the final exam is about one week away. On 2026-07-21
+this app was intentionally reset to an empty question bank (the old
+pre-midterm/midterm bank — 377 questions across 18 topics and 14 sources —
+and the old **Midterm Review** study mode were permanently removed), and the
+**first post-midterm question bank** (105 questions from Class 8 and Class 9)
+followed the same day. On 2026-07-27, the **first final-exam question bank**
+batch was generated from newly uploaded Class 10 slides, the instructor's
+final exam study guide, four side readings from the latter half of the
+course, and an unsolved problem set. See
+`docs/update-notes/2026-07-27-final-exam-bank-plan.md` and
+`docs/update-notes/2026-07-27-final-exam-bank-results.md` for the full
+details of this batch.
 
-- **Active question count: 105**, across **6 topics** and **2 sources**
-  (`class8`, `class9`).
-- **Question type breakdown:** 41 `standard`, 26 `vocab`, 27 `formula`, 11 `graph`
-  (9 of the 11 graph questions include an inline SVG diagram).
-- **Difficulty breakdown:** 16 easy (15%), 53 medium (50%), 36 hard (34%) — a
-  noticeably harder mix than the old pre-midterm bank, per the "Post-midterm
-  difficulty standard" in `docs/question-authoring-guide.md`.
+- **Active question count: 209**, across **9 topics** and **10 sources**.
+- **Question type breakdown:** 84 `standard`, 49 `vocab`, 52 `formula`, 24
+  `graph` (12 of the 24 graph questions include an inline SVG diagram).
+- **Difficulty breakdown:** 28 easy (13%), 108 medium (52%), 69 hard (33%) — a
+  harder mix than the old pre-midterm bank, per the "Post-midterm difficulty
+  standard" in `docs/question-authoring-guide.md`; the final-exam batch's own
+  questions are 16 easy (15%), 55 medium (53%), 33 hard (32%), deliberately
+  written to be harder on average than the study guide's own practice
+  problems.
 - **Topics:** Unemployment: Measurement, Costs, and Types · Business Cycles,
   Output Gaps, and Okun's Law · The Keynesian Cross Model of Short-Run Output ·
   Fiscal Policy and Stabilization · The Fed, Money Supply, and Money Demand ·
-  Monetary Policy Transmission and the Financial Crisis Response.
+  Monetary Policy Transmission and the Financial Crisis Response · The AD-AS
+  Model: Equilibrium, Shocks, and Policy Responses · Inflation Dynamics and
+  Monetary Policy Credibility · The 2008 Financial Crisis: Mechanics,
+  Response, and Historical Lessons.
 - **Active study modes:** Full Bank, Shuffle Mixed Practice, Review Missed,
   New/Unseen, Needs Review, Vocabulary / Definitions, Formula Practice, and Graph
   Practice — all populated and working.
 - **The Midterm Review mode remains permanently removed** — it is not part of the
   current app and was not reintroduced by this batch. It was tied specifically to
   the instructor's midterm study guide, which is no longer relevant post-midterm.
-- No pre-midterm/midterm source is reused in this batch; both new sources
-  (`HarvardS10b_Class8.pptx`, `HarvardS10b_Class9_Preliminary.pdf`) were uploaded
-  fresh to `private-materials/` after the reset.
+- **One more lecture is still pending.** The user has one more class's slides
+  yet to upload; this is the first final-exam bank build, not the complete
+  source set. A follow-up batch will add its own topic/source coverage
+  (most likely exchange rates/open-economy macro) once those slides arrive.
 
 ## What this is
 
@@ -86,9 +97,9 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (105 questions — first post-midterm batch, 2026-07-21)
-  topics.json                    topic list (id, name, description) — 6 post-midterm topics
-  sources.json                   source-material metadata (which file, what it covers, reliability notes) — 2 sources (class8, class9)
+  questions.json                 the question bank (209 questions — first final-exam batch, 2026-07-27)
+  topics.json                    topic list (id, name, description) — 9 post-midterm/final-exam topics
+  sources.json                   source-material metadata (which file, what it covers, reliability notes) — 10 sources
 docs/
   source-notes.md                what materials were used, what was extracted, any caveats
   question-authoring-guide.md    schema reference and conventions for adding new questions

@@ -1,5 +1,130 @@
 # Changelog
 
+## 2026-07-27 16:00 — Final Exam Question Bank
+
+### Added
+- **The first final-exam question bank batch: 104 new questions, 3 new
+  topics, 8 new sources — bringing the bank from 105 to 209 questions across
+  9 topics and 10 sources.** Generated from newly uploaded final-exam
+  materials: `HarvardS10b_Class10.pptx` (source `class10`: the AD-AS model,
+  inflation dynamics, the Great Inflation/Volcker, the Great Moderation,
+  central-bank credibility, and policy lags), `Final Study Guide and
+  Practice Questions.pdf` (source `final_study_guide`, used for coverage
+  mapping only — no practice problem copied), four side readings
+  (`haltom_unconventional_mp`, `much_ado_multipliers`,
+  `romer_great_depression`, `romer_fiscal_stimulus_nyt`), and
+  `ProblemSet4_EconS10b.pdf` (source `problemset4`, uploaded with no
+  solutions — every question built from it uses independently verified,
+  freshly-invented numbers). One older pre-midterm-era file,
+  `Economic Crisis.pdf` (source `financial_crisis_reading`), was
+  deliberately reused because the final study guide's outline explicitly
+  requires its content (2008 crisis mechanics) and no active source covers
+  it — see `docs/update-notes/2026-07-27-final-exam-bank-plan.md` for the
+  full justification.
+- Three new topics in `data/topics.json`: `aggregate-demand-supply` (24
+  questions), `inflation-dynamics` (16), and `financial-crisis-2008` (26).
+  Six existing topics received additional questions:
+  `keynesian-cross-model` (+6), `fiscal-policy` (+10),
+  `monetary-policy-postmidterm` (+8), `money-market` (+6),
+  `business-cycles-output-gaps` (+4), and `unemployment` (+4).
+- `docs/update-notes/2026-07-27-final-exam-bank-plan.md` and
+  `docs/update-notes/2026-07-27-final-exam-bank-results.md`: the full plan
+  (file-by-file new-vs-old determination, proposed topics/sources/counts,
+  and the `financial_crisis_reading`/ECB-guest-lecture inclusion/exclusion
+  reasoning) and results (final counts, validation, QA/playtest) for this
+  batch.
+- 3 new inline SVG diagrams (an inflation-shock AS-shift diagram, a
+  Volcker-disinflation AD-shift diagram, and an open-market-purchase
+  money-supply-shift diagram), all original hand-authored markup using the
+  app's existing theme-aware CSS custom properties.
+- A new "2026-07-27 First final-exam question bank — active sources"
+  section in `docs/source-notes.md`, documenting all 8 new sources'
+  coverage, extraction reliability, skipped diagram/chart-only content, and
+  the reasoning for both including `financial_crisis_reading` and excluding
+  the ECB guest-lecture deck.
+- Two new sections in `docs/question-authoring-guide.md`: "Writing
+  questions from a problem set with no answer key" (independent
+  programmatic verification when there's no key to check against) and
+  "Excluding a source on pedagogical-conflict grounds, not just recency"
+  (a topical match with a conflicting theoretical framework is a reason to
+  exclude a source, not include it).
+
+### Changed
+- `README.md`: now describes the app as populated for final-exam
+  preparation (209 questions / 9 topics / 10 sources / 84 standard, 49
+  vocab, 52 formula, 24 graph / 28 easy, 108 medium, 69 hard), lists all
+  nine topics, reconfirms Midterm Review remains permanently removed, and
+  notes one more lecture is still pending upload.
+- `docs/qa-checklist.md`: added a "Checks specific to the first final-exam
+  batch (2026-07-27)" section (stale-ID check, the
+  `financial_crisis_reading` justification check, reading-heavy vocab
+  coverage check, formula-verification-method check, the Okun's-Law
+  sign-convention note, the exchange-rate-gap-is-intentional note, and
+  graph-grounding/multi-step-recomputation checks).
+- `data/sources.json`: added 8 new source entries (`class10`,
+  `final_study_guide`, `financial_crisis_reading`,
+  `haltom_unconventional_mp`, `much_ado_multipliers`,
+  `romer_great_depression`, `romer_fiscal_stimulus_nyt`, `problemset4`)
+  with filename, title, type, coverage summary, date added, and reliability
+  notes.
+
+### Removed
+- Nothing removed. Midterm Review remains permanently removed from the
+  2026-07-21 reset; this batch did not reintroduce it or any pre-midterm/
+  midterm source, topic, or question. The ECB guest-lecture deck (already
+  unused) remains excluded, on both recency and content grounds (see the
+  plan note).
+
+### Fixed
+- N/A — this is a net-new content batch, not a bug-fix update.
+
+### Notes
+- **Difficulty mix:** batch — 16 easy (15%), 55 medium (53%), 33 hard
+  (32%); bank total — 28 easy (13%), 108 medium (52%), 69 hard (33%). Both
+  within the post-midterm difficulty standard's target range, and the
+  batch's own questions were deliberately written to be harder on average
+  than the final study guide's own practice problems.
+- **questionType mix:** batch — 43 standard, 23 vocab, 25 formula, 13 graph
+  (3 with a new inline diagram); bank total — 84 standard, 49 vocab, 52
+  formula, 24 graph (12 with an inline diagram).
+- **Reading/final-study-guide handling:** the four pure side-reading
+  sources ground 41 new questions with a deliberately higher vocab share
+  (9 of 26 in `financial-crisis-2008`) than the lecture-slide-heavy topics,
+  per the "easy factual recall is appropriate for readings" guidance; the
+  final study guide itself was used only for coverage mapping and
+  independent formula cross-checks — no practice problem, its numbers, or
+  its answer-choice structure was copied anywhere in this bank.
+- **Validation:** `node scripts/validate-data.mjs` passes with 0 errors and
+  0 warnings (209 questions, 9 topics, 10 sources). No duplicate IDs, no
+  near-duplicate question text, no stale pre-midterm topic/source IDs
+  referenced, no answerIndex/explanation mismatches, no malformed diagrams,
+  no unsupported `questionType` values, and no Midterm Review references
+  anywhere.
+- **`needsReview` count: 0.** No content in any of the 8 new sources
+  required the flag; unreadable diagram/chart-only content was skipped as
+  grounding rather than guessed at.
+- **Source-grounding/non-copying:** every question was checked against its
+  source's actual extracted text; no verbatim wording, no copied
+  answer-choice structure, and no "mad-libs" number/scenario swaps. A
+  shared-phrase scan across the new batch's explanations found 3 genuine
+  narrative-structure overlaps (a Fisher-effect vocab/standard pair, a
+  credit-default-swap vocab/standard pair, and three money-market graph
+  questions), all rewritten with distinct sentence architecture before
+  finalizing.
+- **One lecture still pending.** This batch is scoped only to materials
+  uploaded as of 2026-07-27; one more lecture (after Class 10) has not yet
+  been uploaded. A follow-up batch should add its own source/topic coverage
+  (exchange rates/open-economy macro is the most likely candidate) once
+  those slides arrive.
+- **No raw private materials committed.** All newly-referenced files
+  (`HarvardS10b_Class10.pptx`, `Final Study Guide and Practice
+  Questions.pdf`, the four side readings, `ProblemSet4_EconS10b.pdf`, and
+  `Economic Crisis.pdf`) live only in `private-materials/` (git-ignored) —
+  nothing from the raw files themselves was committed, only the derived
+  `data/sources.json` metadata and questions.
+- **Midterm Review remains permanently removed** and was not reintroduced
+  by this batch.
+
 ## 2026-07-21 21:30 — First Post-Midterm Question Bank
 
 ### Added

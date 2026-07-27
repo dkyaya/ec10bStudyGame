@@ -4,6 +4,120 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## 2026-07-27 First final-exam question bank — active sources
+
+The final exam is about one week away. On 2026-07-27, the user uploaded a new
+batch of materials to `private-materials/`: `HarvardS10b_Class10.pptx`
+(slides for the next lecture), `Final Study Guide and Practice Questions.pdf`
+(the instructor's final-exam study outline), four side readings
+(`HaltomUnconventialMP_2012.pdf`, `MuchAdoAboutMultipliers.pdf`,
+`RomerGreatDepressionLessons.pdf`, `RomerHow the Fiscal Stimulus
+Helped...NYTimes.pdf`), and `ProblemSet4_EconS10b.pdf` (a problem set with no
+solutions uploaded). Full file-by-file reasoning, including why one older
+pre-midterm-era file (`Economic Crisis.pdf`) was deliberately reused for this
+batch, is in `docs/update-notes/2026-07-27-final-exam-bank-plan.md`.
+**This is the first final-exam bank build, not the complete source set — one
+more lecture is still pending upload.**
+
+**New active sources added to `data/sources.json` (10 total, up from 2):**
+
+- **`class10`** — `HarvardS10b_Class10.pptx`, "Class 10: Aggregate
+  Demand/Supply and Macroeconomic Policy." 35 slides extracted cleanly via
+  `python-pptx`, including the SRAS equation and Fed policy-response notes on
+  slides 16 and 21. Covers the AD-AS model end to end: long-run vs. short-run
+  equilibrium, the MPRF-driven downward-sloping AD curve, movement-along vs.
+  shift-of AD, the SRAS equation and its three shifters, inflation inertia,
+  the output-gap/inflation relationship, the self-correcting economy, the
+  Fed's tradeoff after an inflation shock (close the gap vs. restore the
+  inflation target), capacity shocks, the 1970s Great Inflation and Volcker's
+  disinflation, the Great Moderation, central-bank credibility, the 2008-09
+  policy backlash and its lessons, and policy lags. Slides 25-29 and 32
+  (an oil-price chart, a Volcker-recession chart, two more chart-only slides,
+  a GDP-volatility chart, and an "Inflation Targeting" chart) are
+  diagram/photo-only with no extractable text; their narrative is fully
+  carried by the surrounding bullet text, so no question depends on them. No
+  `needsReview` flag needed.
+- **`final_study_guide`** — `Final Study Guide and Practice Questions.pdf`,
+  the instructor's final-exam study outline plus 10 worked practice problems
+  and solutions. Clean `pdftotext -layout` extraction. Used only for coverage
+  mapping and as an independent cross-check on this batch's own formula
+  answers — no practice problem, its numbers, or its answer-choice structure
+  is reused anywhere in this bank; every question is a fresh scenario.
+- **`financial_crisis_reading`** — `Economic Crisis.pdf`, "The 2008 Financial
+  Crisis: Background, Causes, and Policy Response." This file predates this
+  batch's upload date and was previously used (then wiped) as a pre-midterm
+  source — it is reused here specifically because the final study guide's
+  outline devotes its entire first section to this exact content (housing/
+  subprime mechanics, balance sheets, securitization, leverage), and no
+  active post-midterm source covers it; see the plan note for the full
+  justification. Extracted with `pdftotext -layout`; mostly clean bullet
+  text, though the two MBS/CMO payoff-waterfall bar charts extracted as
+  garbled fragments with no usable axis data and were not used as grounding
+  — the accompanying tranche-seniority bullet text was used instead. No
+  `needsReview` flag needed.
+- **`haltom_unconventional_mp`** — `HaltomUnconventialMP_2012.pdf`, a Federal
+  Reserve Bank of Richmond Economic Brief on unconventional monetary policy
+  (LSAPs/QE1-3, the portfolio-rebalance and signaling channels, forward
+  guidance, the Fisher effect risk). Clean extraction; Figure 1 (a balance-
+  sheet growth chart) has no usable numeric data and wasn't used as grounding.
+- **`much_ado_multipliers`** — `MuchAdoAboutMultipliers.pdf`, an Economist
+  piece on the fiscal-multiplier size debate (capacity utilization, spending
+  vs. tax cuts, crowding out/in, empirical estimation difficulty). Clean,
+  short extraction, no issues.
+- **`romer_great_depression`** — `RomerGreatDepressionLessons.pdf`, a 1219-
+  line Christina Romer speech transcript on three Great-Depression policy
+  lessons (fiscal policy "works when tried," monetary policy "takes a regime
+  shift," and credit policy needing to reduce debt burdens quickly) each
+  compared to the 2008-09 response. Read in full; per the "prioritize core
+  arguments over exhaustive coverage" rule for long readings, questions focus
+  on the three headline lessons rather than every historical anecdote.
+- **`romer_fiscal_stimulus_nyt`** — Romer's 2012 NYT op-ed defending the 2009
+  Recovery Act's effectiveness (the counterfactual-baseline argument, cross-
+  state natural-experiment estimates, the "too small" critique, and the role
+  of public confidence). Clean, short extraction, no issues.
+- **`problemset4`** — `ProblemSet4_EconS10b.pdf`, an assigned problem set
+  (no solutions uploaded) spanning Okun's Law, the Keynesian cross (including
+  a version with `r`), money-market shift scenarios, an MPRF exercise, and
+  three AD-AS shock scenarios, plus an exchange-rate-direction item. Because
+  no answer key exists for this file, every question built from it uses
+  fully independent, freshly-invented scenarios and numbers, with every
+  answer and distractor independently computed and verified in Python (see
+  the matching results note's formula-verification method).
+
+**Excluded on content grounds despite being unused:**
+`Guest Lecture Slides - Price Stability and Monetary Policy.pptx` (an ECB
+guest lecture, previously used and wiped pre-midterm) was deliberately
+**not** reused. Beyond predating this batch's upload, its content teaches an
+**endogenous-money** view ("loans create deposits first; banks acquire
+required reserves later... [reserves constraining lending] is a persistent
+academic myth") that runs counter to the **exogenous-money/reserves-and-
+multiplier** model `class9` actually teaches (open-market operations, the
+reserve requirement, the Fed directly setting the money supply) — using it
+risked contradicting the professor's own tested model. It is also dominated
+by 2026-current-events ECB content (the Digital Euro, a 2026 Middle East war
+shock, ECB scenario projections) with no corresponding item in the final
+study guide's outline. See the plan note for the full reasoning.
+
+**New topics added to `data/topics.json` (9 total, up from 6):**
+`aggregate-demand-supply`, `inflation-dynamics`, and `financial-crisis-2008`.
+No standalone exchange-rate/open-economy topic was created — the handful of
+exchange-rate-channel questions this batch supports are folded into the
+existing `monetary-policy-postmidterm` topic, since the pending final
+lecture is expected to be the primary source for that material.
+
+**`needsReview` count for this batch: 0.** No content required the flag;
+unreadable charts/diagrams were skipped as grounding rather than guessed at.
+
+**Raw materials remain local-only.** All newly-referenced files live only in
+`private-materials/` (git-ignored) — nothing from the raw files themselves is
+committed, only the structured `data/sources.json` metadata and the
+questions derived from them.
+
+**One more lecture is still pending.** This batch is scoped only to
+materials uploaded as of 2026-07-27. See
+`docs/update-notes/2026-07-27-final-exam-bank-results.md` for full counts,
+validation results, and the QA/playtest record.
+
 ## 2026-07-21 Post-midterm reset — active sources are currently empty
 
 The midterm is over. On 2026-07-21 the app was intentionally reset for the

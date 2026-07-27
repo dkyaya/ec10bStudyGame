@@ -670,6 +670,44 @@ lessons from writing the first batch from this kind of source:
   substitution" earlier in this doc for the numeric-substitution sibling
   of this rule.)
 
+## Writing questions from a problem set with no answer key
+
+Some problem sets are uploaded before their solutions exist (e.g.
+`problemset4` in the 2026-07-27 final-exam batch). This changes nothing about
+the no-verbatim/no-mad-libs rules — every question still needs a fresh
+scenario and fresh numbers — but it removes the usual safety net of an
+official answer key to check your own arithmetic against. Two extra
+disciplines matter more when there's no key to cross-check against:
+
+- **Compute every answer and distractor programmatically, not by hand.**
+  Write a small script (or a single script covering the whole batch) that
+  independently derives the correct answer and each numeric distractor from
+  the question's own stated scenario, with `assert` statements confirming
+  the expected values, before finalizing the question. Without an answer key
+  to catch a sign error or an arithmetic slip, this is the only check left.
+- **Where a scenario is directly analogous to a source's own unsolved
+  problem, change the cover story and framing, not just the numbers** —
+  same discipline as the mad-libs rule for solved problems, just without an
+  answer key to accidentally leak into a question. A problem set's own
+  practice problem is still source material to draw *inspiration* from (what
+  concept and task type to test), not a template to fill in with new digits.
+
+## Excluding a source on pedagogical-conflict grounds, not just recency
+
+Not every old-but-still-relevant-looking source should be reused just
+because its *topic* overlaps with active course content. The 2026-07-27
+final-exam batch excluded an ECB guest-lecture deck that was topically about
+monetary policy (which the course does teach) but taught an **endogenous-
+money** view of how banks create credit — a different theoretical framework
+from the **exogenous-money/reserves-and-multiplier** model the course's own
+`class9` deck teaches. Reusing it risked teaching students a framework that
+contradicts what they'll actually be tested on, even though "monetary
+policy" as a topic label matched. When evaluating whether an old or
+borderline source is still usable, check not just whether its *topic*
+overlaps with active material, but whether its *specific model or framework*
+matches what the course's own active sources teach — a topical match with a
+conflicting model is a reason to exclude, not include.
+
 ## Running the validation checks
 
 Open the app in a browser and check the console. `src/data.js` runs schema validation
