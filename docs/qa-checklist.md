@@ -256,6 +256,31 @@ numeric answers):
   reachable both from that topic card and from Full Bank/Shuffle Mixed
   Practice, and its name/description read clearly out of context.
 
+## Checks for any batch of formula/graph questions (added after the 2026-07-27 quality audit)
+
+Run these on **every** batch that adds `formula` or diagram-bearing `graph`
+questions, not just final-exam ones — the 2026-07-27 quality audit found
+these gaps in the original authoring verification method:
+
+- **Recompute every distractor, not just the correct answer.** For each
+  `formula` question, take each `wrongExplanations` entry's claimed mistake
+  (e.g., "forgot to net out taxes," "used the wrong sign") and redo the full
+  calculation with that exact mistake substituted in — confirm the result
+  matches the distractor's displayed number exactly (or to the stated
+  rounding). An `assert` that only checks the correct answer will miss a
+  distractor whose stated derivation doesn't actually produce that number.
+- **Algebraically verify SVG diagram coordinates**, not just render and
+  eyeball them: confirm each curve's screen-coordinate slope has the
+  correct economic sign (remember SVG y increases downward), confirm every
+  `<circle>` equilibrium marker's `cx`/`cy` actually solves the algebraic
+  intersection of the two curves it claims to sit on (a quick `sympy.solve`
+  one-liner works), and confirm a shifted/dashed curve is parallel to its
+  original and shifted in the claimed direction — not a leftover template
+  from a different scenario.
+- **Render every new diagram in the actual app** (not just check the raw
+  SVG markup) and visually confirm the picture matches the alt text and the
+  correct answer's explanation before treating a diagram question as done.
+
 ## Checks specific to the first final-exam batch (2026-07-27)
 
 Run these when reviewing or extending the 2026-07-27 final-exam batch (104

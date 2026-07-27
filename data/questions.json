@@ -4048,8 +4048,8 @@
     ],
     "diagram": {
       "type": "svg",
-      "alt": "An inflation-output diagram with inflation on the vertical axis and output on the horizontal axis. A downward-sloping AD curve and an upward-sloping AS curve cross at point A, directly above the vertical potential-output line Y*. A second, dashed AS curve is drawn shifted up and to the left of the original AS curve, crossing AD at point B, which sits to the left of the Y* line (lower output) and higher up the vertical axis (higher inflation) than point A.",
-      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Output (Y)</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Inflation</text><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"120\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Y*</text><line x1=\"80\" y1=\"40\" x2=\"165\" y2=\"140\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"170\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">AS</text><line x1=\"90\" y1=\"140\" x2=\"200\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"200\" y=\"36\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD</text><line x1=\"120\" y1=\"140\" x2=\"230\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"228\" y=\"36\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD'</text><circle cx=\"120\" cy=\"90\" r=\"3\" fill=\"var(--text)\"/><text x=\"126\" y=\"84\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"150\" cy=\"73\" r=\"3\" fill=\"var(--text)\"/><text x=\"156\" y=\"68\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
+      "alt": "An inflation-output diagram with inflation on the vertical axis and output on the horizontal axis. An upward-sloping AS curve and a downward-sloping AD curve cross at point A, directly above the vertical potential-output line Y*. A second, dashed AS' curve is drawn parallel to AS but shifted up and to the left, crossing the unchanged AD curve at point B, which sits to the left of the Y* line (lower output) and higher up the vertical axis (higher inflation) than point A.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Output (Y)</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Inflation</text><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"140\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Y*</text><line x1=\"90\" y1=\"140\" x2=\"190\" y2=\"40\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"194\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">AS</text><line x1=\"65\" y1=\"140\" x2=\"165\" y2=\"40\" stroke=\"var(--accent)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"60\" y=\"36\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">AS'</text><line x1=\"90\" y1=\"40\" x2=\"190\" y2=\"140\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"194\" y=\"144\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD</text><circle cx=\"140\" cy=\"90\" r=\"3\" fill=\"var(--text)\"/><text x=\"146\" y=\"84\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"127.5\" cy=\"77.5\" r=\"3\" fill=\"var(--text)\"/><text x=\"100\" y=\"72\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
     }
   },
   {
@@ -4631,8 +4631,8 @@
     ],
     "diagram": {
       "type": "svg",
-      "alt": "An inflation-output diagram with inflation on the vertical axis and output on the horizontal axis. An upward-sloping AS curve is fixed. The original downward-sloping AD curve crosses AS at point A, directly above the vertical potential-output line Y*. A second, dashed AD curve is drawn shifted down and to the left of the original AD curve, crossing AS at point B, which sits to the left of the Y* line (lower output) and lower on the vertical axis (lower inflation) than point A.",
-      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Output (Y)</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Inflation</text><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"140\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Y*</text><line x1=\"90\" y1=\"40\" x2=\"190\" y2=\"140\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"195\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">AS</text><line x1=\"100\" y1=\"130\" x2=\"220\" y2=\"55\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"222\" y=\"52\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD</text><line x1=\"70\" y1=\"150\" x2=\"190\" y2=\"75\" stroke=\"var(--good)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"65\" y=\"156\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD'</text><circle cx=\"140\" cy=\"90\" r=\"3\" fill=\"var(--text)\"/><text x=\"146\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"105\" cy=\"116\" r=\"3\" fill=\"var(--text)\"/><text x=\"75\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
+      "alt": "An inflation-output diagram with inflation on the vertical axis and output on the horizontal axis. An upward-sloping AS curve is fixed. The original downward-sloping AD curve crosses AS at point A, directly above the vertical potential-output line Y*. A second, dashed AD' curve is drawn parallel to AD but shifted down and to the left, crossing the fixed AS curve at point B, which sits to the left of the Y* line (lower output) and lower on the vertical axis (lower inflation) than point A.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Output (Y)</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Inflation</text><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"140\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Y*</text><line x1=\"90\" y1=\"140\" x2=\"190\" y2=\"40\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"194\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">AS</text><line x1=\"90\" y1=\"40\" x2=\"190\" y2=\"140\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"194\" y=\"144\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD</text><line x1=\"65\" y1=\"40\" x2=\"165\" y2=\"140\" stroke=\"var(--good)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"55\" y=\"152\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">AD'</text><circle cx=\"140\" cy=\"90\" r=\"3\" fill=\"var(--text)\"/><text x=\"146\" y=\"84\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"127.5\" cy=\"102.5\" r=\"3\" fill=\"var(--text)\"/><text x=\"100\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
     }
   },
   {
@@ -5385,20 +5385,20 @@
     "sourceLabel": "\"The 2008 Financial Crisis\" reading and the final exam study guide",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A financial institution's balance sheet shows: mortgage loans of $800 million, mortgage-backed securities of $40 million, Treasury bills of $60 million, and reserves/cash of $100 million on the asset side; deposits of $850 million, commercial paper of $60 million, and corporate bonds of $70 million on the liability side. Equity equals assets minus liabilities, and the leverage ratio equals liabilities divided by equity. What is this institution's leverage ratio?",
+    "question": "A regional investment fund reports total assets of $1,500 million and total liabilities of $1,440 million. Equity equals assets minus liabilities, and the leverage ratio equals liabilities divided by equity. What is this fund's leverage ratio?",
     "choices": [
-      "49",
-      "20",
-      "9.8",
-      "50"
+      "24",
+      "60",
+      "25",
+      "96"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Total assets = 800 + 40 + 60 + 100 = $1,000 million. Total liabilities = 850 + 60 + 70 = $980 million. Equity = assets - liabilities = 1,000 - 980 = $20 million. Leverage ratio = liabilities / equity = 980 / 20 = 49. For every dollar of equity cushion, the institution has $49 of liabilities financing its assets — an extremely thin equity buffer.",
+    "correctExplanation": "Equity = assets - liabilities = 1,500 - 1,440 = $60 million. Leverage ratio = liabilities / equity = 1,440 / 60 = 24. For every dollar of equity cushion, the fund has $24 of liabilities financing its assets — a thin equity buffer typical of the highly leveraged institutions in the 2008 crisis.",
     "wrongExplanations": [
       null,
-      "20 is the dollar value of equity (in millions), not the leverage ratio itself — the leverage ratio divides liabilities by that equity figure.",
-      "9.8 would result from dividing liabilities by 100 (mistakenly using the reserves/cash figure as if it were equity) instead of the actual computed equity of $20 million.",
-      "50 is close but comes from rounding assets (1,000) instead of liabilities (980) into the numerator, or from a minor arithmetic slip — recompute 980 / 20 precisely to get 49, not 50."
+      "60 is the dollar value of equity (in millions), not the leverage ratio itself — the leverage ratio divides liabilities by that equity figure, not equity alone.",
+      "25 results from dividing total assets (1,500) by equity instead of total liabilities (1,440) by equity — the leverage ratio's numerator is liabilities, not assets.",
+      "96 results from expressing liabilities as a percentage of assets (1,440/1,500 x 100 = 96%) rather than computing the leverage ratio (liabilities divided by equity)."
     ],
     "tags": [
       "leverage ratio",
@@ -5418,7 +5418,7 @@
     "sourceLabel": "\"The 2008 Financial Crisis\" reading and the final exam study guide",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A financial institution has $1,000 million in assets and $950 million in liabilities, so its equity is $50 million. A wave of loan defaults causes a $40 million loss in asset value (liabilities are unaffected). What is the percentage change in the institution's equity, and how does it compare to the percentage change in its total assets?",
+    "question": "An investment bank has $1,000 million in assets and $950 million in liabilities, so its equity is $50 million. A wave of loan defaults causes a $40 million loss in asset value, with liabilities unaffected. By what percentage does the bank's equity decline, and roughly how many times larger is that decline than the percentage drop in total assets?",
     "choices": [
       "Equity falls by 80% (from $50 million to $10 million), which is 20 times the 4% decline in total assets",
       "Equity falls by 4%, the same percentage as total assets, since leverage doesn't affect the comparison",
@@ -6006,17 +6006,17 @@
     "question": "An economy's planned aggregate expenditure is PAE = 700 + 0.7(Y - T) + 400 - 4000r + 350 + NX, with T = 250 and NX = 20 (so PAE = 700 + 0.7(Y-250) + 400 - 4000r + 350 + 20). The Fed sets the nominal interest rate i at 6%, and expected inflation is 2%. Using r = i - pi, what is short-run equilibrium real GDP (rounded to the nearest whole number)?",
     "choices": [
       "3,783",
-      "3,350",
-      "4,540",
-      "2,838"
+      "4,367",
+      "3,250",
+      "4,317"
     ],
     "answerIndex": 0,
     "correctExplanation": "First find r: r = i - pi = 0.06 - 0.02 = 0.04. Substitute into PAE: PAE = 700 + 0.7(Y - 250) + 400 - 4000(0.04) + 350 + 20 = 700 - 175 + 0.7Y + 400 - 160 + 350 + 20 = 1,135 + 0.7Y. Setting Y = PAE: Y = 1,135 + 0.7Y, so 0.3Y = 1,135, giving Y = 1,135/0.3 = 3,783.33, or about 3,783.",
     "wrongExplanations": [
       null,
-      "3,350 results from forgetting to net out taxes correctly (using mpc*Y instead of mpc*(Y-T)) or a similar bookkeeping slip in the autonomous-spending total — recompute the constant term (700 - 175 + 400 - 160 + 350 + 20 = 1,135) carefully.",
-      "4,540 results from using r = i + pi (adding instead of subtracting inflation) — 0.06 + 0.02 = 0.08, which would produce a much larger negative interest-rate term and a different (and, notably, lower, not higher) autonomous total; recheck the sign convention for r = i - pi.",
-      "2,838 results from applying the interest-rate term twice or another double-counting error in the autonomous spending sum — recompute 700 - 175 + 400 - 160 + 350 + 20 = 1,135 as a single total before dividing by (1 - mpc)."
+      "4,367 results from forgetting to net out taxes (using 0.7Y instead of 0.7(Y-250)): the autonomous total becomes 700 + 400 - 160 + 350 + 20 = 1,310, giving Y = 1,310/0.3 = 4,366.7, or about 4,367 — recheck that the consumption term applies to after-tax income (Y-T), not Y alone.",
+      "3,250 results from using r = i + pi instead of r = i - pi (0.06 + 0.02 = 0.08 instead of 0.06 - 0.02 = 0.04): the autonomous total becomes 700 - 175 + 400 - 4000(0.08) + 350 + 20 = 975, giving Y = 975/0.3 = 3,250 — recheck the sign convention for r = i - pi.",
+      "4,317 results from forgetting the -4000r term entirely (treating spending as interest-rate-insensitive): the autonomous total becomes 700 - 175 + 400 + 350 + 20 = 1,295, giving Y = 1,295/0.3 = 4,316.7, or about 4,317 — recheck that the -4000r term must be included before dividing by (1 - mpc)."
     ],
     "tags": [
       "real interest rate",
@@ -6049,7 +6049,7 @@
     "wrongExplanations": [
       null,
       "3.00% would result from setting i equal to expected inflation alone and ignoring the required real interest rate (r = 0.4%) entirely — the Fed needs a small but nonzero real rate here, not a zero real rate.",
-      "4.00% overstates the required real interest rate contribution — recompute the autonomous-spending total (1,620) and the induced-spending term (0.6 x 4,000 = 2,400) carefully before solving for r; the correct real rate here is only 0.4%, not a full percentage point.",
+      "4.00% results from a double error: forgetting to net out the tax term when computing autonomous spending (using 900 + 500 + 400 = 1,800 instead of 900 - 0.6(300) + 500 + 400 = 1,620), which produces r = 4% instead of the correct 0.4%, and then reporting that r value directly as i instead of adding expected inflation — recheck both the tax-netting step and that i = r + pi.",
       "0.40% is the real interest rate r itself, not the nominal rate i — the question asks for i, which requires adding expected inflation (r + pi = 0.004 + 0.03 = 0.034)."
     ],
     "tags": [
@@ -6205,17 +6205,17 @@
     "question": "The economy of Calverton has consumption C = 1,200 + 0.65(Y - T) - 8000r, with T = 600; planned investment IP0 = 900 (with no separate interest-rate sensitivity of its own, since C already carries the full -8000r spending sensitivity to the real interest rate); government purchases G = 500; and net exports NX = -30. If the real interest rate r = 5% (0.05), what is short-run equilibrium output (rounded to the nearest whole number)?",
     "choices": [
       "5,086",
-      "5,400",
-      "4,571",
-      "6,229"
+      "6,229",
+      "3,943",
+      "5,933"
     ],
     "answerIndex": 0,
     "correctExplanation": "Substitute r = 0.05: PAE = 1,200 + 0.65(Y - 600) - 8000(0.05) + 900 + 500 - 30 = 1,200 - 390 + 0.65Y - 400 + 900 + 500 - 30 = 1,780 + 0.65Y. Setting Y = PAE: Y = 1,780 + 0.65Y, so 0.35Y = 1,780, giving Y = 1,780/0.35 = 5,085.7, or about 5,086.",
     "wrongExplanations": [
       null,
-      "5,400 results from omitting the -8000r term's effect on the autonomous total (using 1,780 + 400 = 2,180 as the constant instead of 1,780) — recheck that -8000(0.05) = -400 must be included in the autonomous sum.",
-      "4,571 results from applying the interest-rate term twice (subtracting 400 twice) — recompute the autonomous total as a single sum of 1,200 - 390 + 900 - 400 + 500 - 30 = 1,780 before dividing by (1 - mpc).",
-      "6,229 results from using (1 - mpc) = 0.3 instead of the correct 0.35 (1 - 0.65) — recheck 1 - 0.65 = 0.35."
+      "6,229 results from omitting the -8000r term entirely (as if spending weren't interest-rate-sensitive): the constant becomes 1,200 - 390 + 900 + 500 - 30 = 2,180 (dropping the -400), giving Y = 2,180/0.35 = 6,228.6, or about 6,229 — recheck that -8000(0.05) = -400 must be included in the autonomous sum.",
+      "3,943 results from applying the interest-rate term twice (subtracting 400 twice): the constant becomes 1,780 - 400 = 1,380, giving Y = 1,380/0.35 = 3,942.9, or about 3,943 — recompute the autonomous total as a single sum of 1,200 - 390 + 900 - 400 + 500 - 30 = 1,780, not 1,380.",
+      "5,933 results from using (1 - mpc) = 0.3 instead of the correct 0.35 (1 - 0.65): Y = 1,780/0.3 = 5,933.3, or about 5,933 — recheck 1 - 0.65 = 0.35, not 0.3."
     ],
     "tags": [
       "Keynesian cross",
@@ -6238,7 +6238,7 @@
     "choices": [
       "-6.08%",
       "6.08%",
-      "-3.39%",
+      "-0.83%",
       "0.00%"
     ],
     "answerIndex": 0,
@@ -6246,7 +6246,7 @@
     "wrongExplanations": [
       null,
       "6.08% has the correct magnitude but the wrong sign — solving 8,000 - 2,035 - 5,600 = 365 = -6000r requires r to be negative, not positive, since -6000r must equal a positive 365.",
-      "-3.39% results from a sign or arithmetic slip in computing the induced-spending term (0.7 x 8,000 = 5,600) — recheck each step of 8,000 - 2,035 - 5,600 = -6000r before solving for r.",
+      "-0.83% results from forgetting to net out taxes when computing autonomous spending (using 950 + 800 + 600 = 2,350 instead of 950 - 0.7(450) + 800 + 600 = 2,035): solving 2,350 - 5,600 = -6000r gives r = -50/6000 = -0.0083, or about -0.83% — recheck that consumption applies to after-tax income (Y - T), which requires subtracting 0.7(450) = 315 from the constant.",
       "0.00% would only be correct if autonomous spending alone (without any interest-rate adjustment) already equaled Y* exactly — here 2,035 + 0.7(8,000) = 7,635, which is short of 8,000, so a real rate of exactly 0% would not close the gap."
     ],
     "tags": [
@@ -6344,7 +6344,7 @@
       null,
       "18,000 is correctly computed as working-age population minus labor force, but 32,000 (the labor force itself) is not the number of people *not* in the labor force — that would double-count the labor force.",
       "156% results from inverting the ratio (50,000/32,000 is about 1.56) — the participation rate divides labor force by working-age population, not the reverse.",
-      "36% and 50,000 both appear to reverse or misapply the formula — the correct participation rate is 64% (32,000/50,000), and the correct \"not in labor force\" count is 18,000 (50,000 - 32,000), not the full working-age population."
+      "36% is the *non*-participation share (the 18,000 not in the labor force divided by the working-age population: 18,000/50,000 = 0.36), not the participation rate itself, which uses the labor force as the numerator instead; separately, 50,000 is simply the entire working-age population, not the 18,000 who are actually outside the labor force."
     ],
     "tags": [
       "labor force participation rate",
@@ -6368,7 +6368,7 @@
       "20,000 in the labor force; 19,100 employed",
       "900 in the labor force; 40.5 employed",
       "19,100 in the labor force; 20,000 employed",
-      "40,500 in the labor force; 39,600 employed"
+      "2,000 in the labor force; 1,100 employed"
     ],
     "answerIndex": 0,
     "correctExplanation": "Since the unemployment rate = unemployed / labor force, the labor force = unemployed / rate = 900 / 0.045 = 20,000. The number employed = labor force - unemployed = 20,000 - 900 = 19,100.",
@@ -6376,7 +6376,7 @@
       null,
       "900 is the number of unemployed people, not the size of the labor force — the labor force must be solved for using unemployed/rate, and 40.5 is not a meaningful count of employed people here.",
       "This swaps the labor force and employed figures — the labor force (20,000) is larger than the number employed (19,100), since it also includes the unemployed.",
-      "40,500 results from dividing 900 by 0.045 incorrectly (e.g., treating the rate as 0.0222 or making a decimal-place error) — recheck that 900/0.045 = 20,000, not 40,500."
+      "2,000 and 1,100 result from misplacing the decimal point in the given rate (using 45% instead of 4.5%): 900/0.45 = 2,000, and 2,000 - 900 = 1,100 — recheck that a 4.5% unemployment rate is 0.045 in decimal form, not 0.45."
     ],
     "tags": [
       "unemployment rate",
@@ -6626,7 +6626,7 @@
       "$600",
       "$60",
       "$3,750",
-      "$15,400"
+      "$15,600"
     ],
     "answerIndex": 0,
     "correctExplanation": "Opportunity cost = amount held x nominal interest rate = $15,000 x 0.04 = $600 in foregone interest per year. This is exactly the tradeoff behind money demand's downward slope: a higher interest rate raises this foregone amount, making cash-holding less attractive.",
@@ -6634,7 +6634,7 @@
       null,
       "$60 understates the answer by a factor of 10, as if the rate were 0.4% instead of 4% — recheck 15,000 x 0.04 directly.",
       "$3,750 results from dividing 15,000 by 4 instead of multiplying by 0.04 — these are different operations that happen to look similar; recompute using multiplication.",
-      "$15,400 adds the interest rate as a dollar amount to the principal instead of computing the interest amount itself — the opportunity cost is the foregone interest ($600), not the principal plus a miscomputed interest figure."
+      "$15,600 reports the account's total future value (principal plus interest: 15,000 + 600 = 15,600) instead of the foregone interest alone — the opportunity cost asked for is just the $600 in interest income given up, not the account's total ending balance."
     ],
     "tags": [
       "opportunity cost",
@@ -6677,7 +6677,7 @@
     "diagram": {
       "type": "svg",
       "alt": "A money market diagram with the interest rate on the vertical axis and the quantity of money on the horizontal axis. A vertical money supply curve MS crosses a downward-sloping money demand curve MD at point A. A second, dashed vertical money supply curve MS' is drawn to the right of MS, crossing the same money demand curve at point B, which sits lower on the vertical axis (a lower interest rate) than point A.",
-      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Money</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Interest Rate</text><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"160\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"90\" y=\"32\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">MS</text><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"160\" stroke=\"var(--accent)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"32\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">MS'</text><line x1=\"70\" y1=\"40\" x2=\"220\" y2=\"140\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"222\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">MD</text><circle cx=\"110\" cy=\"90\" r=\"3\" fill=\"var(--text)\"/><text x=\"116\" y=\"84\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"170\" cy=\"116\" r=\"3\" fill=\"var(--text)\"/><text x=\"176\" y=\"122\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Money</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Interest Rate</text><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"160\" stroke=\"var(--accent)\" stroke-width=\"2\"/><text x=\"90\" y=\"32\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">MS</text><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"160\" stroke=\"var(--accent)\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"175\" y=\"32\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\">MS'</text><line x1=\"70\" y1=\"40\" x2=\"220\" y2=\"140\" stroke=\"var(--good)\" stroke-width=\"2\"/><text x=\"222\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\">MD</text><circle cx=\"110\" cy=\"66.7\" r=\"3\" fill=\"var(--text)\"/><text x=\"116\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">A</text><circle cx=\"170\" cy=\"106.7\" r=\"3\" fill=\"var(--text)\"/><text x=\"176\" y=\"118\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">B</text></svg>"
     }
   },
   {

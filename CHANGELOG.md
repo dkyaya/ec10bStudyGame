@@ -1,5 +1,91 @@
 # Changelog
 
+## 2026-07-27 18:30 — Final Exam Bank Quality Audit
+
+### Added
+- `docs/update-notes/2026-07-27-final-exam-bank-quality-audit-plan.md` and
+  `docs/update-notes/2026-07-27-final-exam-bank-quality-audit-results.md`:
+  a focused audit plan and results record covering all 104 questions added
+  in the same-day final exam bank batch, with the exact question-ID scope,
+  checks performed, and every fix made.
+- Two new sections in `docs/question-authoring-guide.md`: "Verify every
+  distractor's derivation, not just the correct answer" and "Verify SVG
+  diagram coordinates actually match the claimed curves" — durable rules
+  for any future formula/graph-question batch, prompted by what this audit
+  found.
+- A new "Checks for any batch of formula/graph questions" section in
+  `docs/qa-checklist.md` operationalizing those same two rules as concrete
+  QA steps.
+
+### Changed
+- `docs/source-notes.md`: added a "2026-07-27 Final exam question bank —
+  quality audit" section documenting the study-guide-transformation fix,
+  the two diagram rebuilds, the six formula-distractor fixes, and the
+  clean reading-fidelity spot-check result.
+
+### Fixed
+- **Formula distractors (6 questions):** `monpolicy-formula-008`,
+  `monpolicy-formula-009`, `keynes-formula-012`, `keynes-formula-013`,
+  `unemployment-formula-006`, and `moneymkt-formula-001` each had at least
+  one distractor whose stated "wrongExplanations" derivation did not
+  actually produce that distractor's displayed number (the original
+  authoring script's verification only checked the correct answer, not
+  each distractor). All were fixed with independently-recomputed,
+  verified distractor values and matching explanations; one weaker-but-
+  not-incorrect explanation (`unemployment-formula-005`) was also tightened
+  for precision.
+- **SVG diagram geometry (2 of 3 new diagrams):** `adas-graph-002` and
+  `infldyn-graph-001` had their AS/AD curves' slopes effectively swapped
+  (the curve labeled "AS" was drawn downward-sloping and "AD" upward-
+  sloping — backwards from the model, the alt text, and the correct
+  answer's own explanation), because a diagram built for a different
+  scenario template had been reused without re-deriving its line
+  equations. Both were rebuilt from scratch with algebraically-verified
+  coordinates (`sympy`-solved curve intersections) and re-rendered in the
+  running app to visually confirm the fix. `moneymkt-graph-005`'s
+  equilibrium point markers were also nudged to sit exactly on its (already
+  correctly-sloped) money-demand curve.
+- **Study-guide transformation (2 questions):** `fincrisis-formula-001`'s
+  itemized balance sheet used the exact same four-asset/three-liability
+  category list and order as the final study guide's own leverage practice
+  problem (different numbers, same structural template) — rewritten to a
+  de-itemized total-assets/total-liabilities framing. `fincrisis-formula-002`'s
+  stem was reworded (different institution, different comparison phrasing)
+  to reduce task-phrasing similarity to the guide's own percentage-change
+  problem while testing the identical skill.
+
+### Notes
+- **104 final-exam batch questions audited** (43 standard, 23 vocab, 25
+  formula, 13 graph); **9 substantive fixes** made (6 formula-distractor,
+  2 diagram rebuilds plus 1 point-precision nudge, 2 study-guide-
+  transformation rewrites) plus 1 wording-precision improvement — no
+  question added or removed.
+- **Difficulty mix unchanged:** 16 easy / 55 medium / 33 hard within the
+  audited batch (28/108/69 easy/medium/hard bank-wide) — every `hard`
+  label was re-justified against the rubric and found to reflect genuine
+  reasoning load, not vague wording or a second defensible answer.
+- **Reading-fidelity spot-check: clean.** A sample of standard/vocab
+  questions citing `financial_crisis_reading`, `haltom_unconventional_mp`,
+  `much_ado_multipliers`, `romer_fiscal_stimulus_nyt`, and
+  `romer_great_depression` were re-checked directly against the original
+  extracted source text; every claim checked matched the source precisely.
+- **Final total question count: 209** (unchanged — this was a correctness
+  audit, not a content-volume change). Final counts: 9 topics, 10 sources,
+  84 standard, 49 vocab, 52 formula, 24 graph (12 with an inline diagram).
+- **Validation:** `node scripts/validate-data.mjs` passes with 0 errors and
+  0 warnings after all fixes.
+- **`needsReview` count: 0.** Every issue found was corrected directly;
+  none was left flagged for later review.
+- **QA/playtest:** re-ran a full local Playwright pass — app loads with
+  zero console errors, dashboard shows 209 questions, no Midterm Review
+  references anywhere, Full Bank/Shuffle Mixed Practice/Vocabulary/Formula
+  Practice/Graph Practice/Review Missed/New-Unseen/Reset Progress all
+  verified working, and all 8 fixed formula questions plus all 3 fixed/
+  adjusted diagrams were specifically re-verified to grade correctly and
+  render correctly after answer-choice shuffling.
+- **Midterm Review remains permanently removed** and was not reintroduced.
+- **No raw private materials committed.**
+
 ## 2026-07-27 16:00 — Final Exam Question Bank
 
 ### Added

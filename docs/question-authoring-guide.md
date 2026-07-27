@@ -708,6 +708,78 @@ overlaps with active material, but whether its *specific model or framework*
 matches what the course's own active sources teach — a topical match with a
 conflicting model is a reason to exclude, not include.
 
+## Verify every distractor's derivation, not just the correct answer
+
+The 2026-07-27 final-exam quality audit found a systematic gap in the
+original batch's formula-verification method: the authoring script's
+`assert` statements only checked that the **correct** answer matched a
+recomputed value. Nothing verified that each **distractor**'s claimed
+mistake (stated in its `wrongExplanations` entry) actually produces that
+exact distractor number. Six formula questions had distractors that were
+invented as plausible-*sounding* numbers without being independently
+recomputed from the claimed error — e.g., a `wrongExplanations` entry
+saying a distractor "results from forgetting to net out taxes" when the
+number that mistake actually produces was a different value entirely,
+sometimes not matching any of the four choices. A student who tried to
+verify the explanation's math themselves would find it didn't add up.
+
+**Going forward, for every formula question, recompute all three
+distractors from their stated mistake, not just the correct answer.** A
+quick per-question check (Python `assert` or equivalent): pick the specific
+wrong operation each distractor's explanation claims (e.g., "used `mpc*Y`
+instead of `mpc*(Y-T)`," "flipped the sign in `r = i - pi`," "divided by the
+wrong denominator"), redo the full calculation with that exact mistake
+substituted in, and confirm the result matches the distractor's displayed
+number *exactly* (or to the stated rounding). If it doesn't match, either
+recompute the distractor's value to match the claimed mistake, or rewrite
+the claim to match whatever mistake actually produces that number — never
+leave a distractor whose stated derivation you haven't independently
+checked, even when the correct answer itself is right.
+
+This is also relevant to the SVG diagram rule below: the quality audit
+separately found that the swapped-slope bug wasn't just a coordinate typo — the
+"correct" answer's *text* had been verified independently of the diagram,
+so no one had checked that the drawn picture actually matched what the
+correct choice and explanation claimed. See the SVG diagram note below for
+the general form of this lesson.
+
+## Verify SVG diagram coordinates actually match the claimed curves, not just visually eyeball them
+
+The same 2026-07-27 audit found two of the batch's three new inline SVG
+diagrams had their AS and AD (or AS and AS') curves' *slopes* effectively
+swapped: the line labeled "AS" was drawn with a downward economic slope and
+the line labeled "AD" with an upward one — backwards from both the alt
+text and the correct answer's own explanation — despite the questions
+otherwise being fully correct. The root cause: a diagram built for one
+scenario (a demand-shock template) was reused wholesale for a different
+scenario (an inflation-shock question) without re-deriving its line
+equations, and no one had checked the *rendered* picture against the
+claimed curve identities before shipping it.
+
+**Before finalizing any diagram-bearing graph question, algebraically
+verify (don't just eyeball) three things:**
+
+1. **Each curve's screen-coordinate slope has the correct economic sign.**
+   Remember SVG's y-axis increases *downward* — if the vertical axis
+   represents a quantity that's conventionally drawn increasing upward
+   (inflation, price, interest rate), a curve's screen slope must be the
+   *negative* of its intended economic slope. A quick check: pick the
+   curve's two endpoints; if x increases and the curve is supposed to be
+   economically upward-sloping, screen y must *decrease* (move toward the
+   top), not increase.
+2. **Every labeled equilibrium point (`<circle>`) actually lies on the
+   curves it claims to sit at the intersection of.** Solve for the
+   algebraic intersection of the two relevant lines and confirm the
+   `cx`/`cy` values match (a quick `sympy.solve` one-liner, as used in this
+   audit, is enough) — don't just place a circle at a coordinate that looks
+   about right next to where the lines seem to cross.
+3. **A shifted/dashed curve is actually parallel to (or otherwise
+   consistent with) its unshifted original**, and is drawn in the direction
+   the question claims (left/right, up/down) — not copied from an
+   unrelated template with a different shift direction or a different
+   curve entirely (e.g., a dashed "AD'" reused for a question that's
+   actually about an AS shift).
+
 ## Running the validation checks
 
 Open the app in a browser and check the console. `src/data.js` runs schema validation

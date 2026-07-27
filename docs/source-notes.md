@@ -4,6 +4,59 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## 2026-07-27 Final exam question bank — quality audit
+
+A focused quality audit of all 104 questions added in the 2026-07-27 final-
+exam batch (below) was performed the same day. Full details are in
+`docs/update-notes/2026-07-27-final-exam-bank-quality-audit-plan.md` and
+`docs/update-notes/2026-07-27-final-exam-bank-quality-audit-results.md`; the
+summary here covers source-interpretation-relevant findings only.
+
+- **`fincrisis-formula-001`'s balance-sheet framing was too close to the
+  final study guide's own leverage practice problem.** The original
+  question used the exact same four asset categories (mortgage loans, MBS,
+  Treasury bills, reserves/cash) and three liability categories (deposits,
+  commercial paper, corporate bonds) in the same order as the guide's own
+  itemized balance sheet — different dollar figures, but the same
+  structural template. Rewritten to a de-itemized "total assets / total
+  liabilities" framing (a regional investment fund, $1,500M/$1,440M) that
+  tests the identical leverage-ratio skill without echoing the guide's
+  category list. `fincrisis-formula-002`'s question stem was also reworded
+  (a different institution type, and a "how many times larger" framing
+  instead of the guide's "how does it compare" phrasing) for the same
+  reason.
+- **Two of the batch's three new inline SVG diagrams
+  (`adas-graph-002`, `infldyn-graph-001`) had their AS/AD curves' slopes
+  effectively swapped** — the curve labeled "AS" was drawn with a downward
+  economic slope and "AD" with an upward one, backwards from both their alt
+  text and their correct answer's explanation, because a diagram built for
+  a different scenario template was reused without re-deriving its line
+  equations. Both were rebuilt from scratch with algebraically-verified
+  coordinates (curve slopes, and equilibrium-point intersections solved
+  with `sympy`) and re-rendered in the app to visually confirm the fix. See
+  `docs/question-authoring-guide.md`'s new "Verify SVG diagram coordinates"
+  section for the general rule this prompted.
+- **Six formula questions had at least one distractor whose stated
+  "wrongExplanations" derivation didn't actually produce that distractor's
+  displayed number** (`monpolicy-formula-008`, `monpolicy-formula-009`,
+  `keynes-formula-012`, `keynes-formula-013`, `unemployment-formula-006`,
+  `moneymkt-formula-001`) — the original authoring script's verification
+  only checked the *correct* answer, not that each distractor's claimed
+  mistake reproduced its shown value. All six were fixed with
+  independently-recomputed, verified distractor values and matching
+  explanations. See `docs/question-authoring-guide.md`'s new "Verify every
+  distractor's derivation" section.
+- A source-fidelity spot-check against the original extracted text for
+  `financial_crisis_reading`, `haltom_unconventional_mp`,
+  `much_ado_multipliers`, `romer_fiscal_stimulus_nyt`, and
+  `romer_great_depression` found no factual inaccuracies — every checked
+  claim (balance-sheet/credit channels, tranche seniority, AIG/CDS,
+  too-big-to-fail, the portfolio-rebalance channel, the Fisher effect, the
+  counterfactual-baseline argument, crowding out/in, and Romer's "regime
+  shift" critique) matched the source text precisely.
+- **`needsReview` count after the audit: 0.** Every issue found was fixed
+  directly rather than flagged for later review.
+
 ## 2026-07-27 First final-exam question bank — active sources
 
 The final exam is about one week away. On 2026-07-27, the user uploaded a new
