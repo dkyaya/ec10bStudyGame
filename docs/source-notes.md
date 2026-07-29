@@ -4,6 +4,86 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## 2026-07-29 Formula convention audit (standing note: Okun's Law / output gap sign convention)
+
+A focused audit compared every formula in the active question bank against
+the exact formula conventions in the course sources (`class8`, `class9`,
+`class10`, `final_study_guide`, `problemset4`), rather than only checking
+each question's internal arithmetic consistency. Full details are in
+`docs/update-notes/2026-07-29-formula-convention-audit-plan.md` and
+`docs/update-notes/2026-07-29-formula-convention-audit-results.md`. The
+standing convention notes below should be treated as authoritative for any
+future question involving these formulas.
+
+- **Output gap (Class 8, `HarvardS10b_Class8.pptx`, slide 25):**
+  `output gap = [(Y - Y*)/Y*] x 100`. A **negative** gap is a **recessionary**
+  gap (`Y* > Y`); a **positive** gap is an **expansionary** gap (`Y* < Y`).
+  This is the course's primary, consistently-used convention — it's how
+  Class 8's own slides, Class 10's output-gap/inflation-direction table
+  (slide 15: `Y > Y* -> inflation increases`, `Y < Y* -> inflation
+  decreases`), and every non-Okun's-Law output-gap question in the bank all
+  state it.
+- **Okun's Law (Class 8, slide 29):** `output gap = -2 x (u - u*)` — i.e.,
+  `(Y - Y*)/Y* = -2(u - u*)`. A higher actual unemployment rate relative to
+  the natural rate (`u > u*`) implies a negative (recessionary) output gap;
+  `u < u*` implies a positive (expansionary) gap.
+- **Known source disagreement, and how the bank resolves it:** the final
+  exam study guide's own worked solution (`Final Study Guide and Practice
+  Questions.pdf`, practice problem 1b) states Okun's Law as `(Y* - Y)/Y* =
+  2(u - u*)` — the numerator and the coefficient's sign are both flipped
+  relative to Class 8's phrasing. **This is algebraically identical** to
+  Class 8's form (multiply both sides by -1) and is not a factual
+  disagreement about the underlying relationship between output gaps and
+  unemployment — but presenting both sign conventions side-by-side within
+  the same topic reads as a contradiction to a student, not a harmless
+  rearrangement. A prior batch (`cycles-formula-008/009/010`) had copied the
+  study guide's `(Y*-Y)/Y*` phrasing verbatim while the rest of the same
+  topic (`cycles-formula-001` through `-007`, including a question that
+  explicitly calls `(Y*-Y)/Y*` "the wrong sign convention") used Class 8's
+  `(Y-Y*)/Y*` form — the exact bug this audit was commissioned to catch.
+  **Resolution:** all Okun's-Law/output-gap questions in the bank now use
+  Class 8's `(Y-Y*)/Y* = -2(u-u*)` form for consistency, since Class 8 is
+  where "output gap" is defined as a named, signed quantity and is the form
+  used everywhere else in the topic. The underlying numeric answers were
+  unchanged by this fix (the two forms are algebraically identical); only
+  the stated formula, sign-based reasoning, and distractor derivations were
+  rewritten to match Class 8's convention. `cycles-formula-008` and `-009`
+  now cite `class8` alongside `problemset4`; `cycles-formula-010` now cites
+  `class8` alongside `final_study_guide`.
+- **Taylor rule (Class 9, `HarvardS10b_Class9_Preliminary.pdf`, page 27) is
+  a separate, correctly-sourced case — not the same bug.** Class 9 states
+  the Taylor rule as `r = r* + 0.5(pi - pi*) - 0.5[(Y*-Y)/Y*]`, using
+  `(Y*-Y)/Y*` with a **leading minus sign**. This is algebraically
+  equivalent to using the course's standard `(Y-Y*)/Y*` output gap with a
+  **leading plus sign** — both raise the prescribed real rate when actual
+  output exceeds potential. `monpolicy-formula-005/006/007` correctly quote
+  Class 9's own Taylor rule form exactly as written; this is not a
+  convention violation, since the Taylor rule is a distinct named formula
+  from its own cited source, not a restatement of Class 8's "output gap."
+  Do not "fix" these to match Class 8's output-gap sign convention — that
+  would misquote Class 9's own stated formula. When writing new Taylor-rule
+  questions, keep this term's role scoped clearly to the Taylor rule itself
+  (e.g., "the Taylor rule's output-gap term") rather than calling it simply
+  "the output gap," to avoid implying it redefines Class 8's primary
+  output-gap convention.
+- **Other formula conventions confirmed during this audit (no changes
+  needed):** `r = i - pi` (Fisher/real interest rate, Class 9); MPRF `r =
+  r* + g(pi - pi*)` (Class 9 and Class 10, identical); SRAS `Y = h(P -
+  P^e) + Y_full` (Class 10, speaker notes on slide 16); PAE `= C + IP + G +
+  NX` and consumption function `C = C0 + mpc(Y - T)` (Class 8); multiplier
+  `1/(1-mpc)` and the "crude fiscal multiplier" `1/s` (Class 8); net tax `=
+  total taxes - transfers - government interest payments` and deficit `= G
+  - T` (Class 8); leverage ratio `= liabilities / equity` (final study
+  guide, confirmed against `financial_crisis_reading`'s balance-sheet
+  discussion). No active source states a money-multiplier/reserve-ratio
+  formula, a rule-of-70/72 growth formula, or a named tax-multiplier
+  formula by that exact name; `keynes-formula-011` derives the tax
+  multiplier `-mpc/(1-mpc)` explicitly from Class 8's own PAE and
+  consumption-function primitives rather than citing it as a standalone
+  taught formula.
+- **`needsReview` count after this audit: 0.** Every issue found was fixed
+  directly.
+
 ## 2026-07-27 Final exam question bank — quality audit
 
 A focused quality audit of all 104 questions added in the 2026-07-27 final-

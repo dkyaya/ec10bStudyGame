@@ -281,6 +281,46 @@ these gaps in the original authoring verification method:
   SVG markup) and visually confirm the picture matches the alt text and the
   correct answer's explanation before treating a diagram question as done.
 
+## Formula-convention checks (added after the 2026-07-29 formula-convention audit)
+
+Run these on **every** formula question (new or existing), and on any
+`standard`/`graph`/`vocab` question whose text states or implies a formula —
+the 2026-07-29 audit found a cluster of Okun's-Law questions that were each
+internally self-consistent (correct answer and every distractor matched
+their own stated formula) while still using a different sign convention
+than the rest of their own topic. Internal consistency alone does not catch
+this class of bug.
+
+- **Compare the formula's exact text — sign convention, denominator,
+  variable order, percent-vs-decimal handling — against the question's
+  cited source(s)**, not against general economics knowledge. Re-read the
+  actual slide/study-guide/problem-set text the question cites; don't rely
+  on what a formula "usually" looks like.
+- **Check sign and denominator conventions specifically for any output-gap
+  or Okun's-Law question.** This course's Class 8 lecture defines `output
+  gap = (Y - Y*)/Y* x 100` with a *negative* gap meaning recessionary and a
+  *positive* gap meaning expansionary, and `Okun's Law: output gap = -2 x
+  (u - u*)`. Confirm every Okun's-Law/output-gap question in the bank uses
+  this exact form and sign meaning (see `docs/source-notes.md`'s standing
+  note for the full context, including the study guide's algebraically
+  equivalent but differently-signed phrasing and why the bank aligns to
+  Class 8 instead).
+- **Check every numeric distractor's derivation**, not just the correct
+  answer's — this is the pre-existing rule above, restated here because a
+  formula-convention bug can hide inside a question where every number
+  still "checks out" against its own (wrong-convention) formula.
+- **If a question uses an algebraically equivalent but differently-ordered
+  or differently-signed version of a formula than its own topic's other
+  questions use, treat that as a bug to fix**, not just a stylistic
+  difference — even if the question's own internal arithmetic is
+  self-consistent. Align it to the topic's dominant/primary-source
+  convention (see the question-authoring guide's "Match the course's
+  formula convention" section) or, if the differently-signed form is a
+  precise quote of a genuinely different named formula from its own source
+  (e.g., Class 9's Taylor rule), leave it as-is but confirm its explanation
+  doesn't relabel that term as if it were redefining the topic's primary
+  output-gap convention.
+
 ## Checks specific to the first final-exam batch (2026-07-27)
 
 Run these when reviewing or extending the 2026-07-27 final-exam batch (104

@@ -780,6 +780,63 @@ verify (don't just eyeball) three things:**
    curve entirely (e.g., a dashed "AD'" reused for a question that's
    actually about an AS shift).
 
+## Match the course's formula convention, not just a generic textbook version
+
+The 2026-07-29 formula-convention audit found that a cluster of Okun's-Law
+questions (`cycles-formula-008/009/010`) stated the formula as
+`(Y* - Y)/Y* = 2(u - u*)` — copied from the final exam study guide's own
+worked-solution phrasing — while the rest of the same topic
+(`cycles-formula-001` through `-007`, all the vocab/standard questions, and
+Class 10's inflation-direction table) used Class 8's own stated convention,
+`output gap = (Y - Y*)/Y* x 100` with `Okun's Law: output gap = -2 x (u -
+u*)`. Both forms are algebraically identical (multiply both sides by -1),
+and each individual question's arithmetic was internally self-consistent —
+but presenting two sign conventions for the same named formula within one
+topic is exactly the kind of thing that reads as a contradiction to a
+student, not a rearrangement. See `docs/source-notes.md`'s "Okun's Law /
+output gap sign convention" note for the full resolution.
+
+**Formulas can look equivalent while differing in sign convention,
+denominator, percent-vs-decimal handling, or variable naming — and a
+course consistently teaches one specific version of each.** When writing or
+auditing a formula question:
+
+- **Use the exact convention of the question's cited source(s)**, not a
+  generic textbook version recalled from general knowledge. If two active
+  sources state the same underlying relationship with different sign
+  conventions (as Class 8's lecture and the final study guide's worked
+  solution do for Okun's Law), pick the most direct/primary source for the
+  concept being *named* (here, Class 8's lecture, since it's where "output
+  gap" is defined and used consistently everywhere else in the topic) and
+  align the question to it — don't silently mix conventions across
+  questions in the same topic.
+- **If you use an algebraically equivalent but differently-signed/ordered
+  form of a course formula, say so explicitly** in the `correctExplanation`
+  (e.g., state both the substitution and the resulting sign's real-world
+  meaning) rather than leaving the reader to infer that it matches the
+  form taught in lecture.
+- **A formula audit must check every distractor's derivation, not just
+  whether the final numeric answer is internally consistent with the
+  question's own stated formula.** A question can be perfectly
+  self-consistent (correct answer matches its own formula, every distractor
+  matches its own claimed mistake) while still using the wrong convention
+  for the course — internal consistency is necessary but not sufficient;
+  always cross-check the *formula itself* against the cited source's exact
+  wording.
+- **Where the course uses a sign-sensitive expression like the output gap,
+  preserve the course's sign convention exactly**, including which sign
+  means "recessionary" vs. "expansionary," and state that interpretation
+  explicitly in the explanation (don't just show the arithmetic and stop).
+- A formula that's genuinely a *different named formula* using a
+  differently-signed term is fine to keep as-is when it's a precise quote
+  of its own source — e.g., Class 9's Taylor rule, `r = r* + 0.5(pi - pi*)
+  - 0.5[(Y*-Y)/Y*]`, uses `(Y*-Y)/Y*` with a leading minus sign, which is
+  algebraically equivalent to (not a contradiction of) the course's
+  standard `(Y-Y*)/Y*` output gap with a leading plus sign. Keep formulas
+  like this attributed precisely to their own source, and don't relabel
+  their term as "the output gap" in a way that could read as redefining
+  the topic's primary output-gap convention.
+
 ## Running the validation checks
 
 Open the app in a browser and check the console. `src/data.js` runs schema validation

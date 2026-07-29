@@ -1,5 +1,69 @@
 # Changelog
 
+## 2026-07-29 14:30 — Formula Convention Audit
+
+### Added
+- `docs/update-notes/2026-07-29-formula-convention-audit-plan.md` and
+  `docs/update-notes/2026-07-29-formula-convention-audit-results.md`: a
+  formula-convention inventory of every active course source (`class8`,
+  `class9`, `class10`, `final_study_guide`, `problemset4`) and a full
+  audit of all 52 formula questions plus 18 non-formula formula-bearing
+  questions against those sources' exact conventions.
+- A standing "Okun's Law / output gap sign convention" note in
+  `docs/source-notes.md` documenting Class 8's `(Y-Y*)/Y* = -2(u-u*)`
+  convention as authoritative, the final study guide's algebraically
+  equivalent but differently-signed phrasing, and why Class 9's Taylor
+  rule's `(Y*-Y)/Y*` term is a separate, correctly-sourced case, not a
+  conflict.
+- A "Match the course's formula convention, not just a generic textbook
+  version" section in `docs/question-authoring-guide.md`, and a matching
+  formula-convention checklist section in `docs/qa-checklist.md`.
+
+### Changed
+- `cycles-formula-008`, `cycles-formula-009`, `cycles-formula-010`:
+  rewrote Okun's Law from `(Y*-Y)/Y* = 2(u-u*)` to Class 8's
+  `(Y-Y*)/Y* = -2(u-u*)`, matching the other seven `cycles-formula-*`
+  questions in the same topic. Numeric answers unchanged (the two forms
+  are algebraically identical); the stated formula, sign-based reasoning,
+  and every distractor's derivation were rewritten for consistency.
+  `sourceIds` updated to cite `class8` alongside their existing sources.
+
+### Fixed
+- `keynes-formula-011`: corrected a wrongExplanation that falsely claimed
+  the tax multiplier's magnitude (3) was larger than the spending
+  multiplier's (4) — it's smaller — and rewrote the garbled sentence.
+- `keynes-formula-013`: corrected a wrongExplanation's shown intermediate
+  algebra step, which evaluated to a different number than the stated
+  result even though the final answer given was correct.
+- `adas-formula-002`: replaced three vague/inexact distractor explanations
+  with independently-verified exact derivations for the `7%`, `5%`, and
+  `11%` distractors.
+
+### Notes
+- 52 formula questions audited (100% of the active formula bank); 18
+  non-formula (`standard`/`graph`/`vocab`) formula-bearing questions
+  audited alongside them — all 18 verified already correct.
+- Source formula-convention inventory covered output gap/Okun's Law,
+  Taylor rule, MPRF, Fisher equation, SRAS, PAE/consumption function,
+  income-expenditure and fiscal multipliers, net tax/deficit, and leverage
+  ratio; confirmed no active source states a money-multiplier/reserve-
+  ratio or rule-of-70/72 formula.
+- Okun's Law/output-gap convention check found and fixed one real bug: a
+  cluster of 3 questions used a different (but algebraically equivalent)
+  sign convention than the rest of their own topic — each was internally
+  self-consistent, which is exactly why this audit checked formulas
+  against their course source directly rather than only checking each
+  question's own arithmetic.
+- No question added or removed; verified/corrected in place. Final counts:
+  209 total questions, 52 formula questions, 0 `needsReview`.
+- `node scripts/validate-data.mjs` passes with no errors or warnings.
+  Playtested in a local browser session: no console errors, no Midterm
+  Review references, all study modes (Formula Practice, Vocabulary, Graph
+  Practice, Shuffle Mixed Practice, Reset Progress) confirmed working, and
+  the corrected Okun's-Law/output-gap questions confirmed grading
+  correctly after answer-choice shuffling.
+- No raw `private-materials/` files committed.
+
 ## 2026-07-27 18:30 — Final Exam Bank Quality Audit
 
 ### Added

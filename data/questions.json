@@ -3874,9 +3874,9 @@
     "correctExplanation": "Rearrange r = r* + g(pi - pi*) to solve for pi: pi = pi* + (r - r*)/g = 0.03 + (0.04 - 0.01)/0.5 = 0.03 + 0.03/0.5 = 0.03 + 0.06 = 0.09, or 9%. Because g = 0.5 means the rule only passes through half of any inflation gap into r, a 3-point rise in r (from 1% to 4%) implies inflation is 6 points above target, i.e., 9%.",
     "wrongExplanations": [
       null,
-      "7% results from dividing the change in r by g incorrectly as (r - r*) - g rather than (r - r*)/g, or from a similar arithmetic slip — the 0.03 change in r must be divided by g = 0.5 to find the implied 6-point inflation gap.",
-      "5% results from treating the change in r itself, 0.03, as the inflation gap directly (without dividing by g) and adding it to pi* — that ignores that g = 0.5 dampens the pass-through from the inflation gap to r.",
-      "11% overstates the required inflation gap, as if g were 0.3 instead of 0.5 — recompute (0.04 - 0.01)/0.5 carefully to get a 6-point gap, not an 8-point one."
+      "7% results from using r* as the starting point instead of pi* when rearranging the formula (pi = r* + (r-r*)/g = 0.01 + 0.06 = 0.07 instead of pi* + (r-r*)/g) — the formula's target inflation rate pi*, not the target real rate r*, is the correct base to add the scaled gap to.",
+      "5% results from computing pi* + g x r instead of pi* + (r-r*)/g (0.03 + 0.5(0.04) = 0.05) — this multiplies g by the real rate r itself rather than dividing the rate gap (r - r*) by g, both the wrong operation and the wrong quantity.",
+      "11% results from dividing r itself by g instead of dividing the gap (r - r*) by g (pi = pi* + r/g = 0.03 + 0.04/0.5 = 0.11) — r* must be subtracted from r before dividing by g, not left out."
     ],
     "tags": [
       "monetary policy reaction function",
@@ -6176,11 +6176,11 @@
       "Taxes should fall by $80 million"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Original Y* : autonomous spending = 500 - 0.75(400) + 700 + 600 = 500 - 300 + 700 + 600 = 1,500; Y* = 1,500/(1-0.75) = 1,500/0.25 = 6,000. After IP falls to 620: autonomous spending = 500 - 300 + 620 + 600 = 1,420; new Y = 1,420/0.25 = 5,680 — a recessionary gap of 6,000 - 5,680 = 320. The tax multiplier is -mpc/(1-mpc) = -0.75/0.25 = -3, so to raise Y by 320, solve -3 x (delta T) = 320, giving delta T = 320/(-3) = -106.67 — taxes must fall by about $106.7 million (a tax cut, since a recessionary gap requires stimulus).",
+    "correctExplanation": "Original Y* : autonomous spending = 500 - 0.75(400) + 700 + 600 = 500 - 300 + 700 + 600 = 1,500; Y* = 1,500/(1-0.75) = 1,500/0.25 = 6,000. After IP falls to 620: autonomous spending = 500 - 300 + 620 + 600 = 1,420; new Y = 1,420/0.25 = 5,680 — a recessionary gap of 6,000 - 5,680 = 320. A change in T changes disposable income by -delta T, which changes C by -mpc x delta T before the same 1/(1-mpc) multiplier applies to that change in autonomous spending — combining the two steps gives the tax multiplier -mpc/(1-mpc) = -0.75/0.25 = -3. So to raise Y by 320, solve -3 x (delta T) = 320, giving delta T = 320/(-3) = -106.67 — taxes must fall by about $106.7 million (a tax cut, since a recessionary gap requires stimulus).",
     "wrongExplanations": [
       null,
       "A recessionary gap requires an expansionary fiscal response (a tax *cut*, which raises after-tax income and spending), not a tax increase, which would only widen the gap further.",
-      "$320 million confuses the output gap itself with the required tax change — the tax multiplier (-3) is larger in magnitude than the spending multiplier (4) is different from the output gap value, so the change in T needed is 320/3, not 320 itself.",
+      "$320 million confuses the output gap itself with the required tax change — the tax multiplier's magnitude (3) is smaller than the spending multiplier's magnitude (4), so closing a 320 output gap through taxes requires a larger dollar change in T than the 320 gap itself: delta T = 320/3 = 106.7, not 320.",
       "$80 million is the size of the original investment shock, not the tax change needed to offset its effect on output through the (different, smaller-magnitude) tax multiplier."
     ],
     "tags": [
@@ -6246,7 +6246,7 @@
     "wrongExplanations": [
       null,
       "6.08% has the correct magnitude but the wrong sign — solving 8,000 - 2,035 - 5,600 = 365 = -6000r requires r to be negative, not positive, since -6000r must equal a positive 365.",
-      "-0.83% results from forgetting to net out taxes when computing autonomous spending (using 950 + 800 + 600 = 2,350 instead of 950 - 0.7(450) + 800 + 600 = 2,035): solving 2,350 - 5,600 = -6000r gives r = -50/6000 = -0.0083, or about -0.83% — recheck that consumption applies to after-tax income (Y - T), which requires subtracting 0.7(450) = 315 from the constant.",
+      "-0.83% results from forgetting to net out taxes when computing autonomous spending (using 950 + 800 + 600 = 2,350 instead of 950 - 0.7(450) + 800 + 600 = 2,035): setting 8,000 = 2,350 - 6000r + 0.7(8,000) = 7,950 - 6000r gives 8,000 - 7,950 = 50 = -6000r, so r = -50/6000 = -0.0083, or about -0.83% — recheck that consumption applies to after-tax income (Y - T), which requires subtracting 0.7(450) = 315 from the constant.",
       "0.00% would only be correct if autonomous spending alone (without any interest-rate adjustment) already equaled Y* exactly — here 2,035 + 0.7(8,000) = 7,635, which is short of 8,000, so a real rate of exactly 0% would not close the gap."
     ],
     "tags": [
@@ -6454,13 +6454,13 @@
     "subtopic": "Okun's Law: Direct Calculation",
     "difficulty": "medium",
     "sourceIds": [
-      "problemset4",
-      "final_study_guide"
+      "class8",
+      "problemset4"
     ],
-    "sourceLabel": "Problem Set 4 and the final exam study guide",
+    "sourceLabel": "Class 8 slides and Problem Set 4",
     "needsReview": false,
     "questionType": "formula",
-    "question": "Using Okun's Law, (Y* - Y)/Y* = 2(u - u*), the economy of Thistledown has potential output Y* = 12,000, an actual unemployment rate u of 7%, and a natural rate of unemployment u* of 5%. What is actual real GDP, Y?",
+    "question": "Using Okun's Law, (Y - Y*)/Y* = -2(u - u*), the economy of Thistledown has potential output Y* = 12,000, an actual unemployment rate u of 7%, and a natural rate of unemployment u* of 5%. What is actual real GDP, Y?",
     "choices": [
       "11,520",
       "12,480",
@@ -6468,12 +6468,12 @@
       "11,760"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Okun's Law: (Y* - Y)/Y* = 2(u - u*) = 2(0.07 - 0.05) = 2(0.02) = 0.04. So Y* - Y = 0.04 x 12,000 = 480, giving Y = 12,000 - 480 = 11,520.",
+    "correctExplanation": "Okun's Law: (Y - Y*)/Y* = -2(u - u*) = -2(0.07 - 0.05) = -2(0.02) = -0.04, a -4% (recessionary) output gap — consistent with actual unemployment (7%) exceeding the natural rate (5%). So Y - Y* = -0.04 x 12,000 = -480, giving Y = 12,000 - 480 = 11,520.",
     "wrongExplanations": [
       null,
-      "12,480 adds the gap instead of subtracting it — since actual unemployment (7%) exceeds the natural rate (5%), the economy has a recessionary gap, meaning Y must be *below* Y* (12,000 - 480), not above it.",
-      "10,800 results from forgetting the factor of 2 in Okun's Law and instead using a coefficient of 5 or a similar overstated multiplier — recheck (Y*-Y)/Y* = 2(u-u*), not some larger coefficient.",
-      "11,760 results from omitting the factor of 2 entirely (using (u - u*) = 0.02 directly as the fractional gap) — Okun's Law scales the unemployment gap by a factor of 2, not 1."
+      "12,480 drops Okun's Law's negative sign, computing (Y-Y*)/Y* = +2(u-u*) = +0.04 instead of -2(u-u*) = -0.04 — since actual unemployment (7%) exceeds the natural rate (5%), the output gap must be negative (recessionary), meaning Y is below Y* (12,000 - 480), not above it.",
+      "10,800 results from using a coefficient of -5 instead of Okun's Law's -2: (Y-Y*)/Y* = -5(0.02) = -0.10, giving Y - Y* = -1,200 and Y = 12,000 - 1,200 = 10,800 — recheck that Okun's Law's coefficient in this course is -2, not -5.",
+      "11,760 results from omitting the factor of 2 entirely, using (Y-Y*)/Y* = -(u-u*) = -0.02 instead of -2(u-u*) = -0.04 — Okun's Law scales the unemployment gap by a factor of 2, not 1."
     ],
     "tags": [
       "Okun's Law",
@@ -6487,13 +6487,13 @@
     "subtopic": "Okun's Law: Reverse Calculation for the Unemployment Rate",
     "difficulty": "hard",
     "sourceIds": [
-      "problemset4",
-      "final_study_guide"
+      "class8",
+      "problemset4"
     ],
-    "sourceLabel": "Problem Set 4 and the final exam study guide",
+    "sourceLabel": "Class 8 slides and Problem Set 4",
     "needsReview": false,
     "questionType": "formula",
-    "question": "The economy of Pemberly has potential output Y* = 9,000 and actual output Y = 8,730. The natural rate of unemployment is 4.5%. Using Okun's Law, (Y* - Y)/Y* = 2(u - u*), what is the actual unemployment rate u?",
+    "question": "The economy of Pemberly has potential output Y* = 9,000 and actual output Y = 8,730. The natural rate of unemployment is 4.5%. Using Okun's Law, (Y - Y*)/Y* = -2(u - u*), what is the actual unemployment rate u?",
     "choices": [
       "6.0%",
       "7.5%",
@@ -6501,11 +6501,11 @@
       "4.5%"
     ],
     "answerIndex": 0,
-    "correctExplanation": "First find the output gap fraction: (Y* - Y)/Y* = (9,000 - 8,730)/9,000 = 270/9,000 = 0.03. By Okun's Law, 0.03 = 2(u - 0.045), so (u - 0.045) = 0.015, giving u = 0.045 + 0.015 = 0.06, or 6.0%.",
+    "correctExplanation": "First find the output gap: (Y - Y*)/Y* = (8,730 - 9,000)/9,000 = -270/9,000 = -0.03, a -3% (recessionary) output gap. By Okun's Law, -0.03 = -2(u - 0.045), so (u - 0.045) = 0.015, giving u = 0.045 + 0.015 = 0.06, or 6.0%.",
     "wrongExplanations": [
       null,
-      "7.5% results from forgetting to divide the output-gap fraction by 2 before adding it to the natural rate (using the full 0.03 instead of 0.015) — recheck that Okun's Law's coefficient of 2 must be divided out, not left in.",
-      "3.0% is the output-gap fraction itself (0.03), not the actual unemployment rate — this stops the calculation one step early.",
+      "7.5% results from forgetting to divide the output-gap magnitude by Okun's Law's coefficient of 2 before adding it to the natural rate (using the full 0.03 instead of 0.015: u = 0.045 + 0.03 = 0.075) — recheck that Okun's Law's coefficient of 2 must be divided out, not left in.",
+      "3.0% is the magnitude of the output-gap fraction itself (|-0.03| x 100), not the actual unemployment rate — this stops the calculation one step early.",
       "4.5% is the natural rate of unemployment given in the problem, not the actual (higher) unemployment rate implied by the recessionary output gap."
     ],
     "tags": [
@@ -6520,24 +6520,25 @@
     "subtopic": "Okun's Law: Common-Error Diagnosis",
     "difficulty": "hard",
     "sourceIds": [
+      "class8",
       "final_study_guide"
     ],
-    "sourceLabel": "The final exam study guide",
+    "sourceLabel": "Class 8 slides and the final exam study guide",
     "needsReview": false,
     "questionType": "formula",
-    "question": "A student is asked to find Y given Okun's Law, (Y* - Y)/Y* = 2(u - u*), with Y* = 5,000, u = 8%, and u* = 6%. The student writes: \"(5,000 - Y)/5,000 = 0.08 - 0.06 = 0.02, so Y = 5,000 - 100 = 4,900.\" What specifically is wrong with this calculation?",
+    "question": "A student is asked to find Y given Okun's Law, (Y - Y*)/Y* = -2(u - u*), with Y* = 5,000, u = 8%, and u* = 6%. The student writes: \"(Y - 5,000)/5,000 = -(0.08 - 0.06) = -0.02, so Y = 5,000 - 100 = 4,900.\" What specifically is wrong with this calculation?",
     "choices": [
-      "The student left out Okun's Law's factor of 2, which should double the unemployment gap; the correct calculation gives (5,000-Y)/5,000 = 2(0.02) = 0.04, so Y = 5,000 - 200 = 4,800",
+      "The student left out Okun's Law's factor of 2, which should double the unemployment gap; the correct calculation gives (Y-5,000)/5,000 = -2(0.02) = -0.04, so Y = 5,000 - 200 = 4,800",
       "The student should have added the unemployment gap to Y* instead of subtracting it, giving Y = 5,100",
       "The student used the wrong natural rate; it should have been subtracted from 8% differently",
       "Nothing is wrong; Y = 4,900 is the correct answer"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Okun's Law states the output-gap fraction equals *twice* the unemployment gap: (Y*-Y)/Y* = 2(u - u*). The student computed the unemployment gap correctly (0.08 - 0.06 = 0.02) but forgot to multiply it by 2, using 0.02 as the output-gap fraction directly instead of 0.04. The correct answer is (5,000-Y)/5,000 = 2(0.02) = 0.04, so Y* - Y = 0.04(5,000) = 200, giving Y = 5,000 - 200 = 4,800.",
+    "correctExplanation": "Okun's Law states the output gap equals -2 times the unemployment gap: (Y-Y*)/Y* = -2(u - u*). The student computed the unemployment gap correctly (0.08 - 0.06 = 0.02) and correctly signed the result negative (u > u* means a recessionary, negative output gap), but forgot to multiply by 2, using a coefficient of -1 instead of -2. The correct calculation is (Y-5,000)/5,000 = -2(0.02) = -0.04, so Y - Y* = -0.04(5,000) = -200, giving Y = 5,000 - 200 = 4,800.",
     "wrongExplanations": [
       null,
-      "Since actual unemployment (8%) exceeds the natural rate (6%), the economy has a recessionary gap, meaning Y must be below Y* — subtracting the gap (as the student did) is the correct direction; the error is in the missing factor of 2, not the subtraction itself.",
-      "The unemployment gap (u - u*) = 0.08 - 0.06 = 0.02 was computed correctly by the student; the error is that this figure needed to be doubled per Okun's Law's own coefficient, not recomputed differently.",
+      "Since actual unemployment (8%) exceeds the natural rate (6%), the economy has a recessionary gap, meaning Y must be below Y* — subtracting the gap (as the student did) is the correct direction; the error is the missing factor of 2, not the subtraction itself.",
+      "The unemployment gap (u - u*) = 0.08 - 0.06 = 0.02 was computed correctly by the student; the error is that Okun's Law requires this figure to be doubled (multiplied by 2), not recomputed using a different natural rate.",
       "4,900 is incorrect because it's missing Okun's Law's factor of 2 — the correct answer, after properly doubling the unemployment gap, is 4,800, not 4,900."
     ],
     "tags": [
