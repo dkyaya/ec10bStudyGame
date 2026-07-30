@@ -56,7 +56,7 @@ details of this batch (and the 2026-07-27 notes for the batch before it).
   supports a different number).
 - Every question includes an explanation for the correct answer **and** a specific
   explanation for each incorrect choice — no generic "this is wrong" text.
-- Questions are organized by topic (currently 6 topics — see "Current status"
+- Questions are organized by topic (currently 11 topics — see "Current status"
   above).
 - A **Vocabulary / Definitions** study mode pulls every question tagged
   `"questionType": "vocab"` across the whole bank into a shuffled,
@@ -207,6 +207,17 @@ node scripts/validate-data.mjs
 It's a dependency-free Node script that checks `data/questions.json` /
 `data/topics.json` / `data/sources.json` for schema issues, bad references, duplicate
 IDs, and near-duplicate question text, and exits non-zero if anything's wrong.
+
+When adding or revising answer choices, also run the giveaway-prioritization
+scan:
+
+```bash
+node scripts/audit-answer-choices.mjs
+```
+
+It flags length, clause, technical-vocabulary, and structural asymmetries for
+manual review. Its findings are heuristics rather than pass/fail errors, so
+sound false positives should be documented and left unchanged.
 
 See **`docs/qa-checklist.md`** for the full manual playtest checklist (key flows to
 click through, how to clear `localStorage` for a clean test, mobile-width checks, and

@@ -79,6 +79,61 @@
   on `data/questions.json`, `data/sources.json`, and `data/topics.json`
   shows pure additions (0 deletions).
 
+## 2026-07-30 13:48 — Full Bank Answer-Choice Quality Audit
+
+### Added
+- `scripts/audit-answer-choices.mjs`, a dependency-free, reason-tagged
+  giveaway scan covering correct-choice length, length margin, unusually
+  short distractors, clause/punctuation imbalance, isolated technical
+  vocabulary, and structural mismatches.
+- `docs/update-notes/2026-07-30-full-bank-answer-choice-quality-audit-plan.md`
+  and `-results.md`, documenting scope, baseline flags, manual decisions,
+  changed IDs, false positives, final counts, validation, and QA.
+
+### Changed
+- Audited all 250 active questions and manually reviewed all 171 questions
+  flagged by the baseline automated scan, plus all 79 unflagged questions
+  during the full topic-by-topic pass.
+- Rebalanced answer choices on 123 questions: 61 standard, 34 vocab, 19
+  graph, and 9 formula. Changes focused on comparable choice length,
+  plausible nearby misconceptions, parallel causal/calculation/graph
+  structure, reading-distractor proximity, and exactly-one-answer clarity.
+- Strengthened the durable authoring and QA guidance with the documented
+  scanner command, mandatory manual flag adjudication, full-bank sampling,
+  and examples distinguishing real giveaways from word-count false
+  positives.
+- Corrected README's stale “currently 6 topics” line to the active 11-topic
+  count and documented the answer-choice scan beside data validation.
+
+### Fixed
+- Reduced the scanner's large correct-answer length-margin flags from 144
+  to 32 and very-short-distractor flags from 115 to 3 without padding sound
+  questions or forcing the residual heuristic count to zero.
+- Fixed `infldyn-graph-001`'s correct explanation: a tighter, more aggressive
+  monetary-policy reaction rule sets a higher real rate at a given relevant
+  inflation rate, shifting AD left; the prior explanation incorrectly said
+  the rule set a lower rate.
+- Recomputed all 9 changed formula questions and their displayed
+  wrong-method values; all assertions passed. Rechecked all changed graph
+  choices and parsed all 17 inline SVG diagrams successfully.
+
+### Notes
+- Final bank remains 250 questions across 11 topics and 11 sources: 105
+  standard, 58 vocab, 58 formula, and 29 graph (17 inline diagrams), with
+  difficulty unchanged at 38 easy / 127 medium / 85 hard.
+- `node scripts/validate-data.mjs` passes with 0 errors and 0 warnings.
+  JavaScript syntax, static HTTP delivery, mode/filter counts, the
+  `econ10bStudyGame:v1` storage/reset path, and 10,000 shuffled
+  answer/explanation mappings also passed scripted QA.
+- `needsReview` remains 0. All 250 IDs were preserved; no questions, topics,
+  or sources were added or removed.
+- The live browser-control runtime exposed no browser instance, so visual
+  click-through and console inspection could not be executed; this is
+  explicitly recorded in the results note rather than overstated.
+- Midterm Review remains permanently removed. No backend or build step was
+  added, GitHub Pages compatibility remains intact, and no raw
+  `private-materials/` content is included.
+
 ## 2026-07-29 14:30 — Formula Convention Audit
 
 ### Added

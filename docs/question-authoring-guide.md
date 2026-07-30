@@ -438,6 +438,22 @@ these giveaway patterns, not just its explanations:**
   other three choices' average, that's a strong signal to rewrite before
   finalizing, not just polish the explanation text.
 
+Run the repository's giveaway scanner before finalizing a batch:
+
+```bash
+node scripts/audit-answer-choices.mjs
+```
+
+It also checks clause/punctuation density, technical-vocabulary isolation,
+short distractors, and structural mismatches. A flag is a manual-review
+prompt, not an instruction to pad or rewrite a sound choice. For example,
+`"The dollar appreciates"` can legitimately be one word longer than
+`"The dollar depreciates"`; rewriting either merely to equalize the count
+would make the set worse. By contrast, a causal-chain answer such as
+`"Rates rise, investment falls, and output contracts"` should not sit next
+to fragments like `"Inflation"` or `"No change"`; better distractors trace
+parallel chains with a wrong direction or wrong intermediate mechanism.
+
 When writing calculation questions based on a discussion-section or problem-set
 solution, **don't reuse the exact numbers from the answer key.** Build a new scenario
 that tests the identical skill (e.g., the same formula or the same kind of GDP

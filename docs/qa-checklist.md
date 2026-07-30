@@ -21,6 +21,16 @@ Run the dependency-free validation script before committing any change to
 node scripts/validate-data.mjs
 ```
 
+For any question-bank addition or answer-choice revision, also run the
+dependency-free giveaway scan:
+
+```bash
+node scripts/audit-answer-choices.mjs
+```
+
+Use its reason-tagged flags to prioritize manual review; do not treat them
+as validation failures or automatically rewrite every flagged question.
+
 It checks: JSON parses, every question has all required fields, `answerIndex` is in
 range, `choices`/`wrongExplanations` lengths match, the correct choice's
 `wrongExplanations` entry is `null` and every incorrect choice has a non-empty one,
@@ -293,6 +303,11 @@ guessable-by-length pattern the user had flagged from earlier batches.
   roughly 25-30% above the other three choices' average, rewrite before
   finalizing — either trim the correct answer or add the missing detail to
   the distractors so they read with comparable weight.
+- **Run `node scripts/audit-answer-choices.mjs` and manually adjudicate its
+  flags.** Record the raw flag count, the number reviewed, the number
+  actually changed, and examples of false positives. A tied longest choice,
+  a one-word difference between technical labels, or punctuation required
+  by all otherwise-parallel calculations is not by itself a defect.
 - **Check that the correct answer isn't the only choice with a complete
   causal chain, a full explanation, or a qualifying clause** while the
   distractors are short fragments. If the question asks for a causal chain,
@@ -311,6 +326,11 @@ guessable-by-length pattern the user had flagged from earlier batches.
   three noun phrases.
 - **Confirm hard questions are hard because of the reasoning required, not
   because of confusing wording or transparently weak distractors.**
+- **For a full-bank audit, review every flagged item and an unflagged sample
+  spanning every topic and every question type.** Re-run the scanner after
+  edits to confirm that high-margin and very-short-distractor signals fell;
+  a nonzero residual flag count is expected and should be documented rather
+  than mechanically forced to zero.
 - See `docs/question-authoring-guide.md`'s "Balance answer-choice
   plausibility and length" section for the full rule and rationale.
 
@@ -358,12 +378,14 @@ this class of bug.
 
 Run these when reviewing or extending the 2026-07-27 final-exam batch (104
 new questions added to the 105-question post-midterm bank, bringing the
-total to 209 across 9 topics and 10 sources):
+total at that point to 209 across 9 topics and 10 sources; the subsequent
+Class 11 add-on brought the active bank to 250 across 11 topics and 11
+sources):
 
-- **No stale pre-midterm topic/source IDs are active**: confirm
-  `data/topics.json` and `data/sources.json` contain only the 9 active
-  topics and 10 active sources listed in
-  `docs/update-notes/2026-07-27-final-exam-bank-plan.md` — none of the old
+- **No stale pre-midterm topic/source IDs are active**: confirm the current
+  11 topics and 11 sources are the 9/10 listed in the 2026-07-27 plan plus
+  the two Class 11 topics and `class11` source documented in the 2026-07-30
+  final-lecture add-on — none of the old
   pre-midterm materials (`HarvardS10b_Class1-6_7.pptx`, the DS/problem-set/
   quiz solutions, `MidtermStudyMaterials_Summer2026.doc`, or the ECB guest
   lecture) should appear as a `sourceIds` reference anywhere.

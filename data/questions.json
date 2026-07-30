@@ -12,10 +12,10 @@
     "questionType": "vocab",
     "question": "A retiree who is not working and is not looking for work is best classified as:",
     "choices": [
-      "Unemployed, since they don't currently have a job",
-      "Out of the labor force, since they are neither employed nor actively seeking work",
-      "Employed, since they are of working age",
-      "Part of the labor force but not the working-age population"
+      "Unemployed because not having a job is sufficient, even without active search",
+      "Out of the labor force because they are neither working nor actively seeking work",
+      "Employed because retirement still counts as employment for anyone of working age",
+      "In the labor force but outside the working-age population because they are retired"
     ],
     "answerIndex": 1,
     "correctExplanation": "Class 8 defines the labor force as employed plus unemployed people; someone with no job who is not searching for one is counted as out of the labor force, not as unemployed. The unemployment rate only counts people actively without work who are part of the labor force.",
@@ -75,10 +75,10 @@
     "questionType": "vocab",
     "question": "A software developer quits a job on good terms and spends three weeks interviewing before accepting a new offer at a different company. Which type of unemployment does this illustrate, and why not the alternative that also involves 'not currently working'?",
     "choices": [
-      "Frictional, because it's a short, voluntary gap while matching to a new job, not a long-term mismatch between skills and market needs",
-      "Structural, because a change in employer counts as a structural shift in the economy",
-      "Cyclical, because it happens during a normal search process rather than an economic downturn",
-      "None of these — voluntarily quitting a job never counts as any form of measured unemployment"
+      "Frictional, because this is a brief job-matching spell rather than a persistent skills mismatch",
+      "Structural, because changing employers reveals that the worker's skills no longer match available jobs",
+      "Cyclical, because ordinary job search is counted as part of business-cycle unemployment",
+      "None, because a worker who quits voluntarily cannot be counted as unemployed while searching"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines frictional unemployment as short-duration unemployment that occurs when workers are between jobs — exactly this case. Structural unemployment instead requires a longer-term mismatch (skills, language barriers, discrimination, or barriers like minimum wages/unions), which a three-week job-to-job transition doesn't involve.",
@@ -140,9 +140,9 @@
     "question": "A worker has been continuously unemployed and searching for a job for eight months. According to Class 8's definitions, this worker is:",
     "choices": [
       "Not unemployed, since eight months is too long to still be actively searching",
-      "Long-term unemployed, since they have been out of work for six months or longer",
-      "Frictionally unemployed, since duration doesn't affect the classification",
-      "Underemployed, a separate BLS category from unemployment"
+      "Long-term unemployed because the spell has lasted at least six months",
+      "Frictionally unemployed because any active job search is frictional regardless of its duration",
+      "Underemployed because searching longer than six months changes the BLS category from unemployment"
     ],
     "answerIndex": 1,
     "correctExplanation": "Class 8 defines the long-term unemployed as those who have been out of work for six months (roughly 26 weeks) or longer. Eight months clears that threshold, so this worker is long-term unemployed — and, per the slides, the costs of unemployment rise directly with how long the spell lasts.",
@@ -171,10 +171,10 @@
     "questionType": "vocab",
     "question": "An unemployed worker's family reports heightened stress and anxiety over the household's financial uncertainty. Class 8 categorizes this specific effect as a:",
     "choices": [
-      "Economic cost, since it's ultimately about the household's finances",
-      "Psychological cost, since it concerns emotional strain and self-esteem/family stress rather than lost output or wages directly",
-      "Social cost, since it's a cost borne by society at large rather than the individual",
-      "Not a cost at all, since no wages were literally lost"
+      "Economic cost because financial uncertainty is measured as lost household income and output",
+      "Psychological cost because the stated effect is emotional and family stress rather than lost output",
+      "Social cost because family anxiety is borne broadly by society rather than by the affected household",
+      "Not a measured cost because stress without an additional wage loss has no economic consequence"
     ],
     "answerIndex": 1,
     "correctExplanation": "Class 8 lists 'family stress of decreased income and increased uncertainty' explicitly under psychological costs, distinct from economic costs (lost wages/production, decreased taxes/increased transfers) and social costs (potential increases in crime and social problems, and the resources spent to address them).",
@@ -203,10 +203,10 @@
     "needsReview": false,
     "question": "A recent college graduate has sent out dozens of applications over the past two months but hasn't found a job yet. Her roommate, discouraged after a year of fruitless searching, stopped applying last month and now spends his days at home. Under the BLS framework in Class 8, how are the two of them classified?",
     "choices": [
-      "The graduate is unemployed (actively searching, no job); the roommate is out of the labor force (no longer searching)",
-      "Both are unemployed, since neither currently has a job",
-      "The graduate is employed part-time; the roommate is unemployed",
-      "Both are out of the labor force, since neither is currently earning income"
+      "The graduate is unemployed because she is searching; the roommate is out of the labor force because he stopped searching",
+      "Both are unemployed because neither has a job, regardless of whether each is still searching",
+      "The graduate is employed because job applications count as work; the roommate is unemployed because he searched last year",
+      "Both are out of the labor force because neither currently earns income from a job"
     ],
     "answerIndex": 0,
     "correctExplanation": "The BLS definitions in Class 8 require active job search to count as unemployed. The graduate is actively applying, so she's unemployed; her roommate has stopped searching altogether, which removes him from the labor force entirely (he's neither employed nor unemployed in the statistical sense).",
@@ -235,10 +235,10 @@
     "needsReview": false,
     "question": "Class 8 describes frictional unemployment as generally having a low economic cost compared to cyclical or structural unemployment. What is the main reason for this?",
     "choices": [
-      "Frictional unemployment is typically short in duration, so workers spend little time without income or output before finding a new match",
-      "Frictional unemployment never appears in the official unemployment rate",
+      "Frictional unemployment is usually brief, limiting the lost income and output before a worker finds a new match",
+      "Frictional unemployment is excluded from the official unemployment rate because it is voluntary and temporary",
       "Frictionally unemployed workers are ineligible for unemployment insurance, which reduces the cost to the government",
-      "Frictional unemployment only affects workers who don't want to work anyway"
+      "Frictional unemployment affects people outside the labor force, so no current production is lost"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 explicitly notes frictional unemployment is 'short duration, low economic cost' — the cost of unemployment scales with how long a person is out of work, and frictional spells (routine job-to-job matching) are brief by nature, unlike the longer spells typical of cyclical downturns or structural mismatches.",
@@ -266,10 +266,10 @@
     "needsReview": false,
     "question": "Class 8 presents a minimum wage set above the market equilibrium wage as an example of structural unemployment. Which group specifically ends up unemployed as a result?",
     "choices": [
-      "Workers who would have been willing to work at the equilibrium wage but are not hired at the higher minimum wage, because quantity of labor demanded falls short of quantity supplied at that wage",
-      "Workers who are hired at the minimum wage, since they now earn more than the market wage",
-      "All workers in the economy, since the minimum wage applies uniformly",
-      "Only workers who were previously unemployed for frictional reasons"
+      "Workers willing to work at the minimum wage who cannot find jobs because labor supplied exceeds labor demanded",
+      "Workers hired at the minimum wage who now earn more than the market-clearing wage",
+      "Workers who leave the labor force because the higher legal wage makes work less attractive",
+      "Workers between otherwise suitable jobs whose search happens to coincide with the new minimum wage"
     ],
     "answerIndex": 0,
     "correctExplanation": "Setting a wage floor above equilibrium creates a gap between the (higher) quantity of labor supplied and the (lower) quantity of labor demanded at that wage. The workers who get the minimum-wage jobs earn more, but the difference between how many people want jobs at that wage and how many firms are willing to hire becomes unemployment (Class 8's slide 16 labels this gap 'NB - NA').",
@@ -297,10 +297,10 @@
     "needsReview": false,
     "question": "A city experiences a wave of layoffs. Analysts note: (1) the city's tax revenue falls while spending on unemployment benefits rises, and (2) local crime rates tick upward as some residents struggle financially. Which pairing correctly matches each observation to its cost category from Class 8?",
     "choices": [
-      "(1) is an economic cost (decreased taxes and increased transfers); (2) is a social cost (increases in crime and the resources spent to address it)",
-      "(1) is a social cost; (2) is a psychological cost",
-      "Both (1) and (2) are economic costs, since they both ultimately involve money",
-      "(1) is a psychological cost; (2) is an economic cost"
+      "(1) is an economic cost from lower taxes and higher transfers; (2) is a social cost from crime and enforcement resources",
+      "(1) is a social cost from public-budget strain; (2) is a psychological cost from insecurity",
+      "Both are economic costs because each can ultimately be assigned a dollar value",
+      "(1) is a psychological cost from fiscal stress; (2) is an economic cost from property losses"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 explicitly lists 'decreased taxes and increased transfers' under economic costs, and 'potential increases in crimes and social problems' (plus the resources spent addressing them) under social costs. The two observations map directly onto these two distinct categories, alongside the separate psychological-cost category (self-esteem, family stress) that neither observation describes.",
@@ -328,7 +328,7 @@
     "needsReview": false,
     "question": "Two workers lose their jobs on the same day. Worker A finds a new job after three weeks. Worker B is still searching after nine months, having exhausted savings and grown increasingly discouraged. According to Class 8's treatment of unemployment duration, which statement best describes the relationship between their situations and the overall cost of unemployment?",
     "choices": [
-      "Worker B's unemployment is more costly precisely because of its length — costs are directly related to the duration of an unemployment spell, and Worker B has crossed into long-term (six-months-plus) unemployment",
+      "Worker B's nine-month spell is more costly because unemployment costs rise with duration and the spell qualifies as long-term",
       "Both workers impose the same cost on the economy, since the unemployment rate simply counts each of them once regardless of duration",
       "Worker A's unemployment is more costly, since frictional unemployment is measured more precisely than long-term unemployment",
       "Neither worker's situation is more costly than the other, since cost is determined only by whether a person is employed or not, not for how long"
@@ -359,10 +359,10 @@
     "needsReview": false,
     "question": "Class 8 lists minimum wages, unions, unemployment insurance, and other hiring/firing regulations together as examples of the same underlying category. What do they have in common?",
     "choices": [
-      "Each can act as a barrier to employment that contributes to structural unemployment, by keeping wages or hiring costs away from the level that would clear the labor market",
-      "Each one eliminates frictional unemployment by speeding up job matching",
-      "Each is a form of cyclical policy used only during recessions",
-      "Each directly causes an increase in the natural rate of unemployment to zero"
+      "Each can impede labor-market clearing and thereby contribute to structural unemployment",
+      "Each can reduce frictional unemployment by giving workers more information and speeding job matching",
+      "Each is a countercyclical policy that creates temporary unemployment only during recessions",
+      "Each lowers the natural unemployment rate by guaranteeing that every willing worker is hired"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 groups these under 'barriers to employment' within its discussion of structural unemployment: all can push wages, hiring, or firing away from where market forces alone would place them, producing longer-term mismatches between available workers and available jobs — precisely how structural unemployment is defined.",
@@ -455,8 +455,8 @@
     "questionType": "formula",
     "question": "A student is told that a country has 18.0 million employed people, 2.0 million unemployed people, and a working-age population (16+) of 30.0 million. The student computes the unemployment rate as 2.0 / 30.0 = 6.67%. What is wrong with this calculation, and what is the correct rate?",
     "choices": [
-      "The student divided by the working-age population instead of the labor force (employed + unemployed = 20.0 million); the correct unemployment rate is 2.0 / 20.0 = 10%",
-      "The student's calculation is correct — 6.67% is the unemployment rate",
+      "The denominator should be the 20.0-million labor force, not working-age population; 2.0 / 20.0 = 10%",
+      "The working-age population is the correct denominator, so 2.0 / 30.0 = 6.67%",
       "The student should have divided by employed (18.0 million) instead, giving 11.1%, since unemployment is measured relative to those who do have jobs",
       "The student needed to first subtract the unemployed from the population before dividing, giving a rate of 2.0 / 28.0 = 7.1%"
     ],
@@ -487,10 +487,10 @@
     "questionType": "graph",
     "question": "In the labor-market diagram shown, the minimum wage Wmin is set above the market-clearing wage. At Wmin, the quantity of labor supplied is NB and the quantity of labor demanded is NA. What does the gap between NA and NB represent?",
     "choices": [
-      "Structural unemployment: the number of people willing to work at Wmin who cannot find a job because firms only want to hire up to NA",
-      "Frictional unemployment, since it reflects normal turnover between jobs",
-      "The number of workers who voluntarily choose not to work at Wmin",
-      "Excess labor demand, since firms want to hire more workers than are available"
+      "Structural unemployment: workers willing to work at Wmin who exceed the number firms demand at that wage",
+      "Frictional unemployment: workers temporarily searching because firms are hiring at different times",
+      "Labor-force withdrawal: workers who voluntarily refuse the higher wage Wmin",
+      "Excess labor demand: firms want more workers at Wmin than households are willing to supply"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's minimum-wage diagram shows that setting Wmin above equilibrium creates a surplus of labor: quantity supplied (NB) exceeds quantity demanded (NA) at that wage. The workers who want jobs at Wmin but can't get one — the gap NB minus NA — are unemployed as a direct, structural consequence of the wage floor, not because of normal job search or a personal choice not to work.",
@@ -588,10 +588,10 @@
     "questionType": "vocab",
     "question": "The natural rate of unemployment, u*, is best defined as:",
     "choices": [
-      "The sum of frictional and structural unemployment — the unemployment rate that remains when cyclical unemployment is zero",
-      "The unemployment rate the government targets by law",
-      "The unemployment rate that occurs only during recessions",
-      "The sum of cyclical and structural unemployment"
+      "Frictional plus structural unemployment—the unemployment rate remaining when cyclical unemployment is zero",
+      "The unemployment rate selected as a legally binding target by the government",
+      "The cyclical unemployment rate observed when the economy enters a recession",
+      "Cyclical plus structural unemployment, excluding normal job-search unemployment"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines u* as the sum of frictional and structural unemployment, equivalently the unemployment rate observed when cyclical unemployment is zero (i.e., when actual output equals potential output, Y = Y*).",
@@ -745,10 +745,10 @@
     "needsReview": false,
     "question": "A classmate argues: 'If firms could instantly and costlessly change their prices the moment demand shifted, then an increase in spending would just show up as higher prices right away, with no lasting effect on output.' Does this argument match Class 8's own reasoning about output gaps?",
     "choices": [
-      "Yes — Class 8 explicitly argues that if prices adjusted quickly, output gaps would not exist; it's precisely because firms adjust prices only periodically that a change in spending can move actual output rather than just prices",
-      "No — Class 8 argues output gaps exist even with instantly adjusting prices, because of the multiplier effect",
-      "No — Class 8 argues that firms always want to keep output exactly at potential regardless of price flexibility",
-      "Yes, but only because the natural rate of unemployment would fall to zero if prices were flexible"
+      "Yes—sticky prices let spending changes move actual output; with immediate price adjustment, output gaps would not persist",
+      "No—the multiplier creates output gaps even when every firm adjusts its price immediately",
+      "No—firms keep output at potential regardless of price flexibility, so sticky prices are irrelevant",
+      "Yes—but only because fully flexible prices would reduce the natural unemployment rate to zero"
     ],
     "answerIndex": 0,
     "correctExplanation": "This matches Class 8's own logic directly: 'If prices adjust quickly, output gaps would not exist. Yet, in the short run firms adjust prices only periodically (sticky prices). Thus, increasing spending can lead to higher output.' Sticky prices are exactly why demand shocks show up as changes in output in the short run rather than being absorbed entirely by prices.",
@@ -776,7 +776,7 @@
     "needsReview": false,
     "question": "Economy X has actual output of $9,800 billion against potential output of $10,000 billion. Economy Y has actual output of $10,300 billion against potential output of $10,000 billion. Which economy has the larger-magnitude output gap, and which is more likely to be facing rising inflationary pressure?",
     "choices": [
-      "X has a -2% (recessionary) gap and Y has a +3% (expansionary) gap; Y's larger, positive gap is more likely to bring rising inflationary pressure",
+      "X has a -2% gap and Y a +3% gap; Y's larger expansionary gap brings greater inflationary pressure",
       "X and Y have output gaps of the same magnitude, so neither is more likely to face inflationary pressure",
       "X has the larger-magnitude gap and, being a recessionary gap, faces the greater inflationary pressure",
       "Y's gap is recessionary because its actual output is the largest of the two, so it faces no inflationary pressure"
@@ -969,10 +969,10 @@
     "questionType": "formula",
     "question": "In Okun's Law (output gap = -2 x (u - u*)), what does the coefficient -2 tell you about the relationship between cyclical unemployment and the output gap?",
     "choices": [
-      "Each additional percentage point that u rises above u* is associated with roughly a 2-percentage-point larger (more negative) output gap",
-      "The output gap can never be more than 2 percentage points in either direction",
-      "Unemployment rises twice as fast as the output gap widens",
-      "u* is always exactly twice as large as u"
+      "Each percentage point that u rises above u* is associated with a roughly 2-point more negative output gap",
+      "The output gap is capped at 2 percentage points whenever unemployment exceeds its natural rate",
+      "The unemployment gap rises by 2 points for every 1-point decline in the output gap",
+      "The natural unemployment rate u* must equal twice the observed unemployment rate u"
     ],
     "answerIndex": 0,
     "correctExplanation": "The -2 coefficient is the rate at which cyclical unemployment (u - u*) translates into the output gap: every one-point increase in u relative to u* corresponds to roughly a 2-percentage-point larger negative (recessionary) output gap. It's a scaling relationship between the two gaps, not a cap or a claim about relative sizes of u and u*.",
@@ -1001,10 +1001,10 @@
     "questionType": "formula",
     "question": "A student computes an economy's output gap as [(Y* - Y)/Y*] x 100 instead of [(Y - Y*)/Y*] x 100, using Y = $9,000 billion and Y* = $10,000 billion. The student gets +10% and concludes the economy has an expansionary gap. What is the error?",
     "choices": [
-      "The student used the wrong sign convention (Y* - Y instead of Y - Y*); the correct gap is [(9,000-10,000)/10,000] x 100 = -10%, a recessionary gap, since actual output is below potential",
-      "There is no error — +10% and an expansionary-gap conclusion are correct",
-      "The student should have used Y - Y* in the denominator instead of Y*",
-      "The student's arithmetic is correct, but Class 8 defines an expansionary gap as Y below Y*, so the conclusion is still valid"
+      "The numerator is reversed; using (Y - Y*)/Y* gives -10%, a recessionary gap because actual output is below potential",
+      "There is no error; +10% correctly describes an expansionary gap because actual output differs from potential",
+      "The numerator is correct, but the denominator should be Y - Y* rather than potential output",
+      "The arithmetic is correct, but +10% should be called recessionary because actual output is below potential"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's output gap formula is (Y - Y*)/Y*, not (Y* - Y)/Y* — reversing the numerator's order flips the sign. With Y below Y* here (9,000 < 10,000), the correctly-signed gap is -10%, a recessionary gap; the student's sign error flipped this into a false +10% and led to the wrong (expansionary) conclusion.",
@@ -1065,10 +1065,10 @@
     "questionType": "graph",
     "question": "In the diagram shown, the dashed line is potential output (Y*), assumed to grow smoothly over time, while the solid curve is actual output (Y), which dips below Y* early on and later rises above it. What do the two marked regions represent?",
     "choices": [
-      "The early region where Y is below Y* is a recessionary gap; the later region where Y is above Y* is an expansionary gap",
-      "Both marked regions are recessionary gaps, since Y* itself never changes",
-      "The early region is an expansionary gap and the later region is a recessionary gap",
-      "The marked regions show that potential output actually fell during the early period"
+      "The early Y below Y* region is recessionary; the later Y above Y* region is expansionary",
+      "Both regions are recessionary because the potential-output line Y* never changes",
+      "The early region is expansionary and the later region is recessionary because the signs reverse",
+      "The early region reflects a fall in potential output rather than a gap between actual and potential output"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines a recessionary gap as actual output below potential (Y* > Y) and an expansionary gap as actual output above potential (Y* < Y). Reading the diagram left to right, actual output starts below the smooth Y* path (a recessionary gap) and later rises above it (an expansionary gap) — exactly matching the two marked regions.",
@@ -1106,7 +1106,7 @@
       "Consumption (C), planned investment (IP), government purchases (G), and net exports (NX)",
       "Consumption (C), taxes (T), government purchases (G), and net exports (NX)",
       "Consumption (C), planned investment (IP), imports, and exports counted separately",
-      "Wages, profits, rent, and interest income"
+      "Wages, profits, rent, and interest—the four income-side components of planned expenditure"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines PAE = C + IP + G + NX: consumption by households, planned investment (new capital goods spending by firms), government purchases, and net exports (exports minus imports, combined into one term).",
@@ -1166,10 +1166,10 @@
     "questionType": "vocab",
     "question": "In the consumption function C = C0 + mpc(Y - T), what does C0 represent, and how does it differ from the mpc term?",
     "choices": [
-      "C0 is autonomous consumption — spending not related to disposable income — while mpc(Y-T) is the portion of consumption that changes as disposable income changes",
-      "C0 is the marginal propensity to consume, while mpc(Y-T) is autonomous consumption",
-      "C0 and mpc(Y-T) are two equivalent ways of writing the same quantity",
-      "C0 is the tax rate applied to disposable income"
+      "C0 is consumption independent of disposable income; mpc(Y-T) is consumption that varies with disposable income",
+      "C0 is the marginal propensity to consume; mpc(Y-T) is consumption independent of disposable income",
+      "C0 and mpc(Y-T) are equivalent measures of the same autonomous spending component",
+      "C0 is the tax rate on disposable income; mpc(Y-T) is the after-tax consumption intercept"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines C0 as autonomous consumption spending — the part of consumption not tied to the level of disposable income — while mpc is the marginal propensity to consume (0 < mpc < 1), so mpc(Y-T) is the part of consumption spending that rises and falls with disposable income (Y-T). A change in C0 shifts the whole consumption function; the mpc term determines its slope.",
@@ -1198,10 +1198,10 @@
     "questionType": "vocab",
     "question": "Class 8 defines short-run equilibrium output using the condition Y = PAE. What does this condition mean?",
     "choices": [
-      "Output equals planned aggregate expenditure, so there is no pressure on firms to change output because inventories are behaving as planned",
-      "Output equals the economy's potential output, Y*",
-      "The unemployment rate equals the natural rate of unemployment",
-      "Government purchases equal net exports"
+      "Output equals planned aggregate expenditure, so unplanned inventory changes do not pressure firms to alter production",
+      "Output equals potential output, so the economy has neither a recessionary nor an expansionary gap",
+      "Unemployment equals its natural rate, so cyclical unemployment is zero at the spending equilibrium",
+      "Government purchases equal net exports, so public and foreign demand exactly offset"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states 'no change in output as long as prices are constant' when Y = PAE, because at that output level, firms are selling exactly what they planned to sell — inventories aren't unexpectedly rising or falling, so firms have no reason to adjust production.",
@@ -1229,10 +1229,10 @@
     "needsReview": false,
     "question": "At the current output level, firms find that actual output exceeds planned aggregate expenditure (Y > PAE). According to Class 8's inventory-adjustment logic, what happens next?",
     "choices": [
-      "Firms sell less than they produced, inventories rise unexpectedly, and firms respond by reducing output toward the level where Y = PAE",
+      "Sales fall short of production, inventories rise unexpectedly, and firms cut output toward Y = PAE",
       "Firms sell more than they produced, inventories fall, and firms respond by increasing output further",
-      "Nothing changes, since Y > PAE has no effect on firms' production decisions",
-      "Prices instantly rise to eliminate the gap between Y and PAE"
+      "Inventories rise, but firms keep output fixed because only planned sales affect production decisions",
+      "Prices rise immediately to clear the goods market while firms keep output at its current level"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's notes on the Keynesian cross explain that when actual output exceeds planned spending, firms sell less than they made, inventories rise above planned levels, and firms respond by cutting production — pushing output back down toward the equilibrium where Y = PAE.",
@@ -1260,10 +1260,10 @@
     "needsReview": false,
     "question": "A government spending increase of $50 billion ends up raising equilibrium output by more than $50 billion. What is the mechanism, according to Class 8, that explains why the total effect on Y exceeds the initial spending increase?",
     "choices": [
-      "The initial spending becomes income for someone, part of which is spent again (via the mpc), and that re-spending becomes income for someone else, repeating and compounding the total effect on output",
-      "The government spending is simply counted twice in GDP accounting",
-      "Firms automatically double any increase in government purchases before producing",
-      "Consumption falls in response to the spending increase, offsetting part of the initial injection but somehow still leading to a larger final effect"
+      "Initial spending becomes income, some is re-spent according to the mpc, and repeated rounds compound the output effect",
+      "The original government purchase is counted once as G and again as household consumption in GDP accounting",
+      "Firms anticipate the purchase and automatically produce twice the government's order before any income is re-spent",
+      "Consumption falls after the government purchase, and this offset somehow makes the total output effect exceed the initial injection"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's multiplier logic (illustrated with the fiscal-multiplier construction-wages example) is that an initial injection of spending becomes income, part of which (the mpc share) is spent again, becoming someone else's income, and so on — an infinite geometric series that sums to more than the original injection, captured by the multiplier 1/(1-mpc).",
@@ -1322,10 +1322,10 @@
     "needsReview": false,
     "question": "Class 8 lists several factors behind the 2007-2009 U.S. recession: the housing bubble bursting, an oil price spike, and a financial crisis that made borrowing harder. Which causal chain most accurately reflects how the slides connect these events to the recessionary gap?",
     "choices": [
-      "Falling home values reduced household wealth (lower consumption), the oil spike raised costs and cut investment spending, and tighter/costlier credit plus rising uncertainty further reduced spending — together shifting PAE down and opening a recessionary gap",
-      "The housing bubble bursting directly increased government purchases, which by itself caused the recessionary gap",
-      "The financial crisis caused an expansionary gap by making credit too easy to obtain",
-      "Rising oil prices increased planned investment spending, which alone explains the entire recessionary gap"
+      "Lower wealth, higher oil costs, tighter credit, and greater uncertainty reduced planned spending, shifting PAE down and opening a recessionary gap",
+      "The housing collapse automatically increased government purchases, shifting PAE up but still causing a recessionary gap",
+      "The financial crisis made credit cheaper and easier to obtain, shifting PAE up into an expansionary gap",
+      "Higher oil prices raised planned investment enough to shift PAE up, even as household wealth declined"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's slide on the causes of the 2007-2009 recession lists: a wealth effect on consumption from the housing bust, an oil price spike that reduced investment spending, and a financial crisis that made borrowing 'hard/costly' for firms and households (compounded by rising uncertainty) — all of which reduced planned spending, shifting PAE down and producing a recessionary gap. It's the combination of several demand-reducing channels, not a single cause.",
@@ -1385,10 +1385,10 @@
     "needsReview": false,
     "question": "Class 8 describes the Keynesian model's short-run assumption as: 'firms typically set a price and meet the demand at that price in the short run.' What does this assumption imply about how firms respond to a change in demand?",
     "choices": [
-      "Firms adjust the quantity they produce to match demand at the existing price, rather than immediately changing the price itself",
-      "Firms always raise prices immediately whenever demand changes",
-      "Firms never change output, regardless of how demand shifts",
-      "Firms set prices based only on their competitors, ignoring demand entirely"
+      "Firms change production to match demand at the existing sticky price instead of immediately changing price",
+      "Firms immediately change prices to clear the goods market while keeping production fixed at potential",
+      "Firms keep both prices and production fixed, allowing inventories to absorb every demand change indefinitely",
+      "Firms copy competitors' prices and therefore ignore changes in demand when choosing production"
     ],
     "answerIndex": 0,
     "correctExplanation": "This is the core Keynesian short-run assumption: with prices preset, a change in demand is absorbed by a change in the *quantity* firms produce (output), not an immediate price change — firms 'eventually change prices when the marginal benefits exceed the marginal costs,' but that's a slower, separate process from the short-run output response.",
@@ -1546,9 +1546,9 @@
     "questionType": "formula",
     "question": "An economy has mpc = 0.7. Compare a $100 billion tax cut to a $100 billion increase in government purchases. Which produces the larger initial (first-round) increase in planned aggregate expenditure, before any multiplier re-spending occurs?",
     "choices": [
-      "The government purchases increase, because it adds the full $100 billion directly to PAE, while the tax cut only raises consumption by mpc x $100 billion = $70 billion",
+      "Government purchases: G adds $100 billion directly to PAE, while the tax cut raises consumption by only 0.7 x $100 billion = $70 billion",
       "The tax cut, because it directly reduces T, which enters PAE with a larger effective weight than G",
-      "They produce identical first-round effects, since both change PAE by exactly $100 billion",
+      "They tie at $100 billion because equal changes in G and T enter PAE dollar-for-dollar before re-spending",
       "The tax cut produces a $100 billion first-round effect, since taxes and government purchases are perfect substitutes in the PAE equation"
     ],
     "answerIndex": 0,
@@ -1579,8 +1579,8 @@
     "questionType": "formula",
     "question": "An economy has C = 500 + 0.6(Y - T), with T = 300. At Y = $8,000 billion, a student computes consumption as C = 500 + 0.6(8,000) = $5,300 billion. What is the error, and what is the correct value of C?",
     "choices": [
-      "The student applied mpc to Y directly instead of to disposable income (Y - T); the correct value is C = 500 + 0.6(8,000 - 300) = $5,120 billion",
-      "There is no error — $5,300 billion is correct",
+      "The student used Y instead of disposable income Y - T; the correct value is 500 + 0.6(8,000 - 300) = $5,120 billion",
+      "There is no error because mpc applies to total output; C = $5,300 billion",
       "The student should have subtracted T from the final answer instead: $5,300 - $300 = $5,000 billion",
       "The student should have added T instead of ignoring it: C = 500 + 0.6(8,000 + 300) = $5,480 billion"
     ],
@@ -1712,10 +1712,10 @@
     "questionType": "graph",
     "question": "In the diagram, a drop in autonomous spending shifts the PAE line down in a parallel fashion from PAE to PAE', moving equilibrium from E to E'. A student notes that the vertical drop in the PAE line at any given Y is smaller than the horizontal distance between Ye and Ye'. Is this consistent with the Keynesian-cross model?",
     "choices": [
-      "Yes — the horizontal change in equilibrium output is the multiplier effect: it equals the vertical (autonomous) drop in PAE multiplied by 1/(1-mpc), which is always larger than 1",
-      "No — the horizontal and vertical distances must always be equal in the Keynesian cross",
-      "No — a parallel downward shift of PAE should leave equilibrium output completely unchanged",
-      "Yes, but only because the 45-degree line's slope was drawn incorrectly in this diagram"
+      "Yes—the output change equals the autonomous PAE change times 1/(1-mpc), so its horizontal magnitude is larger",
+      "No—the horizontal output change must equal the vertical PAE shift because both axes use dollars",
+      "No—a parallel PAE shift changes inventories but leaves the equilibrium intersection and output unchanged",
+      "Yes—but only because the diagram incorrectly gives the 45-degree line a slope other than one"
     ],
     "answerIndex": 0,
     "correctExplanation": "The vertical shift in the PAE line at a given Y represents the initial drop in autonomous expenditure. But the new equilibrium isn't found by moving straight down — it's found where the new, lower PAE' line crosses the 45-degree line, which involves also moving left along that line. Because the multiplier 1/(1-mpc) exceeds 1, the resulting horizontal change in equilibrium output (Ye to Ye') is larger than the vertical autonomous-spending drop that caused it — exactly the multiplier effect Class 8 describes.",
@@ -1781,10 +1781,10 @@
     "questionType": "vocab",
     "question": "What distinguishes an 'automatic stabilizer' from ordinary discretionary fiscal policy (e.g., Congress passing a new stimulus bill)?",
     "choices": [
-      "Automatic stabilizers are built into existing law and increase spending or decrease taxes automatically as output declines, requiring no new decision or legislative action",
-      "Automatic stabilizers are a form of monetary policy carried out by the Federal Reserve, not fiscal policy",
-      "Automatic stabilizers only operate during economic booms, never during recessions",
-      "Automatic stabilizers and discretionary fiscal policy are identical in every respect"
+      "Automatic stabilizers change spending or taxes under existing law as output falls, without a new policy decision",
+      "Automatic stabilizers are Federal Reserve actions that change the money supply automatically as output falls",
+      "Automatic stabilizers change taxes and transfers only during booms, when the budget moves toward surplus",
+      "Automatic stabilizers require the same new legislative vote as discretionary fiscal policy each time they operate"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 defines automatic stabilizers as increasing government spending or decreasing taxes when real output declines, 'built into laws so no decision is required' — unlike a new stimulus bill, which requires fresh legislative action each time, automatic stabilizers (like unemployment compensation and the progressive income tax) respond on their own as economic conditions change.",
@@ -1812,10 +1812,10 @@
     "questionType": "vocab",
     "question": "Class 8 defines net tax (T) as total taxes minus transfer payments minus government interest payments. Why does this differ from simply using 'total taxes collected' as T in the PAE equation?",
     "choices": [
-      "Net tax captures the government's actual net drain on household disposable income, since transfers and interest payments give money back to households, partially offsetting the taxes collected",
-      "Net tax and total taxes collected are always exactly the same number by definition",
-      "Net tax ignores taxes altogether and only counts transfer payments",
-      "Net tax is total taxes plus transfers plus interest payments, all added together"
+      "Net tax measures taxes collected minus transfers and government interest paid back to households",
+      "Net tax equals total taxes collected because transfers and interest do not affect disposable income",
+      "Net tax counts transfers and interest payments but excludes taxes collected from households",
+      "Net tax adds taxes, transfers, and interest because all three are government cash flows"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's definition — 'Net tax (T) = total taxes - transfers - government interest payments' — reflects that transfers (like unemployment benefits) and interest payments give money back to the private sector, so they should be subtracted from gross tax collections to find the true net burden that reduces disposable income (Y - T).",
@@ -1875,10 +1875,10 @@
     "questionType": "vocab",
     "question": "Class 8 distinguishes 'demand-side' from 'supply-side' effects of fiscal policy. What is the key difference between the two, and which one does infrastructure investment (part of G) illustrate?",
     "choices": [
-      "Demand-side effects work through PAE (short-run spending); supply-side effects work by changing potential output Y* itself — infrastructure investment illustrates a supply-side effect because it can raise Y*",
-      "Demand-side and supply-side effects are two different names economists use for exactly the same channel",
-      "Supply-side effects only apply to monetary policy, never to fiscal policy",
-      "Demand-side effects change Y*, while supply-side effects change only short-run PAE"
+      "Demand-side effects change short-run PAE; supply-side effects change potential output Y*, as productive infrastructure can",
+      "Demand-side and supply-side effects both change PAE, but only the demand-side effect operates in the short run",
+      "Supply-side effects describe monetary policy changing interest rates, while fiscal policy has only demand-side effects",
+      "Demand-side effects change Y*, while supply-side effects change only current planned spending"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states that 'fiscal policy may affect potential output as well as potential spending' — the standard demand-side channel operates through PAE in the short run, while the supply-side channel argues that certain fiscal actions (like infrastructure investment, or tax incentives affecting labor/saving/investment decisions) can shift potential output Y* itself. The slides note current thinking gives weight to both channels rather than treating them as mutually exclusive.",
@@ -1907,10 +1907,10 @@
     "needsReview": false,
     "question": "Class 8 states that taxes and transfers affect planned aggregate expenditure only indirectly. What is the specific channel through which a tax cut raises PAE?",
     "choices": [
-      "A tax cut raises disposable income (Y - T), which increases consumption spending through the mpc — it doesn't add directly to PAE the way G does",
-      "A tax cut is added directly to PAE as its own separate term, exactly like government purchases",
-      "A tax cut raises net exports directly by making domestic goods cheaper abroad",
-      "A tax cut has no effect on planned aggregate expenditure at all"
+      "A tax cut raises disposable income and consumption through the mpc rather than entering PAE directly like G",
+      "A tax cut enters PAE dollar-for-dollar as a separate term, just like an equal increase in government purchases",
+      "A tax cut raises net exports by lowering the domestic price level immediately relative to foreign prices",
+      "A tax cut raises disposable income but leaves consumption and planned aggregate expenditure unchanged"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states: 'planned aggregate expenditures are influenced by changing total taxes and/or transfer payments. The effect is indirect, channeled through the effects on disposable income. Lower taxes or higher transfers increase disposable income. Increases in disposable income lead to higher C.' Unlike G, which enters PAE directly, taxes only affect PAE by first changing (Y - T), which then changes C via the mpc.",
@@ -1938,10 +1938,10 @@
     "needsReview": false,
     "question": "A government builds new highways and expands broadband access nationwide, funded through increased government purchases (G). Beyond the immediate demand-side boost to PAE, what supply-side effect does Class 8 associate with this kind of spending?",
     "choices": [
-      "It can raise potential output (Y*) itself, since infrastructure investment is one channel by which fiscal policy affects the economy's productive capacity",
-      "It has no effect on Y* under any circumstances, since G only ever affects PAE",
-      "It automatically reduces the natural rate of unemployment to zero",
-      "It only affects net exports, since infrastructure is unrelated to domestic production capacity"
+      "It can raise potential output Y* by expanding the economy's productive infrastructure",
+      "It raises current PAE but cannot affect Y* because government purchases are necessarily demand-side only",
+      "It reduces the natural unemployment rate to zero by guaranteeing jobs on infrastructure projects",
+      "It raises net exports rather than productive capacity because domestic infrastructure changes only trade costs"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states 'investment in infrastructure (i.e. G) increases Y*' as an explicit example of a supply-side effect of fiscal policy — infrastructure isn't just short-run demand stimulus (via PAE), it can also expand the economy's underlying productive capacity.",
@@ -1969,10 +1969,10 @@
     "needsReview": false,
     "question": "A recession begins, and economists agree that a fiscal stimulus package would help. However, by the time Congress debates, negotiates, and passes a bill, and the spending actually reaches the economy, the recession may already be ending on its own. Which of Class 8's fiscal-policy 'flexibility' limits does this scenario illustrate?",
     "choices": [
-      "The legislative process requires time — one of the two limits to fiscal policy flexibility Class 8 identifies",
-      "Automatic stabilizers failing to function during a recession",
-      "The natural rate of unemployment rising during the recession",
-      "A supply-side effect of fiscal policy overwhelming its demand-side effect"
+      "A legislative inside lag—one of Class 8's limits on discretionary fiscal-policy flexibility",
+      "A failure of automatic stabilizers, which always require Congress to authorize each response",
+      "A rise in the natural unemployment rate caused directly by the time Congress spends debating",
+      "A supply-side contraction that necessarily overwhelms the bill's eventual demand-side expansion"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 lists 'the legislative process requires time' as one of the two limits to fiscal policy flexibility (alongside competing political objectives) — exactly the lag between recognizing a problem, passing legislation, and having the spending take effect that this scenario describes.",
@@ -1999,10 +1999,10 @@
     "needsReview": false,
     "question": "Class 8 notes that 'political considerations make it difficult to use contractionary fiscal policy.' Which situation best illustrates this specific difficulty, as opposed to the legislative-lag problem?",
     "choices": [
-      "An expansionary gap calls for spending cuts or tax increases to cool the economy, but elected officials are reluctant to cut popular programs or raise taxes even though the economics calls for it",
-      "A recessionary gap requires new spending, but the bill takes eight months to pass through Congress",
-      "The Federal Reserve refuses to lower the money supply during an expansionary gap",
-      "The natural rate of unemployment rises, requiring a change in u* rather than in G or T"
+      "An expansionary gap calls for spending cuts or tax increases, but elected officials resist unpopular contractionary measures",
+      "A recessionary gap calls for spending cuts, but the required bill takes months to pass Congress",
+      "An expansionary gap calls for monetary easing, but the Federal Reserve refuses to increase government purchases",
+      "An expansionary gap changes the natural unemployment rate, so fiscal tools cannot affect the relevant problem"
     ],
     "answerIndex": 0,
     "correctExplanation": "The political-constraint limit is specifically about the difficulty of using contractionary policy (cutting spending or raising taxes) even when the economics calls for it, because these actions are unpopular — distinct from the legislative-lag limit, which is about the time any fiscal action (expansionary or contractionary) takes to pass, not about political willingness.",
@@ -2030,10 +2030,10 @@
     "needsReview": false,
     "question": "During a recession, unemployment compensation payments rise and income tax revenue falls, even without Congress passing any new law. Class 8's notes explain the tax side of this as: incomes fall, so households pay lower rates under a progressive income tax, and tax revenue falls faster than household income does. Why does this qualify as an automatic *stabilizer* rather than just an automatic side effect?",
     "choices": [
-      "Because both effects push in the expansionary direction exactly when the economy needs it (falling tax revenue and rising benefit payments both raise households' after-tax income during a downturn), cushioning the fall in spending without any new policy decision",
-      "Because it stabilizes the government's budget by keeping the deficit constant regardless of the business cycle",
-      "Because it only affects the unemployment rate, not planned aggregate expenditure at all",
-      "Because Congress must still approve each individual payment, making it a discretionary policy in practice"
+      "Falling taxes and rising benefits support disposable income and spending during downturns without a new policy decision",
+      "Falling taxes and rising benefits keep the budget deficit constant, insulating government finances from the cycle",
+      "The programs stabilize unemployment directly without changing household income or planned aggregate expenditure",
+      "Congress approves each tax reduction and benefit payment after a downturn begins, making the response discretionary"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 frames automatic stabilizers as increasing spending or decreasing taxes precisely 'when real output declines' — both effects described here (more unemployment compensation flowing out, less tax revenue flowing in) raise households' effective disposable income right when a recession is dragging PAE down, cushioning the swing in spending automatically, without a new legislative decision, which is what makes it stabilizing rather than incidental.",
@@ -2061,10 +2061,10 @@
     "needsReview": false,
     "question": "Class 8 warns that 'large and persistent budget deficits reduce national saving, investment, and growth.' What is the practical implication of this warning for a government considering fiscal policy as a long-run tool?",
     "choices": [
-      "Managing the deficit limits how freely a government can use fiscal policy as a repeated stimulus tool, since running deficits indefinitely carries its own long-run economic costs",
-      "Budget deficits have no long-run costs, so a government can use expansionary fiscal policy without limit",
-      "A budget deficit always immediately causes a recessionary gap",
-      "Running deficits raises national saving as a side effect, so this is actually an argument for using fiscal policy more aggressively"
+      "Deficit costs limit how freely a government can repeat fiscal stimulus over the long run",
+      "Deficits have no long-run cost, so repeated expansionary fiscal policy can continue without constraint",
+      "Any deficit immediately creates a recessionary gap by lowering planned aggregate expenditure",
+      "Deficits raise national saving and investment, supporting more aggressive repeated fiscal stimulus"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 links large, persistent deficits to lower national saving, investment, and growth, and explicitly notes that 'managing the deficit limits the government's ability to use fiscal policy as a stimulus' — meaning discretionary fiscal expansion isn't a costless dial that can be turned up repeatedly without long-run tradeoffs.",
@@ -2092,10 +2092,10 @@
     "needsReview": false,
     "question": "Class 8 describes two real fiscal responses to the 2007-2009 recession: the Economic Stimulus Act of 2008 ($100 billion in tax cuts, $60 billion in spending) and the American Recovery and Reinvestment Act of 2009 ($600 billion in government spending). What do the slides say about the effectiveness of these two packages, and what caveat do they add?",
     "choices": [
-      "Both were effective at raising consumption spending and real GDP, but there was significant politicized debate over how effective they actually were",
-      "Only the smaller 2008 package was effective; the larger 2009 package had no measurable effect on GDP",
-      "Neither package had any effect on consumption spending or GDP",
-      "Both packages were universally agreed to be highly effective, with no dissenting views reported"
+      "Both raised consumption and real GDP, though their effect sizes remained the subject of politicized debate",
+      "Only the 2008 package raised consumption and GDP; the larger 2009 package was ineffective",
+      "Neither package raised consumption or GDP because fiscal multipliers are necessarily zero",
+      "Both packages raised consumption and GDP by amounts economists and politicians agreed on unanimously"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states 'both were effective at raising consumption spending / real GDP, BUT large politicized debate over effectiveness' — the slides credit both packages with a real effect while also flagging that their exact magnitude was (and remains) a contested political question, not something the slides present as settled beyond dispute.",
@@ -2124,10 +2124,10 @@
     "needsReview": false,
     "question": "Class 8 introduces monetary policy and fiscal policy together as the two main types of stabilization policy, noting monetary policy will be covered 'next class.' Based on how Class 8 itself defines each, which statement correctly distinguishes the two tools?",
     "choices": [
-      "Fiscal policy works through changes in government spending, transfers, or taxes; monetary policy works through changes in the money supply",
-      "Fiscal policy and monetary policy both work exclusively through changes in the money supply",
-      "Fiscal policy is controlled by the Federal Reserve, while monetary policy is controlled by Congress",
-      "Fiscal policy and monetary policy are two names for exactly the same set of tools"
+      "Fiscal policy changes spending, transfers, or taxes; monetary policy changes the money supply and interest rates",
+      "Fiscal and monetary policy both operate through money-supply changes, but different government institutions initiate them",
+      "Fiscal policy is set by the Federal Reserve, while monetary policy changes taxes and spending through Congress",
+      "Fiscal and monetary policy use the same tools but differ only in whether the economy has a recessionary or expansionary gap"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8 states: 'Monetary policy uses changes in the money supply... Fiscal policy uses changes in government spending, transfers, or taxes (e.g. CARES Act).' The two are distinct stabilization tools operated by different institutions (fiscal policy by the legislature/executive; monetary policy, as Class 8 flags for the next class, by the central bank).",
@@ -2155,10 +2155,10 @@
     "needsReview": false,
     "question": "A small open economy falls into a deep recessionary gap. Economists recommend an immediate, large increase in government purchases financed by a bigger budget deficit. A finance-ministry official objects: 'A bigger deficit now will just hurt our long-run saving and growth — we should hold off.' Using only Class 8's own framework, how would you characterize this objection?",
     "choices": [
-      "It correctly reflects Class 8's warning that large, persistent deficits reduce national saving, investment, and growth — but it doesn't by itself resolve the tradeoff against the short-run cost of leaving a deep recessionary gap unaddressed",
-      "It is simply incorrect, since Class 8 states deficits have no long-run costs whatsoever",
-      "It reflects a concern about the legislative process taking too long, not about deficits",
-      "It correctly implies that fiscal policy can never be used during a recessionary gap"
+      "It identifies a real long-run deficit cost but does not resolve the tradeoff against leaving a deep recessionary gap untreated",
+      "It invents a long-run cost; Class 8 says persistent deficits never affect saving, investment, or growth",
+      "It identifies only a legislative inside lag, not a concern about the saving effects of deficit finance",
+      "It establishes that expansionary fiscal policy is never appropriate when an economy has a recessionary gap"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 8's own framework holds two things at once: expansionary fiscal policy is the textbook response to a recessionary gap, and separately, large/persistent deficits carry real long-run costs (lower national saving, investment, and growth) that limit how freely a government can use fiscal stimulus. The official's objection correctly cites the second point, but Class 8 doesn't resolve which concern should win in a given case — it's a genuine tradeoff the slides flag, not a decisive argument against ever running a deficit.",
@@ -2284,10 +2284,10 @@
     "questionType": "vocab",
     "question": "Class 9 mentions two distinct interest rates involving banks borrowing funds: the discount rate and the federal funds rate. What is the key difference between them?",
     "choices": [
-      "The discount rate is what the Fed itself charges banks that borrow directly from it (discount window lending); the federal funds rate is what banks charge each other for short-term loans, and is market-determined but targeted by the Fed",
-      "They are two names for the exact same rate, just used in different contexts",
-      "The discount rate is set by banks lending to each other; the federal funds rate is set only by the Fed lending to banks",
-      "The federal funds rate applies only to 30-year loans, while the discount rate applies only to overnight loans"
+      "The Fed charges the discount rate on its loans to banks; banks charge one another the market-determined federal funds rate",
+      "Both are market rates banks charge one another, but the discount rate applies to longer-maturity loans",
+      "Banks set the discount rate on interbank loans; the Fed sets the federal funds rate on discount-window loans",
+      "The federal funds rate applies to long-term bank borrowing; the discount rate applies only to overnight interbank loans"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 defines the discount rate as 'the rate the Fed charges banks to borrow reserves' directly from the Fed (discount window lending), while the federal funds rate is 'the rate commercial banks charge each other' on short-term, usually overnight, loans — a market-determined rate that the Fed targets rather than sets directly.",
@@ -2347,10 +2347,10 @@
     "questionType": "vocab",
     "question": "Which statement correctly describes the Fed's open-market operations, as defined in Class 9?",
     "choices": [
-      "An open-market purchase of bonds by the Fed increases the money supply; an open-market sale of bonds by the Fed decreases the money supply",
-      "An open-market purchase of bonds decreases the money supply, while a sale increases it",
-      "Open-market operations only affect the reserve requirement, not the money supply directly",
-      "Open-market operations require Congress to approve each individual bond trade"
+      "A Fed bond purchase increases the money supply; a Fed bond sale decreases it",
+      "A Fed bond purchase decreases the money supply; a Fed bond sale increases it",
+      "Fed bond purchases and sales change reserve requirements rather than bank reserves or the money supply",
+      "Fed bond purchases expand money only after Congress authorizes each transaction as fiscal spending"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 states plainly: 'An open-market purchase of bonds by the Fed increases the money supply... An open-market sale of bonds by the Fed decreases the money supply' — this is described as the Fed's primary tool for controlling the money supply.",
@@ -2378,10 +2378,10 @@
     "needsReview": false,
     "question": "Interest rates in the economy rise sharply. According to Class 9's model of money demand, what happens to the quantity of money people wish to hold, and why?",
     "choices": [
-      "It falls, because a higher interest rate raises the opportunity cost of holding money instead of interest-bearing assets like bonds",
-      "It rises, because higher interest rates make money more valuable to hold",
-      "It stays the same, since money demand doesn't depend on interest rates in this model",
-      "It falls, because higher interest rates directly reduce people's income"
+      "It falls because higher rates increase the opportunity cost of holding money instead of interest-bearing assets",
+      "It rises because higher rates increase the return households receive from holding transaction balances",
+      "It stays fixed because interest rates change money supply rather than household money demand",
+      "It falls because higher rates reduce current income rather than changing the opportunity cost of cash"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 states 'higher interest rates → less demand for money,' because the opportunity cost of holding money instead of an interest-bearing asset rises as rates rise. This is exactly why the money demand curve slopes downward against the interest rate.",
@@ -2409,10 +2409,10 @@
     "needsReview": false,
     "question": "A student says: 'The nominal interest rate went up, so the money demand curve must have shifted left.' Using Class 9's own distinction between money demand's determinants, what's wrong with this reasoning?",
     "choices": [
-      "A change in the interest rate is a movement along the existing money demand curve, not a shift of the curve itself; only changes in output, price levels, or foreign demand for dollars shift the curve",
-      "The reasoning is correct — a higher interest rate always shifts money demand to the left",
-      "Money demand only shifts when the reserve requirement changes, so the interest rate is irrelevant to money demand entirely",
-      "The interest rate change would shift the curve right, not left, but the student is otherwise correct that it's a shift"
+      "An interest-rate change causes movement along money demand; output, prices, or foreign dollar demand shift the curve",
+      "A higher interest rate shifts the entire money-demand curve left because people want less money",
+      "Only a reserve-requirement change shifts money demand, so interest rates neither shift it nor cause movement along it",
+      "A higher interest rate shifts money demand right rather than left, though it still changes the entire curve"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 draws the money demand curve itself against the interest rate — the interest rate is the axis variable, so a change in it is read as a movement along the curve. The curve shifts only when one of its other determinants changes: an increase in output, higher price levels, or foreign demand for dollars (Class 9's own listed shifters).",
@@ -2440,10 +2440,10 @@
     "needsReview": false,
     "question": "The nominal interest rate is currently below its equilibrium level in the money market. Per Class 9's adjustment story, what happens next, and how does it push the interest rate back up?",
     "choices": [
-      "Quantity of money demanded exceeds the (fixed) quantity supplied, so people sell bonds to get more money; bond prices fall as a result, and since bond prices and interest rates move inversely, interest rates rise back toward equilibrium",
-      "The Fed automatically prints new currency to meet the excess demand for money, which keeps the interest rate exactly where it started",
-      "People buy more bonds to raise their money holdings, which pushes bond prices up and interest rates down further",
-      "Nothing changes, since the money supply curve is vertical and always intersects money demand at the initial rate"
+      "Excess money demand leads people to sell bonds; falling bond prices raise interest rates back toward equilibrium",
+      "Excess money demand makes the Fed automatically expand supply, keeping the initial interest rate unchanged",
+      "Excess money demand leads people to buy bonds; rising bond prices push interest rates farther below equilibrium",
+      "A vertical money-supply curve prevents any bond-market adjustment, so the disequilibrium interest rate persists"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 walks through exactly this: below equilibrium, quantity of money demanded exceeds the available supply, so people sell bonds to raise cash. Selling bonds pushes bond prices down, and because 'bond prices are inversely related to the interest rate,' falling bond prices mean rising interest rates — pushing the rate back up toward equilibrium (point E in the slide's diagram).",
@@ -2471,10 +2471,10 @@
     "needsReview": false,
     "question": "The Fed wants banks to hold more reserves rather than lending them out, without changing the legal minimum reserve requirement. Which tool described in Class 9 directly targets this incentive?",
     "choices": [
-      "Paying interest on reserves held at the Federal Reserve, which changes banks' incentive to hold reserves rather than lend them out",
+      "Paying interest on Fed reserve balances, which makes holding reserves more attractive relative to lending",
       "Raising the reserve requirement, which is the same tool being ruled out in the question",
       "Open-market bond sales, which work by changing the total quantity of reserves in the system rather than banks' incentive to hold what they already have",
-      "Quantitative easing, which is specifically about buying assets other than reserves"
+      "Quantitative easing, which buys longer-term assets to reward banks for retaining existing reserves"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 lists 'paying interest on reserves held at the Federal Reserve' as an additional control specifically because it 'changes incentives to hold reserves' — a distinct lever from the reserve requirement (a legal minimum) or open-market operations (which change the total quantity of reserves rather than banks' willingness to hold reserves beyond the minimum).",
@@ -2566,7 +2566,7 @@
     "questionType": "graph",
     "question": "The diagram shows the money demand curve MD, plotting the nominal interest rate against the quantity of money. Why does this curve slope downward?",
     "choices": [
-      "As the interest rate rises, the opportunity cost of holding money instead of interest-bearing assets rises, so the quantity of money demanded falls",
+      "As interest rises, holding money sacrifices more interest income, so quantity of money demanded falls",
       "As the interest rate rises, prices fall, directly reducing the nominal quantity of money needed for transactions",
       "The curve's downward slope reflects the Fed's own supply decisions, not any behavior on the demand side",
       "As the interest rate rises, banks are legally required to hold less money, reducing quantity demanded"
@@ -2603,10 +2603,10 @@
     "questionType": "graph",
     "question": "In the diagram, money demand shifts from MD to MD' (rightward, holding the interest rate fixed for comparison). Which of the following, according to Class 9, could explain this shift?",
     "choices": [
-      "An increase in output (income), a higher price level, or increased foreign demand for dollars",
-      "A decrease in the nominal interest rate",
-      "The Fed conducting an open-market purchase of bonds",
-      "A decrease in output and a lower price level"
+      "Higher output, a higher price level, or greater foreign demand for dollars",
+      "A lower nominal interest rate that raises quantity demanded along the existing curve",
+      "A Fed open-market purchase that increases the vertical money-supply curve",
+      "Lower output and a lower price level that reduce transaction demand for money"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 lists the shifters of money demand directly: 'An increase in demand for money can result from — An increase in output, Higher price levels, Foreign demand for dollars.' Any of these would shift the entire MD curve rightward (more money demanded at every interest rate), which is what the diagram shows.",
@@ -2640,10 +2640,10 @@
     "questionType": "graph",
     "question": "In the diagram, the Fed increases the money supply, shown as the vertical line shifting from MS to MS'. Equilibrium moves from a rate of i down to i'. What must the Fed have done to cause this shift, and why does the new equilibrium have a lower rate?",
     "choices": [
-      "The Fed conducted an open-market purchase of bonds, increasing the money supply; at the new, larger quantity of money, the interest rate must fall to convince the market to hold that larger amount, per the downward-sloping MD curve",
-      "The Fed conducted an open-market sale of bonds, and the interest rate fell as a coincidence unrelated to the shift",
-      "The Fed raised the reserve requirement, which mechanically increases the money supply",
-      "The money demand curve shifted left, which is what actually caused the rate to fall in this diagram"
+      "A Fed bond purchase shifted money supply right; equilibrium moved down the fixed money-demand curve to a lower interest rate",
+      "A Fed bond sale shifted money supply right, lowering the interest rate along the fixed money-demand curve",
+      "A higher reserve requirement shifted money supply right, increasing deposits and lowering the interest rate",
+      "Money demand shifted left while money supply stayed fixed, so the diagram's horizontal supply shift is incidental"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 walks through exactly this case: 'Fed increases the money supply to MS' ... interest rates decrease to i' to convince the market to hold the new, larger amount of money.' An open-market bond purchase is the tool that increases the money supply (shifts the vertical MS curve rightward), and reading down the fixed MD curve, a larger quantity of money is only willingly held at a lower interest rate.",
@@ -2678,10 +2678,10 @@
     "questionType": "graph",
     "question": "A student looks at a diagram where the money supply curve MS shifts right and the equilibrium interest rate falls from i to i'. The student says: 'The money demand curve MD must have shifted right too, since the quantity of money held went up.' What is wrong with this claim?",
     "choices": [
-      "The rise in quantity of money held is a movement along the fixed MD curve (caused by the fall in the interest rate), not a shift of MD itself — MD only shifts due to changes in output, prices, or foreign demand for dollars",
-      "The claim is correct — any increase in the quantity of money held must mean MD shifted",
-      "MD did shift, but in the opposite direction (leftward), not rightward",
-      "There's no error, since MS and MD always shift together by construction"
+      "Quantity demanded moved along fixed MD as the interest rate fell; output, prices, or foreign dollar demand would shift MD",
+      "MD shifted right because any increase in equilibrium money holdings must come from greater demand",
+      "MD shifted left while the lower interest rate raised money holdings along the new curve",
+      "MS and MD shifted right together, because the two curves must move together in money-market equilibrium"
     ],
     "answerIndex": 0,
     "correctExplanation": "In this scenario, only the money supply curve MS shifts (due to the Fed's action); the money demand curve MD stays fixed throughout. The increase in quantity of money held happens because the equilibrium slides down along the same fixed MD curve as the interest rate falls — a movement along MD, not a shift of MD, which Class 9 reserves specifically for changes in output, prices, or foreign demand for dollars.",
@@ -2711,10 +2711,10 @@
     "questionType": "vocab",
     "question": "Class 9 writes the real interest rate as r = i - π. What does each symbol represent, and which rate does the Fed directly control through the money supply?",
     "choices": [
-      "i is the nominal interest rate, π is the rate of inflation, and r is the real interest rate; the Fed directly controls i (the nominal rate) through the money supply",
-      "i is the real interest rate and r is the nominal interest rate; the Fed directly controls r",
-      "π is the real interest rate and r is the inflation rate; the Fed directly controls π",
-      "i, π, and r are three different names for the same quantity"
+      "i is nominal interest, π is inflation, and r is real interest; the Fed directly influences i through the money supply",
+      "i is real interest, π is inflation, and r is nominal interest; the Fed directly controls r",
+      "i is nominal interest, π is real interest, and r is inflation; the Fed directly controls π",
+      "i, π, and r are alternative labels for the same policy-controlled interest rate"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 states 'r = i - π where π is the rate of inflation' and that 'the Fed has some control over i' through its money-supply tools — the real rate r matters for saving/investment decisions, but the Fed's direct lever is the nominal rate i.",
@@ -2743,10 +2743,10 @@
     "questionType": "vocab",
     "question": "Class 9 introduces both a general 'policy reaction function' and the specific 'Taylor rule.' How are the two related?",
     "choices": [
-      "The policy reaction function is the general concept describing how a policymaker's action depends on the state of the economy; the Taylor rule is one specific, concrete example of such a function that also incorporates the output gap",
-      "They are unrelated concepts from two different parts of the course",
-      "The Taylor rule is the general concept, and the policy reaction function is one specific historical example of it",
-      "A policy reaction function only applies to fiscal policy, while the Taylor rule only applies to exchange rates"
+      "A policy reaction function is the general concept; the Taylor rule is a specific example that includes inflation and the output gap",
+      "A policy reaction function governs fiscal responses, while the Taylor rule independently describes money demand",
+      "The Taylor rule is the general concept; a policy reaction function is one historical example of that rule",
+      "A policy reaction function applies to exchange-rate policy, while the Taylor rule applies only to fiscal policy"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 first defines a policy reaction function generally ('describes how the action a policymaker takes depends on the state of the economy'), gives a basic version (r = r* + g(π-π*)), and then introduces the Taylor rule as 'an example of an inflation and output policy reaction function' — a specific, fully spelled-out formula that also folds in the output gap term.",
@@ -2805,10 +2805,10 @@
     "needsReview": false,
     "question": "Investment and saving decisions are based on the real interest rate r, but the Fed's tools (open-market operations, etc.) directly set the nominal interest rate i. Class 9 argues the Fed still has meaningful influence over r in the short run. What is the reasoning?",
     "choices": [
-      "Inflation (π) changes relatively slowly, so a change in the nominal rate i shows up as an almost equal change in the real rate r = i - π in the short run",
-      "The Fed can set r and i completely independently of each other at will",
-      "Investment and saving decisions don't actually depend on the real interest rate, only the nominal rate",
-      "Inflation adjusts instantly to offset any change in i, so r never actually changes"
+      "Inflation changes slowly, so a short-run change in nominal i produces an almost equal change in real r = i - π",
+      "The Fed sets nominal i and real r independently, without relying on inflation's short-run behavior",
+      "Saving and investment respond only to nominal i, making any effect on real r irrelevant",
+      "Inflation changes immediately by the same amount as i, leaving real r unchanged"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9's reasoning: 'The Fed has some control over i... Inflation changes relatively slowly ⇒ Changes in nominal rates become changes in real rates.' Because π moves sluggishly compared to i, a Fed-driven change in i passes through almost one-for-one into r = i - π in the short run, giving the Fed real leverage over r even though its direct tool only sets i.",
@@ -2836,10 +2836,10 @@
     "needsReview": false,
     "question": "An economy has a recessionary gap. Following Class 9's monetary-policy transmission chain, which sequence correctly describes how the Fed can respond?",
     "choices": [
-      "The Fed increases the money supply → the real interest rate r falls → consumption and planned investment rise → PAE rises → output rises toward potential via the multiplier",
-      "The Fed increases the money supply → r rises → consumption and investment fall → PAE falls further, deepening the gap",
-      "The Fed decreases the money supply → r falls → PAE rises",
-      "The Fed changes government purchases directly, since that is the Fed's primary policy tool"
+      "The Fed raises money supply → r falls → consumption and investment rise → PAE and output rise toward potential",
+      "The Fed raises money supply → r rises → consumption and investment fall → PAE and output fall farther below potential",
+      "The Fed reduces money supply → r falls → consumption and investment rise → output moves toward potential",
+      "The Fed raises government purchases → PAE rises → output returns to potential through the monetary multiplier"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9's chain for a recessionary gap: the Fed increases the money supply, which (per the money-market diagram) lowers the nominal and then real interest rate; since 'both consumption and planned investment decrease when the interest rate increases' (and vice versa), a lower r raises C and IP, raising PAE and pushing output up toward potential via the multiplier.",
@@ -2898,10 +2898,10 @@
     "needsReview": false,
     "question": "Beyond the direct effect of r on consumption and investment, Class 9 describes a 'bank lending channel' of monetary policy. How does a decrease in the money supply work through this specific channel to reduce spending?",
     "choices": [
-      "Lower money supply means fewer bank deposits available to lend, so banks collect and use less information about borrowers, making credit more expensive and reducing consumption and investment",
-      "Lower money supply directly reduces government purchases, which is what this channel describes",
-      "Lower money supply causes the exchange rate to depreciate, which is what this channel describes",
-      "Lower money supply has no effect through banks at all — this channel operates entirely through the stock market"
+      "Lower money supply reduces deposits and lending information, making bank credit costlier and reducing consumption and investment",
+      "Lower money supply reduces government purchases, which lowers bank deposits and therefore private spending",
+      "Lower money supply depreciates the currency, making foreign bank credit costlier and reducing net exports",
+      "Lower money supply affects equity prices but not bank lending, so consumption and investment fall only through wealth"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 describes the bank lending channel as: 'lower M means less deposits / lending, which means banks collect and utilize less information → credit more expensive → lower C, I' — a distinct mechanism from the direct interest-rate effect, working through banks' reduced capacity and willingness to extend credit.",
@@ -2928,10 +2928,10 @@
     "needsReview": false,
     "question": "Class 9 describes an 'asset price channel' in which a lower money supply leads to lower equity (stock) prices. Why does a lower money supply push equity prices down, per this channel, and how does that further reduce spending?",
     "choices": [
-      "A lower money supply raises r, making bonds more attractive relative to stocks, which lowers equity prices; this creates a negative wealth effect for households and a balance sheet effect making it harder for firms to borrow, both of which reduce C and I",
-      "A lower money supply directly deletes shares from the stock market, mechanically reducing prices",
-      "A lower money supply makes bonds less attractive, pushing investors into stocks and raising equity prices, which is what this channel describes",
-      "This channel only affects government bond prices, not equity prices at all"
+      "Lower money supply raises r and favors bonds over stocks; lower equity prices then reduce household wealth and firms' borrowing capacity",
+      "Lower money supply removes shares from circulation; the smaller equity market mechanically reduces household wealth and investment",
+      "Lower money supply makes bonds less attractive; investors buy stocks, raising equity prices but reducing consumption and investment",
+      "Lower money supply changes government bond prices but leaves equities, household wealth, and firms' balance sheets unaffected"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9's asset price channel: '\"Asset price channel\": lower M → lower equity prices (bonds more attractive due to rising r) — Wealth effects for households — Balance sheet effects for firms → harder to borrow → lower C, I.' A tighter money supply raises r, which makes bonds relatively more attractive than stocks, pulling equity prices down; lower equity values then reduce household wealth (hurting consumption) and firms' collateral (hurting their ability to borrow for investment).",
@@ -2959,10 +2959,10 @@
     "needsReview": false,
     "question": "Class 9's 'exchange rate channel' links a rising real interest rate to a falling level of net exports. What is the mechanism connecting the two?",
     "choices": [
-      "A rising r attracts foreign investors seeking higher returns, causing the domestic currency to appreciate, which makes domestic goods more expensive abroad and imports cheaper at home, reducing net exports",
-      "A rising r has no effect on the exchange rate; NX changes only because of direct trade policy",
-      "A rising r causes the domestic currency to depreciate, which increases net exports",
-      "A rising r directly reduces the number of goods a country is physically able to produce for export"
+      "A higher r attracts foreign capital, appreciating the currency; exports become dearer and imports cheaper, reducing net exports",
+      "A higher r leaves the exchange rate unchanged, so net exports fall only if the government restricts trade",
+      "A higher r causes currency depreciation; cheaper domestic goods then raise net exports",
+      "A higher r reduces domestic productive capacity, so firms physically cannot supply as many exports"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 states: '\"Exchange rate channel\": rising r → currency appreciates → lower NX.' Higher domestic interest rates attract capital seeking better returns, appreciating the currency; a stronger currency makes exports more expensive for foreigners and imports cheaper for domestic buyers, both of which reduce net exports.",
@@ -2990,8 +2990,8 @@
     "needsReview": false,
     "question": "News breaks that inflation came in higher than expected, and stock prices fall the same day. Class 9 explains this reaction as investors anticipating a Fed response. What is the full reasoning chain?",
     "choices": [
-      "Investors expect the Fed to raise interest rates to fight the inflation, which would slow economic activity (lowering firms' sales/profits) and make non-stock instruments relatively more attractive — both reasons to sell stocks now",
-      "Higher inflation directly destroys the physical assets firms own, immediately lowering their market value",
+      "Investors expect Fed rate increases that will slow profits and make bonds relatively more attractive, so they sell stocks now",
+      "Investors expect inflation to destroy firms' physical capital directly, lowering future production and equity values",
       "Investors expect the Fed to immediately lower interest rates in response to higher inflation, boosting bond prices and making stocks relatively unattractive",
       "Stock prices only fall on inflation news due to random investor sentiment, with no underlying economic mechanism"
     ],
@@ -3021,8 +3021,8 @@
     "needsReview": false,
     "question": "By December 2008, the federal funds rate had fallen to 0-0.25%, with credit markets still severely impaired. Class 9 frames the Fed's dilemma as: 'What could the Fed do with credit markets still crippled?' Why couldn't the Fed simply keep cutting the federal funds rate further to fix the problem?",
     "choices": [
-      "The rate had already reached its practical floor near zero (the zero lower bound), so the Fed's conventional tool of moving the fed funds rate was essentially exhausted, pushing it toward unconventional tools like quantitative easing",
-      "The Fed was legally prohibited from lowering the rate below 5%",
+      "The rate had reached its practical zero lower bound, exhausting conventional cuts and motivating tools such as quantitative easing",
+      "Federal law imposed a 5% floor on the funds rate, forcing the Fed to use asset purchases instead",
       "Lowering the federal funds rate further would have had no relationship to credit market conditions at any point",
       "The fed funds rate can be negative without limit, so this was never actually a binding constraint"
     ],
@@ -3213,8 +3213,8 @@
     "questionType": "formula",
     "question": "An economy has r* = 2.5%, π = 6%, π* = 3%, Y* = $10,000 billion, and Y = $9,500 billion. A student computes the Taylor-rule rate as r = 2.5 + 0.5(6-3) - 0.5(-5) = 6.5%, using (Y-Y*)/Y* x 100 = -5 for the output-gap term. What is the error, and what is the correct rate?",
     "choices": [
-      "The student used (Y-Y*)/Y* instead of the Taylor rule's own (Y*-Y)/Y* term; with the correct +5, r = 2.5 + 1.5 - 2.5 = 1.5%, not 6.5%",
-      "There is no error — 6.5% is correct",
+      "The output-gap sign is reversed; using (Y*-Y)/Y* = +5 gives r = 2.5 + 1.5 - 2.5 = 1.5%",
+      "There is no error; using the -5 recessionary gap in the Taylor rule gives 6.5%",
       "The student should have used a weight of 1 instead of 0.5 on the inflation gap, giving 2.5 + 3 - 2.5 = 3%",
       "The student correctly computed the output-gap term but made an arithmetic slip on the inflation term, and the correct answer is 5.5%"
     ],
@@ -3245,7 +3245,7 @@
     "questionType": "formula",
     "question": "Economy A has r* = 2%, an inflation gap (π - π*) of 1 percentage point, and an output-gap term [(Y*-Y)/Y* x 100] of 2. Economy B has r* = 2%, an inflation gap of 3 percentage points, and an output-gap term of 1. Using the Taylor rule, which economy's prescribed real interest rate is higher, and why?",
     "choices": [
-      "Economy B (3% vs. 1.5%), because its larger inflation gap outweighs its smaller output gap once each is scaled by its 0.5 weight",
+      "Economy B (3% versus 1.5%) because its larger inflation gap outweighs its smaller output-gap term",
       "Economy A (2% vs. 1%), because a larger output-gap term always dominates the Taylor rule's prescription",
       "Both economies have identical prescribed rates, since both have the same r* = 2%",
       "Economy B has a negative prescribed rate, since it has the larger inflation gap"
@@ -3278,10 +3278,10 @@
     "questionType": "graph",
     "question": "The Fed increases the money supply, lowering the real interest rate r. In the diagram, this shifts the PAE line up from PAE to PAE', moving equilibrium from E to E'. What two separate mechanisms, one from Class 9 and one from Class 8, are needed to fully explain why the diagram looks like this?",
     "choices": [
-      "Class 9's transmission mechanism (a lower r raises C and IP, since both fall when r rises) explains why the PAE line shifts up at all, while Class 8's multiplier (1/(1-mpc)) explains why the resulting horizontal move in equilibrium output (Ye to Ye') is larger than the vertical shift in the PAE line itself",
-      "Only Class 9's content is needed; the Keynesian cross and its multiplier are not covered anywhere in this course",
-      "The diagram only requires the money-market diagram, not the Keynesian cross, to explain the shift",
-      "Class 8's multiplier explains why the PAE line shifts, and Class 9's r-transmission story explains the size of the horizontal move"
+      "Class 9's lower-r transmission shifts PAE up; Class 8's multiplier explains why equilibrium output changes by more than the initial spending shift",
+      "Class 9's lower-r transmission explains both the PAE shift and the amplified output change, so no multiplier is needed",
+      "Class 8's multiplier shifts PAE upward by changing autonomous consumption, while the money market alone determines equilibrium output",
+      "Class 8's multiplier shifts PAE, while Class 9's lower-r transmission explains why output moves farther than the initial spending change"
     ],
     "answerIndex": 0,
     "correctExplanation": "This connects two concepts from different classes: Class 9 explains WHY the PAE line moves at all (a lower r raises C and IP, per 'both consumption and planned investment decrease when the interest rate increases' — so a decrease in r has the reverse effect), while Class 8's multiplier explains WHY the resulting change in equilibrium output is larger than the initial vertical shift in the PAE line (the horizontal distance from Ye to Ye' equals the vertical PAE shift multiplied by 1/(1-mpc)).",
@@ -3316,10 +3316,10 @@
     "questionType": "graph",
     "question": "In the diagram, the Fed cuts the nominal interest rate i starting at the marked point, while the inflation rate π (dashed line) stays nearly flat over the same period. The real interest rate r is plotted as a third line. Which statement correctly describes r's path, and why?",
     "choices": [
-      "r falls by almost as much as i does, since r = i - π and π barely moves — a nominal rate cut passes through to the real rate nearly one-for-one in the short run",
-      "r stays completely flat, since only π determines the real interest rate",
-      "r rises, even though i falls, because r and i always move in opposite directions",
-      "r cannot be determined from this diagram, since i and π have no defined relationship to r"
+      "r falls almost as much as i because r = i - π and π changes little in the short run",
+      "r stays flat because a nearly constant π fixes the real rate regardless of changes in nominal i",
+      "r rises as i falls because nominal and real rates move oppositely whenever inflation is positive",
+      "r is indeterminate because the graph supplies paths for i and π but no equation linking them"
     ],
     "answerIndex": 0,
     "correctExplanation": "Since r = i - π and Class 9 notes 'inflation changes relatively slowly,' a drop in i with π nearly flat means r falls by almost the same amount as i — exactly the short-run pass-through the diagram illustrates, and the reasoning behind why the Fed's control over the nominal rate translates into real control over borrowing/lending conditions.",
@@ -3353,10 +3353,10 @@
     "questionType": "graph",
     "question": "Picture a diagram for the market for dollars, with the exchange rate (foreign currency per dollar) on the vertical axis and the quantity of dollars traded on the horizontal axis. The Fed raises r, making dollar-denominated assets more attractive to foreign investors. Which curve shifts, in which direction, and what happens to the exchange rate and net exports as a result?",
     "choices": [
-      "Foreign demand for dollars shifts right (more dollars demanded at every exchange rate), the dollar appreciates (a higher exchange rate), and net exports fall as domestic goods become more expensive abroad",
-      "The supply of dollars shifts right, causing the dollar to depreciate and net exports to rise",
-      "Foreign demand for dollars shifts left, causing the dollar to depreciate, with no effect on net exports",
-      "Neither curve shifts; the exchange rate is fixed regardless of the interest rate"
+      "Dollar demand shifts right, the dollar appreciates, and net exports fall as U.S. goods become dearer abroad",
+      "Dollar supply shifts right, the dollar depreciates, and net exports rise as U.S. goods become cheaper abroad",
+      "Dollar demand shifts left, the dollar depreciates, but net exports remain unchanged despite altered relative prices",
+      "Neither curve shifts because the exchange rate remains fixed whenever the domestic interest rate changes"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9's exchange rate channel: 'rising r → currency appreciates → lower NX.' A higher r attracts more foreign investors seeking to hold dollar-denominated assets, which shows up as a rightward shift in foreign demand for dollars; that stronger demand appreciates the dollar (a higher exchange rate), and a stronger dollar makes domestic exports pricier abroad and imports cheaper at home, reducing net exports.",
@@ -3482,10 +3482,10 @@
     "questionType": "standard",
     "question": "A hurricane knocks out a major natural-gas pipeline, sharply raising energy costs across the economy — an inflation shock unrelated to the existing output gap. The AS curve shifts left, and the economy moves to a recessionary gap with a higher inflation rate. Why can't the Fed simultaneously close the recessionary gap and restore the original (lower) inflation rate right away?",
     "choices": [
-      "Closing the gap requires easing policy (lower r, higher spending), but that keeps inflation elevated rather than bringing it back down — the two goals point in opposite policy directions",
-      "The Fed lacks any tool that affects both output and inflation at the same time",
-      "Fiscal policy, not monetary policy, is the only tool that can respond to an inflation shock",
-      "The economy will self-correct immediately, making any Fed action unnecessary"
+      "Closing the output gap calls for easing, while lowering inflation calls for tightening—the two objectives conflict",
+      "The Fed can change output or inflation separately, but no available policy affects both variables at once",
+      "Only fiscal policy can respond to an inflation shock because monetary policy moves output but not inflation",
+      "Immediate self-correction returns both output and inflation to their original values without a policy tradeoff"
     ],
     "answerIndex": 0,
     "correctExplanation": "After an adverse inflation shock, the economy sits at a point with both a recessionary gap and higher inflation. Easing monetary policy (lowering r) raises spending and closes the output gap, but doing so validates the higher inflation rate rather than fighting it — this is the 'accommodating' response Class 10 describes, which produces higher long-run inflation. Tightening policy instead would fight the inflation but deepen the recessionary gap. The Fed must choose one goal because the same tool (changing r) moves output and inflation in a related, not independently controllable, way in this situation.",
@@ -3546,10 +3546,10 @@
     "questionType": "standard",
     "question": "An economy has a small recessionary gap, highly flexible labor markets, and few long-term wage contracts. According to Class 10's discussion of the self-correcting economy, active stabilization policy in this situation is:",
     "choices": [
-      "More likely to be unnecessary or even destabilizing, since the gap should close quickly on its own",
-      "Essential, since small gaps never close without active policy",
-      "Impossible to implement, since flexible labor markets prevent any policy from working",
-      "Guaranteed to make the recovery faster than self-correction alone would"
+      "Likely unnecessary or destabilizing because flexible adjustment should close the small gap quickly",
+      "Essential because even small gaps persist indefinitely when policymakers do not change aggregate demand",
+      "Ineffective because flexible labor markets prevent monetary or fiscal policy from changing output",
+      "Certain to speed recovery because active stabilization always completes before self-correction"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 states that whether stabilization policy is needed depends on how fast the economy self-corrects, and that if the economy returns to potential output quickly, stabilization policies may be destabilizing (arriving after the economy has already adjusted on its own). A small gap combined with flexible labor markets and few long-term contracts — the conditions Class 10 identifies as speeding up adjustment — points toward fast self-correction.",
@@ -3674,10 +3674,10 @@
     "questionType": "vocab",
     "question": "A \"capacity shock\" in the AD-AS model refers to:",
     "choices": [
-      "A shock that shifts potential output, such as a change in resources/technology, fiscal policy affecting investment, or the destruction of capital in a war",
-      "A sudden, one-time change in inflation unrelated to the output gap",
-      "A change in autonomous spending caused by a shift in consumer or business confidence",
-      "A change in the Fed's target inflation rate under its monetary policy reaction function"
+      "A change in productive capacity from technology, resources, capital-forming fiscal policy, or destroyed capital",
+      "A one-time inflation shock that raises prices at every output level but leaves potential output unchanged",
+      "An autonomous-spending change that shifts aggregate demand while leaving productive capacity unchanged",
+      "A new inflation target that changes the Fed's reaction function and shifts aggregate demand"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 defines capacity shocks as shocks to potential output itself — grouping technology/resource changes, fiscal policies affecting investment/capacity, and destruction of capital (e.g., from wars) together as forces that shift Y* rather than just producing a temporary gap.",
@@ -3706,10 +3706,10 @@
     "questionType": "vocab",
     "question": "The monetary policy reaction function (MPRF), as used in Class 10's derivation of the AD curve, describes:",
     "choices": [
-      "A rule stating how the Fed sets the real interest rate in response to how far inflation is from its target",
-      "The economy's total planned aggregate expenditure at a given level of output",
-      "The relationship between potential output and the natural rate of unemployment",
-      "The formula relating the output gap to cyclical unemployment"
+      "A rule for setting the real interest rate in response to inflation's distance from target",
+      "A schedule of planned aggregate expenditure at each current level of real output",
+      "A relationship linking potential output to the natural unemployment rate through labor supply",
+      "An Okun's-law relationship linking the output gap to cyclical unemployment"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 writes the MPRF as r = r* + g(pi - pi*): the Fed's rule for setting the real interest rate r based on how far actual inflation pi is from its target pi*, with g measuring how aggressively it responds. This rule is the main reason Class 10 gives for why AD slopes downward.",
@@ -3802,10 +3802,10 @@
     "questionType": "vocab",
     "question": "The idea that an economy is \"self-correcting,\" as Class 10 uses the term, means that:",
     "choices": [
-      "Given enough time, prices and wages adjust so that output gaps disappear even without any change in monetary or fiscal policy",
-      "The Fed automatically restores potential output within a single quarter using its MPRF",
-      "Output gaps never occur because AS and AD always intersect at potential output",
-      "Fiscal automatic stabilizers immediately eliminate any recessionary or expansionary gap"
+      "Prices and wages eventually adjust so output gaps disappear without a monetary or fiscal policy change",
+      "The Fed's MPRF automatically returns output to potential within one quarter without changing real rates",
+      "AD and AS always intersect at potential output, so an output gap cannot arise in the first place",
+      "Automatic tax and transfer changes immediately eliminate any output gap without changes in prices or wages"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 defines the self-correcting economy as one where, given time, output gaps disappear without any change in monetary or fiscal policy, since prices adjust in the long run — this is the long-run resolution mechanism behind the short-run/long-run distinction in the AD-AS model.",
@@ -3963,7 +3963,7 @@
     "questionType": "formula",
     "question": "A student is given the monetary policy reaction function r = r* + g(pi - pi*), with r* = 3%, pi* = 2%, and g = 0.5, and is told inflation pi is 6%. The student computes r as follows: \"r = 0.03 + 0.5(0.06) = 0.06, so r = 6%.\" What specifically is wrong with this calculation?",
     "choices": [
-      "The student multiplied g by pi alone instead of by the inflation gap (pi - pi*); the correct calculation is r = 0.03 + 0.5(0.06 - 0.02) = 0.05, or 5%",
+      "The student used pi instead of the gap pi - pi*; r = 0.03 + 0.5(0.06 - 0.02) = 0.05, or 5%",
       "The student should have used pi* instead of pi in the formula, giving r = 0.03 + 0.5(0.02) = 0.04",
       "The student forgot to add r* at all, so the answer should be 0.5(0.06 - 0.02) = 0.02, or 2%",
       "Nothing is wrong; 6% is the correct real interest rate"
@@ -4028,10 +4028,10 @@
     "questionType": "graph",
     "question": "In the diagram, the economy starts in long-run equilibrium at point A, where AD, AS, and Y* intersect. A sudden, unexpected surge in global fertilizer prices sharply raises food production costs economywide, unrelated to the existing output gap. Assuming the Fed does not change its MPRF, which point does the diagram suggest the economy moves to, and why?",
     "choices": [
-      "Point B: AS shifts left (dashed to a new position above and left of AS), so the new short-run equilibrium has lower output than Y* and higher inflation than at A",
-      "Point B: AD shifts right, so the new short-run equilibrium has higher output than Y* and higher inflation than at A",
-      "The economy stays at point A, since a cost shock doesn't affect equilibrium unless the Fed changes policy",
-      "AS shifts right, so the new short-run equilibrium has higher output than Y* and lower inflation than at A"
+      "Point B: AS shifts left, producing output below Y* and inflation above its level at A",
+      "Point B: AD shifts right, producing output above Y* and inflation above its level at A",
+      "Point A: the cost shock leaves both curves fixed unless the Fed changes its reaction function",
+      "A new point on right-shifted AS, with output above Y* and inflation below its level at A"
     ],
     "answerIndex": 0,
     "correctExplanation": "A sudden, output-gap-unrelated cost increase is exactly Class 10's definition of an inflation shock, which shifts the AS curve left (higher inflation at every level of output). With AD unchanged, the new short-run equilibrium (where the new AS crosses the unchanged AD) sits at lower output than Y* (a recessionary gap) and higher inflation than before — the same 'facing inflation shocks' pattern Class 10 walks through for the 1973 oil shock.",
@@ -4065,10 +4065,10 @@
     "questionType": "graph",
     "question": "Two otherwise identical economies are both hit by the same adverse inflation shock, moving each from long-run equilibrium into a recessionary gap with higher inflation. Economy A's central bank accommodates the shock (eases policy and raises its long-run inflation target). Economy B's central bank does nothing further and simply lets the economy self-correct over time. Comparing the two economies' eventual long-run outcomes, which statement is correct?",
     "choices": [
-      "Both economies return to potential output in the long run, but Economy A ends up with a permanently higher inflation rate than Economy B",
-      "Economy A permanently produces above potential output, while Economy B returns to potential output",
-      "Economy B never returns to potential output, since it received no policy help",
-      "Both economies end up at the same long-run inflation rate, since inflation shocks are always temporary regardless of policy"
+      "Both return to potential output, but accommodation leaves Economy A with permanently higher inflation than Economy B",
+      "Accommodation leaves Economy A permanently above potential, while self-correction returns Economy B to potential",
+      "Economy A returns to potential through policy, but Economy B remains below potential without policy assistance",
+      "Both return to potential at the same inflation rate because the original inflation shock is temporary under either response"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10's self-correcting economy reaches potential output on its own, without a policy change, eventually returning to the original inflation rate. Class 10's accommodating central bank also reaches potential output, but only after resetting its long-run inflation target higher, which shifts AD right and locks in permanently higher inflation. Both curves return output to potential in the long run; the accommodating economy simply arrives there at a higher price for doing so — higher long-run inflation.",
@@ -4098,10 +4098,10 @@
     "questionType": "graph",
     "question": "A demand shock (a jump in consumer confidence) shifts AD to the right, moving the economy from long-run equilibrium into a short-run expansionary gap with a higher inflation rate. A student looking at the diagram says: \"Since the inflation rate went up, the AS curve must have shifted left too.\" What is wrong with the student's reasoning?",
     "choices": [
-      "The higher inflation rate is a movement along the unchanged, upward-sloping AS curve (output moved right along AS as AD shifted), not evidence that AS itself shifted",
-      "Nothing is wrong; a rise in inflation always means AS has shifted left, regardless of what caused it",
-      "The student is right that AS shifted, but shifted right instead of left",
-      "AS cannot be graphed at all in the short run, so the student's claim is meaningless"
+      "Higher inflation reflects movement up the unchanged AS curve after AD shifts right, not a shift of AS",
+      "The student is correct because any inflation increase requires AS to shift left, even after a demand shock",
+      "AS shifted right rather than left, causing output and inflation to rise together along unchanged AD",
+      "AS exists only in the long run, so short-run inflation cannot be represented as movement along that curve"
     ],
     "answerIndex": 0,
     "correctExplanation": "AS is upward sloping: at higher output, firms need a higher price level to be willing to supply that output. When AD shifts right, the new equilibrium slides up along the *same*, unchanged AS curve to a point with both higher output and higher inflation — no AS shift is required to produce that pattern. The student is mistaking a movement along AS (caused by AD's shift) for a shift of AS itself.",
@@ -4131,10 +4131,10 @@
     "questionType": "graph",
     "question": "An economy is in long-run equilibrium. A lasting improvement in production technology raises potential output (the vertical Y* line shifts right), while AD and the Fed's MPRF remain unchanged. Once the economy reaches its new long-run equilibrium, what has happened to output and inflation compared to before?",
     "choices": [
-      "Output has risen to the new, higher Y*, and the long-run inflation rate has fallen, since AD now intersects a further-right Y* line at a lower point along the unchanged AD curve",
-      "Output has risen but inflation is unchanged, since only Y* moved and AD didn't shift",
-      "Output is unchanged, but inflation has fallen, since potential output shocks only affect prices",
-      "Both output and inflation rise, since a capacity shock always accompanies a demand shock"
+      "Output rises to the new Y*, while inflation falls because unchanged AD meets the right-shifted long-run supply line lower down",
+      "Output rises to the new Y*, but inflation stays fixed because aggregate demand itself did not shift",
+      "Output stays at the old Y*, while inflation falls because supply shocks affect prices rather than productive capacity",
+      "Output and inflation both rise because every positive capacity shock necessarily shifts aggregate demand right too"
     ],
     "answerIndex": 0,
     "correctExplanation": "Long-run equilibrium sits where AD, AS, and Y* all intersect. If Y* shifts right with AD unchanged, the new long-run equilibrium is at the new Y* but read off the same, unchanged (downward-sloping) AD curve — moving right along AD means reading off a lower inflation rate. So output rises to the new potential and the long-run inflation rate falls.",
@@ -4163,10 +4163,10 @@
     "questionType": "standard",
     "question": "By the early 1980s, inflation had reached 13.5%. Fed chair Paul Volcker responded by tightening monetary policy sharply, triggering the deep 1981-82 recession, after which inflation fell to about 3% by 1983. Which sequence best describes the mechanism at work?",
     "choices": [
-      "Higher real interest rates reduced planned spending, opening a large recessionary gap, and the resulting slack pulled inflation down over time",
-      "The Fed printed more money, which mechanically lowered prices",
-      "Higher interest rates directly lowered the price of oil, which reduced inflation",
-      "Congress raised taxes sharply, which is what actually reduced inflation, not the Fed's actions"
+      "Higher real rates reduced spending and created recessionary slack, which pulled inflation down over time",
+      "Money-supply expansion lowered prices directly, reducing inflation without creating an output gap",
+      "Higher interest rates reduced oil prices directly, lowering inflation without changing aggregate demand",
+      "A sharp tax increase created the recessionary gap, while the Fed's interest-rate policy had no effect"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 describes the Volcker episode as monetary policy defeating inflation via a deliberate, deep recession: tightening (higher r) reduces planned spending, producing a large recessionary gap (unemployment peaked at 9.7% in 1982), and per the output-gap/inflation relationship, a recessionary gap puts downward pressure on inflation over time.",
@@ -4227,10 +4227,10 @@
     "questionType": "standard",
     "question": "Between 1960 and 2008, the volatility of U.S. real GDP growth fell by about half and inflation volatility fell by roughly two-thirds — a period Class 10 calls the decline in macroeconomic variability. Which explanation(s) does Class 10 offer for this decline?",
     "choices": [
-      "Both the Fed's more consistent policy actions and possible structural changes that made the economy better able to absorb shocks",
-      "Only a coincidental run of good luck, with no role for policy or structural change",
-      "A permanent elimination of the business cycle after 1960",
-      "A sharp reduction in government spending that eliminated fiscal shocks entirely"
+      "More consistent Fed policy together with structural changes that may have improved shock absorption",
+      "A favorable sequence of small shocks, with neither policy consistency nor structural change contributing",
+      "A permanent end to business cycles after 1960, eliminating both output gaps and inflation shocks",
+      "A sustained reduction in government spending that removed fiscal shocks while monetary policy became less consistent"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 credits the Fed's consistent policy actions with helping cause the increased stability, while also noting that structural changes in the economy may have made it more adept at absorbing shocks — both explanations are offered together, not framed as mutually exclusive.",
@@ -4258,10 +4258,10 @@
     "questionType": "standard",
     "question": "Two central banks face an identical adverse inflation shock. Central Bank A has decades of consistent inflation-fighting credibility and an explicit inflation target; the public firmly expects inflation to return to target. Central Bank B has no such reputation, and the public is unsure whether an inflation surge will persist. According to Class 10's discussion of credibility, which bank likely needs a smaller change in its real interest rate to bring inflation back to target, and why?",
     "choices": [
-      "Central Bank A, because well-anchored inflation expectations mean the public doesn't build the shock into wages and prices as much, so less policy tightening is needed to bring inflation back down",
-      "Central Bank B, because a less credible bank can rely on the public simply trusting it will fix things without any policy action",
-      "Neither — credibility has no effect on how much a central bank needs to tighten policy",
-      "Central Bank A, because credible central banks are legally required to use smaller interest rate changes"
+      "Central Bank A: anchored expectations limit wage-price propagation, so less tightening is needed",
+      "Central Bank B: weak credibility makes the public more willing to trust that inflation will fall without tightening",
+      "Neither bank: identical shocks require identical rate changes because expectations do not affect inflation persistence",
+      "Central Bank A: legal independence requires credible banks to change rates only in smaller increments"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 ties credibility to how anchored inflation expectations are — the more credible the policy, the more inflation is anchored. Anchored expectations mean workers and firms don't build the shock into future wage/price contracts as readily, so the inflation shock is less likely to become self-perpetuating, requiring less aggressive tightening to bring it back to target than a less-credible central bank facing the same shock and less-anchored expectations.",
@@ -4290,10 +4290,10 @@
     "questionType": "standard",
     "question": "A country has experienced 4% inflation for several years running, and long-term wage contracts across the economy are now being negotiated assuming 4% inflation will continue. According to Class 10's discussion of inflation inertia, what does this imply about next year's inflation rate, absent any new shock?",
     "choices": [
-      "Inflation will tend to remain near 4%, since today's expectations (built into contracts and shaped by recent experience) feed directly into next year's actual inflation",
-      "Inflation will fall to zero automatically, since contracts always correct for past inflation",
-      "Inflation is entirely unpredictable and unrelated to past experience or expectations",
-      "Inflation will double, since 4% inflation always compounds year over year regardless of expectations"
+      "Inflation tends to remain near 4% because expectations embedded in contracts feed into next year's inflation",
+      "Inflation falls toward zero because contracts automatically remove any inflation inherited from the prior year",
+      "Inflation becomes unrelated to past experience once firms and workers form expectations for a new year",
+      "Inflation rises toward 8% because a 4% rate compounds into a doubled annual inflation rate"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 explains inflation inertia through two channels: inflation expectations (with recent experience shaping what people expect) and long-term wage/price contracts that build those expectations in. With both pointing to 4%, and no new shock, inflation has inertia and tends to continue near that rate rather than snapping back to some other value.",
@@ -4321,9 +4321,9 @@
     "questionType": "standard",
     "question": "A recession begins to emerge. Policymakers debate whether monetary policy or fiscal policy can respond and take effect faster. Based on Class 10's discussion of policy lags, which statement is accurate?",
     "choices": [
-      "Monetary policy typically has a shorter inside lag (time to decide and implement) but a longer outside lag (time for effects to show up) than fiscal policy",
-      "Fiscal policy always responds and takes effect faster than monetary policy on every dimension",
-      "Both types of policy have identical inside and outside lags, so the distinction doesn't matter",
+      "Monetary policy usually has a shorter inside lag but a longer outside lag than fiscal policy",
+      "Fiscal policy has both a shorter inside lag and a shorter outside lag than monetary policy",
+      "Fiscal and monetary policy have identical inside and outside lags once implementation begins",
       "Monetary policy has a longer inside lag but a shorter outside lag than fiscal policy"
     ],
     "answerIndex": 0,
@@ -4353,10 +4353,10 @@
     "questionType": "standard",
     "question": "Which of the following was among the criticisms Class 10 identifies as part of the political backlash against the Fed's and government's response to the 2008-09 recession?",
     "choices": [
-      "Concerns that the massive increase in federal government debt would scare the public, alongside Ricardian-equivalence-style arguments that fiscal policy had little effect on aggregate demand",
-      "Complaints that the Fed cut interest rates far too little compared to what was actually needed",
-      "Concerns that Congress passed too many separate, uncoordinated stimulus bills over too many years",
-      "Widespread agreement that the financial sector was punished too harshly for its role in the crisis"
+      "Concern about rising federal debt, alongside Ricardian-equivalence arguments that fiscal policy had little effect on demand",
+      "Concern that the Fed cut rates too little, leaving conventional monetary policy unnecessarily contractionary",
+      "Concern that Congress spread stimulus across too many uncoordinated bills rather than passing one package",
+      "Concern that the financial sector was punished too severely rather than protected after the crisis"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 lists among the backlash: views that the Fed was overstepping its bounds, inflationary-danger concerns, the debt increase scaring people, and Ricardian-equivalence-like arguments that fiscal policy had no aggregate-demand impact — plus complaints that no one in the financial world was punished (the opposite of the fourth choice here).",
@@ -4385,10 +4385,10 @@
     "questionType": "standard",
     "question": "A central bank has kept its inflation target extremely low (say, near 0-1%) for many years and takes pride in never missing it. A severe recession hits. According to the macroeconomic lessons Class 10 draws from the 2008-09 crisis, what problem does this central bank's low target create for fighting the recession?",
     "choices": [
-      "With such a low target (and therefore low typical nominal interest rates), the central bank has very little room to cut its nominal rate before hitting the zero lower bound, limiting how expansionary monetary policy can be",
-      "A low inflation target has no bearing at all on the central bank's ability to fight a recession",
-      "A low inflation target guarantees the central bank will never face a recession in the first place",
-      "A low inflation target automatically triggers larger fiscal stimulus to compensate"
+      "A very low target implies low typical nominal rates and little room to cut before reaching the zero lower bound",
+      "A low target reduces expected inflation but leaves the central bank's recession-fighting room unchanged",
+      "A low target prevents recessions by keeping both inflation expectations and real interest rates permanently stable",
+      "A low target automatically activates enough fiscal stimulus to offset the monetary zero-lower-bound constraint"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 draws the lesson that extremely low inflation limits expansionary monetary policy, since it leaves little room between the (low) typical nominal interest rate and the zero lower bound — this is why the lesson calls for committing to a (potentially higher) target rate, to preserve room to cut rates during a downturn.",
@@ -4417,10 +4417,10 @@
     "questionType": "standard",
     "question": "A central bank announces a new inflation target every time inflation deviates from the previous one, effectively re-anchoring its target to whatever inflation happens to be at the time. According to Class 10's account of credibility and inflation inertia together, what is the most likely long-run consequence for this economy compared to one with a stable, credible, unchanging target?",
     "choices": [
-      "Inflation expectations become less anchored and more volatile, since the public can no longer be confident the current target will actually be defended, which in turn makes future inflation itself more variable through the inertia channel",
-      "Inflation expectations become perfectly anchored, since the public always knows the target will simply match whatever inflation currently is",
-      "Credibility and the frequency of target changes are unrelated, so there is no consequence for expectations",
-      "Nominal wage contracts become irrelevant to inflation once the target changes frequently"
+      "Expectations become less anchored; weaker confidence in the target makes future inflation more variable through the inertia channel",
+      "Expectations become perfectly anchored because the public can predict that each new target will match current inflation",
+      "Expectations remain unchanged because credibility depends only on legal independence, not the bank's target-setting behavior",
+      "Expectations become irrelevant because frequent target changes prevent wage and price contracts from affecting inflation"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 ties credibility to a reputation for defending a stated target — a bank that keeps re-anchoring its target to match current inflation is not demonstrating any commitment to defend a specific number, undermining credibility. Less credibility means less-anchored expectations (per Class 10's credibility discussion), and since expectations feed directly into future inflation through the inertia channel (expectations built into contracts), less-anchored expectations translate into more volatile future inflation — a two-step chain connecting credibility to inertia.",
@@ -4450,10 +4450,10 @@
     "questionType": "vocab",
     "question": "\"Inflation inertia,\" as Class 10 uses the term, refers to:",
     "choices": [
-      "Inflation's tendency to remain relatively constant as long as the economy is at potential output with no external shocks to the price level",
-      "The delay between a policy change and its effect on inflation",
-      "A sudden, one-time change in the normal behavior of inflation, such as an oil-price spike",
-      "The tendency of inflation to always return to exactly zero over time"
+      "Inflation's tendency to persist when output is at potential and no external price-level shock occurs",
+      "The delay between implementing monetary policy and observing its effects on output and inflation",
+      "A one-time departure from inflation's normal behavior caused by an external shock such as oil prices",
+      "Inflation's tendency to return to zero whenever actual output returns to potential output"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10 defines inflation inertia as inflation staying relatively constant as long as the economy is at potential output and there are no external shocks — driven by inflation expectations and long-term wage/price contracts.",
@@ -4481,8 +4481,8 @@
     "questionType": "vocab",
     "question": "Class 10 distinguishes a central bank's \"credibility\" from its \"independence.\" Which pairing correctly matches each term to its meaning?",
     "choices": [
-      "Credibility is the degree to which the public believes the bank will defend its inflation target; independence (freedom from political control over monetary decisions) is one factor that helps build that credibility",
-      "Credibility and independence are two names for the exact same concept, used interchangeably",
+      "Credibility is public belief that the bank will defend its target; independence from political control can help build that belief",
+      "Credibility and independence both mean legal freedom from elected officials when setting monetary policy",
       "Independence is the degree to which the public believes the target will be defended; credibility is a legal structure protecting the bank from political control",
       "Credibility refers only to the bank's balance-sheet size, while independence refers only to its interest-rate-setting power"
     ],
@@ -4546,10 +4546,10 @@
     "questionType": "vocab",
     "question": "Which concept from Class 10 is described by \"a multi-decade period (roughly 1960s through 2008) during which the volatility of GDP growth and inflation both declined substantially, credited partly to more consistent Fed policy\"?",
     "choices": [
-      "The Great Moderation (declining macroeconomic variability)",
-      "The Great Inflation",
-      "The zero lower bound",
-      "Inflation inertia"
+      "The Great Moderation, a decline in macroeconomic variability",
+      "The Great Inflation, a sustained rise in inflation variability",
+      "The zero lower bound, a constraint on nominal rate cuts",
+      "Inflation inertia, persistence of the current inflation rate"
     ],
     "answerIndex": 0,
     "correctExplanation": "This describes what Class 10 calls the declining macroeconomic variability, commonly known as the Great Moderation: falling volatility in growth and inflation from roughly 1960 through 2008, credited in part to Fed policy consistency.",
@@ -4610,13 +4610,13 @@
     "questionType": "graph",
     "question": "In the diagram, the economy starts at point A, in long-run equilibrium at Y*. The central bank tightens monetary policy sharply by adopting a new, more aggressive MPRF aimed at bringing down persistently high inflation, deliberately accepting a recession to do it. Which move in the diagram, and which resulting point, best represents this policy?",
     "choices": [
-      "AD shifts left to AD' (a new MPRF, not a movement along the old AD), moving the economy to point B, with lower output than Y* and lower inflation than at A",
-      "AS shifts right, moving the economy to point B, with higher output than Y* and lower inflation",
-      "AD shifts right to AD', moving the economy to point B, with higher output and higher inflation",
-      "The economy stays at point A, since only fiscal policy can change the inflation rate"
+      "AD shifts left to AD', moving equilibrium to B with output below Y* and inflation below its level at A",
+      "AS shifts right, moving equilibrium to B with output above Y* and inflation below its level at A",
+      "AD shifts right to AD', moving equilibrium to B with output and inflation both above their levels at A",
+      "AD and AS stay fixed at A because a new monetary policy rule causes only movement along aggregate demand"
     ],
     "answerIndex": 0,
-    "correctExplanation": "Deliberately adopting a *new*, more aggressive MPRF (not just following the existing one as inflation changes) is precisely what shifts AD, here to the left, since the new rule sets a lower r at every inflation rate than the old one. The result is a recessionary gap (output below Y*, matching the deep 1981-82 recession) alongside a lower inflation rate — exactly the tradeoff Volcker accepted to break the Great Inflation.",
+    "correctExplanation": "Deliberately adopting a *new*, more aggressive MPRF (not just following the existing one as inflation changes) shifts AD to the left because the tighter rule sets a higher r at each relevant inflation rate than the old rule. The result is a recessionary gap (output below Y*, matching the deep 1981-82 recession) alongside lower inflation — exactly the tradeoff Volcker accepted to break the Great Inflation.",
     "wrongExplanations": [
       null,
       "Tightening monetary policy is a demand-side, not supply-side, action — nothing here changes firms' resources, technology, or inflation expectations directly, so AS is not what shifts.",
@@ -4648,10 +4648,10 @@
     "questionType": "graph",
     "question": "Picture two time-series charts of real GDP plotted against its potential-output trend line. Chart 1 covers 1945-1959: actual GDP swings widely above and below the trend line. Chart 2 covers 1985-1999 (the Great Moderation era): actual GDP stays much closer to the trend line throughout, with smaller swings. Which statement correctly describes what these two charts illustrate?",
     "choices": [
-      "Chart 2 shows a smaller range of output gaps over time than Chart 1, consistent with Class 10's description of reduced macroeconomic variability during the Great Moderation",
-      "Chart 2 shows that potential output itself stopped growing during the Great Moderation",
-      "Chart 1 shows the Great Moderation, since wider swings mean a more \"moderate\" economy",
-      "The two charts show the exact same pattern; the Great Moderation refers only to inflation, never to output"
+      "Chart 2 has smaller output gaps than Chart 1, consistent with reduced macroeconomic variability during the Great Moderation",
+      "Chart 2 shows potential output stopped growing, which defines reduced variability during the Great Moderation",
+      "Chart 1 represents the Great Moderation because wider output gaps make the economy more responsive to shocks",
+      "Both charts show equal output variability because the Great Moderation concerns inflation rather than output"
     ],
     "answerIndex": 0,
     "correctExplanation": "The Great Moderation refers to a decline in the size of fluctuations in both output and inflation, not a change in trend growth — a chart with actual output hugging its trend line more closely (smaller output gaps in both directions) over 1985-1999 compared to 1945-1959 is exactly the pattern Class 10 describes as declining macroeconomic variability.",
@@ -4680,10 +4680,10 @@
     "questionType": "standard",
     "question": "Imagine a car dealership's finance manager is paid a flat commission for every auto loan signed, regardless of whether the buyer ever makes a single payment, because the dealership immediately sells every loan to an outside investor. Which crisis-era mechanism does this most resemble, and what problem does it create?",
     "choices": [
-      "The originate-to-distribute model: since the manager bears none of the default risk, they have little incentive to carefully screen borrowers' ability to repay",
-      "Securitization tranching: the manager is simply dividing loans into risk categories for different investors",
-      "The too-big-to-fail problem: the dealership is so large that regulators can't let it fail",
-      "The Fisher effect: nominal loan rates simply track expected inflation"
+      "An originate-to-distribute principal-agent problem: the manager bears little default risk and therefore screens borrowers less carefully",
+      "A securitization-tranching problem: the manager sorts loans by risk before retaining every default loss",
+      "A too-big-to-fail problem: regulators guarantee the individual dealership because its failure would threaten the financial system",
+      "A Fisher-effect problem: expected inflation lowers the manager's real return and therefore weakens borrower screening"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading explains that mortgage originators who sold off their loans immediately bore no risk if the loan went bad, creating a principal-agent problem: no incentive to check borrowers' credit history carefully. A commission-based finance manager who never holds the loan faces the exact same misaligned incentive.",
@@ -4712,10 +4712,10 @@
     "questionType": "standard",
     "question": "Before securitization became widespread, a bank that made a bad mortgage loan mainly hurt its own balance sheet. Once mortgages were pooled and sold as securities to investors across the financial system, why did trouble in the housing market spread so much more broadly to Wall Street firms?",
     "choices": [
-      "Financial institutions across Wall Street had bought and held large quantities of the mortgage-backed securities themselves, so when the underlying mortgages went bad, those institutions absorbed the losses too",
-      "Securitization eliminated all risk from mortgage lending entirely, so the spread must have come from an unrelated cause",
-      "Securitization required every investor to personally co-sign each individual mortgage",
-      "Securitization only affected government-owned banks, not private Wall Street firms"
+      "Wall Street institutions held large quantities of mortgage-backed securities, so mortgage defaults transmitted losses to those institutions",
+      "Securitization dispersed mortgage risk so completely that institutional losses must have come from an unrelated market",
+      "Securitization made each investor legally co-sign the underlying mortgages, transmitting every household payment obligation directly",
+      "Securitization transferred mortgages only to government banks, insulating private Wall Street institutions from default losses"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading explains that securitization pools mortgages and sells slices to investors, and that financial institutions involved in securitization also bought and held many of these securities themselves — so when the underlying mortgages soured, the losses were no longer contained to the original lender but spread across every institution holding a piece of the securitized pool.",
@@ -4776,10 +4776,10 @@
     "questionType": "standard",
     "question": "Suppose a credit rating agency is paid directly by the same firms whose mortgage-backed securities it rates, and firms are free to shop around for whichever agency gives the most favorable rating. According to the reading, why might this arrangement lead to inflated ratings on risky securities?",
     "choices": [
-      "The agency has a financial incentive to avoid being too tough, since a firm unhappy with a low rating can simply take its business to a competing agency instead",
-      "Credit rating agencies are legally required to give every security the highest possible rating",
-      "This arrangement has no effect on ratings, since agencies are always fully independent of the firms they rate",
-      "Investors, not issuers, actually pay the rating agencies in this model, eliminating any conflict"
+      "Issuer fees encourage an agency to avoid tough ratings because dissatisfied issuers can hire a competitor",
+      "Issuer fees legally require an agency to assign the highest rating to any security it evaluates",
+      "Issuer fees do not affect incentives because agencies cannot lose business to competing raters",
+      "Investor-paid fees eliminate the conflict because the investors, rather than issuers, choose and pay the agency"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading identifies this issuer-pays, shop-around dynamic as a principal-agent problem: because issuers pay for ratings and can switch agencies, a tough agency risks losing business, creating pressure toward favorable ratings — compounded by the genuine difficulty (opacity) of assessing complex mortgage-backed securities in the first place.",
@@ -4808,10 +4808,10 @@
     "questionType": "standard",
     "question": "A financial institution operates with a very low capital (equity) ratio relative to its assets — much of what it owns is financed with borrowed money rather than its own equity cushion. If the value of its assets falls by a small percentage, what does the reading suggest happens to the institution's equity?",
     "choices": [
-      "Equity falls by a much larger percentage than assets did, since losses are absorbed entirely out of the thin equity cushion while liabilities stay fixed",
+      "Equity falls by a larger percentage because fixed liabilities leave the thin equity cushion to absorb asset losses",
       "Equity falls by exactly the same percentage as assets, since leverage has no effect on how losses are distributed",
-      "Equity is completely unaffected, since only liabilities absorb asset losses",
-      "Equity rises, since a decline in asset values always benefits highly leveraged firms"
+      "Equity is unaffected because creditors reduce fixed liabilities by the same amount as the asset loss",
+      "Equity rises because leverage converts a decline in asset values into a gain for the residual owners"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading's balance-sheet framing (institutions like Fannie Mae, Freddie Mac, Bear Stearns, and Lehman operating with roughly 3% capital ratios) shows that because liabilities are fixed contractual obligations, any decline in asset value comes entirely out of the thin equity cushion — a small percentage drop in assets can wipe out a much larger percentage of equity, since equity was so small to begin with relative to assets.",
@@ -4840,10 +4840,10 @@
     "questionType": "standard",
     "question": "A large financial institution is a counterparty in thousands of complex, interlinked contracts with banks and funds around the world. If it fails suddenly, sorting out who owes what to whom would be extremely difficult and could set off failures at many other institutions. This is the essence of which crisis-era argument, and what specifically does it justify?",
     "choices": [
-      "The \"too big to fail\" argument, which was used to justify government intervention to prevent such an institution's failure from cascading into a broader systemic crisis",
+      "The too-big-to-fail argument, used to justify intervention against a cascading systemic crisis",
       "The principal-agent problem, which is about misaligned incentives between an agent and the party they represent, not about institutional size",
-      "Securitization, which is a method of pooling and dividing loans into marketable securities",
-      "The Fisher effect, which links nominal interest rates to expected inflation"
+      "Securitization, which justifies rescues because pooling loans makes every large institution a government counterparty",
+      "The Fisher effect, which justifies intervention because expected inflation magnifies counterparty defaults"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading presents too-big-to-fail as precisely this counterparty-risk argument: a large, deeply interconnected institution's failure can set off a chain of failures at other firms, which was used (as with Fannie Mae and Freddie Mac) to justify preventing such failures through intervention.",
@@ -4872,10 +4872,10 @@
     "questionType": "standard",
     "question": "A firm is close to insolvency and considers issuing new shares of stock to raise cash and rebuild its equity cushion. According to the reading, why is this often very difficult for a firm in this position to pull off?",
     "choices": [
-      "If the firm does become insolvent, much of the value from a new equity issue would end up benefiting existing bondholders first (since they have first claim on assets), making new equity investors reluctant to buy in",
-      "Regulations flatly prohibit any firm from issuing new equity once it is near insolvency",
-      "New equity issuance always immediately triggers bankruptcy proceedings",
-      "Bondholders are legally required to convert their debt into equity before a firm can issue new shares"
+      "Because bondholders have senior claims, new equity may mainly protect existing debt holders, making new shareholders reluctant to invest",
+      "Securities law prohibits a firm near insolvency from issuing equity until every existing bond is repaid",
+      "Issuing equity is itself a declaration of insolvency and therefore automatically begins bankruptcy proceedings",
+      "Existing bondholders must convert all debt to equity before an insolvent firm may sell shares to new investors"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading explains that new equity holders would effectively be funding a firm whose value, in the event of insolvency, largely flows to bondholders first (who have priority claims) — this makes new equity unattractive to potential investors precisely when the firm needs it most, a specific reason firms struggle to recapitalize while distressed.",
@@ -4904,10 +4904,10 @@
     "questionType": "standard",
     "question": "AIG sold enormous quantities of credit default swaps (CDS) tied to mortgage-backed securities. When those securities lost value, why did AIG's troubles pose such a large risk to the wider financial system, according to the reading?",
     "choices": [
-      "AIG had effectively insured huge quantities of debt across the financial system; if AIG failed, all the institutions counting on those CDS payouts to cover their own losses would be exposed as well",
-      "AIG's only business was traditional homeowners' insurance, unrelated to mortgage securities",
-      "Credit default swaps eliminate all risk for the buyer and the seller alike, so AIG's troubles were purely a public-relations issue",
-      "AIG was a small, isolated firm with no meaningful ties to other institutions"
+      "AIG insured debt throughout the system with CDS contracts, so its failure would expose institutions relying on those payouts",
+      "AIG insured only individual homes, so its failure threatened banks through ordinary property claims rather than debt contracts",
+      "CDS contracts eliminated counterparty risk for buyers and sellers, making AIG's distress reputational rather than systemic",
+      "AIG had few financial counterparties, so its failure would remain isolated despite its large conventional-insurance business"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading describes a CDS as a contract letting debt holders insure against default, with AIG on the other side of enormous numbers of these contracts tied to the MBS market; because so many institutions depended on AIG's CDS payouts to offset their own losses, AIG's potential failure threatened to expose all of those counterparties to losses they thought were insured away.",
@@ -4936,10 +4936,10 @@
     "questionType": "standard",
     "question": "The reading describes two distinct channels through which the financial crisis spread to the broader (\"real\") economy: a balance-sheet channel and a credit channel. Which pairing correctly distinguishes them?",
     "choices": [
-      "Balance-sheet channel: falling asset values make households/firms feel poorer and cut spending directly; credit channel: a broken financial system disrupts the flow of funds from savers to borrowers, separately harming sectors that depend on credit",
-      "Balance-sheet channel and credit channel both describe the exact same mechanism, just using different names",
-      "Balance-sheet channel: disrupted lending to borrowers; credit channel: falling asset values making people feel poorer",
-      "Both channels only describe effects on government fiscal accounts, not private spending"
+      "The balance-sheet channel cuts spending through lost wealth; the credit channel cuts spending by disrupting funds from savers to borrowers",
+      "Both channels describe impaired lending between savers and borrowers, with balance sheets supplying only a second name",
+      "The balance-sheet channel disrupts lending; the credit channel reduces spending through falling household and firm wealth",
+      "Both channels reduce private spending only indirectly through their effects on government tax revenue and transfers"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading lists these as two separate mechanisms: the balance-sheet channel (asset values fall, people/firms feel poorer, spending falls) and the credit channel (a breakdown in the financial system disrupts the flow of funds from savers to borrowers, hurting credit-dependent sectors) — distinct effects that reinforce each other but operate differently.",
@@ -4969,10 +4969,10 @@
     "questionType": "standard",
     "question": "At the zero lower bound, a central bank buys large quantities of long-term government bonds and mortgage-backed securities from the market (a large-scale asset purchase program). According to the reading's portfolio-rebalance channel, why can this lower long-term interest rates even though the short-term policy rate is already at zero?",
     "choices": [
-      "Because assets aren't perfectly substitutable for investors, buying up a large supply of one type of long-term asset changes the relative supply available to investors, which can raise that asset's price and lower its yield",
-      "Because the purchases directly force commercial banks to lower every interest rate they charge by law",
-      "Because the purchases eliminate all remaining government debt, mechanically setting all interest rates to zero",
-      "Because the purchases have no effect on interest rates at all; only the fed funds rate matters for long-term rates"
+      "Because assets are imperfect substitutes, large purchases change relative supplies, raising the purchased asset's price and lowering its yield",
+      "Because asset purchases legally require commercial banks to lower every loan rate by the same amount",
+      "Because the purchases retire all government debt, eliminating bond yields and setting every long-term rate to zero",
+      "Because only the federal funds rate affects long-term yields, so the purchases work by changing that short-term rate below zero"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading explains the portfolio-rebalance channel: because investors have preferences (e.g., regulatory constraints or risk preferences) that make assets imperfect substitutes, large asset purchases changing the relative supply of a given asset type can move its price up and its yield down — a channel that works even when the short-term policy rate can't fall any further.",
@@ -5001,10 +5001,10 @@
     "questionType": "standard",
     "question": "A central bank announces that its policy rate will stay near zero \"at least through the middle of next year.\" According to the reading, what specific risk does this calendar-date style of forward guidance create that a conditions-based statement (e.g., \"until unemployment falls below X%\") would not?",
     "choices": [
-      "Markets may misread the calendar date as an unconditional commitment rather than the bank's forecast of when conditions will change, leaving them confused about how policy would respond if the economic outlook shifted before or after that date",
-      "Calendar-date guidance guarantees markets will always underestimate how long low rates will last",
-      "Calendar-date guidance has no risks at all compared to conditions-based guidance",
-      "Calendar-date guidance is illegal for central banks to use under any circumstances"
+      "Markets may mistake a forecast date for an unconditional promise, obscuring how policy would respond if economic conditions change",
+      "Markets must interpret the date as a minimum commitment, so they always underestimate how long low rates will last",
+      "A calendar date conveys the reaction function more clearly than economic conditions and therefore carries no interpretation risk",
+      "Calendar-date guidance violates central-bank law because policy communication may describe conditions but never dates"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading discusses exactly this risk: a calendar date could be read either as the bank's forecast of when its own policy rule would call for a change, or as a signal the bank will keep policy easy regardless of the forecast — this ambiguity means it \"does not help financial market participants understand how policy might change if economic conditions change,\" unlike guidance tied explicitly to conditions.",
@@ -5033,10 +5033,10 @@
     "questionType": "standard",
     "question": "In 1937, the U.S. budget deficit (adjusted for the state of the economy) fell sharply — partly because emergency 1936 spending expired and partly because new Social Security taxes began — and a second recession followed in 1938. If a country today sharply cuts spending and raises taxes at the same time its economy is still fragile, what does Romer's account of 1937-38 suggest is the likely risk?",
     "choices": [
-      "A renewed contraction in output, since Romer's account attributes at least part of the 1937-38 downturn to this kind of abrupt fiscal tightening",
-      "No risk at all, since fiscal policy changes have no effect on output according to Romer's account",
-      "A guaranteed boom, since cutting deficits always accelerates growth immediately",
-      "Higher inflation only, with no effect on output whatsoever"
+      "A renewed output contraction, since Romer links part of the 1937–38 downturn to abrupt fiscal tightening",
+      "No output risk, since Romer's account treats fiscal changes as neutral whenever monetary policy remains unchanged",
+      "An immediate boom, since lower deficits necessarily raise private investment enough to offset lost government demand",
+      "Higher inflation without an output effect, because fiscal tightening changes prices but not aggregate demand"
     ],
     "answerIndex": 0,
     "correctExplanation": "Romer explicitly draws this lesson: the 1937 fiscal contraction (falling deficit from expired spending plus new taxes) is cited as an important contributor to the 1938 recession, and she draws a direct parallel to 2010s austerity in countries like the UK, where \"growth stopped and unemployment rose\" after cutting deficits — the same risk applies to a fragile economy tightening fiscal policy today.",
@@ -5067,10 +5067,10 @@
     "questionType": "standard",
     "question": "Romer argues that Roosevelt's 1933 exit from the gold standard worked as a dramatic \"regime shift\" that changed expectations from deflation to mild inflation, even at a zero nominal interest rate — and that the post-2008 Fed, by contrast, mostly \"pushed the boundaries of their current regime\" rather than adopting anything as dramatic. How does this critique connect to the specific tools described in the Haltom reading?",
     "choices": [
-      "Tools like LSAPs and calendar-date forward guidance are incremental extensions of the existing policy framework rather than a fundamental change in the framework itself (like adopting a new nominal GDP target), which is consistent with Romer's view that the Fed's post-2008 response fell short of a true regime shift",
-      "LSAPs and forward guidance are, by themselves, exactly the kind of dramatic regime shift Romer says Roosevelt engineered, so her critique doesn't apply to the Fed at all",
-      "Romer's argument has nothing to do with unconventional monetary policy tools; it is only about fiscal policy",
-      "The Haltom reading proves Romer wrong, since QE alone fully replicated Roosevelt's regime shift"
+      "LSAPs and calendar guidance extend the existing framework rather than replace its target, consistent with Romer's claim that no true regime shift occurred",
+      "LSAPs and calendar guidance automatically constitute the same kind of regime shift Romer attributes to Roosevelt, regardless of the policy target",
+      "Romer's regime-change argument concerns only fiscal policy, so it offers no basis for evaluating unconventional monetary tools",
+      "Haltom shows that QE replaced the Fed's policy framework and fully reproduced Roosevelt's expectations-driven regime shift"
     ],
     "answerIndex": 0,
     "correctExplanation": "Romer explicitly frames the post-2008 Fed's actions (near-zero rates, QE, forward guidance — the same tools Haltom describes in detail) as 'pushing the boundaries of their current regime, not changing the regime,' contrasting this with Roosevelt's dramatic, expectation-shifting exit from the gold standard. The specific tools in the Haltom reading are exactly the kind of incremental, within-framework measures Romer's critique is about — they operate through interest rates and asset purchases, not through the kind of visible, framework-level change (like a new nominal GDP target, which Romer discusses as an alternative) she argues is needed to fully replicate a Rooseveltian regime shift.",
@@ -5101,10 +5101,10 @@
     "questionType": "vocab",
     "question": "\"Securitization,\" as described in the crisis reading, refers to:",
     "choices": [
-      "Pooling a group of loans together and slicing the pool into marketable securities that are sold to investors",
-      "A government program that directly buys distressed banks' bad loans",
-      "The process by which a credit rating agency assigns a bond rating",
-      "A bank's decision to hold a mortgage on its own balance sheet rather than sell it"
+      "Pooling loans and converting claims on their payments into securities sold to investors",
+      "A government program that pools and purchases distressed loans from banks during a crisis",
+      "A rating agency's process for assigning risk grades to an already-issued bond or mortgage security",
+      "A bank retaining whole mortgages on its balance sheet instead of selling claims to investors"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading defines securitization as pooling a bunch of mortgages and slicing the pool into marketable securities sold to investors — the mechanism that let mortgage risk spread from originating lenders to Wall Street investors broadly.",
@@ -5132,8 +5132,8 @@
     "questionType": "vocab",
     "question": "A \"subprime\" mortgage, per the crisis reading, is best described as:",
     "choices": [
-      "A large loan given to a borrower with a bad credit history, often with a low down payment",
-      "A government-guaranteed loan available only to first-time homebuyers",
+      "A large mortgage to a borrower with weak credit, often requiring only a low down payment",
+      "A government-guaranteed mortgage for first-time buyers who otherwise have strong credit",
       "A mortgage with an interest rate below the prevailing prime rate as a reward for strong credit",
       "A loan that a bank is legally required to hold on its own balance sheet"
     ],
@@ -5163,7 +5163,7 @@
     "questionType": "vocab",
     "question": "Which statement correctly distinguishes a basic mortgage-backed security (MBS) from a collateralized mortgage obligation (CMO)?",
     "choices": [
-      "In a basic MBS, every investor gets a fixed pro-rata share of every payment; a CMO instead divides the payment stream into different risk tranches with different seniority",
+      "A basic MBS shares payments pro rata; a CMO divides the payment stream into risk tranches with different seniority",
       "An MBS and a CMO are two different names for the exact same financial product",
       "A CMO is always issued directly by the federal government, while an MBS is always private",
       "An MBS pays out based on tranche seniority, while a CMO pays every investor an identical fixed share"
@@ -5196,10 +5196,10 @@
     "questionType": "vocab",
     "question": "In the context of mortgage lending before the crisis, the \"principal-agent problem\" refers to:",
     "choices": [
-      "A conflict of interest where the party making a decision (e.g., a loan originator) doesn't bear the consequences of that decision, weakening their incentive to act carefully",
-      "The legal requirement that a bank must hold a minimum percentage of its assets as reserves",
-      "The process of dividing a security into tranches by seniority",
-      "The relationship between the nominal interest rate and expected inflation"
+      "A conflict in which a decision-maker bears little of the resulting risk and therefore has weaker incentives to act carefully",
+      "A capital rule requiring the decision-maker to retain a fixed share of every risky asset",
+      "A securitization method that divides claims into tranches with different seniority and default exposure",
+      "An interest-rate relationship in which expected inflation changes the decision-maker's real payoff"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading applies the principal-agent problem specifically to mortgage originators who sold off the loans they made, meaning they bore no risk from a bad loan and thus had little incentive to check borrowers' creditworthiness carefully — a misalignment between the decision-maker's incentives and the outcome's true risk-bearer.",
@@ -5227,10 +5227,10 @@
     "questionType": "vocab",
     "question": "The term \"too big to fail,\" as used in the crisis reading, describes the argument that:",
     "choices": [
-      "Some financial institutions are so large and interconnected that their failure could set off a much larger chain of failures across the financial system",
-      "Every financial institution, regardless of size, poses an identical risk of failure",
-      "Large institutions are legally prohibited from ever failing",
-      "Small institutions are more dangerous to the financial system than large ones"
+      "Some institutions are so large and interconnected that their failure could trigger failures across the financial system",
+      "Every institution has the same systemic importance because default probabilities do not depend on size",
+      "Large institutions cannot become insolvent because regulators are legally required to prevent every loss",
+      "Small institutions create greater systemic risk because they have fewer counterparties to absorb their failure"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading frames too-big-to-fail as the argument that a large institution's failure, given its role as a counterparty in huge numbers of complicated transactions, can set off a much larger chain of failures — this was the justification used for intervening to prevent Fannie Mae and Freddie Mac's failure, for instance.",
@@ -5258,10 +5258,10 @@
     "questionType": "vocab",
     "question": "A credit default swap (CDS), as described in the crisis reading, is:",
     "choices": [
-      "A contract that lets a holder of debt insure against that debt's default, with the seller of the CDS betting the debt will not default",
-      "A government program that guarantees all mortgage-backed securities against loss",
-      "A type of savings account offered exclusively by insurance companies",
-      "The formal name for a bank's minimum reserve requirement"
+      "A contract insuring a debt holder against default, with the seller owing payment if the debt defaults",
+      "A public guarantee that reimburses every holder of a mortgage-backed security after any loss",
+      "An insurance-company deposit account whose return rises when corporate defaults become more likely",
+      "A bank reserve rule requiring capital against every loan that could potentially default"
     ],
     "answerIndex": 0,
     "correctExplanation": "Think of it as insurance built as a derivative: one party (the buyer) pays for protection against a specific debt's default, and the counterparty (the seller, like AIG) collects that payment in exchange for taking on the default risk itself. It works economically like insurance, but sits outside the regulatory framework that governs the insurance industry proper.",
@@ -5289,10 +5289,10 @@
     "questionType": "vocab",
     "question": "TARP, one of the crisis-era policy responses mentioned in the reading, refers to:",
     "choices": [
-      "The Troubled Asset Relief Program, a roughly $700+ billion government program used for actions like buying banks' bad loans and injecting capital into banks",
-      "A Federal Reserve interest-rate rule for setting the federal funds rate",
-      "The formal legal term for a bank's minimum capital ratio",
-      "A private credit-rating methodology used exclusively by Moody's"
+      "The Troubled Asset Relief Program, which used roughly $700+ billion of authority to purchase troubled assets and inject bank capital",
+      "A Federal Reserve reaction rule that set the federal funds rate according to troubled-asset prices",
+      "A minimum-capital requirement introduced to force every bank to retain its riskiest mortgage loans",
+      "A private rating system used to assign seniority to mortgage-backed-security tranches"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading describes TARP as a \"bailout\" program of $700+ billion, used for actions like nationalizing/recapitalizing banks and buying banks' bad loans — a discretionary fiscal/financial-stability response to the crisis, not a monetary-policy rule or private rating method.",
@@ -5320,10 +5320,10 @@
     "questionType": "vocab",
     "question": "How does quantitative easing (large-scale asset purchases, or LSAPs) differ from the Fed's conventional open-market operations, per the reading?",
     "choices": [
-      "LSAPs are large-scale purchases (often of longer-term or agency/mortgage-backed securities) used specifically once the policy rate has hit the zero lower bound, aiming to lower broader market rates directly rather than through the usual fed funds rate channel",
-      "LSAPs and conventional open-market operations are identical in every respect, just under different names",
-      "LSAPs involve the Fed selling assets, while conventional open-market operations only ever involve buying assets",
-      "LSAPs are conducted entirely by commercial banks, with no Fed involvement at all"
+      "LSAPs are large purchases of longer-term or agency securities used at the zero lower bound to lower broader market rates",
+      "LSAPs are ordinary short-term open-market operations under a new name, with the same assets, scale, and rate channel",
+      "LSAPs sell long-term assets to raise their yields, while conventional operations buy only mortgage-backed securities",
+      "LSAPs are coordinated commercial-bank purchases that change private balance sheets without involving the Federal Reserve"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading frames LSAPs/QE as an unconventional tool adopted specifically after the Fed hit the zero lower bound in December 2008, distinguished from routine open-market operations by their scale, their focus on longer-term Treasuries and agency MBS, and their goal of directly influencing broader market interest rates rather than fine-tuning the fed funds rate.",
@@ -5353,10 +5353,10 @@
     "questionType": "vocab",
     "question": "Which statement correctly distinguishes \"forward guidance\" from \"quantitative easing,\" as both are described in the reading?",
     "choices": [
-      "Forward guidance works by shaping expectations about the likely future path of policy through communication alone; quantitative easing works by actually purchasing large quantities of assets to directly affect the Fed's balance sheet",
-      "Forward guidance and quantitative easing are two different names for exactly the same policy action",
-      "Forward guidance involves buying long-term Treasury securities; quantitative easing involves only verbal statements with no asset purchases",
-      "Forward guidance is a fiscal policy tool, while quantitative easing is a monetary policy tool"
+      "Forward guidance shapes expectations through communication; quantitative easing changes asset supplies through large purchases",
+      "Forward guidance and quantitative easing both change expectations solely through central-bank statements about future rates",
+      "Forward guidance purchases long-term assets; quantitative easing communicates a future policy path without buying assets",
+      "Forward guidance changes government spending, while quantitative easing changes the central bank's monetary-policy balance sheet"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading treats these as two distinct unconventional tools: forward guidance operates through statements about the likely future policy path (shaping expectations without necessarily changing current policy), while quantitative easing/LSAPs involve actually purchasing assets to change the size and composition of the Fed's balance sheet.",
@@ -5552,10 +5552,10 @@
     "questionType": "standard",
     "question": "A government considers two equally-sized fiscal packages: (1) direct spending on building new bridges, or (2) an equally large tax cut for consumers. According to the reading, which is generally expected to have the larger multiplier, and why?",
     "choices": [
-      "The direct spending on bridges, because consumers may save part of a tax cut rather than spend all of it, weakening the tax cut's effect on demand",
-      "The tax cut, because consumers always spend 100% of any tax cut immediately",
-      "Both approaches always have exactly the same multiplier, since a dollar is a dollar regardless of how it's spent",
-      "The tax cut, because government spending on infrastructure never adds to demand"
+      "Direct bridge spending, because households may save part of a tax cut rather than spend it",
+      "The tax cut, because households spend its full amount while government purchases enter demand only through the mpc",
+      "Both, because equal-dollar tax cuts and purchases have identical first-round effects and therefore identical multipliers",
+      "The tax cut, because infrastructure spending raises potential output but never contributes to current aggregate demand"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading notes that government spending on a bridge may have a bigger multiplier than a tax cut, since consumers may save a portion of a tax windfall rather than spend it all — direct government purchases translate fully into demand immediately, while a tax cut's effect depends on how much of it households choose to spend versus save.",
@@ -5649,10 +5649,10 @@
     "questionType": "standard",
     "question": "A politician argues: \"We spent $500 billion on a jobs program, yet the unemployment rate still rose to 9% afterward — so the program clearly did not work.\" Applying Romer's counterfactual-baseline logic from her evaluation of the 2009 stimulus, what is the flaw in this argument?",
     "choices": [
-      "The argument ignores what unemployment would have done *without* the program — if the true no-program baseline was even worse (say, 13%), the program still helped even though unemployment rose",
-      "There is no flaw; a policy that doesn't prevent unemployment from rising at all should always be judged a failure",
-      "The argument is flawed only because $500 billion is too small a number to ever matter",
-      "The argument is correct because economists always agree on the exact size of any counterfactual"
+      "It ignores the no-program counterfactual; unemployment might have risen still higher without the jobs program",
+      "It has no flaw because any post-policy rise in unemployment proves the policy worsened the outcome",
+      "Its only flaw is that $500 billion is necessarily too small to affect a national unemployment rate",
+      "It is valid because economists can observe and agree on the exact unemployment path without the program"
     ],
     "answerIndex": 0,
     "correctExplanation": "Romer explicitly rejects this reasoning (using the same logic Paul Ryan applied to the 2009 stimulus): 'Without knowing where the economy was headed in the absence of the stimulus, it's impossible to judge what it contributed just from what happened afterward.' She uses a surgery analogy — a patient still feeling rotten after lifesaving surgery doesn't mean the surgery was useless, since without it, the patient would have died. The correct comparison is the outcome with the policy versus the (unobserved) outcome without it, not simply whether the outcome improved in an absolute sense.",
@@ -5713,10 +5713,10 @@
     "questionType": "vocab",
     "question": "The \"fiscal multiplier,\" as defined in the reading, measures:",
     "choices": [
-      "How effectively a given change in government spending or taxes translates into a change in a country's total output (GDP)",
-      "The ratio of a country's total government debt to its GDP",
-      "The percentage of government spending funded by borrowing rather than taxes",
-      "The number of years it takes for a tax cut to be fully repaid"
+      "The output change produced by a given change in government spending or taxes",
+      "The government-debt change produced by a given change in annual GDP",
+      "The borrowing share of a spending change after accounting for any accompanying tax revenue",
+      "The repayment time for a tax cut after accounting for the additional GDP it produces"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading defines the fiscal multiplier as the measure capturing 'how effectively tax cuts or increases in government spending stimulate output' — e.g., a multiplier of one means a $1 billion increase in spending raises GDP by $1 billion.",
@@ -5745,10 +5745,10 @@
     "questionType": "vocab",
     "question": "Both \"crowding out\" and a \"Ricardian-equivalence-style\" concern can reduce a fiscal stimulus's effectiveness, but through different mechanisms. Which pairing correctly distinguishes them?",
     "choices": [
-      "Crowding out: higher government borrowing raises interest rates, reducing private investment; Ricardian-equivalence concern: households expect future tax increases to pay for today's borrowing, so they cut consumption today",
-      "Crowding out and the Ricardian-equivalence concern describe exactly the same mechanism using two different names",
-      "Crowding out is about household tax expectations; the Ricardian-equivalence concern is about interest rates and investment",
-      "Both effects always make a fiscal stimulus more effective, not less"
+      "Crowding out reduces investment through higher interest rates; Ricardian equivalence reduces consumption through expected future taxes",
+      "Both concerns reduce investment through higher interest rates, with Ricardian equivalence simply adding a second label",
+      "Crowding out reduces consumption through expected taxes; Ricardian equivalence reduces investment through higher interest rates",
+      "Both concerns amplify stimulus because government borrowing raises investment and expected future taxes raise current consumption"
     ],
     "answerIndex": 0,
     "correctExplanation": "Crowding out works through the interest-rate/investment channel (higher borrowing pushes up rates, discouraging private investment), while the Ricardian-equivalence-style concern works through consumer expectations (anticipating future taxes to finance today's debt, so consumers spend less today) — two distinct mechanisms that both reduce the effective multiplier below what it would otherwise be.",
@@ -5877,10 +5877,10 @@
     "questionType": "standard",
     "question": "A central bank commits to holding its nominal interest rate near zero for a very long, indefinite period, regardless of economic conditions. According to the reading's discussion of the \"Fisher effect,\" what risk does an extremely long period of near-zero nominal rates create?",
     "choices": [
-      "Because nominal rates and inflation tend to move together in the long run, a persistently zero nominal rate could allow expectations to settle into a long-run deflationary (or very low inflation) equilibrium rather than the central bank's actual target",
-      "The Fisher effect guarantees that holding nominal rates at zero forever always produces high inflation instead",
-      "The Fisher effect has nothing to do with expectations; it only describes short-run interest rate movements",
-      "There is no risk at all, since nominal rates and inflation are entirely unrelated in the long run"
+      "Because nominal rates and inflation move together long run, a permanent zero rate can validate a low-inflation or deflation equilibrium",
+      "Because the Fisher effect makes a permanent zero nominal rate produce high inflation regardless of expectations",
+      "Because the Fisher effect concerns only short-run real rates and has no connection to expected inflation",
+      "Because nominal rates and inflation are unrelated in long-run equilibrium, a permanent zero rate cannot affect expectations"
     ],
     "answerIndex": 0,
     "correctExplanation": "The reading explains the Fisher effect (named for Irving Fisher) as the long-run tendency for nominal interest rates and inflation to move together; it warns that if a central bank commits to low nominal rates for a very long time, expectations could settle into a long-run deflationary equilibrium instead of the intended stimulative outcome — a risk raised in a 2010 speech by a Minneapolis Fed president referenced in the piece.",
@@ -5942,10 +5942,10 @@
     "questionType": "vocab",
     "question": "The \"exchange rate channel\" of monetary policy transmission refers to the idea that:",
     "choices": [
-      "A change in the interest rate affects capital flows and the currency's value, which in turn affects net exports and planned spending",
-      "The Fed directly sets the exchange rate between the dollar and other currencies by law",
-      "Banks reduce lending in response to a smaller money supply, disrupting credit flows",
-      "Falling asset prices make households and firms feel poorer, reducing spending"
+      "Interest rates change capital flows and the currency value, which then changes net exports and planned spending",
+      "The Fed changes net exports by directly fixing the dollar's legal exchange rate against foreign currencies",
+      "Interest rates change bank deposits and screening, which then changes credit flows and planned spending",
+      "Interest rates change equity prices and wealth, which then changes consumption and planned investment"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 9 lists the exchange rate channel among the transmission channels: a change in r affects capital flows and the exchange rate, which then affects net exports and, through them, planned aggregate expenditure.",
@@ -6073,10 +6073,10 @@
     "questionType": "graph",
     "question": "In the standard money market diagram (a downward-sloping money demand curve and a vertical money supply curve, with the nominal interest rate on the vertical axis), compare two regimes: (1) a conventional regime, where the nominal interest rate sits well above zero and the Fed can shift the vertical money-supply curve right to lower it further, and (2) a zero-lower-bound regime, where the nominal rate has already been pushed down to the point where the money demand curve becomes flat (horizontal) at zero. In regime (2), what does the flat portion of money demand imply about a further rightward shift of the money-supply curve?",
     "choices": [
-      "Once money demand is flat at i = 0, shifting money supply further right does not lower the interest rate any further (it is already at its floor), which is exactly why the Fed turns to unconventional tools like large-scale asset purchases instead",
-      "The interest rate keeps falling below zero without any limit as money supply keeps shifting right",
-      "A further rightward shift of money supply becomes impossible to draw in this diagram",
-      "The flat portion of money demand means the Fed can no longer influence the money supply at all"
+      "On flat money demand at i = 0, more money supply cannot lower i further, motivating unconventional tools",
+      "On flat money demand at i = 0, more money supply pushes i progressively below zero without a floor",
+      "At i = 0, a rightward money-supply shift is impossible because the central bank cannot create more reserves",
+      "At i = 0, flat money demand prevents the central bank from changing money supply rather than limiting rate cuts"
     ],
     "answerIndex": 0,
     "correctExplanation": "Once nominal rates hit the zero lower bound, money demand effectively flattens out at i = 0 (people are willing to hold any additional money rather than a rate that can't practically go negative), so further rightward shifts of the vertical money-supply curve intersect this flat segment and no longer lower i any further — precisely the situation the Haltom reading describes as motivating the Fed's shift to unconventional tools (LSAPs, forward guidance) that work through channels other than further money-supply expansion via conventional open-market operations.",
@@ -6269,10 +6269,10 @@
     "questionType": "graph",
     "question": "In a Keynesian-cross diagram (planned aggregate expenditure PAE on the vertical axis, output Y on the horizontal axis, with a 45-degree line showing where Y = PAE), the economy sits at a short-run equilibrium below potential output Y* — a recessionary gap. The government cuts taxes, with G, IP, and NX unchanged. What happens to the PAE line and the short-run equilibrium?",
     "choices": [
-      "The PAE line shifts up (its vertical intercept rises, since after-tax income and consumption rise at every level of Y), moving the new equilibrium (where the higher PAE line crosses the 45-degree line) to a higher Y, closing some or all of the recessionary gap",
-      "The PAE line's slope becomes flatter, but its intercept is unchanged, so equilibrium Y stays exactly the same",
-      "The PAE line shifts down, moving equilibrium Y even further below potential output",
-      "The 45-degree line itself shifts, while the PAE line stays fixed"
+      "PAE shifts up because lower taxes raise consumption at every Y; its new 45-degree intersection has higher equilibrium output",
+      "PAE becomes flatter because a tax cut reduces the mpc, while its intercept and equilibrium output stay unchanged",
+      "PAE shifts down because lower taxes reduce government revenue, moving equilibrium output farther below potential",
+      "The 45-degree line shifts right because disposable income rises, while the original PAE schedule remains fixed"
     ],
     "answerIndex": 0,
     "correctExplanation": "A tax cut raises after-tax income (Y - T) at every level of Y, raising consumption and therefore the PAE line's vertical intercept (autonomous spending) without changing its slope (mpc is unchanged). The new equilibrium is where this higher PAE line crosses the fixed 45-degree line, which happens at a higher Y than before — moving the economy back toward (or all the way to) potential output.",
@@ -6429,10 +6429,10 @@
     "questionType": "standard",
     "question": "An economy's actual output Y is currently well below its potential output Y* — a recessionary gap. Based on the relationship between the output gap and inflation, what should happen to the inflation rate, all else equal?",
     "choices": [
-      "Inflation should decrease, since a recessionary gap (Y below Y*) puts downward pressure on inflation",
-      "Inflation should increase, since any output gap always raises inflation",
-      "Inflation should stay perfectly constant, since only Y* itself affects inflation",
-      "Inflation should immediately jump to zero"
+      "Inflation should decrease because output below potential puts downward pressure on price increases",
+      "Inflation should increase because the absolute size of any output gap creates price pressure",
+      "Inflation should remain constant because only changes in potential output affect its direction",
+      "Inflation should fall immediately to zero because a recessionary gap eliminates all price increases"
     ],
     "answerIndex": 0,
     "correctExplanation": "Class 10's output-gap/inflation relationship states that a recessionary gap (Y < Y*) is associated with decreasing inflation, while an expansionary gap (Y > Y*) is associated with increasing inflation, and no gap (Y = Y*) with stable inflation. A recessionary gap here means inflation should fall, not rise.",
@@ -6528,10 +6528,10 @@
     "questionType": "formula",
     "question": "A student is asked to find Y given Okun's Law, (Y - Y*)/Y* = -2(u - u*), with Y* = 5,000, u = 8%, and u* = 6%. The student writes: \"(Y - 5,000)/5,000 = -(0.08 - 0.06) = -0.02, so Y = 5,000 - 100 = 4,900.\" What specifically is wrong with this calculation?",
     "choices": [
-      "The student left out Okun's Law's factor of 2, which should double the unemployment gap; the correct calculation gives (Y-5,000)/5,000 = -2(0.02) = -0.04, so Y = 5,000 - 200 = 4,800",
-      "The student should have added the unemployment gap to Y* instead of subtracting it, giving Y = 5,100",
-      "The student used the wrong natural rate; it should have been subtracted from 8% differently",
-      "Nothing is wrong; Y = 4,900 is the correct answer"
+      "The factor of 2 is missing; the -4% output gap implies Y = 5,000(0.96) = 4,800",
+      "The unemployment gap should be added to potential output, giving Y = 5,100 rather than 4,900",
+      "The natural rate should be subtracted from 8% in the opposite order, producing expansionary output above 5,000",
+      "The factor of 2 applies only to percentage changes, not gaps, so Y = 4,900 is correct"
     ],
     "answerIndex": 0,
     "correctExplanation": "Okun's Law states the output gap equals -2 times the unemployment gap: (Y-Y*)/Y* = -2(u - u*). The student computed the unemployment gap correctly (0.08 - 0.06 = 0.02) and correctly signed the result negative (u > u* means a recessionary, negative output gap), but forgot to multiply by 2, using a coefficient of -1 instead of -2. The correct calculation is (Y-5,000)/5,000 = -2(0.02) = -0.04, so Y - Y* = -0.04(5,000) = -200, giving Y = 5,000 - 200 = 4,800.",
@@ -6560,10 +6560,10 @@
     "questionType": "standard",
     "question": "In the money market diagram, the nominal interest rate is on the vertical axis and the quantity of money is on the horizontal axis, with a downward-sloping money demand curve. If real income in the economy rises (with the price level and all other money demand determinants unchanged), is this a movement along the existing money demand curve or a shift of the curve, and in what direction?",
     "choices": [
-      "A shift of the money demand curve to the right, since higher income is a determinant that increases money demand at every interest rate, not a change in the interest rate itself",
-      "A movement along the existing money demand curve, since the interest rate axis variable determines all movement in this diagram",
-      "A shift of the money demand curve to the left, since higher income means people need to hold less money",
-      "No change at all, since income never affects money demand"
+      "Money demand shifts right because higher income raises desired money holdings at every interest rate",
+      "Quantity demanded moves along existing money demand because income changes the interest rate-axis variable",
+      "Money demand shifts left because higher income lets households economize on transaction balances",
+      "Money demand stays fixed because only prices and foreign dollar demand can shift it"
     ],
     "answerIndex": 0,
     "correctExplanation": "Money demand's own axis variable is the nominal interest rate; a movement along the curve happens only when i itself changes. Real income is one of money demand's *determinants* (people conduct more transactions and want to hold more money at higher income), so a change in income shifts the entire money demand curve — here, to the right, since demand for money rises at every interest rate.",
@@ -6592,10 +6592,10 @@
     "questionType": "standard",
     "question": "As the nominal interest rate on bonds and savings accounts rises, why does the opportunity cost of holding wealth as cash or non-interest-bearing checking deposits also rise, according to Class 9's money demand framework?",
     "choices": [
-      "Because holding money instead of an interest-bearing asset means giving up a larger amount of forgone interest income as rates rise, making cash relatively less attractive to hold",
-      "Because a higher interest rate directly reduces the total quantity of money in the economy",
-      "Because higher interest rates make transactions require more physical cash to complete",
-      "Because higher interest rates always reduce real income, which mechanically lowers money demand"
+      "Higher rates increase the interest income forgone by holding money, making cash less attractive than interest-bearing assets",
+      "Higher rates reduce the fixed money supply, so equilibrium requires households to demand less money",
+      "Higher rates make each transaction require more cash, increasing rather than decreasing quantity demanded",
+      "Higher rates reduce real income one-for-one, so transaction demand falls only through the income channel"
     ],
     "answerIndex": 0,
     "correctExplanation": "The opportunity cost of holding money is the interest income given up by not holding an interest-bearing asset instead — as the nominal interest rate rises, that forgone amount rises too, making it more costly to hold idle cash, which is exactly why money demand is downward sloping in i.",
@@ -6694,10 +6694,10 @@
     "questionType": "graph",
     "question": "A surge in the cost of imported industrial inputs unexpectedly raises the general price level in the economy. With the nominal money supply unchanged, what happens in the money market diagram?",
     "choices": [
-      "Money demand shifts right (more dollars are needed to complete the same real volume of transactions at higher prices), raising the equilibrium nominal interest rate",
-      "Money supply shifts right, lowering the equilibrium nominal interest rate",
-      "Money demand shifts left, lowering the equilibrium nominal interest rate",
-      "Neither curve shifts, since the price level has no effect on the money market"
+      "Money demand shifts right because higher prices require more dollars for transactions, raising equilibrium i",
+      "Money supply shifts right because higher prices create bank deposits, lowering equilibrium i",
+      "Money demand shifts left because higher prices reduce real balances, lowering equilibrium i",
+      "Neither curve shifts because the price level changes real money balances but not the nominal money market"
     ],
     "answerIndex": 0,
     "correctExplanation": "Money demand depends on the price level: a higher price level means every real purchase now takes more nominal dollars to complete, so people want to hold larger cash balances at any given interest rate — MD shifts right. Since nothing here changed the quantity of money the Fed supplies, tracing the diagram forward means MD (not MS) is the curve that moves, pushing the equilibrium interest rate up along the fixed MS curve.",
@@ -7533,7 +7533,7 @@
     "questionType": "vocab",
     "question": "In the lecture's discussion of exchange-rate volatility, \"Dutch disease\" refers to:",
     "choices": [
-      "A situation where a surge in commodity export revenue causes the domestic currency to appreciate, hurting the country's other, non-commodity export industries",
+      "A commodity-export windfall appreciates the currency and harms other export industries",
       "A situation where a country's currency collapses because it exported too many manufactured goods relative to commodities",
       "A policy where a government deliberately devalues its currency to boost commodity exports",
       "A recession caused specifically by a shortage of a key commodity the country needs to import"
@@ -7565,8 +7565,8 @@
     "questionType": "standard",
     "question": "A country with a long history of high, unpredictable inflation pegs its currency to that of a well-respected, low-inflation central bank. According to the lecture's broader view of fixed exchange rates, which mechanism best explains why this peg is expected to lower the pegging country's own inflation?",
     "choices": [
-      "Maintaining the peg requires the pegging country's monetary policy to match the anchor country's low-inflation policy, effectively importing that discipline and constraining domestic money growth",
-      "Pegging automatically increases the pegging country's money supply, which mechanically lowers prices",
+      "Maintaining the peg imports the anchor country's monetary discipline and constrains domestic money growth",
+      "Maintaining the peg expands domestic money growth to match the anchor, mechanically lowering domestic prices",
       "Foreign investors will refuse to hold the pegging country's currency until its central bank guarantees zero inflation by law",
       "The peg directly sets the pegging country's price level equal to the anchor country's price level on the day the peg begins"
     ],
