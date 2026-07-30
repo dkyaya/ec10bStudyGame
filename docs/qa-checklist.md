@@ -281,6 +281,39 @@ these gaps in the original authoring verification method:
   SVG markup) and visually confirm the picture matches the alt text and the
   correct answer's explanation before treating a diagram question as done.
 
+## Distractor-quality / answer-choice-balance checks (added after the 2026-07-30 final-lecture batch)
+
+Run these on **every** new batch of questions — the 2026-07-30 final-lecture
+batch's first draft found 18 of 41 new questions had the correct answer
+noticeably longer and more fully explained than all three distractors, a
+guessable-by-length pattern the user had flagged from earlier batches.
+
+- **Compare word counts across all four choices for every question.** A
+  quick per-question check: if the correct answer's word count is more than
+  roughly 25-30% above the other three choices' average, rewrite before
+  finalizing — either trim the correct answer or add the missing detail to
+  the distractors so they read with comparable weight.
+- **Check that the correct answer isn't the only choice with a complete
+  causal chain, a full explanation, or a qualifying clause** while the
+  distractors are short fragments. If the question asks for a causal chain,
+  every choice should have causal-chain structure; if it asks for a policy
+  effect, every choice should be a plausible policy effect.
+- **Check that at least two distractors are genuinely plausible** to a
+  student who half-remembers the concept — not simply true statements about
+  something else, and not choices so obviously wrong that they can be
+  eliminated without reading the question.
+- **Check for a technical-vocabulary giveaway**: if only the correct answer
+  uses the course's own precise terms while the distractors are phrased
+  casually or vaguely, that's a tell independent of content knowledge.
+  Distractors should use the same register as the correct answer.
+- **Check that choices are parallel in grammatical structure** (similar
+  sentence shape, similar level of detail) — not one full sentence next to
+  three noun phrases.
+- **Confirm hard questions are hard because of the reasoning required, not
+  because of confusing wording or transparently weak distractors.**
+- See `docs/question-authoring-guide.md`'s "Balance answer-choice
+  plausibility and length" section for the full rule and rationale.
+
 ## Formula-convention checks (added after the 2026-07-29 formula-convention audit)
 
 Run these on **every** formula question (new or existing), and on any

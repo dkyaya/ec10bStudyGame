@@ -392,6 +392,52 @@ A good wrong-answer explanation:
   slides/solutions and confirm it's accurate.
 - Avoids vague language ("this is incorrect", "not quite right") with no reason why.
 
+### Balance answer-choice plausibility and length
+
+The 2026-07-30 final-lecture batch's own first draft found 18 of its 41 new
+questions had a length-based giveaway: the correct answer choice was
+noticeably longer and more fully explained than all three distractors,
+letting a test-taker guess correctly without ever needing to know the
+content — the "correct answer is the most polished one" pattern the user
+flagged from earlier batches. An automated per-question check (comparing
+each choice's word count) found the pattern immediately; all 18 were
+rewritten before the batch was finalized.
+
+**Before finalizing any batch, check every question's four choices for
+these giveaway patterns, not just its explanations:**
+
+- **The correct answer should not be consistently the longest choice.** If
+  one option runs noticeably longer than the other three, either trim it or
+  add the missing reasoning/detail to the distractors — a plausible wrong
+  answer usually needs almost as much explanation as the right one to sound
+  credible.
+- **At least two distractors should be genuinely plausible** to a student
+  who half-remembers the concept, not just "technically wrong but obviously
+  so." A distractor that states a real, specific, defensible-sounding claim
+  (a swapped sign, a misapplied rule, a confused pair of concepts) is doing
+  its job; a distractor that no reasonable student would pick is dead
+  weight and makes the real answer easier to spot by elimination.
+- **Keep choices parallel in structure.** If the correct answer is a full
+  causal chain, sentence, or worked derivation, every distractor should be
+  too — not a fragment sitting next to a paragraph. If a question asks for
+  a causal chain, give all four choices causal-chain structure; if it asks
+  for a policy effect, make all four choices plausible policy effects.
+- **Avoid technical-vocabulary giveaways.** If the correct answer is the
+  only choice that uses the course's own precise terminology while the
+  distractors are phrased casually or vaguely, a student can often spot the
+  "textbook-sounding" option without knowing whether it's actually right.
+  Distractors should use the same register and, where relevant, the same
+  vocabulary as the correct answer — the error should be in the substance,
+  not the styling.
+- **Hard questions should be hard because of the reasoning required, not
+  because the wording is confusing or because the distractors are
+  transparently weak.** A hard question with three throwaway distractors
+  isn't actually hard — it's an easy question wearing a difficulty label.
+- A quick, cheap check that catches most cases: count words per choice. If
+  the correct answer's word count is more than roughly 25-30% above the
+  other three choices' average, that's a strong signal to rewrite before
+  finalizing, not just polish the explanation text.
+
 When writing calculation questions based on a discussion-section or problem-set
 solution, **don't reuse the exact numbers from the answer key.** Build a new scenario
 that tests the identical skill (e.g., the same formula or the same kind of GDP

@@ -5,47 +5,50 @@ A static, no-build, no-backend study game for Harvard Summer School's Econ S10-b
 generated from the course's own lecture slides, discussion-section solutions, and
 problem-set solutions, organized by topic, with progress saved locally in the browser.
 
-## Current status: final exam question bank (first batch)
+## Current status: final exam question bank (final lecture added)
 
-The midterm is over and the final exam is about one week away. On 2026-07-21
-this app was intentionally reset to an empty question bank (the old
-pre-midterm/midterm bank — 377 questions across 18 topics and 14 sources —
-and the old **Midterm Review** study mode were permanently removed), and the
-**first post-midterm question bank** (105 questions from Class 8 and Class 9)
+The midterm is over and the final exam is near. On 2026-07-21 this app was
+intentionally reset to an empty question bank (the old pre-midterm/midterm
+bank — 377 questions across 18 topics and 14 sources — and the old
+**Midterm Review** study mode were permanently removed), and the **first
+post-midterm question bank** (105 questions from Class 8 and Class 9)
 followed the same day. On 2026-07-27, the **first final-exam question bank**
 batch was generated from newly uploaded Class 10 slides, the instructor's
 final exam study guide, four side readings from the latter half of the
-course, and an unsolved problem set. See
-`docs/update-notes/2026-07-27-final-exam-bank-plan.md` and
-`docs/update-notes/2026-07-27-final-exam-bank-results.md` for the full
-details of this batch.
+course, and an unsolved problem set. On 2026-07-30, the **final lecture**
+(Class 11: exchange rates and open-economy macroeconomics) was uploaded and
+its own targeted question batch was added — this is the last lecture
+add-on for the final exam bank. See
+`docs/update-notes/2026-07-30-final-lecture-addon-plan.md` and
+`docs/update-notes/2026-07-30-final-lecture-addon-results.md` for the full
+details of this batch (and the 2026-07-27 notes for the batch before it).
 
-- **Active question count: 209**, across **9 topics** and **10 sources**.
-- **Question type breakdown:** 84 `standard`, 49 `vocab`, 52 `formula`, 24
-  `graph` (12 of the 24 graph questions include an inline SVG diagram).
-- **Difficulty breakdown:** 28 easy (13%), 108 medium (52%), 69 hard (33%) — a
-  harder mix than the old pre-midterm bank, per the "Post-midterm difficulty
-  standard" in `docs/question-authoring-guide.md`; the final-exam batch's own
-  questions are 16 easy (15%), 55 medium (53%), 33 hard (32%), deliberately
-  written to be harder on average than the study guide's own practice
-  problems.
+- **Active question count: 250**, across **11 topics** and **11 sources**.
+- **Question type breakdown:** 105 `standard`, 58 `vocab`, 58 `formula`, 29
+  `graph` (17 of the 29 graph questions include an inline SVG diagram).
+- **Difficulty breakdown:** 38 easy (15%), 127 medium (51%), 85 hard (34%) —
+  per the "Post-midterm difficulty standard" in
+  `docs/question-authoring-guide.md`; the final-lecture batch's own 41
+  questions are 6 easy (15%), 19 medium (46%), 16 hard (39%), leaning toward
+  application/interpretation difficulty since this is final-exam prep.
 - **Topics:** Unemployment: Measurement, Costs, and Types · Business Cycles,
   Output Gaps, and Okun's Law · The Keynesian Cross Model of Short-Run Output ·
   Fiscal Policy and Stabilization · The Fed, Money Supply, and Money Demand ·
   Monetary Policy Transmission and the Financial Crisis Response · The AD-AS
   Model: Equilibrium, Shocks, and Policy Responses · Inflation Dynamics and
   Monetary Policy Credibility · The 2008 Financial Crisis: Mechanics,
-  Response, and Historical Lessons.
+  Response, and Historical Lessons · Exchange Rates and Purchasing Power
+  Parity · Fixed vs. Floating Exchange Rates and the Policy Trilemma.
 - **Active study modes:** Full Bank, Shuffle Mixed Practice, Review Missed,
   New/Unseen, Needs Review, Vocabulary / Definitions, Formula Practice, and Graph
   Practice — all populated and working.
 - **The Midterm Review mode remains permanently removed** — it is not part of the
-  current app and was not reintroduced by this batch. It was tied specifically to
-  the instructor's midterm study guide, which is no longer relevant post-midterm.
-- **One more lecture is still pending.** The user has one more class's slides
-  yet to upload; this is the first final-exam bank build, not the complete
-  source set. A follow-up batch will add its own topic/source coverage
-  (most likely exchange rates/open-economy macro) once those slides arrive.
+  current app and was not reintroduced by this or any later batch. It was tied
+  specifically to the instructor's midterm study guide, which is no longer
+  relevant post-midterm.
+- **The final lecture has now been added.** This is expected to be the last
+  lecture-slides add-on for the final exam bank; the user plans a broader
+  quality audit across all questions next.
 
 ## What this is
 
@@ -97,9 +100,9 @@ src/
 styles/
   main.css                       all styling — responsive "macro dashboard" layout
 data/
-  questions.json                 the question bank (209 questions — first final-exam batch, 2026-07-27)
-  topics.json                    topic list (id, name, description) — 9 post-midterm/final-exam topics
-  sources.json                   source-material metadata (which file, what it covers, reliability notes) — 10 sources
+  questions.json                 the question bank (250 questions — final lecture batch added 2026-07-30)
+  topics.json                    topic list (id, name, description) — 11 post-midterm/final-exam topics
+  sources.json                   source-material metadata (which file, what it covers, reliability notes) — 11 sources
 docs/
   source-notes.md                what materials were used, what was extracted, any caveats
   question-authoring-guide.md    schema reference and conventions for adding new questions

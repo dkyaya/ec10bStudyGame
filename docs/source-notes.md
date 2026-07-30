@@ -4,6 +4,70 @@ This document summarizes how the initial Econ 10b question bank was derived from
 uploaded course materials, so future contributors know what has and hasn't been
 verified against the source content.
 
+## 2026-07-30 Final lecture question add-on — active source and formula-convention note
+
+The final lecture of the course, `HarvardS10b_Class11.pptx`, was uploaded
+today. Full source-selection reasoning is in
+`docs/update-notes/2026-07-30-final-lecture-addon-plan.md`; the batch's
+results are in `docs/update-notes/2026-07-30-final-lecture-addon-results.md`.
+
+**Source added:** `class11` — "Class 11: The Global Economy, Exchange Rates,
+and Open Economy Macroeconomic Issues." 41 slides, extracted cleanly via
+`python-pptx` (bullet text + speaker notes captured for essentially every
+content slide).
+
+**Extraction reliability / skipped material.** Three slides are chart-only
+with no usable extractable data and were not used as grounding for any
+question: slide 13 ("Inflation and Currency Depreciation in South America,
+1995-2004," a scatter chart with only a "45º line" label extracted), slide
+15 ("Fixed versus Floating," a comparison graphic with no extractable body
+text beyond its title), and slide 35 ("Percentage of Developing Countries
+with Capital Controls," a chart with no extractable axis/series data). Every
+question in this batch is grounded in the deck's own bullet text and speaker
+notes instead. No `needsReview` flag was needed.
+
+**New topics:** `exchange-rates` (the FOREX market, nominal vs. real
+exchange rates, the law of one price, purchasing power parity, and the
+exchange-rate channel of monetary policy) and `open-economy-policy` (fixed
+vs. floating regimes, optimum currency areas, the policy trilemma, and
+capital controls, including the UK/Sweden 1992, France 1993, Argentina, and
+Malaysia 1998 case studies).
+
+**Standing formula-convention note: this one source uses two different
+exchange-rate sign conventions across its own slides.** This is not a
+cross-source disagreement like the Okun's Law note below — both conventions
+appear within `class11` itself, in two different sections, and each is
+internally consistent and explicitly stated by the deck:
+
+- **Lowercase `e` (slides 3-13, the FOREX-market and real-exchange-rate
+  sections): foreign currency per U.S. dollar.** Slide 4 states directly
+  that a rise in `e` means "the dollar appreciates." The real-exchange-rate
+  conversion `Pf$ = Pf / e` and PPP's `1 = P × e / Pf` both use this
+  convention. **All `exchange-rates`-topic formula questions
+  (`xrate-formula-001` through `-005`) use this convention.**
+- **Uppercase `E` (slides 21-25, the international/policy-trilemma
+  section): domestic currency per unit of foreign currency.** Slide 21's own
+  speaker notes state this explicitly — "E up means depr[eciation] of
+  domestic currency here" — the *opposite* direction from lowercase `e`.
+  This convention is used in the interest-parity formula
+  (`R = RFOR + (Ee − E)/E`), the fixed-rate goal (`E = E*, %ΔE = 0`), and
+  the restated PPP condition (`%ΔE = Inflation − InflationFOR`). **The one
+  `open-economy-policy`-topic formula question (`openecon-formula-001`) uses
+  this convention** and states so explicitly in its `correctExplanation`.
+- **Why this isn't treated as a bug to "fix":** unlike the Okun's Law case
+  below (where one batch had silently drifted from the course's primary
+  convention), both conventions here are the deck's own stated notation in
+  two different sections, likely because the international section is
+  framed generically ("the domestic country" pegging to "the foreign
+  country") rather than specifically about the U.S. dollar. The risk this
+  note guards against is a *future* question silently mixing the two within
+  one topic — don't use uppercase-`E`-convention reasoning in an
+  `exchange-rates` question or vice versa without stating the convention
+  explicitly, the same discipline the Okun's Law note below establishes for
+  cross-source sign differences.
+
+**`needsReview` count for this batch: 0.**
+
 ## 2026-07-29 Formula convention audit (standing note: Okun's Law / output gap sign convention)
 
 A focused audit compared every formula in the active question bank against

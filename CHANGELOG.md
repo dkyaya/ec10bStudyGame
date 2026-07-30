@@ -1,5 +1,84 @@
 # Changelog
 
+## 2026-07-30 15:45 — Final Lecture Question Add-On
+
+### Added
+- 41 new questions generated from the newly uploaded final lecture,
+  `HarvardS10b_Class11.pptx` ("Class 11: The Global Economy, Exchange
+  Rates, and Open Economy Macroeconomic Issues") — the last lecture
+  add-on for the final exam question bank. New source id: `class11`.
+- Two new topics: `exchange-rates` ("Exchange Rates and Purchasing Power
+  Parity" — 21 questions: 5 vocab, 9 standard, 5 formula, 2 graph) and
+  `open-economy-policy` ("Fixed vs. Floating Exchange Rates and the Policy
+  Trilemma" — 20 questions: 4 vocab, 12 standard, 1 formula, 3 graph).
+- 5 new inline SVG diagrams: a FOREX dollar-market supply/demand diagram
+  (two questions, one isolating a demand shift and one a supply shift),
+  the optimum-currency-area "Gains vs. Losses" crossing chart, the policy-
+  trilemma triangle, and the UK/Sweden 1992 `r`-vs.-output diagram.
+- `docs/update-notes/2026-07-30-final-lecture-addon-plan.md` and
+  `-results.md`: source identification, formula-convention analysis,
+  question counts/mix, and the full distractor-quality and validation
+  audit trail for this batch.
+- A new "Balance answer-choice plausibility and length" section in
+  `docs/question-authoring-guide.md`, and a matching distractor-quality/
+  answer-choice-balance checklist section in `docs/qa-checklist.md`.
+- A standing formula-convention note in `docs/source-notes.md` documenting
+  that `class11` uses two different (each internally consistent and
+  explicitly source-stated) exchange-rate sign conventions across its own
+  slides — lowercase `e` (foreign currency per dollar) in the FOREX-market
+  section versus uppercase `E` (domestic currency per foreign currency,
+  confirmed by the deck's own speaker notes) in the international/policy-
+  trilemma section — and which convention each new formula question uses.
+
+### Changed
+- `README.md`: updated total question count (209 → 250), topic count
+  (9 → 11), source count (10 → 11), question-type and difficulty
+  breakdowns, and the "Current status" narrative to reflect the final
+  lecture's arrival.
+
+### Fixed
+- Rewrote the answer choices on 18 of this batch's own 41 new questions
+  (found before the batch was finalized, via an automated per-question
+  word-count check) where the correct answer was noticeably longer/more
+  fully explained than its distractors — a guessable-by-length pattern the
+  user had flagged from earlier batches. All 18 were rebalanced for length
+  and structural parity without changing meaning or correctness; a
+  follow-up automated re-check found 0 remaining flagged questions.
+- `openecon-graph-002` (the policy-trilemma triangle SVG): its two bottom-
+  corner labels ("Monetary Policy Autonomy" and "Freedom of Capital
+  Movement") overflowed the diagram's `viewBox` and were clipped when
+  rendered in the browser, a bug the XML-validity and line-intersection
+  checks didn't catch. Found during in-browser QA playtest and fixed by
+  wrapping both labels onto two `<tspan>` lines.
+
+### Notes
+- Formula-convention check: all 6 new formula questions' correct answers
+  and every numeric distractor were independently recomputed in Python
+  from their own stated numbers/claimed mistakes before being written into
+  the question bank; see the results note for the full verification
+  transcript.
+- Graph/SVG check: all 5 new diagrams' line equations and marked
+  intersection points were solved algebraically before being converted to
+  SVG coordinates, and all 5 were rendered and visually confirmed in a
+  live browser session (see "Fixed" above for the one issue that surfaced
+  only at render time).
+- Distractor-quality/answer-choice-balance check performed and documented
+  as a new durable authoring rule (see "Added" above); manual spot-checks
+  also confirmed parallel choice structure, plausible distractors, and no
+  technical-vocabulary-only-on-the-correct-answer pattern across a sample
+  spanning all four question types.
+- `node scripts/validate-data.mjs` passes with 0 errors, 0 warnings:
+  Checked 250 questions, 11 topics, 11 sources. 58 vocab, 58 formula, 29
+  graph (17 with an inline diagram).
+- `needsReview` count: 0 for this batch (0 for the whole bank).
+- No raw `private-materials/` files committed; only derived question JSON
+  and documentation are tracked in git, per the existing `.gitignore`.
+- The Midterm Review mode remains permanently removed — not touched or
+  reintroduced by this batch.
+- No existing question, topic, or source was modified — `git diff --stat`
+  on `data/questions.json`, `data/sources.json`, and `data/topics.json`
+  shows pure additions (0 deletions).
+
 ## 2026-07-29 14:30 — Formula Convention Audit
 
 ### Added

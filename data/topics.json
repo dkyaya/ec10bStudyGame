@@ -43,5 +43,15 @@
     "id": "financial-crisis-2008",
     "name": "The 2008 Financial Crisis: Mechanics, Response, and Historical Lessons",
     "description": "The subprime-mortgage and securitization mechanics behind the 2007-09 crisis, leverage and balance-sheet dynamics, too-big-to-fail and the credit crunch, the Fed's unconventional monetary policy at the zero lower bound, and the fiscal-multiplier and Great-Depression-era policy debates the crisis revived."
+  },
+  {
+    "id": "exchange-rates",
+    "name": "Exchange Rates and Purchasing Power Parity",
+    "description": "The foreign exchange (FOREX) market's supply and demand, how it differs from the Fed-controlled money supply, how monetary policy transmits through the exchange-rate channel, nominal versus real exchange rates, the law of one price, and purchasing power parity's long-run predictions and short-run limits."
+  },
+  {
+    "id": "open-economy-policy",
+    "name": "Fixed vs. Floating Exchange Rates and the Policy Trilemma",
+    "description": "The costs and benefits of fixed versus floating exchange rate regimes, the optimum currency area framework, the open-economy policy trilemma (exchange-rate stability, monetary autonomy, and free capital movement), and capital controls, illustrated through historical currency-crisis case studies."
   }
 ]

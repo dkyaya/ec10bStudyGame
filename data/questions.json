@@ -6745,5 +6745,1333 @@
       "money supply",
       "graph reasoning"
     ]
+  },
+  {
+    "id": "xrate-vocab-001",
+    "topic": "exchange-rates",
+    "subtopic": "The FOREX Market",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In the market for foreign exchange, the dollar's exchange rate is best described as being set by:",
+    "choices": [
+      "The supply and demand for dollars from foreigners and U.S. residents buying goods or assets",
+      "The money supply, which the Federal Reserve sets directly through its own policy tools",
+      "The U.S. Treasury, which announces an official dollar exchange rate every trading morning",
+      "The trade balance alone, since only goods importers and exporters ever trade currency"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture models the FOREX market as an ordinary supply-and-demand market: foreigners demand dollars to buy U.S. goods or assets, and U.S. residents supply dollars to obtain foreign currency for their own foreign purchases. The equilibrium exchange rate is where these two curves cross.",
+    "wrongExplanations": [
+      null,
+      "The lecture explicitly distinguishes the FOREX market's quantity of dollars traded from the money supply the Fed sets — they are related but not the same variable.",
+      "No U.S. government agency announces an official rate under a flexible-rate system; the rate is determined by market supply and demand.",
+      "Financial-asset purchases, not just goods trade, are also a major source of both the demand for and supply of dollars in the exchange market."
+    ],
+    "tags": [
+      "FOREX market",
+      "exchange rate",
+      "supply and demand"
+    ]
+  },
+  {
+    "id": "xrate-vocab-002",
+    "topic": "exchange-rates",
+    "subtopic": "Nominal vs. Real Exchange Rate",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Which statement correctly distinguishes the real exchange rate from the nominal exchange rate?",
+    "choices": [
+      "The nominal rate converts currencies directly; the real rate compares domestic and foreign goods prices in a common currency",
+      "The nominal exchange rate applies only in the long run, while the real exchange rate applies only in the short run, per this distinction",
+      "The real exchange rate is just the nominal exchange rate adjusted upward or downward for the size of the trade deficit",
+      "The nominal exchange rate measures purchasing power directly, while the real rate captures only the currency-conversion number itself"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The nominal exchange rate is the pure currency-conversion number (units of foreign currency per dollar). The real exchange rate builds on it by comparing the price of the average domestic good to the average foreign good, both converted into a common currency — that's what tells you whether domestic goods are relatively cheap or expensive.",
+    "wrongExplanations": [
+      null,
+      "Both concepts apply at any point in time; the short-run/long-run distinction in the lecture is about whether domestic prices are held fixed, not about which exchange-rate concept is 'in effect.'",
+      "The trade deficit isn't part of either definition; the real exchange rate is built from relative price levels and the nominal rate, not trade-flow data.",
+      "This reverses the two definitions — it's the real exchange rate that captures purchasing power (relative prices of goods), while the nominal rate is the pure currency-conversion number."
+    ],
+    "tags": [
+      "real exchange rate",
+      "nominal exchange rate",
+      "definitions"
+    ]
+  },
+  {
+    "id": "xrate-vocab-003",
+    "topic": "exchange-rates",
+    "subtopic": "PPP's Long-Run Prediction",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "According to purchasing power parity, what does the theory predict about the exchange rate of a country experiencing significantly higher inflation than its trading partners?",
+    "choices": [
+      "Its currency will tend to depreciate over time as its goods become relatively more expensive at the old exchange rate",
+      "Its currency will tend to appreciate, since higher prices attract more foreign buyers seeking to spend before prices rise further",
+      "Its exchange rate is unaffected, since PPP only concerns interest rates, not price levels",
+      "Its currency will fix itself automatically at a new rate exactly equal to the interest-rate differential between the two countries"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "PPP predicts that in the long run, currencies of countries with significantly higher inflation will tend to depreciate — their goods become relatively overpriced at the existing rate, and the exchange rate adjusts to restore the law of one price.",
+    "wrongExplanations": [
+      null,
+      "Higher relative prices make domestic goods less attractive to foreign buyers at the existing rate, which pushes the currency to depreciate, not appreciate.",
+      "PPP is specifically about how relative price levels (inflation) drive the nominal exchange rate over time — interest rates are a separate mechanism (interest parity).",
+      "PPP relates the exchange rate to relative inflation rates, not interest rates — that's a different (though related) parity condition."
+    ],
+    "tags": [
+      "purchasing power parity",
+      "inflation",
+      "currency depreciation"
+    ]
+  },
+  {
+    "id": "xrate-vocab-004",
+    "topic": "exchange-rates",
+    "subtopic": "The Law of One Price",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "The law of one price predicts that the price of an internationally traded commodity will equalize across locations (net of transport costs). What mechanism enforces this?",
+    "choices": [
+      "Arbitrage — traders buy where it's cheap and sell where it's expensive, pushing the two prices together",
+      "Government price controls that legally mandate identical commodity prices across every trading partner country",
+      "Consumer boycotts of the pricier market, continuing until sellers are forced to match the cheaper price",
+      "Central banks adjusting their money supplies in tandem until the two market prices happen to match"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture ties the law of one price directly to arbitrage: if the same good is priced differently in two markets, traders can profit by buying low and selling high, and doing so pushes the two prices together until the gap disappears.",
+    "wrongExplanations": [
+      null,
+      "The law of one price is a market-arbitrage result, not a policy mandate — no government price-setting is involved.",
+      "The mechanism runs through traders reselling the good for profit, not through consumers refusing to buy.",
+      "Monetary policy affects the general price level and exchange rate, but the law of one price is enforced by traders exploiting a specific price gap, not by central bank action."
+    ],
+    "tags": [
+      "law of one price",
+      "arbitrage"
+    ]
+  },
+  {
+    "id": "xrate-vocab-005",
+    "topic": "exchange-rates",
+    "subtopic": "Appreciation vs. Depreciation",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "The euro/dollar exchange rate (euros per dollar) rises from 0.90 to 0.95. This change is best described as:",
+    "choices": [
+      "The dollar appreciating against the euro",
+      "The dollar depreciating against the euro",
+      "The euro appreciating against the dollar, since the euro is now worth more",
+      "A change in the money supply, not the exchange rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A rise in the number of euros a dollar buys is exactly the lecture's definition of the dollar appreciating — each dollar now trades for more foreign currency than before.",
+    "wrongExplanations": [
+      null,
+      "A rise in the number of euros a dollar buys means the dollar has gotten stronger, not weaker — that's appreciation, not depreciation.",
+      "A dollar now buying more euros means each individual euro buys fewer dollars, so the euro has weakened, not strengthened, against the dollar.",
+      "This is a change in the market price of currency (the exchange rate itself), not a change in the quantity of money in circulation."
+    ],
+    "tags": [
+      "appreciation",
+      "depreciation",
+      "exchange rate"
+    ]
+  },
+  {
+    "id": "xrate-standard-001",
+    "topic": "exchange-rates",
+    "subtopic": "Monetary Policy's Exchange-Rate Channel",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Which causal chain best describes how the Fed's decision to tighten monetary policy affects the dollar's exchange rate?",
+    "choices": [
+      "Tighter policy raises the real interest rate → U.S. assets attract foreign investors → dollar demand rises and dollar supply falls → the dollar appreciates",
+      "Tighter policy raises the U.S. real interest rate → U.S. exports become cheaper abroad → foreign demand for U.S. goods rises → the dollar appreciates",
+      "Tighter policy lowers the U.S. real interest rate → foreign investors sell U.S. assets → demand for dollars falls → the dollar depreciates",
+      "Tighter policy directly raises the money supply → far more dollars become available on world currency markets → the dollar depreciates"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's chain runs through interest rates and asset demand: a higher real interest rate makes U.S. assets more attractive, raising foreign demand for dollars and lowering U.S. residents' supply of dollars, which together push the exchange rate up (appreciation).",
+    "wrongExplanations": [
+      null,
+      "The exchange-rate channel runs through interest-rate-driven asset demand, not through export prices — a higher real rate doesn't by itself make U.S. exports cheaper; if anything, dollar appreciation later makes them more expensive.",
+      "Tighter monetary policy raises, not lowers, the real interest rate — this reverses the policy's actual direction and its effect on asset attractiveness.",
+      "Tightening monetary policy reduces, not increases, the money supply; the exchange-rate effect runs through the interest rate and asset demand, not a direct money-supply-to-FOREX link."
+    ],
+    "tags": [
+      "monetary policy",
+      "exchange rate channel",
+      "interest rates"
+    ]
+  },
+  {
+    "id": "xrate-standard-002",
+    "topic": "exchange-rates",
+    "subtopic": "FOREX Supply vs. the Money Supply",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student studying the dollar market claims: \"The supply curve in the foreign exchange market is just the U.S. money supply that the Fed controls, so when the Fed increases the money supply, the supply of dollars in the FOREX market increases too, for the same reason.\" What is wrong with this reasoning?",
+    "choices": [
+      "The FOREX supply of dollars comes from U.S. residents wanting foreign currency — a distinct concept from the Fed-controlled money supply; the two can move independently",
+      "Nothing is wrong — the money supply and the supply of dollars in the FOREX market are defined identically, so the student's claim is correct",
+      "The error is only that the Fed doesn't actually control the money supply; open-market operations affect interest rates directly, with no effect on the quantity of money",
+      "The supply of dollars in the FOREX market is set by foreign central banks, not the Fed, so the student has the wrong institution entirely"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture explicitly flags this as a common mix-up: the quantity of dollars offered in exchange for other currencies (the FOREX supply curve) is \"not the same as the money supply set by the Fed.\" They can move for different reasons and in different directions.",
+    "wrongExplanations": [
+      null,
+      "The lecture explicitly notes the supply of dollars in the FOREX market is 'not the same as the money supply set by the Fed' — they are related but distinct concepts, not identical definitions.",
+      "The Fed does directly set the money supply through tools like open-market operations, discount lending, and reserve requirements — that part of the student's reasoning isn't the error here.",
+      "The supply of dollars comes from U.S. residents seeking foreign currency, not from any central bank directly — foreign central banks aren't the source of this curve either."
+    ],
+    "tags": [
+      "FOREX market",
+      "money supply",
+      "common confusion"
+    ]
+  },
+  {
+    "id": "xrate-standard-003",
+    "topic": "exchange-rates",
+    "subtopic": "Why Flexible Rates Strengthen Monetary Policy",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The lecture argues that \"standard\" monetary policy is more effective in an open economy with flexible exchange rates than in a closed economy. Which mechanism best explains why?",
+    "choices": [
+      "A tightening triggers both the usual domestic spending slowdown and an extra channel — appreciation makes exports pricier and imports cheaper, reinforcing the contraction",
+      "Flexible exchange rates let the Fed set the exchange rate directly, handing it a second, independent policy lever beyond the interest rate itself",
+      "In an open economy, foreign central banks are assumed to automatically match the Fed's policy move, doubling its effect on domestic output",
+      "Flexible exchange rates are said to eliminate the domestic interest-rate channel entirely, leaving the exchange-rate channel as policy's only real effect"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture describes a tightening setting off both \"a chain of domestic events\" (the usual interest-rate-to-spending channel) and \"a chain of international events\" (appreciation reducing net exports) that reinforce each other, which is exactly why flexible-rate open economies see a stronger effect from standard monetary policy.",
+    "wrongExplanations": [
+      null,
+      "The Fed doesn't set the exchange rate directly under a flexible-rate system — the rate is market-determined; the exchange rate reinforces monetary policy as a byproduct of the interest-rate change, not as a second lever the Fed pulls.",
+      "Nothing in this mechanism requires foreign central banks to respond at all — the reinforcing effect comes from the exchange rate's impact on net exports, independent of any foreign policy reaction.",
+      "The exchange-rate channel adds to, rather than replaces, the domestic interest-rate channel — both operate together, which is exactly why the combined effect is larger, not smaller."
+    ],
+    "tags": [
+      "monetary policy",
+      "exchange rate channel",
+      "open economy"
+    ]
+  },
+  {
+    "id": "xrate-standard-004",
+    "topic": "exchange-rates",
+    "subtopic": "Real Exchange Rate and Net Exports",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A country's real exchange rate has been rising steadily for several years, even though its nominal exchange rate has barely moved. Based on the lecture's real-exchange-rate framework, what is the most likely effect on this country's net exports, and why?",
+    "choices": [
+      "Net exports likely fall, because a higher real exchange rate makes domestic goods pricier than foreign goods, regardless of what the nominal rate does",
+      "Net exports likely rise, because a higher real exchange rate is always a signal of a stronger, more internationally competitive domestic economy",
+      "Net exports stay unaffected here, since only the nominal exchange rate — never the real exchange rate — actually influences a country's trade flows",
+      "Net exports likely fall, because a rising real exchange rate means the nominal exchange rate must be about to fall sharply to correct it"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture states directly that net exports are low when the real exchange rate is high, since a high real exchange rate means domestic goods are expensive relative to foreign goods. A rising real exchange rate driven by relative price levels (with the nominal rate flat) still produces this effect.",
+    "wrongExplanations": [
+      null,
+      "A higher real exchange rate makes domestic goods relatively more expensive, which tends to hurt price competitiveness and reduce net exports — it isn't a general marker of economic strength.",
+      "The lecture ties the real exchange rate directly to net exports (a high real exchange rate means low net exports); the nominal rate is only one input into the real rate, not the sole driver of trade flows.",
+      "The real exchange rate rising doesn't itself require any specific future move in the nominal rate — it could instead reflect domestic prices (P) rising faster than foreign prices (Pf), with the nominal rate steady, exactly as described here."
+    ],
+    "tags": [
+      "real exchange rate",
+      "net exports"
+    ]
+  },
+  {
+    "id": "xrate-standard-005",
+    "topic": "exchange-rates",
+    "subtopic": "PPP Applied to a Fresh Scenario",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Country Alpha has averaged 9% annual inflation for the past decade; Country Beta, its major trading partner, has averaged 2%. Neither country has intervened in currency markets. Based on purchasing power parity, what should have happened to Alpha's currency relative to Beta's over this period?",
+    "choices": [
+      "Alpha's currency should have depreciated substantially against Beta's, roughly tracking the gap between their inflation rates",
+      "Alpha's currency should have appreciated against Beta's, since higher inflation reflects a larger, faster-growing economy",
+      "Alpha's currency should be unaffected, since PPP only applies to prices within a single country, not to exchange rates between two countries",
+      "Alpha's and Beta's currencies should have converged to the same value, since PPP predicts exchange rates equalize over time"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "PPP ties the exchange rate to the gap in the two countries' inflation rates: a persistently higher-inflation country's currency should depreciate against its lower-inflation partner's currency, roughly in line with that inflation gap.",
+    "wrongExplanations": [
+      null,
+      "PPP ties higher relative inflation to currency depreciation, not appreciation — inflation erodes a currency's purchasing power, which is exactly what pushes its exchange rate down over time.",
+      "PPP is specifically a theory of the exchange rate between two countries, built from the relative price levels (and thus inflation rates) of each — it's not a within-country-only concept.",
+      "PPP predicts a specific exchange rate consistent with relative price levels, not that two different currencies converge to being 'the same value' — a currency can be worth a small fraction of another indefinitely as long as the exchange rate reflects that price gap."
+    ],
+    "tags": [
+      "purchasing power parity",
+      "inflation",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "xrate-standard-006",
+    "topic": "exchange-rates",
+    "subtopic": "Why PPP Fails in the Short Run",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "PPP is described as being a poor predictor of exchange-rate movements over short periods, even though it holds up reasonably well over long periods. Which of the following best explains this gap?",
+    "choices": [
+      "Many goods in a price index — haircuts, rent, restaurant meals — aren't traded internationally, so arbitrage can't equalize their prices across countries in the short run",
+      "Short-run exchange rates are set by a completely different market than long-run exchange rates, so PPP was never meant to apply to either",
+      "In the short run, transportation costs for traded goods rise sharply, which is the only reason arbitrage temporarily breaks down",
+      "PPP fails in the short run because governments always intervene to prevent it from holding, but stop intervening once enough time has passed"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture gives two specific reasons PPP is unreliable short-run: not all seemingly similar goods are standardized, and not all goods (or their inputs) are traded internationally — non-traded goods like haircuts or rent can't be arbitraged across borders, so their prices don't get forced toward parity.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes one underlying exchange-rate market, not separate short-run and long-run markets — PPP is a long-run tendency within that same market, not a rule for a distinct short-run market.",
+      "Transportation costs are treated as roughly constant in this argument; the actual reason given is that not all goods (or their inputs) are traded or standardized, not a short-run spike in shipping costs.",
+      "No systematic government intervention is invoked as the explanation here — the issue is structural (non-traded and non-standardized goods), not a policy choice that eventually stops."
+    ],
+    "tags": [
+      "purchasing power parity",
+      "non-traded goods",
+      "short-run limitations"
+    ]
+  },
+  {
+    "id": "xrate-standard-007",
+    "topic": "exchange-rates",
+    "subtopic": "Interest Rate Parity Mechanism",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Interest rate parity links a country's nominal interest rate to the foreign interest rate and the expected future change in the exchange rate. If investors suddenly expect the domestic currency to depreciate sharply over the next year, what does interest parity imply must happen to the domestic nominal interest rate, holding the foreign rate fixed, for investors to remain willing to hold both currencies' assets?",
+    "choices": [
+      "The domestic nominal interest rate must rise, to compensate investors for the expected loss in value from holding the depreciating currency",
+      "The domestic nominal interest rate must fall, since a depreciating currency already offers investors a built-in discount on domestic assets",
+      "The domestic nominal interest rate is unaffected, since interest parity only relates two countries' interest rates to each other, not to exchange-rate expectations",
+      "The foreign nominal interest rate must fall to match the domestic rate, since interest parity requires the two rates to always be equal"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Interest parity's whole content is that the interest-rate gap between two countries must offset the expected exchange-rate change between their currencies. Expected depreciation of the domestic currency makes holding it less attractive, so the domestic rate must rise above the foreign rate to keep investors willing to hold it.",
+    "wrongExplanations": [
+      null,
+      "A currency expected to depreciate makes holding it less attractive, not more — investors would need a *higher*, not lower, interest rate to be compensated for that expected loss.",
+      "Interest parity's entire content is that the interest-rate gap must offset the expected exchange-rate change — expected depreciation is a central input to the condition, not something it ignores.",
+      "Interest parity doesn't require the two rates to be equal in general — it requires the gap between them to equal the expected percentage exchange-rate change, which is zero only when no depreciation or appreciation is expected."
+    ],
+    "tags": [
+      "interest rate parity",
+      "exchange rate expectations"
+    ]
+  },
+  {
+    "id": "xrate-standard-008",
+    "topic": "exchange-rates",
+    "subtopic": "Scenario Transfer: A Rate Hike's Trade Effects",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "The central bank of a small, open economy raises its policy rate sharply to combat domestic inflation. Assuming flexible exchange rates and no offsetting shocks, what is the most likely combined effect on this country's currency and its trade balance?",
+    "choices": [
+      "The currency appreciates, and the trade balance moves toward deficit, since a stronger currency makes the country's exports more expensive abroad and imports cheaper at home",
+      "The currency appreciates, and the trade balance moves toward surplus, since a stronger currency signals a more competitive economy to foreign buyers",
+      "The currency depreciates, and the trade balance moves toward surplus, since higher domestic interest rates typically drive capital out of the country",
+      "The currency and the trade balance are both unaffected, since interest rate changes only influence domestic spending, not the exchange rate"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A rate hike raises the real interest rate, which appreciates the currency through the exchange-rate channel; a stronger currency then makes exports pricier abroad and imports cheaper at home, pushing net exports — and the trade balance — toward deficit.",
+    "wrongExplanations": [
+      null,
+      "A stronger (appreciated) currency makes domestic goods more expensive to foreign buyers, which tends to worsen, not improve, the trade balance — 'more competitive' is not what a real exchange rate increase signals here.",
+      "Higher domestic interest rates attract foreign capital inward (seeking the higher return), which appreciates, not depreciates, the currency — this reverses the direction of the capital-flow response.",
+      "The exchange-rate channel is exactly how monetary policy reaches beyond domestic spending — a rate hike changes relative asset returns, which does move the exchange rate and, through it, the trade balance."
+    ],
+    "tags": [
+      "monetary policy",
+      "trade balance",
+      "scenario transfer"
+    ]
+  },
+  {
+    "id": "xrate-standard-009",
+    "topic": "exchange-rates",
+    "subtopic": "Compare Cases: Capital Mobility and Appreciation",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Two small open economies, Nation X and Nation Y, both raise their policy interest rates by the same amount. Nation X's financial markets are tightly integrated with global capital markets (foreign investors can move funds in and out freely); Nation Y maintains strict limits on foreign investors moving funds in or out. In which country would interest-rate-driven currency appreciation be expected to be larger, and why?",
+    "choices": [
+      "Nation X — with capital free to move, a higher rate quickly draws in more foreign funds chasing the better return, pushing currency demand up more than in Nation Y",
+      "Nation Y — restricting capital flows forces all investment demand into the currency market directly, producing an even larger appreciation than an open capital market would",
+      "Both countries would see identical appreciation, since the size of the interest-rate change, not the openness of capital markets, is what determines the exchange-rate response",
+      "Nation X — but only because open capital markets cause the money supply to increase automatically, which is what actually drives the appreciation"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The exchange-rate channel runs through foreign investors shifting funds toward the higher-return currency. Free capital mobility lets that shift actually happen; restrictions on capital movement blunt it, so the same rate hike produces a weaker currency response where capital can't move freely to chase the higher return.",
+    "wrongExplanations": [
+      null,
+      "Restrictions on capital movement block funds from flowing in to chase the higher return in the first place, which weakens, not strengthens, the appreciation the interest-rate change would otherwise produce.",
+      "The whole point of limiting capital mobility is to weaken the link between interest-rate changes and cross-border fund flows — an identical rate change produces a smaller currency response where capital can't move freely to exploit it.",
+      "The appreciation here comes from capital inflows increasing demand for the currency in the FOREX market, not from any change in the domestic money supply, which is a separate policy lever."
+    ],
+    "tags": [
+      "interest rate parity",
+      "capital mobility",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "xrate-formula-001",
+    "topic": "exchange-rates",
+    "subtopic": "Real Exchange Rate — Converting a Foreign Price",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A liter of premium olive oil costs $18 in the U.S. A comparable liter of Italian olive oil costs €15 in Italy. The exchange rate is $1 = €0.75. Which olive oil is cheaper once both prices are converted to the same currency, and by roughly what percentage?",
+    "choices": [
+      "The U.S. olive oil is cheaper — converting the Italian price gives €15 / 0.75 = $20, so the $18 U.S. oil costs 90% of the converted Italian price, about 10% less",
+      "The Italian olive oil is cheaper — converting €15 to dollars by multiplying by the exchange rate gives €15 × 0.75 = $11.25, well below the U.S. price of $18",
+      "The Italian olive oil is cheaper, since €15 is a smaller number than $18 and no conversion is needed when comparing prices already stated in each country's own currency",
+      "The Italian olive oil is cheaper — after converting to $20, dividing the Italian price by the U.S. price gives 20/18 ≈ 1.11, meaning the Italian oil is about 11% cheaper than the U.S. oil"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "To convert the foreign price to dollars, divide by e: Pf$ = Pf / e = €15 / 0.75 = $20. Comparing the two dollar prices, P / Pf$ = $18 / $20 = 0.9, so the U.S. oil is about 10% cheaper than the Italian oil once both are expressed in dollars.",
+    "wrongExplanations": [
+      null,
+      "This multiplies the foreign price by e instead of dividing by it — converting a foreign price to dollars means dividing by the units-of-foreign-currency-per-dollar exchange rate, not multiplying by it.",
+      "Prices in two different currencies can't be compared as raw numbers — the euro price must first be converted to dollars using the exchange rate before any comparison is valid.",
+      "The ratio 20/18 ≈ 1.11 is computed correctly, but a ratio above 1 here means the Italian price is *higher* relative to the U.S. price, not lower — this mislabels which good the ratio favors."
+    ],
+    "tags": [
+      "real exchange rate",
+      "formula",
+      "currency conversion"
+    ]
+  },
+  {
+    "id": "xrate-formula-002",
+    "topic": "exchange-rates",
+    "subtopic": "Real Exchange Rate — Solving for the Nominal Rate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A pair of jeans is priced at $60 in the U.S. and CHF 78 in Switzerland. Suppose the real exchange rate (the relative price of the U.S. jeans to the Swiss jeans, P × e / Pf) is exactly 1.2, meaning the U.S. jeans are 20% more expensive once converted. What nominal exchange rate e (Swiss francs per dollar) is implied?",
+    "choices": [
+      "1.56 francs per dollar — solving the real exchange rate formula for e gives e = (1.2 × 78) / 60",
+      "0.64 francs per dollar — solving e = 60 / (1.2 × 78), inverting the rearrangement of the real exchange rate formula",
+      "1.2 francs per dollar — treating the real exchange rate itself as if it were already the nominal exchange rate",
+      "1.08 francs per dollar — computing (78 / 60) / 1.2 instead of (78 / 60) × 1.2"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The real exchange rate is P × e / Pf = 1.2. Solving for e: e = (1.2 × Pf) / P = (1.2 × 78) / 60 = 1.56 francs per dollar. Checking: Pf$ = 78 / 1.56 = $50, and P / Pf$ = 60/50 = 1.2, confirming the U.S. jeans are 20% more expensive.",
+    "wrongExplanations": [
+      null,
+      "This inverts the rearrangement — solving P × e / Pf = 1.2 for e requires multiplying 1.2 by Pf and dividing by P, not dividing P by (1.2 × Pf).",
+      "The real exchange rate (a relative price, here 1.2) and the nominal exchange rate (a currency-conversion rate, here in francs per dollar) are different quantities — the real exchange rate can't simply be read off as the nominal rate.",
+      "This divides by the real exchange rate instead of multiplying by it — correctly rearranging P × e / Pf = 1.2 for e requires multiplying (Pf/P) by 1.2, not dividing by it."
+    ],
+    "tags": [
+      "real exchange rate",
+      "formula",
+      "reverse calculation"
+    ]
+  },
+  {
+    "id": "xrate-formula-003",
+    "topic": "exchange-rates",
+    "subtopic": "Applying the PPP Formula",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Suppose purchasing power parity holds exactly for a broad basket of goods between the U.S. and Japan. The U.S. price index P = 120 and the Japanese price index Pf = 15,600 (in yen). Using PPP (1 = P × e / Pf), what nominal exchange rate e (yen per dollar) does PPP predict?",
+    "choices": [
+      "130 yen per dollar — rearranging PPP gives e = Pf / P = 15,600 / 120",
+      "1,300 yen per dollar — from a misplaced decimal, dividing 15,600 by 12 instead of by 120",
+      "About 0.0077 yen per dollar — from inverting the ratio and computing P / Pf instead of Pf / P",
+      "15,480 yen per dollar — from subtracting P from Pf instead of dividing Pf by P"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Rearranging 1 = P × e / Pf for e gives e = Pf / P = 15,600 / 120 = 130 yen per dollar — the nominal exchange rate consistent with the two countries' price levels under PPP.",
+    "wrongExplanations": [
+      null,
+      "This divides by 12 instead of 120, a misplaced decimal in the division — the correct denominator is the full U.S. price index, 120, not 12.",
+      "This computes P / Pf instead of the correct Pf / P — rearranging 1 = P × e / Pf for e requires putting Pf in the numerator and P in the denominator.",
+      "PPP relates the exchange rate to the *ratio* of the two price indices, not their difference — subtracting one index from the other doesn't correspond to any term in the PPP formula."
+    ],
+    "tags": [
+      "purchasing power parity",
+      "formula",
+      "exchange rate"
+    ]
+  },
+  {
+    "id": "xrate-formula-004",
+    "topic": "exchange-rates",
+    "subtopic": "PPP — Inferring an Inflation Rate",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "Two years ago, the exchange rate between the U.S. dollar and the Brazilian real was 5.0 reais per dollar. Today it is 5.5 reais per dollar (the dollar has appreciated against the real). Over this period, U.S. inflation totaled 4%. If PPP held exactly over this period, approximately what was Brazil's inflation over the same two years?",
+    "choices": [
+      "14% — the 10% rise in reais-per-dollar reflects Brazil's inflation exceeding U.S. inflation by 10 percentage points, so Brazil's inflation = 10% + 4%",
+      "4% — assuming Brazil's inflation matched the U.S.'s, without using the exchange-rate change at all",
+      "-6% — computing U.S. inflation minus the exchange-rate change (4% − 10%) instead of the other way around",
+      "10% — correctly computing the 10% change in the exchange rate, but forgetting to add the U.S.'s own 4% inflation on top of it"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The exchange rate's percentage change is (5.5 − 5.0) / 5.0 = 10%. Under PPP, this gap reflects Brazil's inflation exceeding the U.S.'s by that same 10 percentage points, so Brazil's inflation = 10% + 4% (U.S. inflation) = 14%.",
+    "wrongExplanations": [
+      null,
+      "This ignores the given 10% depreciation of the real entirely — PPP specifically lets you infer the *foreign* inflation rate from the observed exchange-rate change plus the *domestic* rate, rather than assuming the two are equal.",
+      "This reverses which term is subtracted from which — the exchange-rate change reflects Brazil's inflation exceeding the U.S.'s, so U.S. inflation should be added to the exchange-rate change, not subtracted from it.",
+      "This correctly finds the 10% change in the exchange rate but stops there — that 10% is the *gap* between the two countries' inflation rates, so the U.S.'s own 4% inflation still needs to be added to recover Brazil's rate."
+    ],
+    "tags": [
+      "purchasing power parity",
+      "formula",
+      "inflation"
+    ]
+  },
+  {
+    "id": "xrate-formula-005",
+    "topic": "exchange-rates",
+    "subtopic": "Diagnosing a Currency-Conversion Mistake",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "A pair of shoes costs $80 in the U.S. and £52 in the U.K. The exchange rate is $1 = £0.65. A student converts the U.K. price by multiplying: £52 × 0.65 = $33.80, and concludes the U.K. shoes are far cheaper. What is the U.K. shoes' correct dollar price, and what did the student do wrong?",
+    "choices": [
+      "$80.00 — dividing the pound price by the exchange rate (52 / 0.65) is correct; properly converted, the two prices are actually equal, not dramatically different",
+      "$33.80 — multiplying the foreign price by e is correct, since e is defined as foreign-currency-per-dollar, and multiplying converts pounds into dollars",
+      "$52.00 — this treats the pound-denominated price as though it were already stated in dollars, skipping the currency conversion step entirely",
+      "$123.08 — divides the U.S. dollar price by e instead of the U.K. price, applying the conversion to the wrong currency figure"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Converting a foreign price to dollars means dividing by e (foreign currency per dollar): Pf$ = 52 / 0.65 = $80.00. The student multiplied instead of dividing, which understated the U.K. price; correctly converted, the U.K. shoes cost exactly the same as the U.S. shoes, not \"far cheaper.\"",
+    "wrongExplanations": [
+      null,
+      "This defends the student's actual mistake — e being defined as foreign-currency-per-dollar means dividing a foreign price by e converts it to dollars, not multiplying by it.",
+      "This isn't a conversion at all — it just reuses the raw pound figure as though it were already a dollar figure, skipping the required division by e.",
+      "This applies the exchange rate to the U.S. price (which is already in dollars and needs no conversion) instead of to the U.K. price, which is the one that actually needs converting."
+    ],
+    "tags": [
+      "real exchange rate",
+      "formula",
+      "common error diagnosis"
+    ]
+  },
+  {
+    "id": "xrate-graph-001",
+    "topic": "exchange-rates",
+    "subtopic": "FOREX Market — A Demand Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "Following a surge in foreign investor purchases of U.S. Treasury bonds after a Fed rate increase, the demand curve for dollars shifts from D to D' as shown, while the supply curve for dollars is unchanged. What happens to the equilibrium exchange rate e*, and why?",
+    "choices": [
+      "e* rises (the dollar appreciates) — foreigners want more dollars at every rate for the more attractive U.S. assets, and with supply unchanged, only a higher e* clears the market",
+      "e* falls (the dollar depreciates) — the diagram instead shows the supply curve S shifting right here, which lowers the equilibrium price of dollars",
+      "e* falls — even though demand for dollars rose, a rightward demand shift lowers the equilibrium price when supply is fixed, the same way it does in a standard goods market",
+      "e* is unchanged — a shift in the demand for dollars only changes the quantity of dollars traded, not the equilibrium exchange rate itself"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The diagram shows D shifting right to D' while S stays fixed. A larger quantity of dollars demanded at every exchange rate, met by an unchanged supply curve, clears the market only at a higher e* — the dollar appreciates, exactly as the lecture describes for a Fed tightening that attracts foreign investment.",
+    "wrongExplanations": [
+      null,
+      "This misreads which curve moved — the diagram shows the demand curve D shifting right to D', not the supply curve S, which is drawn unchanged.",
+      "This gets the standard supply-and-demand result backwards — a rightward shift of demand with supply held fixed raises, not lowers, the equilibrium price (here, e*).",
+      "A shift in demand moves the entire equilibrium point, changing both the equilibrium quantity *and* the equilibrium price — it isn't limited to a quantity effect only."
+    ],
+    "tags": [
+      "FOREX market",
+      "graph reasoning",
+      "demand shift",
+      "appreciation"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A dollar-market diagram with the quantity of dollars on the horizontal axis and the exchange rate on the vertical axis. An upward-sloping supply curve S is fixed. A downward-sloping demand curve D shifts rightward to D-prime, moving equilibrium from a lower exchange rate e-star up to a higher exchange rate e-star-prime.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Dollars</text><text x=\"12\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\" transform=\"rotate(-90 12 90)\">Exchange Rate (e)</text><line x1=\"60\" y1=\"150\" x2=\"220\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"223\" y=\"42\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--good)\">S</text><line x1=\"60\" y1=\"35\" x2=\"220\" y2=\"145\" stroke=\"var(--accent)\" stroke-width=\"2\" fill=\"none\"/><text x=\"223\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--accent)\">D</text><line x1=\"85\" y1=\"35\" x2=\"245\" y2=\"145\" stroke=\"var(--accent)\" stroke-width=\"2\" stroke-dasharray=\"5 4\" fill=\"none\"/><text x=\"248\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--accent)\">D'</text><circle cx=\"143.6\" cy=\"92.5\" r=\"3\" fill=\"var(--text)\"/><circle cx=\"156.1\" cy=\"83.9\" r=\"3\" fill=\"var(--text)\"/><line x1=\"50\" y1=\"92.5\" x2=\"143.6\" y2=\"92.5\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><line x1=\"50\" y1=\"83.9\" x2=\"156.1\" y2=\"83.9\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><text x=\"30\" y=\"95.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">e*</text><text x=\"30\" y=\"80.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">e*'</text></svg>"
+    }
+  },
+  {
+    "id": "xrate-graph-002",
+    "topic": "exchange-rates",
+    "subtopic": "FOREX Market — A Supply Shift",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "After the Fed tightens monetary policy, U.S. residents find foreign assets relatively less attractive than before. In the diagram, the supply curve for dollars shifts from S to S', while the demand curve for dollars is unchanged. What happens to the equilibrium exchange rate e*, and why?",
+    "choices": [
+      "e* rises (appreciates) — U.S. residents supply fewer dollars at every rate to buy foreign currency, and with demand unchanged, only a higher e* clears the market",
+      "e* falls instead — the diagram actually shows demand for dollars shifting left here, not supply, which is what lowers the price of dollars",
+      "e* is unchanged — a leftward shift in the supply of dollars changes the equilibrium quantity of dollars traded but not the equilibrium exchange rate",
+      "e* falls — with fewer dollars supplied at every exchange rate, there's a larger surplus of demand than before, and prices fall to clear a surplus"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The diagram shows S shifting left to S' while D stays fixed. With fewer dollars supplied at every exchange rate and demand unchanged, the market clears at a higher e* — the dollar appreciates, matching the lecture's account of U.S. residents supplying fewer dollars once a rate hike makes foreign assets relatively less attractive.",
+    "wrongExplanations": [
+      null,
+      "This misreads which curve moved — the diagram shows the supply curve S shifting left to S', not the demand curve, which is drawn unchanged.",
+      "A shift in supply moves the entire equilibrium point, changing both the equilibrium quantity *and* the equilibrium price (e*) — it isn't limited to a quantity effect only.",
+      "A leftward shift of supply with demand unchanged creates excess *demand*, not excess supply, at the old price — and excess demand pushes the price up, not down."
+    ],
+    "tags": [
+      "FOREX market",
+      "graph reasoning",
+      "supply shift",
+      "appreciation"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A dollar-market diagram with the quantity of dollars on the horizontal axis and the exchange rate on the vertical axis. A downward-sloping demand curve D is fixed. An upward-sloping supply curve S shifts leftward to S-prime, moving equilibrium from a lower exchange rate e-star up to a higher exchange rate e-star-prime.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Quantity of Dollars</text><text x=\"12\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\" transform=\"rotate(-90 12 90)\">Exchange Rate (e)</text><line x1=\"110\" y1=\"150\" x2=\"230\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2\" fill=\"none\"/><text x=\"233\" y=\"42\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--good)\">S</text><line x1=\"70\" y1=\"150\" x2=\"190\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\" fill=\"none\"/><text x=\"62\" y=\"36\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--good)\">S'</text><line x1=\"60\" y1=\"35\" x2=\"180\" y2=\"145\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"183\" y=\"147\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--accent)\">D</text><circle cx=\"147.7\" cy=\"115.4\" r=\"3\" fill=\"var(--text)\"/><circle cx=\"127.7\" cy=\"97.1\" r=\"3\" fill=\"var(--text)\"/><line x1=\"50\" y1=\"115.4\" x2=\"147.7\" y2=\"115.4\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><line x1=\"50\" y1=\"97.1\" x2=\"127.7\" y2=\"97.1\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><text x=\"30\" y=\"118\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">e*</text><text x=\"30\" y=\"99.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">e*'</text></svg>"
+    }
+  },
+  {
+    "id": "openecon-vocab-001",
+    "topic": "open-economy-policy",
+    "subtopic": "The Policy Trilemma",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "The \"policy trilemma\" (or \"impossible trinity\") in international macroeconomics states that a country can simultaneously achieve which of the following?",
+    "choices": [
+      "At most two of the following three goals: a stable/fixed exchange rate, an independent monetary policy, and free international capital movement",
+      "All three of exchange-rate stability, monetary policy autonomy, and free capital movement, as long as the central bank is sufficiently well-managed",
+      "Only exchange-rate stability, since the other two goals are not actually achievable by any country under any circumstances",
+      "Monetary policy autonomy and free capital movement, but never a stable exchange rate under any policy combination"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The trilemma states that a country can pick at most two of the three goals — exchange-rate stability, monetary policy autonomy, and free capital movement — at the same time; achieving all three simultaneously isn't possible.",
+    "wrongExplanations": [
+      null,
+      "The trilemma's entire point is that no amount of skillful management lets a country have all three goals at once — one must always be given up, by construction.",
+      "Each of the three goals is individually achievable, and any two can be achieved together — it's only all three simultaneously that the trilemma rules out.",
+      "This describes only one of three possible two-goal combinations (floating exchange rates); fixed exchange rates paired with either of the other two goals is also achievable, just not together with the third."
+    ],
+    "tags": [
+      "policy trilemma",
+      "impossible trinity"
+    ]
+  },
+  {
+    "id": "openecon-vocab-002",
+    "topic": "open-economy-policy",
+    "subtopic": "Optimum Currency Area Logic",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In the \"optimum currency area\" framework, what determines whether it makes economic sense for a country to give up its own currency and join a currency union with a partner country?",
+    "choices": [
+      "Whether monetary-efficiency gains (lower transaction costs, more predictability) exceed the losses from giving up independent monetary policy",
+      "Whether the two countries' governments happen to be politically allied, no matter how integrated their economies actually are",
+      "Whether the partner country's currency has historically traded stronger than the country's own domestic currency",
+      "Whether the country's population is large enough to negotiate more favorable terms within the currency union"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The narrow optimum-currency-area view compares monetary-efficiency gains to monetary-autonomy losses; both depend on how tightly the two economies are integrated, which is why tightly integrated economies are better candidates for a currency union.",
+    "wrongExplanations": [
+      null,
+      "Political alliance is treated as a separate consideration outside this narrow economic framework, not the deciding factor within it — the analysis here turns on integration-driven gains versus losses.",
+      "The relative historical strength of the two currencies isn't part of this cost-benefit comparison — it's about the tradeoff between monetary efficiency gains and monetary autonomy losses.",
+      "Population size on its own isn't the criterion this framework uses — the relevant factor is the degree of economic integration between the two economies, not bargaining power from size."
+    ],
+    "tags": [
+      "optimum currency area",
+      "currency union"
+    ]
+  },
+  {
+    "id": "openecon-vocab-003",
+    "topic": "open-economy-policy",
+    "subtopic": "Capital Controls",
+    "difficulty": "easy",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "Capital controls are best defined as:",
+    "choices": [
+      "Laws and regulations that restrict investors' ability to move funds across a country's borders",
+      "Tariffs and quotas that restrict the flow of physical goods across a country's borders",
+      "Legal limits on how much a country's central bank can lend to its own government",
+      "Rules that prevent a country's currency from being used in any transaction outside its own borders"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture defines capital controls as laws and regulations that restrict investors' ability to move funds across borders — a tool aimed at asset flows, not goods trade or domestic central-bank lending.",
+    "wrongExplanations": [
+      null,
+      "Restrictions on physical goods crossing borders are trade policy (tariffs/quotas), a different tool from capital controls, which target financial-asset flows.",
+      "Limits on central-bank lending to the government are a fiscal/monetary institutional rule, not a restriction on investors moving funds across borders.",
+      "Capital controls restrict fund movement, not currency usage per se — a currency can still be used abroad in various ways even under capital controls, which specifically target asset flows."
+    ],
+    "tags": [
+      "capital controls",
+      "definition"
+    ]
+  },
+  {
+    "id": "openecon-vocab-004",
+    "topic": "open-economy-policy",
+    "subtopic": "Dutch Disease",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "vocab",
+    "question": "In the lecture's discussion of exchange-rate volatility, \"Dutch disease\" refers to:",
+    "choices": [
+      "A situation where a surge in commodity export revenue causes the domestic currency to appreciate, hurting the country's other, non-commodity export industries",
+      "A situation where a country's currency collapses because it exported too many manufactured goods relative to commodities",
+      "A policy where a government deliberately devalues its currency to boost commodity exports",
+      "A recession caused specifically by a shortage of a key commodity the country needs to import"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Dutch disease describes how a commodity-price windfall drives extra foreign currency into a country, which must be converted into local currency, appreciating it and making the country's other, non-commodity exports less competitive.",
+    "wrongExplanations": [
+      null,
+      "Dutch disease is caused by a commodity export *boom* driving currency appreciation, not by a manufacturing-heavy export mix causing a currency collapse.",
+      "This describes a deliberate devaluation policy; Dutch disease is instead an unintended side effect of a commodity-price windfall appreciating the currency, not a chosen policy.",
+      "Dutch disease involves a commodity export windfall, not an import shortage — the mechanism runs through extra dollars flowing in from selling (not needing to buy) the commodity."
+    ],
+    "tags": [
+      "Dutch disease",
+      "commodity exports",
+      "currency appreciation"
+    ]
+  },
+  {
+    "id": "openecon-standard-001",
+    "topic": "open-economy-policy",
+    "subtopic": "Fixed Rates and Imported Discipline",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A country with a long history of high, unpredictable inflation pegs its currency to that of a well-respected, low-inflation central bank. According to the lecture's broader view of fixed exchange rates, which mechanism best explains why this peg is expected to lower the pegging country's own inflation?",
+    "choices": [
+      "Maintaining the peg requires the pegging country's monetary policy to match the anchor country's low-inflation policy, effectively importing that discipline and constraining domestic money growth",
+      "Pegging automatically increases the pegging country's money supply, which mechanically lowers prices",
+      "Foreign investors will refuse to hold the pegging country's currency until its central bank guarantees zero inflation by law",
+      "The peg directly sets the pegging country's price level equal to the anchor country's price level on the day the peg begins"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists \"lower inflation (if government not yet disciplined)\" as a potential gain of fixing: maintaining the peg ties the pegging country's monetary policy to its low-inflation anchor, importing that anchor's discipline over time.",
+    "wrongExplanations": [
+      null,
+      "Pegging doesn't mechanically increase the money supply — if anything, maintaining a credible peg often requires *restraining* money growth to match the low-inflation anchor country's policy.",
+      "No such investor-guarantee requirement is part of this mechanism — the discipline comes from the peg's operational requirement to match the anchor's monetary policy, not from an investor demand for a legal inflation guarantee.",
+      "A peg fixes the exchange rate going forward and constrains future policy; it doesn't instantaneously equalize the two countries' existing price levels on day one."
+    ],
+    "tags": [
+      "fixed exchange rates",
+      "monetary discipline"
+    ]
+  },
+  {
+    "id": "openecon-standard-002",
+    "topic": "open-economy-policy",
+    "subtopic": "Fixed Rates and Imported Indiscipline",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A country that has maintained low, stable inflation for decades pegs its currency to a trading partner whose government has a track record of running the money supply loosely. Based on the lecture's cost/benefit framework for fixed exchange rates, what is the most likely consequence for the disciplined country?",
+    "choices": [
+      "It risks importing monetary indiscipline and higher inflation, since maintaining the peg ties its monetary policy to the partner's looser stance rather than its own preferences",
+      "It faces no real risk, since a fixed exchange rate always transmits monetary discipline from the more disciplined country to the less disciplined one, regardless of which side pegs to which",
+      "Its own inflation will fall further, since pegging to any partner reduces exchange-rate uncertainty and uncertainty is what the lecture identifies as the main driver of inflation",
+      "The peg will have no effect on either country's inflation, since inflation is determined only by domestic factors independent of the exchange-rate regime"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture lists \"may have to import monetary INdiscipline and higher inflation (if government already disciplined)\" as a potential cost of fixing — the direction of the discipline transfer depends on which country is more disciplined, not on some automatic rule favoring the disciplined side.",
+    "wrongExplanations": [
+      null,
+      "The lecture frames this as a two-sided risk — pegging can import discipline *or* indiscipline depending on which country is more disciplined; it isn't automatically transmitted in the disciplined country's favor.",
+      "Lower exchange-rate uncertainty is listed as a separate potential benefit (predictability), not the mechanism that determines inflation outcomes here — the relevant risk is tying monetary policy to a less disciplined partner, which points toward higher, not lower, inflation.",
+      "The entire premise of listing 'monetary indiscipline' as a potential cost of fixing is that the exchange-rate regime *does* constrain a country's own monetary policy, contradicting the claim that the regime has no effect."
+    ],
+    "tags": [
+      "fixed exchange rates",
+      "monetary indiscipline",
+      "costs of fixing"
+    ]
+  },
+  {
+    "id": "openecon-standard-003",
+    "topic": "open-economy-policy",
+    "subtopic": "Dutch Disease Scenario Transfer",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Nation Q, previously a diversified manufacturing exporter, discovers a large offshore natural gas field, and gas exports surge over the following five years. Based on the lecture's Dutch disease mechanism, what is the most likely effect on Nation Q's manufacturing exporters, and why?",
+    "choices": [
+      "They become less competitive, because the inflow of gas revenue appreciates Nation Q's currency, making its manufactured goods more expensive to foreign buyers",
+      "They become more competitive, because the extra foreign-currency earnings from gas exports directly subsidize manufacturing production costs",
+      "They are unaffected, because Dutch disease only applies to agricultural commodities, not to energy exports like natural gas",
+      "They become less competitive, because the government must raise taxes on manufacturers to fund new gas-extraction infrastructure"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The Dutch disease mechanism runs through currency appreciation: the extra foreign-currency revenue from the gas boom must be converted into local currency, driving up its value, which makes Nation Q's other exports — including manufacturing — more expensive and less competitive abroad.",
+    "wrongExplanations": [
+      null,
+      "The gas revenue doesn't subsidize manufacturers' costs directly — the mechanism runs through currency appreciation making all of the country's other exports pricier abroad, which hurts rather than helps them.",
+      "The lecture's own example (Saudi Arabia's oil-linked peg) is itself an energy commodity, not agricultural — Dutch disease is described generally as a risk for any economy heavily reliant on one or two major commodity exports.",
+      "No tax-funded infrastructure spending is part of the Dutch disease mechanism — the described effect runs entirely through currency appreciation from the extra dollars converted into local currency, not through fiscal policy."
+    ],
+    "tags": [
+      "Dutch disease",
+      "scenario transfer",
+      "commodity exports"
+    ]
+  },
+  {
+    "id": "openecon-standard-004",
+    "topic": "open-economy-policy",
+    "subtopic": "The Trilemma's Underlying Mechanism",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A country wants, at the same time, to (1) keep its exchange rate fixed to a major trading partner's currency, (2) allow foreign investors complete freedom to move capital in and out, and (3) set its own interest rates independently to fight a domestic recession. According to the policy trilemma, what happens if it tries to pursue all three simultaneously?",
+    "choices": [
+      "It cannot sustain all three — with capital fully mobile, any rate that diverges from what defending the peg requires triggers flows undermining one of the two",
+      "It can succeed as long as its central bank is credible enough, since credibility is what the trilemma says determines whether all three goals are jointly achievable",
+      "It can succeed only by raising interest rates, never by lowering them, since capital mobility only interferes with rate cuts, not rate hikes",
+      "It can succeed if the fixed exchange rate is against a weaker currency, since the trilemma only binds when pegging to a stronger currency"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "This is exactly the trilemma's content: fixed exchange rate, free capital movement, and independent monetary policy cannot all hold together — with capital free to move, an interest rate that departs from the peg-consistent rate triggers capital flows that force a choice between the peg and the independent rate.",
+    "wrongExplanations": [
+      null,
+      "The trilemma is a structural result, not a credibility problem — no amount of central-bank credibility lets a country hold all three goals at once, by the framework's own construction.",
+      "The trilemma doesn't distinguish between raising and lowering rates — capital mobility undermines an independent rate departing from the peg-consistent rate in either direction.",
+      "The trilemma's logic doesn't depend on whether the anchor currency is stronger or weaker — it applies to any fixed-rate commitment combined with free capital mobility and a desired independent interest rate."
+    ],
+    "tags": [
+      "policy trilemma",
+      "capital mobility",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "openecon-standard-005",
+    "topic": "open-economy-policy",
+    "subtopic": "Malaysia's 1998 Policy Choice",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Facing a currency crisis in 1998, Malaysia's IMF-recommended option was to raise interest rates sharply to defend the ringgit; Malaysia instead imposed capital controls and lowered interest rates. Based on the lecture's account, what problem was Malaysia trying to solve by choosing capital controls over the IMF's recommended path?",
+    "choices": [
+      "High interest rates would have crushed investment, especially given heavy dollar-denominated debt; capital controls let Malaysia cut rates without investors forcing further depreciation",
+      "Malaysia lacked the technical capacity to raise interest rates at all, so capital controls were the only tool available regardless of the underlying tradeoffs",
+      "Capital controls were imposed to permanently prevent any foreign investment from ever entering Malaysia again, entirely unrelated to any interest-rate tradeoff",
+      "The IMF's recommended high interest rates would have caused the ringgit to appreciate too much, and capital controls were needed to weaken it back down"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture frames Malaysia's choice as escaping a bad tradeoff (high R with a reasonable ringgit, or low R with a collapsed ringgit) via a third option: capital controls prevented investors from selling the ringgit, letting Malaysia cut interest rates to support its dollar-debt-exposed economy without triggering further depreciation.",
+    "wrongExplanations": [
+      null,
+      "Nothing in the account suggests a technical incapacity to raise rates — Malaysia's central bank could have followed the IMF's recommendation; the choice was about the economic tradeoff, not a lack of tools.",
+      "Malaysia's controls were designed to be temporary and targeted (e.g., a repatriation levy that phased out), and explicitly aimed at protecting FDI and current-account transactions — not a permanent, blanket ban on foreign investment.",
+      "High interest rates were meant to *support*, not weaken, the ringgit by making Malaysian assets more attractive — the tradeoff Malaysia faced was between a strong ringgit at a high economic cost and a weaker ringgit with capital controls cushioning the blow, not an over-appreciation problem."
+    ],
+    "tags": [
+      "capital controls",
+      "Malaysia",
+      "policy interpretation"
+    ]
+  },
+  {
+    "id": "openecon-standard-006",
+    "topic": "open-economy-policy",
+    "subtopic": "Compare Cases: An Ideal Peg Candidate",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Based on the optimum currency area framework, which of the following economies would be the strongest candidate for pegging its currency to (or forming a currency union with) a single dominant trading partner?",
+    "choices": [
+      "A small, economically flexible country that conducts most of its trade with one large neighboring economy",
+      "A large, relatively closed economy whose trade with any single partner is a small share of its total output",
+      "A country with rigid wages and labor markets that trades roughly equally with many different partners around the world",
+      "A country currently experiencing a severe banking crisis, since a peg would immediately resolve the crisis regardless of its trade patterns"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture's ideal candidate is a small, open, flexible economy with one dominant trading partner (its own examples: Holland, Luxembourg, Panama) — high integration raises the gains from fixing, and flexibility lowers the losses from giving up an independent monetary policy.",
+    "wrongExplanations": [
+      null,
+      "Large, closed economies are described as poor candidates — their business cycles are less synchronized with any single partner, and the cost of giving up independent monetary policy is correspondingly higher.",
+      "Rigid wages and labor markets raise, not lower, the cost of giving up independent monetary policy, since the economy loses its ability to adjust through interest rates precisely when it can't adjust through flexible wages either.",
+      "A peg doesn't resolve a banking crisis by itself, and the framework's criteria are about trade integration and flexibility, not about using a peg as an emergency fix for an unrelated financial-sector problem."
+    ],
+    "tags": [
+      "optimum currency area",
+      "compare cases"
+    ]
+  },
+  {
+    "id": "openecon-standard-007",
+    "topic": "open-economy-policy",
+    "subtopic": "Common Confusion: Do Fixed Rates Prevent Crises?",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "A student argues: \"Once a government commits to a fixed exchange rate, the rate is fixed — currency crises can only happen under floating exchange rates, since a floating rate is the only kind that can actually move.\" What is wrong with this claim?",
+    "choices": [
+      "Fixed rates can still collapse suddenly under market pressure — that is a currency crisis; defending a peg can become too costly, forcing abandonment, as the UK and Sweden found in 1992",
+      "The claim is entirely correct as stated — the lecture treats currency crises as a phenomenon that can only ever happen under floating exchange rates",
+      "The claim is wrong only because floating exchange rates essentially never move in real-world practice, making fixed and floating regimes functionally identical",
+      "The claim is wrong only because governments are legally prohibited from ever abandoning a fixed exchange rate once it has been announced"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "\"Occasional huge currency crises\" is explicitly listed among the lecture's potential costs of a fixed exchange rate — the UK and Sweden's forced 1992 exit from their peg to the German mark is exactly this kind of crisis, showing fixed rates don't eliminate the risk.",
+    "wrongExplanations": [
+      null,
+      "Occasional huge currency crises are explicitly listed as a potential cost of *fixed* exchange rates, not something that can only happen under floating rates — the UK/Sweden 1992 episode is a fixed-rate crisis.",
+      "Floating exchange rates do move continuously in response to supply and demand, which is the whole basis of the FOREX-market model taught earlier — they aren't functionally identical to fixed rates.",
+      "No legal prohibition exists — governments choose to defend, adjust, or abandon a fixed rate based on economic and political costs, exactly the choice the UK and Sweden faced in 1992."
+    ],
+    "tags": [
+      "fixed exchange rates",
+      "currency crises",
+      "common confusion"
+    ]
+  },
+  {
+    "id": "openecon-standard-008",
+    "topic": "open-economy-policy",
+    "subtopic": "Compare Cases: UK/Sweden vs. France",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "In 1992, the UK and Sweden abandoned their pegs to the German mark rather than accept the high interest rate needed to defend them. The following year, France faced essentially the same choice but largely kept its peg (with a widened band). What best explains why France made a different choice than the UK and Sweden did?",
+    "choices": [
+      "France placed a higher value on preserving its path toward monetary union, accepting the higher rate's cost rather than abandon the peg, unlike the UK and Sweden",
+      "France had no domestic recession to worry about in 1993, so there was no real tradeoff for it to weigh in the first place",
+      "France's currency was not actually part of the same European exchange rate mechanism as the UK and Sweden's, so it never faced the same choice at all",
+      "France's central bank was said to be legally barred from ever floating its currency at all, unlike the UK's and Sweden's central banks"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture presents France as facing the identical RFor-vs-RLow choice a year later, but resolving it differently by keeping its peg's spirit alive (via a widened band) specifically to keep the door open for monetary union, while the UK and Sweden prioritized moving back toward potential output.",
+    "wrongExplanations": [
+      null,
+      "The lecture doesn't suggest France was free of the underlying tradeoff between RFor and RLow — it frames France as facing 'the same choice,' just resolving it differently, largely for the monetary-union goal.",
+      "France was in the same European Exchange Rate Mechanism (ERM) as the UK and Sweden, which is exactly what put it in the same RFor-vs-RLow bind the following year.",
+      "No legal prohibition on floating is part of this account — France's choice is described as a deliberate policy tradeoff (accepting a widened band while keeping the peg's spirit alive) in pursuit of monetary union, not a legal constraint."
+    ],
+    "tags": [
+      "fixed exchange rates",
+      "compare cases",
+      "European Exchange Rate Mechanism"
+    ]
+  },
+  {
+    "id": "openecon-standard-009",
+    "topic": "open-economy-policy",
+    "subtopic": "Costs of Capital Controls",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "According to the lecture, all of the following are potential long-run costs of maintaining capital controls EXCEPT:",
+    "choices": [
+      "They can, applied briefly in the right circumstances, be more beneficial than costly — as the lecture's own read of Malaysia's experience suggests",
+      "They encourage corruption, since officials who can grant exceptions to the rules gain the power to exploit that discretion for personal gain",
+      "They encourage dishonest accounting and illegal, black-market currency trading, as firms and individuals look for ways to evade the restrictions",
+      "They impede the efficient long-run allocation of capital, by preventing funds from moving to wherever they would be used most productively"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture pairs its list of capital-control costs (temporary effectiveness, undermining the rule of law, corruption, dishonest accounting/black markets, and impeding efficient capital allocation) with an explicit caveat: experiences like Malaysia's suggest that over short horizons, in the right circumstances, benefits may outweigh costs — making this the one item on the list that isn't itself presented as a cost.",
+    "wrongExplanations": [
+      null,
+      "This is explicitly listed as a real cost of capital controls — encouraging corruption is one of the lecture's stated long-run costs, not the exception here.",
+      "This is also explicitly listed as a real cost — encouraging dishonest accounting and black-market currency trading is one of the stated long-run costs, not the exception.",
+      "This is likewise explicitly listed as a real cost — impeding efficient capital allocation in the long run is one of the stated costs, not the exception."
+    ],
+    "tags": [
+      "capital controls",
+      "costs and benefits"
+    ]
+  },
+  {
+    "id": "openecon-standard-010",
+    "topic": "open-economy-policy",
+    "subtopic": "Argentina's Peso Peg",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Argentina pegged the peso to the U.S. dollar for roughly a decade before the peg ultimately collapsed. Using the optimum currency area framework from the lecture, what does the framework suggest was the fundamental problem with this peg, and what benefit does the lecture note the framework leaves out?",
+    "choices": [
+      "Argentina's economy wasn't tightly integrated with the U.S., so the framework predicts losses likely exceeded gains — though it misses the peg's added benefit of disciplining government spending",
+      "Argentina's economy was extremely tightly integrated with the U.S. economy, so the framework predicts the peg should have easily succeeded, and its collapse is left entirely unexplained by the framework",
+      "The framework doesn't apply to Argentina at all, since optimum currency area analysis is described as relevant only to European countries considering a currency union",
+      "Argentina's peg failed only because of a sudden, unrelated natural disaster, a factor entirely outside the optimum currency area framework's scope"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The lecture applies the narrow OCA framework directly to Argentina: since its economy wasn't tightly integrated with the U.S., losses from lost monetary autonomy likely exceeded gains, foreshadowing why the peg didn't work forever — while also noting the framework misses a relevant benefit the peg did offer, control of government spending.",
+    "wrongExplanations": [
+      null,
+      "The lecture describes Argentina's economy as not tightly integrated with the U.S. economy — this is what the narrow OCA framework points to as the likely source of the peg's problems, not a prediction that it should have succeeded.",
+      "The lecture explicitly applies this same narrow framework to Argentina (as well as separately to the European Monetary Union), so it isn't described as Europe-specific.",
+      "No natural disaster is part of the lecture's account of Argentina's peg — the explanation offered runs through the OCA framework's integration-based gains-and-losses logic, not an unrelated external shock."
+    ],
+    "tags": [
+      "optimum currency area",
+      "Argentina",
+      "case study"
+    ]
+  },
+  {
+    "id": "openecon-standard-011",
+    "topic": "open-economy-policy",
+    "subtopic": "Interest Parity and the Fixed-Rate Constraint",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Under a fixed exchange rate, the lecture states that maintaining the peg requires the domestic nominal interest rate to equal the foreign nominal interest rate (R = RFor). Given the interest-parity relationship R = RFor + (expected % change in the exchange rate), why does a credible fixed exchange rate commitment imply this specific equality?",
+    "choices": [
+      "A credible peg means the expected future exchange rate equals today's rate, so the expected percentage change is zero — leaving only R = RFor",
+      "It's simply a separate assumption the lecture adds on its own, unconnected to the interest-parity equation used earlier in that same discussion",
+      "Because fixed exchange rates eliminate interest rates as a meaningful concept entirely, so R and RFor become undefined and are set equal by convention",
+      "Because the foreign country always sets its interest rate to match the domestic country's rate whenever a fixed exchange rate exists between them"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "A credible peg means investors expect no future change in the exchange rate, so the expected-depreciation term in interest parity is exactly zero, collapsing R = RFor + (expected % change) down to the simple R = RFor the lecture states as the fixed-rate requirement.",
+    "wrongExplanations": [
+      null,
+      "The lecture's own equations connect the two directly — the fixed-rate requirement follows from setting the expected exchange-rate change term in the interest-parity equation to zero, not as an unrelated add-on assumption.",
+      "Interest rates remain fully meaningful and freely set by each central bank under fixed exchange rates — what's constrained is which specific rate the domestic country can choose, not whether the concept of an interest rate applies at all.",
+      "It's the domestic country's rate that must adjust to match the foreign rate to sustain the peg (not the other way around) — the foreign country typically sets its policy independently, without regard to the smaller pegging country."
+    ],
+    "tags": [
+      "interest rate parity",
+      "fixed exchange rates",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "openecon-standard-012",
+    "topic": "open-economy-policy",
+    "subtopic": "Policy Interpretation: A Candidate for Fixing",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "standard",
+    "question": "Nation Z is a small economy that conducts the vast majority of its trade with one large neighboring economy, has flexible wages and labor markets, and has experienced several costly currency crises under its current floating exchange rate. Based on the optimum currency area framework, which policy shift would this framework suggest is most likely to reduce Nation Z's net costs going forward?",
+    "choices": [
+      "Moving toward a fixed exchange rate or currency union with its dominant trading partner, since Nation Z's high integration and flexibility both point toward the framework's gains from fixing outweighing the losses",
+      "Moving toward even greater exchange-rate flexibility, since more floating is always the framework's answer to a history of currency crises, regardless of a country's trade patterns",
+      "Imposing permanent, economy-wide capital controls, since the framework treats capital controls as strictly superior to any fixed- or floating-rate choice for a small economy",
+      "Diversifying trade away from its dominant partner first, since the framework says integration with a single partner is always a liability, never a benefit"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Nation Z's profile — small, highly integrated with one dominant partner, and flexible — matches the lecture's description of the strongest candidates for fixing or a currency union, where the framework's gains from monetary efficiency are expected to outweigh the losses from lost autonomy.",
+    "wrongExplanations": [
+      null,
+      "The framework's recommendation depends on the specific integration and flexibility profile described here, both of which point toward fixing, not on a blanket rule that more floating is always better after a crisis history.",
+      "Capital controls are discussed as one policy tool with their own costs and benefits, not as a strictly superior default choice the framework recommends regardless of a country's specific circumstances.",
+      "High trade integration with a single dominant partner is exactly the condition the framework identifies as raising the *gains* from fixing or a currency union — it's treated as a point in favor of fixing, not as a liability to be diversified away from first."
+    ],
+    "tags": [
+      "optimum currency area",
+      "policy interpretation"
+    ]
+  },
+  {
+    "id": "openecon-formula-001",
+    "topic": "open-economy-policy",
+    "subtopic": "Pegging and the Domestic Real Interest Rate",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "formula",
+    "question": "\"Ruritania\" pegs its currency to the euro. The Eurozone's nominal interest rate is 4%, so under the fixed-rate requirement (R = RFor), Ruritania's central bank must also set a 4% nominal rate. Ruritania's own inflation is running at 7%, while eurozone inflation is 2%. Using r = R − π, what real interest rate does this combination imply for Ruritania, and what risk does it create?",
+    "choices": [
+      "About -3% (4% nominal minus 7% domestic inflation) — a real interest rate well below the eurozone's roughly 2%, meaning monetary conditions are effectively looser than intended and risk fueling further domestic inflation",
+      "About 2% (4% nominal minus a mistaken use of the eurozone's 2% inflation figure instead of Ruritania's own 7%) — since the peg ties Ruritania's nominal rate to the eurozone's, its real rate should also just match the eurozone's",
+      "About 3% (7% domestic inflation minus the required 4% nominal rate, taken as a positive real rate) — reversing which of R and π is subtracted from which in the r = R − π identity",
+      "About 11% (4% nominal rate plus 7% domestic inflation) — confusing the identity r = R − π with r = R + π, so the real rate rises rather than falls as domestic inflation increases"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "Here R denotes the nominal interest rate and E the exchange rate, following this section of the lecture's own domestic-currency-per-foreign-currency convention (where a credible peg pins R to the foreign rate). Ruritania's real rate is r = R − π = 4% − 7% = -3%, well below the eurozone's real rate of 4% − 2% = 2%. A deeply negative real rate means monetary conditions are effectively looser than the peg's nominal rate suggests, risking further overheating and inflation in Ruritania.",
+    "wrongExplanations": [
+      null,
+      "This uses the eurozone's own 2% inflation rate instead of Ruritania's 7% in the r = R − π identity — the real interest rate that matters for Ruritania's economy has to be computed with Ruritania's own inflation rate, not its anchor country's.",
+      "This subtracts R from π instead of π from R, flipping the sign of the identity — r = R − π, not π − R — which produces a positive result where the true real rate is negative.",
+      "This adds inflation to the nominal rate instead of subtracting it — the identity is r = R − π (real equals nominal minus inflation), not R + π."
+    ],
+    "tags": [
+      "interest rate parity",
+      "real interest rate",
+      "formula",
+      "fixed exchange rates"
+    ]
+  },
+  {
+    "id": "openecon-graph-001",
+    "topic": "open-economy-policy",
+    "subtopic": "Optimum Currency Area — Gains vs. Losses",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the diagram, the upward-sloping line shows the gains from adopting a common currency (or fixed exchange rate) with a partner country, and the downward-sloping line shows the losses, both plotted against the degree of economic integration with that partner. Country A sits well to the left of the crossing point; Country B sits well to the right. According to this framework, which country should be more cautious about giving up its own currency, and why?",
+    "choices": [
+      "Country A — to the left of the crossing point, its losses from lost monetary autonomy exceed the gains from monetary efficiency, so joining a currency union or hard peg is a bad idea by this analysis",
+      "Country B — to the right of the crossing point, its losses still exceed its gains, just by a smaller margin than Country A's",
+      "Country A — because low integration means its losses line is below its gains line at that point, so gains already outweigh losses",
+      "Neither — the crossing point only marks where gains and losses are equal, so a country's exact position along the horizontal axis doesn't change which side of the tradeoff it falls on"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "To the left of the crossing point (low integration), the diagram shows the Losses line above the Gains line, meaning losses exceed gains — a bad idea to fix or join a currency union, per the lecture's framework. Country A sits in that region, so it should be the more cautious one.",
+    "wrongExplanations": [
+      null,
+      "To the right of the crossing point (high integration), the diagram shows Gains above Losses, not the reverse — Country B's gains exceed its losses there, making it the better, not worse, candidate.",
+      "This gets the ranking backwards — at low integration (Country A's position), the Losses line sits above the Gains line, meaning losses exceed gains, not the other way around.",
+      "The whole point of the crossing point is that a country's position relative to it determines which side of the tradeoff dominates — left of it, losses exceed gains; right of it, gains exceed losses."
+    ],
+    "tags": [
+      "optimum currency area",
+      "graph reasoning"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A diagram with economic integration with a partner country on the horizontal axis and gains or losses on the vertical axis. An upward-sloping Gains line and a downward-sloping Losses line cross at a point labeled Gains equals Losses. Country A is marked well to the left of the crossing point, where the Losses line is above the Gains line. Country B is marked well to the right of the crossing point, where the Gains line is above the Losses line.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">Economic Integration With Partner</text><text x=\"12\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\" transform=\"rotate(-90 12 90)\">Gains / Losses</text><line x1=\"60\" y1=\"150\" x2=\"220\" y2=\"40\" stroke=\"var(--good)\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"223\" y=\"42\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--good)\">Gains</text><line x1=\"60\" y1=\"40\" x2=\"220\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"223\" y=\"152\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--accent)\">Losses</text><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"140\" cy=\"95\" r=\"3\" fill=\"var(--text)\"/><text x=\"146\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">Gains = Losses</text><text x=\"95\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Country A</text><text x=\"185\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Country B</text><line x1=\"95\" y1=\"20\" x2=\"95\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"1 3\"/><line x1=\"185\" y1=\"20\" x2=\"185\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"1 3\"/></svg>"
+    }
+  },
+  {
+    "id": "openecon-graph-002",
+    "topic": "open-economy-policy",
+    "subtopic": "Reading the Policy Trilemma Triangle",
+    "difficulty": "medium",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "The diagram shows the policy trilemma: a country can achieve at most two of the three goals at the triangle's corners at the same time, with the label on the connecting edge showing which policy regime achieves that pair. A country wants both exchange-rate stability AND full freedom of capital movement for foreign investors. Which policy regime does the diagram show is consistent with that combination, and what must the country give up?",
+    "choices": [
+      "A fixed exchange rate regime — shown on the edge connecting exchange-rate stability and freedom of capital movement — but the country must give up monetary policy autonomy, the goal at the opposite corner",
+      "Capital controls — shown on the edge connecting exchange-rate stability and freedom of capital movement — and the country must give up monetary policy autonomy",
+      "A fixed exchange rate regime, and the country must give up freedom of capital movement itself, since fixing the exchange rate requires capital controls",
+      "Floating exchange rates — the diagram shows this regime achieving both exchange-rate stability and freedom of capital movement, while sacrificing monetary autonomy"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The edge connecting exchange-rate stability and freedom of capital movement is labeled \"Fixed Exchange Rate\" in the diagram, with monetary policy autonomy — the opposite corner — being the goal sacrificed to achieve that pair.",
+    "wrongExplanations": [
+      null,
+      "The diagram places \"Capital Controls\" on the edge connecting exchange-rate stability and monetary policy autonomy (sacrificing capital freedom), not on the edge connecting stability and capital freedom.",
+      "Fixing the exchange rate doesn't require capital controls — the diagram shows a fixed exchange rate paired with free capital movement on one edge, and capital controls as a separate regime entirely, used specifically to sacrifice capital freedom in order to keep both stability and autonomy.",
+      "Floating exchange rates sit on the edge connecting monetary policy autonomy and freedom of capital movement, sacrificing exchange-rate stability — not the edge this question asks about."
+    ],
+    "tags": [
+      "policy trilemma",
+      "graph reasoning"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A triangle diagram with three goals at its corners: Exchange Rate Stability at the top, Monetary Policy Autonomy at the bottom left, and Freedom of Capital Movement at the bottom right. Each edge connecting two corners is labeled with the policy regime that achieves those two goals while sacrificing the opposite corner's goal: the left edge (stability and autonomy) is labeled Capital Controls, the right edge (stability and capital freedom) is labeled Fixed Exchange Rate, and the bottom edge (autonomy and capital freedom) is labeled Floating Exchange Rates.",
+      "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><polygon points=\"130,30 50,160 210,160\" fill=\"none\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"130\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">Exchange Rate Stability</text><text x=\"50\" y=\"174\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"var(--text)\"><tspan x=\"50\" dy=\"0\">Monetary Policy</tspan><tspan x=\"50\" dy=\"11\">Autonomy</tspan></text><text x=\"210\" y=\"174\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"var(--text)\"><tspan x=\"210\" dy=\"0\">Freedom of Capital</tspan><tspan x=\"210\" dy=\"11\">Movement</tspan></text><text x=\"72\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--accent)\" transform=\"rotate(-58 72 90)\">Capital Controls</text><text x=\"188\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--good)\" transform=\"rotate(58 188 90)\">Fixed Exchange Rate</text><text x=\"130\" y=\"150\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text-muted)\">Floating Exchange Rates</text></svg>"
+    }
+  },
+  {
+    "id": "openecon-graph-003",
+    "topic": "open-economy-policy",
+    "subtopic": "The UK/Sweden 1992 Interest-Rate Choice",
+    "difficulty": "hard",
+    "sourceIds": [
+      "class11"
+    ],
+    "sourceLabel": "Class 11 slides",
+    "needsReview": false,
+    "questionType": "graph",
+    "question": "In the diagram, the downward-sloping line shows how planned output (YD) depends on the real interest rate r. A vertical dashed line marks potential output. Facing a currency-peg commitment that would require the real interest rate rFor, the UK and Sweden instead chose rLow in early 1992. What does the diagram show this choice accomplished, and at what cost?",
+    "choices": [
+      "By setting the lower rate rLow instead of rFor, output moved essentially back to potential (versus a recessionary gap at rFor) — but doing so meant abandoning the fixed exchange rate they had committed to",
+      "By setting rLow, output moved to potential without any tradeoff — the diagram shows the fixed exchange rate could still have been maintained at either interest rate",
+      "Setting rLow pushed output above potential into an inflationary boom, which is why the UK and Sweden were criticized for abandoning their currency peg",
+      "rFor, not rLow, is the rate shown moving output to potential in the diagram — the UK and Sweden's mistake in 1992 was choosing the wrong one of the two rates"
+    ],
+    "answerIndex": 0,
+    "correctExplanation": "The diagram shows the rFor point sitting well to the left of the potential-output line (a recessionary gap), while the rLow point sits right at potential output. Achieving that lower rate meant abandoning the fixed exchange rate the UK and Sweden had committed to under the European Exchange Rate Mechanism, since defending the peg required rFor.",
+    "wrongExplanations": [
+      null,
+      "The two rates are shown producing two different output levels precisely because the fixed exchange rate required rFor specifically — choosing rLow instead is what forced abandoning the peg, not something compatible with keeping it.",
+      "The rLow point in the diagram sits at potential output, not above it — nothing in the diagram shows output overshooting into an inflationary boom.",
+      "The diagram shows rLow, not rFor, positioned at potential output — rFor is the point well to the left of the potential-output line, in the recessionary gap."
+    ],
+    "tags": [
+      "graph reasoning",
+      "fixed exchange rates",
+      "UK and Sweden 1992"
+    ],
+    "diagram": {
+      "type": "svg",
+      "alt": "A diagram with output on the horizontal axis and the real interest rate on the vertical axis. A downward-sloping YD line shows planned output falling as the real interest rate rises. A vertical dashed line marks output at potential. A point at the higher rate rFor sits on the YD line well to the left of the potential-output line, showing a recessionary gap. A point at the lower rate rLow sits on the YD line right at the potential-output line.",
+      "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"presentation\" focusable=\"false\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"var(--text)\" stroke-width=\"1.5\"/><text x=\"140\" y=\"182\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\">Output (Y)</text><text x=\"14\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--text)\" transform=\"rotate(-90 14 90)\">Real Interest Rate (r)</text><line x1=\"60\" y1=\"40\" x2=\"220\" y2=\"150\" stroke=\"var(--accent)\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"223\" y=\"152\" font-family=\"sans-serif\" font-size=\"11\" fill=\"var(--accent)\">YD</text><line x1=\"161.8\" y1=\"20\" x2=\"161.8\" y2=\"160\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"161.8\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"var(--text-muted)\">Output at Potential</text><circle cx=\"89.1\" cy=\"60\" r=\"3\" fill=\"var(--text)\"/><text x=\"95\" y=\"55\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">rFor</text><circle cx=\"161.8\" cy=\"110\" r=\"3\" fill=\"var(--text)\"/><text x=\"167\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"var(--text)\">rLow</text><line x1=\"50\" y1=\"60\" x2=\"89.1\" y2=\"60\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><line x1=\"50\" y1=\"110\" x2=\"161.8\" y2=\"110\" stroke=\"var(--text-muted)\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/></svg>"
+    }
   }
 ]
